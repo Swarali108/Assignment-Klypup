@@ -5964,6 +5964,17 @@
       "run_id": "auto-medplus_health_services_limited_buyback_202611-20261116T010808Z",
       "seconds": 0.8,
       "log": "cache/runs/auto-medplus_health_services_limited_buyback_202611-20261116T010808Z.log"
+    },
+    {
+      "event_id": "mahanadi_coalfields_limited_ipo_202611",
+      "docs_hash": "a345e491b651e220",
+      "at": "2026-11-16T23:29:20+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-mahanadi_coalfields_limited_ipo_202611-20261116T232920Z",
+      "seconds": 118.1,
+      "log": "cache/runs/discover-mahanadi_coalfields_limited_ipo_202611-20261116T232920Z.log"
     }
   ]
 }
