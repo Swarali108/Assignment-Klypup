@@ -1,0 +1,1394 @@
+{
+  "event_id": "sfc_environmental_technologies_limited_ipo_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_saketchandrasingh_pratapsingh_dhandoriya",
+      "name_as_printed": "Saketchandrasingh Pratapsingh Dhandoriya",
+      "fields": {
+        "name": "Saketchandrasingh Pratapsingh Dhandoriya",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 3,736,000 shares in the offer for sale",
+        "amount": "₹123.29 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹123.29 crore (3,736,000 × ₹330.00 = ₹123.29 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹155.04 crore (estimate, valued at offer price) ((8,434,125 − 3,736,000) × ₹330.00 = ₹155.04 crore)",
+        "retained_shares": "4,698,125 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Saketchandrasingh Pratapsingh Dhandoriya",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹123.29 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹123.29 crore",
+        "retained": "₹155.04 crore (estimate, valued at offer price)",
+        "retained_shares": "4,698,125 shares",
+        "shares_offered": "3,736,000 shares",
+        "shares_held": "8,434,125 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Saketchandrasingh Pratapsingh Dhandoriya, Promoter Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+        "₹123.29 crore proceeds, in hand since about 12 days ago, the listing date in the offer timetable.",
+        "They keep 4,698,125 shares after the offer, and the lock-in periods mean that holding stays with them for a while.",
+        "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Saketchandrasingh Pratapsingh Dhandoriya, Promoter Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "{amount} proceeds, in hand since about {event_age}, the listing date in the offer timetable.",
+            "They keep {retained_shares} after the offer, and the lock-in periods mean that holding stays with them for a while.",
+            "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+          ],
+          "lines": [
+            "Saketchandrasingh Pratapsingh Dhandoriya, Promoter Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "₹123.29 crore proceeds, in hand since about 12 days ago, the listing date in the offer timetable.",
+            "They keep 4,698,125 shares after the offer, and the lock-in periods mean that holding stays with them for a while.",
+            "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_sarvesh_kumar_garg",
+      "name_as_printed": "Sarvesh Kumar Garg",
+      "fields": {
+        "name": "Sarvesh Kumar Garg",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 3,565,000 shares in the offer for sale",
+        "amount": "₹117.65 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹117.65 crore (3,565,000 × ₹330.00 = ₹117.65 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹64.75 crore (estimate, valued at offer price) ((5,527,215 − 3,565,000) × ₹330.00 = ₹64.75 crore)",
+        "retained_shares": "1,962,215 shares",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Sarvesh Kumar Garg",
+        "role": "Other Selling Shareholder",
+        "amount": "₹117.65 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹117.65 crore",
+        "retained": "₹64.75 crore (estimate, valued at offer price)",
+        "retained_shares": "1,962,215 shares",
+        "shares_offered": "3,565,000 shares",
+        "shares_held": "5,527,215 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Sarvesh Kumar Garg (Other Selling Shareholder) sells 3,565,000 shares in the offer for sale.",
+        "₹117.65 crore; in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable.",
+        "Retained shares are still locked in, so more money can follow when they unlock.",
+        "Not known yet: gain: average cost of acquisition not confirmed from the documents."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "writes numbers instead of placeholders: 3,565,000",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Sarvesh Kumar Garg, Other Selling Shareholder, is receiving money from selling 3,565,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since about {event_age}, the listing date in the offer timetable.",
+            "They keep {retained_shares} of {shares_held}, so {retained} stays on the books and is worth a conversation.",
+            "Average cost of acquisition is not confirmed in the documents, so the {gain} figure cannot be stated yet."
+          ],
+          "lines": [
+            "Sarvesh Kumar Garg, Other Selling Shareholder, is receiving money from selling 3,565,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since about {event_age}, the listing date in the offer timetable.",
+            "They keep {retained_shares} of {shares_held}, so {retained} stays on the books and is worth a conversation.",
+            "Average cost of acquisition is not confirmed in the documents, so the {gain} figure cannot be stated yet."
+          ],
+          "problem": "unknown placeholders: {gain}"
+        },
+        {
+          "raw_lines": [
+            "Sarvesh Kumar Garg, Other Selling Shareholder, is receiving money from selling 3,565,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}.",
+            "They keep {retained_shares}, worth {retained}, and that stake is a natural conversation for later money.",
+            "Average cost of acquisition is not confirmed in the documents, so the gain cannot be stated yet."
+          ],
+          "lines": [
+            "Sarvesh Kumar Garg, Other Selling Shareholder, is receiving money from selling 3,565,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}.",
+            "They keep {retained_shares}, worth {retained}, and that stake is a natural conversation for later money.",
+            "Average cost of acquisition is not confirmed in the documents, so the gain cannot be stated yet."
+          ],
+          "problem": "writes numbers instead of placeholders: 3,565,000"
+        }
+      ]
+    },
+    {
+      "person_id": "p_kumaraguru_madurakavi",
+      "name_as_printed": "Kumaraguru Madurakavi",
+      "fields": {
+        "name": "Kumaraguru Madurakavi",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 2,136,000 shares in the offer for sale",
+        "amount": "₹70.49 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹70.49 crore (2,136,000 × ₹330.00 = ₹70.49 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹81.07 crore (estimate, valued at offer price) ((4,592,715 − 2,136,000) × ₹330.00 = ₹81.07 crore)",
+        "retained_shares": "2,456,715 shares",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Kumaraguru Madurakavi",
+        "role": "Other Selling Shareholder",
+        "amount": "₹70.49 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹70.49 crore",
+        "retained": "₹81.07 crore (estimate, valued at offer price)",
+        "retained_shares": "2,456,715 shares",
+        "shares_offered": "2,136,000 shares",
+        "shares_held": "4,592,715 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Kumaraguru Madurakavi, Other Selling Shareholder, is receiving money from the sale of 2,136,000 shares in the offer for sale.",
+        "₹70.49 crore proceeds have been in hand since in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable, the event 12 days ago.",
+        "They keep 2,456,715 shares locked in for six months from allotment, so further value depends on that later date.",
+        "Average cost of acquisition is unknown, so the gain figure cannot be confirmed from the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Kumaraguru Madurakavi, Other Selling Shareholder, is receiving money from the sale of {shares_offered} in the offer for sale.",
+            "{amount} proceeds have been in hand since {timing_short}, with the event {event_age}.",
+            "They keep {retained_shares} locked in for six months from allotment, so further value depends on that later date.",
+            "Average cost of acquisition is unknown, so the gain figure cannot be confirmed from the documents."
+          ],
+          "lines": [
+            "Kumaraguru Madurakavi, Other Selling Shareholder, is receiving money from the sale of {shares_offered} in the offer for sale.",
+            "{amount} proceeds have been in hand since {timing_short}, with the event {event_age}.",
+            "They keep {retained_shares} locked in for six months from allotment, so further value depends on that later date.",
+            "Average cost of acquisition is unknown, so the gain figure cannot be confirmed from the documents."
+          ],
+          "problem": "unknown placeholders: {timing_short}"
+        },
+        {
+          "raw_lines": [
+            "Kumaraguru Madurakavi, Other Selling Shareholder, is receiving money from the sale of {shares_offered} in the offer for sale.",
+            "{amount} proceeds have been in hand since {timing}, the event {event_age}.",
+            "They keep {retained_shares} locked in for six months from allotment, so further value depends on that later date.",
+            "Average cost of acquisition is unknown, so the gain figure cannot be confirmed from the documents."
+          ],
+          "lines": [
+            "Kumaraguru Madurakavi, Other Selling Shareholder, is receiving money from the sale of 2,136,000 shares in the offer for sale.",
+            "₹70.49 crore proceeds have been in hand since in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable, the event 12 days ago.",
+            "They keep 2,456,715 shares locked in for six months from allotment, so further value depends on that later date.",
+            "Average cost of acquisition is unknown, so the gain figure cannot be confirmed from the documents."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rajesh_kesavan_nambisan",
+      "name_as_printed": "Rajesh Kesavan Nambisan",
+      "fields": {
+        "name": "Rajesh Kesavan Nambisan",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 2,136,000 shares in the offer for sale",
+        "amount": "₹70.49 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹70.49 crore (2,136,000 × ₹330.00 = ₹70.49 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹81.07 crore (estimate, valued at offer price) ((4,592,715 − 2,136,000) × ₹330.00 = ₹81.07 crore)",
+        "retained_shares": "2,456,715 shares",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Rajesh Kesavan Nambisan",
+        "role": "Other Selling Shareholder",
+        "amount": "₹70.49 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹70.49 crore",
+        "retained": "₹81.07 crore (estimate, valued at offer price)",
+        "retained_shares": "2,456,715 shares",
+        "shares_offered": "2,136,000 shares",
+        "shares_held": "4,592,715 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Rajesh Kesavan Nambisan (Other Selling Shareholder) sells 2,136,000 shares in the offer for sale.",
+        "₹70.49 crore; in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable.",
+        "Retained shares are still locked in, so more money can follow when they unlock.",
+        "Not known yet: gain: average cost of acquisition not confirmed from the documents."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "unknown placeholders: {timing_date}",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, Other Selling Shareholder, receives money from selling {shares_offered} in the offer for sale.",
+            "{proceeds} is in hand since about 3 Nov 2026, {event_age}, the listing date in the timetable.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated yet."
+          ],
+          "lines": [
+            "{name}, Other Selling Shareholder, receives money from selling {shares_offered} in the offer for sale.",
+            "{proceeds} is in hand since about 3 Nov 2026, {event_age}, the listing date in the timetable.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated yet."
+          ],
+          "problem": "writes numbers instead of placeholders: 3, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, Other Selling Shareholder, receives money from selling {shares_offered} in the offer for sale.",
+            "{proceeds} is in hand since {timing_date}, {event_age}, the listing date in the timetable.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated yet."
+          ],
+          "lines": [
+            "{name}, Other Selling Shareholder, receives money from selling {shares_offered} in the offer for sale.",
+            "{proceeds} is in hand since {timing_date}, {event_age}, the listing date in the timetable.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated yet."
+          ],
+          "problem": "unknown placeholders: {timing_date}"
+        }
+      ]
+    },
+    {
+      "person_id": "p_sandeep_sambhaji_parab",
+      "name_as_printed": "Sandeep Sambhaji Parab",
+      "fields": {
+        "name": "Sandeep Sambhaji Parab",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 2,136,000 shares in the offer for sale",
+        "amount": "₹70.49 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹70.49 crore (2,136,000 × ₹330.00 = ₹70.49 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹81.07 crore (estimate, valued at offer price) ((4,592,715 − 2,136,000) × ₹330.00 = ₹81.07 crore)",
+        "retained_shares": "2,456,715 shares",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Sandeep Sambhaji Parab",
+        "role": "Other Selling Shareholder",
+        "amount": "₹70.49 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹70.49 crore",
+        "retained": "₹81.07 crore (estimate, valued at offer price)",
+        "retained_shares": "2,456,715 shares",
+        "shares_offered": "2,136,000 shares",
+        "shares_held": "4,592,715 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Sandeep Sambhaji Parab, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+        "₹70.49 crore proceeds have been in hand since in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable, from selling 2,136,000 shares.",
+        "They keep 2,456,715 shares, locked in for six months from allotment, so more value follows later.",
+        "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Sandeep Sambhaji Parab, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "{amount} proceeds are in hand since {timing_short}, from selling {shares_offered}.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+          ],
+          "lines": [
+            "Sandeep Sambhaji Parab, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "{amount} proceeds are in hand since {timing_short}, from selling {shares_offered}.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+          ],
+          "problem": "unknown placeholders: {timing_short}"
+        },
+        {
+          "raw_lines": [
+            "Sandeep Sambhaji Parab, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "{amount} proceeds have been in hand since {timing}, from selling {shares_offered}.",
+            "They keep {retained_shares}, locked in for six months from allotment, so more value follows later.",
+            "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+          ],
+          "lines": [
+            "Sandeep Sambhaji Parab, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "₹70.49 crore proceeds have been in hand since in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable, from selling 2,136,000 shares.",
+            "They keep 2,456,715 shares, locked in for six months from allotment, so more value follows later.",
+            "Average cost of acquisition is not confirmed in the documents, so gain is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_veera_venkata_satyanarayana_yannamani",
+      "name_as_printed": "Veera Venkata Satyanarayana Yannamani",
+      "fields": {
+        "name": "Veera Venkata Satyanarayana Yannamani",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 933,000 shares in the offer for sale",
+        "amount": "₹30.79 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹30.79 crore (933,000 × ₹330.00 = ₹30.79 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Veera Venkata Satyanarayana Yannamani",
+        "role": "Other Selling Shareholder",
+        "amount": "₹30.79 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹30.79 crore",
+        "shares_offered": "933,000 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Veera Venkata Satyanarayana Yannamani, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+        "Proceeds of ₹30.79 crore from 933,000 shares arrived in hand since in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable.",
+        "Pre-offer holdings stay locked in for a set period from allotment, so further value depends on that lock-in ending.",
+        "Average cost of acquisition and pre-offer holding are unknown from the documents and need confirming."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Veera Venkata Satyanarayana Yannamani, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "Proceeds of {proceeds} from {shares_offered} arrived in hand since {timing}.",
+            "Pre-offer holding shares stay locked in for 6 months from allotment, so further value depends on that period.",
+            "Average cost of acquisition and pre-offer holding are unknown from the documents and need confirming."
+          ],
+          "lines": [
+            "Veera Venkata Satyanarayana Yannamani, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "Proceeds of {proceeds} from {shares_offered} arrived in hand since {timing}.",
+            "Pre-offer holding shares stay locked in for 6 months from allotment, so further value depends on that period.",
+            "Average cost of acquisition and pre-offer holding are unknown from the documents and need confirming."
+          ],
+          "problem": "writes numbers instead of placeholders: 6"
+        },
+        {
+          "raw_lines": [
+            "Veera Venkata Satyanarayana Yannamani, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "Proceeds of {proceeds} from {shares_offered} arrived in hand since {timing}.",
+            "Pre-offer holdings stay locked in for a set period from allotment, so further value depends on that lock-in ending.",
+            "Average cost of acquisition and pre-offer holding are unknown from the documents and need confirming."
+          ],
+          "lines": [
+            "Veera Venkata Satyanarayana Yannamani, Other Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "Proceeds of ₹30.79 crore from 933,000 shares arrived in hand since in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable.",
+            "Pre-offer holdings stay locked in for a set period from allotment, so further value depends on that lock-in ending.",
+            "Average cost of acquisition and pre-offer holding are unknown from the documents and need confirming."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_sandeep_sudhakar_asolkar_held_jointly_with_priya_sandeep_asolkar",
+      "name_as_printed": "Sandeep Sudhakar Asolkar (held jointly with Priya Sandeep Asolkar)",
+      "fields": {
+        "name": "Sandeep Sudhakar Asolkar (held jointly with Priya Sandeep Asolkar)",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 934,000 shares in the offer for sale",
+        "amount": "₹30.82 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹30.82 crore (934,000 × ₹330.00 = ₹30.82 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Sandeep Sudhakar Asolkar (held jointly with Priya Sandeep Asolkar)",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹30.82 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹30.82 crore",
+        "shares_offered": "934,000 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Sandeep Sudhakar Asolkar, Promoter Selling Shareholder, is receiving money by selling 934,000 shares in the offer for sale.",
+        "Proceeds of ₹30.82 crore arrived in hand since about in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable, which is 12 days ago.",
+        "Joint holder Priya Sandeep Asolkar shares this holding, so both should be included in the conversation.",
+        "Average cost of acquisition and pre-offer holding are unconfirmed, so gain and retained figures are not yet known."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Sandeep Sudhakar Asolkar, Promoter Selling Shareholder, is receiving money by selling 934,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} arrived in hand since about {timing}, which is {event_age}.",
+            "Joint holder Priya Sandeep Asolkar shares this holding, so both should be included in the conversation.",
+            "Average cost of acquisition and pre-offer holding are unconfirmed, so gain and retained figures are not yet known."
+          ],
+          "lines": [
+            "Sandeep Sudhakar Asolkar, Promoter Selling Shareholder, is receiving money by selling 934,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} arrived in hand since about {timing}, which is {event_age}.",
+            "Joint holder Priya Sandeep Asolkar shares this holding, so both should be included in the conversation.",
+            "Average cost of acquisition and pre-offer holding are unconfirmed, so gain and retained figures are not yet known."
+          ],
+          "problem": "writes numbers instead of placeholders: 934,000"
+        },
+        {
+          "raw_lines": [
+            "Sandeep Sudhakar Asolkar, Promoter Selling Shareholder, is receiving money by selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} arrived in hand since about {timing}, which is {event_age}.",
+            "Joint holder Priya Sandeep Asolkar shares this holding, so both should be included in the conversation.",
+            "Average cost of acquisition and pre-offer holding are unconfirmed, so gain and retained figures are not yet known."
+          ],
+          "lines": [
+            "Sandeep Sudhakar Asolkar, Promoter Selling Shareholder, is receiving money by selling 934,000 shares in the offer for sale.",
+            "Proceeds of ₹30.82 crore arrived in hand since about in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable, which is 12 days ago.",
+            "Joint holder Priya Sandeep Asolkar shares this holding, so both should be included in the conversation.",
+            "Average cost of acquisition and pre-offer holding are unconfirmed, so gain and retained figures are not yet known."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_jayshree_harit_shah_held_jointly_with_harit_pragji_shah",
+      "name_as_printed": "Jayshree Harit Shah (held jointly with Harit Pragji Shah)",
+      "fields": {
+        "name": "Jayshree Harit Shah (held jointly with Harit Pragji Shah)",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 70,000 shares in the offer for sale",
+        "amount": "₹2.31 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.31 crore (70,000 × ₹330.00 = ₹2.31 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Jayshree Harit Shah (held jointly with Harit Pragji Shah)",
+        "role": "Other Selling Shareholder",
+        "amount": "₹2.31 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹2.31 crore",
+        "shares_offered": "70,000 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Jayshree Harit Shah (held jointly with Harit Pragji Shah) (Other Selling Shareholder) sells 70,000 shares in the offer for sale.",
+        "₹2.31 crore; in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable.",
+        "Retained shares are still locked in, so more money can follow when they unlock.",
+        "Not known yet: gain: average cost of acquisition not confirmed from the documents."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "unknown placeholders: {retained_shares}",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Jayshree Harit Shah, Other Selling Shareholder, is receiving money from selling 70,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since about 3 Nov 2026 ({event_age}), the listing date.",
+            "Pre-offer shares face a 6-month lock-in from allotment, so the retained holding may matter for a later conversation.",
+            "Unknown: pre-offer holding and average cost of acquisition, not confirmed from the documents."
+          ],
+          "lines": [
+            "Jayshree Harit Shah, Other Selling Shareholder, is receiving money from selling 70,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since about 3 Nov 2026 ({event_age}), the listing date.",
+            "Pre-offer shares face a 6-month lock-in from allotment, so the retained holding may matter for a later conversation.",
+            "Unknown: pre-offer holding and average cost of acquisition, not confirmed from the documents."
+          ],
+          "problem": "writes numbers instead of placeholders: 70,000, 3, 2026, 6"
+        },
+        {
+          "raw_lines": [
+            "Jayshree Harit Shah, Other Selling Shareholder, is receiving money from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}, which is {event_age}.",
+            "The pre-offer holding faces a lock-in from allotment, so {retained_shares} may matter for a later conversation.",
+            "Unknown: pre-offer holding and average cost of acquisition, not confirmed from the documents."
+          ],
+          "lines": [
+            "Jayshree Harit Shah, Other Selling Shareholder, is receiving money from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}, which is {event_age}.",
+            "The pre-offer holding faces a lock-in from allotment, so {retained_shares} may matter for a later conversation.",
+            "Unknown: pre-offer holding and average cost of acquisition, not confirmed from the documents."
+          ],
+          "problem": "unknown placeholders: {retained_shares}"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hardik_suresh_matalia",
+      "name_as_printed": "Hardik Suresh Matalia",
+      "fields": {
+        "name": "Hardik Suresh Matalia",
+        "role": "Other Selling Shareholder",
+        "why_money": "sells 36,750 shares in the offer for sale",
+        "amount": "₹1.21 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.21 crore (36,750 × ₹330.00 = ₹1.21 crore)",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Hardik Suresh Matalia",
+        "role": "Other Selling Shareholder",
+        "amount": "₹1.21 crore",
+        "timing": "in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable",
+        "proceeds": "₹1.21 crore",
+        "shares_offered": "36,750 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Hardik Suresh Matalia (Other Selling Shareholder) sells 36,750 shares in the offer for sale.",
+        "₹1.21 crore; in hand since about 3 Nov 2026 (12 days ago), the listing date in the offer timetable.",
+        "Retained shares are still locked in, so more money can follow when they unlock.",
+        "Not known yet: gain: average cost of acquisition not confirmed from the documents."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "unknown placeholders: {retained_shares_timing}",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Hardik Suresh Matalia, Other Selling Shareholder, is receiving money from the offer for sale of 36,750 shares.",
+            "Proceeds of {proceeds} have been in hand since {timing}, so the money has already arrived.",
+            "Pre-offer capital is subject to a 6 months lock-in from allotment, a point worth raising for later planning.",
+            "Caveat: the average cost of acquisition and the pre-offer holding are not confirmed from the documents."
+          ],
+          "lines": [
+            "Hardik Suresh Matalia, Other Selling Shareholder, is receiving money from the offer for sale of 36,750 shares.",
+            "Proceeds of {proceeds} have been in hand since {timing}, so the money has already arrived.",
+            "Pre-offer capital is subject to a 6 months lock-in from allotment, a point worth raising for later planning.",
+            "Caveat: the average cost of acquisition and the pre-offer holding are not confirmed from the documents."
+          ],
+          "problem": "writes numbers instead of placeholders: 36,750, 6"
+        },
+        {
+          "raw_lines": [
+            "Hardik Suresh Matalia, Other Selling Shareholder, is receiving money from the offer for sale of {shares_offered}.",
+            "Proceeds of {proceeds} have been in hand since {timing}, so the money has already arrived.",
+            "Pre-offer capital is subject to a {retained_shares_timing} lock-in, a point worth raising for later planning.",
+            "Caveat: the average cost of acquisition and the pre-offer holding are not confirmed from the documents."
+          ],
+          "lines": [
+            "Hardik Suresh Matalia, Other Selling Shareholder, is receiving money from the offer for sale of {shares_offered}.",
+            "Proceeds of {proceeds} have been in hand since {timing}, so the money has already arrived.",
+            "Pre-offer capital is subject to a {retained_shares_timing} lock-in, a point worth raising for later planning.",
+            "Caveat: the average cost of acquisition and the pre-offer holding are not confirmed from the documents."
+          ],
+          "problem": "unknown placeholders: {retained_shares_timing}"
+        }
+      ]
+    },
+    {
+      "person_id": "p_sandeep_sudhakar_asolkar",
+      "name_as_printed": "Sandeep Sudhakar Asolkar",
+      "fields": {
+        "name": "Sandeep Sudhakar Asolkar",
+        "role": "unknown",
+        "why_money": "holds 13,500,000 shares before the offer; not selling in it",
+        "amount": "₹445.50 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹445.50 crore (estimate, valued at offer price) (13,500,000 × ₹330.00 = ₹445.50 crore)",
+        "retained_shares": "13,500,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Sandeep Sudhakar Asolkar",
+        "role": "unknown",
+        "amount": "₹445.50 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹445.50 crore (estimate, valued at offer price)",
+        "retained_shares": "13,500,000 shares",
+        "shares_held": "13,500,000 shares"
+      },
+      "lines": [
+        "Sandeep Sudhakar Asolkar holds 13,500,000 shares and is not selling in the offer, so no money comes to them from it.",
+        "Their stake is ₹445.50 crore (estimate, valued at offer price), valued at offer price, with timing unknown since no role is printed.",
+        "Conversation angle: they keep 13,500,000 shares, so the offer leaves their position intact rather than cashing it out.",
+        "Caveat: their role and the timing of any money event are unknown, so confirm before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} and is not selling in the offer, so no money comes to them from it.",
+            "Their stake is {retained}, valued at offer price, with timing unknown since no role is printed.",
+            "Conversation angle: they keep {retained_shares}, so the offer leaves their position intact rather than cashing it out.",
+            "Caveat: their role and the timing of any money event are unknown, so confirm before the call."
+          ],
+          "lines": [
+            "Sandeep Sudhakar Asolkar holds 13,500,000 shares and is not selling in the offer, so no money comes to them from it.",
+            "Their stake is ₹445.50 crore (estimate, valued at offer price), valued at offer price, with timing unknown since no role is printed.",
+            "Conversation angle: they keep 13,500,000 shares, so the offer leaves their position intact rather than cashing it out.",
+            "Caveat: their role and the timing of any money event are unknown, so confirm before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_jaya_chandrakant_gogri_held_jointly_with_chandrakant_vallabhaji_gogri_and_hetal_gogri_gala",
+      "name_as_printed": "Jaya Chandrakant Gogri (held jointly with Chandrakant Vallabhaji Gogri and Hetal Gogri Gala)",
+      "fields": {
+        "name": "Jaya Chandrakant Gogri (held jointly with Chandrakant Vallabhaji Gogri and Hetal Gogri Gala)",
+        "role": "unknown",
+        "why_money": "holds 5,749,350 shares before the offer; not selling in it",
+        "amount": "₹189.73 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹189.73 crore (estimate, valued at offer price) (5,749,350 × ₹330.00 = ₹189.73 crore)",
+        "retained_shares": "5,749,350 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Jaya Chandrakant Gogri (held jointly with Chandrakant Vallabhaji Gogri and Hetal Gogri Gala)",
+        "role": "unknown",
+        "amount": "₹189.73 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹189.73 crore (estimate, valued at offer price)",
+        "retained_shares": "5,749,350 shares",
+        "shares_held": "5,749,350 shares"
+      },
+      "lines": [
+        "Jaya Chandrakant Gogri (held jointly with Chandrakant Vallabhaji Gogri and Hetal Gogri Gala) is a holder with 5,749,350 shares, not selling in the offer.",
+        "Their stake is valued at ₹189.73 crore (estimate, valued at offer price); shares, not cash, shares rather than cash, so no money arrives from this event.",
+        "Open with the shares they keep, since the stake is worth more if the price holds. Role unknown: confirm before calling.",
+        "Caveat: their role and timing are unknown, so check the register before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder with {retained_shares}, not selling in the offer.",
+            "Their stake is valued at {amount}, shares rather than cash, so no money arrives from this event.",
+            "Open with the shares they keep, since the stake is worth more if the price holds. Role unknown: confirm before calling.",
+            "Caveat: their role and timing are unknown, so check the register before the call."
+          ],
+          "lines": [
+            "Jaya Chandrakant Gogri (held jointly with Chandrakant Vallabhaji Gogri and Hetal Gogri Gala) is a holder with 5,749,350 shares, not selling in the offer.",
+            "Their stake is valued at ₹189.73 crore (estimate, valued at offer price); shares, not cash, shares rather than cash, so no money arrives from this event.",
+            "Open with the shares they keep, since the stake is worth more if the price holds. Role unknown: confirm before calling.",
+            "Caveat: their role and timing are unknown, so check the register before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_mulesh_manilal_savla_held_jointly_with_maya_mulesh_savla",
+      "name_as_printed": "Mulesh Manilal Savla (held jointly with Maya Mulesh Savla)",
+      "fields": {
+        "name": "Mulesh Manilal Savla (held jointly with Maya Mulesh Savla)",
+        "role": "unknown",
+        "why_money": "holds 170,625 shares before the offer; not selling in it",
+        "amount": "₹5.63 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹5.63 crore (estimate, valued at offer price) (170,625 × ₹330.00 = ₹5.63 crore)",
+        "retained_shares": "170,625 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Mulesh Manilal Savla (held jointly with Maya Mulesh Savla)",
+        "role": "unknown",
+        "amount": "₹5.63 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹5.63 crore (estimate, valued at offer price)",
+        "retained_shares": "170,625 shares",
+        "shares_held": "170,625 shares"
+      },
+      "lines": [
+        "Mulesh Manilal Savla, jointly with Maya Mulesh Savla, holds 170,625 shares before the offer and is not selling in it.",
+        "Their stake is valued at ₹5.63 crore (estimate, valued at offer price), and no money event is on record for this holder.",
+        "They keep 170,625 shares, so the conversation can focus on their ongoing position rather than any sale proceeds.",
+        "Their role and timing of any money are unknown: no role is printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Mulesh Manilal Savla, jointly with Maya Mulesh Savla, holds {shares_held} before the offer and is not selling in it.",
+            "Their stake is valued at {retained}, and no money event is on record for this holder.",
+            "They keep {retained_shares}, so the conversation can focus on their ongoing position rather than any sale proceeds.",
+            "Their role and timing of any money are unknown: no role is printed for this holder."
+          ],
+          "lines": [
+            "Mulesh Manilal Savla, jointly with Maya Mulesh Savla, holds 170,625 shares before the offer and is not selling in it.",
+            "Their stake is valued at ₹5.63 crore (estimate, valued at offer price), and no money event is on record for this holder.",
+            "They keep 170,625 shares, so the conversation can focus on their ongoing position rather than any sale proceeds.",
+            "Their role and timing of any money are unknown: no role is printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_amit_anil_sawant",
+      "name_as_printed": "Amit Anil Sawant",
+      "fields": {
+        "name": "Amit Anil Sawant",
+        "role": "unknown",
+        "why_money": "holds 60,000 shares before the offer; not selling in it",
+        "amount": "₹1.98 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹1.98 crore (estimate, valued at offer price) (60,000 × ₹330.00 = ₹1.98 crore)",
+        "retained_shares": "60,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Amit Anil Sawant",
+        "role": "unknown",
+        "amount": "₹1.98 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹1.98 crore (estimate, valued at offer price)",
+        "retained_shares": "60,000 shares",
+        "shares_held": "60,000 shares"
+      },
+      "lines": [
+        "Amit Anil Sawant holds 60,000 shares and is not selling in this offer.",
+        "Their stake is valued at ₹1.98 crore (estimate, valued at offer price); shares, not cash, but this is share value, not cash, and timing is unknown.",
+        "They keep 60,000 shares, so any future offer or event may matter to them.",
+        "Caveat: their role and when any money arrives are unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} and is not selling in this offer.",
+            "Their stake is valued at {amount}, but this is share value, not cash, and timing is unknown.",
+            "They keep {retained_shares}, so any future offer or event may matter to them.",
+            "Caveat: their role and when any money arrives are unknown."
+          ],
+          "lines": [
+            "Amit Anil Sawant holds 60,000 shares and is not selling in this offer.",
+            "Their stake is valued at ₹1.98 crore (estimate, valued at offer price); shares, not cash, but this is share value, not cash, and timing is unknown.",
+            "They keep 60,000 shares, so any future offer or event may matter to them.",
+            "Caveat: their role and when any money arrives are unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_virendra_vijay_rane",
+      "name_as_printed": "Virendra Vijay Rane",
+      "fields": {
+        "name": "Virendra Vijay Rane",
+        "role": "unknown",
+        "why_money": "holds 57,000 shares before the offer; not selling in it",
+        "amount": "₹1.88 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹1.88 crore (estimate, valued at offer price) (57,000 × ₹330.00 = ₹1.88 crore)",
+        "retained_shares": "57,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Virendra Vijay Rane",
+        "role": "unknown",
+        "amount": "₹1.88 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹1.88 crore (estimate, valued at offer price)",
+        "retained_shares": "57,000 shares",
+        "shares_held": "57,000 shares"
+      },
+      "lines": [
+        "Virendra Vijay Rane holds 57,000 shares before the offer and is not selling in it.",
+        "Their stake is valued at ₹1.88 crore (estimate, valued at offer price); shares, not cash, but this is share value, not cash, and no money event applies.",
+        "They keep 57,000 shares, so a conversation could focus on holding those shares rather than any offer proceeds.",
+        "Timing is unknown because no role is printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} before the offer and is not selling in it.",
+            "Their stake is valued at {amount}, but this is share value, not cash, and no money event applies.",
+            "They keep {retained_shares}, so a conversation could focus on holding those shares rather than any offer proceeds.",
+            "Timing is unknown because no role is printed for this holder."
+          ],
+          "lines": [
+            "Virendra Vijay Rane holds 57,000 shares before the offer and is not selling in it.",
+            "Their stake is valued at ₹1.88 crore (estimate, valued at offer price); shares, not cash, but this is share value, not cash, and no money event applies.",
+            "They keep 57,000 shares, so a conversation could focus on holding those shares rather than any offer proceeds.",
+            "Timing is unknown because no role is printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_mandar_dinkar_desai_held_jointly_with_shruti_mandar_desai",
+      "name_as_printed": "Mandar Dinkar Desai (held jointly with Shruti Mandar Desai)",
+      "fields": {
+        "name": "Mandar Dinkar Desai (held jointly with Shruti Mandar Desai)",
+        "role": "unknown",
+        "why_money": "holds 75,000 shares before the offer; not selling in it",
+        "amount": "₹2.48 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹2.48 crore (estimate, valued at offer price) (75,000 × ₹330.00 = ₹2.48 crore)",
+        "retained_shares": "75,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Mandar Dinkar Desai (held jointly with Shruti Mandar Desai)",
+        "role": "unknown",
+        "amount": "₹2.48 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹2.48 crore (estimate, valued at offer price)",
+        "retained_shares": "75,000 shares",
+        "shares_held": "75,000 shares"
+      },
+      "lines": [
+        "Mandar Dinkar Desai, role unknown, holds 75,000 shares jointly with Shruti Mandar Desai, not selling in the offer.",
+        "Their stake is valued at ₹2.48 crore (estimate, valued at offer price); shares, not cash, shares not cash, and no money event applies to this holder.",
+        "They keep 75,000 shares through the offer, so their position stays unchanged for the next conversation.",
+        "Caveat: their role and timing are unknown, so confirm before any call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Mandar Dinkar Desai, role unknown, holds 75,000 shares jointly with Shruti Mandar Desai, not selling in the offer.",
+            "Their stake is valued at {amount}, shares not cash, and no money event applies to this holder.",
+            "They keep {retained_shares} through the offer, so their position stays unchanged for the next conversation.",
+            "Caveat: their role and timing are unknown, so confirm before any call."
+          ],
+          "lines": [
+            "Mandar Dinkar Desai, role unknown, holds 75,000 shares jointly with Shruti Mandar Desai, not selling in the offer.",
+            "Their stake is valued at {amount}, shares not cash, and no money event applies to this holder.",
+            "They keep {retained_shares} through the offer, so their position stays unchanged for the next conversation.",
+            "Caveat: their role and timing are unknown, so confirm before any call."
+          ],
+          "problem": "writes numbers instead of placeholders: 75,000"
+        },
+        {
+          "raw_lines": [
+            "Mandar Dinkar Desai, role unknown, holds {shares_held} jointly with Shruti Mandar Desai, not selling in the offer.",
+            "Their stake is valued at {amount}, shares not cash, and no money event applies to this holder.",
+            "They keep {retained_shares} through the offer, so their position stays unchanged for the next conversation.",
+            "Caveat: their role and timing are unknown, so confirm before any call."
+          ],
+          "lines": [
+            "Mandar Dinkar Desai, role unknown, holds 75,000 shares jointly with Shruti Mandar Desai, not selling in the offer.",
+            "Their stake is valued at ₹2.48 crore (estimate, valued at offer price); shares, not cash, shares not cash, and no money event applies to this holder.",
+            "They keep 75,000 shares through the offer, so their position stays unchanged for the next conversation.",
+            "Caveat: their role and timing are unknown, so confirm before any call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_abhijit_parolkar",
+      "name_as_printed": "Abhijit Parolkar",
+      "fields": {
+        "name": "Abhijit Parolkar",
+        "role": "unknown",
+        "why_money": "holds 30,000 shares before the offer; not selling in it",
+        "amount": "₹0.99 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.99 crore (estimate, valued at offer price) (30,000 × ₹330.00 = ₹0.99 crore)",
+        "retained_shares": "30,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Abhijit Parolkar",
+        "role": "unknown",
+        "amount": "₹0.99 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.99 crore (estimate, valued at offer price)",
+        "retained_shares": "30,000 shares",
+        "shares_held": "30,000 shares"
+      },
+      "lines": [
+        "Abhijit Parolkar is a shareholder, role unknown, holding 30,000 shares with no money event in this offer.",
+        "They hold 30,000 shares and are not selling, so no proceeds arrive from this offer.",
+        "Ask whether they plan to keep 30,000 shares through the offer, since they hold no money event now.",
+        "Timing and role are unknown: confirm their position before discussing any offer details."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder, role unknown, holding {shares_held} with no money event in this offer.",
+            "They hold {shares_held} and are not selling, so no proceeds arrive from this offer.",
+            "Ask whether they plan to keep {retained_shares} through the offer, since they hold no money event now.",
+            "Timing and role are unknown: confirm their position before discussing any offer details."
+          ],
+          "lines": [
+            "Abhijit Parolkar is a shareholder, role unknown, holding 30,000 shares with no money event in this offer.",
+            "They hold 30,000 shares and are not selling, so no proceeds arrive from this offer.",
+            "Ask whether they plan to keep 30,000 shares through the offer, since they hold no money event now.",
+            "Timing and role are unknown: confirm their position before discussing any offer details."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ajit_dhondiram_marathe",
+      "name_as_printed": "Ajit Dhondiram Marathe",
+      "fields": {
+        "name": "Ajit Dhondiram Marathe",
+        "role": "unknown",
+        "why_money": "holds 19,000 shares before the offer; not selling in it",
+        "amount": "₹0.63 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.63 crore (estimate, valued at offer price) (19,000 × ₹330.00 = ₹0.63 crore)",
+        "retained_shares": "19,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Ajit Dhondiram Marathe",
+        "role": "unknown",
+        "amount": "₹0.63 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.63 crore (estimate, valued at offer price)",
+        "retained_shares": "19,000 shares",
+        "shares_held": "19,000 shares"
+      },
+      "lines": [
+        "Ajit Dhondiram Marathe holds 19,000 shares before the offer and is not selling into it.",
+        "Their stake is worth ₹0.63 crore (estimate, valued at offer price); shares, not cash at the offer price, but no money event has occurred.",
+        "Ask whether they plan to participate in future offers or hold their 19,000 shares.",
+        "Timing unknown: no role printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} before the offer and is not selling into it.",
+            "Their stake is worth {amount} at the offer price, but no money event has occurred.",
+            "Ask whether they plan to participate in future offers or hold their {retained_shares}.",
+            "Timing unknown: no role printed for this holder."
+          ],
+          "lines": [
+            "Ajit Dhondiram Marathe holds 19,000 shares before the offer and is not selling into it.",
+            "Their stake is worth ₹0.63 crore (estimate, valued at offer price); shares, not cash at the offer price, but no money event has occurred.",
+            "Ask whether they plan to participate in future offers or hold their 19,000 shares.",
+            "Timing unknown: no role printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rohan_manohar_kharche",
+      "name_as_printed": "Rohan Manohar Kharche",
+      "fields": {
+        "name": "Rohan Manohar Kharche",
+        "role": "unknown",
+        "why_money": "holds 19,000 shares before the offer; not selling in it",
+        "amount": "₹0.63 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.63 crore (estimate, valued at offer price) (19,000 × ₹330.00 = ₹0.63 crore)",
+        "retained_shares": "19,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Rohan Manohar Kharche",
+        "role": "unknown",
+        "amount": "₹0.63 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.63 crore (estimate, valued at offer price)",
+        "retained_shares": "19,000 shares",
+        "shares_held": "19,000 shares"
+      },
+      "lines": [
+        "Rohan Manohar Kharche is a shareholder; role unknown, holds 19,000 shares before the offer and is not selling.",
+        "Their stake is ₹0.63 crore (estimate, valued at offer price); shares, not cash, valued at offer price; no money event has occurred for them.",
+        "Conversation angle: they keep 19,000 shares, so their position is unchanged by the offer.",
+        "Caveat: their role and timing of any future proceeds are unknown and not printed."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder; role unknown, holds {shares_held} before the offer and is not selling.",
+            "Their stake is {amount}, valued at offer price; no money event has occurred for them.",
+            "Conversation angle: they keep {retained_shares}, so their position is unchanged by the offer.",
+            "Caveat: their role and timing of any future proceeds are unknown and not printed."
+          ],
+          "lines": [
+            "Rohan Manohar Kharche is a shareholder; role unknown, holds 19,000 shares before the offer and is not selling.",
+            "Their stake is ₹0.63 crore (estimate, valued at offer price); shares, not cash, valued at offer price; no money event has occurred for them.",
+            "Conversation angle: they keep 19,000 shares, so their position is unchanged by the offer.",
+            "Caveat: their role and timing of any future proceeds are unknown and not printed."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_mahendra_pandharinath_ingale",
+      "name_as_printed": "Mahendra Pandharinath Ingale",
+      "fields": {
+        "name": "Mahendra Pandharinath Ingale",
+        "role": "unknown",
+        "why_money": "holds 17,000 shares before the offer; not selling in it",
+        "amount": "₹0.56 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.56 crore (estimate, valued at offer price) (17,000 × ₹330.00 = ₹0.56 crore)",
+        "retained_shares": "17,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Mahendra Pandharinath Ingale",
+        "role": "unknown",
+        "amount": "₹0.56 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.56 crore (estimate, valued at offer price)",
+        "retained_shares": "17,000 shares",
+        "shares_held": "17,000 shares"
+      },
+      "lines": [
+        "Mahendra Pandharinath Ingale holds 17,000 shares and is not selling in this offer, so no money is coming to them from it.",
+        "Their holding is valued at ₹0.56 crore (estimate, valued at offer price), a figure the firm treats as an estimate rather than cash in hand.",
+        "Conversation angle: they keep 17,000 shares through the offer, so the discussion can focus on that continued stake.",
+        "Caveat: their role and expected timing are unknown because no role is printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} and is not selling in this offer, so no money is coming to them from it.",
+            "Their holding is valued at {retained}, a figure the firm treats as an estimate rather than cash in hand.",
+            "Conversation angle: they keep {retained_shares} through the offer, so the discussion can focus on that continued stake.",
+            "Caveat: their role and expected timing are unknown because no role is printed for this holder."
+          ],
+          "lines": [
+            "Mahendra Pandharinath Ingale holds 17,000 shares and is not selling in this offer, so no money is coming to them from it.",
+            "Their holding is valued at ₹0.56 crore (estimate, valued at offer price), a figure the firm treats as an estimate rather than cash in hand.",
+            "Conversation angle: they keep 17,000 shares through the offer, so the discussion can focus on that continued stake.",
+            "Caveat: their role and expected timing are unknown because no role is printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_neha_rajen_gada_held_jointly_with_rajen_hemchand_gada",
+      "name_as_printed": "Neha Rajen Gada (held jointly with Rajen Hemchand Gada)",
+      "fields": {
+        "name": "Neha Rajen Gada (held jointly with Rajen Hemchand Gada)",
+        "role": "unknown",
+        "why_money": "holds 18,750 shares before the offer; not selling in it",
+        "amount": "₹0.62 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.62 crore (estimate, valued at offer price) (18,750 × ₹330.00 = ₹0.62 crore)",
+        "retained_shares": "18,750 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Neha Rajen Gada (held jointly with Rajen Hemchand Gada)",
+        "role": "unknown",
+        "amount": "₹0.62 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.62 crore (estimate, valued at offer price)",
+        "retained_shares": "18,750 shares",
+        "shares_held": "18,750 shares"
+      },
+      "lines": [
+        "Neha Rajen Gada, role unknown, holds 18,750 shares and is not selling in this offer.",
+        "Their stake is valued at ₹0.62 crore (estimate, valued at offer price); shares, not cash, but no money event is recorded for them.",
+        "They keep 18,750 shares, so the conversation is about the position, not a payout.",
+        "Timing and role are unknown: no role is printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Neha Rajen Gada, role unknown, holds 18,750 shares and is not selling in this offer.",
+            "Their stake is valued at {amount}, but no money event is recorded for them.",
+            "They keep {retained_shares}, so the conversation is about the position, not a payout.",
+            "Timing and role are unknown: no role is printed for this holder."
+          ],
+          "lines": [
+            "Neha Rajen Gada, role unknown, holds 18,750 shares and is not selling in this offer.",
+            "Their stake is valued at {amount}, but no money event is recorded for them.",
+            "They keep {retained_shares}, so the conversation is about the position, not a payout.",
+            "Timing and role are unknown: no role is printed for this holder."
+          ],
+          "problem": "writes numbers instead of placeholders: 18,750"
+        },
+        {
+          "raw_lines": [
+            "Neha Rajen Gada, role unknown, holds {shares_held} and is not selling in this offer.",
+            "Their stake is valued at {amount}, but no money event is recorded for them.",
+            "They keep {retained_shares}, so the conversation is about the position, not a payout.",
+            "Timing and role are unknown: no role is printed for this holder."
+          ],
+          "lines": [
+            "Neha Rajen Gada, role unknown, holds 18,750 shares and is not selling in this offer.",
+            "Their stake is valued at ₹0.62 crore (estimate, valued at offer price); shares, not cash, but no money event is recorded for them.",
+            "They keep 18,750 shares, so the conversation is about the position, not a payout.",
+            "Timing and role are unknown: no role is printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_prasad_govind_kumbhar",
+      "name_as_printed": "Prasad Govind Kumbhar",
+      "fields": {
+        "name": "Prasad Govind Kumbhar",
+        "role": "unknown",
+        "why_money": "holds 4,000 shares before the offer; not selling in it",
+        "amount": "₹0.13 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.13 crore (estimate, valued at offer price) (4,000 × ₹330.00 = ₹0.13 crore)",
+        "retained_shares": "4,000 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Prasad Govind Kumbhar",
+        "role": "unknown",
+        "amount": "₹0.13 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.13 crore (estimate, valued at offer price)",
+        "retained_shares": "4,000 shares",
+        "shares_held": "4,000 shares"
+      },
+      "lines": [
+        "Prasad Govind Kumbhar holds 4,000 shares, so no money is coming from this offer; they are not selling.",
+        "Their stake is valued at ₹0.13 crore (estimate, valued at offer price); shares, not cash, and timing is unknown because no role is printed.",
+        "Open by asking whether they hold their 4,000 shares for the long term.",
+        "Unknown: their role and any upcoming money event, so confirm before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held}, so no money is coming from this offer; they are not selling.",
+            "Their stake is valued at {amount}, and timing is unknown because no role is printed.",
+            "Open by asking whether they hold their {retained_shares} for the long term.",
+            "Unknown: their role and any upcoming money event, so confirm before the call."
+          ],
+          "lines": [
+            "Prasad Govind Kumbhar holds 4,000 shares, so no money is coming from this offer; they are not selling.",
+            "Their stake is valued at ₹0.13 crore (estimate, valued at offer price); shares, not cash, and timing is unknown because no role is printed.",
+            "Open by asking whether they hold their 4,000 shares for the long term.",
+            "Unknown: their role and any upcoming money event, so confirm before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_shweta_deshpande",
+      "name_as_printed": "Shweta Deshpande",
+      "fields": {
+        "name": "Shweta Deshpande",
+        "role": "unknown",
+        "why_money": "holds 500 shares before the offer; not selling in it",
+        "amount": "₹0.02 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.02 crore (estimate, valued at offer price) (500 × ₹330.00 = ₹0.02 crore)",
+        "retained_shares": "500 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Shweta Deshpande",
+        "role": "unknown",
+        "amount": "₹0.02 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹0.02 crore (estimate, valued at offer price)",
+        "retained_shares": "500 shares",
+        "shares_held": "500 shares"
+      },
+      "lines": [
+        "Shweta Deshpande holds 500 shares and is not selling in the offer, so no money is coming to them from it.",
+        "Their stake is valued at ₹0.02 crore (estimate, valued at offer price) at the offer price, with timing unknown until a role is confirmed.",
+        "Ask whether they plan to keep 500 shares through the offer and what role they hold.",
+        "Caveat: their role and the timing of any future money are unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} and is not selling in the offer, so no money is coming to them from it.",
+            "Their stake is valued at {retained} at the offer price, with timing unknown until a role is confirmed.",
+            "Ask whether they plan to keep {retained_shares} through the offer and what role they hold.",
+            "Caveat: their role and the timing of any future money are unknown."
+          ],
+          "lines": [
+            "Shweta Deshpande holds 500 shares and is not selling in the offer, so no money is coming to them from it.",
+            "Their stake is valued at ₹0.02 crore (estimate, valued at offer price) at the offer price, with timing unknown until a role is confirmed.",
+            "Ask whether they plan to keep 500 shares through the offer and what role they hold.",
+            "Caveat: their role and the timing of any future money are unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

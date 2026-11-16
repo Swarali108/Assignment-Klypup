@@ -1,0 +1,42 @@
+{
+  "event_id": "jio_platforms_limited_ipo_202610",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_reliance_industries_limited",
+      "name_as_printed": "Reliance Industries Limited",
+      "name_clean": "reliance industries limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": true,
+      "money_now_crore": "0",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "116277.78400",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "664444.48",
+      "later_score": "116277.78400",
+      "why_money": "holds 5,937,841,645 shares before the offer; not selling in it",
+      "amount_display": "₹664,444.48 crore (estimate, valued at offer price); shares, not cash",
+      "timing_display": "unknown: no role printed",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": "₹664,444.48 crore (estimate, valued at offer price)",
+      "rank": 1,
+      "rank_reasons": [
+        "Holds shares worth ₹664,444.48 crore (estimate, valued at offer price); no cash from this event yet.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "later score 116277.78 = retained ₹664444.48 crore × 0.7 (medium confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ],
+  "context": []
+}

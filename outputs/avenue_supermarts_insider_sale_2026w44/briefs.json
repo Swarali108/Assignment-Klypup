@@ -1,0 +1,460 @@
+{
+  "event_id": "avenue_supermarts_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ravi_nagar",
+      "name_as_printed": "Ravi Nagar",
+      "fields": {
+        "name": "Ravi Nagar",
+        "role": "unknown",
+        "why_money": "sold 6,000 shares (Market Sale) on 27 Oct 2026",
+        "amount": "₹1.87 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.87 crore (6,000 shares, value as printed ₹1.87 crore (NSE XBRL context Disclosure7))"
+      },
+      "placeholders": {
+        "name": "Ravi Nagar",
+        "role": "unknown",
+        "amount": "₹1.87 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹1.87 crore",
+        "shares_offered": "6,000 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "Ravi Nagar sold 6,000 shares in a market sale and is due proceeds from it.",
+        "Proceeds of ₹1.87 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago), so the money has already reached them.",
+        "Their role is unknown, so confirm their position before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a market sale and is due proceeds from it.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade on 27 Oct 2026.",
+            "Their role is unknown, so confirm their position before discussing next steps."
+          ],
+          "lines": [
+            "{name} sold {shares_offered} in a market sale and is due proceeds from it.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade on 27 Oct 2026.",
+            "Their role is unknown, so confirm their position before discussing next steps."
+          ],
+          "problem": "writes numbers instead of placeholders: 27, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a market sale and is due proceeds from it.",
+            "Proceeds of {proceeds} settled {timing}, so the money has already reached them.",
+            "Their role is {role}, so confirm their position before discussing next steps."
+          ],
+          "lines": [
+            "Ravi Nagar sold 6,000 shares in a market sale and is due proceeds from it.",
+            "Proceeds of ₹1.87 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago), so the money has already reached them.",
+            "Their role is unknown, so confirm their position before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rajesh_ramkrishna_chavan",
+      "name_as_printed": "Rajesh Ramkrishna Chavan",
+      "fields": {
+        "name": "Rajesh Ramkrishna Chavan",
+        "role": "unknown",
+        "why_money": "sold 2,350 shares (Market Sale) on 30 Oct 2026",
+        "amount": "₹74.73 lakh",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event_age": "14 days ago",
+        "event_is": "recent",
+        "proceeds": "₹74.73 lakh (2,350 shares, value as printed ₹74.73 lakh (NSE XBRL context Disclosure5))"
+      },
+      "placeholders": {
+        "name": "Rajesh Ramkrishna Chavan",
+        "role": "unknown",
+        "amount": "₹74.73 lakh",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "proceeds": "₹74.73 lakh",
+        "shares_offered": "2,350 shares",
+        "event_age": "14 days ago"
+      },
+      "lines": [
+        "Rajesh Ramkrishna Chavan is a holder whose role is not on record; money is coming from a market sale of 2,350 shares.",
+        "Proceeds of ₹74.73 lakh were settled settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago), so the money is already in hand.",
+        "Their role is unknown, so confirm it before the conversation and frame the sale as a recent liquidity event."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is not on record; money is coming from a market sale of {shares_offered}.",
+            "Proceeds of {proceeds} were settled {timing}, so the money is already in hand.",
+            "Their role is unknown, so confirm it before the conversation and frame the sale as a recent liquidity event."
+          ],
+          "lines": [
+            "Rajesh Ramkrishna Chavan is a holder whose role is not on record; money is coming from a market sale of 2,350 shares.",
+            "Proceeds of ₹74.73 lakh were settled settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago), so the money is already in hand.",
+            "Their role is unknown, so confirm it before the conversation and frame the sale as a recent liquidity event."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_mahaveer_bhupal_magdum",
+      "name_as_printed": "Mahaveer Bhupal Magdum",
+      "fields": {
+        "name": "Mahaveer Bhupal Magdum",
+        "role": "unknown",
+        "why_money": "sold 2,000 shares (Market Sale) on 29 Oct 2026",
+        "amount": "₹62.44 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹62.44 lakh (2,000 shares, value as printed ₹62.44 lakh (NSE XBRL context Disclosure9))"
+      },
+      "placeholders": {
+        "name": "Mahaveer Bhupal Magdum",
+        "role": "unknown",
+        "amount": "₹62.44 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹62.44 lakh",
+        "shares_offered": "2,000 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "Mahaveer Bhupal Magdum is a holder whose role is unknown, receiving money from a share sale.",
+        "₹62.44 lakh from 2,000 shares, settled 17 days ago, already in hand.",
+        "The sale was recent, so ask whether they plan to reinvest or hold the remaining balance.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "{proceeds} from {shares_offered}, settled {event_age}, already in hand.",
+            "The sale was recent, so ask whether they plan to reinvest or hold the remaining balance.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "Mahaveer Bhupal Magdum is a holder whose role is unknown, receiving money from a share sale.",
+            "₹62.44 lakh from 2,000 shares, settled 17 days ago, already in hand.",
+            "The sale was recent, so ask whether they plan to reinvest or hold the remaining balance.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_parag_lokhande",
+      "name_as_printed": "Parag Lokhande",
+      "fields": {
+        "name": "Parag Lokhande",
+        "role": "unknown",
+        "why_money": "sold 1,400 shares (Market Sale) on 29 Oct 2026",
+        "amount": "₹44.52 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹44.52 lakh (1,400 shares, value as printed ₹44.52 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Parag Lokhande",
+        "role": "unknown",
+        "amount": "₹44.52 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹44.52 lakh",
+        "shares_offered": "1,400 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "Parag Lokhande sold 1,400 shares in a market sale and is receiving the proceeds.",
+        "Proceeds of ₹44.52 lakh settled 17 days ago, so the money has already arrived.",
+        "Role is unknown, so confirm their position before discussing how they plan to use the funds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a market sale and is receiving the proceeds.",
+            "Proceeds of {proceeds} settled {event_age}, so the money has already arrived.",
+            "Role is unknown, so confirm their position before discussing how they plan to use the funds."
+          ],
+          "lines": [
+            "Parag Lokhande sold 1,400 shares in a market sale and is receiving the proceeds.",
+            "Proceeds of ₹44.52 lakh settled 17 days ago, so the money has already arrived.",
+            "Role is unknown, so confirm their position before discussing how they plan to use the funds."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_tarun_sawhney",
+      "name_as_printed": "Tarun Sawhney",
+      "fields": {
+        "name": "Tarun Sawhney",
+        "role": "unknown",
+        "why_money": "sold 900 shares (Market Sale) on 29 Oct 2026",
+        "amount": "₹28.50 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹28.50 lakh (900 shares, value as printed ₹28.50 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Tarun Sawhney",
+        "role": "unknown",
+        "amount": "₹28.50 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹28.50 lakh",
+        "shares_offered": "900 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "Tarun Sawhney, unknown, sold 900 shares in a market sale, and proceeds are coming to them.",
+        "Proceeds of ₹28.50 lakh settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), so the money has likely already arrived.",
+        "Open with the completed sale and ask what they plan to do with the funds.",
+        "Role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Tarun Sawhney, role unknown, received money from selling {shares_offered} on 29 Oct.",
+            "Proceeds of {proceeds} settled {event_age}, so the cash has likely already arrived.",
+            "Open with the completed sale and ask what they plan to do with the funds.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Tarun Sawhney, role unknown, received money from selling {shares_offered} on 29 Oct.",
+            "Proceeds of {proceeds} settled {event_age}, so the cash has likely already arrived.",
+            "Open with the completed sale and ask what they plan to do with the funds.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 29"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, sold {shares_offered} in a market sale, and proceeds are coming to them.",
+            "Proceeds of {proceeds} {timing}, so the money has likely already arrived.",
+            "Open with the completed sale and ask what they plan to do with the funds.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Tarun Sawhney, unknown, sold 900 shares in a market sale, and proceeds are coming to them.",
+            "Proceeds of ₹28.50 lakh settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), so the money has likely already arrived.",
+            "Open with the completed sale and ask what they plan to do with the funds.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_pallavi_bakshi",
+      "name_as_printed": "Pallavi Bakshi",
+      "fields": {
+        "name": "Pallavi Bakshi",
+        "role": "unknown",
+        "why_money": "sold 771 shares (Market Sale) on 27 Oct 2026",
+        "amount": "₹24.38 lakh",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹24.38 lakh (771 shares, value as printed ₹24.38 lakh (NSE XBRL context Disclosure4))"
+      },
+      "placeholders": {
+        "name": "Pallavi Bakshi",
+        "role": "unknown",
+        "amount": "₹24.38 lakh",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹24.38 lakh",
+        "shares_offered": "771 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "Pallavi Bakshi, role unknown, is due proceeds from selling shares on the market.",
+        "Proceeds of ₹24.38 lakh from 771 shares settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "Ask whether the sale changes their current portfolio plans, and whether they want to review what remains."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Pallavi Bakshi, role unknown, is due proceeds from selling shares on the market.",
+            "Proceeds of {proceeds} from {shares_offered} settled {timing}.",
+            "Ask whether the sale changes their current portfolio plans, and whether they want to review what remains."
+          ],
+          "lines": [
+            "Pallavi Bakshi, role unknown, is due proceeds from selling shares on the market.",
+            "Proceeds of ₹24.38 lakh from 771 shares settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+            "Ask whether the sale changes their current portfolio plans, and whether they want to review what remains."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_yogesh_sood",
+      "name_as_printed": "Yogesh Sood",
+      "fields": {
+        "name": "Yogesh Sood",
+        "role": "unknown",
+        "why_money": "sold 700 shares (Market Sale) on 26 Oct 2026",
+        "amount": "₹21.98 lakh",
+        "timing": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "event": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "event_age": "20 days ago",
+        "event_is": "recent",
+        "proceeds": "₹21.98 lakh (171 shares, value as printed ₹5.37 lakh (NSE XBRL context Disclosure5); 529 shares, value as printed ₹16.61 lakh (NSE XBRL context Disclosure6); total ₹21.98 lakh)"
+      },
+      "placeholders": {
+        "name": "Yogesh Sood",
+        "role": "unknown",
+        "amount": "₹21.98 lakh",
+        "timing": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "proceeds": "₹21.98 lakh",
+        "shares_offered": "700 shares",
+        "event_age": "20 days ago"
+      },
+      "lines": [
+        "Yogesh Sood sold 700 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹21.98 lakh settled settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Yogesh Sood sold 700 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹21.98 lakh settled settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rani_tushar_tendulkar",
+      "name_as_printed": "Rani Tushar Tendulkar",
+      "fields": {
+        "name": "Rani Tushar Tendulkar",
+        "role": "unknown",
+        "why_money": "sold 100 shares (Market Sale) on 29 Oct 2026",
+        "amount": "₹3.13 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.13 lakh (100 shares, value as printed ₹3.13 lakh (NSE XBRL context Disclosure13))"
+      },
+      "placeholders": {
+        "name": "Rani Tushar Tendulkar",
+        "role": "unknown",
+        "amount": "₹3.13 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹3.13 lakh",
+        "shares_offered": "100 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "Rani Tushar Tendulkar, role unknown, received sale proceeds from a market sale of shares.",
+        "₹3.13 lakh settled settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), following the sale of 100 shares.",
+        "Proceeds settled 17 days ago, so the conversation should focus on what they plan next with the funds.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Rani Tushar Tendulkar, role unknown, received sale proceeds from a market sale of shares.",
+            "{proceeds} settled {timing}, following the sale of {shares_offered}.",
+            "Proceeds settled {event_age}, so the conversation should focus on what they plan next with the funds.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "Rani Tushar Tendulkar, role unknown, received sale proceeds from a market sale of shares.",
+            "₹3.13 lakh settled settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), following the sale of 100 shares.",
+            "Proceeds settled 17 days ago, so the conversation should focus on what they plan next with the funds.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_amit_khanna",
+      "name_as_printed": "Amit Khanna",
+      "fields": {
+        "name": "Amit Khanna",
+        "role": "unknown",
+        "why_money": "sold 41 shares (Market Sale) on 26 Oct 2026",
+        "amount": "₹1.29 lakh",
+        "timing": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "event": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "event_age": "20 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.29 lakh (41 shares, value as printed ₹1.29 lakh (NSE XBRL context Disclosure4))"
+      },
+      "placeholders": {
+        "name": "Amit Khanna",
+        "role": "unknown",
+        "amount": "₹1.29 lakh",
+        "timing": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "proceeds": "₹1.29 lakh",
+        "shares_offered": "41 shares",
+        "event_age": "20 days ago"
+      },
+      "lines": [
+        "Amit Khanna is a shareholder whose role is unknown, and money is coming from a market sale of 41 shares.",
+        "Proceeds of ₹1.29 lakh settled 20 days ago, arriving as settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+        "Their role is unknown, so confirm who they are before discussing next steps.",
+        "Role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder whose role is unknown, and money is coming from a market sale of {shares_offered}.",
+            "Proceeds of {proceeds} settled {event_age}, arriving as {timing}.",
+            "Their role is unknown, so confirm who they are before discussing next steps.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "Amit Khanna is a shareholder whose role is unknown, and money is coming from a market sale of 41 shares.",
+            "Proceeds of ₹1.29 lakh settled 20 days ago, arriving as settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+            "Their role is unknown, so confirm who they are before discussing next steps.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

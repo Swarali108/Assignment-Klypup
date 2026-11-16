@@ -1,0 +1,89 @@
+{
+  "event_id": "vrl_logistics_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "VRL Logistics Ltd",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/VRLLOGI_24102026153612_LetterofOffer24102026Final.pdf",
+      "doc_type": "announcement",
+      "note": "VRL Logistics Limited - Buyback",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/VRLLOGI_26102026133220_SubmissionofOfferOpeningAdvertisement.pdf",
+      "doc_type": "announcement",
+      "note": "VRL Logistics Limited - Buyback",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/VRLLOGI_12112026144319_PostBuyback_PublicAdvertisement12112026FINAL.pdf",
+      "doc_type": "announcement",
+      "note": "VRL Logistics Limited - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/888c895a-7218-4282-801e-9751b659f637.pdf",
+      "doc_type": "announcement",
+      "note": "VRL Logistics Ltd - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/VRLLOGI_17102026111817_CorrigendumPublicAnnouncement17102026_.pdf",
+      "doc_type": "public_announcement",
+      "note": "VRL Logistics Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff2c708b-ae04-4a6d-9fce-9e076e484fe8.pdf",
+      "doc_type": "public_announcement",
+      "note": "VRL Logistics Ltd - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "VRL Logistics Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/VRLLOGI_17102026111817_CorrigendumPublicAnnouncement17102026_.pdf",
+        "published": "2026-10-17",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "VRL Logistics Ltd - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff2c708b-ae04-4a6d-9fce-9e076e484fe8.pdf",
+        "published": "2026-10-17",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "VRL Logistics Limited - Buyback",
+        "link": "https://nsearchives.nseindia.in/corporate/VRLLOGI_24102026153612_LetterofOffer24102026Final.pdf",
+        "published": "2026-10-24",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "VRL Logistics Limited - Buyback",
+        "link": "https://nsearchives.nseindia.in/corporate/VRLLOGI_26102026133220_SubmissionofOfferOpeningAdvertisement.pdf",
+        "published": "2026-10-26",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "VRL Logistics Limited - Post Buyback Public Announcement",
+        "link": "https://nsearchives.nseindia.in/corporate/VRLLOGI_12112026144319_PostBuyback_PublicAdvertisement12112026FINAL.pdf",
+        "published": "2026-11-12",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "VRL Logistics Ltd - Post Buyback Public Announcement",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/888c895a-7218-4282-801e-9751b659f637.pdf",
+        "published": "2026-11-12",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

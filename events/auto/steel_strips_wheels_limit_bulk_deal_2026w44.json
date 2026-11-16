@@ -1,0 +1,21 @@
+{
+  "event_id": "steel_strips_wheels_limit_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Steel Strips Wheels Limit",
+  "documents": [],
+  "records": [
+    "619fa09fa710cf05",
+    "753617e522abc19a",
+    "c9b9d5f06809b3f4",
+    "f83e3a0e553862c1"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-26",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

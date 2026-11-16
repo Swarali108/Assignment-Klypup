@@ -1,0 +1,908 @@
+{
+  "event_id": "pashupati_cotspin_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "140.35",
+    "high": "140.59",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹140.35",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+            "row_ref": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+            "quote": "NSE | PASHUPATI | HRTI PRIVATE LIMITED | SELL | 8,98,072 shares | price 140.35 | 2026-11-02"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹140.59",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+            "row_ref": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+            "quote": "NSE | PASHUPATI | QE SECURITIES LLP | SELL | 9,14,587 shares | price 140.59 | 2026-11-02"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "2 Nov 2026",
+    "sale_date_parsed": "2026-11-02",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "18,12,659 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_hrti_private_limited",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "700859a15518e551"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 898072,
+          "record_ids": [
+            "700859a15518e551"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+          "row_ref": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+          "quote": "NSE | PASHUPATI | HRTI PRIVATE LIMITED | SELL | 8,98,072 shares | price 140.35 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "700859a15518e551",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "8,98,072",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "126044405.20",
+          "rupees_high": "126044405.20",
+          "crore_low": "12.60",
+          "crore_high": "12.60",
+          "display": "₹12.60 crore",
+          "working": "8,98,072 shares × ₹140.35 = ₹12.60 crore (NSE 02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "8,98,072",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+                  "row_ref": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+                  "quote": "NSE | PASHUPATI | HRTI PRIVATE LIMITED | SELL | 8,98,072 shares | price 140.35 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹140.35",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+                  "row_ref": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+                  "quote": "NSE | PASHUPATI | HRTI PRIVATE LIMITED | SELL | 8,98,072 shares | price 140.35 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+                  "row_ref": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · SELL · 898072",
+                  "quote": "NSE | PASHUPATI | HRTI PRIVATE LIMITED | SELL | 8,98,072 shares | price 140.35 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 8,98,072 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹64.74 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.17 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited_bought",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cf6a04778f33e98e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 1017320,
+          "record_ids": [
+            "cf6a04778f33e98e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · BUY · 1017320",
+          "row_ref": "02-NOV-2026 · PASHUPATI · HRTI PRIVATE LIMITED · BUY · 1017320",
+          "quote": "NSE | PASHUPATI | HRTI PRIVATE LIMITED | BUY | 10,17,320 shares | price 140.98 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cf6a04778f33e98e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,17,320 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹64.74 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.17 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6795bfc317f5bba0"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 914587,
+          "record_ids": [
+            "6795bfc317f5bba0"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+          "row_ref": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+          "quote": "NSE | PASHUPATI | QE SECURITIES LLP | SELL | 9,14,587 shares | price 140.59 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6795bfc317f5bba0",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "9,14,587",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "128581786.33",
+          "rupees_high": "128581786.33",
+          "crore_low": "12.86",
+          "crore_high": "12.86",
+          "display": "₹12.86 crore",
+          "working": "9,14,587 shares × ₹140.59 = ₹12.86 crore (NSE 02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "9,14,587",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+                  "row_ref": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+                  "quote": "NSE | PASHUPATI | QE SECURITIES LLP | SELL | 9,14,587 shares | price 140.59 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹140.59",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+                  "row_ref": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+                  "quote": "NSE | PASHUPATI | QE SECURITIES LLP | SELL | 9,14,587 shares | price 140.59 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+                  "row_ref": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · SELL · 914587",
+                  "quote": "NSE | PASHUPATI | QE SECURITIES LLP | SELL | 9,14,587 shares | price 140.59 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 9,14,587 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "7c039c87d7fa2328"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 902215,
+          "record_ids": [
+            "7c039c87d7fa2328"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · BUY · 902215",
+          "row_ref": "02-NOV-2026 · PASHUPATI · QE SECURITIES LLP · BUY · 902215",
+          "quote": "NSE | PASHUPATI | QE SECURITIES LLP | BUY | 9,02,215 shares | price 141.13 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7c039c87d7fa2328",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 9,02,215 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 40
+  }
+}

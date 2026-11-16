@@ -1,0 +1,21 @@
+{
+  "event_id": "go_fashion_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "Go Fashion India Ltd",
+  "documents": [],
+  "records": [
+    "0f7f3c1d9c8b1347",
+    "52648d1964a8fb0c",
+    "77f10b645a2c3cf3",
+    "fedfcb6692404ee8"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-02",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

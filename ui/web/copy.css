@@ -1,0 +1,8 @@
+.copy {
+  font: 500 .82rem Inter, system-ui, sans-serif; color: #e9cfa5; background: rgba(233, 207, 165, .08);
+  border: 1px solid rgba(233, 207, 165, .35); border-radius: 999px; padding: .3rem .85rem; cursor: pointer;
+  transition: background-color .18s ease, border-color .18s ease;
+}
+.copy:hover { background: rgba(233, 207, 165, .16); }
+.copy:focus-visible { outline: 2px solid #e9cfa5; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .copy { transition: none; } }

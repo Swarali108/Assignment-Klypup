@@ -1,0 +1,41 @@
+{
+  "event_id": "mobilise_app_lab_bulk_deal_2026w45",
+  "run_id": "auto-mobilise_app_lab_bulk_deal_2026w45-20261115T190123Z",
+  "totals": {
+    "calls": 1,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 1224,
+    "output_tokens": 123,
+    "cost_usd": 0.000184,
+    "fresh_usd": 0.000184,
+    "unpriced_calls": 0,
+    "wall_s": 2.3351107909693383,
+    "callable_people": 1,
+    "cost_per_callable_usd": 0.000184,
+    "fresh_per_callable_usd": 0.000184
+  },
+  "per_person": [
+    {
+      "person_id": "p_maahir_consultants",
+      "name_as_printed": "MAAHIR CONSULTANTS",
+      "cost_usd": 0.000184,
+      "fresh_usd": 0.000184,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_kulbhushan_parashar_bought",
+      "name_as_printed": "KULBHUSHAN PARASHAR",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_pramod_traders",
+      "name_as_printed": "PRAMOD TRADERS",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

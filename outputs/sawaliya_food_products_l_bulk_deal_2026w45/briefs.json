@@ -1,0 +1,52 @@
+{
+  "event_id": "sawaliya_food_products_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_m_n_trading_co",
+      "name_as_printed": "M.N.TRADING CO.",
+      "fields": {
+        "name": "M.N.TRADING CO.",
+        "role": "unknown",
+        "why_money": "sold 64,200 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹1.16 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.16 crore (64,200 shares × ₹180.27 = ₹1.16 crore (NSE 02-NOV-2026 · SAWALIYA · M.N.TRADING CO. · SELL · 64200))"
+      },
+      "placeholders": {
+        "name": "M.N.TRADING CO.",
+        "role": "unknown",
+        "amount": "₹1.16 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹1.16 crore",
+        "shares_offered": "64,200 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "M.N.TRADING CO. sold 64,200 shares in a bulk deal, so the money comes from that sale.",
+        "₹1.16 crore from the sale was settled 13 days ago, so it has already arrived.",
+        "Ask whether they plan to redeploy the proceeds, and note their role is unknown so confirm it first."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the money comes from that sale.",
+            "{amount} from the sale was settled {event_age}, so it has already arrived.",
+            "Ask whether they plan to redeploy the proceeds, and note their role is unknown so confirm it first."
+          ],
+          "lines": [
+            "M.N.TRADING CO. sold 64,200 shares in a bulk deal, so the money comes from that sale.",
+            "₹1.16 crore from the sale was settled 13 days ago, so it has already arrived.",
+            "Ask whether they plan to redeploy the proceeds, and note their role is unknown so confirm it first."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

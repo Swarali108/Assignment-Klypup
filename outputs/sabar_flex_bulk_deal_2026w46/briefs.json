@@ -1,0 +1,55 @@
+{
+  "event_id": "sabar_flex_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kunjit_maheshbhai_patel",
+      "name_as_printed": "KUNJIT MAHESHBHAI PATEL",
+      "fields": {
+        "name": "KUNJIT MAHESHBHAI PATEL",
+        "role": "unknown",
+        "why_money": "sold 4,00,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹37.00 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹37.00 lakh (4,00,000 shares × ₹9.25 = ₹37.00 lakh (NSE 13-NOV-2026 · SABAR · KUNJIT MAHESHBHAI PATEL · SELL · 400000))"
+      },
+      "placeholders": {
+        "name": "KUNJIT MAHESHBHAI PATEL",
+        "role": "unknown",
+        "amount": "₹37.00 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹37.00 lakh",
+        "shares_offered": "4,00,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "KUNJIT MAHESHBHAI PATEL sold 4,00,000 shares in an NSE bulk deal, so they have a sizeable cash proceeds coming.",
+        "Proceeds of ₹37.00 lakh settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Role is unknown, so confirm their position in the company before the call.",
+        "Ask whether they want to discuss reinvestment options."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in an NSE bulk deal, so they have a sizeable cash proceeds coming.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Role is unknown, so confirm their position in the company before the call.",
+            "Ask whether they want to discuss reinvestment options."
+          ],
+          "lines": [
+            "KUNJIT MAHESHBHAI PATEL sold 4,00,000 shares in an NSE bulk deal, so they have a sizeable cash proceeds coming.",
+            "Proceeds of ₹37.00 lakh settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Role is unknown, so confirm their position in the company before the call.",
+            "Ask whether they want to discuss reinvestment options."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

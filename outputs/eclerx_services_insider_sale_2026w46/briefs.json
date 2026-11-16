@@ -1,0 +1,55 @@
+{
+  "event_id": "eclerx_services_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_eclerx_employee_welfare",
+      "name_as_printed": "Eclerx Employee Welfare",
+      "fields": {
+        "name": "Eclerx Employee Welfare",
+        "role": "unknown",
+        "why_money": "sold 11,059 shares (Market Sale) on 9 Nov 2026",
+        "amount": "₹1.72 crore",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.72 crore (11,059 shares, value as printed ₹1.72 crore (NSE XBRL context Disclosure2))"
+      },
+      "placeholders": {
+        "name": "Eclerx Employee Welfare",
+        "role": "unknown",
+        "amount": "₹1.72 crore",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹1.72 crore",
+        "shares_offered": "11,059 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "Eclerx Employee Welfare is an unknown-role holder receiving money from a recent share sale.",
+        "₹1.72 crore arrived, settled settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago), from 11,059 shares sold in the market.",
+        "The sale was 6 days ago, so the conversation can focus on how they plan to use these proceeds.",
+        "Role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an unknown-role holder receiving money from a recent share sale.",
+            "{proceeds} arrived, settled {timing}, from {shares_offered} sold in the market.",
+            "The sale was {event_age}, so the conversation can focus on how they plan to use these proceeds.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "Eclerx Employee Welfare is an unknown-role holder receiving money from a recent share sale.",
+            "₹1.72 crore arrived, settled settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago), from 11,059 shares sold in the market.",
+            "The sale was 6 days ago, so the conversation can focus on how they plan to use these proceeds.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

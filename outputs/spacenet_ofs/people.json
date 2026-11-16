@@ -1,0 +1,489 @@
+{
+  "event_id": "spacenet_ofs",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "floor_price",
+    "low": "66.00",
+    "high": "66.00",
+    "inputs": [
+      {
+        "field": "floor_price",
+        "value": "INR 66.00/- (Rupees Sixty Six Only) per Equity Share",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+            "pdf_index": 6,
+            "printed_page": null,
+            "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=6",
+            "quote": "The floor price for the Offer shall be INR 66.00/- (Rupees"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "21st April, 2026",
+    "sale_date_parsed": "2026-04-21",
+    "sale_date_retail": "unknown",
+    "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+    "total_shares_offered": "Up to 38,10,000 Equity Shares",
+    "greenshoe_total": "unknown"
+  },
+  "people": [
+    {
+      "person_id": "p_lanka_divyabharathi",
+      "name_as_printed": "Lanka Divyabharathi",
+      "names_as_printed": [
+        "Lanka Divyabharathi"
+      ],
+      "name_clean": "lanka divyabharathi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Group",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "2 of 18",
+          "quote": "3. Lanka Divyabharathi, and",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Lanka Divyabharathi, and Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "after_date",
+          "when": "settles after the sale on 21 Apr 2026 (6 months ago)",
+          "sources": [
+            {
+              "field": "sale_date",
+              "value": "21st April, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 3,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=3",
+                  "quote": "For non-Retail Investors (defined below): 21st April, 2026"
+                }
+              ]
+            },
+            {
+              "field": "settlement_as_printed",
+              "value": "Settlement shall take place on a trade for trade basis.",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 8,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=8",
+                  "quote": "Settlement shall take place on a trade for trade basis."
+                }
+              ]
+            }
+          ],
+          "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+          "note": "settlement words as printed; the trading-day count is not turned into a date",
+          "days_since": 208
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller list in the notice",
+          "found in one section only (ofs_sellers)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_pendurthi_annapurna",
+      "name_as_printed": "Pendurthi Annapurna",
+      "names_as_printed": [
+        "Pendurthi Annapurna"
+      ],
+      "name_clean": "pendurthi annapurna",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Group",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 2,
+          "printed_page": null,
+          "quote": "Pendurthi Annapurna",
+          "citation_corrected": true,
+          "citation_corrected_by": "name",
+          "quote_as_cited": "4. PendurthiPurrnapurna",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "after_date",
+          "when": "settles after the sale on 21 Apr 2026 (6 months ago)",
+          "sources": [
+            {
+              "field": "sale_date",
+              "value": "21st April, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 3,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=3",
+                  "quote": "For non-Retail Investors (defined below): 21st April, 2026"
+                }
+              ]
+            },
+            {
+              "field": "settlement_as_printed",
+              "value": "Settlement shall take place on a trade for trade basis.",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 8,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=8",
+                  "quote": "Settlement shall take place on a trade for trade basis."
+                }
+              ]
+            }
+          ],
+          "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+          "note": "settlement words as printed; the trading-day count is not turned into a date",
+          "days_since": 208
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller list in the notice",
+          "found in one section only (ofs_sellers)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_spacenet_enterprises_india_limited",
+      "name_as_printed": "Spacenet Enterprises India Limited",
+      "names_as_printed": [
+        "Spacenet Enterprises India Limited"
+      ],
+      "name_clean": "spacenet enterprises india limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": "Promoter Group",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "2 of 18",
+          "quote": "1. Spacenet Enterprises India Limited,",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Spacenet Enterprises India Limited, Yaralagadda Venkat Subba Rao, Lanka Divyabharathi, and Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "after_date",
+          "when": "settles after the sale on 21 Apr 2026 (6 months ago)",
+          "sources": [
+            {
+              "field": "sale_date",
+              "value": "21st April, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 3,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=3",
+                  "quote": "For non-Retail Investors (defined below): 21st April, 2026"
+                }
+              ]
+            },
+            {
+              "field": "settlement_as_printed",
+              "value": "Settlement shall take place on a trade for trade basis.",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 8,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=8",
+                  "quote": "Settlement shall take place on a trade for trade basis."
+                }
+              ]
+            }
+          ],
+          "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+          "note": "settlement words as printed; the trading-day count is not turned into a date",
+          "days_since": 208
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller list in the notice",
+          "found in one section only (ofs_sellers)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_yaralagadda_venkat_subba_rao",
+      "name_as_printed": "Yaralagadda Venkat Subba Rao",
+      "names_as_printed": [
+        "Yaralagadda Venkat Subba Rao"
+      ],
+      "name_clean": "yaralagadda venkat subba rao",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Group",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "2 of 18",
+          "quote": "2. Yaralagadda Venkat Subba Rao,",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Yaralagadda Venkat Subba Rao, Lanka Divyabharathi, and Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "after_date",
+          "when": "settles after the sale on 21 Apr 2026 (6 months ago)",
+          "sources": [
+            {
+              "field": "sale_date",
+              "value": "21st April, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 3,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=3",
+                  "quote": "For non-Retail Investors (defined below): 21st April, 2026"
+                }
+              ]
+            },
+            {
+              "field": "settlement_as_printed",
+              "value": "Settlement shall take place on a trade for trade basis.",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+                  "pdf_index": 8,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf#page=8",
+                  "quote": "Settlement shall take place on a trade for trade basis."
+                }
+              ]
+            }
+          ],
+          "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+          "note": "settlement words as printed; the trading-day count is not turned into a date",
+          "days_since": 208
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller list in the notice",
+          "found in one section only (ofs_sellers)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "Yaralagadda Venkat Subba Rao",
+        "Lanka Divyabharathi"
+      ],
+      "score": 38.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Spacenet Enterprises India Limited",
+        "Pendurthi Annapurna"
+      ],
+      "score": 37.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Lanka Divyabharathi",
+        "Pendurthi Annapurna"
+      ],
+      "score": 36.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yaralagadda Venkat Subba Rao",
+        "Pendurthi Annapurna"
+      ],
+      "score": 29.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Spacenet Enterprises India Limited",
+        "Yaralagadda Venkat Subba Rao"
+      ],
+      "score": 29.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Spacenet Enterprises India Limited",
+        "Lanka Divyabharathi"
+      ],
+      "score": 26.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 1,
+      "person": 3
+    },
+    "by_confidence": {
+      "medium": 4
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {
+      "below_threshold": 6
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 0
+  }
+}

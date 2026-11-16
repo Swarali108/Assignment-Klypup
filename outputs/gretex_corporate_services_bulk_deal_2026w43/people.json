@@ -1,0 +1,474 @@
+{
+  "event_id": "gretex_corporate_services_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "715.24",
+    "high": "723.16",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹715.24",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+            "row_ref": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+            "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 92,081 shares | price 715.24 | 2026-10-21"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹723.16",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+            "row_ref": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+            "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 1,32,416 shares | price 723.16 | 2026-10-23"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "21 Oct 2026 to 23 Oct 2026",
+    "sale_date_parsed": "2026-10-23",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,24,497 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 5,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_l7_hitech_private_limited_bought",
+      "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+      "names_as_printed": [
+        "L7 HITECH PRIVATE LIMITED"
+      ],
+      "name_clean": "l7 hitech private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9b421268688267c9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 170000,
+          "record_ids": [
+            "9b421268688267c9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · GCSL · L7 HITECH PRIVATE LIMITED · BUY · 170000",
+          "row_ref": "19-OCT-2026 · GCSL · L7 HITECH PRIVATE LIMITED · BUY · 170000",
+          "quote": "NSE | GCSL | L7 HITECH PRIVATE LIMITED | BUY | 1,70,000 shares | price 737.13 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9b421268688267c9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,70,000 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹33.12 lakh",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mansukh_securities_finance_limited",
+      "name_as_printed": "MANSUKH SECURITIES & FINANCE LIMITED",
+      "names_as_printed": [
+        "MANSUKH SECURITIES & FINANCE LIMITED"
+      ],
+      "name_clean": "mansukh securities & finance limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "cc3de1a005e346f4",
+        "166d0c488444cd6b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 92081,
+          "record_ids": [
+            "cc3de1a005e346f4"
+          ]
+        },
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 132416,
+          "record_ids": [
+            "166d0c488444cd6b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+          "row_ref": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+          "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 92,081 shares | price 715.24 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cc3de1a005e346f4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+          "row_ref": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+          "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 1,32,416 shares | price 723.16 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "166d0c488444cd6b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,24,497",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "161617969.00",
+          "rupees_high": "161617969.00",
+          "crore_low": "16.16",
+          "crore_high": "16.16",
+          "display": "₹16.16 crore",
+          "working": "92,081 shares × ₹715.24 = ₹6.59 crore (NSE 21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081); 1,32,416 shares × ₹723.16 = ₹9.58 crore (NSE 23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416); total ₹16.16 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "92,081",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+                  "row_ref": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+                  "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 92,081 shares | price 715.24 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹715.24",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+                  "row_ref": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 92081",
+                  "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 92,081 shares | price 715.24 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,32,416",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+                  "row_ref": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+                  "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 1,32,416 shares | price 723.16 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹723.16",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+                  "row_ref": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+                  "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 1,32,416 shares | price 723.16 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+                  "row_ref": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · SELL · 132416",
+                  "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | SELL | 1,32,416 shares | price 723.16 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        }
+      },
+      "why_money": "sold 2,24,497 shares in bulk deals on 21 Oct 2026 and 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_mansukh_securities_finance_limited_bought",
+      "name_as_printed": "MANSUKH SECURITIES & FINANCE LIMITED",
+      "names_as_printed": [
+        "MANSUKH SECURITIES & FINANCE LIMITED"
+      ],
+      "name_clean": "mansukh securities & finance limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cf37238aea9c1ae6",
+        "e0f52e08d8ac8256"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 124920,
+          "record_ids": [
+            "cf37238aea9c1ae6"
+          ]
+        },
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 95989,
+          "record_ids": [
+            "e0f52e08d8ac8256"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · BUY · 124920",
+          "row_ref": "21-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · BUY · 124920",
+          "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | BUY | 1,24,920 shares | price 717.4 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cf37238aea9c1ae6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · BUY · 95989",
+          "row_ref": "23-OCT-2026 · GCSL · MANSUKH SECURITIES & FINANCE LIMITED · BUY · 95989",
+          "quote": "NSE | GCSL | MANSUKH SECURITIES & FINANCE LIMITED | BUY | 95,989 shares | price 722.22 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e0f52e08d8ac8256",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,20,909 shares in bulk deals on 21 Oct 2026 and 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 2
+  }
+}

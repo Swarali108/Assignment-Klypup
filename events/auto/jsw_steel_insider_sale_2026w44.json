@@ -1,0 +1,28 @@
+{
+  "event_id": "jsw_steel_insider_sale_2026w44",
+  "event_type": "insider_sale",
+  "company": "JSW STEEL LIMITED",
+  "documents": [],
+  "records": [
+    "06dee95685c9b9c9",
+    "28abc213cbaa18b4",
+    "4bd2c73f0e46990c",
+    "5fcd648fff5010ea",
+    "6007451c31f1ba1f",
+    "65e007328130de99",
+    "7e50cb499f933ef0",
+    "9c71ccc8efd5d39f",
+    "a5be416206e4708b",
+    "a6aee969009e4cc5",
+    "f5c18790e36f6da7"
+  ],
+  "records_file": "outputs/signals/insider.json",
+  "event_date": "2026-10-30",
+  "discovery": {
+    "sources": [
+      "nse_insider_sale"
+    ],
+    "first_seen": "2026-11-15T18:45:24+00:00",
+    "last_seen": "2026-11-15T18:48:41+00:00"
+  }
+}

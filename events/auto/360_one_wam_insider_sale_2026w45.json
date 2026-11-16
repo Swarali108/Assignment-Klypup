@@ -1,0 +1,28 @@
+{
+  "event_id": "360_one_wam_insider_sale_2026w45",
+  "event_type": "insider_sale",
+  "company": "360 ONE WAM LIMITED",
+  "documents": [],
+  "records": [
+    "0ae366ddca7d858c",
+    "0f73e990035ab702",
+    "76d40551fc0afaab",
+    "9e04ffdd6facb020",
+    "a105a340bcf194f7",
+    "a105b02ed26a17db",
+    "a853e079265f0afc",
+    "b05c9b91a3bed7e8",
+    "c23001fcd9cd2ee8",
+    "d9de8b3894e3340c",
+    "e8f226cc4ea914a3"
+  ],
+  "records_file": "outputs/signals/insider.json",
+  "event_date": "2026-11-06",
+  "discovery": {
+    "sources": [
+      "nse_insider_sale"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

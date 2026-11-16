@@ -1,0 +1,58 @@
+{
+  "event_id": "gradiente_infotainment_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vimal_raj_mathur",
+      "name_as_printed": "VIMAL RAJ MATHUR",
+      "fields": {
+        "name": "VIMAL RAJ MATHUR",
+        "role": "Promoter",
+        "why_money": "sold 1,20,00,000 shares (Off Market) on 29 Oct 2026",
+        "amount": "₹1.00 crore",
+        "timing": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+        "event": "proceeds, timing unknown",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.00 crore (1,20,00,000 shares, value as printed ₹1.00 crore (NSE XBRL context Disclosure1))",
+        "unknowns": [
+          "timing: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date"
+        ]
+      },
+      "placeholders": {
+        "name": "VIMAL RAJ MATHUR",
+        "role": "Promoter",
+        "amount": "₹1.00 crore",
+        "timing": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+        "proceeds": "₹1.00 crore",
+        "shares_offered": "1,20,00,000 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "VIMAL RAJ MATHUR is a Promoter who sold 1,20,00,000 shares off-market, so proceeds of ₹1.00 crore are coming to them.",
+        "The sale was recorded 18 days ago, and the timing of payment is unknown.",
+        "Ask whether they plan to hold any remaining stake or redeploy the proceeds.",
+        "Timing is unknown: the off-market transfer has no exchange settlement date."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} off-market, so proceeds of {proceeds} are coming to them.",
+            "The sale was recorded {event_age}, and the timing of payment is unknown.",
+            "Ask whether they plan to hold any remaining stake or redeploy the proceeds.",
+            "Timing is unknown: the off-market transfer has no exchange settlement date."
+          ],
+          "lines": [
+            "VIMAL RAJ MATHUR is a Promoter who sold 1,20,00,000 shares off-market, so proceeds of ₹1.00 crore are coming to them.",
+            "The sale was recorded 18 days ago, and the timing of payment is unknown.",
+            "Ask whether they plan to hold any remaining stake or redeploy the proceeds.",
+            "Timing is unknown: the off-market transfer has no exchange settlement date."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "event_id": "vectras_ipo",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_maheshkumar_gopalbhai_patel",
+      "name_as_printed": "Maheshkumar Gopalbhai Patel",
+      "fields": {
+        "name": "Maheshkumar Gopalbhai Patel",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 4,98,000 shares in the offer for sale",
+        "amount": "₹4.93 to ₹5.23 crore",
+        "timing": "in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.93 to ₹5.23 crore (4,98,000 × ₹99 to ₹105 = ₹4.93 to ₹5.23 crore)",
+        "gain": "₹4.73 to ₹5.03 crore, before offer expenses and taxes (4,98,000 × (₹99 to ₹105 − ₹4.00) = ₹4.73 to ₹5.03 crore)",
+        "retained": "₹69.32 to ₹73.52 crore (estimate, valued at the price band) ((74,99,820 − 4,98,000) × ₹99 to ₹105 = ₹69.32 to ₹73.52 crore)",
+        "retained_shares": "7,001,820 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not confirmed from the documents); fifty percent of promoter shares above the minimum contribution: 24 months from the date of Allotment (allotment date not confirmed from the documents); remaining fifty percent of promoter shares above the minimum contribution: 12 months from the date of Allotment (allotment date not confirmed from the documents)"
+      },
+      "placeholders": {
+        "name": "Maheshkumar Gopalbhai Patel",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹4.93 to ₹5.23 crore",
+        "timing": "in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable",
+        "proceeds": "₹4.93 to ₹5.23 crore",
+        "gain": "₹4.73 to ₹5.03 crore, before offer expenses and taxes",
+        "retained": "₹69.32 to ₹73.52 crore (estimate, valued at the price band)",
+        "retained_shares": "7,001,820 shares",
+        "shares_offered": "4,98,000 shares",
+        "shares_held": "74,99,820 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Maheshkumar Gopalbhai Patel, Promoter Selling Shareholder, is receiving money from selling 4,98,000 shares in the offer for sale.",
+        "Proceeds of ₹4.93 to ₹5.23 crore are in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable, 10 days ago.",
+        "They keep 7,001,820 shares after the offer, so a larger stake stays with them under lock-in terms."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Maheshkumar Gopalbhai Patel, Promoter Selling Shareholder, is receiving money from selling 4,98,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since about 6 Nov 2026, {event_age}, the listing date.",
+            "They keep {retained_shares} after the offer, and lock-in terms mean that stake stays with them for 12 to 36 months."
+          ],
+          "lines": [
+            "Maheshkumar Gopalbhai Patel, Promoter Selling Shareholder, is receiving money from selling 4,98,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since about 6 Nov 2026, {event_age}, the listing date.",
+            "They keep {retained_shares} after the offer, and lock-in terms mean that stake stays with them for 12 to 36 months."
+          ],
+          "problem": "writes numbers instead of placeholders: 4,98,000, 6, 2026, 12, 36"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} are {timing}, {event_age}.",
+            "They keep {retained_shares} after the offer, so a larger stake stays with them under lock-in terms."
+          ],
+          "lines": [
+            "Maheshkumar Gopalbhai Patel, Promoter Selling Shareholder, is receiving money from selling 4,98,000 shares in the offer for sale.",
+            "Proceeds of ₹4.93 to ₹5.23 crore are in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable, 10 days ago.",
+            "They keep 7,001,820 shares after the offer, so a larger stake stays with them under lock-in terms."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_naynesh_kanubhai_patel",
+      "name_as_printed": "Naynesh Kanubhai Patel",
+      "fields": {
+        "name": "Naynesh Kanubhai Patel",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 4,98,000 shares in the offer for sale",
+        "amount": "₹4.93 to ₹5.23 crore",
+        "timing": "in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.93 to ₹5.23 crore (4,98,000 × ₹99 to ₹105 = ₹4.93 to ₹5.23 crore)",
+        "gain": "₹4.73 to ₹5.03 crore, before offer expenses and taxes (4,98,000 × (₹99 to ₹105 − ₹4.00) = ₹4.73 to ₹5.03 crore)",
+        "retained": "₹69.32 to ₹73.52 crore (estimate, valued at the price band) ((74,99,880 − 4,98,000) × ₹99 to ₹105 = ₹69.32 to ₹73.52 crore)",
+        "retained_shares": "7,001,880 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not confirmed from the documents); fifty percent of promoter shares above the minimum contribution: 24 months from the date of Allotment (allotment date not confirmed from the documents); remaining fifty percent of promoter shares above the minimum contribution: 12 months from the date of Allotment (allotment date not confirmed from the documents)"
+      },
+      "placeholders": {
+        "name": "Naynesh Kanubhai Patel",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹4.93 to ₹5.23 crore",
+        "timing": "in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable",
+        "proceeds": "₹4.93 to ₹5.23 crore",
+        "gain": "₹4.73 to ₹5.03 crore, before offer expenses and taxes",
+        "retained": "₹69.32 to ₹73.52 crore (estimate, valued at the price band)",
+        "retained_shares": "7,001,880 shares",
+        "shares_offered": "4,98,000 shares",
+        "shares_held": "74,99,880 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Naynesh Kanubhai Patel, Promoter Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+        "₹4.93 to ₹5.23 crore in proceeds arrived in hand 10 days ago, since the listing date in the offer timetable.",
+        "They keep 7,001,880 shares locked in, so more value depends on those retained shares later."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Naynesh Kanubhai Patel, Promoter Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "{amount} in proceeds arrived in hand {event_age}, since the listing date in the offer timetable.",
+            "They keep {retained_shares} locked in, so more value depends on those retained shares later."
+          ],
+          "lines": [
+            "Naynesh Kanubhai Patel, Promoter Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+            "₹4.93 to ₹5.23 crore in proceeds arrived in hand 10 days ago, since the listing date in the offer timetable.",
+            "They keep 7,001,880 shares locked in, so more value depends on those retained shares later."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

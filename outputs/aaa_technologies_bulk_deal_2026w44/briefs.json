@@ -1,0 +1,71 @@
+{
+  "event_id": "aaa_technologies_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vaibhav_rajendra_doshi",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "fields": {
+        "name": "VAIBHAV RAJENDRA DOSHI",
+        "role": "unknown",
+        "why_money": "sold 1,15,017 shares in a bulk deal on 28 Oct 2026",
+        "amount": "₹1.37 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.37 crore (1,15,017 shares × ₹119.37 = ₹1.37 crore (NSE 28-OCT-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 115017))",
+        "family_link": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "placeholders": {
+        "name": "VAIBHAV RAJENDRA DOSHI",
+        "role": "unknown",
+        "amount": "₹1.37 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "proceeds": "₹1.37 crore",
+        "shares_offered": "1,15,017 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "VAIBHAV RAJENDRA DOSHI, unknown, received ₹1.37 crore after selling 1,15,017 shares in a bulk deal.",
+        "The ₹1.37 crore arrived on settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago), 18 days ago.",
+        "The family link to another holder with the same surname and middle name is worth raising.",
+        "Caveat: the holder's role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "VAIBHAV RAJENDRA DOSHI, role unknown, received proceeds after selling 1,15,017 shares in a bulk deal.",
+            "{amount} settled on {timing}.",
+            "The family link to another holder with the same surname and middle name is worth raising.",
+            "Caveat: the holder's role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "VAIBHAV RAJENDRA DOSHI, role unknown, received proceeds after selling 1,15,017 shares in a bulk deal.",
+            "{amount} settled on {timing}.",
+            "The family link to another holder with the same surname and middle name is worth raising.",
+            "Caveat: the holder's role is unknown; confirm it before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 1,15,017"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, received {proceeds} after selling {shares_offered} in a bulk deal.",
+            "The {amount} arrived on {timing}, {event_age}.",
+            "The family link to another holder with the same surname and middle name is worth raising.",
+            "Caveat: the holder's role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "VAIBHAV RAJENDRA DOSHI, unknown, received ₹1.37 crore after selling 1,15,017 shares in a bulk deal.",
+            "The ₹1.37 crore arrived on settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago), 18 days ago.",
+            "The family link to another holder with the same surname and middle name is worth raising.",
+            "Caveat: the holder's role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

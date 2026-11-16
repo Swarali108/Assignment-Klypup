@@ -1,0 +1,41 @@
+{
+  "event_id": "gsm_foils_bulk_deal_2026w46",
+  "run_id": "auto-gsm_foils_bulk_deal_2026w46-20261115T190134Z",
+  "totals": {
+    "calls": 1,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 1215,
+    "output_tokens": 99,
+    "cost_usd": 0.000171,
+    "fresh_usd": 0.000171,
+    "unpriced_calls": 0,
+    "wall_s": 2.4899233750184067,
+    "callable_people": 1,
+    "cost_per_callable_usd": 0.000171,
+    "fresh_per_callable_usd": 0.000171
+  },
+  "per_person": [
+    {
+      "person_id": "p_jayesh_mannar",
+      "name_as_printed": "JAYESH MANNAR",
+      "cost_usd": 0.000171,
+      "fresh_usd": 0.000171,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_hi_growth_corporate_services_pvt_ltd",
+      "name_as_printed": "HI GROWTH CORPORATE SERVICES PVT LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_hi_growth_corporate_services_pvt_ltd_bought",
+      "name_as_printed": "HI GROWTH CORPORATE SERVICES PVT LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

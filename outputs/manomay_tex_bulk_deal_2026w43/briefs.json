@@ -1,0 +1,56 @@
+{
+  "event_id": "manomay_tex_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_pawan_kumar_mittal",
+      "name_as_printed": "PAWAN KUMAR MITTAL",
+      "fields": {
+        "name": "PAWAN KUMAR MITTAL",
+        "role": "unknown",
+        "why_money": "sold 1,33,138 shares in a bulk deal on 22 Oct 2026",
+        "amount": "₹3.21 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "24 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.21 crore (1,33,138 shares × ₹240.97 = ₹3.21 crore (NSE 22-OCT-2026 · MANOMAY · PAWAN KUMAR MITTAL · SELL · 133138))",
+        "family_link": "'PAWAN KUMAR MITTAL' and 'PAWAN KUMAR MITTAL' share surname 'mittal' and middle name 'kumar'"
+      },
+      "placeholders": {
+        "name": "PAWAN KUMAR MITTAL",
+        "role": "unknown",
+        "amount": "₹3.21 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹3.21 crore",
+        "shares_offered": "1,33,138 shares",
+        "event_age": "24 days ago"
+      },
+      "lines": [
+        "PAWAN KUMAR MITTAL sold 1,33,138 shares in a bulk deal, so money is coming to them.",
+        "₹3.21 crore was settled settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago), which is 24 days ago.",
+        "Family link: a second holder shares the surname and middle name, so ask whether they are related.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "{proceeds} was settled {timing}, which is {event_age}.",
+            "Family link: a second holder shares the surname and middle name, so ask whether they are related.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "PAWAN KUMAR MITTAL sold 1,33,138 shares in a bulk deal, so money is coming to them.",
+            "₹3.21 crore was settled settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago), which is 24 days ago.",
+            "Family link: a second holder shares the surname and middle name, so ask whether they are related.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

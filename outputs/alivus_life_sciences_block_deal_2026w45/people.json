@@ -1,0 +1,873 @@
+{
+  "event_id": "alivus_life_sciences_block_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "1370",
+    "high": "1370",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹1,370",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+            "row_ref": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+            "quote": "NSE | ALIVUS | NIRMA LIMITED | SELL | 28,46,300 shares | price 1370 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "28,46,300 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 12,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_bandhan_mutual_fund_bought",
+      "name_as_printed": "BANDHAN MUTUAL FUND",
+      "names_as_printed": [
+        "BANDHAN MUTUAL FUND"
+      ],
+      "name_clean": "bandhan mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "4ed16b94c25ff5c2",
+        "9d1aab7f5fe48754",
+        "a536851bef516ecb",
+        "e10bf26d4613e018"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 855971,
+          "record_ids": [
+            "4ed16b94c25ff5c2",
+            "9d1aab7f5fe48754",
+            "a536851bef516ecb",
+            "e10bf26d4613e018"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 38148",
+          "row_ref": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 38148",
+          "quote": "NSE | ALIVUS | BANDHAN MUTUAL FUND | BUY | 38,148 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4ed16b94c25ff5c2",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 17823",
+          "row_ref": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 17823",
+          "quote": "NSE | ALIVUS | BANDHAN MUTUAL FUND | BUY | 17,823 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9d1aab7f5fe48754",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 200000",
+          "row_ref": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 200000",
+          "quote": "NSE | ALIVUS | BANDHAN MUTUAL FUND | BUY | 2,00,000 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a536851bef516ecb",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 600000",
+          "row_ref": "06-NOV-2026 · ALIVUS · BANDHAN MUTUAL FUND · BUY · 600000",
+          "quote": "NSE | ALIVUS | BANDHAN MUTUAL FUND | BUY | 6,00,000 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e10bf26d4613e018",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 8,55,971 shares in block deals on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_helios_mutual_fund_bought",
+      "name_as_printed": "HELIOS MUTUAL FUND",
+      "names_as_printed": [
+        "HELIOS MUTUAL FUND"
+      ],
+      "name_clean": "helios mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a3a0e4a66ad16c68",
+        "ef5244f360ee9b8b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 217500,
+          "record_ids": [
+            "a3a0e4a66ad16c68",
+            "ef5244f360ee9b8b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · HELIOS MUTUAL FUND · BUY · 101500",
+          "row_ref": "06-NOV-2026 · ALIVUS · HELIOS MUTUAL FUND · BUY · 101500",
+          "quote": "NSE | ALIVUS | HELIOS MUTUAL FUND | BUY | 1,01,500 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a3a0e4a66ad16c68",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · HELIOS MUTUAL FUND · BUY · 116000",
+          "row_ref": "06-NOV-2026 · ALIVUS · HELIOS MUTUAL FUND · BUY · 116000",
+          "quote": "NSE | ALIVUS | HELIOS MUTUAL FUND | BUY | 1,16,000 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ef5244f360ee9b8b",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,17,500 shares in block deals on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nirma_limited",
+      "name_as_printed": "NIRMA LIMITED",
+      "names_as_printed": [
+        "NIRMA LIMITED"
+      ],
+      "name_clean": "nirma limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "a939988f88e85504"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 2846300,
+          "record_ids": [
+            "a939988f88e85504"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+          "row_ref": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+          "quote": "NSE | ALIVUS | NIRMA LIMITED | SELL | 28,46,300 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a939988f88e85504",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "28,46,300",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "3899431000",
+          "rupees_high": "3899431000",
+          "crore_low": "389.94",
+          "crore_high": "389.94",
+          "display": "₹389.94 crore",
+          "working": "28,46,300 shares × ₹1,370 = ₹389.94 crore (NSE 06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "28,46,300",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+                  "row_ref": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+                  "quote": "NSE | ALIVUS | NIRMA LIMITED | SELL | 28,46,300 shares | price 1370 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,370",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+                  "row_ref": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+                  "quote": "NSE | ALIVUS | NIRMA LIMITED | SELL | 28,46,300 shares | price 1370 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+                  "row_ref": "06-NOV-2026 · ALIVUS · NIRMA LIMITED · SELL · 2846300",
+                  "quote": "NSE | ALIVUS | NIRMA LIMITED | SELL | 28,46,300 shares | price 1370 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 28,46,300 shares in a block deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_norges_bank_on_account_of_the_government_pension_fund_global_bought",
+      "name_as_printed": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
+      "names_as_printed": [
+        "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL"
+      ],
+      "name_clean": "norges bank on account of the government pension fund global",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cdc0d189ad043682"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 183000,
+          "record_ids": [
+            "cdc0d189ad043682"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL · BUY · 183000",
+          "row_ref": "06-NOV-2026 · ALIVUS · NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL · BUY · 183000",
+          "quote": "NSE | ALIVUS | NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL | BUY | 1,83,000 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cdc0d189ad043682",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,83,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_param_capital_bought",
+      "name_as_printed": "PARAM CAPITAL",
+      "names_as_printed": [
+        "PARAM CAPITAL"
+      ],
+      "name_clean": "param capital",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'capital' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1300a5f3b07f8468"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 729729,
+          "record_ids": [
+            "1300a5f3b07f8468"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · PARAM CAPITAL · BUY · 729729",
+          "row_ref": "06-NOV-2026 · ALIVUS · PARAM CAPITAL · BUY · 729729",
+          "quote": "NSE | ALIVUS | PARAM CAPITAL | BUY | 7,29,729 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1300a5f3b07f8468",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 7,29,729 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ola_electric_mobility_bulk_deal_2026w44",
+          "company": "Ola Electric Mobility Ltd",
+          "name_as_printed": "PARAM CAPITAL",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PARAM CAPITAL' / 'PARAM CAPITAL'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_sanshi_fund_i_bought",
+      "name_as_printed": "SANSHI FUND - I",
+      "names_as_printed": [
+        "SANSHI FUND - I"
+      ],
+      "name_clean": "sanshi fund - i",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a983fed20fc704fd"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 200100,
+          "record_ids": [
+            "a983fed20fc704fd"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · SANSHI FUND - I · BUY · 200100",
+          "row_ref": "06-NOV-2026 · ALIVUS · SANSHI FUND - I · BUY · 200100",
+          "quote": "NSE | ALIVUS | SANSHI FUND - I | BUY | 2,00,100 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a983fed20fc704fd",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,00,100 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_setu_securities_private_limited_bought",
+      "name_as_printed": "SETU SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "SETU SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "setu securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "d076cb97513e3a48"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 410000,
+          "record_ids": [
+            "d076cb97513e3a48"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · SETU SECURITIES PRIVATE LIMITED · BUY · 410000",
+          "row_ref": "06-NOV-2026 · ALIVUS · SETU SECURITIES PRIVATE LIMITED · BUY · 410000",
+          "quote": "NSE | ALIVUS | SETU SECURITIES PRIVATE LIMITED | BUY | 4,10,000 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d076cb97513e3a48",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,10,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹17.43 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹29.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹28.72 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "indo_tech_transformers_li_bulk_deal_2026w44",
+          "company": "Indo Tech Transformers Li",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹72.95 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "indo_tech_transformers_li_bulk_deal_2026w44",
+          "company": "Indo Tech Transformers Li",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "vishal_nirmiti_bulk_deal_2026w44",
+          "company": "Vishal Nirmiti Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹2.46 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "vishal_nirmiti_bulk_deal_2026w44",
+          "company": "Vishal Nirmiti Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PRIVATE LIMITED' / 'SETU SECURITIES PVT LTD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_subhkam_ventures_i_pvt_ltd_bought",
+      "name_as_printed": "SUBHKAM VENTURES I PVT LTD",
+      "names_as_printed": [
+        "SUBHKAM VENTURES I PVT LTD"
+      ],
+      "name_clean": "subhkam ventures i pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ventures'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a936929c8e2ac8f8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 250000,
+          "record_ids": [
+            "a936929c8e2ac8f8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · ALIVUS · SUBHKAM VENTURES I PVT LTD · BUY · 250000",
+          "row_ref": "06-NOV-2026 · ALIVUS · SUBHKAM VENTURES I PVT LTD · BUY · 250000",
+          "quote": "NSE | ALIVUS | SUBHKAM VENTURES I PVT LTD | BUY | 2,50,000 shares | price 1370 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a936929c8e2ac8f8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,50,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 8,
+    "by_holder_type": {
+      "entity": 8
+    },
+    "by_confidence": {
+      "high": 8
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 7,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 8
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 8,
+    "follow_on_matches": 11
+  }
+}

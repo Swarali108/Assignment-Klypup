@@ -1,0 +1,43 @@
+{
+  "event_id": "jubilant_foodworks_insider_sale_2026w46",
+  "callable": [],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_jfl_employee_welfare_trust",
+      "name_as_printed": "JFL Employee Welfare Trust",
+      "name_clean": "jfl employee welfare trust",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "transferred 59,063 shares (ESOP) on 11 Nov 2026",
+      "amount_display": "not applicable: not a sale for cash (mode as printed: ESOP)",
+      "timing_display": "not applicable: not a sale for cash (mode as printed: ESOP)",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Transferred shares by ESOP (mode as printed): not a sale for cash, so no money from this event.",
+      "rank": 1,
+      "rank_reasons": [
+        "Transferred shares by ESOP (mode as printed): not a sale for cash, so no money from this event.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

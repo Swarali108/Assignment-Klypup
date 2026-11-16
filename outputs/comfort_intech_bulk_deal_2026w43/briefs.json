@@ -1,0 +1,115 @@
+{
+  "event_id": "comfort_intech_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_nikunj_jagadishchandra_purohit",
+      "name_as_printed": "NIKUNJ JAGADISHCHANDRA PUROHIT",
+      "fields": {
+        "name": "NIKUNJ JAGADISHCHANDRA PUROHIT",
+        "role": "unknown",
+        "why_money": "sold 34,86,365 shares in bulk deals on 21 Oct 2026 and 22 Oct 2026",
+        "amount": "₹3.55 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.55 crore (34,66,365 shares × ₹10.19 = ₹3.53 crore (NSE 21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365); 20,000 shares × ₹11.02 = ₹2.20 lakh (NSE 22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000); total ₹3.55 crore)",
+        "family_link": "'NIKUNJ JAGADISHCHANDRA PUROHIT' and 'NIKUNJ JAGADISHCHANDRA PUROHIT' share surname 'purohit' and middle name 'jagadishchandra'"
+      },
+      "placeholders": {
+        "name": "NIKUNJ JAGADISHCHANDRA PUROHIT",
+        "role": "unknown",
+        "amount": "₹3.55 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹3.55 crore",
+        "shares_offered": "34,86,365 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "NIKUNJ JAGADISHCHANDRA PUROHIT is a unknown who sold 34,86,365 shares in bulk deals, so money is coming to them.",
+        "They are receiving ₹3.55 crore, and proceeds were settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "Their family link to another holder with the same surname is a natural opener for a wider relationship conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold shares in bulk deals on 21 and 22 October 2026, so money is coming to them.",
+            "They are receiving {proceeds}, with proceeds settled {timing}.",
+            "Their family link to another holder with the same surname is a natural opener for a wider relationship conversation."
+          ],
+          "lines": [
+            "{name} sold shares in bulk deals on 21 and 22 October 2026, so money is coming to them.",
+            "They are receiving {proceeds}, with proceeds settled {timing}.",
+            "Their family link to another holder with the same surname is a natural opener for a wider relationship conversation."
+          ],
+          "problem": "writes numbers instead of placeholders: 21, 22, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in bulk deals, so money is coming to them.",
+            "They are receiving {amount}, and proceeds were {timing}.",
+            "Their family link to another holder with the same surname is a natural opener for a wider relationship conversation."
+          ],
+          "lines": [
+            "NIKUNJ JAGADISHCHANDRA PUROHIT is a unknown who sold 34,86,365 shares in bulk deals, so money is coming to them.",
+            "They are receiving ₹3.55 crore, and proceeds were settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+            "Their family link to another holder with the same surname is a natural opener for a wider relationship conversation."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nikunj_shah",
+      "name_as_printed": "NIKUNJ SHAH",
+      "fields": {
+        "name": "NIKUNJ SHAH",
+        "role": "unknown",
+        "why_money": "sold 20,00,006 shares in a bulk deal on 21 Oct 2026",
+        "amount": "₹2.03 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.03 crore (20,00,006 shares × ₹10.14 = ₹2.03 crore (NSE 21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006))"
+      },
+      "placeholders": {
+        "name": "NIKUNJ SHAH",
+        "role": "unknown",
+        "amount": "₹2.03 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹2.03 crore",
+        "shares_offered": "20,00,006 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "NIKUNJ SHAH sold 20,00,006 shares in a bulk deal, so money is coming to them from that sale.",
+        "Proceeds of ₹2.03 crore were settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "Role is unknown, so confirm their relationship to the company before the call.",
+        "Ask whether they plan to reinvest the proceeds through the firm."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Role is unknown, so confirm their relationship to the company before the call.",
+            "Ask whether they plan to reinvest the proceeds through the firm."
+          ],
+          "lines": [
+            "NIKUNJ SHAH sold 20,00,006 shares in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of ₹2.03 crore were settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+            "Role is unknown, so confirm their relationship to the company before the call.",
+            "Ask whether they plan to reinvest the proceeds through the firm."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

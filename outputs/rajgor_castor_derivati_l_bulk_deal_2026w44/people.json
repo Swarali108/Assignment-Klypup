@@ -1,0 +1,422 @@
+{
+  "event_id": "rajgor_castor_derivati_l_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "16.75",
+    "high": "16.9",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹16.75",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+            "row_ref": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+            "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 4,05,000 shares | price 16.75 | 2026-10-27"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹16.9",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+            "row_ref": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+            "quote": "NSE | RCDL | CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND | SELL | 2,88,000 shares | price 16.9 | 2026-10-28"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026 to 28 Oct 2026",
+    "sale_date_parsed": "2026-10-28",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "10,56,000 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_craft_emerging_market_fund_pcc_elite_capital_fund",
+      "name_as_printed": "CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND",
+      "names_as_printed": [
+        "CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND"
+      ],
+      "name_clean": "craft emerging market fund pcc-elite capital fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "10af28c49fac85f5"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 288000,
+          "record_ids": [
+            "10af28c49fac85f5"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+          "row_ref": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+          "quote": "NSE | RCDL | CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND | SELL | 2,88,000 shares | price 16.9 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "10af28c49fac85f5",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,88,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "4867200.0",
+          "rupees_high": "4867200.0",
+          "crore_low": "0.49",
+          "crore_high": "0.49",
+          "display": "₹48.67 lakh",
+          "working": "2,88,000 shares × ₹16.9 = ₹48.67 lakh (NSE 28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,88,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+                  "row_ref": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+                  "quote": "NSE | RCDL | CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND | SELL | 2,88,000 shares | price 16.9 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹16.9",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+                  "row_ref": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+                  "quote": "NSE | RCDL | CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND | SELL | 2,88,000 shares | price 16.9 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+                  "row_ref": "28-OCT-2026 · RCDL · CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND · SELL · 288000",
+                  "quote": "NSE | RCDL | CRAFT EMERGING MARKET FUND PCC-ELITE CAPITAL FUND | SELL | 2,88,000 shares | price 16.9 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        }
+      },
+      "why_money": "sold 2,88,000 shares in a bulk deal on 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fivex_capital_vcc_fivex_emerging_star_fund",
+      "name_as_printed": "FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND",
+      "names_as_printed": [
+        "FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND"
+      ],
+      "name_clean": "fivex capital vcc - fivex emerging star fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "db04112844469aec",
+        "c00f7d755e42cc51"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 405000,
+          "record_ids": [
+            "db04112844469aec"
+          ]
+        },
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 363000,
+          "record_ids": [
+            "c00f7d755e42cc51"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+          "row_ref": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+          "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 4,05,000 shares | price 16.75 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "db04112844469aec",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+          "row_ref": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+          "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 3,63,000 shares | price 16.86 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c00f7d755e42cc51",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,68,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "12903930.00",
+          "rupees_high": "12903930.00",
+          "crore_low": "1.29",
+          "crore_high": "1.29",
+          "display": "₹1.29 crore",
+          "working": "4,05,000 shares × ₹16.75 = ₹67.84 lakh (NSE 27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000); 3,63,000 shares × ₹16.86 = ₹61.20 lakh (NSE 28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000); total ₹1.29 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,05,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+                  "row_ref": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+                  "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 4,05,000 shares | price 16.75 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹16.75",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+                  "row_ref": "27-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 405000",
+                  "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 4,05,000 shares | price 16.75 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "3,63,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+                  "row_ref": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+                  "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 3,63,000 shares | price 16.86 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹16.86",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+                  "row_ref": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+                  "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 3,63,000 shares | price 16.86 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+                  "row_ref": "28-OCT-2026 · RCDL · FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND · SELL · 363000",
+                  "quote": "NSE | RCDL | FIVEX CAPITAL VCC - FIVEX EMERGING STAR FUND | SELL | 3,63,000 shares | price 16.86 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 7,68,000 shares in bulk deals on 27 Oct 2026 and 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 0
+  }
+}

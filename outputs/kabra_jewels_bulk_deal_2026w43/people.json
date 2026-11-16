@@ -1,0 +1,440 @@
+{
+  "event_id": "kabra_jewels_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "118",
+    "high": "119.31",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹118",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+            "row_ref": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+            "quote": "NSE | KKJEWELS | VARUN DARSHAN SHAH | SELL | 63,000 shares | price 118 | 2026-10-19"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹119.31",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+            "row_ref": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+            "quote": "NSE | KKJEWELS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 40,000 shares | price 119.31 | 2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "19 Oct 2026",
+    "sale_date_parsed": "2026-10-19",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,03,000 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "NEO APEX SHARE BROKING SERVICES LLP"
+      ],
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c3558a96abed6bb2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 40000,
+          "record_ids": [
+            "c3558a96abed6bb2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+          "row_ref": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+          "quote": "NSE | KKJEWELS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 40,000 shares | price 119.31 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c3558a96abed6bb2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "40,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "4772400.00",
+          "rupees_high": "4772400.00",
+          "crore_low": "0.48",
+          "crore_high": "0.48",
+          "display": "₹47.72 lakh",
+          "working": "40,000 shares × ₹119.31 = ₹47.72 lakh (NSE 19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "40,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+                  "row_ref": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+                  "quote": "NSE | KKJEWELS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 40,000 shares | price 119.31 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹119.31",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+                  "row_ref": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+                  "quote": "NSE | KKJEWELS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 40,000 shares | price 119.31 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+                  "row_ref": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 40000",
+                  "quote": "NSE | KKJEWELS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 40,000 shares | price 119.31 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 40,000 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp_bought",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "NEO APEX SHARE BROKING SERVICES LLP"
+      ],
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "62e86a67efd48121"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 120000,
+          "record_ids": [
+            "62e86a67efd48121"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · BUY · 120000",
+          "row_ref": "19-OCT-2026 · KKJEWELS · NEO APEX SHARE BROKING SERVICES LLP · BUY · 120000",
+          "quote": "NSE | KKJEWELS | NEO APEX SHARE BROKING SERVICES LLP | BUY | 1,20,000 shares | price 117.82 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "62e86a67efd48121",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,20,000 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_varun_darshan_shah",
+      "name_as_printed": "VARUN DARSHAN SHAH",
+      "names_as_printed": [
+        "VARUN DARSHAN SHAH"
+      ],
+      "name_clean": "varun darshan shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "fdeba635af145b8a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 63000,
+          "record_ids": [
+            "fdeba635af145b8a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+          "row_ref": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+          "quote": "NSE | KKJEWELS | VARUN DARSHAN SHAH | SELL | 63,000 shares | price 118 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "fdeba635af145b8a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "63,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "7434000",
+          "rupees_high": "7434000",
+          "crore_low": "0.74",
+          "crore_high": "0.74",
+          "display": "₹74.34 lakh",
+          "working": "63,000 shares × ₹118 = ₹74.34 lakh (NSE 19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "63,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+                  "row_ref": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+                  "quote": "NSE | KKJEWELS | VARUN DARSHAN SHAH | SELL | 63,000 shares | price 118 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹118",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+                  "row_ref": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+                  "quote": "NSE | KKJEWELS | VARUN DARSHAN SHAH | SELL | 63,000 shares | price 118 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+                  "row_ref": "19-OCT-2026 · KKJEWELS · VARUN DARSHAN SHAH · SELL · 63000",
+                  "quote": "NSE | KKJEWELS | VARUN DARSHAN SHAH | SELL | 63,000 shares | price 118 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 63,000 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 1
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "event_id": "iifl_capital_services_bulk_deal_2026w46",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_alpha_alternatives_financial_services_private_limited",
+      "name_as_printed": "ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED",
+      "name_clean": "alpha alternatives financial services private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "84.04",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "84.04000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "84.04",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "84.04000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "84.04",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "84.04000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 23,69,139 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹84.04 crore",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹84.04 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 84.04 = ₹84.04 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_arvesta_financial_services_private_limited",
+      "name_as_printed": "ARVESTA FINANCIAL SERVICES PRIVATE LIMITED",
+      "name_clean": "arvesta financial services private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "73.73",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "73.73000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "73.73",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "73.73000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "73.73",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "73.73000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 20,81,589 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹73.73 crore",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹73.73 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 73.73 = ₹73.73 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_neo_treasury_plus_fund",
+      "name_as_printed": "NEO TREASURY PLUS FUND",
+      "name_clean": "neo treasury plus fund",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "66.35",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "66.35000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "66.35",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "66.35000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "66.35",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "66.35000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 18,65,000 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹66.35 crore",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹66.35 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 66.35 = ₹66.35 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

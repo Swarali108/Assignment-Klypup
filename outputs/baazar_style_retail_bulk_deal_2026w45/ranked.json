@@ -1,0 +1,62 @@
+{
+  "event_id": "baazar_style_retail_bulk_deal_2026w45",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_columbia_bio_fuels_private_limited",
+      "name_as_printed": "COLUMBIA BIO FUELS PRIVATE LIMITED",
+      "name_clean": "columbia bio fuels private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.04",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.04000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 7,
+        "label": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "money_crore": "0.04",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.04000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 7,
+          "label": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "money_crore": "0.04",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.04000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,098 shares in a bulk deal on 6 Nov 2026",
+      "amount_display": "₹4.21 lakh",
+      "timing_display": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹4.21 lakh; settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.04 = ₹0.04 crore (proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

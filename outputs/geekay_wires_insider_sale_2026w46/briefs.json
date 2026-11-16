@@ -1,0 +1,111 @@
+{
+  "event_id": "geekay_wires_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ankush_agarwal_huf",
+      "name_as_printed": "ANKUSH AGARWAL HUF",
+      "fields": {
+        "name": "ANKUSH AGARWAL HUF",
+        "role": "Promoter",
+        "why_money": "sold 7,000 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹1.89 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.89 lakh (7,000 shares, value as printed ₹1.89 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "ANKUSH AGARWAL HUF",
+        "role": "Promoter",
+        "amount": "₹1.89 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹1.89 lakh",
+        "shares_offered": "7,000 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "ANKUSH AGARWAL HUF is a Promoter who sold 7,000 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹1.89 lakh were settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), which was 4 days ago.",
+        "Ask how they plan to use the ₹1.89 lakh proceeds, since the sale has already settled."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} were settled {event_age}, after the trade on 11 Nov 2026.",
+            "Ask how they plan to use the {amount} proceeds, since the sale has already settled."
+          ],
+          "lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} were settled {event_age}, after the trade on 11 Nov 2026.",
+            "Ask how they plan to use the {amount} proceeds, since the sale has already settled."
+          ],
+          "problem": "writes numbers instead of placeholders: 11, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}, which was {event_age}.",
+            "Ask how they plan to use the {amount} proceeds, since the sale has already settled."
+          ],
+          "lines": [
+            "ANKUSH AGARWAL HUF is a Promoter who sold 7,000 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹1.89 lakh were settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), which was 4 days ago.",
+            "Ask how they plan to use the ₹1.89 lakh proceeds, since the sale has already settled."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_praveen_kumar_agarwal_huf",
+      "name_as_printed": "PRAVEEN KUMAR AGARWAL HUF",
+      "fields": {
+        "name": "PRAVEEN KUMAR AGARWAL HUF",
+        "role": "Promoter",
+        "why_money": "sold 7,600 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹2.03 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.03 lakh (7,600 shares, value as printed ₹2.03 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "PRAVEEN KUMAR AGARWAL HUF",
+        "role": "Promoter",
+        "amount": "₹2.03 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹2.03 lakh",
+        "shares_offered": "7,600 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "PRAVEEN KUMAR AGARWAL HUF is a Promoter who sold 7,600 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹2.03 lakh settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), which is recent.",
+        "Ask whether they plan to reinvest the proceeds, since this is their first liquidity event in view."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}, which is recent.",
+            "Ask whether they plan to reinvest the proceeds, since this is their first liquidity event in view."
+          ],
+          "lines": [
+            "PRAVEEN KUMAR AGARWAL HUF is a Promoter who sold 7,600 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹2.03 lakh settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), which is recent.",
+            "Ask whether they plan to reinvest the proceeds, since this is their first liquidity event in view."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

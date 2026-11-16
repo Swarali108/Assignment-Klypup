@@ -1,0 +1,62 @@
+{
+  "event_id": "ola_electric_mobility_bulk_deal_2026w43",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_svf_ii_ostrich_de_llc",
+      "name_as_printed": "SVF II OSTRICH (DE) LLC",
+      "name_clean": "svf ii ostrich (de) llc",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "3.89",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "3.89000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 24,
+        "label": "proceeds settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "money_crore": "3.89",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "3.89000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 24,
+          "label": "proceeds settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "money_crore": "3.89",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "3.89000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,21,01,185 shares in bulk deals on 22 Oct 2026 and 23 Oct 2026",
+      "amount_display": "₹3.89 crore",
+      "timing_display": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹3.89 crore; settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 3.89 = ₹3.89 crore (proceeds settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

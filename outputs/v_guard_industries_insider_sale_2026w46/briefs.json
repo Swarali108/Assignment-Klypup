@@ -1,0 +1,65 @@
+{
+  "event_id": "v_guard_industries_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ramachandran_venkataraman",
+      "name_as_printed": "RAMACHANDRAN VENKATARAMAN",
+      "fields": {
+        "name": "RAMACHANDRAN VENKATARAMAN",
+        "role": "Director",
+        "why_money": "sold 10,000 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹30.00 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹30.00 lakh (10,000 shares, value as printed ₹30.00 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "RAMACHANDRAN VENKATARAMAN",
+        "role": "Director",
+        "amount": "₹30.00 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹30.00 lakh",
+        "shares_offered": "10,000 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "RAMACHANDRAN VENKATARAMAN, a Director, sold 10,000 shares on a market sale and is receiving the proceeds.",
+        "Proceeds of ₹30.00 lakh were settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), so the money has already arrived.",
+        "Ask whether they plan to reinvest the proceeds, and let them lead on their own priorities."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a {role}, sold {shares_offered} on 11 Nov 2026 and is receiving the proceeds.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money has already arrived.",
+            "Ask whether they plan to reinvest the proceeds, and let them lead on their own priorities."
+          ],
+          "lines": [
+            "{name}, a {role}, sold {shares_offered} on 11 Nov 2026 and is receiving the proceeds.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money has already arrived.",
+            "Ask whether they plan to reinvest the proceeds, and let them lead on their own priorities."
+          ],
+          "problem": "writes numbers instead of placeholders: 11, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, a {role}, sold {shares_offered} on a market sale and is receiving the proceeds.",
+            "Proceeds of {proceeds} were {timing}, so the money has already arrived.",
+            "Ask whether they plan to reinvest the proceeds, and let them lead on their own priorities."
+          ],
+          "lines": [
+            "RAMACHANDRAN VENKATARAMAN, a Director, sold 10,000 shares on a market sale and is receiving the proceeds.",
+            "Proceeds of ₹30.00 lakh were settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), so the money has already arrived.",
+            "Ask whether they plan to reinvest the proceeds, and let them lead on their own priorities."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

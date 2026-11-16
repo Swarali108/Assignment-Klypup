@@ -1,0 +1,171 @@
+{
+  "event_id": "spacenet_ofs",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_lanka_divyabharathi",
+      "name_as_printed": "Lanka Divyabharathi",
+      "fields": {
+        "name": "Lanka Divyabharathi",
+        "role": "Promoter Group",
+        "why_money": "sells in the offer for sale through the stock exchange; own shares not printed",
+        "amount": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "timing": "settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event": "proceeds settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event_age": "208 days ago",
+        "event_is": "old",
+        "proceeds": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "unknowns": [
+          "amount: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+          "proceeds: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        ]
+      },
+      "placeholders": {
+        "name": "Lanka Divyabharathi",
+        "role": "Promoter Group",
+        "amount": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "timing": "settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event_age": "208 days ago"
+      },
+      "lines": [
+        "Lanka Divyabharathi is a Promoter Group selling shares in the offer for sale, so money is coming to them.",
+        "The sale settled settles after the sale on 21 Apr 2026 (6 months ago), and the amount is unknown because the notice gives only the combined total.",
+        "Ask Lanka Divyabharathi about the sale and whether they want help planning the proceeds.",
+        "Caveat: this seller's own share count and proceeds are not printed in the notice."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} selling shares in the offer for sale, so money is coming to them.",
+            "The sale settled {timing}, and the amount is unknown because the notice gives only the combined total.",
+            "Ask {name} about the sale and whether they want help planning the proceeds.",
+            "Caveat: this seller's own share count and proceeds are not printed in the notice."
+          ],
+          "lines": [
+            "Lanka Divyabharathi is a Promoter Group selling shares in the offer for sale, so money is coming to them.",
+            "The sale settled settles after the sale on 21 Apr 2026 (6 months ago), and the amount is unknown because the notice gives only the combined total.",
+            "Ask Lanka Divyabharathi about the sale and whether they want help planning the proceeds.",
+            "Caveat: this seller's own share count and proceeds are not printed in the notice."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_pendurthi_annapurna",
+      "name_as_printed": "Pendurthi Annapurna",
+      "fields": {
+        "name": "Pendurthi Annapurna",
+        "role": "Promoter Group",
+        "why_money": "sells in the offer for sale through the stock exchange; own shares not printed",
+        "amount": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "timing": "settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event": "proceeds settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event_age": "208 days ago",
+        "event_is": "old",
+        "proceeds": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "unknowns": [
+          "amount: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+          "proceeds: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        ]
+      },
+      "placeholders": {
+        "name": "Pendurthi Annapurna",
+        "role": "Promoter Group",
+        "amount": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "timing": "settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event_age": "208 days ago"
+      },
+      "lines": [
+        "Pendurthi Annapurna (Promoter Group) sells in the offer for sale through the stock exchange; own shares not printed.",
+        "Amount not disclosed; settles after the sale on 21 Apr 2026 (6 months ago).",
+        "Ask about their plans for the holding.",
+        "Not known yet: amount: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "unknown placeholders: {timing_short}",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} selling shares in an offer for sale, so money is coming to them.",
+            "Proceeds settled after the sale on 21 Apr 2026, {event_age} ago, so the money has likely already arrived.",
+            "Amount unknown: the notice prints shares for all sellers together, not this holder's own shares."
+          ],
+          "lines": [
+            "{name} is a {role} selling shares in an offer for sale, so money is coming to them.",
+            "Proceeds settled after the sale on 21 Apr 2026, {event_age} ago, so the money has likely already arrived.",
+            "Amount unknown: the notice prints shares for all sellers together, not this holder's own shares."
+          ],
+          "problem": "writes numbers instead of placeholders: 21, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} selling shares in an offer for sale, so money is coming to them.",
+            "Proceeds settled {timing_short}, so the money has likely already arrived, {event_age} ago.",
+            "Amount unknown: the notice prints shares for all sellers together, not this holder's own shares."
+          ],
+          "lines": [
+            "{name} is a {role} selling shares in an offer for sale, so money is coming to them.",
+            "Proceeds settled {timing_short}, so the money has likely already arrived, {event_age} ago.",
+            "Amount unknown: the notice prints shares for all sellers together, not this holder's own shares."
+          ],
+          "problem": "unknown placeholders: {timing_short}"
+        }
+      ]
+    },
+    {
+      "person_id": "p_yaralagadda_venkat_subba_rao",
+      "name_as_printed": "Yaralagadda Venkat Subba Rao",
+      "fields": {
+        "name": "Yaralagadda Venkat Subba Rao",
+        "role": "Promoter Group",
+        "why_money": "sells in the offer for sale through the stock exchange; own shares not printed",
+        "amount": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "timing": "settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event": "proceeds settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event_age": "208 days ago",
+        "event_is": "old",
+        "proceeds": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "unknowns": [
+          "amount: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+          "proceeds: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares"
+        ]
+      },
+      "placeholders": {
+        "name": "Yaralagadda Venkat Subba Rao",
+        "role": "Promoter Group",
+        "amount": "unknown: the notice prints up to 38,10,000 shares for all sellers together, not this seller's own shares",
+        "timing": "settles after the sale on 21 Apr 2026 (6 months ago)",
+        "event_age": "208 days ago"
+      },
+      "lines": [
+        "Yaralagadda Venkat Subba Rao, Promoter Group, is receiving money from shares sold in an offer for sale.",
+        "Settlement came after the sale on settles after the sale on 21 Apr 2026 (6 months ago), so the money is already in hand; the event was 208 days ago.",
+        "Their own share count was not printed, so the proceeds amount is unknown and should be confirmed before discussing it.",
+        "Frame the conversation around the timing of settlement and what reinvestment options they want to review."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Yaralagadda Venkat Subba Rao, Promoter Group, is receiving money from shares sold in an offer for sale.",
+            "Settlement came after the sale on {timing}, so the money is already in hand; the event was {event_age}.",
+            "Their own share count was not printed, so the proceeds amount is unknown and should be confirmed before discussing it.",
+            "Frame the conversation around the timing of settlement and what reinvestment options they want to review."
+          ],
+          "lines": [
+            "Yaralagadda Venkat Subba Rao, Promoter Group, is receiving money from shares sold in an offer for sale.",
+            "Settlement came after the sale on settles after the sale on 21 Apr 2026 (6 months ago), so the money is already in hand; the event was 208 days ago.",
+            "Their own share count was not printed, so the proceeds amount is unknown and should be confirmed before discussing it.",
+            "Frame the conversation around the timing of settlement and what reinvestment options they want to review."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

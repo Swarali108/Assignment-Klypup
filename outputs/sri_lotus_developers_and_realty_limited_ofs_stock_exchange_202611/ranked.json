@@ -1,0 +1,61 @@
+{
+  "event_id": "sri_lotus_developers_and_realty_limited_ofs_stock_exchange_202611",
+  "callable": [
+    {
+      "person_id": "p_anand_kamalnayan_pandit",
+      "name_as_printed": "Anand Kamalnayan Pandit",
+      "name_clean": "anand kamalnayan pandit",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "571.10",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "after_date",
+      "timing_weight": "0.8",
+      "recency_weight": "1.0",
+      "score": "319.81600",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "money_crore": "571.10",
+        "timing_status": "after_date",
+        "timing_weight": "0.8",
+        "recency_weight": "1.0",
+        "score": "319.81600"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+          "money_crore": "571.10",
+          "timing_status": "after_date",
+          "timing_weight": "0.8",
+          "recency_weight": "1.0",
+          "score": "319.81600"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sells 2,37,95,818 shares in the offer for sale through the stock exchange",
+      "amount_display": "₹571.10 crore (at floor price; actual sale price not verified; may be higher)",
+      "timing_display": "settles after the sale on 3 Nov 2026 (13 days ago)",
+      "timing_display_status": "after_date",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹571.10 crore (at floor price; actual sale price not verified; may be higher); settles after the sale on 3 Nov 2026 (13 days ago).",
+        "score 319.82 = ₹571.10 crore (proceeds settles after the sale on 3 Nov 2026 (13 days ago)) × 0.7 (medium confidence) × 0.8 (timing after_date) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

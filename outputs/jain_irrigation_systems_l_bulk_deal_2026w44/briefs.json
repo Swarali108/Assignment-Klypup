@@ -1,0 +1,103 @@
+{
+  "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_nitn_kapoor_and_huf",
+      "name_as_printed": "NITN KAPOOR AND HUF",
+      "fields": {
+        "name": "NITN KAPOOR AND HUF",
+        "role": "unknown",
+        "why_money": "sold 1,38,81,270 shares in bulk deals on 27 Oct 2026 and 30 Oct 2026",
+        "amount": "₹37.33 crore",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹37.33 crore (42,71,556 shares × ₹25.28 = ₹10.80 crore (NSE 27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556); 96,09,714 shares × ₹27.61 = ₹26.53 crore (NSE 30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714); total ₹37.33 crore)",
+        "family_link": "'NITN KAPOOR AND HUF' and 'NITN KAPOOR AND HUF' share surname 'and' and middle name 'kapoor'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      },
+      "placeholders": {
+        "name": "NITN KAPOOR AND HUF",
+        "role": "unknown",
+        "amount": "₹37.33 crore",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "proceeds": "₹37.33 crore",
+        "shares_offered": "1,38,81,270 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "NITN KAPOOR AND HUF is a holder with unknown role, receiving money from selling 1,38,81,270 shares in bulk deals.",
+        "Proceeds of ₹37.33 crore settled settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago), and the sale was 19 days ago.",
+        "Their family link to another holder in the record may be a conversation angle.",
+        "Role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder with unknown role, receiving money from selling {shares_offered} in bulk deals.",
+            "Proceeds of {proceeds} settled {timing}, and the sale was {event_age}.",
+            "Their family link to another holder in the record may be a conversation angle.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "NITN KAPOOR AND HUF is a holder with unknown role, receiving money from selling 1,38,81,270 shares in bulk deals.",
+            "Proceeds of ₹37.33 crore settled settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago), and the sale was 19 days ago.",
+            "Their family link to another holder in the record may be a conversation angle.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nitn_kapoor",
+      "name_as_printed": "NITN KAPOOR",
+      "fields": {
+        "name": "NITN KAPOOR",
+        "role": "unknown",
+        "why_money": "sold 1,15,86,211 shares in a bulk deal on 30 Oct 2026",
+        "amount": "₹33.01 crore",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event_age": "14 days ago",
+        "event_is": "recent",
+        "proceeds": "₹33.01 crore (1,15,86,211 shares × ₹28.49 = ₹33.01 crore (NSE 30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211))",
+        "family_link": "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      },
+      "placeholders": {
+        "name": "NITN KAPOOR",
+        "role": "unknown",
+        "amount": "₹33.01 crore",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "proceeds": "₹33.01 crore",
+        "shares_offered": "1,15,86,211 shares",
+        "event_age": "14 days ago"
+      },
+      "lines": [
+        "NITN KAPOOR sold 1,15,86,211 shares in a bulk deal and is the holder receiving these proceeds.",
+        "₹33.01 crore arrived in hand, settled settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago).",
+        "Ask whether they plan to reinvest, given the sale closed 14 days ago."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal and is the holder receiving these proceeds.",
+            "{proceeds} arrived in hand, settled {timing}.",
+            "Ask whether they plan to reinvest, given the sale closed {event_age}."
+          ],
+          "lines": [
+            "NITN KAPOOR sold 1,15,86,211 shares in a bulk deal and is the holder receiving these proceeds.",
+            "₹33.01 crore arrived in hand, settled settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago).",
+            "Ask whether they plan to reinvest, given the sale closed 14 days ago."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

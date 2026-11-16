@@ -1,0 +1,2560 @@
+{
+  "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "51.44",
+    "high": "64.07",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹51.44",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+            "row_ref": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+            "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 2,67,144 shares | price 51.44 | 2026-10-26"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹64.07",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+            "row_ref": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+            "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 25,000 shares | price 64.07 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "26 Oct 2026 to 29 Oct 2026",
+    "sale_date_parsed": "2026-10-29",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "44,72,184 shares sold by 7 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 20,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_hrti_private_limited",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "40354c3c0cbf0965"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 602438,
+          "record_ids": [
+            "40354c3c0cbf0965"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+          "row_ref": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+          "quote": "NSE | DCMSRIND | HRTI PRIVATE LIMITED | SELL | 6,02,438 shares | price 52.54 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "40354c3c0cbf0965",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,02,438",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "31652092.52",
+          "rupees_high": "31652092.52",
+          "crore_low": "3.17",
+          "crore_high": "3.17",
+          "display": "₹3.17 crore",
+          "working": "6,02,438 shares × ₹52.54 = ₹3.17 crore (NSE 26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,02,438",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+                  "quote": "NSE | DCMSRIND | HRTI PRIVATE LIMITED | SELL | 6,02,438 shares | price 52.54 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹52.54",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+                  "quote": "NSE | DCMSRIND | HRTI PRIVATE LIMITED | SELL | 6,02,438 shares | price 52.54 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · SELL · 602438",
+                  "quote": "NSE | DCMSRIND | HRTI PRIVATE LIMITED | SELL | 6,02,438 shares | price 52.54 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 6,02,438 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹64.74 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹1.02 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹15.80 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited_bought",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "4c1904f536113ccc"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 608831,
+          "record_ids": [
+            "4c1904f536113ccc"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · BUY · 608831",
+          "row_ref": "26-OCT-2026 · DCMSRIND · HRTI PRIVATE LIMITED · BUY · 608831",
+          "quote": "NSE | DCMSRIND | HRTI PRIVATE LIMITED | BUY | 6,08,831 shares | price 52.47 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4c1904f536113ccc",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,08,831 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹64.74 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹1.02 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹15.80 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e3662b42ab056e5e",
+        "45295158448bce76"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 597349,
+          "record_ids": [
+            "e3662b42ab056e5e"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 495665,
+          "record_ids": [
+            "45295158448bce76"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349",
+          "row_ref": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349",
+          "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,97,349 shares | price 52.86 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e3662b42ab056e5e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+          "row_ref": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+          "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,95,665 shares | price 61.35 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "45295158448bce76",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "10,93,014",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "61984915.89",
+          "rupees_high": "61984915.89",
+          "crore_low": "6.20",
+          "crore_high": "6.20",
+          "display": "₹6.20 crore",
+          "working": "5,97,349 shares × ₹52.86 = ₹3.16 crore (NSE 26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349); 4,95,665 shares × ₹61.35 = ₹3.04 crore (NSE 29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665); total ₹6.20 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,97,349",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349",
+                  "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,97,349 shares | price 52.86 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹52.86",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 597349",
+                  "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,97,349 shares | price 52.86 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "4,95,665",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+                  "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,95,665 shares | price 61.35 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹61.35",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+                  "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,95,665 shares | price 61.35 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 495665",
+                  "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,95,665 shares | price 61.35 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 10,93,014 shares in bulk deals on 26 Oct 2026 and 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.76 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "glycols_bulk_deal_2026w44",
+          "company": "India Glycols Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.55 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "glycols_bulk_deal_2026w44",
+          "company": "India Glycols Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹14.03 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5ad7a65996731772",
+        "2d5fe32481af40e7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 592945,
+          "record_ids": [
+            "5ad7a65996731772"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 483628,
+          "record_ids": [
+            "2d5fe32481af40e7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 592945",
+          "row_ref": "26-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 592945",
+          "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 5,92,945 shares | price 52.73 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5ad7a65996731772",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 483628",
+          "row_ref": "29-OCT-2026 · DCMSRIND · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 483628",
+          "quote": "NSE | DCMSRIND | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 4,83,628 shares | price 60.88 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2d5fe32481af40e7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,76,573 shares in bulk deals on 26 Oct 2026 and 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.76 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "glycols_bulk_deal_2026w44",
+          "company": "India Glycols Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.55 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "glycols_bulk_deal_2026w44",
+          "company": "India Glycols Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹14.03 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mugi_constructions_private_limited",
+      "name_as_printed": "MUGI CONSTRUCTIONS PRIVATE LIMITED",
+      "names_as_printed": [
+        "MUGI CONSTRUCTIONS PRIVATE LIMITED"
+      ],
+      "name_clean": "mugi constructions private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "bb1d446903ec46dd",
+        "7175dd745471b49c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 267144,
+          "record_ids": [
+            "bb1d446903ec46dd"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 25000,
+          "record_ids": [
+            "7175dd745471b49c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+          "row_ref": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+          "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 2,67,144 shares | price 51.44 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bb1d446903ec46dd",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+          "row_ref": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+          "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 25,000 shares | price 64.07 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7175dd745471b49c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,92,144",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "15343637.36",
+          "rupees_high": "15343637.36",
+          "crore_low": "1.53",
+          "crore_high": "1.53",
+          "display": "₹1.53 crore",
+          "working": "2,67,144 shares × ₹51.44 = ₹1.37 crore (NSE 26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144); 25,000 shares × ₹64.07 = ₹16.02 lakh (NSE 29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000); total ₹1.53 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,67,144",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+                  "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 2,67,144 shares | price 51.44 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹51.44",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 267144",
+                  "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 2,67,144 shares | price 51.44 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "25,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+                  "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 25,000 shares | price 64.07 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹64.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+                  "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 25,000 shares | price 64.07 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · SELL · 25000",
+                  "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | SELL | 25,000 shares | price 64.07 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 2,92,144 shares in bulk deals on 26 Oct 2026 and 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MUGI CONSTRUCTIONS PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.86 lakh",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MUGI CONSTRUCTIONS PRIVATE LIMITED' / 'MUGI CONSTRUCTIONS PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MUGI CONSTRUCTIONS PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MUGI CONSTRUCTIONS PRIVATE LIMITED' / 'MUGI CONSTRUCTIONS PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mugi_constructions_private_limited_bought",
+      "name_as_printed": "MUGI CONSTRUCTIONS PRIVATE LIMITED",
+      "names_as_printed": [
+        "MUGI CONSTRUCTIONS PRIVATE LIMITED"
+      ],
+      "name_clean": "mugi constructions private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "d465e5bc424841fd",
+        "2c9efa57372f1eb8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 500000,
+          "record_ids": [
+            "d465e5bc424841fd"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1394740,
+          "record_ids": [
+            "2c9efa57372f1eb8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · BUY · 500000",
+          "row_ref": "26-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · BUY · 500000",
+          "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | BUY | 5,00,000 shares | price 52.38 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d465e5bc424841fd",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · BUY · 1394740",
+          "row_ref": "29-OCT-2026 · DCMSRIND · MUGI CONSTRUCTIONS PRIVATE LIMITED · BUY · 1394740",
+          "quote": "NSE | DCMSRIND | MUGI CONSTRUCTIONS PRIVATE LIMITED | BUY | 13,94,740 shares | price 58.86 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2c9efa57372f1eb8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 18,94,740 shares in bulk deals on 26 Oct 2026 and 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MUGI CONSTRUCTIONS PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.86 lakh",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MUGI CONSTRUCTIONS PRIVATE LIMITED' / 'MUGI CONSTRUCTIONS PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MUGI CONSTRUCTIONS PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MUGI CONSTRUCTIONS PRIVATE LIMITED' / 'MUGI CONSTRUCTIONS PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "8d6411fa1f184bf3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 521102,
+          "record_ids": [
+            "8d6411fa1f184bf3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+          "row_ref": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+          "quote": "NSE | DCMSRIND | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 5,21,102 shares | price 52.37 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8d6411fa1f184bf3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,21,102",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "27290111.74",
+          "rupees_high": "27290111.74",
+          "crore_low": "2.73",
+          "crore_high": "2.73",
+          "display": "₹2.73 crore",
+          "working": "5,21,102 shares × ₹52.37 = ₹2.73 crore (NSE 26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,21,102",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+                  "quote": "NSE | DCMSRIND | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 5,21,102 shares | price 52.37 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹52.37",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+                  "quote": "NSE | DCMSRIND | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 5,21,102 shares | price 52.37 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 521102",
+                  "quote": "NSE | DCMSRIND | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 5,21,102 shares | price 52.37 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 5,21,102 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹30.56 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.11 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "orient_technologies_bulk_deal_2026w43",
+          "company": "Orient Technologies Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "orient_technologies_bulk_deal_2026w43",
+          "company": "Orient Technologies Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "549601cab2c74ee7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 521102,
+          "record_ids": [
+            "549601cab2c74ee7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 521102",
+          "row_ref": "26-OCT-2026 · DCMSRIND · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 521102",
+          "quote": "NSE | DCMSRIND | NK SECURITIES RESEARCH PRIVATE LIMITED | BUY | 5,21,102 shares | price 52.34 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "549601cab2c74ee7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,21,102 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹30.56 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.11 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "orient_technologies_bulk_deal_2026w43",
+          "company": "Orient Technologies Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "orient_technologies_bulk_deal_2026w43",
+          "company": "Orient Technologies Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "names_as_printed": [
+        "PLUTUS WEALTH MANAGEMENT LLP"
+      ],
+      "name_clean": "plutus wealth management llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "2e5a7545b93489b3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 560303,
+          "record_ids": [
+            "2e5a7545b93489b3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+          "row_ref": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+          "quote": "NSE | DCMSRIND | PLUTUS WEALTH MANAGEMENT LLP | SELL | 5,60,303 shares | price 52.91 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2e5a7545b93489b3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,60,303",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "29645631.73",
+          "rupees_high": "29645631.73",
+          "crore_low": "2.96",
+          "crore_high": "2.96",
+          "display": "₹2.96 crore",
+          "working": "5,60,303 shares × ₹52.91 = ₹2.96 crore (NSE 26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,60,303",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+                  "quote": "NSE | DCMSRIND | PLUTUS WEALTH MANAGEMENT LLP | SELL | 5,60,303 shares | price 52.91 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹52.91",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+                  "quote": "NSE | DCMSRIND | PLUTUS WEALTH MANAGEMENT LLP | SELL | 5,60,303 shares | price 52.91 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · SELL · 560303",
+                  "quote": "NSE | DCMSRIND | PLUTUS WEALTH MANAGEMENT LLP | SELL | 5,60,303 shares | price 52.91 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 5,60,303 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹14.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp_bought",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "names_as_printed": [
+        "PLUTUS WEALTH MANAGEMENT LLP"
+      ],
+      "name_clean": "plutus wealth management llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "30207d73d5ec68e1"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 560303,
+          "record_ids": [
+            "30207d73d5ec68e1"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · BUY · 560303",
+          "row_ref": "26-OCT-2026 · DCMSRIND · PLUTUS WEALTH MANAGEMENT LLP · BUY · 560303",
+          "quote": "NSE | DCMSRIND | PLUTUS WEALTH MANAGEMENT LLP | BUY | 5,60,303 shares | price 52.87 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "30207d73d5ec68e1",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,60,303 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹14.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "95ed53e695cb301a",
+        "33344a41f8af7610"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 582116,
+          "record_ids": [
+            "95ed53e695cb301a"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 465498,
+          "record_ids": [
+            "33344a41f8af7610"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116",
+          "row_ref": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116",
+          "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 5,82,116 shares | price 52.56 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "95ed53e695cb301a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+          "row_ref": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+          "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 4,65,498 shares | price 60.29 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "33344a41f8af7610",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "10,47,614",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "58660891.38",
+          "rupees_high": "58660891.38",
+          "crore_low": "5.87",
+          "crore_high": "5.87",
+          "display": "₹5.87 crore",
+          "working": "5,82,116 shares × ₹52.56 = ₹3.06 crore (NSE 26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116); 4,65,498 shares × ₹60.29 = ₹2.81 crore (NSE 29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498); total ₹5.87 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,82,116",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116",
+                  "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 5,82,116 shares | price 52.56 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹52.56",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 582116",
+                  "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 5,82,116 shares | price 52.56 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "4,65,498",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+                  "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 4,65,498 shares | price 60.29 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹60.29",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+                  "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 4,65,498 shares | price 60.29 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+                  "row_ref": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · SELL · 465498",
+                  "quote": "NSE | DCMSRIND | QE SECURITIES LLP | SELL | 4,65,498 shares | price 60.29 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 10,47,614 shares in bulk deals on 26 Oct 2026 and 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "7d24859371a0c76f",
+        "e5aa442a2467a047"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 584476,
+          "record_ids": [
+            "7d24859371a0c76f"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 465511,
+          "record_ids": [
+            "e5aa442a2467a047"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · BUY · 584476",
+          "row_ref": "26-OCT-2026 · DCMSRIND · QE SECURITIES LLP · BUY · 584476",
+          "quote": "NSE | DCMSRIND | QE SECURITIES LLP | BUY | 5,84,476 shares | price 52.18 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7d24859371a0c76f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · BUY · 465511",
+          "row_ref": "29-OCT-2026 · DCMSRIND · QE SECURITIES LLP · BUY · 465511",
+          "quote": "NSE | DCMSRIND | QE SECURITIES LLP | BUY | 4,65,511 shares | price 60.49 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e5aa442a2467a047",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,49,987 shares in bulk deals on 26 Oct 2026 and 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vivek_drolia",
+      "name_as_printed": "VIVEK DROLIA",
+      "names_as_printed": [
+        "VIVEK DROLIA"
+      ],
+      "name_clean": "vivek drolia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "51b174135061f733"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 355569,
+          "record_ids": [
+            "51b174135061f733"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+          "row_ref": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+          "quote": "NSE | DCMSRIND | VIVEK DROLIA | SELL | 3,55,569 shares | price 52.73 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "51b174135061f733",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,55,569",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "18749153.37",
+          "rupees_high": "18749153.37",
+          "crore_low": "1.87",
+          "crore_high": "1.87",
+          "display": "₹1.87 crore",
+          "working": "3,55,569 shares × ₹52.73 = ₹1.87 crore (NSE 26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,55,569",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+                  "quote": "NSE | DCMSRIND | VIVEK DROLIA | SELL | 3,55,569 shares | price 52.73 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹52.73",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+                  "quote": "NSE | DCMSRIND | VIVEK DROLIA | SELL | 3,55,569 shares | price 52.73 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+                  "row_ref": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · SELL · 355569",
+                  "quote": "NSE | DCMSRIND | VIVEK DROLIA | SELL | 3,55,569 shares | price 52.73 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 3,55,569 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vivek_drolia_bought",
+      "name_as_printed": "VIVEK DROLIA",
+      "names_as_printed": [
+        "VIVEK DROLIA"
+      ],
+      "name_clean": "vivek drolia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "df6d8239447c78ed"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 435569,
+          "record_ids": [
+            "df6d8239447c78ed"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · BUY · 435569",
+          "row_ref": "26-OCT-2026 · DCMSRIND · VIVEK DROLIA · BUY · 435569",
+          "quote": "NSE | DCMSRIND | VIVEK DROLIA | BUY | 4,35,569 shares | price 53.17 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "df6d8239447c78ed",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,35,569 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 14,
+    "by_holder_type": {
+      "entity": 12,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 14
+    },
+    "sellers": 7,
+    "sellers_unverified": 0,
+    "buyers": 7,
+    "proceeds_computed": 7,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 14
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 14,
+    "follow_on_matches": 88
+  }
+}

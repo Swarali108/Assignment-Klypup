@@ -1,0 +1,55 @@
+{
+  "event_id": "v2_retail_block_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ram_chandra_agarwal",
+      "name_as_printed": "RAM CHANDRA AGARWAL",
+      "fields": {
+        "name": "RAM CHANDRA AGARWAL",
+        "role": "unknown",
+        "why_money": "sold 62,60,000 shares in a block deal on 6 Nov 2026",
+        "amount": "₹100.16 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹100.16 crore (62,60,000 shares × ₹160 = ₹100.16 crore (NSE 06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000))"
+      },
+      "placeholders": {
+        "name": "RAM CHANDRA AGARWAL",
+        "role": "unknown",
+        "amount": "₹100.16 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹100.16 crore",
+        "shares_offered": "62,60,000 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "RAM CHANDRA AGARWAL, whose role is unknown, received money from selling shares in a block deal.",
+        "₹100.16 crore in proceeds, settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "Ask whether they plan to reinvest ₹100.16 crore or keep it liquid.",
+        "Role is unknown, so confirm their position in the company before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, whose role is unknown, received money from selling shares in a block deal.",
+            "{proceeds} in proceeds, settled {timing}.",
+            "Ask whether they plan to reinvest {proceeds} or keep it liquid.",
+            "Role is unknown, so confirm their position in the company before the call."
+          ],
+          "lines": [
+            "RAM CHANDRA AGARWAL, whose role is unknown, received money from selling shares in a block deal.",
+            "₹100.16 crore in proceeds, settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+            "Ask whether they plan to reinvest ₹100.16 crore or keep it liquid.",
+            "Role is unknown, so confirm their position in the company before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

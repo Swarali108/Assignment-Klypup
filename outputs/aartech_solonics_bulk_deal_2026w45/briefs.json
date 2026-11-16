@@ -1,0 +1,56 @@
+{
+  "event_id": "aartech_solonics_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_krishna_awtar_kabra",
+      "name_as_printed": "KRISHNA AWTAR KABRA",
+      "fields": {
+        "name": "KRISHNA AWTAR KABRA",
+        "role": "unknown",
+        "why_money": "sold 1,89,020 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹73.83 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹73.83 lakh (1,89,020 shares × ₹39.06 = ₹73.83 lakh (NSE 02-NOV-2026 · AARTECH · KRISHNA AWTAR KABRA · SELL · 189020))",
+        "family_link": "'KRISHNA AWTAR KABRA' and 'KRISHNA AWTAR KABRA' share surname 'kabra' and middle name 'awtar'"
+      },
+      "placeholders": {
+        "name": "KRISHNA AWTAR KABRA",
+        "role": "unknown",
+        "amount": "₹73.83 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹73.83 lakh",
+        "shares_offered": "1,89,020 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "KRISHNA AWTAR KABRA is a shareholder who sold 1,89,020 shares in an NSE bulk deal, so money is coming to them.",
+        "Proceeds of ₹73.83 lakh settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+        "Family link: shares name the same holder family, KRISHNA AWTAR KABRA, so ask whether other relatives hold the stock.",
+        "Role is unknown, so confirm the holder's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder who sold {shares_offered} in an NSE bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Family link: shares name the same holder family, KRISHNA AWTAR KABRA, so ask whether other relatives hold the stock.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "lines": [
+            "KRISHNA AWTAR KABRA is a shareholder who sold 1,89,020 shares in an NSE bulk deal, so money is coming to them.",
+            "Proceeds of ₹73.83 lakh settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+            "Family link: shares name the same holder family, KRISHNA AWTAR KABRA, so ask whether other relatives hold the stock.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

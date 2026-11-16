@@ -1,0 +1,52 @@
+{
+  "event_id": "gallantt_ispat_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dinesh_r_agarwal",
+      "name_as_printed": "Dinesh R. Agarwal",
+      "fields": {
+        "name": "Dinesh R. Agarwal",
+        "role": "Promoter",
+        "why_money": "sold 53,89,708 shares (Block Deal, Market Sale) on 2 Nov 2026 and 3 Nov 2026",
+        "amount": "₹270.62 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹270.62 crore (3,89,708 shares, value as printed ₹20.12 crore (NSE XBRL context Disclosure1); 50,00,000 shares, value as printed ₹250.50 crore (NSE XBRL context Disclosure1); total ₹270.62 crore)"
+      },
+      "placeholders": {
+        "name": "Dinesh R. Agarwal",
+        "role": "Promoter",
+        "amount": "₹270.62 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹270.62 crore",
+        "shares_offered": "53,89,708 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Dinesh R. Agarwal, Promoter, is due proceeds from selling 53,89,708 shares in block and market sales.",
+        "Proceeds of ₹270.62 crore settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), so the money has already arrived.",
+        "Recent sale: discuss how the ₹270.62 crore fits their next liquidity plans and reinvestment timing."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Dinesh R. Agarwal, Promoter, is due proceeds from selling {shares_offered} in block and market sales.",
+            "Proceeds of {amount} settled {timing}, so the money has already arrived.",
+            "Recent sale: discuss how the {proceeds} fits their next liquidity plans and reinvestment timing."
+          ],
+          "lines": [
+            "Dinesh R. Agarwal, Promoter, is due proceeds from selling 53,89,708 shares in block and market sales.",
+            "Proceeds of ₹270.62 crore settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), so the money has already arrived.",
+            "Recent sale: discuss how the ₹270.62 crore fits their next liquidity plans and reinvestment timing."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

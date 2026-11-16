@@ -1,0 +1,1259 @@
+{
+  "event_id": "cyient_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "1231.48",
+    "high": "1234.25",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹1,231.48",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+            "row_ref": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+            "quote": "NSE | CYIENT | QE SECURITIES LLP | SELL | 5,92,529 shares | price 1231.48 | 2026-10-23"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹1,234.25",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+            "row_ref": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+            "quote": "NSE | CYIENT | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,36,799 shares | price 1234.25 | 2026-10-23"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "23 Oct 2026",
+    "sale_date_parsed": "2026-10-23",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "18,12,576 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ec9ea01cb8667011"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 583248,
+          "record_ids": [
+            "ec9ea01cb8667011"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+          "row_ref": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+          "quote": "NSE | CYIENT | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,83,248 shares | price 1234.21 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ec9ea01cb8667011",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,83,248",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "719850514.08",
+          "rupees_high": "719850514.08",
+          "crore_low": "71.99",
+          "crore_high": "71.99",
+          "display": "₹71.99 crore",
+          "working": "5,83,248 shares × ₹1,234.21 = ₹71.99 crore (NSE 23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,83,248",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+                  "row_ref": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+                  "quote": "NSE | CYIENT | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,83,248 shares | price 1234.21 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,234.21",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+                  "row_ref": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+                  "quote": "NSE | CYIENT | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,83,248 shares | price 1234.21 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+                  "row_ref": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 583248",
+                  "quote": "NSE | CYIENT | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,83,248 shares | price 1234.21 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 5,83,248 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹67.11 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹27.53 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹57.95 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹40.66 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6653d9218dc1f65c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 583248,
+          "record_ids": [
+            "6653d9218dc1f65c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 583248",
+          "row_ref": "23-OCT-2026 · CYIENT · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 583248",
+          "quote": "NSE | CYIENT | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 5,83,248 shares | price 1233.57 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6653d9218dc1f65c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,83,248 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹67.11 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹27.53 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹57.95 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹40.66 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6208f785aa8b7826"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 636799,
+          "record_ids": [
+            "6208f785aa8b7826"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+          "row_ref": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+          "quote": "NSE | CYIENT | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,36,799 shares | price 1234.25 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6208f785aa8b7826",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,36,799",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "785969165.75",
+          "rupees_high": "785969165.75",
+          "crore_low": "78.60",
+          "crore_high": "78.60",
+          "display": "₹78.60 crore",
+          "working": "6,36,799 shares × ₹1,234.25 = ₹78.60 crore (NSE 23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,36,799",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+                  "row_ref": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+                  "quote": "NSE | CYIENT | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,36,799 shares | price 1234.25 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,234.25",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+                  "row_ref": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+                  "quote": "NSE | CYIENT | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,36,799 shares | price 1234.25 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+                  "row_ref": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · SELL · 636799",
+                  "quote": "NSE | CYIENT | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,36,799 shares | price 1234.25 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 6,36,799 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹82.44 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.58 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹51.28 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹54.74 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "142d57f2b65af4fc"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 636799,
+          "record_ids": [
+            "142d57f2b65af4fc"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · BUY · 636799",
+          "row_ref": "23-OCT-2026 · CYIENT · MICROCURVES TRADING PRIVATE LIMITED · BUY · 636799",
+          "quote": "NSE | CYIENT | MICROCURVES TRADING PRIVATE LIMITED | BUY | 6,36,799 shares | price 1233.13 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "142d57f2b65af4fc",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,36,799 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹82.44 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.58 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹51.28 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹54.74 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6c039a8e30f80717"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 592529,
+          "record_ids": [
+            "6c039a8e30f80717"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+          "row_ref": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+          "quote": "NSE | CYIENT | QE SECURITIES LLP | SELL | 5,92,529 shares | price 1231.48 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6c039a8e30f80717",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,92,529",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "729687612.92",
+          "rupees_high": "729687612.92",
+          "crore_low": "72.97",
+          "crore_high": "72.97",
+          "display": "₹72.97 crore",
+          "working": "5,92,529 shares × ₹1,231.48 = ₹72.97 crore (NSE 23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,92,529",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+                  "row_ref": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+                  "quote": "NSE | CYIENT | QE SECURITIES LLP | SELL | 5,92,529 shares | price 1231.48 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,231.48",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+                  "row_ref": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+                  "quote": "NSE | CYIENT | QE SECURITIES LLP | SELL | 5,92,529 shares | price 1231.48 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+                  "row_ref": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · SELL · 592529",
+                  "quote": "NSE | CYIENT | QE SECURITIES LLP | SELL | 5,92,529 shares | price 1231.48 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 5,92,529 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹21.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹43.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "88ece45bc6e7dfb6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 633453,
+          "record_ids": [
+            "88ece45bc6e7dfb6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · BUY · 633453",
+          "row_ref": "23-OCT-2026 · CYIENT · QE SECURITIES LLP · BUY · 633453",
+          "quote": "NSE | CYIENT | QE SECURITIES LLP | BUY | 6,33,453 shares | price 1232.27 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "88ece45bc6e7dfb6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,33,453 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹21.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹43.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "entity": 6
+    },
+    "by_confidence": {
+      "high": 6
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 6
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 6,
+    "follow_on_matches": 56
+  }
+}

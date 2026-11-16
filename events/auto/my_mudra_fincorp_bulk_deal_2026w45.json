@@ -1,0 +1,19 @@
+{
+  "event_id": "my_mudra_fincorp_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "My Mudra Fincorp Limited",
+  "documents": [],
+  "records": [
+    "334cdb2b7ed8c4f9",
+    "84fa882b2a3f76e5"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-05",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

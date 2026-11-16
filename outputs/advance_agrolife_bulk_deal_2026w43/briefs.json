@@ -1,0 +1,55 @@
+{
+  "event_id": "advance_agrolife_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_tirth_gems",
+      "name_as_printed": "TIRTH GEMS",
+      "fields": {
+        "name": "TIRTH GEMS",
+        "role": "unknown",
+        "why_money": "sold 2,00,000 shares in a bulk deal on 21 Oct 2026",
+        "amount": "₹3.13 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.13 crore (2,00,000 shares × ₹156.5 = ₹3.13 crore (NSE 21-OCT-2026 · ADVANCE · TIRTH GEMS · SELL · 200000))"
+      },
+      "placeholders": {
+        "name": "TIRTH GEMS",
+        "role": "unknown",
+        "amount": "₹3.13 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹3.13 crore",
+        "shares_offered": "2,00,000 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "TIRTH GEMS, role unknown, is due proceeds from selling shares in a bulk deal.",
+        "They receive ₹3.13 crore, which settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "The sale was 25 days ago, so discuss how they plan to deploy the proceeds.",
+        "Role is unknown, so confirm the holder's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "TIRTH GEMS, role unknown, is due proceeds from selling shares in a bulk deal.",
+            "They receive {amount}, which {timing}.",
+            "The sale was {event_age}, so discuss how they plan to deploy the proceeds.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "lines": [
+            "TIRTH GEMS, role unknown, is due proceeds from selling shares in a bulk deal.",
+            "They receive ₹3.13 crore, which settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+            "The sale was 25 days ago, so discuss how they plan to deploy the proceeds.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

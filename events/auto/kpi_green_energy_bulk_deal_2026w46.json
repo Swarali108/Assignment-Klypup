@@ -1,0 +1,27 @@
+{
+  "event_id": "kpi_green_energy_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "KPI Green Energy Limited",
+  "documents": [],
+  "records": [
+    "46d9f941a535f9b7",
+    "68b0d0f29fb33f0a",
+    "748c974a93ff8112",
+    "80cc5805b8b1524a",
+    "a83e9e6655501b7a",
+    "b28e84d95721cbfb",
+    "c2b4f90383ef1b05",
+    "c52c026cc90ac1ca",
+    "c8326915fd6bf784",
+    "df95cc774c6402e9"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-09",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "event_id": "sakar_healthcare_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_rita_s_shah",
+      "name_as_printed": "Rita S. Shah",
+      "fields": {
+        "name": "Rita S. Shah",
+        "role": "Promoter",
+        "why_money": "sold 30,000 shares (Market Sale) on 9 Nov 2026",
+        "amount": "₹3.12 crore",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.12 crore (30,000 shares, value as printed ₹3.12 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Rita S. Shah",
+        "role": "Promoter",
+        "amount": "₹3.12 crore",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹3.12 crore",
+        "shares_offered": "30,000 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "Rita S. Shah, Promoter, received money after a Market Sale of 30,000 shares that settled settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "Proceeds of ₹3.12 crore arrived 6 days ago, so the money is already in hand.",
+        "Open with the completed sale and ask how they plan to deploy the ₹3.12 crore they now hold."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Rita S. Shah, Promoter, received money after selling 30,000 shares in a Market Sale on 9 Nov.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money is already in hand.",
+            "Open with the completed sale and ask how they plan to deploy the {amount} they now hold."
+          ],
+          "lines": [
+            "Rita S. Shah, Promoter, received money after selling 30,000 shares in a Market Sale on 9 Nov.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money is already in hand.",
+            "Open with the completed sale and ask how they plan to deploy the {amount} they now hold."
+          ],
+          "problem": "writes numbers instead of placeholders: 30,000, 9"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, received money after a Market Sale of {shares_offered} that settled {timing}.",
+            "Proceeds of {proceeds} arrived {event_age}, so the money is already in hand.",
+            "Open with the completed sale and ask how they plan to deploy the {amount} they now hold."
+          ],
+          "lines": [
+            "Rita S. Shah, Promoter, received money after a Market Sale of 30,000 shares that settled settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+            "Proceeds of ₹3.12 crore arrived 6 days ago, so the money is already in hand.",
+            "Open with the completed sale and ask how they plan to deploy the ₹3.12 crore they now hold."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

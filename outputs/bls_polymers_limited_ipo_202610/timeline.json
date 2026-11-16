@@ -1,0 +1,48 @@
+{
+  "run_id": "bls_polymers_limited_ipo_202610-20261115T135450Z",
+  "total_s": 21.595217666996177,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 2.891504209022969,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 1.11818587500602,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.021029083989560604,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.004003832989837974,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 17.532457874971442,
+      "calls": 9,
+      "cached": 0,
+      "cost_usd": 0.001796
+    },
+    {
+      "step": "report",
+      "seconds": 0.008771667024120688,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

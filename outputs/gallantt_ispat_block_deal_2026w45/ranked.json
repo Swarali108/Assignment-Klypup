@@ -1,0 +1,98 @@
+{
+  "event_id": "gallantt_ispat_block_deal_2026w45",
+  "callable": [
+    {
+      "person_id": "p_dinesh_r_agarwal",
+      "name_as_printed": "DINESH R AGARWAL",
+      "name_clean": "dinesh r agarwal",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "250.50",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "175.35000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 12,
+        "label": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "money_crore": "250.50",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "175.35000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 12,
+          "label": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+          "money_crore": "250.50",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "175.35000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 50,00,000 shares in a block deal on 3 Nov 2026",
+      "amount_display": "₹250.50 crore",
+      "timing_display": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹250.50 crore; settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago).",
+        "score 175.35 = ₹250.50 crore (proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_suryalaxmi_infracon_private_limited_bought",
+      "name_as_printed": "SURYALAXMI INFRACON PRIVATE LIMITED",
+      "name_clean": "suryalaxmi infracon private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 50,00,000 shares in a block deal on 3 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

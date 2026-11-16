@@ -1,0 +1,48 @@
+{
+  "run_id": "bombay_coated_and_special_steels_limited_ipo_202610-20261115T135512Z",
+  "total_s": 15.921972750045825,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 3.100027709035203,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.6977073749876581,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.006667167006526142,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.003644542011898011,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 12.088196124997921,
+      "calls": 6,
+      "cached": 0,
+      "cost_usd": 0.001409
+    },
+    {
+      "step": "report",
+      "seconds": 0.007486084010452032,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

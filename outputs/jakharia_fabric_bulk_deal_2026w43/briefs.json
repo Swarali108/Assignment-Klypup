@@ -1,0 +1,55 @@
+{
+  "event_id": "jakharia_fabric_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_sanchi_sanjay_bansal",
+      "name_as_printed": "SANCHI SANJAY BANSAL",
+      "fields": {
+        "name": "SANCHI SANJAY BANSAL",
+        "role": "unknown",
+        "why_money": "sold 2,42,400 shares in a bulk deal on 23 Oct 2026",
+        "amount": "₹1.40 crore",
+        "timing": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "event": "proceeds settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "event_age": "21 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.40 crore (2,42,400 shares × ₹57.9 = ₹1.40 crore (NSE 23-OCT-2026 · JAKHARIA · SANCHI SANJAY BANSAL · SELL · 242400))"
+      },
+      "placeholders": {
+        "name": "SANCHI SANJAY BANSAL",
+        "role": "unknown",
+        "amount": "₹1.40 crore",
+        "timing": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "proceeds": "₹1.40 crore",
+        "shares_offered": "2,42,400 shares",
+        "event_age": "21 days ago"
+      },
+      "lines": [
+        "SANCHI SANJAY BANSAL is an unknown role who sold 2,42,400 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹1.40 crore settled 21 days ago, with timing noted as settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago).",
+        "Ask whether they plan to reinvest the ₹1.40 crore from this sale.",
+        "Role is unknown, so confirm SANCHI SANJAY BANSAL's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an unknown role who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, with timing noted as {timing}.",
+            "Ask whether they plan to reinvest the {proceeds} from this sale.",
+            "Role is unknown, so confirm {name}'s position before the call."
+          ],
+          "lines": [
+            "SANCHI SANJAY BANSAL is an unknown role who sold 2,42,400 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹1.40 crore settled 21 days ago, with timing noted as settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago).",
+            "Ask whether they plan to reinvest the ₹1.40 crore from this sale.",
+            "Role is unknown, so confirm SANCHI SANJAY BANSAL's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

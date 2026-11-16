@@ -1,0 +1,55 @@
+{
+  "event_id": "relicab_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_rishabh_jatin_mehta",
+      "name_as_printed": "RISHABH JATIN MEHTA",
+      "fields": {
+        "name": "RISHABH JATIN MEHTA",
+        "role": "unknown",
+        "why_money": "sold 1,35,720 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹48.86 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹48.86 lakh (1,35,720 shares × ₹36.0 = ₹48.86 lakh (BSE 13/11/2026 · RELICAB · RISHABH JATIN MEHTA · S · 135720))"
+      },
+      "placeholders": {
+        "name": "RISHABH JATIN MEHTA",
+        "role": "unknown",
+        "amount": "₹48.86 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹48.86 lakh",
+        "shares_offered": "1,35,720 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "RISHABH JATIN MEHTA sold 1,35,720 shares in a bulk deal, so the money is coming to them from that sale.",
+        "Proceeds of ₹48.86 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Ask whether they plan to reinvest the proceeds or keep the cash on hand for now.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the money is coming to them from that sale.",
+            "Proceeds of {proceeds} settle {timing}.",
+            "Ask whether they plan to reinvest the proceeds or keep the cash on hand for now.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "RISHABH JATIN MEHTA sold 1,35,720 shares in a bulk deal, so the money is coming to them from that sale.",
+            "Proceeds of ₹48.86 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Ask whether they plan to reinvest the proceeds or keep the cash on hand for now.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

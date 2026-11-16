@@ -1,0 +1,58 @@
+{
+  "event_id": "eclerx_services_insider_sale_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_eclerx_employee_welfare",
+      "name_as_printed": "Eclerx Employee Welfare",
+      "fields": {
+        "name": "Eclerx Employee Welfare",
+        "role": "unknown",
+        "why_money": "sold 3,565 shares (Off Market) on 22 Oct 2026",
+        "amount": "₹25.31 lakh",
+        "timing": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+        "event": "proceeds, timing unknown",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹25.31 lakh (3,565 shares, value as printed ₹25.31 lakh (NSE XBRL context Disclosure1))",
+        "unknowns": [
+          "timing: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date"
+        ]
+      },
+      "placeholders": {
+        "name": "Eclerx Employee Welfare",
+        "role": "unknown",
+        "amount": "₹25.31 lakh",
+        "timing": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+        "proceeds": "₹25.31 lakh",
+        "shares_offered": "3,565 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "Eclerx Employee Welfare is the holder, role unknown, receiving proceeds from selling 3,565 shares.",
+        "They received ₹25.31 lakh from the sale, which happened 25 days ago.",
+        "Recent off-market sale, so the relationship angle is what Eclerx Employee Welfare plans to do with the proceeds.",
+        "Timing of the money is unknown because the transfer was off-market and settled between parties."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is the holder, role unknown, receiving proceeds from selling {shares_offered}.",
+            "They received {amount} from the sale, which happened {event_age}.",
+            "Recent off-market sale, so the relationship angle is what {name} plans to do with the proceeds.",
+            "Timing of the money is unknown because the transfer was off-market and settled between parties."
+          ],
+          "lines": [
+            "Eclerx Employee Welfare is the holder, role unknown, receiving proceeds from selling 3,565 shares.",
+            "They received ₹25.31 lakh from the sale, which happened 25 days ago.",
+            "Recent off-market sale, so the relationship angle is what Eclerx Employee Welfare plans to do with the proceeds.",
+            "Timing of the money is unknown because the transfer was off-market and settled between parties."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

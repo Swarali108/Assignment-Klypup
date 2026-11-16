@@ -1,0 +1,56 @@
+{
+  "event_id": "scagro_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_pravinbhai_bharatbhai_gohil",
+      "name_as_printed": "PRAVINBHAI BHARATBHAI GOHIL",
+      "fields": {
+        "name": "PRAVINBHAI BHARATBHAI GOHIL",
+        "role": "unknown",
+        "why_money": "sold 3,92,017 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹2.45 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹2.45 crore (3,92,017 shares × ₹62.38 = ₹2.45 crore (BSE 13/11/2026 · SCAGRO · PRAVINBHAI BHARATBHAI GOHIL · S · 392017))",
+        "family_link": "'PRAVINBHAI BHARATBHAI GOHIL' and 'PRAVINBHAI BHARATBHAI GOHIL' share surname 'gohil' and middle name 'bharatbhai'"
+      },
+      "placeholders": {
+        "name": "PRAVINBHAI BHARATBHAI GOHIL",
+        "role": "unknown",
+        "amount": "₹2.45 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹2.45 crore",
+        "shares_offered": "3,92,017 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "PRAVINBHAI BHARATBHAI GOHIL sold 3,92,017 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹2.45 crore settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Family link: the same surname and middle name appear on another holder's record, worth checking.",
+        "Role is unknown, so confirm their title before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settle {timing}.",
+            "Family link: the same surname and middle name appear on another holder's record, worth checking.",
+            "Role is unknown, so confirm their title before the call."
+          ],
+          "lines": [
+            "PRAVINBHAI BHARATBHAI GOHIL sold 3,92,017 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹2.45 crore settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Family link: the same surname and middle name appear on another holder's record, worth checking.",
+            "Role is unknown, so confirm their title before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "event_id": "jindal_poly_films_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "732.42",
+    "high": "743.35",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹732.42",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+            "row_ref": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+            "quote": "NSE | JINDALPOLY | J4S FINANCIAL SOLUTIONS LLP | SELL | 2,51,993 shares | price 732.42 | 2026-10-23"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹743.35",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+            "row_ref": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+            "quote": "NSE | JINDALPOLY | TWO ROADS TRADING PRIVATE LIMITED | SELL | 2,32,608 shares | price 743.35 | 2026-10-23"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "23 Oct 2026",
+    "sale_date_parsed": "2026-10-23",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "8,99,278 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_j4s_financial_solutions_llp",
+      "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+      "names_as_printed": [
+        "J4S FINANCIAL SOLUTIONS LLP"
+      ],
+      "name_clean": "j4s financial solutions llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c27f107ed81b2f77"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 251993,
+          "record_ids": [
+            "c27f107ed81b2f77"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+          "row_ref": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+          "quote": "NSE | JINDALPOLY | J4S FINANCIAL SOLUTIONS LLP | SELL | 2,51,993 shares | price 732.42 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c27f107ed81b2f77",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,51,993",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "184564713.06",
+          "rupees_high": "184564713.06",
+          "crore_low": "18.46",
+          "crore_high": "18.46",
+          "display": "₹18.46 crore",
+          "working": "2,51,993 shares × ₹732.42 = ₹18.46 crore (NSE 23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,51,993",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+                  "quote": "NSE | JINDALPOLY | J4S FINANCIAL SOLUTIONS LLP | SELL | 2,51,993 shares | price 732.42 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹732.42",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+                  "quote": "NSE | JINDALPOLY | J4S FINANCIAL SOLUTIONS LLP | SELL | 2,51,993 shares | price 732.42 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · SELL · 251993",
+                  "quote": "NSE | JINDALPOLY | J4S FINANCIAL SOLUTIONS LLP | SELL | 2,51,993 shares | price 732.42 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 2,51,993 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹6.58 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹5.31 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_j4s_financial_solutions_llp_bought",
+      "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+      "names_as_printed": [
+        "J4S FINANCIAL SOLUTIONS LLP"
+      ],
+      "name_clean": "j4s financial solutions llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "52958c857bb05ee5"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 251993,
+          "record_ids": [
+            "52958c857bb05ee5"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · BUY · 251993",
+          "row_ref": "23-OCT-2026 · JINDALPOLY · J4S FINANCIAL SOLUTIONS LLP · BUY · 251993",
+          "quote": "NSE | JINDALPOLY | J4S FINANCIAL SOLUTIONS LLP | BUY | 2,51,993 shares | price 731.79 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "52958c857bb05ee5",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,51,993 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹6.58 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹5.31 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "cbea72f3af5e48a3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 414677,
+          "record_ids": [
+            "cbea72f3af5e48a3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+          "row_ref": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+          "quote": "NSE | JINDALPOLY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,14,677 shares | price 736.93 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cbea72f3af5e48a3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,14,677",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "305587921.61",
+          "rupees_high": "305587921.61",
+          "crore_low": "30.56",
+          "crore_high": "30.56",
+          "display": "₹30.56 crore",
+          "working": "4,14,677 shares × ₹736.93 = ₹30.56 crore (NSE 23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,14,677",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+                  "quote": "NSE | JINDALPOLY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,14,677 shares | price 736.93 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹736.93",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+                  "quote": "NSE | JINDALPOLY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,14,677 shares | price 736.93 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 414677",
+                  "quote": "NSE | JINDALPOLY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,14,677 shares | price 736.93 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 4,14,677 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.11 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "4b668b97e55f7752"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 414677,
+          "record_ids": [
+            "4b668b97e55f7752"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 414677",
+          "row_ref": "23-OCT-2026 · JINDALPOLY · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 414677",
+          "quote": "NSE | JINDALPOLY | NK SECURITIES RESEARCH PRIVATE LIMITED | BUY | 4,14,677 shares | price 736.42 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4b668b97e55f7752",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,14,677 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.11 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_two_roads_trading_private_limited",
+      "name_as_printed": "TWO ROADS TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "TWO ROADS TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "two roads trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "fa6c33721dda38ec"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 232608,
+          "record_ids": [
+            "fa6c33721dda38ec"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+          "row_ref": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+          "quote": "NSE | JINDALPOLY | TWO ROADS TRADING PRIVATE LIMITED | SELL | 2,32,608 shares | price 743.35 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "fa6c33721dda38ec",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,32,608",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "172909156.80",
+          "rupees_high": "172909156.80",
+          "crore_low": "17.29",
+          "crore_high": "17.29",
+          "display": "₹17.29 crore",
+          "working": "2,32,608 shares × ₹743.35 = ₹17.29 crore (NSE 23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,32,608",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+                  "quote": "NSE | JINDALPOLY | TWO ROADS TRADING PRIVATE LIMITED | SELL | 2,32,608 shares | price 743.35 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹743.35",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+                  "quote": "NSE | JINDALPOLY | TWO ROADS TRADING PRIVATE LIMITED | SELL | 2,32,608 shares | price 743.35 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+                  "row_ref": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · SELL · 232608",
+                  "quote": "NSE | JINDALPOLY | TWO ROADS TRADING PRIVATE LIMITED | SELL | 2,32,608 shares | price 743.35 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 2,32,608 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_two_roads_trading_private_limited_bought",
+      "name_as_printed": "TWO ROADS TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "TWO ROADS TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "two roads trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "df3b188e2986aeba"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 232608,
+          "record_ids": [
+            "df3b188e2986aeba"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · BUY · 232608",
+          "row_ref": "23-OCT-2026 · JINDALPOLY · TWO ROADS TRADING PRIVATE LIMITED · BUY · 232608",
+          "quote": "NSE | JINDALPOLY | TWO ROADS TRADING PRIVATE LIMITED | BUY | 2,32,608 shares | price 743.07 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "df3b188e2986aeba",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,32,608 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "entity": 6
+    },
+    "by_confidence": {
+      "high": 6
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 6
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 6,
+    "follow_on_matches": 20
+  }
+}

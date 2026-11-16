@@ -1,0 +1,1299 @@
+{
+  "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "261.64",
+    "high": "264.84",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹261.64",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+            "row_ref": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+            "quote": "NSE | AWFIS | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,69,556 shares | price 261.64 | 2026-11-04"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹264.84",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+            "row_ref": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+            "quote": "NSE | AWFIS | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,72,552 shares | price 264.84 | 2026-11-04"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "4 Nov 2026",
+    "sale_date_parsed": "2026-11-04",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "12,90,677 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "bc663ace5c82e99b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 469556,
+          "record_ids": [
+            "bc663ace5c82e99b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+          "row_ref": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+          "quote": "NSE | AWFIS | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,69,556 shares | price 261.64 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bc663ace5c82e99b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,69,556",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "122854631.84",
+          "rupees_high": "122854631.84",
+          "crore_low": "12.29",
+          "crore_high": "12.29",
+          "display": "₹12.29 crore",
+          "working": "4,69,556 shares × ₹261.64 = ₹12.29 crore (NSE 04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,69,556",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+                  "row_ref": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+                  "quote": "NSE | AWFIS | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,69,556 shares | price 261.64 | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹261.64",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+                  "row_ref": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+                  "quote": "NSE | AWFIS | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,69,556 shares | price 261.64 | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+                  "row_ref": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 469556",
+                  "quote": "NSE | AWFIS | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 4,69,556 shares | price 261.64 | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 4,69,556 shares in a bulk deal on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹47.95 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.76 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.20 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c91dad1fecb11d2e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 475096,
+          "record_ids": [
+            "c91dad1fecb11d2e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 475096",
+          "row_ref": "04-NOV-2026 · AWFIS · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 475096",
+          "quote": "NSE | AWFIS | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 4,75,096 shares | price 261.26 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c91dad1fecb11d2e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,75,096 shares in a bulk deal on 4 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹47.95 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.76 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.20 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e3ab5ae3edcfa0fd"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 372552,
+          "record_ids": [
+            "e3ab5ae3edcfa0fd"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+          "row_ref": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+          "quote": "NSE | AWFIS | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,72,552 shares | price 264.84 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e3ab5ae3edcfa0fd",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,72,552",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "98666671.68",
+          "rupees_high": "98666671.68",
+          "crore_low": "9.87",
+          "crore_high": "9.87",
+          "display": "₹9.87 crore",
+          "working": "3,72,552 shares × ₹264.84 = ₹9.87 crore (NSE 04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,72,552",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+                  "row_ref": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+                  "quote": "NSE | AWFIS | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,72,552 shares | price 264.84 | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹264.84",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+                  "row_ref": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+                  "quote": "NSE | AWFIS | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,72,552 shares | price 264.84 | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+                  "row_ref": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · SELL · 372552",
+                  "quote": "NSE | AWFIS | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,72,552 shares | price 264.84 | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 3,72,552 shares in a bulk deal on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹76.34 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹88.18 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹82.44 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹78.60 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.85 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9b4c4f5baa804cfa"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 372552,
+          "record_ids": [
+            "9b4c4f5baa804cfa"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · BUY · 372552",
+          "row_ref": "04-NOV-2026 · AWFIS · MICROCURVES TRADING PRIVATE LIMITED · BUY · 372552",
+          "quote": "NSE | AWFIS | MICROCURVES TRADING PRIVATE LIMITED | BUY | 3,72,552 shares | price 264.8 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9b4c4f5baa804cfa",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,72,552 shares in a bulk deal on 4 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹76.34 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹88.18 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹82.44 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹78.60 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.85 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "249170825e2a9b05"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 448569,
+          "record_ids": [
+            "249170825e2a9b05"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+          "row_ref": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+          "quote": "NSE | AWFIS | QE SECURITIES LLP | SELL | 4,48,569 shares | price 262.07 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "249170825e2a9b05",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,48,569",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "117556477.83",
+          "rupees_high": "117556477.83",
+          "crore_low": "11.76",
+          "crore_high": "11.76",
+          "display": "₹11.76 crore",
+          "working": "4,48,569 shares × ₹262.07 = ₹11.76 crore (NSE 04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,48,569",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+                  "row_ref": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+                  "quote": "NSE | AWFIS | QE SECURITIES LLP | SELL | 4,48,569 shares | price 262.07 | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹262.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+                  "row_ref": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+                  "quote": "NSE | AWFIS | QE SECURITIES LLP | SELL | 4,48,569 shares | price 262.07 | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+                  "row_ref": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · SELL · 448569",
+                  "quote": "NSE | AWFIS | QE SECURITIES LLP | SELL | 4,48,569 shares | price 262.07 | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 4,48,569 shares in a bulk deal on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "85097a16c429439d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 453033,
+          "record_ids": [
+            "85097a16c429439d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · BUY · 453033",
+          "row_ref": "04-NOV-2026 · AWFIS · QE SECURITIES LLP · BUY · 453033",
+          "quote": "NSE | AWFIS | QE SECURITIES LLP | BUY | 4,53,033 shares | price 261.33 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "85097a16c429439d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,53,033 shares in a bulk deal on 4 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "entity": 6
+    },
+    "by_confidence": {
+      "high": 6
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 6
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 6,
+    "follow_on_matches": 60
+  }
+}

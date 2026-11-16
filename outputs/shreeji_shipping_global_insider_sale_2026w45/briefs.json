@@ -1,0 +1,100 @@
+{
+  "event_id": "shreeji_shipping_global_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ashokkumar_haridas_lal",
+      "name_as_printed": "ASHOKKUMAR HARIDAS LAL",
+      "fields": {
+        "name": "ASHOKKUMAR HARIDAS LAL",
+        "role": "Promoter",
+        "why_money": "sold 15,00,000 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹128.27 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹128.27 crore (15,00,000 shares, value as printed ₹128.27 crore (NSE XBRL context Disclosure1))",
+        "family_link": "'JITENDRAKUMAR HARIDAS LAL' and 'ASHOKKUMAR HARIDAS LAL' share surname 'lal' and middle name 'haridas'"
+      },
+      "placeholders": {
+        "name": "ASHOKKUMAR HARIDAS LAL",
+        "role": "Promoter",
+        "amount": "₹128.27 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹128.27 crore",
+        "shares_offered": "15,00,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "ASHOKKUMAR HARIDAS LAL, a Promoter, is receiving ₹128.27 crore from selling 15,00,000 shares in a market sale.",
+        "The proceeds were settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money has already arrived.",
+        "A family link to JITENDRAKUMAR HARIDAS LAL, who shares the surname and middle name, may open a joint conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a Promoter, is receiving {proceeds} from selling {shares_offered} in a market sale.",
+            "The proceeds were {timing}, so the money has already arrived.",
+            "A family link to JITENDRAKUMAR HARIDAS LAL, who shares the surname and middle name, may open a joint conversation."
+          ],
+          "lines": [
+            "ASHOKKUMAR HARIDAS LAL, a Promoter, is receiving ₹128.27 crore from selling 15,00,000 shares in a market sale.",
+            "The proceeds were settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money has already arrived.",
+            "A family link to JITENDRAKUMAR HARIDAS LAL, who shares the surname and middle name, may open a joint conversation."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_jitendrakumar_haridas_lal",
+      "name_as_printed": "JITENDRAKUMAR HARIDAS LAL",
+      "fields": {
+        "name": "JITENDRAKUMAR HARIDAS LAL",
+        "role": "Promoter",
+        "why_money": "sold 15,00,000 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹128.27 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹128.27 crore (15,00,000 shares, value as printed ₹128.27 crore (NSE XBRL context Disclosure2))",
+        "family_link": "'JITENDRAKUMAR HARIDAS LAL' and 'ASHOKKUMAR HARIDAS LAL' share surname 'lal' and middle name 'haridas'"
+      },
+      "placeholders": {
+        "name": "JITENDRAKUMAR HARIDAS LAL",
+        "role": "Promoter",
+        "amount": "₹128.27 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹128.27 crore",
+        "shares_offered": "15,00,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "JITENDRAKUMAR HARIDAS LAL, a Promoter, is receiving proceeds from selling 15,00,000 shares in a market sale.",
+        "The ₹128.27 crore arrived, settled 11 days ago after the trade.",
+        "Their family link to Ashokkumar Haridas Lal offers a natural second conversation angle."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving proceeds from selling {shares_offered} in a market sale.",
+            "The {proceeds} arrived, settled {event_age} after the trade.",
+            "Their family link to Ashokkumar Haridas Lal offers a natural second conversation angle."
+          ],
+          "lines": [
+            "JITENDRAKUMAR HARIDAS LAL, a Promoter, is receiving proceeds from selling 15,00,000 shares in a market sale.",
+            "The ₹128.27 crore arrived, settled 11 days ago after the trade.",
+            "Their family link to Ashokkumar Haridas Lal offers a natural second conversation angle."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

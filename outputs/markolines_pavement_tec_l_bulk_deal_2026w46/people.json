@@ -1,0 +1,469 @@
+{
+  "event_id": "markolines_pavement_tec_l_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "162.67",
+    "high": "162.91",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹162.67",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+            "row_ref": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+            "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,12,126 shares | price 162.67 | 2026-11-11"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹162.91",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+            "row_ref": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+            "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,11,524 shares | price 162.91 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "11 Nov 2026 to 13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,23,650 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_vistaar_trading_service_private_limited",
+      "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+      "names_as_printed": [
+        "VISTAAR TRADING SERVICE PRIVATE LIMITED"
+      ],
+      "name_clean": "vistaar trading service private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e68ceb8efe19f120",
+        "31b649cc16ba8dff"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 112126,
+          "record_ids": [
+            "e68ceb8efe19f120"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 111524,
+          "record_ids": [
+            "31b649cc16ba8dff"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+          "row_ref": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+          "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,12,126 shares | price 162.67 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e68ceb8efe19f120",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+          "row_ref": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+          "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,11,524 shares | price 162.91 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "31b649cc16ba8dff",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,23,650",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "36407911.26",
+          "rupees_high": "36407911.26",
+          "crore_low": "3.64",
+          "crore_high": "3.64",
+          "display": "₹3.64 crore",
+          "working": "1,12,126 shares × ₹162.67 = ₹1.82 crore (NSE 11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126); 1,11,524 shares × ₹162.91 = ₹1.82 crore (NSE 13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524); total ₹3.64 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,12,126",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+                  "row_ref": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,12,126 shares | price 162.67 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹162.67",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+                  "row_ref": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 112126",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,12,126 shares | price 162.67 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,11,524",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+                  "row_ref": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,11,524 shares | price 162.91 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹162.91",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+                  "row_ref": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,11,524 shares | price 162.91 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+                  "row_ref": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 111524",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,11,524 shares | price 162.91 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 2,23,650 shares in bulk deals on 11 Nov 2026 and 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.21 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w45",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.72 crore",
+          "trigger_date": "2026-11-03",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w45",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vistaar_trading_service_private_limited_bought",
+      "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+      "names_as_printed": [
+        "VISTAAR TRADING SERVICE PRIVATE LIMITED"
+      ],
+      "name_clean": "vistaar trading service private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "953ca09217eaae4f",
+        "9ad86d8704d06c3d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 117729,
+          "record_ids": [
+            "953ca09217eaae4f"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 110772,
+          "record_ids": [
+            "9ad86d8704d06c3d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · BUY · 117729",
+          "row_ref": "11-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · BUY · 117729",
+          "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | BUY | 1,17,729 shares | price 162.61 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "953ca09217eaae4f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · BUY · 110772",
+          "row_ref": "13-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · BUY · 110772",
+          "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | BUY | 1,10,772 shares | price 162.83 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9ad86d8704d06c3d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,28,501 shares in bulk deals on 11 Nov 2026 and 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.21 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w45",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.72 crore",
+          "trigger_date": "2026-11-03",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w45",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 8
+  }
+}

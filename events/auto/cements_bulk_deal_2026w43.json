@@ -1,0 +1,23 @@
+{
+  "event_id": "cements_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "The India Cements Limited",
+  "documents": [],
+  "records": [
+    "226ecfca06773e66",
+    "3cdc0a8a91981552",
+    "4c7e992996d9a3c4",
+    "6c696bfdf169d2b0",
+    "d17f441aba349d65",
+    "e85c1a0a31409f89"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-22",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

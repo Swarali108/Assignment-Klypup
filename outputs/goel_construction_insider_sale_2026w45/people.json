@@ -1,0 +1,197 @@
+{
+  "event_id": "goel_construction_insider_sale_2026w45",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "8 Nov 2026",
+    "sale_date_parsed": "2026-11-08",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,400 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
+        "records": 167,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 1,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_vijay_kumar_goel",
+      "name_as_printed": "Vijay Kumar Goel",
+      "names_as_printed": [
+        "Vijay Kumar Goel"
+      ],
+      "name_clean": "vijay kumar goel",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter group",
+      "role_by_section": {
+        "exchange_record": "Promoter group"
+      },
+      "side": "sell",
+      "record_ids": [
+        "c0fe1305cc058b3a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-08",
+          "quantity": 2400,
+          "record_ids": [
+            "c0fe1305cc058b3a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165729 · Vijay Kumar Goel",
+          "row_ref": "Fld_ID 165729 · Vijay Kumar Goel",
+          "quote": "BSE | 544504 | Vijay Kumar Goel | SELL | 2,400 shares | value 1297080.00 | Market Sale | 2026-11-08",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c0fe1305cc058b3a",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,400",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1297080.00",
+          "rupees_high": "1297080.00",
+          "crore_low": "0.13",
+          "crore_high": "0.13",
+          "display": "₹12.97 lakh",
+          "working": "2,400 shares, value as printed ₹12.97 lakh (BSE Fld_ID 165729 · Vijay Kumar Goel)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,400",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165729 · Vijay Kumar Goel",
+                  "row_ref": "Fld_ID 165729 · Vijay Kumar Goel",
+                  "quote": "BSE | 544504 | Vijay Kumar Goel | SELL | 2,400 shares | value 1297080.00 | Market Sale | 2026-11-08"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹12.97 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165729 · Vijay Kumar Goel",
+                  "row_ref": "Fld_ID 165729 · Vijay Kumar Goel",
+                  "quote": "BSE | 544504 | Vijay Kumar Goel | SELL | 2,400 shares | value 1297080.00 | Market Sale | 2026-11-08"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-08",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "8 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_544504_14112026154356_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165729 · Vijay Kumar Goel",
+                  "row_ref": "Fld_ID 165729 · Vijay Kumar Goel",
+                  "quote": "BSE | 544504 | Vijay Kumar Goel | SELL | 2,400 shares | value 1297080.00 | Market Sale | 2026-11-08"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 2,400 shares (Market Sale) on 8 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 1,
+    "by_holder_type": {
+      "person": 1
+    },
+    "by_confidence": {
+      "high": 1
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 1
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 1,
+    "follow_on_matches": 0
+  }
+}

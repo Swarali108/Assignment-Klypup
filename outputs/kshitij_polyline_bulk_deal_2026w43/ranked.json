@@ -1,0 +1,117 @@
+{
+  "event_id": "kshitij_polyline_bulk_deal_2026w43",
+  "callable": [
+    {
+      "person_id": "p_satish_mejiyatar",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "name_clean": "satish mejiyatar",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.85",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.85000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "money_crore": "0.85",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.85000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "money_crore": "0.85",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.85000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 25,00,000 shares in a bulk deal on 19 Oct 2026",
+      "amount_display": "₹85.00 lakh",
+      "timing_display": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹85.00 lakh; settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+        "score 0.85 = ₹0.85 crore (proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "person_id": "p_india_fast_forward_advisory_services_private_limited",
+      "name_as_printed": "INDIA FAST FORWARD ADVISORY SERVICES PRIVATE LIMITED",
+      "name_clean": "india fast forward advisory services private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.85",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.85000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "money_crore": "0.85",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.85000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "money_crore": "0.85",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.85000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 25,00,000 shares in a bulk deal on 19 Oct 2026",
+      "amount_display": "₹85.00 lakh",
+      "timing_display": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹85.00 lakh; settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.85 = ₹0.85 crore (proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

@@ -1,0 +1,960 @@
+{
+  "event_id": "ackruti_city_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "185.35",
+    "high": "190.4",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹185.35",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+            "row_ref": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+            "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 17,72,283 shares | price 185.35 | 2026-10-30"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹190.4",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+            "row_ref": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+            "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 11,16,335 shares | price 190.4 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "29 Oct 2026 to 30 Oct 2026",
+    "sale_date_parsed": "2026-10-30",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "40,16,139 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "875e6ddf847c68bc"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1127521,
+          "record_ids": [
+            "875e6ddf847c68bc"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+          "row_ref": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+          "quote": "NSE | HUBTOWN | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 11,27,521 shares | price 188.14 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "875e6ddf847c68bc",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "11,27,521",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "212131800.94",
+          "rupees_high": "212131800.94",
+          "crore_low": "21.21",
+          "crore_high": "21.21",
+          "display": "₹21.21 crore",
+          "working": "11,27,521 shares × ₹188.14 = ₹21.21 crore (NSE 29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "11,27,521",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+                  "row_ref": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+                  "quote": "NSE | HUBTOWN | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 11,27,521 shares | price 188.14 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹188.14",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+                  "row_ref": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+                  "quote": "NSE | HUBTOWN | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 11,27,521 shares | price 188.14 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+                  "row_ref": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1127521",
+                  "quote": "NSE | HUBTOWN | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 11,27,521 shares | price 188.14 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 11,27,521 shares in a bulk deal on 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹67.11 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹71.99 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹29.98 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "bb78a9343b5ea99c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1127521,
+          "record_ids": [
+            "bb78a9343b5ea99c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 1127521",
+          "row_ref": "29-OCT-2026 · HUBTOWN · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 1127521",
+          "quote": "NSE | HUBTOWN | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 11,27,521 shares | price 188.23 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bb78a9343b5ea99c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 11,27,521 shares in a bulk deal on 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹67.11 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹71.99 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹29.98 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_arihant_capital_markets_limited",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "755209ed2da3706b",
+        "f3251bbf51fdb8ca"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1116335,
+          "record_ids": [
+            "755209ed2da3706b"
+          ]
+        },
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 1772283,
+          "record_ids": [
+            "f3251bbf51fdb8ca"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+          "row_ref": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+          "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 11,16,335 shares | price 190.4 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "755209ed2da3706b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+          "row_ref": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+          "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 17,72,283 shares | price 185.35 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f3251bbf51fdb8ca",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "28,88,618",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "541042838.05",
+          "rupees_high": "541042838.05",
+          "crore_low": "54.10",
+          "crore_high": "54.10",
+          "display": "₹54.10 crore",
+          "working": "11,16,335 shares × ₹190.4 = ₹21.26 crore (NSE 29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335); 17,72,283 shares × ₹185.35 = ₹32.85 crore (NSE 30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283); total ₹54.10 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "11,16,335",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+                  "row_ref": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+                  "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 11,16,335 shares | price 190.4 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹190.4",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+                  "row_ref": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1116335",
+                  "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 11,16,335 shares | price 190.4 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "17,72,283",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+                  "row_ref": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+                  "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 17,72,283 shares | price 185.35 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹185.35",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+                  "row_ref": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+                  "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 17,72,283 shares | price 185.35 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+                  "row_ref": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1772283",
+                  "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 17,72,283 shares | price 185.35 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 28,88,618 shares in bulk deals on 29 Oct 2026 and 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹12.75 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "shiv_aum_steels_bulk_deal_2026w44",
+          "company": "Shiv Aum Steels Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.01 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_arihant_capital_markets_limited_bought",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "674092e54eb54252",
+        "21f1d56035d69785"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1199476,
+          "record_ids": [
+            "674092e54eb54252"
+          ]
+        },
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 1772283,
+          "record_ids": [
+            "21f1d56035d69785"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1199476",
+          "row_ref": "29-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1199476",
+          "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | BUY | 11,99,476 shares | price 185.78 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "674092e54eb54252",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1772283",
+          "row_ref": "30-OCT-2026 · HUBTOWN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1772283",
+          "quote": "NSE | HUBTOWN | ARIHANT CAPITAL MARKETS LIMITED | BUY | 17,72,283 shares | price 186.44 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "21f1d56035d69785",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 29,71,759 shares in bulk deals on 29 Oct 2026 and 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹12.75 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "shiv_aum_steels_bulk_deal_2026w44",
+          "company": "Shiv Aum Steels Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.01 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 38
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "203.01",
+    "high": "211.21",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹203.01",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+            "row_ref": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+            "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 3,22,810 shares | price 203.01 | 2026-10-30"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹211.21",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+            "row_ref": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+            "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 2,53,959 shares | price 211.21 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "29 Oct 2026 to 30 Oct 2026",
+    "sale_date_parsed": "2026-10-30",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "5,76,769 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_arihant_capital_markets_limited",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "a31871dc6f54164f",
+        "f06247e6cc70a715"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 253959,
+          "record_ids": [
+            "a31871dc6f54164f"
+          ]
+        },
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 322810,
+          "record_ids": [
+            "f06247e6cc70a715"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+          "row_ref": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+          "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 2,53,959 shares | price 211.21 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a31871dc6f54164f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+          "row_ref": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+          "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 3,22,810 shares | price 203.01 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f06247e6cc70a715",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,76,769",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "119172338.49",
+          "rupees_high": "119172338.49",
+          "crore_low": "11.92",
+          "crore_high": "11.92",
+          "display": "₹11.92 crore",
+          "working": "2,53,959 shares × ₹211.21 = ₹5.36 crore (NSE 29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959); 3,22,810 shares × ₹203.01 = ₹6.55 crore (NSE 30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810); total ₹11.92 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,53,959",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+                  "row_ref": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+                  "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 2,53,959 shares | price 211.21 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹211.21",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+                  "row_ref": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 253959",
+                  "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 2,53,959 shares | price 211.21 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "3,22,810",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+                  "row_ref": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+                  "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 3,22,810 shares | price 203.01 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹203.01",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+                  "row_ref": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+                  "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 3,22,810 shares | price 203.01 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+                  "row_ref": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · SELL · 322810",
+                  "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | SELL | 3,22,810 shares | price 203.01 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 5,76,769 shares in bulk deals on 29 Oct 2026 and 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹54.10 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹12.75 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "shiv_aum_steels_bulk_deal_2026w44",
+          "company": "Shiv Aum Steels Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.01 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_arihant_capital_markets_limited_bought",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "59b8a3f416c71f05",
+        "479396211204dfc5"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 53071,
+          "record_ids": [
+            "59b8a3f416c71f05"
+          ]
+        },
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 231475,
+          "record_ids": [
+            "479396211204dfc5"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 53071",
+          "row_ref": "29-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 53071",
+          "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | BUY | 53,071 shares | price 212.68 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "59b8a3f416c71f05",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 231475",
+          "row_ref": "30-OCT-2026 · COMSYN · ARIHANT CAPITAL MARKETS LIMITED · BUY · 231475",
+          "quote": "NSE | COMSYN | ARIHANT CAPITAL MARKETS LIMITED | BUY | 2,31,475 shares | price 203.77 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "479396211204dfc5",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,84,546 shares in bulk deals on 29 Oct 2026 and 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹54.10 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹12.75 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "shiv_aum_steels_bulk_deal_2026w44",
+          "company": "Shiv Aum Steels Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.01 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 20
+  }
+}

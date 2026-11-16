@@ -1,0 +1,908 @@
+{
+  "event_id": "adroit_industries_i_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "195.95",
+    "high": "197.44",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹195.95",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+            "row_ref": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+            "quote": "NSE | ADROITIND | QE SECURITIES LLP | SELL | 2,62,101 shares | price 195.95 | 2026-11-12"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹197.44",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+            "row_ref": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+            "quote": "NSE | ADROITIND | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 2,75,923 shares | price 197.44 | 2026-11-12"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "12 Nov 2026",
+    "sale_date_parsed": "2026-11-12",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "5,38,024 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "286e13f459ea4f24"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 275923,
+          "record_ids": [
+            "286e13f459ea4f24"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+          "row_ref": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+          "quote": "NSE | ADROITIND | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 2,75,923 shares | price 197.44 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "286e13f459ea4f24",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,75,923",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "54478237.12",
+          "rupees_high": "54478237.12",
+          "crore_low": "5.45",
+          "crore_high": "5.45",
+          "display": "₹5.45 crore",
+          "working": "2,75,923 shares × ₹197.44 = ₹5.45 crore (NSE 12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,75,923",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+                  "row_ref": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+                  "quote": "NSE | ADROITIND | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 2,75,923 shares | price 197.44 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹197.44",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+                  "row_ref": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+                  "quote": "NSE | ADROITIND | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 2,75,923 shares | price 197.44 | 2026-11-12"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "trade_date": "2026-11-12",
+          "settles_on": "2026-11-13",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "12 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+                  "row_ref": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 275923",
+                  "quote": "NSE | ADROITIND | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 2,75,923 shares | price 197.44 | 2026-11-12"
+                }
+              ]
+            }
+          ],
+          "days_since": 3
+        }
+      },
+      "why_money": "sold 2,75,923 shares in a bulk deal on 12 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.50 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹21.21 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.59 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alembic_bulk_deal_2026w46",
+          "company": "Alembic Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹17.16 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alembic_bulk_deal_2026w46",
+          "company": "Alembic Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ed2dc422ec381c8c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 275923,
+          "record_ids": [
+            "ed2dc422ec381c8c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 275923",
+          "row_ref": "12-NOV-2026 · ADROITIND · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 275923",
+          "quote": "NSE | ADROITIND | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 2,75,923 shares | price 196.91 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ed2dc422ec381c8c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,75,923 shares in a bulk deal on 12 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.50 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹21.21 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.59 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alembic_bulk_deal_2026w46",
+          "company": "Alembic Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹17.16 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alembic_bulk_deal_2026w46",
+          "company": "Alembic Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "4f58488503e2b262"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 262101,
+          "record_ids": [
+            "4f58488503e2b262"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+          "row_ref": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+          "quote": "NSE | ADROITIND | QE SECURITIES LLP | SELL | 2,62,101 shares | price 195.95 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4f58488503e2b262",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,62,101",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "51358690.95",
+          "rupees_high": "51358690.95",
+          "crore_low": "5.14",
+          "crore_high": "5.14",
+          "display": "₹5.14 crore",
+          "working": "2,62,101 shares × ₹195.95 = ₹5.14 crore (NSE 12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,62,101",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+                  "row_ref": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+                  "quote": "NSE | ADROITIND | QE SECURITIES LLP | SELL | 2,62,101 shares | price 195.95 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹195.95",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+                  "row_ref": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+                  "quote": "NSE | ADROITIND | QE SECURITIES LLP | SELL | 2,62,101 shares | price 195.95 | 2026-11-12"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "trade_date": "2026-11-12",
+          "settles_on": "2026-11-13",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "12 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+                  "row_ref": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · SELL · 262101",
+                  "quote": "NSE | ADROITIND | QE SECURITIES LLP | SELL | 2,62,101 shares | price 195.95 | 2026-11-12"
+                }
+              ]
+            }
+          ],
+          "days_since": 3
+        }
+      },
+      "why_money": "sold 2,62,101 shares in a bulk deal on 12 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹23.62 crore",
+          "trigger_date": "2026-11-12",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹11.76 crore",
+          "trigger_date": "2026-11-05",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "b4c7daefd7a4e1b4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 253995,
+          "record_ids": [
+            "b4c7daefd7a4e1b4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · BUY · 253995",
+          "row_ref": "12-NOV-2026 · ADROITIND · QE SECURITIES LLP · BUY · 253995",
+          "quote": "NSE | ADROITIND | QE SECURITIES LLP | BUY | 2,53,995 shares | price 196.78 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b4c7daefd7a4e1b4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,53,995 shares in a bulk deal on 12 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹23.62 crore",
+          "trigger_date": "2026-11-12",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹11.76 crore",
+          "trigger_date": "2026-11-05",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 40
+  }
+}

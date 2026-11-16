@@ -1,0 +1,65 @@
+{
+  "event_id": "karur_vysya_bank_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_m_v_usha",
+      "name_as_printed": "M V Usha",
+      "fields": {
+        "name": "M V Usha",
+        "role": "Promoter group",
+        "why_money": "sold 1,500 shares (Market Sale) on 29 Oct 2026",
+        "amount": "₹5.35 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.35 lakh (1,500 shares, value as printed ₹5.35 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "M V Usha",
+        "role": "Promoter group",
+        "amount": "₹5.35 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹5.35 lakh",
+        "shares_offered": "1,500 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "M V Usha is a Promoter group member who sold 1,500 shares on the market, bringing in money.",
+        "Proceeds of ₹5.35 lakh settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), reaching them as recent cash.",
+        "Ask how they plan to deploy these proceeds given the recent settlement."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} member who sold {shares_offered} on the market, bringing in money.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade and T+1 settlement.",
+            "Ask how they plan to deploy these proceeds given the recent settlement timing."
+          ],
+          "lines": [
+            "{name} is a {role} member who sold {shares_offered} on the market, bringing in money.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade and T+1 settlement.",
+            "Ask how they plan to deploy these proceeds given the recent settlement timing."
+          ],
+          "problem": "writes numbers instead of placeholders: 1"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} member who sold {shares_offered} on the market, bringing in money.",
+            "Proceeds of {proceeds} {timing}, reaching them as recent cash.",
+            "Ask how they plan to deploy these proceeds given the recent settlement."
+          ],
+          "lines": [
+            "M V Usha is a Promoter group member who sold 1,500 shares on the market, bringing in money.",
+            "Proceeds of ₹5.35 lakh settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), reaching them as recent cash.",
+            "Ask how they plan to deploy these proceeds given the recent settlement."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

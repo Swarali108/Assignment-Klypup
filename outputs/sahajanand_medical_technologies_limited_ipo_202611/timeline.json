@@ -1,0 +1,48 @@
+{
+  "run_id": "sahajanand_medical_technologies_limited_ipo_202611-20261115T180900Z",
+  "total_s": 4.625685415987391,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 3.4704344579949975,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.9392546669696458,
+      "calls": 10,
+      "cached": 10,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.044765790982637554,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.027626624971162528,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.0870359999826178,
+      "calls": 6,
+      "cached": 6,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "report",
+      "seconds": 0.03317312500439584,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

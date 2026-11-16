@@ -1,0 +1,10 @@
+{
+ "what": "Bright Data responses from this project's token, transcribed from the live run on 2026-11-15 (Asia/Kolkata evening). Customer id and IP from /status are left out on purpose.",
+ "requests_used_on_that_run": 5,
+ "files": {
+  "zones.json": "GET /zone/get_active_zones -> 200",
+  "status.json": "GET /status -> 200 (status, can_make_requests, auth_fail_reason only)",
+  "trigger_not_active.json": "POST /datasets/v3/trigger (LinkedIn discover by name) -> 400",
+  "balance_forbidden.json": "GET /customer/balance and GET /trials/free_tier -> 403 (same body)"
+ }
+}

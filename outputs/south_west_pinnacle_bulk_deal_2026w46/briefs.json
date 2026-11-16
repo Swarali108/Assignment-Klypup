@@ -1,0 +1,52 @@
+{
+  "event_id": "south_west_pinnacle_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ajay_kumar_aggarwal",
+      "name_as_printed": "AJAY KUMAR AGGARWAL",
+      "fields": {
+        "name": "AJAY KUMAR AGGARWAL",
+        "role": "unknown",
+        "why_money": "sold 2,20,000 shares in a bulk deal on 9 Nov 2026",
+        "amount": "₹3.58 crore",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.58 crore (2,20,000 shares × ₹162.56 = ₹3.58 crore (NSE 09-NOV-2026 · SOUTHWEST · AJAY KUMAR AGGARWAL · SELL · 220000))"
+      },
+      "placeholders": {
+        "name": "AJAY KUMAR AGGARWAL",
+        "role": "unknown",
+        "amount": "₹3.58 crore",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹3.58 crore",
+        "shares_offered": "2,20,000 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "AJAY KUMAR AGGARWAL sold 2,20,000 shares in a bulk deal, so the money is coming to them from that sale.",
+        "Proceeds of ₹3.58 crore were settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "Role is unknown, so open by asking what they now want the ₹3.58 crore to do."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the money is coming to them from that sale.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Role is unknown, so open by asking what they now want the {amount} to do."
+          ],
+          "lines": [
+            "AJAY KUMAR AGGARWAL sold 2,20,000 shares in a bulk deal, so the money is coming to them from that sale.",
+            "Proceeds of ₹3.58 crore were settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+            "Role is unknown, so open by asking what they now want the ₹3.58 crore to do."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

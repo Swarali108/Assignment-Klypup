@@ -1,0 +1,719 @@
+{
+  "event_id": "tonbo_imaging_india_limited_ipo_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_arvind_kondangi_lakshmikumar",
+      "name_as_printed": "ARVIND KONDANGI LAKSHMIKUMAR",
+      "fields": {
+        "name": "ARVIND KONDANGI LAKSHMIKUMAR",
+        "role": "PROMOTER SELLING SHAREHOLDERS",
+        "why_money": "sells 1,150,000 shares in the offer for sale",
+        "amount": "₹80.50 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹80.50 crore (1,150,000 × ₹700 = ₹80.50 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹267.29 crore (estimate, valued at offer price) ((4,968,400 − 1,150,000) × ₹700 = ₹267.29 crore)",
+        "retained_shares": "3,818,400 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "ARVIND KONDANGI LAKSHMIKUMAR",
+        "role": "PROMOTER SELLING SHAREHOLDERS",
+        "amount": "₹80.50 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹80.50 crore",
+        "retained": "₹267.29 crore (estimate, valued at offer price)",
+        "retained_shares": "3,818,400 shares",
+        "shares_offered": "1,150,000 shares",
+        "shares_held": "4,968,400 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "ARVIND KONDANGI LAKSHMIKUMAR, a PROMOTER SELLING SHAREHOLDERS, is receiving money from selling 1,150,000 shares in the offer for sale.",
+        "Proceeds of ₹80.50 crore have been in hand since 23 days ago, when the shares listed.",
+        "They keep 3,818,400 shares, locked in under the minimum promoters' contribution rules.",
+        "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving money from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {amount} have been in hand since {event_age}, when the shares listed.",
+            "They keep {retained_shares}, locked in under the minimum promoters' contribution rules.",
+            "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated."
+          ],
+          "lines": [
+            "ARVIND KONDANGI LAKSHMIKUMAR, a PROMOTER SELLING SHAREHOLDERS, is receiving money from selling 1,150,000 shares in the offer for sale.",
+            "Proceeds of ₹80.50 crore have been in hand since 23 days ago, when the shares listed.",
+            "They keep 3,818,400 shares, locked in under the minimum promoters' contribution rules.",
+            "Caveat: average cost of acquisition is unconfirmed, so the taxable gain cannot be stated."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ankit_kumar",
+      "name_as_printed": "ANKIT KUMAR",
+      "fields": {
+        "name": "ANKIT KUMAR",
+        "role": "PROMOTER SELLING SHAREHOLDERS",
+        "why_money": "sells 580,000 shares in the offer for sale",
+        "amount": "₹40.60 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹40.60 crore (580,000 × ₹700 = ₹40.60 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹171.97 crore (estimate, valued at offer price) ((3,036,700 − 580,000) × ₹700 = ₹171.97 crore)",
+        "retained_shares": "2,456,700 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "ANKIT KUMAR",
+        "role": "PROMOTER SELLING SHAREHOLDERS",
+        "amount": "₹40.60 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹40.60 crore",
+        "retained": "₹171.97 crore (estimate, valued at offer price)",
+        "retained_shares": "2,456,700 shares",
+        "shares_offered": "580,000 shares",
+        "shares_held": "3,036,700 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "ANKIT KUMAR, a promoter selling shareholder, receives money from the offer for sale of 580,000 shares.",
+        "Proceeds of ₹40.60 crore have been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, 23 days ago.",
+        "Retained 2,456,700 shares are subject to lock-in, so further value depends on those holdings after the lock-in period.",
+        "Average cost of acquisition is unknown, so the gain on the sale cannot be confirmed."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "ANKIT KUMAR, a promoter selling shareholder, receives money from the offer for sale of {shares_offered}.",
+            "Proceeds of {amount} have been in hand since {timing}, {event_age}.",
+            "Retained {retained_shares} are subject to lock-in, so further value depends on those holdings after the lock-in period.",
+            "Average cost of acquisition is unknown, so the gain on the sale cannot be confirmed."
+          ],
+          "lines": [
+            "ANKIT KUMAR, a promoter selling shareholder, receives money from the offer for sale of 580,000 shares.",
+            "Proceeds of ₹40.60 crore have been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, 23 days ago.",
+            "Retained 2,456,700 shares are subject to lock-in, so further value depends on those holdings after the lock-in period.",
+            "Average cost of acquisition is unknown, so the gain on the sale cannot be confirmed."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_cecilia_d_souza",
+      "name_as_printed": "CECILIA D'SOUZA",
+      "fields": {
+        "name": "CECILIA D'SOUZA",
+        "role": "PROMOTER SELLING SHAREHOLDERS",
+        "why_money": "sells 230,000 shares in the offer for sale",
+        "amount": "₹16.10 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹16.10 crore (230,000 × ₹700 = ₹16.10 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹122.33 crore (estimate, valued at offer price) ((1,977,500 − 230,000) × ₹700 = ₹122.33 crore)",
+        "retained_shares": "1,747,500 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "CECILIA D'SOUZA",
+        "role": "PROMOTER SELLING SHAREHOLDERS",
+        "amount": "₹16.10 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹16.10 crore",
+        "retained": "₹122.33 crore (estimate, valued at offer price)",
+        "retained_shares": "1,747,500 shares",
+        "shares_offered": "230,000 shares",
+        "shares_held": "1,977,500 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "CECILIA D'SOUZA, a promoter selling shareholder, is receiving money from the offer for sale of shares.",
+        "They sold 230,000 shares for ₹16.10 crore, with the money in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable.",
+        "They keep 1,747,500 shares, under the lock-in periods that apply from the allotment date.",
+        "Caveat: average cost of acquisition is unconfirmed, so gain cannot be stated."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "CECILIA D'SOUZA, a promoter selling shareholder, is receiving money from the offer for sale of shares.",
+            "They sold {shares_offered} for {proceeds}, with the money in hand since {timing}.",
+            "They keep {retained_shares}, with lock-in periods of 18 months and 6 months from allotment.",
+            "Caveat: average cost of acquisition is unconfirmed, so gain cannot be stated."
+          ],
+          "lines": [
+            "CECILIA D'SOUZA, a promoter selling shareholder, is receiving money from the offer for sale of shares.",
+            "They sold {shares_offered} for {proceeds}, with the money in hand since {timing}.",
+            "They keep {retained_shares}, with lock-in periods of 18 months and 6 months from allotment.",
+            "Caveat: average cost of acquisition is unconfirmed, so gain cannot be stated."
+          ],
+          "problem": "writes numbers instead of placeholders: 18, 6"
+        },
+        {
+          "raw_lines": [
+            "CECILIA D'SOUZA, a promoter selling shareholder, is receiving money from the offer for sale of shares.",
+            "They sold {shares_offered} for {proceeds}, with the money in hand since {timing}.",
+            "They keep {retained_shares}, under the lock-in periods that apply from the allotment date.",
+            "Caveat: average cost of acquisition is unconfirmed, so gain cannot be stated."
+          ],
+          "lines": [
+            "CECILIA D'SOUZA, a promoter selling shareholder, is receiving money from the offer for sale of shares.",
+            "They sold 230,000 shares for ₹16.10 crore, with the money in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable.",
+            "They keep 1,747,500 shares, under the lock-in periods that apply from the allotment date.",
+            "Caveat: average cost of acquisition is unconfirmed, so gain cannot be stated."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_timothy_guy_mitchell",
+      "name_as_printed": "TIMOTHY GUY MITCHELL",
+      "fields": {
+        "name": "TIMOTHY GUY MITCHELL",
+        "role": "INVESTOR SELLING SHAREHOLDERS",
+        "why_money": "sells 208,700 shares in the offer for sale",
+        "amount": "₹14.61 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹14.61 crore (208,700 × ₹700 = ₹14.61 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "TIMOTHY GUY MITCHELL",
+        "role": "INVESTOR SELLING SHAREHOLDERS",
+        "amount": "₹14.61 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹14.61 crore",
+        "shares_offered": "208,700 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "TIMOTHY GUY MITCHELL, an investor selling shareholder, sells 208,700 shares in the offer for sale.",
+        "Proceeds of ₹14.61 crore have been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, after 23 days ago.",
+        "Their pre-offer holding is unconfirmed, so ask about remaining shares and lock-in terms before recommending anything.",
+        "Average cost of acquisition is not confirmed from the documents, so gain cannot be stated yet."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "TIMOTHY GUY MITCHELL, an investor selling shareholder, sells 208,700 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}, after {event_age}.",
+            "Their pre-offer holding is unconfirmed, so ask about remaining shares and lock-in terms before recommending anything.",
+            "Average cost of acquisition is not confirmed from the documents, so gain cannot be stated yet."
+          ],
+          "lines": [
+            "TIMOTHY GUY MITCHELL, an investor selling shareholder, sells 208,700 shares in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}, after {event_age}.",
+            "Their pre-offer holding is unconfirmed, so ask about remaining shares and lock-in terms before recommending anything.",
+            "Average cost of acquisition is not confirmed from the documents, so gain cannot be stated yet."
+          ],
+          "problem": "writes numbers instead of placeholders: 208,700"
+        },
+        {
+          "raw_lines": [
+            "TIMOTHY GUY MITCHELL, an investor selling shareholder, sells {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {timing}, after {event_age}.",
+            "Their pre-offer holding is unconfirmed, so ask about remaining shares and lock-in terms before recommending anything.",
+            "Average cost of acquisition is not confirmed from the documents, so gain cannot be stated yet."
+          ],
+          "lines": [
+            "TIMOTHY GUY MITCHELL, an investor selling shareholder, sells 208,700 shares in the offer for sale.",
+            "Proceeds of ₹14.61 crore have been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, after 23 days ago.",
+            "Their pre-offer holding is unconfirmed, so ask about remaining shares and lock-in terms before recommending anything.",
+            "Average cost of acquisition is not confirmed from the documents, so gain cannot be stated yet."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_amit_dilip_shah",
+      "name_as_printed": "AMIT DILIP SHAH",
+      "fields": {
+        "name": "AMIT DILIP SHAH",
+        "role": "INVESTOR SELLING SHAREHOLDERS",
+        "why_money": "sells 84,600 shares in the offer for sale",
+        "amount": "₹5.92 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.92 crore (84,600 × ₹700 = ₹5.92 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "AMIT DILIP SHAH",
+        "role": "INVESTOR SELLING SHAREHOLDERS",
+        "amount": "₹5.92 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹5.92 crore",
+        "shares_offered": "84,600 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "AMIT DILIP SHAH, an investor selling shareholder, is receiving money from the sale of 84,600 shares in the offer for sale.",
+        "They received ₹5.92 crore, in hand in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, and the proceeds came in when the stock listed.",
+        "Ask about their remaining holding, since pre-offer lock-in terms apply and the retained position is still unconfirmed.",
+        "Caveat: the average cost of acquisition and pre-offer holding are not confirmed from the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, an investor selling shareholder, is receiving money from the sale of {shares_offered} in the offer for sale.",
+            "They received {amount}, in hand since {timing_short}, {event_age}, and the proceeds came in when the stock listed.",
+            "Ask about their remaining holding, since pre-offer lock-in terms apply and the retained position is still unconfirmed.",
+            "Caveat: the average cost of acquisition and pre-offer holding are not confirmed from the documents."
+          ],
+          "lines": [
+            "{name}, an investor selling shareholder, is receiving money from the sale of {shares_offered} in the offer for sale.",
+            "They received {amount}, in hand since {timing_short}, {event_age}, and the proceeds came in when the stock listed.",
+            "Ask about their remaining holding, since pre-offer lock-in terms apply and the retained position is still unconfirmed.",
+            "Caveat: the average cost of acquisition and pre-offer holding are not confirmed from the documents."
+          ],
+          "problem": "unknown placeholders: {timing_short}"
+        },
+        {
+          "raw_lines": [
+            "{name}, an investor selling shareholder, is receiving money from the sale of {shares_offered} in the offer for sale.",
+            "They received {amount}, in hand {timing}, and the proceeds came in when the stock listed.",
+            "Ask about their remaining holding, since pre-offer lock-in terms apply and the retained position is still unconfirmed.",
+            "Caveat: the average cost of acquisition and pre-offer holding are not confirmed from the documents."
+          ],
+          "lines": [
+            "AMIT DILIP SHAH, an investor selling shareholder, is receiving money from the sale of 84,600 shares in the offer for sale.",
+            "They received ₹5.92 crore, in hand in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, and the proceeds came in when the stock listed.",
+            "Ask about their remaining holding, since pre-offer lock-in terms apply and the retained position is still unconfirmed.",
+            "Caveat: the average cost of acquisition and pre-offer holding are not confirmed from the documents."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_tiruvidaimarudhur_srivatsan_sivashankar",
+      "name_as_printed": "TIRUVIDAIMARUDHUR SRIVATSAN SIVASHANKAR",
+      "fields": {
+        "name": "TIRUVIDAIMARUDHUR SRIVATSAN SIVASHANKAR",
+        "role": "Key Managerial Personnel",
+        "why_money": "sells 80,000 shares in the offer for sale",
+        "amount": "₹5.60 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.60 crore (80,000 × ₹700 = ₹5.60 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "₹36.64 crore (estimate, valued at offer price) ((603,400 − 80,000) × ₹700 = ₹36.64 crore)",
+        "retained_shares": "523,400 shares",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "TIRUVIDAIMARUDHUR SRIVATSAN SIVASHANKAR",
+        "role": "Key Managerial Personnel",
+        "amount": "₹5.60 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹5.60 crore",
+        "retained": "₹36.64 crore (estimate, valued at offer price)",
+        "retained_shares": "523,400 shares",
+        "shares_offered": "80,000 shares",
+        "shares_held": "603,400 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "TIRUVIDAIMARUDHUR SRIVATSAN SIVASHANKAR, Key Managerial Personnel, is receiving money from selling 80,000 shares in the offer for sale.",
+        "₹5.60 crore arrived, in hand since about 23 days ago, the listing date in the offer timetable.",
+        "They still hold 523,400 shares after the offer, so further value depends on the holding. Gain figure is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, Key Managerial Personnel, is receiving money from selling {shares_offered} in the offer for sale.",
+            "{amount} arrived, in hand since about {event_age}, the listing date in the offer timetable.",
+            "They still hold {retained_shares} after the offer, so further value depends on the holding. Gain figure is unknown."
+          ],
+          "lines": [
+            "TIRUVIDAIMARUDHUR SRIVATSAN SIVASHANKAR, Key Managerial Personnel, is receiving money from selling 80,000 shares in the offer for sale.",
+            "₹5.60 crore arrived, in hand since about 23 days ago, the listing date in the offer timetable.",
+            "They still hold 523,400 shares after the offer, so further value depends on the holding. Gain figure is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ramesh_radhakrishnan",
+      "name_as_printed": "RAMESH RADHAKRISHNAN",
+      "fields": {
+        "name": "RAMESH RADHAKRISHNAN",
+        "role": "INVESTOR SELLING SHAREHOLDERS",
+        "why_money": "sells 80,000 shares in the offer for sale",
+        "amount": "₹5.60 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.60 crore (80,000 × ₹700 = ₹5.60 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "unknown: average cost of acquisition not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "gain: average cost of acquisition not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "RAMESH RADHAKRISHNAN",
+        "role": "INVESTOR SELLING SHAREHOLDERS",
+        "amount": "₹5.60 crore",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "proceeds": "₹5.60 crore",
+        "shares_offered": "80,000 shares",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "RAMESH RADHAKRISHNAN, investor selling shareholder, is receiving money from the offer for sale of 80,000 shares.",
+        "Proceeds of ₹5.60 crore have been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, which is 23 days ago.",
+        "The pre-offer holding is unknown, so confirm how many shares they keep, and the gain, before discussing next steps.",
+        "Average cost of acquisition is not confirmed, so the gain on these shares cannot yet be stated."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "RAMESH RADHAKRISHNAN, investor selling shareholder, is receiving money from the offer for sale of 80,000 shares.",
+            "Proceeds of {amount} have been in hand since {timing}, which is {event_age}.",
+            "The pre-offer holding is unknown, so confirm how many shares they keep, and the gain, before discussing next steps.",
+            "Average cost of acquisition is not confirmed, so the gain on these shares cannot yet be stated."
+          ],
+          "lines": [
+            "RAMESH RADHAKRISHNAN, investor selling shareholder, is receiving money from the offer for sale of 80,000 shares.",
+            "Proceeds of {amount} have been in hand since {timing}, which is {event_age}.",
+            "The pre-offer holding is unknown, so confirm how many shares they keep, and the gain, before discussing next steps.",
+            "Average cost of acquisition is not confirmed, so the gain on these shares cannot yet be stated."
+          ],
+          "problem": "writes numbers instead of placeholders: 80,000"
+        },
+        {
+          "raw_lines": [
+            "RAMESH RADHAKRISHNAN, investor selling shareholder, is receiving money from the offer for sale of {shares_offered}.",
+            "Proceeds of {amount} have been in hand since {timing}, which is {event_age}.",
+            "The pre-offer holding is unknown, so confirm how many shares they keep, and the gain, before discussing next steps.",
+            "Average cost of acquisition is not confirmed, so the gain on these shares cannot yet be stated."
+          ],
+          "lines": [
+            "RAMESH RADHAKRISHNAN, investor selling shareholder, is receiving money from the offer for sale of 80,000 shares.",
+            "Proceeds of ₹5.60 crore have been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, which is 23 days ago.",
+            "The pre-offer holding is unknown, so confirm how many shares they keep, and the gain, before discussing next steps.",
+            "Average cost of acquisition is not confirmed, so the gain on these shares cannot yet be stated."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ceaq_india",
+      "name_as_printed": "CEAQ India",
+      "fields": {
+        "name": "CEAQ India",
+        "role": "Selling Shareholders",
+        "why_money": "named as a selling shareholder; seller-table row not confirmed from the documents",
+        "amount": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "timing": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "event": "proceeds, timing unknown",
+        "event_age": "not yet happened or undated",
+        "event_is": "recent",
+        "proceeds": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "gain": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "amount: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "timing: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "proceeds: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "gain: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "CEAQ India",
+        "role": "Selling Shareholders",
+        "amount": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "timing": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "event_age": "not yet happened or undated"
+      },
+      "lines": [
+        "CEAQ India (Selling Shareholders) named as a selling shareholder; seller-table row not confirmed from the documents.",
+        "Amount not disclosed; retained shares still locked in.",
+        "Retained shares are still locked in, so more money can follow when they unlock.",
+        "Not known yet: amount: named as a selling shareholder, but no seller-table row for this name passed verification."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "unknown placeholders: {retained_shares_timing}",
+      "template_problem": "uses words about the pipeline, not the holder: verification",
+      "attempts": [
+        {
+          "raw_lines": [
+            "CEAQ India, a Selling Shareholder, is due offer proceeds, though the amount and timing are not confirmed.",
+            "Proceeds timing is unknown; the seller-table row for this name did not pass verification.",
+            "Their retained shares are subject to a lock-in of 6 months from Allotment, date unconfirmed.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "lines": [
+            "CEAQ India, a Selling Shareholder, is due offer proceeds, though the amount and timing are not confirmed.",
+            "Proceeds timing is unknown; the seller-table row for this name did not pass verification.",
+            "Their retained shares are subject to a lock-in of 6 months from Allotment, date unconfirmed.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "problem": "writes numbers instead of placeholders: 6"
+        },
+        {
+          "raw_lines": [
+            "CEAQ India, a Selling Shareholder, is due offer proceeds, though the amount and timing are not confirmed.",
+            "Proceeds timing is unknown; the seller-table row for this name did not pass verification.",
+            "Their retained shares carry a lock-in of {retained_shares_timing} from Allotment, date unconfirmed.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "lines": [
+            "CEAQ India, a Selling Shareholder, is due offer proceeds, though the amount and timing are not confirmed.",
+            "Proceeds timing is unknown; the seller-table row for this name did not pass verification.",
+            "Their retained shares carry a lock-in of {retained_shares_timing} from Allotment, date unconfirmed.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "problem": "unknown placeholders: {retained_shares_timing}"
+        }
+      ]
+    },
+    {
+      "person_id": "p_ceaq_singapore",
+      "name_as_printed": "CEAQ Singapore",
+      "fields": {
+        "name": "CEAQ Singapore",
+        "role": "Selling Shareholders",
+        "why_money": "named as a selling shareholder; seller-table row not confirmed from the documents",
+        "amount": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "timing": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "event": "proceeds, timing unknown",
+        "event_age": "not yet happened or undated",
+        "event_is": "recent",
+        "proceeds": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "gain": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "unknowns": [
+          "amount: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "timing: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "proceeds: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "gain: named as a selling shareholder, but no seller-table row for this name passed verification",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "CEAQ Singapore",
+        "role": "Selling Shareholders",
+        "amount": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "timing": "unknown: named as a selling shareholder, but no seller-table row for this name passed verification",
+        "event_age": "not yet happened or undated"
+      },
+      "lines": [
+        "CEAQ Singapore, a Selling Shareholder, is due sale proceeds from this offering.",
+        "Amount and timing are still open; the seller record for this holder is not confirmed.",
+        "Ask whether they hold pre-offer shares locked up for six months from allotment.",
+        "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "CEAQ Singapore, a Selling Shareholder, is due sale proceeds from this offering.",
+            "Amount and timing are unknown: no seller-table row for this name passed verification.",
+            "Ask whether they hold pre-offer shares locked up for six months from allotment.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "lines": [
+            "CEAQ Singapore, a Selling Shareholder, is due sale proceeds from this offering.",
+            "Amount and timing are unknown: no seller-table row for this name passed verification.",
+            "Ask whether they hold pre-offer shares locked up for six months from allotment.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "problem": "uses words about the pipeline, not the holder: verification"
+        },
+        {
+          "raw_lines": [
+            "CEAQ Singapore, a Selling Shareholder, is due sale proceeds from this offering.",
+            "Amount and timing are still open; the seller record for this holder is not confirmed.",
+            "Ask whether they hold pre-offer shares locked up for six months from allotment.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "lines": [
+            "CEAQ Singapore, a Selling Shareholder, is due sale proceeds from this offering.",
+            "Amount and timing are still open; the seller record for this holder is not confirmed.",
+            "Ask whether they hold pre-offer shares locked up for six months from allotment.",
+            "Pre-offer holding is not confirmed from the documents, so retained position is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_meera_sivashankar",
+      "name_as_printed": "MEERA SIVASHANKAR",
+      "fields": {
+        "name": "MEERA SIVASHANKAR",
+        "role": "unknown",
+        "why_money": "sells in the offer for sale; number of shares not confirmed from the documents",
+        "amount": "unknown: shares offered not confirmed from the documents",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (23 days ago)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "unknown: shares offered not confirmed from the documents",
+        "gain": "unknown: shares offered not confirmed from the documents",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "unknowns": [
+          "amount: shares offered not confirmed from the documents",
+          "proceeds: shares offered not confirmed from the documents",
+          "gain: shares offered not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "MEERA SIVASHANKAR",
+        "role": "unknown",
+        "amount": "unknown: shares offered not confirmed from the documents",
+        "timing": "in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable",
+        "event_age": "23 days ago"
+      },
+      "lines": [
+        "MEERA SIVASHANKAR is a holder whose role is unknown, and money is coming to them from selling shares in the offer for sale.",
+        "The amount is unknown, and the money has been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, 23 days ago.",
+        "Their pre-offer holding is unknown, so confirm the retained position before discussing next steps with them.",
+        "The number of shares sold and the resulting proceeds are not confirmed from the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, and money is coming to them from selling shares in the offer for sale.",
+            "The amount is unknown, and the money has been in hand since {timing}, {event_age}.",
+            "Their pre-offer holding is unknown, so confirm the retained position before discussing next steps with them.",
+            "The number of shares sold and the resulting proceeds are not confirmed from the documents."
+          ],
+          "lines": [
+            "MEERA SIVASHANKAR is a holder whose role is unknown, and money is coming to them from selling shares in the offer for sale.",
+            "The amount is unknown, and the money has been in hand since in hand since about 23 Oct 2026 (23 days ago), the listing date in the offer timetable, 23 days ago.",
+            "Their pre-offer holding is unknown, so confirm the retained position before discussing next steps with them.",
+            "The number of shares sold and the resulting proceeds are not confirmed from the documents."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_tiruvidaimarudhur_srivatsan_sivashankar_and_meera_sivashankar",
+      "name_as_printed": "Tiruvidaimarudhur Srivatsan Sivashankar and Meera Sivashankar",
+      "fields": {
+        "name": "Tiruvidaimarudhur Srivatsan Sivashankar and Meera Sivashankar",
+        "role": "unknown",
+        "why_money": "holding not confirmed from the documents",
+        "amount": "unknown: pre-offer holding not confirmed from the documents",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "unknowns": [
+          "amount: pre-offer holding not confirmed from the documents",
+          "timing: no role printed",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Tiruvidaimarudhur Srivatsan Sivashankar and Meera Sivashankar",
+        "role": "unknown",
+        "amount": "unknown: pre-offer holding not confirmed from the documents",
+        "timing": "unknown: no role printed"
+      },
+      "lines": [
+        "Tiruvidaimarudhur Srivatsan Sivashankar and Meera Sivashankar are holders whose role is unknown, and no money event is recorded for them.",
+        "The amount and timing of any money coming to them are unknown, as the pre-offer holding is not confirmed in the documents.",
+        "Open by confirming their current holding and role, then discuss what the documents would need to show before any money event can be discussed.",
+        "Unknown: the pre-offer holding, the role and the timing could not be confirmed from the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Tiruvidaimarudhur Srivatsan Sivashankar and Meera Sivashankar are holders whose role is unknown, and no money event is recorded for them.",
+            "The amount and timing of any money coming to them are unknown, as the pre-offer holding is not confirmed in the documents.",
+            "Open by confirming their current holding and role, then discuss what the documents would need to show before any money event can be discussed.",
+            "Unknown: the pre-offer holding, the role and the timing could not be confirmed from the documents."
+          ],
+          "lines": [
+            "Tiruvidaimarudhur Srivatsan Sivashankar and Meera Sivashankar are holders whose role is unknown, and no money event is recorded for them.",
+            "The amount and timing of any money coming to them are unknown, as the pre-offer holding is not confirmed in the documents.",
+            "Open by confirming their current holding and role, then discuss what the documents would need to show before any money event can be discussed.",
+            "Unknown: the pre-offer holding, the role and the timing could not be confirmed from the documents."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

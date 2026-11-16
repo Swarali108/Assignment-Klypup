@@ -1,0 +1,31 @@
+{
+  "event_id": "jai_corp_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Jai Corp Limited",
+  "documents": [],
+  "records": [
+    "3aa2cf172d452ce4",
+    "3f8f4d5e688b03f2",
+    "615974cf647559c1",
+    "6375d3d3d568e1eb",
+    "6e075310ef231b6d",
+    "81d78e24d79010e7",
+    "8e24629dd747b4eb",
+    "a20fe64f06a642e1",
+    "a6e4febb09770c5b",
+    "b587941bd04f4228",
+    "cd459737477d9189",
+    "ced2f96ac27ce72d",
+    "d3c6a5a56e549ca6",
+    "fcd243a996483f14"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-19",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

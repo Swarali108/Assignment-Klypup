@@ -1,0 +1,62 @@
+{
+  "event_id": "parag_milk_foods_insider_sale_2026w46",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_sixth_sense_india_opportunities_iii",
+      "name_as_printed": "Sixth Sense India Opportunities III",
+      "name_clean": "sixth sense india opportunities iii",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.97",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.97000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "money_crore": "0.97",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.97000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "money_crore": "0.97",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.97000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 29,252 shares (Market Sale) on 9 Nov 2026",
+      "amount_display": "₹96.98 lakh",
+      "timing_display": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹96.98 lakh; settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.97 = ₹0.97 crore (proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

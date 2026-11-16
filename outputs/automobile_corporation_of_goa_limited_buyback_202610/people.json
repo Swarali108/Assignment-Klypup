@@ -1,0 +1,76 @@
+{
+  "event_id": "automobile_corporation_of_goa_limited_buyback_202610",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "buyback_price",
+    "low": "2005",
+    "high": "2005",
+    "inputs": [
+      {
+        "field": "buyback_price",
+        "value": "₹ 2,005/-",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+            "pdf_index": 5,
+            "printed_page": "5",
+            "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf#page=5",
+            "quote": "at a price of ₹ 2,005/- (Indian Rupees Two Thousand"
+          }
+        ]
+      }
+    ]
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "unknown",
+      "reason": "payment_date not verified"
+    },
+    "closing": {
+      "status": "verified",
+      "date": "2026-11-09",
+      "display": "9 Nov 2026 (6 days ago)",
+      "inputs": [
+        {
+          "field": "closing_date",
+          "value": "November 09, 2026",
+          "evidence": [
+            {
+              "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+              "pdf_index": 4,
+              "printed_page": "4",
+              "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf#page=4",
+              "quote": "Buyback Closing Date November 09, 2026 Monday"
+            }
+          ]
+        }
+      ],
+      "days_since": 6
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 0,
+    "by_holder_type": {},
+    "by_confidence": {},
+    "sellers": 0,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {},
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 0,
+    "follow_on_matches": 0
+  }
+}

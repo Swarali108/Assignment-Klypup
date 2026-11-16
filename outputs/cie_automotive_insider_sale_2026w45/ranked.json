@@ -1,0 +1,116 @@
+{
+  "event_id": "cie_automotive_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_anil_haridass",
+      "name_as_printed": "Anil Haridass",
+      "name_clean": "anil haridass",
+      "holder_type": "person",
+      "role_as_printed": "Director",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "5.23",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "5.23000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 11,
+        "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "money_crore": "5.23",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "5.23000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 11,
+          "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "money_crore": "5.23",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "5.23000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,50,000 shares (Market Sale) on 4 Nov 2026",
+      "amount_display": "₹5.23 crore",
+      "timing_display": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹5.23 crore; settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "score 5.23 = ₹5.23 crore (proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "tied with Anjali Powar Haridass; name order breaks the tie"
+      ]
+    },
+    {
+      "person_id": "p_anjali_powar_haridass",
+      "name_as_printed": "Anjali Powar Haridass",
+      "name_clean": "anjali powar haridass",
+      "holder_type": "person",
+      "role_as_printed": "Director",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "5.23",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "5.23000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 11,
+        "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "money_crore": "5.23",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "5.23000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 11,
+          "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "money_crore": "5.23",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "5.23000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,50,000 shares (Market Sale) on 4 Nov 2026",
+      "amount_display": "₹5.23 crore",
+      "timing_display": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹5.23 crore; settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "score 5.23 = ₹5.23 crore (proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

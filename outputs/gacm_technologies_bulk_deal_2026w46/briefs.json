@@ -1,0 +1,56 @@
+{
+  "event_id": "gacm_technologies_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "fields": {
+        "name": "JAGID VANITABEN RAJENDRAPRASAD",
+        "role": "unknown",
+        "why_money": "sold 42,43,228 shares in a bulk deal on 11 Nov 2026",
+        "amount": "₹26.31 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹26.31 lakh (42,43,228 shares × ₹0.62 = ₹26.31 lakh (NSE 11-NOV-2026 · GATECH · JAGID VANITABEN RAJENDRAPRASAD · SELL · 4243228))",
+        "family_link": "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      },
+      "placeholders": {
+        "name": "JAGID VANITABEN RAJENDRAPRASAD",
+        "role": "unknown",
+        "amount": "₹26.31 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹26.31 lakh",
+        "shares_offered": "42,43,228 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "JAGID VANITABEN RAJENDRAPRASAD is a holder whose role is unknown, receiving money from a share sale.",
+        "₹26.31 lakh from the sale of 42,43,228 shares settled 4 days ago, so the money is already in hand.",
+        "The family link to another holder with the same name and surname is worth confirming, since it may matter for the conversation.",
+        "Role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "{proceeds} from the sale of {shares_offered} settled {event_age}, so the money is already in hand.",
+            "The family link to another holder with the same name and surname is worth confirming, since it may matter for the conversation.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "JAGID VANITABEN RAJENDRAPRASAD is a holder whose role is unknown, receiving money from a share sale.",
+            "₹26.31 lakh from the sale of 42,43,228 shares settled 4 days ago, so the money is already in hand.",
+            "The family link to another holder with the same name and surname is worth confirming, since it may matter for the conversation.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

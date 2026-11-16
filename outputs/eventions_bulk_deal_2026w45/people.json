@@ -1,0 +1,707 @@
+{
+  "event_id": "eventions_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "53.99",
+    "high": "54.13",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹53.99",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+            "row_ref": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+            "quote": "NSE | EVENTIONS | JAGID VANITABEN RAJENDRAPRASAD | SELL | 4,95,600 shares | price 53.99 | 2026-11-03"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹54.13",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+            "row_ref": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+            "quote": "NSE | EVENTIONS | L7 HITECH PRIVATE LIMITED | SELL | 3,600 shares | price 54.13 | 2026-11-03"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "3 Nov 2026",
+    "sale_date_parsed": "2026-11-03",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "4,99,200 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 5,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_brother_enterprise_bought",
+      "name_as_printed": "BROTHER ENTERPRISE",
+      "names_as_printed": [
+        "BROTHER ENTERPRISE"
+      ],
+      "name_clean": "brother enterprise",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f9d51b665123c000"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 313200,
+          "record_ids": [
+            "f9d51b665123c000"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · EVENTIONS · BROTHER ENTERPRISE · BUY · 313200",
+          "row_ref": "03-NOV-2026 · EVENTIONS · BROTHER ENTERPRISE · BUY · 313200",
+          "quote": "NSE | EVENTIONS | BROTHER ENTERPRISE | BUY | 3,13,200 shares | price 54 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f9d51b665123c000",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,13,200 shares in a bulk deal on 3 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "names_as_printed": [
+        "JAGID VANITABEN RAJENDRAPRASAD"
+      ],
+      "name_clean": "jagid vanitaben rajendraprasad",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ce05c4e6b9826b85"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 495600,
+          "record_ids": [
+            "ce05c4e6b9826b85"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+          "row_ref": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+          "quote": "NSE | EVENTIONS | JAGID VANITABEN RAJENDRAPRASAD | SELL | 4,95,600 shares | price 53.99 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ce05c4e6b9826b85",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,95,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "26757444.00",
+          "rupees_high": "26757444.00",
+          "crore_low": "2.68",
+          "crore_high": "2.68",
+          "display": "₹2.68 crore",
+          "working": "4,95,600 shares × ₹53.99 = ₹2.68 crore (NSE 03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,95,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+                  "row_ref": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+                  "quote": "NSE | EVENTIONS | JAGID VANITABEN RAJENDRAPRASAD | SELL | 4,95,600 shares | price 53.99 | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹53.99",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+                  "row_ref": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+                  "quote": "NSE | EVENTIONS | JAGID VANITABEN RAJENDRAPRASAD | SELL | 4,95,600 shares | price 53.99 | 2026-11-03"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+          "trade_date": "2026-11-03",
+          "settles_on": "2026-11-04",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "3 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+                  "row_ref": "03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600",
+                  "quote": "NSE | EVENTIONS | JAGID VANITABEN RAJENDRAPRASAD | SELL | 4,95,600 shares | price 53.99 | 2026-11-03"
+                }
+              ]
+            }
+          ],
+          "days_since": 12
+        }
+      },
+      "why_money": "sold 4,95,600 shares in a bulk deal on 3 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JAGID VANITABEN RAJENDRAPRASAD' / 'JAGID VANITABEN RAJENDRAPRASAD'"
+        },
+        {
+          "event_id": "rhetan_tmt_bulk_deal_2026w44",
+          "company": "Rhetan TMT Limited",
+          "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+          "role": null,
+          "amount": "₹9.61 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JAGID VANITABEN RAJENDRAPRASAD' / 'JAGID VANITABEN RAJENDRAPRASAD'"
+        },
+        {
+          "event_id": "rhetan_tmt_bulk_deal_2026w44",
+          "company": "Rhetan TMT Limited",
+          "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JAGID VANITABEN RAJENDRAPRASAD' / 'JAGID VANITABEN RAJENDRAPRASAD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_l7_hitech_private_limited",
+      "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+      "names_as_printed": [
+        "L7 HITECH PRIVATE LIMITED"
+      ],
+      "name_clean": "l7 hitech private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "24e2034b31e1dba2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 3600,
+          "record_ids": [
+            "24e2034b31e1dba2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+          "row_ref": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+          "quote": "NSE | EVENTIONS | L7 HITECH PRIVATE LIMITED | SELL | 3,600 shares | price 54.13 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "24e2034b31e1dba2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "194868.00",
+          "rupees_high": "194868.00",
+          "crore_low": "0.02",
+          "crore_high": "0.02",
+          "display": "₹1.95 lakh",
+          "working": "3,600 shares × ₹54.13 = ₹1.95 lakh (NSE 03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+                  "row_ref": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+                  "quote": "NSE | EVENTIONS | L7 HITECH PRIVATE LIMITED | SELL | 3,600 shares | price 54.13 | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹54.13",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+                  "row_ref": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+                  "quote": "NSE | EVENTIONS | L7 HITECH PRIVATE LIMITED | SELL | 3,600 shares | price 54.13 | 2026-11-03"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+          "trade_date": "2026-11-03",
+          "settles_on": "2026-11-04",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "3 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+                  "row_ref": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · SELL · 3600",
+                  "quote": "NSE | EVENTIONS | L7 HITECH PRIVATE LIMITED | SELL | 3,600 shares | price 54.13 | 2026-11-03"
+                }
+              ]
+            }
+          ],
+          "days_since": 12
+        }
+      },
+      "why_money": "sold 3,600 shares in a bulk deal on 3 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aditya_ultra_steel_bulk_deal_2026w44",
+          "company": "Aditya Ultra Steel Ltd",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹35.20 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dar_credit_capital_bulk_deal_2026w44",
+          "company": "Dar Credit & Capital Ltd",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹35.00 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹33.12 lakh",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "gretex_corporate_services_bulk_deal_2026w43",
+          "company": "Gretex Corporate Services",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_l7_hitech_private_limited_bought",
+      "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+      "names_as_printed": [
+        "L7 HITECH PRIVATE LIMITED"
+      ],
+      "name_clean": "l7 hitech private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "431dd165128db6ff"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 73200,
+          "record_ids": [
+            "431dd165128db6ff"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · BUY · 73200",
+          "row_ref": "03-NOV-2026 · EVENTIONS · L7 HITECH PRIVATE LIMITED · BUY · 73200",
+          "quote": "NSE | EVENTIONS | L7 HITECH PRIVATE LIMITED | BUY | 73,200 shares | price 54.02 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "431dd165128db6ff",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 73,200 shares in a bulk deal on 3 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aditya_ultra_steel_bulk_deal_2026w44",
+          "company": "Aditya Ultra Steel Ltd",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹35.20 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dar_credit_capital_bulk_deal_2026w44",
+          "company": "Dar Credit & Capital Ltd",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹35.00 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹33.12 lakh",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "gretex_corporate_services_bulk_deal_2026w43",
+          "company": "Gretex Corporate Services",
+          "name_as_printed": "L7 HITECH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'L7 HITECH PRIVATE LIMITED' / 'L7 HITECH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_shyam_enterprise_bought",
+      "name_as_printed": "SHYAM ENTERPRISE",
+      "names_as_printed": [
+        "SHYAM ENTERPRISE"
+      ],
+      "name_clean": "shyam enterprise",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "582567724598f3c9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 106800,
+          "record_ids": [
+            "582567724598f3c9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · EVENTIONS · SHYAM ENTERPRISE · BUY · 106800",
+          "row_ref": "03-NOV-2026 · EVENTIONS · SHYAM ENTERPRISE · BUY · 106800",
+          "quote": "NSE | EVENTIONS | SHYAM ENTERPRISE | BUY | 1,06,800 shares | price 54 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "582567724598f3c9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,06,800 shares in a bulk deal on 3 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 5,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 3
+    },
+    "by_confidence": {
+      "high": 5
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 5
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 5,
+    "follow_on_matches": 13
+  }
+}

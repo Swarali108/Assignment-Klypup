@@ -1,0 +1,22 @@
+{
+  "event_id": "hd_fire_protect_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "HD Fire Protect Limited",
+  "documents": [],
+  "records": [
+    "03c848a6caf0c8c4",
+    "2b2b2184bd939fe9",
+    "b887eb3cf5b7cd99",
+    "d3a8891d620bf4db",
+    "f90f4decf1a1aa87"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-21",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

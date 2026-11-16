@@ -1,0 +1,52 @@
+{
+  "event_id": "hy_tech_engineers_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ruma_goel",
+      "name_as_printed": "RUMA GOEL",
+      "fields": {
+        "name": "RUMA GOEL",
+        "role": "unknown",
+        "why_money": "sold 7,64,803 shares in a bulk deal on 21 Oct 2026",
+        "amount": "₹5.92 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.92 crore (7,64,803 shares × ₹77.36 = ₹5.92 crore (NSE 21-OCT-2026 · HTEL · RUMA GOEL · SELL · 764803))"
+      },
+      "placeholders": {
+        "name": "RUMA GOEL",
+        "role": "unknown",
+        "amount": "₹5.92 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹5.92 crore",
+        "shares_offered": "7,64,803 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "RUMA GOEL sold 7,64,803 shares in an NSE bulk deal, so money is coming to them; role unknown.",
+        "Proceeds of ₹5.92 crore settled 25 days ago, so the money is already in hand.",
+        "Open by confirming the settlement and asking what they plan to do with the funds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in an NSE bulk deal, so money is coming to them; role unknown.",
+            "Proceeds of {proceeds} settled {event_age}, so the money is already in hand.",
+            "Open by confirming the settlement and asking what they plan to do with the funds."
+          ],
+          "lines": [
+            "RUMA GOEL sold 7,64,803 shares in an NSE bulk deal, so money is coming to them; role unknown.",
+            "Proceeds of ₹5.92 crore settled 25 days ago, so the money is already in hand.",
+            "Open by confirming the settlement and asking what they plan to do with the funds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

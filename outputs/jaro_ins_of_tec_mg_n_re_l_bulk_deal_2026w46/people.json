@@ -1,0 +1,2297 @@
+{
+  "event_id": "jaro_ins_of_tec_mg_n_re_l_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "390.89",
+    "high": "413.14",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹390.89",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+            "row_ref": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+            "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 4,77,678 shares | price 390.89 | 2026-11-12"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹413.14",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+            "row_ref": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+            "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 1,95,815 shares | price 413.14 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "12 Nov 2026 to 13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "15,69,633 shares sold by 6 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 13,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "1fe979de4d5b9b64",
+        "281f0ea2e50f55e8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 477678,
+          "record_ids": [
+            "1fe979de4d5b9b64"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 195815,
+          "record_ids": [
+            "281f0ea2e50f55e8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+          "row_ref": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+          "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 4,77,678 shares | price 390.89 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1fe979de4d5b9b64",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+          "row_ref": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+          "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 1,95,815 shares | price 413.14 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "281f0ea2e50f55e8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,73,493",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "267618562.52",
+          "rupees_high": "267618562.52",
+          "crore_low": "26.76",
+          "crore_high": "26.76",
+          "display": "₹26.76 crore",
+          "working": "4,77,678 shares × ₹390.89 = ₹18.67 crore (NSE 12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678); 1,95,815 shares × ₹413.14 = ₹8.09 crore (NSE 13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815); total ₹26.76 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,77,678",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+                  "row_ref": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+                  "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 4,77,678 shares | price 390.89 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹390.89",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+                  "row_ref": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 477678",
+                  "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 4,77,678 shares | price 390.89 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,95,815",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+                  "row_ref": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+                  "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 1,95,815 shares | price 413.14 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹413.14",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+                  "row_ref": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+                  "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 1,95,815 shares | price 413.14 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+                  "row_ref": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 195815",
+                  "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 1,95,815 shares | price 413.14 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 3
+        }
+      },
+      "why_money": "sold 6,73,493 shares in bulk deals on 12 Nov 2026 and 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.50 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹21.21 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.45 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.59 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "bbaaa1f4c31fa186",
+        "21cf384fd5bfcc9d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 477678,
+          "record_ids": [
+            "bbaaa1f4c31fa186"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 195815,
+          "record_ids": [
+            "21cf384fd5bfcc9d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 477678",
+          "row_ref": "12-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 477678",
+          "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 4,77,678 shares | price 390.96 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bbaaa1f4c31fa186",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 195815",
+          "row_ref": "13-NOV-2026 · JARO · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 195815",
+          "quote": "NSE | JARO | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 1,95,815 shares | price 412.66 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "21cf384fd5bfcc9d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,73,493 shares in bulk deals on 12 Nov 2026 and 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.50 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹21.21 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.45 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.59 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_grt_strategic_ventures_llp",
+      "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+      "names_as_printed": [
+        "GRT STRATEGIC VENTURES LLP"
+      ],
+      "name_clean": "grt strategic ventures llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ventures'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e2219bdafd7246c8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 117939,
+          "record_ids": [
+            "e2219bdafd7246c8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+          "row_ref": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+          "quote": "NSE | JARO | GRT STRATEGIC VENTURES LLP | SELL | 1,17,939 shares | price 396.31 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e2219bdafd7246c8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,17,939",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "46740405.09",
+          "rupees_high": "46740405.09",
+          "crore_low": "4.67",
+          "crore_high": "4.67",
+          "display": "₹4.67 crore",
+          "working": "1,17,939 shares × ₹396.31 = ₹4.67 crore (NSE 12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,17,939",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+                  "row_ref": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+                  "quote": "NSE | JARO | GRT STRATEGIC VENTURES LLP | SELL | 1,17,939 shares | price 396.31 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹396.31",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+                  "row_ref": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+                  "quote": "NSE | JARO | GRT STRATEGIC VENTURES LLP | SELL | 1,17,939 shares | price 396.31 | 2026-11-12"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "trade_date": "2026-11-12",
+          "settles_on": "2026-11-13",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "12 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+                  "row_ref": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · SELL · 117939",
+                  "quote": "NSE | JARO | GRT STRATEGIC VENTURES LLP | SELL | 1,17,939 shares | price 396.31 | 2026-11-12"
+                }
+              ]
+            }
+          ],
+          "days_since": 3
+        }
+      },
+      "why_money": "sold 1,17,939 shares in a bulk deal on 12 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "₹104.61 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "mk_sons_fine_jewels_bulk_deal_2026w45",
+          "company": "MK Sons Fine Jewels Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "₹8.46 crore",
+          "trigger_date": "2026-11-05",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "mk_sons_fine_jewels_bulk_deal_2026w45",
+          "company": "MK Sons Fine Jewels Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "quick_heal_tech_bulk_deal_2026w44",
+          "company": "Quick Heal Tech Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "₹5.28 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "quick_heal_tech_bulk_deal_2026w44",
+          "company": "Quick Heal Tech Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_grt_strategic_ventures_llp_bought",
+      "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+      "names_as_printed": [
+        "GRT STRATEGIC VENTURES LLP"
+      ],
+      "name_clean": "grt strategic ventures llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ventures'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "834d6229f0db67c8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 117939,
+          "record_ids": [
+            "834d6229f0db67c8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · BUY · 117939",
+          "row_ref": "12-NOV-2026 · JARO · GRT STRATEGIC VENTURES LLP · BUY · 117939",
+          "quote": "NSE | JARO | GRT STRATEGIC VENTURES LLP | BUY | 1,17,939 shares | price 396.08 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "834d6229f0db67c8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,17,939 shares in a bulk deal on 12 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "₹104.61 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "mk_sons_fine_jewels_bulk_deal_2026w45",
+          "company": "MK Sons Fine Jewels Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "₹8.46 crore",
+          "trigger_date": "2026-11-05",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "mk_sons_fine_jewels_bulk_deal_2026w45",
+          "company": "MK Sons Fine Jewels Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "quick_heal_tech_bulk_deal_2026w44",
+          "company": "Quick Heal Tech Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "₹5.28 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        },
+        {
+          "event_id": "quick_heal_tech_bulk_deal_2026w44",
+          "company": "Quick Heal Tech Ltd",
+          "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GRT STRATEGIC VENTURES LLP' / 'GRT STRATEGIC VENTURES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_irage_broking_services_llp",
+      "name_as_printed": "IRAGE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "IRAGE BROKING SERVICES LLP"
+      ],
+      "name_clean": "irage broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e66c8250c4fd5296"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 370428,
+          "record_ids": [
+            "e66c8250c4fd5296"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+          "row_ref": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+          "quote": "NSE | JARO | IRAGE BROKING SERVICES LLP | SELL | 3,70,428 shares | price 394.15 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e66c8250c4fd5296",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,70,428",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "146004196.20",
+          "rupees_high": "146004196.20",
+          "crore_low": "14.60",
+          "crore_high": "14.60",
+          "display": "₹14.60 crore",
+          "working": "3,70,428 shares × ₹394.15 = ₹14.60 crore (NSE 12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,70,428",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+                  "row_ref": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+                  "quote": "NSE | JARO | IRAGE BROKING SERVICES LLP | SELL | 3,70,428 shares | price 394.15 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹394.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+                  "row_ref": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+                  "quote": "NSE | JARO | IRAGE BROKING SERVICES LLP | SELL | 3,70,428 shares | price 394.15 | 2026-11-12"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "trade_date": "2026-11-12",
+          "settles_on": "2026-11-13",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "12 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+                  "row_ref": "12-NOV-2026 · JARO · IRAGE BROKING SERVICES LLP · SELL · 370428",
+                  "quote": "NSE | JARO | IRAGE BROKING SERVICES LLP | SELL | 3,70,428 shares | price 394.15 | 2026-11-12"
+                }
+              ]
+            }
+          ],
+          "days_since": 3
+        }
+      },
+      "why_money": "sold 3,70,428 shares in a bulk deal on 12 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹30.19 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bf_utilities_bulk_deal_2026w46",
+          "company": "BF Utilities Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹10.74 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bf_utilities_bulk_deal_2026w46",
+          "company": "BF Utilities Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹81.24 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹14.52 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "blspoly_bulk_deal_2026w46",
+          "company": "BLSPOLY",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹14.63 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "blspoly_bulk_deal_2026w46",
+          "company": "BLSPOLY",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "80a6e07a3e8dd05f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 139641,
+          "record_ids": [
+            "80a6e07a3e8dd05f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+          "row_ref": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+          "quote": "NSE | JARO | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 1,39,641 shares | price 412.30 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "80a6e07a3e8dd05f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,39,641",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "57573984.30",
+          "rupees_high": "57573984.30",
+          "crore_low": "5.76",
+          "crore_high": "5.76",
+          "display": "₹5.76 crore",
+          "working": "1,39,641 shares × ₹412.30 = ₹5.76 crore (NSE 13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,39,641",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+                  "row_ref": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+                  "quote": "NSE | JARO | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 1,39,641 shares | price 412.30 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹412.30",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+                  "row_ref": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+                  "quote": "NSE | JARO | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 1,39,641 shares | price 412.30 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+                  "row_ref": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 139641",
+                  "quote": "NSE | JARO | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 1,39,641 shares | price 412.30 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 1,39,641 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.17 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹47.95 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹9.00 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.11 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "2d285ea46bc1ee55"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 139238,
+          "record_ids": [
+            "2d285ea46bc1ee55"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 139238",
+          "row_ref": "13-NOV-2026 · JARO · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 139238",
+          "quote": "NSE | JARO | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 1,39,238 shares | price 411.68 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2d285ea46bc1ee55",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,39,238 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.17 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹47.95 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹9.00 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.11 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "names_as_printed": [
+        "PLUTUS WEALTH MANAGEMENT LLP"
+      ],
+      "name_clean": "plutus wealth management llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "42b7d09aee855687"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 120015,
+          "record_ids": [
+            "42b7d09aee855687"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+          "row_ref": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+          "quote": "NSE | JARO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 1,20,015 shares | price 412.32 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "42b7d09aee855687",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,20,015",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "49484584.80",
+          "rupees_high": "49484584.80",
+          "crore_low": "4.95",
+          "crore_high": "4.95",
+          "display": "₹4.95 crore",
+          "working": "1,20,015 shares × ₹412.32 = ₹4.95 crore (NSE 13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,20,015",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+                  "row_ref": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+                  "quote": "NSE | JARO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 1,20,015 shares | price 412.32 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹412.32",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+                  "row_ref": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+                  "quote": "NSE | JARO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 1,20,015 shares | price 412.32 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+                  "row_ref": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 120015",
+                  "quote": "NSE | JARO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 1,20,015 shares | price 412.32 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 1,20,015 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹66.83 crore",
+          "trigger_date": "2026-11-06",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹111.72 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹14.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹2.96 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹48.35 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp_bought",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "names_as_printed": [
+        "PLUTUS WEALTH MANAGEMENT LLP"
+      ],
+      "name_clean": "plutus wealth management llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "0e8572ad698f1c6e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 120015,
+          "record_ids": [
+            "0e8572ad698f1c6e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · BUY · 120015",
+          "row_ref": "13-NOV-2026 · JARO · PLUTUS WEALTH MANAGEMENT LLP · BUY · 120015",
+          "quote": "NSE | JARO | PLUTUS WEALTH MANAGEMENT LLP | BUY | 1,20,015 shares | price 412.25 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0e8572ad698f1c6e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,20,015 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹66.83 crore",
+          "trigger_date": "2026-11-06",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹111.72 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹14.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹2.96 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹48.35 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "65d4ea7a2a1449d6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 148117,
+          "record_ids": [
+            "65d4ea7a2a1449d6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+          "row_ref": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+          "quote": "NSE | JARO | QE SECURITIES LLP | SELL | 1,48,117 shares | price 412.33 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "65d4ea7a2a1449d6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,48,117",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "61073082.61",
+          "rupees_high": "61073082.61",
+          "crore_low": "6.11",
+          "crore_high": "6.11",
+          "display": "₹6.11 crore",
+          "working": "1,48,117 shares × ₹412.33 = ₹6.11 crore (NSE 13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,48,117",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+                  "row_ref": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+                  "quote": "NSE | JARO | QE SECURITIES LLP | SELL | 1,48,117 shares | price 412.33 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹412.33",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+                  "row_ref": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+                  "quote": "NSE | JARO | QE SECURITIES LLP | SELL | 1,48,117 shares | price 412.33 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+                  "row_ref": "13-NOV-2026 · JARO · QE SECURITIES LLP · SELL · 148117",
+                  "quote": "NSE | JARO | QE SECURITIES LLP | SELL | 1,48,117 shares | price 412.33 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 1,48,117 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹5.14 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹6.60 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e3efa530a2ba9f59"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 143916,
+          "record_ids": [
+            "e3efa530a2ba9f59"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · JARO · QE SECURITIES LLP · BUY · 143916",
+          "row_ref": "13-NOV-2026 · JARO · QE SECURITIES LLP · BUY · 143916",
+          "quote": "NSE | JARO | QE SECURITIES LLP | BUY | 1,43,916 shares | price 409.57 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e3efa530a2ba9f59",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,43,916 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹5.14 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹6.60 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 11,
+    "by_holder_type": {
+      "entity": 11
+    },
+    "by_confidence": {
+      "high": 11
+    },
+    "sellers": 6,
+    "sellers_unverified": 0,
+    "buyers": 5,
+    "proceeds_computed": 6,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 11
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 11,
+    "follow_on_matches": 102
+  }
+}

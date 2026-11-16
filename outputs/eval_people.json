@@ -1,0 +1,313 @@
+{
+ "ran_at": "2026-11-15T20:49:42Z",
+ "overall": {
+  "people": 20,
+  "fully_right": 15,
+  "value_fields": 118,
+  "hits": 109,
+  "wrong": 0,
+  "missing": 9,
+  "invented": 0,
+  "hit_rate": 0.9237
+ },
+ "fields": [
+  {
+   "field": "name",
+   "label": "Name",
+   "value_fields": 20,
+   "hit": 20,
+   "wrong": 0,
+   "missing": 0,
+   "blank_ok": 0,
+   "invented": 0,
+   "hit_rate": 1.0
+  },
+  {
+   "field": "role",
+   "label": "Role",
+   "value_fields": 20,
+   "hit": 16,
+   "wrong": 0,
+   "missing": 4,
+   "blank_ok": 0,
+   "invented": 0,
+   "hit_rate": 0.8
+  },
+  {
+   "field": "shares_offered",
+   "label": "Shares offered",
+   "value_fields": 10,
+   "hit": 10,
+   "wrong": 0,
+   "missing": 0,
+   "blank_ok": 10,
+   "invented": 0,
+   "hit_rate": 1.0
+  },
+  {
+   "field": "shares_held_pre_offer",
+   "label": "Shares held before",
+   "value_fields": 17,
+   "hit": 16,
+   "wrong": 0,
+   "missing": 1,
+   "blank_ok": 3,
+   "invented": 0,
+   "hit_rate": 0.9412
+  },
+  {
+   "field": "price",
+   "label": "Price",
+   "value_fields": 20,
+   "hit": 17,
+   "wrong": 0,
+   "missing": 3,
+   "blank_ok": 0,
+   "invented": 0,
+   "hit_rate": 0.85
+  },
+  {
+   "field": "amount",
+   "label": "Amount",
+   "value_fields": 14,
+   "hit": 14,
+   "wrong": 0,
+   "missing": 0,
+   "blank_ok": 6,
+   "invented": 0,
+   "hit_rate": 1.0
+  },
+  {
+   "field": "timing",
+   "label": "Timing",
+   "value_fields": 17,
+   "hit": 16,
+   "wrong": 0,
+   "missing": 1,
+   "blank_ok": 3,
+   "invented": 0,
+   "hit_rate": 0.9412
+  }
+ ],
+ "events": [
+  {
+   "event_id": "sedemac_ipo",
+   "people": 4,
+   "value_fields": 25,
+   "hits": 25,
+   "hit_rate": 1.0
+  },
+  {
+   "event_id": "hd_fire_protect_limited_ipo_202610",
+   "people": 3,
+   "value_fields": 20,
+   "hits": 18,
+   "hit_rate": 0.9
+  },
+  {
+   "event_id": "tonbo_imaging_india_limited_ipo_202610",
+   "people": 3,
+   "value_fields": 21,
+   "hits": 21,
+   "hit_rate": 1.0
+  },
+  {
+   "event_id": "sfc_environmental_technologies_limited_ipo_202610",
+   "people": 4,
+   "value_fields": 28,
+   "hits": 27,
+   "hit_rate": 0.9643
+  },
+  {
+   "event_id": "spacenet_ofs",
+   "people": 3,
+   "value_fields": 12,
+   "hits": 12,
+   "hit_rate": 1.0
+  },
+  {
+   "event_id": "fdc_limited_buyback_202610",
+   "people": 3,
+   "value_fields": 12,
+   "hits": 6,
+   "hit_rate": 0.5
+  }
+ ],
+ "events_missing": [],
+ "misses": [
+  {
+   "person_id": "hd_03",
+   "event_id": "hd_fire_protect_limited_ipo_202610",
+   "name": "Miheer Sadanand Ghotikar",
+   "field": "role",
+   "label": "Role",
+   "outcome": "missing",
+   "gold": "Promoter",
+   "pipeline": null,
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/e3f0389c4c41bf41cc64a32203fa67665595e082fbdbb2f1b8d9396431ca64df.pdf#page=1",
+     "cached": true,
+     "quote": "OUR PROMOTERS: HARISH NARSHI DHARAMSHI, KUSUM HARISH DHARAMSHI, MIHEER SADANAND GHOTIKAR, PARIKA"
+    }
+   ]
+  },
+  {
+   "person_id": "hd_03",
+   "event_id": "hd_fire_protect_limited_ipo_202610",
+   "name": "Miheer Sadanand Ghotikar",
+   "field": "timing",
+   "label": "Timing",
+   "outcome": "missing",
+   "gold": "2027-04-19",
+   "pipeline": "unknown: no role printed",
+   "pages": [
+    {
+     "label": "Page 383",
+     "url": "/api/docs/e3f0389c4c41bf41cc64a32203fa67665595e082fbdbb2f1b8d9396431ca64df.pdf#page=387",
+     "cached": true,
+     "quote": "Allotment of Equity Shares/ Credit of Equity Shares to dematerialized accounts of Allottees On or about Monday, October 19, 2026"
+    },
+    {
+     "label": "Page 106",
+     "url": "/api/docs/e3f0389c4c41bf41cc64a32203fa67665595e082fbdbb2f1b8d9396431ca64df.pdf#page=110",
+     "cached": true,
+     "quote": "Harish March 28, March Bonus issue 35,060,000"
+    },
+    {
+     "label": "Page 105",
+     "url": "/api/docs/e3f0389c4c41bf41cc64a32203fa67665595e082fbdbb2f1b8d9396431ca64df.pdf#page=109",
+     "cached": true,
+     "quote": "shall be locked in for a period of six months from the date of Allotment"
+    }
+   ]
+  },
+  {
+   "person_id": "sfc_08",
+   "event_id": "sfc_environmental_technologies_limited_ipo_202610",
+   "name": "Jayshree Harit Shah (held jointly with Harit Pragji Shah)",
+   "field": "shares_held_pre_offer",
+   "label": "Shares held before",
+   "outcome": "missing",
+   "gold": 468750,
+   "pipeline": null,
+   "pages": [
+    {
+     "label": "Page 158",
+     "url": "/api/docs/2128c5bd456600e8559e950538136b873b390bfc8c9c7c8e7d1897c92f23e757.pdf#page=158",
+     "cached": true,
+     "quote": "Jayshree Harit Shah, jointly 468,750 42.85"
+    }
+   ]
+  },
+  {
+   "person_id": "fdc_01",
+   "event_id": "fdc_limited_buyback_202610",
+   "name": "Mrs. Aditi C. Bhanot",
+   "field": "role",
+   "label": "Role",
+   "outcome": "missing",
+   "gold": "Promoters & Promoter Group",
+   "pipeline": null,
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf#page=1",
+     "cached": true,
+     "quote": "Promoters & Promoter Group*"
+    }
+   ]
+  },
+  {
+   "person_id": "fdc_01",
+   "event_id": "fdc_limited_buyback_202610",
+   "name": "Mrs. Aditi C. Bhanot",
+   "field": "price",
+   "label": "Price",
+   "outcome": "missing",
+   "gold": "buyback_price 500",
+   "pipeline": "no verified buyback price",
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf#page=1",
+     "cached": true,
+     "quote": "AT A PRICE OF ` 500 (RUPEES FIVE HUNDRED ONLY)"
+    }
+   ]
+  },
+  {
+   "person_id": "fdc_02",
+   "event_id": "fdc_limited_buyback_202610",
+   "name": "Mr. Ameya Ashok Chandavarkar",
+   "field": "role",
+   "label": "Role",
+   "outcome": "missing",
+   "gold": "Promoters & Promoter Group",
+   "pipeline": null,
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf#page=1",
+     "cached": true,
+     "quote": "Promoters & Promoter Group*"
+    }
+   ]
+  },
+  {
+   "person_id": "fdc_02",
+   "event_id": "fdc_limited_buyback_202610",
+   "name": "Mr. Ameya Ashok Chandavarkar",
+   "field": "price",
+   "label": "Price",
+   "outcome": "missing",
+   "gold": "buyback_price 500",
+   "pipeline": "no verified buyback price",
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf#page=1",
+     "cached": true,
+     "quote": "AT A PRICE OF ` 500 (RUPEES FIVE HUNDRED ONLY)"
+    }
+   ]
+  },
+  {
+   "person_id": "fdc_03",
+   "event_id": "fdc_limited_buyback_202610",
+   "name": "Ms. Nomita Ramdas Chandavarkar",
+   "field": "role",
+   "label": "Role",
+   "outcome": "missing",
+   "gold": "Promoters & Promoter Group",
+   "pipeline": null,
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf#page=1",
+     "cached": true,
+     "quote": "Promoters & Promoter Group*"
+    }
+   ]
+  },
+  {
+   "person_id": "fdc_03",
+   "event_id": "fdc_limited_buyback_202610",
+   "name": "Ms. Nomita Ramdas Chandavarkar",
+   "field": "price",
+   "label": "Price",
+   "outcome": "missing",
+   "gold": "buyback_price 500",
+   "pipeline": "no verified buyback price",
+   "pages": [
+    {
+     "label": "Page 1",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf#page=1",
+     "cached": true,
+     "quote": "AT A PRICE OF ` 500 (RUPEES FIVE HUNDRED ONLY)"
+    }
+   ]
+  }
+ ]
+}

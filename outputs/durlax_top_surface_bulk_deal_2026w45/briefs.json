@@ -1,0 +1,52 @@
+{
+  "event_id": "durlax_top_surface_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_mukesh_singh",
+      "name_as_printed": "MUKESH SINGH",
+      "fields": {
+        "name": "MUKESH SINGH",
+        "role": "unknown",
+        "why_money": "sold 6,000 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹4.43 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.43 lakh (6,000 shares × ₹73.77 = ₹4.43 lakh (NSE 02-NOV-2026 · DURLAX · MUKESH SINGH · SELL · 6000))"
+      },
+      "placeholders": {
+        "name": "MUKESH SINGH",
+        "role": "unknown",
+        "amount": "₹4.43 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹4.43 lakh",
+        "shares_offered": "6,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "MUKESH SINGH is a holder whose role is unknown, receiving money from a share sale.",
+        "They sold 6,000 shares in a bulk deal, and ₹4.43 lakh settled 13 days ago.",
+        "Ask whether the sale was planned, and what they intend to do with the proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold {shares_offered} in a bulk deal, and {amount} settled {event_age}.",
+            "Ask whether the sale was planned, and what they intend to do with the proceeds."
+          ],
+          "lines": [
+            "MUKESH SINGH is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold 6,000 shares in a bulk deal, and ₹4.43 lakh settled 13 days ago.",
+            "Ask whether the sale was planned, and what they intend to do with the proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

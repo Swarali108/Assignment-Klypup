@@ -1,0 +1,34 @@
+{
+  "event_id": "v2_retail_insider_sale_2026w45",
+  "run_id": "auto-v2_retail_insider_sale_2026w45-20261115T190106Z",
+  "totals": {
+    "calls": 1,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 1195,
+    "output_tokens": 176,
+    "cost_usd": 0.000208,
+    "fresh_usd": 0.000208,
+    "unpriced_calls": 0,
+    "wall_s": 2.096312416018918,
+    "callable_people": 1,
+    "cost_per_callable_usd": 0.000208,
+    "fresh_per_callable_usd": 0.000208
+  },
+  "per_person": [
+    {
+      "person_id": "p_ram_chandra_agarwal",
+      "name_as_printed": "Ram Chandra Agarwal",
+      "cost_usd": 0.000208,
+      "fresh_usd": 0.000208,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_ricon_commodities_private_limited",
+      "name_as_printed": "Ricon Commodities Private Limited",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

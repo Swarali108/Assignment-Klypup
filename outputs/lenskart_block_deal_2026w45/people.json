@@ -1,0 +1,1918 @@
+{
+  "event_id": "lenskart_block_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "697.15",
+    "high": "697.15",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹697.15",
+        "evidence": [
+          {
+            "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+            "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+            "pdf_index": null,
+            "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+            "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+            "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,43,000 shares | price 697.15 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,64,82,000 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 29,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_bnp_paribas_financial_markets_bought",
+      "name_as_printed": "BNP PARIBAS FINANCIAL MARKETS",
+      "names_as_printed": [
+        "BNP PARIBAS FINANCIAL MARKETS"
+      ],
+      "name_clean": "bnp paribas financial markets",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'financial' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "2724bc73e53a7f13"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 813000,
+          "record_ids": [
+            "2724bc73e53a7f13"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · BNP PARIBAS FINANCIAL MARKETS · B · 813000",
+          "row_ref": "06/11/2026 · LENSKART · BNP PARIBAS FINANCIAL MARKETS · B · 813000",
+          "quote": "BSE | LENSKART | BNP PARIBAS FINANCIAL MARKETS | BUY | 8,13,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2724bc73e53a7f13",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 8,13,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "fusion_cx_bulk_deal_2026w43",
+          "company": "Fusion CX Limited",
+          "name_as_printed": "BNP PARIBAS FINANCIAL MARKETS",
+          "role": null,
+          "amount": "₹61.12 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'BNP PARIBAS FINANCIAL MARKETS' / 'BNP PARIBAS FINANCIAL MARKETS'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_florida_retirement_system_bought",
+      "name_as_printed": "FLORIDA RETIREMENT SYSTEM",
+      "names_as_printed": [
+        "FLORIDA RETIREMENT SYSTEM"
+      ],
+      "name_clean": "florida retirement system",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "914d9124b2ee7f5c",
+        "f819954f97888587"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 314533,
+          "record_ids": [
+            "914d9124b2ee7f5c",
+            "f819954f97888587"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · FLORIDA RETIREMENT SYSTEM · B · 200489",
+          "row_ref": "06/11/2026 · LENSKART · FLORIDA RETIREMENT SYSTEM · B · 200489",
+          "quote": "BSE | LENSKART | FLORIDA RETIREMENT SYSTEM | BUY | 2,00,489 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "914d9124b2ee7f5c",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · FLORIDA RETIREMENT SYSTEM · B · 114044",
+          "row_ref": "06/11/2026 · LENSKART · FLORIDA RETIREMENT SYSTEM · B · 114044",
+          "quote": "BSE | LENSKART | FLORIDA RETIREMENT SYSTEM | BUY | 1,14,044 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f819954f97888587",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,14,533 shares in block deals on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_goldman_sachs_bank_europe_se_bought",
+      "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+      "names_as_printed": [
+        "GOLDMAN SACHS BANK EUROPE SE"
+      ],
+      "name_clean": "goldman sachs bank europe se",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5bdfa43e1a98b562"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 4744000,
+          "record_ids": [
+            "5bdfa43e1a98b562"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · GOLDMAN SACHS BANK EUROPE SE · B · 4744000",
+          "row_ref": "06/11/2026 · LENSKART · GOLDMAN SACHS BANK EUROPE SE · B · 4744000",
+          "quote": "BSE | LENSKART | GOLDMAN SACHS BANK EUROPE SE | BUY | 47,44,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5bdfa43e1a98b562",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 47,44,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "swiggy_block_deal_2026w44",
+          "company": "Swiggy Limited",
+          "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GOLDMAN SACHS BANK EUROPE SE' / 'GOLDMAN SACHS BANK EUROPE SE'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_goldman_sachs_investments_mauritius_i_limited_bought",
+      "name_as_printed": "GOLDMAN SACHS INVESTMENTS MAURITIUS I LIMITED",
+      "names_as_printed": [
+        "GOLDMAN SACHS INVESTMENTS MAURITIUS I LIMITED"
+      ],
+      "name_clean": "goldman sachs investments mauritius i limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investments'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a09572c24fdb2eb8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 4440000,
+          "record_ids": [
+            "a09572c24fdb2eb8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · GOLDMAN SACHS INVESTMENTS MAURITIUS I LIMITED · B · 4440000",
+          "row_ref": "06/11/2026 · LENSKART · GOLDMAN SACHS INVESTMENTS MAURITIUS I LIMITED · B · 4440000",
+          "quote": "BSE | LENSKART | GOLDMAN SACHS INVESTMENTS MAURITIUS I LIMITED | BUY | 44,40,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a09572c24fdb2eb8",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 44,40,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_hdfc_standard_life_insurance_co_ltd_bought",
+      "name_as_printed": "HDFC STANDARD LIFE INSURANCE CO LTD",
+      "names_as_printed": [
+        "HDFC STANDARD LIFE INSURANCE CO LTD"
+      ],
+      "name_clean": "hdfc standard life insurance co ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ltd'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "dcdc351189ebf429"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 359000,
+          "record_ids": [
+            "dcdc351189ebf429"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · HDFC STANDARD LIFE INSURANCE CO LTD · B · 359000",
+          "row_ref": "06/11/2026 · LENSKART · HDFC STANDARD LIFE INSURANCE CO LTD · B · 359000",
+          "quote": "BSE | LENSKART | HDFC STANDARD LIFE INSURANCE CO LTD | BUY | 3,59,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dcdc351189ebf429",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,59,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kotak_mahindra_mutual_fund_bought",
+      "name_as_printed": "KOTAK MAHINDRA MUTUAL FUND",
+      "names_as_printed": [
+        "KOTAK MAHINDRA MUTUAL FUND"
+      ],
+      "name_clean": "kotak mahindra mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "b7714ee927fafc40"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 4743000,
+          "record_ids": [
+            "b7714ee927fafc40"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · KOTAK MAHINDRA MUTUAL FUND · B · 4743000",
+          "row_ref": "06/11/2026 · LENSKART · KOTAK MAHINDRA MUTUAL FUND · B · 4743000",
+          "quote": "BSE | LENSKART | KOTAK MAHINDRA MUTUAL FUND | BUY | 47,43,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b7714ee927fafc40",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 47,43,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_norges_bank_on_account_of_the_government_pension_fund_global_bought",
+      "name_as_printed": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
+      "names_as_printed": [
+        "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL"
+      ],
+      "name_clean": "norges bank on account of the government pension fund global",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "eff509eec51c56bf"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 542000,
+          "record_ids": [
+            "eff509eec51c56bf"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL · B · 542000",
+          "row_ref": "06/11/2026 · LENSKART · NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL · B · 542000",
+          "quote": "BSE | LENSKART | NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL | BUY | 5,42,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "eff509eec51c56bf",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,42,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "alivus_life_sciences_block_deal_2026w45",
+          "company": "Alivus Life Sciences Ltd",
+          "name_as_printed": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL' / 'NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nrsgvcc_bought",
+      "name_as_printed": "NRSGVCC",
+      "names_as_printed": [
+        "NRSGVCC"
+      ],
+      "name_clean": "nrsgvcc",
+      "holder_type": "unsure",
+      "holder_type_reason": "no entity marker and 1 words",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ffb58437c353cd96"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 359000,
+          "record_ids": [
+            "ffb58437c353cd96"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · NRSGVCC · B · 359000",
+          "row_ref": "06/11/2026 · LENSKART · NRSGVCC · B · 359000",
+          "quote": "BSE | LENSKART | NRSGVCC | BUY | 3,59,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ffb58437c353cd96",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,59,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "holder type unsure: no entity marker and 1 words",
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_public_school_teachers_pension_and_retirement_fund_of_chicago_bought",
+      "name_as_printed": "PUBLIC SCHOOL TEACHERS PENSION AND RETIREMENT FUND OF CHICAGO",
+      "names_as_printed": [
+        "PUBLIC SCHOOL TEACHERS PENSION AND RETIREMENT FUND OF CHICAGO"
+      ],
+      "name_clean": "public school teachers pension and retirement fund of chicago",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "34c8dc2121c7d483"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 100384,
+          "record_ids": [
+            "34c8dc2121c7d483"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · PUBLIC SCHOOL TEACHERS PENSION AND RETIREMENT FUND OF CHICAGO · B · 100384",
+          "row_ref": "06/11/2026 · LENSKART · PUBLIC SCHOOL TEACHERS PENSION AND RETIREMENT FUND OF CHICAGO · B · 100384",
+          "quote": "BSE | LENSKART | PUBLIC SCHOOL TEACHERS PENSION AND RETIREMENT FUND OF CHICAGO | BUY | 1,00,384 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "34c8dc2121c7d483",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,00,384 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_societe_generale_odi_bought",
+      "name_as_printed": "SOCIETE GENERALE ODI",
+      "names_as_printed": [
+        "SOCIETE GENERALE ODI"
+      ],
+      "name_clean": "societe generale odi",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'odi' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e8bb3ef86a3a6277"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 8944000,
+          "record_ids": [
+            "e8bb3ef86a3a6277"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SOCIETE GENERALE  ODI · B · 8944000",
+          "row_ref": "06/11/2026 · LENSKART · SOCIETE GENERALE  ODI · B · 8944000",
+          "quote": "BSE | LENSKART | SOCIETE GENERALE ODI | BUY | 89,44,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e8bb3ef86a3a6277",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 89,44,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_svf_ii_lightbulb_cayman_limited",
+      "name_as_printed": "SVF II LIGHTBULB (CAYMAN) LIMITED",
+      "names_as_printed": [
+        "SVF II LIGHTBULB (CAYMAN) LIMITED"
+      ],
+      "name_clean": "svf ii lightbulb (cayman) limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "5cdd39824e32a42b",
+        "7710776fc5bfcf39",
+        "7d4499210d339f32",
+        "80aa0bbfd1f05846",
+        "a4974c4178184673",
+        "b5454f15d2351738",
+        "c3f618fc0aab18b5",
+        "d947a80cc3b575e7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 26482000,
+          "record_ids": [
+            "5cdd39824e32a42b",
+            "7710776fc5bfcf39",
+            "7d4499210d339f32",
+            "80aa0bbfd1f05846",
+            "a4974c4178184673",
+            "b5454f15d2351738",
+            "c3f618fc0aab18b5",
+            "d947a80cc3b575e7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,43,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5cdd39824e32a42b",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,44,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7710776fc5bfcf39",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 44,40,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7d4499210d339f32",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 18,97,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "80aa0bbfd1f05846",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 5,42,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a4974c4178184673",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 3,59,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b5454f15d2351738",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 89,44,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c3f618fc0aab18b5",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+          "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+          "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 8,13,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d947a80cc3b575e7",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,64,82,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "18461926300.00",
+          "rupees_high": "18461926300.00",
+          "crore_low": "1846.19",
+          "crore_high": "1846.19",
+          "display": "₹1,846.19 crore",
+          "working": "47,43,000 shares × ₹697.15 = ₹330.66 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000); 47,44,000 shares × ₹697.15 = ₹330.73 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000); 44,40,000 shares × ₹697.15 = ₹309.53 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000); 18,97,000 shares × ₹697.15 = ₹132.25 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000); 5,42,000 shares × ₹697.15 = ₹37.79 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000); 3,59,000 shares × ₹697.15 = ₹25.03 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000); 89,44,000 shares × ₹697.15 = ₹623.53 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000); 8,13,000 shares × ₹697.15 = ₹56.68 crore (BSE 06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000); total ₹1,846.19 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "47,43,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,43,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4743000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,43,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "47,44,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,44,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4744000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 47,44,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "44,40,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 44,40,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 4440000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 44,40,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "18,97,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 18,97,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 1897000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 18,97,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "5,42,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 5,42,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 542000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 5,42,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "3,59,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 3,59,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 359000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 3,59,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "89,44,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 89,44,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 8944000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 89,44,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "8,13,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 8,13,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹697.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 8,13,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+                  "row_ref": "06/11/2026 · LENSKART · SVF II LIGHTBULB (CAYMAN) LIMITED · S · 813000",
+                  "quote": "BSE | LENSKART | SVF II LIGHTBULB (CAYMAN) LIMITED | SELL | 8,13,000 shares | price 697.15 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 2,64,82,000 shares in block deals on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_texas_municipal_retirement_system_bought",
+      "name_as_printed": "TEXAS MUNICIPAL RETIREMENT SYSTEM",
+      "names_as_printed": [
+        "TEXAS MUNICIPAL RETIREMENT SYSTEM"
+      ],
+      "name_clean": "texas municipal retirement system",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8a275910e2319947"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 194993,
+          "record_ids": [
+            "8a275910e2319947"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · TEXAS MUNICIPAL RETIREMENT SYSTEM · B · 194993",
+          "row_ref": "06/11/2026 · LENSKART · TEXAS MUNICIPAL RETIREMENT SYSTEM · B · 194993",
+          "quote": "BSE | LENSKART | TEXAS MUNICIPAL RETIREMENT SYSTEM | BUY | 1,94,993 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8a275910e2319947",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,94,993 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_the_northen_trust_co_as_trustees_of_the_illinois_municipal_retirement_fund_bought",
+      "name_as_printed": "THE NORTHEN TRUST CO AS TRUSTEES OF THE ILLINOIS MUNICIPAL RETIREMENT FUND",
+      "names_as_printed": [
+        "THE NORTHEN TRUST CO AS TRUSTEES OF THE ILLINOIS MUNICIPAL RETIREMENT FUND"
+      ],
+      "name_clean": "the northen trust co as trustees of the illinois municipal retirement fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "535af4cf34c9c52d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 176424,
+          "record_ids": [
+            "535af4cf34c9c52d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · THE NORTHEN TRUST CO AS TRUSTEES OF THE ILLINOIS MUNICIPAL RETIREMENT FUND · B · 176424",
+          "row_ref": "06/11/2026 · LENSKART · THE NORTHEN TRUST CO AS TRUSTEES OF THE ILLINOIS MUNICIPAL RETIREMENT FUND · B · 176424",
+          "quote": "BSE | LENSKART | THE NORTHEN TRUST CO AS TRUSTEES OF THE ILLINOIS MUNICIPAL RETIREMENT FUND | BUY | 1,76,424 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "535af4cf34c9c52d",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,76,424 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_uti_mutual_fund_bought",
+      "name_as_printed": "UTI MUTUAL FUND",
+      "names_as_printed": [
+        "UTI MUTUAL FUND"
+      ],
+      "name_clean": "uti mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "226ab15957f149ac"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 359000,
+          "record_ids": [
+            "226ab15957f149ac"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · UTI MUTUAL FUND · B · 359000",
+          "row_ref": "06/11/2026 · LENSKART · UTI MUTUAL FUND · B · 359000",
+          "quote": "BSE | LENSKART | UTI MUTUAL FUND | BUY | 3,59,000 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "226ab15957f149ac",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,59,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_company_llc_a_c_william_blair_emg_mkts_small_cap_growth_fd_bought",
+      "name_as_printed": "WILLIAM BLAIR & COMPANY LLC A/C WILLIAM BLAIR EMG MKTS SMALL CAP GROWTH FD",
+      "names_as_printed": [
+        "WILLIAM BLAIR & COMPANY LLC A/C WILLIAM BLAIR EMG MKTS SMALL CAP GROWTH FD"
+      ],
+      "name_clean": "william blair & company llc a/c william blair emg mkts small cap growth fd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'company'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c1b8bba71c1f4edd"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 328373,
+          "record_ids": [
+            "c1b8bba71c1f4edd"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR & COMPANY LLC A/C WILLIAM BLAIR EMG MKTS SMALL CAP GROWTH FD · B · 328373",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR & COMPANY LLC A/C WILLIAM BLAIR EMG MKTS SMALL CAP GROWTH FD · B · 328373",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR & COMPANY LLC A/C WILLIAM BLAIR EMG MKTS SMALL CAP GROWTH FD | BUY | 3,28,373 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c1b8bba71c1f4edd",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,28,373 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_col_inv_tr_a_c_william_blair_int_small_cap_growth_col_inv_fd_bought",
+      "name_as_printed": "WILLIAM BLAIR COL INV TR A/C WILLIAM BLAIR INT SMALL CAP GROWTH COL INV FD",
+      "names_as_printed": [
+        "WILLIAM BLAIR COL INV TR A/C WILLIAM BLAIR INT SMALL CAP GROWTH COL INV FD"
+      ],
+      "name_clean": "william blair col inv tr a/c william blair int small cap growth col inv fd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'growth' (fund word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "992ff2661bfbbcc8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 5189,
+          "record_ids": [
+            "992ff2661bfbbcc8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR COL INV TR A/C WILLIAM BLAIR INT SMALL CAP GROWTH COL INV FD · B · 5189",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR COL INV TR A/C WILLIAM BLAIR INT SMALL CAP GROWTH COL INV FD · B · 5189",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR COL INV TR A/C WILLIAM BLAIR INT SMALL CAP GROWTH COL INV FD | BUY | 5,189 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "992ff2661bfbbcc8",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,189 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_emerging_markets_ex_china_growth_collective_investment_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND"
+      ],
+      "name_clean": "william blair emerging markets ex china growth collective investment fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "072a8ab5e8dff452"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 367743,
+          "record_ids": [
+            "072a8ab5e8dff452"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND · B · 367743",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND · B · 367743",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND | BUY | 3,67,743 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "072a8ab5e8dff452",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,67,743 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_emerging_markets_ex_china_growth_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND"
+      ],
+      "name_clean": "william blair emerging markets ex china growth fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "857083725122b48e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 36126,
+          "record_ids": [
+            "857083725122b48e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND · B · 36126",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND · B · 36126",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND | BUY | 36,126 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "857083725122b48e",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 36,126 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_emerging_markets_small_cap_growth_collective_investment_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS SMALL CAP GROWTH COLLECTIVE INVESTMENT FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR EMERGING MARKETS SMALL CAP GROWTH COLLECTIVE INVESTMENT FUND"
+      ],
+      "name_clean": "william blair emerging markets small cap growth collective investment fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "09dc891d9c297ce2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 271859,
+          "record_ids": [
+            "09dc891d9c297ce2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR EMERGING MARKETS SMALL CAP GROWTH COLLECTIVE INVESTMENT FUND · B · 271859",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR EMERGING MARKETS SMALL CAP GROWTH COLLECTIVE INVESTMENT FUND · B · 271859",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR EMERGING MARKETS SMALL CAP GROWTH COLLECTIVE INVESTMENT FUND | BUY | 2,71,859 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "09dc891d9c297ce2",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,71,859 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_international_small_cap_growth_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR INTERNATIONAL SMALL CAP GROWTH FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR INTERNATIONAL SMALL CAP GROWTH FUND"
+      ],
+      "name_clean": "william blair international small cap growth fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e8e85254044b94a2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 70483,
+          "record_ids": [
+            "e8e85254044b94a2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR INTERNATIONAL SMALL CAP GROWTH FUND · B · 70483",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR INTERNATIONAL SMALL CAP GROWTH FUND · B · 70483",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR INTERNATIONAL SMALL CAP GROWTH FUND | BUY | 70,483 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e8e85254044b94a2",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 70,483 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_william_blair_sicav_emerging_markets_small_cap_growth_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR SICAV - EMERGING MARKETS SMALL CAP GROWTH FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR SICAV - EMERGING MARKETS SMALL CAP GROWTH FUND"
+      ],
+      "name_clean": "william blair sicav - emerging markets small cap growth fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a6764e5ebba2c079"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 30893,
+          "record_ids": [
+            "a6764e5ebba2c079"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "06/11/2026 · LENSKART · WILLIAM BLAIR SICAV - EMERGING MARKETS SMALL CAP GROWTH FUND · B · 30893",
+          "row_ref": "06/11/2026 · LENSKART · WILLIAM BLAIR SICAV - EMERGING MARKETS SMALL CAP GROWTH FUND · B · 30893",
+          "quote": "BSE | LENSKART | WILLIAM BLAIR SICAV - EMERGING MARKETS SMALL CAP GROWTH FUND | BUY | 30,893 shares | price 697.15 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a6764e5ebba2c079",
+          "exchange": "BSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 30,893 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 21,
+    "by_holder_type": {
+      "entity": 18,
+      "person": 2,
+      "unsure": 1
+    },
+    "by_confidence": {
+      "high": 20,
+      "low": 1
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 20,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 21
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 21,
+    "follow_on_matches": 3
+  }
+}

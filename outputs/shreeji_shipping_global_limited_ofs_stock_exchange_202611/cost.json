@@ -1,0 +1,41 @@
+{
+  "event_id": "shreeji_shipping_global_limited_ofs_stock_exchange_202611",
+  "run_id": "auto-shreeji_shipping_global_limited_ofs_stock_exchange_202611-20261115T185713Z",
+  "totals": {
+    "calls": 15,
+    "cached_calls": 2,
+    "cached_share": 0.133,
+    "input_tokens": 238707,
+    "output_tokens": 4891,
+    "cost_usd": 0.026317,
+    "fresh_usd": 0.028005,
+    "unpriced_calls": 0,
+    "wall_s": 57.22487499995623,
+    "callable_people": 3,
+    "cost_per_callable_usd": 0.008772,
+    "fresh_per_callable_usd": 0.009335
+  },
+  "per_person": [
+    {
+      "person_id": "p_jitendrakumar_haridas_lal",
+      "name_as_printed": "Mr. Jitendrakumar Haridas Lal",
+      "cost_usd": 0.008786,
+      "fresh_usd": 0.009349,
+      "calls": 5.0
+    },
+    {
+      "person_id": "p_ashokkumar_haridas_lal",
+      "name_as_printed": "Ashokkumar Haridas Lal",
+      "cost_usd": 0.008775,
+      "fresh_usd": 0.009338,
+      "calls": 5.0
+    },
+    {
+      "person_id": "p_jitendra_haridas_lal",
+      "name_as_printed": "Jitendra Haridas Lal",
+      "cost_usd": 0.008755,
+      "fresh_usd": 0.009318,
+      "calls": 5.0
+    }
+  ]
+}

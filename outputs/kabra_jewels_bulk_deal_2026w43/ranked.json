@@ -1,0 +1,154 @@
+{
+  "event_id": "kabra_jewels_bulk_deal_2026w43",
+  "callable": [
+    {
+      "person_id": "p_varun_darshan_shah",
+      "name_as_printed": "VARUN DARSHAN SHAH",
+      "name_clean": "varun darshan shah",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.74",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.74000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "money_crore": "0.74",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.74000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "money_crore": "0.74",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.74000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 63,000 shares in a bulk deal on 19 Oct 2026",
+      "amount_display": "₹74.34 lakh",
+      "timing_display": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹74.34 lakh; settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+        "score 0.74 = ₹0.74 crore (proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.48",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.48000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "money_crore": "0.48",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.48000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "money_crore": "0.48",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.48000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 40,000 shares in a bulk deal on 19 Oct 2026",
+      "amount_display": "₹47.72 lakh",
+      "timing_display": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹47.72 lakh; settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.48 = ₹0.48 crore (proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp_bought",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 1,20,000 shares in a bulk deal on 19 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

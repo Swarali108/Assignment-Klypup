@@ -1,0 +1,47 @@
+{
+  "event_id": "dcx_systems_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "DCX Systems Limited",
+  "documents": [],
+  "records": [
+    "00e6f72f70366429",
+    "0a020b73eb121f71",
+    "1329cef51c5ebd3f",
+    "16f7ad8fd2769aca",
+    "1a7854429924be68",
+    "1d065e083c8fa996",
+    "1f83df7fb278743c",
+    "28fd5e54442491fd",
+    "2b0507465898b17c",
+    "2f1015ae3dd8bab5",
+    "2f67fb25d40a5ff8",
+    "31b772c5d4bd6a13",
+    "3e594b1d1edfd612",
+    "3e848bb488e69c5c",
+    "5bc62d1f45f6ff43",
+    "6dc73bb40fa8d295",
+    "715ec1ab98207ace",
+    "7de72619c7c3a64b",
+    "888daebb4227785d",
+    "97db8fc63a742942",
+    "9a8720f78c811a85",
+    "a86fdbd793364d82",
+    "af2382968243b60a",
+    "bb6c43fe9d5b7dfd",
+    "bd8e78623b71480c",
+    "c0d1c6dd607c46dc",
+    "d37c0d0071fd42e7",
+    "d641923bcffff01e",
+    "e5024ba7b09cefeb",
+    "e6fea3f2da15e2d3"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-12",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

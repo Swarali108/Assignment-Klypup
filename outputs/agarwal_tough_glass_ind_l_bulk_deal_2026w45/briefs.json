@@ -1,0 +1,105 @@
+{
+  "event_id": "agarwal_tough_glass_ind_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vaibhav_rajendra_doshi",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "fields": {
+        "name": "VAIBHAV RAJENDRA DOSHI",
+        "role": "unknown",
+        "why_money": "sold 1,74,000 shares in a bulk deal on 6 Nov 2026",
+        "amount": "₹2.95 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.95 crore (1,74,000 shares × ₹169.78 = ₹2.95 crore (NSE 06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000))",
+        "family_link": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "placeholders": {
+        "name": "VAIBHAV RAJENDRA DOSHI",
+        "role": "unknown",
+        "amount": "₹2.95 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹2.95 crore",
+        "shares_offered": "1,74,000 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "VAIBHAV RAJENDRA DOSHI sold 1,74,000 shares in a bulk deal, so proceeds are coming to them.",
+        "₹2.95 crore settled 7 days ago, after the trade, and is already in hand.",
+        "Their family link: a holder sharing surname and middle name also appears in these records; check whether the same person.",
+        "Role is unknown, so confirm their position before discussing the sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so proceeds are coming to them.",
+            "{proceeds} settled {event_age}, after the trade, and is already in hand.",
+            "Their family link: a holder sharing surname and middle name also appears in these records; check whether the same person.",
+            "Role is unknown, so confirm their position before discussing the sale."
+          ],
+          "lines": [
+            "VAIBHAV RAJENDRA DOSHI sold 1,74,000 shares in a bulk deal, so proceeds are coming to them.",
+            "₹2.95 crore settled 7 days ago, after the trade, and is already in hand.",
+            "Their family link: a holder sharing surname and middle name also appears in these records; check whether the same person.",
+            "Role is unknown, so confirm their position before discussing the sale."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_a_m_lodha_sons_huf",
+      "name_as_printed": "A M LODHA & SONS (HUF)",
+      "fields": {
+        "name": "A M LODHA & SONS (HUF)",
+        "role": "unknown",
+        "why_money": "sold 1,68,000 shares in a bulk deal on 6 Nov 2026",
+        "amount": "₹2.84 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.84 crore (1,68,000 shares × ₹169.03 = ₹2.84 crore (NSE 06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000))"
+      },
+      "placeholders": {
+        "name": "A M LODHA & SONS (HUF)",
+        "role": "unknown",
+        "amount": "₹2.84 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹2.84 crore",
+        "shares_offered": "1,68,000 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "A M LODHA & SONS (HUF) is a holder who sold 1,68,000 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹2.84 crore were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "Open by confirming the settlement reached their account and asking how they want to deploy it.",
+        "Role is unknown, so confirm who manages the HUF before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Open by confirming the settlement reached their account and asking how they want to deploy it.",
+            "Role is unknown, so confirm who manages the HUF before discussing next steps."
+          ],
+          "lines": [
+            "A M LODHA & SONS (HUF) is a holder who sold 1,68,000 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹2.84 crore were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+            "Open by confirming the settlement reached their account and asking how they want to deploy it.",
+            "Role is unknown, so confirm who manages the HUF before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "event_id": "shiv_aum_steels_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Shiv Aum Steels Limited",
+  "documents": [],
+  "records": [
+    "468fac398e40f2cb",
+    "7f1960980af67166",
+    "8f0d23a39c02a6c9",
+    "ab9f382f191b06bf",
+    "ae1ca577d8a78afa",
+    "bde2ce96070244b5",
+    "cef7bbac2070515d",
+    "d552878497a019f6"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-28",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

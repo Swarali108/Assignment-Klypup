@@ -1,0 +1,65 @@
+{
+  "event_id": "sis_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "SIS Ltd",
+  "documents": [
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/63d50117-dc9c-4b32-803e-905138c0a2f3.pdf",
+      "doc_type": "announcement",
+      "note": "SIS Ltd - Closure of Buy Back",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/SIS_20102026220556_Intimation.pdf",
+      "doc_type": "announcement",
+      "note": "SIS LIMITED - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8e6c1b5c-e61c-47e4-b350-f18eed08708e.pdf",
+      "doc_type": "announcement",
+      "note": "SIS Ltd - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d3b221c4-40a8-4174-affc-55d3bfdb2d05.pdf",
+      "doc_type": "announcement",
+      "note": "SIS Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "SIS Ltd - Closure of Buy Back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/63d50117-dc9c-4b32-803e-905138c0a2f3.pdf",
+        "published": "2026-10-17",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "SIS LIMITED - Post Buyback Public Announcement",
+        "link": "https://nsearchives.nseindia.in/corporate/SIS_20102026220556_Intimation.pdf",
+        "published": "2026-10-20",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "SIS Ltd - Post Buyback Public Announcement",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8e6c1b5c-e61c-47e4-b350-f18eed08708e.pdf",
+        "published": "2026-10-20",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "SIS Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d3b221c4-40a8-4174-affc-55d3bfdb2d05.pdf",
+        "published": "2026-10-23",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

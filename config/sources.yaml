@@ -1,0 +1,13 @@
+# Refresh rules by source kind. tools/fetch.py reads this file and does not name sites.
+# cache: forever -> keep the file until this run passes --refresh
+# cache: ttl     -> contact the server again after ttl_hours
+
+immutable_document:
+  cache: forever
+
+listing_page:
+  cache: ttl
+  ttl_hours: 24
+
+news:
+  cache: forever

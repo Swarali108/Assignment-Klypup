@@ -1,0 +1,52 @@
+{
+  "event_id": "nk_industries_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_puneet_mittal_huf",
+      "name_as_printed": "PUNEET MITTAL HUF",
+      "fields": {
+        "name": "PUNEET MITTAL HUF",
+        "role": "unknown",
+        "why_money": "sold 25,527 shares in a bulk deal on 22 Oct 2026",
+        "amount": "₹16.88 lakh",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "24 days ago",
+        "event_is": "recent",
+        "proceeds": "₹16.88 lakh (25,527 shares × ₹66.11 = ₹16.88 lakh (NSE 22-OCT-2026 · NKIND · PUNEET MITTAL HUF · SELL · 25527))"
+      },
+      "placeholders": {
+        "name": "PUNEET MITTAL HUF",
+        "role": "unknown",
+        "amount": "₹16.88 lakh",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹16.88 lakh",
+        "shares_offered": "25,527 shares",
+        "event_age": "24 days ago"
+      },
+      "lines": [
+        "PUNEET MITTAL HUF sold 25,527 shares in a bulk deal, so money is coming to them from that sale.",
+        "Proceeds of ₹16.88 lakh settled settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago), which is 24 days ago, so the money has already arrived.",
+        "Caveat: their role is unknown, so confirm who the relationship contact is before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of {proceeds} settled {timing}, which is {event_age}, so the money has already arrived.",
+            "Caveat: their role is unknown, so confirm who the relationship contact is before the call."
+          ],
+          "lines": [
+            "PUNEET MITTAL HUF sold 25,527 shares in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of ₹16.88 lakh settled settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago), which is 24 days ago, so the money has already arrived.",
+            "Caveat: their role is unknown, so confirm who the relationship contact is before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

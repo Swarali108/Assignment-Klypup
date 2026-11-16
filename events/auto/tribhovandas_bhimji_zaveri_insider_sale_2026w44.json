@@ -1,0 +1,30 @@
+{
+  "event_id": "tribhovandas_bhimji_zaveri_insider_sale_2026w44",
+  "event_type": "insider_sale",
+  "company": "Tribhovandas Bhimji Zaveri Limited",
+  "documents": [],
+  "records": [
+    "0514908283e63a63",
+    "48ef2bcb1e59a8af",
+    "525d2f027c1ae330",
+    "83dd6687dccab7f2",
+    "89f758a499299f00",
+    "916b3bb93413e5e9",
+    "e2e2eb66d22152b9",
+    "e4837338d33baaf3",
+    "e509040986611ae6",
+    "ea333b0cffaf4b16",
+    "f2654eafea333d15",
+    "fd5dafc9297dea8e"
+  ],
+  "records_file": "outputs/signals/insider.json",
+  "event_date": "2026-10-30",
+  "discovery": {
+    "sources": [
+      "bse_insider_sale",
+      "nse_insider_sale"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:48:41+00:00"
+  }
+}

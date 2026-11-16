@@ -1,0 +1,48 @@
+{
+  "event_id": "krishna_bulk_deal_2026w46",
+  "run_id": "auto-krishna_bulk_deal_2026w46-20261115T190400Z",
+  "totals": {
+    "calls": 3,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 3599,
+    "output_tokens": 315,
+    "cost_usd": 0.000517,
+    "fresh_usd": 0.000517,
+    "unpriced_calls": 0,
+    "wall_s": 6.5472029169905,
+    "callable_people": 3,
+    "cost_per_callable_usd": 0.000172,
+    "fresh_per_callable_usd": 0.000172
+  },
+  "per_person": [
+    {
+      "person_id": "p_rinkesh_rajendra_shah",
+      "name_as_printed": "RINKESH RAJENDRA SHAH",
+      "cost_usd": 0.000186,
+      "fresh_usd": 0.000186,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_mohd_jafar",
+      "name_as_printed": "MOHD JAFAR",
+      "cost_usd": 0.000167,
+      "fresh_usd": 0.000167,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_abhishek_gupta",
+      "name_as_printed": "ABHISHEK GUPTA",
+      "cost_usd": 0.000164,
+      "fresh_usd": 0.000164,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_yuvraj_chandresh_shah_bought",
+      "name_as_printed": "YUVRAJ CHANDRESH SHAH",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

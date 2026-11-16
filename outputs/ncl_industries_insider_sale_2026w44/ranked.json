@@ -1,0 +1,61 @@
+{
+  "event_id": "ncl_industries_insider_sale_2026w44",
+  "callable": [
+    {
+      "person_id": "p_vinodrai_v_goradia",
+      "name_as_printed": "Vinodrai V Goradia",
+      "name_clean": "vinodrai v goradia",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash due, date not confirmed",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "low",
+      "confidence_weight": "0.4",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.0000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 21,
+        "label": "proceeds, timing unknown",
+        "money_crore": "0",
+        "timing_status": "unknown",
+        "timing_weight": "0.25",
+        "recency_weight": "1.0",
+        "score": "0.0000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 21,
+          "label": "proceeds, timing unknown",
+          "money_crore": "0",
+          "timing_status": "unknown",
+          "timing_weight": "0.25",
+          "recency_weight": "1.0",
+          "score": "0.0000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 3,09,034 shares (Others) on 26 Oct 2026",
+      "amount_display": "unknown: NSE XBRL context Disclosure1 prints neither a trade value nor a price",
+      "timing_display": "unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash due, date not confirmed: receives cash from this event, but the amount is not disclosed, so they come after holders with a known amount.",
+        "score 0.00 = ₹0 crore (proceeds, timing unknown) × 0.4 (low confidence) × 0.25 (timing unknown) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

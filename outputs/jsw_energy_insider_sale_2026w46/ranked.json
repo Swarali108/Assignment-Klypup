@@ -1,0 +1,62 @@
+{
+  "event_id": "jsw_energy_insider_sale_2026w46",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_jsw_energy_employees_welfare_trust",
+      "name_as_printed": "JSW Energy Employees Welfare Trust",
+      "name_clean": "jsw energy employees welfare trust",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.02",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.02000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 4,
+        "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "money_crore": "0.02",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.02000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 4,
+          "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "money_crore": "0.02",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.02000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 470 shares (Market Sale) on 11 Nov 2026",
+      "amount_display": "₹2.43 lakh",
+      "timing_display": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹2.43 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.02 = ₹0.02 crore (proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

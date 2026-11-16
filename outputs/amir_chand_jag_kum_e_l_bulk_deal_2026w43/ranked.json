@@ -1,0 +1,106 @@
+{
+  "event_id": "amir_chand_jag_kum_e_l_bulk_deal_2026w43",
+  "callable": [
+    {
+      "person_id": "p_shlok_vimal_rathod",
+      "name_as_printed": "SHLOK VIMAL RATHOD",
+      "name_clean": "shlok vimal rathod",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "12.27",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "12.27000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 25,
+        "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "money_crore": "12.27",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "12.27000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 25,
+          "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "money_crore": "12.27",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "12.27000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 5,85,303 shares in a bulk deal on 21 Oct 2026",
+      "amount_display": "₹12.27 crore",
+      "timing_display": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'SHLOK VIMAL RATHOD' and 'SHLOK VIMAL RATHOD' share surname 'rathod' and middle name 'vimal'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹12.27 crore; settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "score 12.27 = ₹12.27 crore (proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'SHLOK VIMAL RATHOD' and 'SHLOK VIMAL RATHOD' share surname 'rathod' and middle name 'vimal'"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_shlok_vimal_rathod_bought",
+      "name_as_printed": "SHLOK VIMAL RATHOD",
+      "name_clean": "shlok vimal rathod",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 1,10,000 shares in a bulk deal on 21 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'SHLOK VIMAL RATHOD' and 'SHLOK VIMAL RATHOD' share surname 'rathod' and middle name 'vimal'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "family link (family_1): 'SHLOK VIMAL RATHOD' and 'SHLOK VIMAL RATHOD' share surname 'rathod' and middle name 'vimal'"
+      ]
+    }
+  ]
+}

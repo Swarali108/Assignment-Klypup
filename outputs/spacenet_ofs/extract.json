@@ -1,0 +1,440 @@
+{
+  "event_id": "spacenet_ofs",
+  "rows": [
+    {
+      "name_as_printed": "Spacenet Enterprises India Limited",
+      "role_as_printed": "Promoter Group",
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "2 of 18",
+          "quote": "1. Spacenet Enterprises India Limited,",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Spacenet Enterprises India Limited, Yaralagadda Venkat Subba Rao, Lanka Divyabharathi, and Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "name_clean": "spacenet enterprises india limited",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "conflicts": {}
+    },
+    {
+      "name_as_printed": "Yaralagadda Venkat Subba Rao",
+      "role_as_printed": "Promoter Group",
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "2 of 18",
+          "quote": "2. Yaralagadda Venkat Subba Rao,",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Yaralagadda Venkat Subba Rao, Lanka Divyabharathi, and Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "name_clean": "yaralagadda venkat subba rao",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "conflicts": {}
+    },
+    {
+      "name_as_printed": "Lanka Divyabharathi",
+      "role_as_printed": "Promoter Group",
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "2 of 18",
+          "quote": "3. Lanka Divyabharathi, and",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Lanka Divyabharathi, and Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "name_clean": "lanka divyabharathi",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "conflicts": {}
+    },
+    {
+      "name_as_printed": "Pendurthi Annapurna",
+      "role_as_printed": "Promoter Group",
+      "shares_offered": null,
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 2,
+          "printed_page": null,
+          "quote": "Pendurthi Annapurna",
+          "citation_corrected": true,
+          "citation_corrected_by": "name",
+          "quote_as_cited": "4. PendurthiPurrnapurna",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 2,
+          "printed_page": "1 of 18",
+          "quote": "Pendurthi Annapurna are the Promoter Group of String Metaverse Limited",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+          "field_kept": true
+        }
+      ],
+      "name_clean": "pendurthi annapurna",
+      "role_by_section": {
+        "ofs_sellers": "Promoter Group"
+      },
+      "conflicts": {}
+    }
+  ],
+  "unattributed": [],
+  "offer_facts": {
+    "floor_price": "INR 66.00/- (Rupees Sixty Six Only) per Equity Share",
+    "total_shares_offered": "Up to 38,10,000 Equity Shares",
+    "greenshoe_total": null,
+    "sale_date": "21st April, 2026",
+    "sale_date_retail": null,
+    "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+    "evidence": [
+      {
+        "field": "floor_price",
+        "pdf_index": 6,
+        "printed_page": null,
+        "quote": "The floor price for the Offer shall be INR 66.00/- (Rupees",
+        "citation_corrected": true,
+        "section": "ofs_terms",
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "total_shares_offered",
+        "pdf_index": 5,
+        "printed_page": null,
+        "quote": "Up to 38,10,000 Equity Shares of the Company of face",
+        "citation_corrected": true,
+        "section": "ofs_terms",
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "greenshoe_total",
+        "pdf_index": 3,
+        "printed_page": "Page 4 of 18",
+        "quote": "Maximum number of shares the Seller may choose to sell over and above made at point 8 above Nil",
+        "section": "ofs_terms",
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+        "field_kept": false
+      },
+      {
+        "field": "sale_date",
+        "pdf_index": 3,
+        "printed_page": null,
+        "quote": "For non-Retail Investors (defined below): 21st April, 2026",
+        "citation_corrected": true,
+        "section": "ofs_terms",
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "sale_date_retail",
+        "pdf_index": 4,
+        "printed_page": null,
+        "quote": "For Retail Investors (defined below) and for non-Retail Investors who choose to carry forward their un-allotted bids to T+1 Day: 220d April,2026",
+        "citation_corrected": true,
+        "section": "ofs_terms",
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+        "field_kept": false
+      },
+      {
+        "field": "settlement_as_printed",
+        "pdf_index": 8,
+        "printed_page": null,
+        "quote": "Settlement shall take place on a trade for trade basis.",
+        "citation_corrected": true,
+        "section": "ofs_terms",
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf",
+        "field_kept": true
+      }
+    ],
+    "conflicts": {},
+    "notes": []
+  },
+  "rejections": [
+    {
+      "row": "offer_facts",
+      "field": "greenshoe_total",
+      "value": "Nil",
+      "reason": "quote not on page",
+      "section": "ofs_terms"
+    },
+    {
+      "row": "offer_facts",
+      "field": "sale_date_retail",
+      "value": "22nd April, 2026",
+      "reason": "value not in quote",
+      "section": "ofs_terms"
+    }
+  ],
+  "counts": {
+    "ofs_sellers": {
+      "proposed": 8,
+      "kept": 8,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 1
+    },
+    "ofs_terms": {
+      "proposed": 6,
+      "kept": 4,
+      "rejected": 2,
+      "unattributed": 0,
+      "citations_corrected": 5
+    }
+  },
+  "chosen_pages": {
+    "ofs_sellers": [
+      {
+        "pdf_index": 1,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 2,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 3,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 4,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 5,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 6,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 7,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 8,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 9,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 10,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 11,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 12,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 13,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 14,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 15,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 16,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 17,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 18,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 19,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      }
+    ],
+    "ofs_terms": [
+      {
+        "pdf_index": 1,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 2,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 3,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 4,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 5,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 6,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 7,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 8,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 9,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 10,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 11,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 12,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 13,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 14,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 15,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 16,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 17,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 18,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      },
+      {
+        "pdf_index": 19,
+        "printed_page": null,
+        "source_url": "https://nsearchives.nseindia.com/corporate/SPCENET_20042026211814_MCOutcomeOFSofSML.pdf"
+      }
+    ]
+  },
+  "page_choice": {},
+  "completeness": {},
+  "completeness_retries": {},
+  "table_totals": {}
+}

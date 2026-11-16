@@ -1,0 +1,2081 @@
+{
+  "event_id": "dhanlaxmi_bank_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "38.95",
+    "high": "39.52",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹38.95",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+            "row_ref": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+            "quote": "NSE | DHANBANK | QE SECURITIES LLP | SELL | 28,31,929 shares | price 38.95 | 2026-11-13"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹39.52",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+            "row_ref": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+            "quote": "NSE | DHANBANK | MICROCURVES TRADING PRIVATE LIMITED | SELL | 44,04,674 shares | price 39.52 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,05,05,203 shares sold by 5 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 10,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "18db7ecdc10ab910"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 5431286,
+          "record_ids": [
+            "18db7ecdc10ab910"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+          "row_ref": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+          "quote": "NSE | DHANBANK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 54,31,286 shares | price 39.28 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "18db7ecdc10ab910",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "54,31,286",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "213340914.08",
+          "rupees_high": "213340914.08",
+          "crore_low": "21.33",
+          "crore_high": "21.33",
+          "display": "₹21.33 crore",
+          "working": "54,31,286 shares × ₹39.28 = ₹21.33 crore (NSE 13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "54,31,286",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+                  "row_ref": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+                  "quote": "NSE | DHANBANK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 54,31,286 shares | price 39.28 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹39.28",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+                  "row_ref": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+                  "quote": "NSE | DHANBANK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 54,31,286 shares | price 39.28 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+                  "row_ref": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 5431286",
+                  "quote": "NSE | DHANBANK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 54,31,286 shares | price 39.28 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 54,31,286 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.50 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹21.21 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.45 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.59 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ea67defee312bfce"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 5431286,
+          "record_ids": [
+            "ea67defee312bfce"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 5431286",
+          "row_ref": "13-NOV-2026 · DHANBANK · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 5431286",
+          "quote": "NSE | DHANBANK | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 54,31,286 shares | price 39.25 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ea67defee312bfce",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 54,31,286 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.50 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹21.21 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.45 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹72.59 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.05 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "0b5b6db8612a3422"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 4653122,
+          "record_ids": [
+            "0b5b6db8612a3422"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+          "row_ref": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+          "quote": "NSE | DHANBANK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 46,53,122 shares | price 39.33 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0b5b6db8612a3422",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "46,53,122",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "183007288.26",
+          "rupees_high": "183007288.26",
+          "crore_low": "18.30",
+          "crore_high": "18.30",
+          "display": "₹18.30 crore",
+          "working": "46,53,122 shares × ₹39.33 = ₹18.30 crore (NSE 13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "46,53,122",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+                  "row_ref": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+                  "quote": "NSE | DHANBANK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 46,53,122 shares | price 39.33 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹39.33",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+                  "row_ref": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+                  "quote": "NSE | DHANBANK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 46,53,122 shares | price 39.33 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+                  "row_ref": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 4653122",
+                  "quote": "NSE | DHANBANK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 46,53,122 shares | price 39.33 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 46,53,122 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.17 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹47.95 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹9.00 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.11 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "895673816e4fdf77"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 4661724,
+          "record_ids": [
+            "895673816e4fdf77"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 4661724",
+          "row_ref": "13-NOV-2026 · DHANBANK · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 4661724",
+          "quote": "NSE | DHANBANK | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 46,61,724 shares | price 39.30 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "895673816e4fdf77",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 46,61,724 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.54 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w44",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.17 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹47.95 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹9.00 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.11 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c2a2c8e254e7834f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 4404674,
+          "record_ids": [
+            "c2a2c8e254e7834f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+          "row_ref": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+          "quote": "NSE | DHANBANK | MICROCURVES TRADING PRIVATE LIMITED | SELL | 44,04,674 shares | price 39.52 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c2a2c8e254e7834f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "44,04,674",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "174072716.48",
+          "rupees_high": "174072716.48",
+          "crore_low": "17.41",
+          "crore_high": "17.41",
+          "display": "₹17.41 crore",
+          "working": "44,04,674 shares × ₹39.52 = ₹17.41 crore (NSE 13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "44,04,674",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+                  "row_ref": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+                  "quote": "NSE | DHANBANK | MICROCURVES TRADING PRIVATE LIMITED | SELL | 44,04,674 shares | price 39.52 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹39.52",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+                  "row_ref": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+                  "quote": "NSE | DHANBANK | MICROCURVES TRADING PRIVATE LIMITED | SELL | 44,04,674 shares | price 39.52 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+                  "row_ref": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · SELL · 4404674",
+                  "quote": "NSE | DHANBANK | MICROCURVES TRADING PRIVATE LIMITED | SELL | 44,04,674 shares | price 39.52 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 44,04,674 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹67.72 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹76.34 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.45 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.57 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹20.65 crore",
+          "trigger_date": "2026-11-12",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "21b5c6f6a0955aaa"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 4404674,
+          "record_ids": [
+            "21b5c6f6a0955aaa"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · BUY · 4404674",
+          "row_ref": "13-NOV-2026 · DHANBANK · MICROCURVES TRADING PRIVATE LIMITED · BUY · 4404674",
+          "quote": "NSE | DHANBANK | MICROCURVES TRADING PRIVATE LIMITED | BUY | 44,04,674 shares | price 39.50 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "21b5c6f6a0955aaa",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 44,04,674 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹67.72 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹76.34 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.45 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.57 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹20.65 crore",
+          "trigger_date": "2026-11-12",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
+          "company": "Ashoka Buildcon Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "bac5cabee0035e86"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 3184192,
+          "record_ids": [
+            "bac5cabee0035e86"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+          "row_ref": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+          "quote": "NSE | DHANBANK | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 31,84,192 shares | price 39.46 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bac5cabee0035e86",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "31,84,192",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "125648216.32",
+          "rupees_high": "125648216.32",
+          "crore_low": "12.56",
+          "crore_high": "12.56",
+          "display": "₹12.56 crore",
+          "working": "31,84,192 shares × ₹39.46 = ₹12.56 crore (NSE 13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "31,84,192",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+                  "row_ref": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+                  "quote": "NSE | DHANBANK | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 31,84,192 shares | price 39.46 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹39.46",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+                  "row_ref": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+                  "quote": "NSE | DHANBANK | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 31,84,192 shares | price 39.46 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+                  "row_ref": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 3184192",
+                  "quote": "NSE | DHANBANK | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 31,84,192 shares | price 39.46 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 31,84,192 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹9.69 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.56 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bf_utilities_bulk_deal_2026w46",
+          "company": "BF Utilities Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹17.61 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bf_utilities_bulk_deal_2026w46",
+          "company": "BF Utilities Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹107.85 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹16.32 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "2a9a328c32ede037"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 3184192,
+          "record_ids": [
+            "2a9a328c32ede037"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 3184192",
+          "row_ref": "13-NOV-2026 · DHANBANK · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 3184192",
+          "quote": "NSE | DHANBANK | NK SECURITIES RESEARCH PRIVATE LIMITED | BUY | 31,84,192 shares | price 39.43 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2a9a328c32ede037",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 31,84,192 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹9.69 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "alicon_castalloy_bulk_deal_2026w46",
+          "company": "Alicon Castalloy Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.56 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bf_utilities_bulk_deal_2026w46",
+          "company": "BF Utilities Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹17.61 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bf_utilities_bulk_deal_2026w46",
+          "company": "BF Utilities Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹107.85 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹16.32 crore",
+          "trigger_date": "2026-11-16",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w46",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "afdaccd88e3bec5a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 2831929,
+          "record_ids": [
+            "afdaccd88e3bec5a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+          "row_ref": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+          "quote": "NSE | DHANBANK | QE SECURITIES LLP | SELL | 28,31,929 shares | price 38.95 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "afdaccd88e3bec5a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "28,31,929",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "110303634.55",
+          "rupees_high": "110303634.55",
+          "crore_low": "11.03",
+          "crore_high": "11.03",
+          "display": "₹11.03 crore",
+          "working": "28,31,929 shares × ₹38.95 = ₹11.03 crore (NSE 13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "28,31,929",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+                  "row_ref": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+                  "quote": "NSE | DHANBANK | QE SECURITIES LLP | SELL | 28,31,929 shares | price 38.95 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹38.95",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+                  "row_ref": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+                  "quote": "NSE | DHANBANK | QE SECURITIES LLP | SELL | 28,31,929 shares | price 38.95 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+                  "row_ref": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · SELL · 2831929",
+                  "quote": "NSE | DHANBANK | QE SECURITIES LLP | SELL | 28,31,929 shares | price 38.95 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 28,31,929 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹5.14 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹6.60 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "90a06f791b6ab4d7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 2834766,
+          "record_ids": [
+            "90a06f791b6ab4d7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · BUY · 2834766",
+          "row_ref": "13-NOV-2026 · DHANBANK · QE SECURITIES LLP · BUY · 2834766",
+          "quote": "NSE | DHANBANK | QE SECURITIES LLP | BUY | 28,34,766 shares | price 38.92 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "90a06f791b6ab4d7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 28,34,766 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹5.14 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹6.60 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+          "company": "Apex Frozen Foods Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 10,
+    "by_holder_type": {
+      "entity": 10
+    },
+    "by_confidence": {
+      "high": 10
+    },
+    "sellers": 5,
+    "sellers_unverified": 0,
+    "buyers": 5,
+    "proceeds_computed": 5,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 10
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 10,
+    "follow_on_matches": 100
+  }
+}

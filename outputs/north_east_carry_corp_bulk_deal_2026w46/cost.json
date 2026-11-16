@@ -1,0 +1,62 @@
+{
+  "event_id": "north_east_carry_corp_bulk_deal_2026w46",
+  "run_id": "auto-north_east_carry_corp_bulk_deal_2026w46-20261115T190416Z",
+  "totals": {
+    "calls": 4,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 5434,
+    "output_tokens": 486,
+    "cost_usd": 0.000787,
+    "fresh_usd": 0.000787,
+    "unpriced_calls": 0,
+    "wall_s": 7.475370957981795,
+    "callable_people": 3,
+    "cost_per_callable_usd": 0.000262,
+    "fresh_per_callable_usd": 0.000262
+  },
+  "per_person": [
+    {
+      "person_id": "p_ankita_vishal_shah",
+      "name_as_printed": "ANKITA VISHAL SHAH",
+      "cost_usd": 0.000404,
+      "fresh_usd": 0.000404,
+      "calls": 2.0
+    },
+    {
+      "person_id": "p_rathod_manoj_chhaganlal_huf",
+      "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+      "cost_usd": 0.000197,
+      "fresh_usd": 0.000197,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_prajal_bhandari",
+      "name_as_printed": "PRAJAL BHANDARI",
+      "cost_usd": 0.000186,
+      "fresh_usd": 0.000186,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_ankita_vishal_shah_bought",
+      "name_as_printed": "ANKITA VISHAL SHAH",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_prajal_bhandari_bought",
+      "name_as_printed": "PRAJAL BHANDARI",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_rathod_manoj_chhaganlal_huf_bought",
+      "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "event_id": "hittco_bulk_deal_2026w46",
+  "run_id": "auto-hittco_bulk_deal_2026w46-20261115T190348Z",
+  "totals": {
+    "calls": 2,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 2396,
+    "output_tokens": 241,
+    "cost_usd": 0.00036,
+    "fresh_usd": 0.00036,
+    "unpriced_calls": 0,
+    "wall_s": 5.1883087499882095,
+    "callable_people": 2,
+    "cost_per_callable_usd": 0.00018,
+    "fresh_per_callable_usd": 0.00018
+  },
+  "per_person": [
+    {
+      "person_id": "p_manmohan_trikala",
+      "name_as_printed": "MANMOHAN TRIKALA",
+      "cost_usd": 0.000186,
+      "fresh_usd": 0.000186,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_manish_vinod_mehta",
+      "name_as_printed": "MANISH VINOD MEHTA",
+      "cost_usd": 0.000174,
+      "fresh_usd": 0.000174,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_multiplier_share_stock_advisors_private_limited_bought",
+      "name_as_printed": "MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

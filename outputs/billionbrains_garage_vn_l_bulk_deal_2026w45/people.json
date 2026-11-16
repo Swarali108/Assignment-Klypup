@@ -1,0 +1,438 @@
+{
+  "event_id": "billionbrains_garage_vn_l_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "212.11",
+    "high": "215.2",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹212.11",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+            "row_ref": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+            "quote": "NSE | GROWW | GOLDMAN SACHS BANK EUROPE SE - ODI | SELL | 4,380 shares | price 212.11 | 2026-11-06"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹215.2",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+            "row_ref": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+            "quote": "NSE | GROWW | PEAK XV PARTNERS INVESTMENTS VI-1 | SELL | 6,02,13,215 shares | price 215.2 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "6,02,17,595 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_goldman_sachs_bank_europe_se_odi",
+      "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE - ODI",
+      "names_as_printed": [
+        "GOLDMAN SACHS BANK EUROPE SE - ODI"
+      ],
+      "name_clean": "goldman sachs bank europe se - odi",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "80cf32a643e1cd16"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 4380,
+          "record_ids": [
+            "80cf32a643e1cd16"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+          "row_ref": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+          "quote": "NSE | GROWW | GOLDMAN SACHS BANK EUROPE SE - ODI | SELL | 4,380 shares | price 212.11 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "80cf32a643e1cd16",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,380",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "929041.80",
+          "rupees_high": "929041.80",
+          "crore_low": "0.09",
+          "crore_high": "0.09",
+          "display": "₹9.29 lakh",
+          "working": "4,380 shares × ₹212.11 = ₹9.29 lakh (NSE 06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,380",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+                  "row_ref": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+                  "quote": "NSE | GROWW | GOLDMAN SACHS BANK EUROPE SE - ODI | SELL | 4,380 shares | price 212.11 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹212.11",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+                  "row_ref": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+                  "quote": "NSE | GROWW | GOLDMAN SACHS BANK EUROPE SE - ODI | SELL | 4,380 shares | price 212.11 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+                  "row_ref": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · SELL · 4380",
+                  "quote": "NSE | GROWW | GOLDMAN SACHS BANK EUROPE SE - ODI | SELL | 4,380 shares | price 212.11 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 4,380 shares in a bulk deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_goldman_sachs_bank_europe_se_odi_bought",
+      "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE - ODI",
+      "names_as_printed": [
+        "GOLDMAN SACHS BANK EUROPE SE - ODI"
+      ],
+      "name_clean": "goldman sachs bank europe se - odi",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "28a144840e13f09b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 35518249,
+          "record_ids": [
+            "28a144840e13f09b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · BUY · 35518249",
+          "row_ref": "06-NOV-2026 · GROWW · GOLDMAN SACHS BANK EUROPE SE - ODI · BUY · 35518249",
+          "quote": "NSE | GROWW | GOLDMAN SACHS BANK EUROPE SE - ODI | BUY | 3,55,18,249 shares | price 215.01 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "28a144840e13f09b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,55,18,249 shares in a bulk deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_peak_xv_partners_investments_vi_1",
+      "name_as_printed": "PEAK XV PARTNERS INVESTMENTS VI-1",
+      "names_as_printed": [
+        "PEAK XV PARTNERS INVESTMENTS VI-1"
+      ],
+      "name_clean": "peak xv partners investments vi-1",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investments'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "b9bf9a32b8ff819f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 60213215,
+          "record_ids": [
+            "b9bf9a32b8ff819f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+          "row_ref": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+          "quote": "NSE | GROWW | PEAK XV PARTNERS INVESTMENTS VI-1 | SELL | 6,02,13,215 shares | price 215.2 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b9bf9a32b8ff819f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,02,13,215",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "12957883868.0",
+          "rupees_high": "12957883868.0",
+          "crore_low": "1295.79",
+          "crore_high": "1295.79",
+          "display": "₹1,295.79 crore",
+          "working": "6,02,13,215 shares × ₹215.2 = ₹1,295.79 crore (NSE 06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,02,13,215",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+                  "row_ref": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+                  "quote": "NSE | GROWW | PEAK XV PARTNERS INVESTMENTS VI-1 | SELL | 6,02,13,215 shares | price 215.2 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹215.2",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+                  "row_ref": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+                  "quote": "NSE | GROWW | PEAK XV PARTNERS INVESTMENTS VI-1 | SELL | 6,02,13,215 shares | price 215.2 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+                  "row_ref": "06-NOV-2026 · GROWW · PEAK XV PARTNERS INVESTMENTS VI-1 · SELL · 60213215",
+                  "quote": "NSE | GROWW | PEAK XV PARTNERS INVESTMENTS VI-1 | SELL | 6,02,13,215 shares | price 215.2 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 6,02,13,215 shares in a bulk deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

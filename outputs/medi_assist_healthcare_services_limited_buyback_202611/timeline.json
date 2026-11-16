@@ -1,0 +1,48 @@
+{
+  "run_id": "auto-medi_assist_healthcare_services_limited_buyback_202611-20261116T010806Z",
+  "total_s": 0.7662882910808548,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.28418362489901483,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.2728582910494879,
+      "calls": 6,
+      "cached": 6,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.0623415409354493,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.036711125052534044,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.036475749919191,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "report",
+      "seconds": 0.042473249952308834,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

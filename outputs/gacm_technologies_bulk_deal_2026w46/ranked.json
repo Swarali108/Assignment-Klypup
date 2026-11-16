@@ -1,0 +1,106 @@
+{
+  "event_id": "gacm_technologies_bulk_deal_2026w46",
+  "callable": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "name_clean": "jagid vanitaben rajendraprasad",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.26",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.26000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 4,
+        "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "money_crore": "0.26",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.26000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 4,
+          "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "money_crore": "0.26",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.26000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 42,43,228 shares in a bulk deal on 11 Nov 2026",
+      "amount_display": "₹26.31 lakh",
+      "timing_display": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹26.31 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "score 0.26 = ₹0.26 crore (proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad_bought",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "name_clean": "jagid vanitaben rajendraprasad",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 1,15,24,019 shares in a bulk deal on 11 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "family link (family_1): 'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      ]
+    }
+  ]
+}

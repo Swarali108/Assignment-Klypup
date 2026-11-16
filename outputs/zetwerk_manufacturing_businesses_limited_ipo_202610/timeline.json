@@ -1,0 +1,48 @@
+{
+  "run_id": "zetwerk_manufacturing_businesses_limited_ipo_202610-20261115T135821Z",
+  "total_s": 51.27997979102656,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 4.654336082981899,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 3.375198249996174,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.022692916973028332,
+      "calls": 1,
+      "cached": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.005850124987773597,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 43.18630904098973,
+      "calls": 22,
+      "cached": 0,
+      "cost_usd": 0.004864
+    },
+    {
+      "step": "report",
+      "seconds": 0.014884916949085891,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

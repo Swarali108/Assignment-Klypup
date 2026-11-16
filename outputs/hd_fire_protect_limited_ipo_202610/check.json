@@ -1,0 +1,37 @@
+{
+  "event_id": "hd_fire_protect_limited_ipo_202610",
+  "event_type": "ipo",
+  "documents": [
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+      "doc_type": "prospectus",
+      "fetched": "yes",
+      "pages": 460,
+      "low_text_pages": [
+        276
+      ],
+      "sections_found": {
+        "selling_shareholders": "p. 20",
+        "offer_structure": "p. 410",
+        "waca": "p. 135",
+        "promoter_holding": "p. 106",
+        "shareholding_pattern": "p. 108",
+        "kmp": "p. 2",
+        "esop": "p. 115",
+        "lock_in": "p. 107",
+        "price": "p. 381",
+        "timetable": "p. 383"
+      },
+      "sections_missing": [
+        "buyback_entitlement"
+      ]
+    }
+  ],
+  "lock_in_wording": {
+    "minimum_promoters_contribution: Minimum Promoters' Contribution": "not found",
+    "minimum_promoters_contribution: promoter shares above the 20%": "found on p. 105",
+    "pre_offer_capital: pre-Offer capital": "found on p. 106",
+    "ofs_proceeds_at_listing": "found on p. 119"
+  },
+  "seconds": 7.1
+}

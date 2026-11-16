@@ -1,0 +1,98 @@
+{
+  "event_id": "kshitij_polyline_bulk_deal_2026w44",
+  "callable": [
+    {
+      "person_id": "p_satish_mejiyatar",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "name_clean": "satish mejiyatar",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.46",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.46000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 14,
+        "label": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "money_crore": "0.46",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.46000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 14,
+          "label": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "money_crore": "0.46",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.46000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 14,97,280 shares in a bulk deal on 30 Oct 2026",
+      "amount_display": "₹46.27 lakh",
+      "timing_display": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹46.27 lakh; settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago).",
+        "score 0.46 = ₹0.46 crore (proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_bhavishya_ecommerce_private_limited_bought",
+      "name_as_printed": "BHAVISHYA ECOMMERCE PRIVATE LIMITED",
+      "name_clean": "bhavishya ecommerce private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 15,00,000 shares in a bulk deal on 30 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

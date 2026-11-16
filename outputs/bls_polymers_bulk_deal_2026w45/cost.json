@@ -1,0 +1,496 @@
+{
+  "event_id": "bls_polymers_bulk_deal_2026w45",
+  "run_id": "auto-bls_polymers_bulk_deal_2026w45-20261115T190030Z",
+  "totals": {
+    "calls": 6,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 7697,
+    "output_tokens": 661,
+    "cost_usd": 0.0011,
+    "fresh_usd": 0.0011,
+    "unpriced_calls": 0,
+    "wall_s": 10.96706562495092,
+    "callable_people": 6,
+    "cost_per_callable_usd": 0.000183,
+    "fresh_per_callable_usd": 0.000183
+  },
+  "per_person": [
+    {
+      "person_id": "p_vithalbhai_bachubhai_kapuriya_huf",
+      "name_as_printed": "VITHALBHAI BACHUBHAI KAPURIYA HUF",
+      "cost_usd": 0.000193,
+      "fresh_usd": 0.000193,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_pranav_ravindrabhai_shah_huf",
+      "name_as_printed": "PRANAV RAVINDRABHAI SHAH HUF",
+      "cost_usd": 0.000188,
+      "fresh_usd": 0.000188,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_om_prakash_singh",
+      "name_as_printed": "OM PRAKASH SINGH",
+      "cost_usd": 0.000186,
+      "fresh_usd": 0.000186,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_simpy_pruthi",
+      "name_as_printed": "SIMPY PRUTHI",
+      "cost_usd": 0.000184,
+      "fresh_usd": 0.000184,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_gourav_kejriwal",
+      "name_as_printed": "GOURAV KEJRIWAL",
+      "cost_usd": 0.000177,
+      "fresh_usd": 0.000177,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_krishna_awtar_kabra",
+      "name_as_printed": "KRISHNA AWTAR KABRA",
+      "cost_usd": 0.000172,
+      "fresh_usd": 0.000172,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_blitzquant_research_llp",
+      "name_as_printed": "BLITZQUANT RESEARCH LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_blitzquant_research_llp_bought",
+      "name_as_printed": "BLITZQUANT RESEARCH LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_clt_research_tech_private_ltd",
+      "name_as_printed": "CLT RESEARCH TECH PRIVATE LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_clt_research_tech_private_ltd_bought",
+      "name_as_printed": "CLT RESEARCH TECH PRIVATE LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_dipan_mehta_commodities_private_limited",
+      "name_as_printed": "DIPAN MEHTA COMMODITIES PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_dipan_mehta_commodities_private_limited_bought",
+      "name_as_printed": "DIPAN MEHTA COMMODITIES PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_elixir_equities_private_ltd",
+      "name_as_printed": "ELIXIR EQUITIES PRIVATE LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_elixir_equities_private_ltd_bought",
+      "name_as_printed": "ELIXIR EQUITIES PRIVATE LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_elixir_wealth_management_private_limited",
+      "name_as_printed": "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_elixir_wealth_management_private_limited_bought",
+      "name_as_printed": "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_goldmine_stocks_private_limited",
+      "name_as_printed": "GOLDMINE STOCKS PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_goldmine_stocks_private_limited_bought",
+      "name_as_printed": "GOLDMINE STOCKS PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_gourav_kejriwal_bought",
+      "name_as_printed": "GOURAV KEJRIWAL",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_grt_strategic_ventures_llp",
+      "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_grt_strategic_ventures_llp_bought",
+      "name_as_printed": "GRT STRATEGIC VENTURES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_irage_broking_services_llp",
+      "name_as_printed": "IRAGE BROKING SERVICES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_irage_broking_services_llp_bought",
+      "name_as_printed": "IRAGE BROKING SERVICES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_j4s_financial_solutions_llp",
+      "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_j4s_financial_solutions_llp_bought",
+      "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_krishna_awtar_kabra_bought",
+      "name_as_printed": "KRISHNA AWTAR KABRA",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_mansukh_securities_finance_limited",
+      "name_as_printed": "MANSUKH SECURITIES & FINANCE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_mansukh_securities_finance_limited_bought",
+      "name_as_printed": "MANSUKH SECURITIES & FINANCE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_marwadi_chandarana_intermediaries_brokers_private_limited",
+      "name_as_printed": "MARWADI CHANDARANA INTERMEDIARIES BROKERS PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_marwadi_chandarana_intermediaries_brokers_private_limited_bought",
+      "name_as_printed": "MARWADI CHANDARANA INTERMEDIARIES BROKERS PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_matalia_stock_broking_private_limited",
+      "name_as_printed": "MATALIA STOCK BROKING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_matalia_stock_broking_private_limited_bought",
+      "name_as_printed": "MATALIA STOCK BROKING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_mathisys_quantcap_llp",
+      "name_as_printed": "MATHISYS QUANTCAP LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_mathisys_quantcap_llp_bought",
+      "name_as_printed": "MATHISYS QUANTCAP LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_nivesh_consultancy_private_limited",
+      "name_as_printed": "NIVESH CONSULTANCY PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_nivesh_consultancy_private_limited_bought",
+      "name_as_printed": "NIVESH CONSULTANCY PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_obsidian_investment_private_limited",
+      "name_as_printed": "OBSIDIAN INVESTMENT PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_obsidian_investment_private_limited_bought",
+      "name_as_printed": "OBSIDIAN INVESTMENT PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_om_prakash_singh_bought",
+      "name_as_printed": "OM PRAKASH SINGH",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_patronus_tradetech_llp",
+      "name_as_printed": "PATRONUS TRADETECH LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_patronus_tradetech_llp_bought",
+      "name_as_printed": "PATRONUS TRADETECH LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_plutus_research_private_limited",
+      "name_as_printed": "PLUTUS RESEARCH PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_plutus_research_private_limited_bought",
+      "name_as_printed": "PLUTUS RESEARCH PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp_bought",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_pranav_ravindrabhai_shah_huf_bought",
+      "name_as_printed": "PRANAV RAVINDRABHAI SHAH HUF",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_pure_broking_private_limited",
+      "name_as_printed": "PURE BROKING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_pure_broking_private_limited_bought",
+      "name_as_printed": "PURE BROKING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_secure_shanti_advisory_llp",
+      "name_as_printed": "SECURE SHANTI ADVISORY LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_secure_shanti_advisory_llp_bought",
+      "name_as_printed": "SECURE SHANTI ADVISORY LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_shiva_trading",
+      "name_as_printed": "SHIVA TRADING",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_shiva_trading_bought",
+      "name_as_printed": "SHIVA TRADING",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_simpy_pruthi_bought",
+      "name_as_printed": "SIMPY PRUTHI",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_two_roads_trading_private_limited",
+      "name_as_printed": "TWO ROADS TRADING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_two_roads_trading_private_limited_bought",
+      "name_as_printed": "TWO ROADS TRADING PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_vithalbhai_bachubhai_kapuriya_huf_bought",
+      "name_as_printed": "VITHALBHAI BACHUBHAI KAPURIYA HUF",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_yuga_stocks_and_commodities_private_limited",
+      "name_as_printed": "YUGA STOCKS AND COMMODITIES PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_yuga_stocks_and_commodities_private_limited_bought",
+      "name_as_printed": "YUGA STOCKS AND COMMODITIES PRIVATE LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

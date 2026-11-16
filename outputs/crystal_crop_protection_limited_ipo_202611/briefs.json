@@ -1,0 +1,358 @@
+{
+  "event_id": "crystal_crop_protection_limited_ipo_202611",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ankur_aggarwal",
+      "name_as_printed": "Ankur Aggarwal",
+      "fields": {
+        "name": "Ankur Aggarwal",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells up to 3,702,694 shares in the offer for sale",
+        "amount": "up to 3,702,694 shares offered; value unknown: no confirmed offer price or price band",
+        "timing": "listing scheduled for On or about Thursday, November 26, 2026 per the offer document's timetable; not confirmed by a listing notice",
+        "event": "proceeds listing scheduled for On or about Thursday, November 26, 2026 per the offer document's timetable; not confirmed by a listing notice",
+        "event_age": "not yet happened or undated",
+        "event_is": "recent",
+        "proceeds": "unknown: no confirmed offer price or price band",
+        "gain": "unknown: no confirmed offer price or price band",
+        "retained": "at least 11,062,864 shares, if all offered shares are sold; value unknown: no confirmed offer price or price band",
+        "retained_shares": "at least 11,062,864 shares, if all offered shares are sold",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'Ankur Aggarwal KNK Family Trust' contains 'Ankur Aggarwal'",
+        "unknowns": [
+          "proceeds: no confirmed offer price or price band",
+          "gain: no confirmed offer price or price band"
+        ]
+      },
+      "placeholders": {
+        "name": "Ankur Aggarwal",
+        "role": "Promoter Selling Shareholder",
+        "amount": "up to 3,702,694 shares offered; value unknown: no confirmed offer price or price band",
+        "timing": "listing scheduled for On or about Thursday, November 26, 2026 per the offer document's timetable; not confirmed by a listing notice",
+        "retained_shares": "at least 11,062,864 shares, if all offered shares are sold",
+        "shares_offered": "up to 3,702,694 shares",
+        "shares_held": "14,765,558 shares",
+        "event_age": "not yet happened or undated"
+      },
+      "lines": [
+        "Ankur Aggarwal, Promoter Selling Shareholder, is selling shares in the offer for sale, so money is coming to them.",
+        "up to 3,702,694 shares offered, with timing listing scheduled for On or about Thursday, November 26, 2026 per the offer document's timetable; not confirmed by a listing notice; value unknown until an offer price or price band is confirmed.",
+        "They keep at least 11,062,864 shares, if all offered shares are sold after the offer, with lock-in periods that tie those holdings to later liquidity; family link via Ankur Aggarwal KNK Family Trust.",
+        "Unknown: no confirmed offer price or price band, so proceeds and gain cannot yet be stated."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ankur Aggarwal, Promoter Selling Shareholder, is selling shares in the offer for sale, so money is coming to them.",
+            "Up to {shares_offered} offered, with timing {timing}; value unknown until an offer price or price band is confirmed.",
+            "They keep {retained_shares} after the offer, with lock-in periods that tie those holdings to later liquidity; family link via Ankur Aggarwal KNK Family Trust.",
+            "Unknown: no confirmed offer price or price band, so proceeds and gain cannot yet be stated."
+          ],
+          "lines": [
+            "Ankur Aggarwal, Promoter Selling Shareholder, is selling shares in the offer for sale, so money is coming to them.",
+            "Up to {shares_offered} offered, with timing {timing}; value unknown until an offer price or price band is confirmed.",
+            "They keep {retained_shares} after the offer, with lock-in periods that tie those holdings to later liquidity; family link via Ankur Aggarwal KNK Family Trust.",
+            "Unknown: no confirmed offer price or price band, so proceeds and gain cannot yet be stated."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "Ankur Aggarwal, Promoter Selling Shareholder, is selling shares in the offer for sale, so money is coming to them.",
+            "{shares_offered} offered, with timing {timing}; value unknown until an offer price or price band is confirmed.",
+            "They keep {retained_shares} after the offer, with lock-in periods that tie those holdings to later liquidity; family link via Ankur Aggarwal KNK Family Trust.",
+            "Unknown: no confirmed offer price or price band, so proceeds and gain cannot yet be stated."
+          ],
+          "lines": [
+            "Ankur Aggarwal, Promoter Selling Shareholder, is selling shares in the offer for sale, so money is coming to them.",
+            "up to 3,702,694 shares offered, with timing listing scheduled for On or about Thursday, November 26, 2026 per the offer document's timetable; not confirmed by a listing notice; value unknown until an offer price or price band is confirmed.",
+            "They keep at least 11,062,864 shares, if all offered shares are sold after the offer, with lock-in periods that tie those holdings to later liquidity; family link via Ankur Aggarwal KNK Family Trust.",
+            "Unknown: no confirmed offer price or price band, so proceeds and gain cannot yet be stated."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ankur_aggarwal_knk_family_trust",
+      "name_as_printed": "Ankur Aggarwal KNK Family Trust",
+      "fields": {
+        "name": "Ankur Aggarwal KNK Family Trust",
+        "role": "unknown",
+        "why_money": "holds 48,301,143 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "48,301,143 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "48,301,143 shares",
+        "family_link": "'Ankur Aggarwal KNK Family Trust' contains 'Ankur Aggarwal'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band",
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Ankur Aggarwal KNK Family Trust",
+        "role": "unknown",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "retained_shares": "48,301,143 shares",
+        "shares_held": "48,301,143 shares"
+      },
+      "lines": [
+        "Ankur Aggarwal KNK Family Trust is a holder whose money is not from a sale; they hold 48,301,143 shares before the offer.",
+        "They are not selling in this offer, and the amount and arrival timing are unknown: no confirmed offer price or price band and unknown: no role printed.",
+        "They keep 48,301,143 shares, and the family link to Ankur Aggarwal may suit a joint conversation.",
+        "Caveat: the offer price and the holder's role are unknown, so confirm both before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ankur Aggarwal KNK Family Trust is a holder whose money is not from a sale; they hold {shares_held} before the offer.",
+            "They are not selling in this offer, and the amount and arrival timing are {amount} and {timing}.",
+            "They keep {retained_shares}, and the family link to Ankur Aggarwal may suit a joint conversation.",
+            "Caveat: the offer price and the holder's role are unknown, so confirm both before the call."
+          ],
+          "lines": [
+            "Ankur Aggarwal KNK Family Trust is a holder whose money is not from a sale; they hold 48,301,143 shares before the offer.",
+            "They are not selling in this offer, and the amount and arrival timing are unknown: no confirmed offer price or price band and unknown: no role printed.",
+            "They keep 48,301,143 shares, and the family link to Ankur Aggarwal may suit a joint conversation.",
+            "Caveat: the offer price and the holder's role are unknown, so confirm both before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_komal_aggarwal",
+      "name_as_printed": "Komal Aggarwal",
+      "fields": {
+        "name": "Komal Aggarwal",
+        "role": "unknown",
+        "why_money": "holds 7,413,214 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "7,413,214 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "7,413,214 shares",
+        "family_link": "'Komal Aggarwal KNK Family Trust' contains 'Komal Aggarwal'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band",
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Komal Aggarwal",
+        "role": "unknown",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "retained_shares": "7,413,214 shares",
+        "shares_held": "7,413,214 shares"
+      },
+      "lines": [
+        "Komal Aggarwal holds 7,413,214 shares before the offer and is not selling in it.",
+        "Money timing and amount are unknown; no confirmed offer price or price band is printed.",
+        "They keep 7,413,214 shares, and a family link exists to Komal Aggarwal KNK Family Trust.",
+        "Role is unknown, so confirm their position before any conversation about the offer."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held} before the offer and is not selling in it.",
+            "Money timing and amount are unknown; no confirmed offer price or price band is printed.",
+            "They keep {retained_shares}, and a family link exists to Komal Aggarwal KNK Family Trust.",
+            "Role is unknown, so confirm their position before any conversation about the offer."
+          ],
+          "lines": [
+            "Komal Aggarwal holds 7,413,214 shares before the offer and is not selling in it.",
+            "Money timing and amount are unknown; no confirmed offer price or price band is printed.",
+            "They keep 7,413,214 shares, and a family link exists to Komal Aggarwal KNK Family Trust.",
+            "Role is unknown, so confirm their position before any conversation about the offer."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_komal_aggarwal_knk_family_trust",
+      "name_as_printed": "Komal Aggarwal KNK Family Trust",
+      "fields": {
+        "name": "Komal Aggarwal KNK Family Trust",
+        "role": "unknown",
+        "why_money": "holds 3,220,076 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "3,220,076 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "3,220,076 shares",
+        "family_link": "'Komal Aggarwal KNK Family Trust' contains 'Komal Aggarwal'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band",
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Komal Aggarwal KNK Family Trust",
+        "role": "unknown",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "retained_shares": "3,220,076 shares",
+        "shares_held": "3,220,076 shares"
+      },
+      "lines": [
+        "Komal Aggarwal KNK Family Trust is a holder whose role is unknown; they hold 3,220,076 shares before the offer and are not selling in it.",
+        "Amount and timing are unknown: no confirmed offer price or price band, and no role printed for this holder.",
+        "They keep 3,220,076 shares, and the family link to Komal Aggarwal may suit a joint conversation.",
+        "Confirm the offer price and holder role before calling; the amount and timing cannot yet be stated."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; they hold {shares_held} before the offer and are not selling in it.",
+            "Amount and timing are unknown: no confirmed offer price or price band, and no role printed for this holder.",
+            "They keep {retained_shares}, and the family link to Komal Aggarwal may suit a joint conversation.",
+            "Confirm the offer price and holder role before calling; the amount and timing cannot yet be stated."
+          ],
+          "lines": [
+            "Komal Aggarwal KNK Family Trust is a holder whose role is unknown; they hold 3,220,076 shares before the offer and are not selling in it.",
+            "Amount and timing are unknown: no confirmed offer price or price band, and no role printed for this holder.",
+            "They keep 3,220,076 shares, and the family link to Komal Aggarwal may suit a joint conversation.",
+            "Confirm the offer price and holder role before calling; the amount and timing cannot yet be stated."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nand_kishore_aggarwal",
+      "name_as_printed": "Nand Kishore Aggarwal",
+      "fields": {
+        "name": "Nand Kishore Aggarwal",
+        "role": "unknown",
+        "why_money": "holds 49,893,309 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "49,893,309 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "49,893,309 shares",
+        "unknowns": [
+          "amount: no confirmed offer price or price band",
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Nand Kishore Aggarwal",
+        "role": "unknown",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "retained_shares": "49,893,309 shares",
+        "shares_held": "49,893,309 shares"
+      },
+      "lines": [
+        "Nand Kishore Aggarwal, role unknown, holds 49,893,309 shares before the offer and is not selling in it.",
+        "No money event is attached to this holder, so no proceeds or timing apply.",
+        "They keep 49,893,309 shares, so any later value depends on the offer price, which is unknown.",
+        "Caveat: the offer amount and the holder's role are not confirmed in the source data."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Nand Kishore Aggarwal, role unknown, holds {shares_held} before the offer and is not selling in it.",
+            "No money event is attached to this holder, so no proceeds or timing apply.",
+            "They keep {retained_shares}, so any later value depends on the offer price, which is unknown.",
+            "Caveat: the offer amount and the holder's role are not confirmed in the source data."
+          ],
+          "lines": [
+            "Nand Kishore Aggarwal, role unknown, holds 49,893,309 shares before the offer and is not selling in it.",
+            "No money event is attached to this holder, so no proceeds or timing apply.",
+            "They keep 49,893,309 shares, so any later value depends on the offer price, which is unknown.",
+            "Caveat: the offer amount and the holder's role are not confirmed in the source data."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_pooja_bansal_knk_family_trust",
+      "name_as_printed": "Pooja Bansal KNK Family Trust",
+      "fields": {
+        "name": "Pooja Bansal KNK Family Trust",
+        "role": "unknown",
+        "why_money": "holds 3,220,076 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "3,220,076 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "3,220,076 shares",
+        "unknowns": [
+          "amount: no confirmed offer price or price band",
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Pooja Bansal KNK Family Trust",
+        "role": "unknown",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "unknown: no role printed",
+        "retained_shares": "3,220,076 shares",
+        "shares_held": "3,220,076 shares"
+      },
+      "lines": [
+        "Pooja Bansal, KNK Family Trust, holds 3,220,076 shares before the offer and is not selling in it.",
+        "No money event applies here; they keep 3,220,076 shares and no offer amount is confirmed yet.",
+        "Angle: their full holding stays in place, so any future offer terms would matter most to them.",
+        "Caveat: the offer price and the role behind this holding are both unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Pooja Bansal, KNK Family Trust, holds {shares_held} before the offer and is not selling in it.",
+            "No money event applies here; they keep {retained_shares} and no offer amount is confirmed yet.",
+            "Angle: their full holding stays in place, so any future offer terms would matter most to them.",
+            "Caveat: the offer price and the role behind this holding are both unknown."
+          ],
+          "lines": [
+            "Pooja Bansal, KNK Family Trust, holds 3,220,076 shares before the offer and is not selling in it.",
+            "No money event applies here; they keep 3,220,076 shares and no offer amount is confirmed yet.",
+            "Angle: their full holding stays in place, so any future offer terms would matter most to them.",
+            "Caveat: the offer price and the role behind this holding are both unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

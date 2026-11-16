@@ -1,0 +1,65 @@
+{
+  "event_id": "ravindra_energy_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_shantanu_lath",
+      "name_as_printed": "Shantanu Lath",
+      "fields": {
+        "name": "Shantanu Lath",
+        "role": "Director",
+        "why_money": "sold 20,000 shares (Market Sale) on 12 Nov 2026",
+        "amount": "₹28.58 lakh",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹28.58 lakh (20,000 shares, value as printed ₹28.58 lakh (NSE XBRL context Disclosure2))"
+      },
+      "placeholders": {
+        "name": "Shantanu Lath",
+        "role": "Director",
+        "amount": "₹28.58 lakh",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹28.58 lakh",
+        "shares_offered": "20,000 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "Shantanu Lath, Director, is receiving proceeds from a market sale of shares on settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago).",
+        "Proceeds of ₹28.58 lakh have already arrived, settled 3 days ago.",
+        "Open by asking how they are thinking about reinvesting after this recent liquidity event."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Shantanu Lath, Director, is receiving proceeds from a market sale of shares on 12 Nov 2026.",
+            "Proceeds of {proceeds} settled on 13 Nov 2026 in hand, {event_age}.",
+            "Open by asking how they are thinking about reinvesting after this recent liquidity event."
+          ],
+          "lines": [
+            "Shantanu Lath, Director, is receiving proceeds from a market sale of shares on 12 Nov 2026.",
+            "Proceeds of {proceeds} settled on 13 Nov 2026 in hand, {event_age}.",
+            "Open by asking how they are thinking about reinvesting after this recent liquidity event."
+          ],
+          "problem": "writes numbers instead of placeholders: 12, 2026, 13, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving proceeds from a market sale of shares on {timing}.",
+            "Proceeds of {proceeds} have already arrived, settled {event_age}.",
+            "Open by asking how they are thinking about reinvesting after this recent liquidity event."
+          ],
+          "lines": [
+            "Shantanu Lath, Director, is receiving proceeds from a market sale of shares on settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago).",
+            "Proceeds of ₹28.58 lakh have already arrived, settled 3 days ago.",
+            "Open by asking how they are thinking about reinvesting after this recent liquidity event."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

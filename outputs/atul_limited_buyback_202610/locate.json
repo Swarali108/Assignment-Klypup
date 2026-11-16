@@ -1,0 +1,95 @@
+{
+  "event_id": "atul_limited_buyback_202610",
+  "event_type": "buyback",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ATUL1_23102026142022_intimation.pdf",
+      "doc_type": "announcement",
+      "path": "cache/fetch/8af4cc405cf768a3665e53483103594b9b726fd0b1791efaf8f7ac23690bff86.bin",
+      "page_count": 22
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf",
+      "doc_type": "public_announcement",
+      "path": "cache/fetch/b1dfd22f6a81a2ac0b980b5043b4bb2c8dd2b183bde014184c16f8e150dc1a20.bin",
+      "page_count": 19
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf",
+      "doc_type": "public_announcement",
+      "path": "cache/fetch/b569f1dc57bc4cad710638c405afa930708dfa9b91868a91a4815dc59b0c972e.bin",
+      "page_count": 19
+    }
+  ],
+  "sections": {
+    "buyback_terms": [
+      {
+        "pdf_index": 4,
+        "printed_page": null,
+        "score": 4,
+        "matched_terms": [
+          "buyback price"
+        ],
+        "source_url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf"
+      },
+      {
+        "pdf_index": 4,
+        "printed_page": null,
+        "score": 4,
+        "matched_terms": [
+          "buyback price"
+        ],
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf"
+      }
+    ],
+    "promoter_intention": [
+      {
+        "pdf_index": 5,
+        "printed_page": null,
+        "score": 8,
+        "matched_terms": [
+          "maximum number of equity shares",
+          "number of equity shares"
+        ],
+        "source_url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf"
+      },
+      {
+        "pdf_index": 5,
+        "printed_page": null,
+        "score": 8,
+        "matched_terms": [
+          "maximum number of equity shares",
+          "number of equity shares"
+        ],
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf"
+      },
+      {
+        "pdf_index": 3,
+        "printed_page": null,
+        "score": 4,
+        "matched_terms": [
+          "number of equity shares"
+        ],
+        "source_url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf"
+      },
+      {
+        "pdf_index": 3,
+        "printed_page": null,
+        "score": 4,
+        "matched_terms": [
+          "number of equity shares"
+        ],
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf"
+      },
+      {
+        "pdf_index": 8,
+        "printed_page": null,
+        "score": 4,
+        "matched_terms": [
+          "number of equity shares"
+        ],
+        "source_url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf"
+      }
+    ]
+  }
+}

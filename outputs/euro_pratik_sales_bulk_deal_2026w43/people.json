@@ -1,0 +1,735 @@
+{
+  "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "194.59",
+    "high": "194.88",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹194.59",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+            "row_ref": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+            "quote": "NSE | EUROPRATIK | QE SECURITIES LLP | SELL | 8,32,596 shares | price 194.59 | 2026-10-19"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹194.88",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+            "row_ref": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+            "quote": "NSE | EUROPRATIK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 10,01,666 shares | price 194.88 | 2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "19 Oct 2026",
+    "sale_date_parsed": "2026-10-19",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "24,96,319 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "a41bce3ce05994ef"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1001666,
+          "record_ids": [
+            "a41bce3ce05994ef"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+          "row_ref": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+          "quote": "NSE | EUROPRATIK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 10,01,666 shares | price 194.88 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a41bce3ce05994ef",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "10,01,666",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "195204670.08",
+          "rupees_high": "195204670.08",
+          "crore_low": "19.52",
+          "crore_high": "19.52",
+          "display": "₹19.52 crore",
+          "working": "10,01,666 shares × ₹194.88 = ₹19.52 crore (NSE 19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "10,01,666",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+                  "quote": "NSE | EUROPRATIK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 10,01,666 shares | price 194.88 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹194.88",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+                  "quote": "NSE | EUROPRATIK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 10,01,666 shares | price 194.88 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 1001666",
+                  "quote": "NSE | EUROPRATIK | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 10,01,666 shares | price 194.88 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 10,01,666 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e7b00057dc9d62f7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1001666,
+          "record_ids": [
+            "e7b00057dc9d62f7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 1001666",
+          "row_ref": "19-OCT-2026 · EUROPRATIK · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 1001666",
+          "quote": "NSE | EUROPRATIK | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 10,01,666 shares | price 194.84 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e7b00057dc9d62f7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,01,666 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c534b61c7569eec2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 662057,
+          "record_ids": [
+            "c534b61c7569eec2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+          "row_ref": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+          "quote": "NSE | EUROPRATIK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 6,62,057 shares | price 194.88 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c534b61c7569eec2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,62,057",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "129021668.16",
+          "rupees_high": "129021668.16",
+          "crore_low": "12.90",
+          "crore_high": "12.90",
+          "display": "₹12.90 crore",
+          "working": "6,62,057 shares × ₹194.88 = ₹12.90 crore (NSE 19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,62,057",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+                  "quote": "NSE | EUROPRATIK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 6,62,057 shares | price 194.88 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹194.88",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+                  "quote": "NSE | EUROPRATIK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 6,62,057 shares | price 194.88 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 662057",
+                  "quote": "NSE | EUROPRATIK | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 6,62,057 shares | price 194.88 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 6,62,057 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1287f82d6c1fc31b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 665362,
+          "record_ids": [
+            "1287f82d6c1fc31b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 665362",
+          "row_ref": "19-OCT-2026 · EUROPRATIK · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 665362",
+          "quote": "NSE | EUROPRATIK | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 6,65,362 shares | price 194.81 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1287f82d6c1fc31b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,65,362 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "0ac83a887c8b2b49"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 832596,
+          "record_ids": [
+            "0ac83a887c8b2b49"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+          "row_ref": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+          "quote": "NSE | EUROPRATIK | QE SECURITIES LLP | SELL | 8,32,596 shares | price 194.59 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0ac83a887c8b2b49",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "8,32,596",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "162014855.64",
+          "rupees_high": "162014855.64",
+          "crore_low": "16.20",
+          "crore_high": "16.20",
+          "display": "₹16.20 crore",
+          "working": "8,32,596 shares × ₹194.59 = ₹16.20 crore (NSE 19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "8,32,596",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+                  "quote": "NSE | EUROPRATIK | QE SECURITIES LLP | SELL | 8,32,596 shares | price 194.59 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹194.59",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+                  "quote": "NSE | EUROPRATIK | QE SECURITIES LLP | SELL | 8,32,596 shares | price 194.59 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+                  "row_ref": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · SELL · 832596",
+                  "quote": "NSE | EUROPRATIK | QE SECURITIES LLP | SELL | 8,32,596 shares | price 194.59 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 8,32,596 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "07f6e8ad85434738"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 844251,
+          "record_ids": [
+            "07f6e8ad85434738"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · BUY · 844251",
+          "row_ref": "19-OCT-2026 · EUROPRATIK · QE SECURITIES LLP · BUY · 844251",
+          "quote": "NSE | EUROPRATIK | QE SECURITIES LLP | BUY | 8,44,251 shares | price 194.33 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "07f6e8ad85434738",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 8,44,251 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "entity": 6
+    },
+    "by_confidence": {
+      "high": 6
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 6
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 6,
+    "follow_on_matches": 4
+  }
+}

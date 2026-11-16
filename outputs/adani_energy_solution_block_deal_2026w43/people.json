@@ -1,0 +1,312 @@
+{
+  "event_id": "adani_energy_solution_block_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "1334",
+    "high": "1334",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹1,334",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+            "row_ref": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+            "quote": "NSE | ADANIENSOL | PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED | SELL | 49,53,560 shares | price 1334 | 2026-10-21"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "21 Oct 2026",
+    "sale_date_parsed": "2026-10-21",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "49,53,560 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_pi_opportunities_aif_v_llp_bought",
+      "name_as_printed": "PI OPPORTUNITIES AIF V LLP",
+      "names_as_printed": [
+        "PI OPPORTUNITIES AIF V LLP"
+      ],
+      "name_clean": "pi opportunities aif v llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "046a03bd512214ac"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 4953560,
+          "record_ids": [
+            "046a03bd512214ac"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · ADANIENSOL · PI OPPORTUNITIES AIF V LLP · BUY · 4953560",
+          "row_ref": "21-OCT-2026 · ADANIENSOL · PI OPPORTUNITIES AIF V LLP · BUY · 4953560",
+          "quote": "NSE | ADANIENSOL | PI OPPORTUNITIES AIF V LLP | BUY | 49,53,560 shares | price 1334 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "046a03bd512214ac",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 49,53,560 shares in a block deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_prazim_trading_and_investment_company_private_limited",
+      "name_as_printed": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+      "names_as_printed": [
+        "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED"
+      ],
+      "name_clean": "prazim trading and investment company private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'company'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "f40de6139728e24a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 4953560,
+          "record_ids": [
+            "f40de6139728e24a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+          "row_ref": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+          "quote": "NSE | ADANIENSOL | PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED | SELL | 49,53,560 shares | price 1334 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f40de6139728e24a",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "49,53,560",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "6608049040",
+          "rupees_high": "6608049040",
+          "crore_low": "660.80",
+          "crore_high": "660.80",
+          "display": "₹660.80 crore",
+          "working": "49,53,560 shares × ₹1,334 = ₹660.80 crore (NSE 21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "49,53,560",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+                  "row_ref": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+                  "quote": "NSE | ADANIENSOL | PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED | SELL | 49,53,560 shares | price 1334 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,334",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+                  "row_ref": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+                  "quote": "NSE | ADANIENSOL | PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED | SELL | 49,53,560 shares | price 1334 | 2026-10-21"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "trade_date": "2026-10-21",
+          "settles_on": "2026-10-22",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "21 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+                  "row_ref": "21-OCT-2026 · ADANIENSOL · PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED · SELL · 4953560",
+                  "quote": "NSE | ADANIENSOL | PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED | SELL | 49,53,560 shares | price 1334 | 2026-10-21"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        }
+      },
+      "why_money": "sold 49,53,560 shares in a block deal on 21 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "wipro_buyback",
+          "company": "Wipro Limited",
+          "name_as_printed": "Prazim Trading and Investment Company Private Limited",
+          "role": null,
+          "amount": "about ₹245.82 crore (estimate at the general-category entitlement)",
+          "trigger_date": "2026-06-24",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED' / 'Prazim Trading and Investment Company Private Limited'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 1
+  }
+}

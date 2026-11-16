@@ -1,0 +1,22 @@
+{
+  "event_id": "bonfiglioli_trans_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Bonfiglioli Trans Limited",
+  "documents": [],
+  "records": [
+    "355555fbfac49b4a",
+    "5014b4e179cd7340",
+    "aa8afb8d755d58eb",
+    "acb48f29cf1a7107",
+    "fff2545b3f31d471"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-23",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "event_id": "belding_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "863.4",
+    "high": "872.06",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹863.4",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+            "row_ref": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+            "quote": "NSE | BELDING | SETU SECURITIES PVT LTD | SELL | 2,019 shares | price 863.4 | 2026-10-26"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹872.06",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+            "row_ref": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+            "quote": "NSE | BELDING | IRAGE BROKING SERVICES LLP | SELL | 3,46,167 shares | price 872.06 | 2026-10-26"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "26 Oct 2026",
+    "sale_date_parsed": "2026-10-26",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "3,48,186 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_irage_broking_services_llp",
+      "name_as_printed": "IRAGE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "IRAGE BROKING SERVICES LLP"
+      ],
+      "name_clean": "irage broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e8e0fc8163bc25d4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 346167,
+          "record_ids": [
+            "e8e0fc8163bc25d4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+          "row_ref": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+          "quote": "NSE | BELDING | IRAGE BROKING SERVICES LLP | SELL | 3,46,167 shares | price 872.06 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e8e0fc8163bc25d4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,46,167",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "301878394.02",
+          "rupees_high": "301878394.02",
+          "crore_low": "30.19",
+          "crore_high": "30.19",
+          "display": "₹30.19 crore",
+          "working": "3,46,167 shares × ₹872.06 = ₹30.19 crore (NSE 26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,46,167",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+                  "row_ref": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+                  "quote": "NSE | BELDING | IRAGE BROKING SERVICES LLP | SELL | 3,46,167 shares | price 872.06 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹872.06",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+                  "row_ref": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+                  "quote": "NSE | BELDING | IRAGE BROKING SERVICES LLP | SELL | 3,46,167 shares | price 872.06 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+                  "row_ref": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · SELL · 346167",
+                  "quote": "NSE | BELDING | IRAGE BROKING SERVICES LLP | SELL | 3,46,167 shares | price 872.06 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 3,46,167 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bonfiglioli_trans_bulk_deal_2026w43",
+          "company": "Bonfiglioli Trans Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹54.62 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bonfiglioli_trans_bulk_deal_2026w43",
+          "company": "Bonfiglioli Trans Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹9.66 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹29.77 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_irage_broking_services_llp_bought",
+      "name_as_printed": "IRAGE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "IRAGE BROKING SERVICES LLP"
+      ],
+      "name_clean": "irage broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f83a355bec9ac3bc"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 401,
+          "record_ids": [
+            "f83a355bec9ac3bc"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · BUY · 401",
+          "row_ref": "26-OCT-2026 · BELDING · IRAGE BROKING SERVICES LLP · BUY · 401",
+          "quote": "NSE | BELDING | IRAGE BROKING SERVICES LLP | BUY | 401 shares | price 861.6 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f83a355bec9ac3bc",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 401 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bonfiglioli_trans_bulk_deal_2026w43",
+          "company": "Bonfiglioli Trans Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹54.62 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "bonfiglioli_trans_bulk_deal_2026w43",
+          "company": "Bonfiglioli Trans Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹9.66 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹29.77 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "IRAGE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'IRAGE BROKING SERVICES LLP' / 'IRAGE BROKING SERVICES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_setu_securities_pvt_ltd",
+      "name_as_printed": "SETU SECURITIES PVT LTD",
+      "names_as_printed": [
+        "SETU SECURITIES PVT LTD"
+      ],
+      "name_clean": "setu securities pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "90189fccd348868c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 2019,
+          "record_ids": [
+            "90189fccd348868c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+          "row_ref": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+          "quote": "NSE | BELDING | SETU SECURITIES PVT LTD | SELL | 2,019 shares | price 863.4 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "90189fccd348868c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,019",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1743204.6",
+          "rupees_high": "1743204.6",
+          "crore_low": "0.17",
+          "crore_high": "0.17",
+          "display": "₹17.43 lakh",
+          "working": "2,019 shares × ₹863.4 = ₹17.43 lakh (NSE 26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,019",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+                  "row_ref": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+                  "quote": "NSE | BELDING | SETU SECURITIES PVT LTD | SELL | 2,019 shares | price 863.4 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹863.4",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+                  "row_ref": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+                  "quote": "NSE | BELDING | SETU SECURITIES PVT LTD | SELL | 2,019 shares | price 863.4 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+                  "row_ref": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · SELL · 2019",
+                  "quote": "NSE | BELDING | SETU SECURITIES PVT LTD | SELL | 2,019 shares | price 863.4 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 2,019 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹29.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_setu_securities_pvt_ltd_bought",
+      "name_as_printed": "SETU SECURITIES PVT LTD",
+      "names_as_printed": [
+        "SETU SECURITIES PVT LTD"
+      ],
+      "name_clean": "setu securities pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8a30a6a6e1821621"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 385019,
+          "record_ids": [
+            "8a30a6a6e1821621"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · BUY · 385019",
+          "row_ref": "26-OCT-2026 · BELDING · SETU SECURITIES PVT LTD · BUY · 385019",
+          "quote": "NSE | BELDING | SETU SECURITIES PVT LTD | BUY | 3,85,019 shares | price 872.1 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8a30a6a6e1821621",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,85,019 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹29.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 16
+  }
+}

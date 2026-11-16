@@ -1,0 +1,59 @@
+{
+  "event_id": "medplus_health_services_limited_buyback_202611",
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "buyback_price",
+    "low": "750",
+    "high": "750",
+    "inputs": [
+      {
+        "field": "buyback_price",
+        "value": "750",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/corporate/MEDPLUS_10112026130836_MEDPLUSPA.pdf",
+            "pdf_index": 3,
+            "printed_page": null,
+            "link": "https://nsearchives.nseindia.in/corporate/MEDPLUS_10112026130836_MEDPLUSPA.pdf#page=3",
+            "quote": "at a price not exceeding 750/- (Indian Rupees Seven Hundred Fifty only) per Equity Share"
+          }
+        ]
+      }
+    ]
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "unknown",
+      "reason": "payment_date not verified"
+    },
+    "closing": {
+      "status": "unknown",
+      "reason": "closing_date not verified"
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 0,
+    "by_holder_type": {},
+    "by_confidence": {},
+    "sellers": 0,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {},
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 0,
+    "follow_on_matches": 0
+  }
+}

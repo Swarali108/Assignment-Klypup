@@ -1,0 +1,70 @@
+{
+  "event_id": "ani_integrated_serv_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kailashben_ashokkumar_patel",
+      "name_as_printed": "KAILASHBEN ASHOKKUMAR PATEL",
+      "fields": {
+        "name": "KAILASHBEN ASHOKKUMAR PATEL",
+        "role": "unknown",
+        "why_money": "sold 1,66,800 shares in a bulk deal on 22 Oct 2026",
+        "amount": "₹48.37 lakh",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "24 days ago",
+        "event_is": "recent",
+        "proceeds": "₹48.37 lakh (1,66,800 shares × ₹29 = ₹48.37 lakh (NSE 22-OCT-2026 · AISL · KAILASHBEN ASHOKKUMAR PATEL · SELL · 166800))"
+      },
+      "placeholders": {
+        "name": "KAILASHBEN ASHOKKUMAR PATEL",
+        "role": "unknown",
+        "amount": "₹48.37 lakh",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹48.37 lakh",
+        "shares_offered": "1,66,800 shares",
+        "event_age": "24 days ago"
+      },
+      "lines": [
+        "KAILASHBEN ASHOKKUMAR PATEL is a holder whose role is unknown, receiving money from selling shares in a bulk deal.",
+        "₹48.37 lakh from 1,66,800 shares, settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "The sale was a bulk deal 24 days ago, so a conversation can cover what they plan next.",
+        "Role is unknown, so confirm KAILASHBEN ASHOKKUMAR PATEL's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from selling shares in a bulk deal.",
+            "{proceeds} from {shares_offered}, settled {event_age} on {timing}.",
+            "The sale was a bulk deal on 22 Oct 2026, so a conversation can cover what they plan next.",
+            "Role is unknown, so confirm {name}'s position before the call."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown, receiving money from selling shares in a bulk deal.",
+            "{proceeds} from {shares_offered}, settled {event_age} on {timing}.",
+            "The sale was a bulk deal on 22 Oct 2026, so a conversation can cover what they plan next.",
+            "Role is unknown, so confirm {name}'s position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 22, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, receiving money from selling shares in a bulk deal.",
+            "{proceeds} from {shares_offered}, {timing}.",
+            "The sale was a bulk deal {event_age}, so a conversation can cover what they plan next.",
+            "Role is {role}, so confirm {name}'s position before the call."
+          ],
+          "lines": [
+            "KAILASHBEN ASHOKKUMAR PATEL is a holder whose role is unknown, receiving money from selling shares in a bulk deal.",
+            "₹48.37 lakh from 1,66,800 shares, settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+            "The sale was a bulk deal 24 days ago, so a conversation can cover what they plan next.",
+            "Role is unknown, so confirm KAILASHBEN ASHOKKUMAR PATEL's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

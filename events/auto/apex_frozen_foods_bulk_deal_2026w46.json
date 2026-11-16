@@ -1,0 +1,27 @@
+{
+  "event_id": "apex_frozen_foods_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "Apex Frozen Foods Limited",
+  "documents": [],
+  "records": [
+    "1f276d27e98b4a4b",
+    "30f2923a0e19e415",
+    "4215a82f987fe460",
+    "87c5ddca1a39e6d5",
+    "924263bd8af8dc83",
+    "a10d1d78e9219dca",
+    "bdd0e3a7a962ffc1",
+    "c6d49be8007f6334",
+    "ca6caf19b8c49043",
+    "ebe26ccb11bf9285"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-12",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

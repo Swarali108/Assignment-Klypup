@@ -1,0 +1,48 @@
+{
+  "run_id": "dcw_limited_buyback_202610-20261115T204943Z",
+  "total_s": 2.91333912499249,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.4336336249834858,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 2.22795304202009,
+      "calls": 4,
+      "cached": 4,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.06072829099139199,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0334671669988893,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.08648474997607991,
+      "calls": 6,
+      "cached": 6,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "report",
+      "seconds": 0.042277832981199026,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

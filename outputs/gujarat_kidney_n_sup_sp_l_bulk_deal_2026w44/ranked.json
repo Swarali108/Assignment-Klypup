@@ -1,0 +1,62 @@
+{
+  "event_id": "gujarat_kidney_n_sup_sp_l_bulk_deal_2026w44",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_nexus_global_opportunities_fund",
+      "name_as_printed": "NEXUS GLOBAL OPPORTUNITIES FUND",
+      "name_clean": "nexus global opportunities fund",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "7.81",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "7.81000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 20,
+        "label": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "money_crore": "7.81",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "7.81000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 20,
+          "label": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "money_crore": "7.81",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "7.81000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 4,38,656 shares in a bulk deal on 26 Oct 2026",
+      "amount_display": "₹7.81 crore",
+      "timing_display": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹7.81 crore; settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 7.81 = ₹7.81 crore (proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

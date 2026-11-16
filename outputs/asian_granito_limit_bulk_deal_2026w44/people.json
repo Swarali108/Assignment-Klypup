@@ -1,0 +1,398 @@
+{
+  "event_id": "asian_granito_limit_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "45.97",
+    "high": "46.71",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹45.97",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+            "row_ref": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+            "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 17,08,518 shares | price 45.97 | 2026-10-28"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹46.71",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+            "row_ref": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+            "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 18,91,482 shares | price 46.71 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "28 Oct 2026 to 29 Oct 2026",
+    "sale_date_parsed": "2026-10-29",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "36,00,000 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_goldendunes_builders_and_developers_private_limited",
+      "name_as_printed": "GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED",
+      "names_as_printed": [
+        "GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED"
+      ],
+      "name_clean": "goldendunes builders and developers private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "005479b7d441f2f5",
+        "0a54221115c0975d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 1708518,
+          "record_ids": [
+            "005479b7d441f2f5"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1891482,
+          "record_ids": [
+            "0a54221115c0975d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+          "row_ref": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+          "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 17,08,518 shares | price 45.97 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "005479b7d441f2f5",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+          "row_ref": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+          "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 18,91,482 shares | price 46.71 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0a54221115c0975d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "36,00,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "166891696.68",
+          "rupees_high": "166891696.68",
+          "crore_low": "16.69",
+          "crore_high": "16.69",
+          "display": "₹16.69 crore",
+          "working": "17,08,518 shares × ₹45.97 = ₹7.85 crore (NSE 28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518); 18,91,482 shares × ₹46.71 = ₹8.84 crore (NSE 29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482); total ₹16.69 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "17,08,518",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+                  "row_ref": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+                  "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 17,08,518 shares | price 45.97 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹45.97",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+                  "row_ref": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1708518",
+                  "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 17,08,518 shares | price 45.97 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "18,91,482",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+                  "row_ref": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+                  "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 18,91,482 shares | price 46.71 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹46.71",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+                  "row_ref": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+                  "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 18,91,482 shares | price 46.71 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+                  "row_ref": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED · SELL · 1891482",
+                  "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDERS AND DEVELOPERS PRIVATE LIMITED | SELL | 18,91,482 shares | price 46.71 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        }
+      },
+      "why_money": "sold 36,00,000 shares in bulk deals on 28 Oct 2026 and 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_goldendunes_buildhome_private_limited_bought",
+      "name_as_printed": "GOLDENDUNES BUILDHOME PRIVATE LIMITED",
+      "names_as_printed": [
+        "GOLDENDUNES BUILDHOME PRIVATE LIMITED"
+      ],
+      "name_clean": "goldendunes buildhome private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "4ae31e071e23b335",
+        "c6a30ab4d63e6f7a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 1708518,
+          "record_ids": [
+            "4ae31e071e23b335"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 1891482,
+          "record_ids": [
+            "c6a30ab4d63e6f7a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDHOME PRIVATE LIMITED · BUY · 1708518",
+          "row_ref": "28-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDHOME PRIVATE LIMITED · BUY · 1708518",
+          "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDHOME PRIVATE LIMITED | BUY | 17,08,518 shares | price 45.97 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4ae31e071e23b335",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDHOME PRIVATE LIMITED · BUY · 1891482",
+          "row_ref": "29-OCT-2026 · ASIANTILES · GOLDENDUNES BUILDHOME PRIVATE LIMITED · BUY · 1891482",
+          "quote": "NSE | ASIANTILES | GOLDENDUNES BUILDHOME PRIVATE LIMITED | BUY | 18,91,482 shares | price 46.72 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c6a30ab4d63e6f7a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 36,00,000 shares in bulk deals on 28 Oct 2026 and 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "macobs_technologies_bulk_deal_2026w44",
+          "company": "Macobs Technologies Ltd",
+          "name_as_printed": "GOLDENDUNES BUILDHOME PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GOLDENDUNES BUILDHOME PRIVATE LIMITED' / 'GOLDENDUNES BUILDHOME PRIVATE LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 1
+  }
+}

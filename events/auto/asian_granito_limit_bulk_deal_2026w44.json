@@ -1,0 +1,21 @@
+{
+  "event_id": "asian_granito_limit_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Asian Granito India Limit",
+  "documents": [],
+  "records": [
+    "005479b7d441f2f5",
+    "0a54221115c0975d",
+    "4ae31e071e23b335",
+    "c6a30ab4d63e6f7a"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-29",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

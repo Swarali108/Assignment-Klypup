@@ -1,0 +1,1423 @@
+{
+  "event_id": "ratnaveer_precision_eng_l_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "373.8",
+    "high": "380.02",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹373.8",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+            "row_ref": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+            "quote": "NSE | RATNAVEER | HRTI PRIVATE LIMITED | SELL | 3,06,351 shares | price 373.8 | 2026-11-02"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹380.02",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+            "row_ref": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+            "quote": "NSE | RATNAVEER | THAKKAR NILESHKUMAR FARSHURAM HUF | SELL | 5,00,000 shares | price 380.02 | 2026-11-02"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "2 Nov 2026",
+    "sale_date_parsed": "2026-11-02",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "29,14,404 shares sold by 4 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 7,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_arihant_capital_markets_limited",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "972050fd67021a1f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 1600595,
+          "record_ids": [
+            "972050fd67021a1f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+          "row_ref": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+          "quote": "NSE | RATNAVEER | ARIHANT CAPITAL MARKETS LIMITED | SELL | 16,00,595 shares | price 376.41 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "972050fd67021a1f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "16,00,595",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "602479963.95",
+          "rupees_high": "602479963.95",
+          "crore_low": "60.25",
+          "crore_high": "60.25",
+          "display": "₹60.25 crore",
+          "working": "16,00,595 shares × ₹376.41 = ₹60.25 crore (NSE 02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "16,00,595",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+                  "quote": "NSE | RATNAVEER | ARIHANT CAPITAL MARKETS LIMITED | SELL | 16,00,595 shares | price 376.41 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹376.41",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+                  "quote": "NSE | RATNAVEER | ARIHANT CAPITAL MARKETS LIMITED | SELL | 16,00,595 shares | price 376.41 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1600595",
+                  "quote": "NSE | RATNAVEER | ARIHANT CAPITAL MARKETS LIMITED | SELL | 16,00,595 shares | price 376.41 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 16,00,595 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹54.10 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹11.92 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹58.82 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_arihant_capital_markets_limited_bought",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5f25006dad7487e9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 1569808,
+          "record_ids": [
+            "5f25006dad7487e9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1569808",
+          "row_ref": "02-NOV-2026 · RATNAVEER · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1569808",
+          "quote": "NSE | RATNAVEER | ARIHANT CAPITAL MARKETS LIMITED | BUY | 15,69,808 shares | price 377.2 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5f25006dad7487e9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 15,69,808 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹54.10 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹11.92 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹58.82 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "490125ac847c8f27"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 306351,
+          "record_ids": [
+            "490125ac847c8f27"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+          "row_ref": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+          "quote": "NSE | RATNAVEER | HRTI PRIVATE LIMITED | SELL | 3,06,351 shares | price 373.8 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "490125ac847c8f27",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,06,351",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "114514003.8",
+          "rupees_high": "114514003.8",
+          "crore_low": "11.45",
+          "crore_high": "11.45",
+          "display": "₹11.45 crore",
+          "working": "3,06,351 shares × ₹373.8 = ₹11.45 crore (NSE 02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,06,351",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+                  "quote": "NSE | RATNAVEER | HRTI PRIVATE LIMITED | SELL | 3,06,351 shares | price 373.8 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹373.8",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+                  "quote": "NSE | RATNAVEER | HRTI PRIVATE LIMITED | SELL | 3,06,351 shares | price 373.8 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · SELL · 306351",
+                  "quote": "NSE | RATNAVEER | HRTI PRIVATE LIMITED | SELL | 3,06,351 shares | price 373.8 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 3,06,351 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹64.74 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.17 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited_bought",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9a586ea3db47ff07"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 615498,
+          "record_ids": [
+            "9a586ea3db47ff07"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · BUY · 615498",
+          "row_ref": "02-NOV-2026 · RATNAVEER · HRTI PRIVATE LIMITED · BUY · 615498",
+          "quote": "NSE | RATNAVEER | HRTI PRIVATE LIMITED | BUY | 6,15,498 shares | price 379.73 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9a586ea3db47ff07",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,15,498 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹37.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹64.74 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cartrade_tech_bulk_deal_2026w44",
+          "company": "Cartrade Tech Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.17 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "267bdb2afe55011b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 507458,
+          "record_ids": [
+            "267bdb2afe55011b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+          "row_ref": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+          "quote": "NSE | RATNAVEER | QE SECURITIES LLP | SELL | 5,07,458 shares | price 376.07 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "267bdb2afe55011b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,07,458",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "190839730.06",
+          "rupees_high": "190839730.06",
+          "crore_low": "19.08",
+          "crore_high": "19.08",
+          "display": "₹19.08 crore",
+          "working": "5,07,458 shares × ₹376.07 = ₹19.08 crore (NSE 02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,07,458",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+                  "quote": "NSE | RATNAVEER | QE SECURITIES LLP | SELL | 5,07,458 shares | price 376.07 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹376.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+                  "quote": "NSE | RATNAVEER | QE SECURITIES LLP | SELL | 5,07,458 shares | price 376.07 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · SELL · 507458",
+                  "quote": "NSE | RATNAVEER | QE SECURITIES LLP | SELL | 5,07,458 shares | price 376.07 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 5,07,458 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8410cfe18e10ceda"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 504429,
+          "record_ids": [
+            "8410cfe18e10ceda"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · BUY · 504429",
+          "row_ref": "02-NOV-2026 · RATNAVEER · QE SECURITIES LLP · BUY · 504429",
+          "quote": "NSE | RATNAVEER | QE SECURITIES LLP | BUY | 5,04,429 shares | price 379.19 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8410cfe18e10ceda",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,04,429 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_thakkar_nileshkumar_farshuram_huf",
+      "name_as_printed": "THAKKAR NILESHKUMAR FARSHURAM HUF",
+      "names_as_printed": [
+        "THAKKAR NILESHKUMAR FARSHURAM HUF"
+      ],
+      "name_clean": "thakkar nileshkumar farshuram huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6230dcce644adf61"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 500000,
+          "record_ids": [
+            "6230dcce644adf61"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+          "row_ref": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+          "quote": "NSE | RATNAVEER | THAKKAR NILESHKUMAR FARSHURAM HUF | SELL | 5,00,000 shares | price 380.02 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6230dcce644adf61",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,00,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "190010000.00",
+          "rupees_high": "190010000.00",
+          "crore_low": "19.00",
+          "crore_high": "19.00",
+          "display": "₹19.00 crore",
+          "working": "5,00,000 shares × ₹380.02 = ₹19.00 crore (NSE 02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,00,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+                  "quote": "NSE | RATNAVEER | THAKKAR NILESHKUMAR FARSHURAM HUF | SELL | 5,00,000 shares | price 380.02 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹380.02",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+                  "quote": "NSE | RATNAVEER | THAKKAR NILESHKUMAR FARSHURAM HUF | SELL | 5,00,000 shares | price 380.02 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+                  "row_ref": "02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000",
+                  "quote": "NSE | RATNAVEER | THAKKAR NILESHKUMAR FARSHURAM HUF | SELL | 5,00,000 shares | price 380.02 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 5,00,000 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 7,
+    "by_holder_type": {
+      "entity": 6,
+      "family_vehicle": 1
+    },
+    "by_confidence": {
+      "high": 7
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 4,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 7
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 7,
+    "follow_on_matches": 60
+  }
+}

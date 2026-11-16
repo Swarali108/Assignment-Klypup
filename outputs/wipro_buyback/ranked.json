@@ -1,0 +1,621 @@
+{
+  "event_id": "wipro_buyback",
+  "callable": [
+    {
+      "person_id": "p_azim_h_premji",
+      "name_as_printed": "Azim H Premji",
+      "name_clean": "azim h premji",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "332.60",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "69.84600",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "332.60",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "69.84600"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "332.60",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "69.84600"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 26,20,91,650 shares in the buyback",
+      "amount_display": "about ₹332.60 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash received earlier: about ₹332.60 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "score 69.85 = ₹332.60 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)",
+        "family link (family_1): 'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'"
+      ]
+    },
+    {
+      "person_id": "p_rishad_azim_premji",
+      "name_as_printed": "Rishad Azim Premji",
+      "name_clean": "rishad azim premji",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "17.18",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "3.60780",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "17.18",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "3.60780"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "17.18",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "3.60780"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 1,35,37,782 shares in the buyback",
+      "amount_display": "about ₹17.18 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash received earlier: about ₹17.18 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "score 3.61 = ₹17.18 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)",
+        "family link (family_1): 'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      ]
+    },
+    {
+      "person_id": "p_tariq_azim_premji",
+      "name_as_printed": "Tariq Azim Premji",
+      "name_clean": "tariq azim premji",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "16.80",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "3.52800",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "16.80",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "3.52800"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "16.80",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "3.52800"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 1,32,38,430 shares in the buyback",
+      "amount_display": "about ₹16.80 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash received earlier: about ₹16.80 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "score 3.53 = ₹16.80 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)",
+        "family link (family_1): 'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      ]
+    },
+    {
+      "person_id": "p_yasmeen_a_premji",
+      "name_as_printed": "Yasmeen A Premji",
+      "name_clean": "yasmeen a premji",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "6.50",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "1.36500",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "6.50",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "1.36500"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "6.50",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "1.36500"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 51,18,756 shares in the buyback",
+      "amount_display": "about ₹6.50 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 4,
+      "rank_reasons": [
+        "Cash received earlier: about ₹6.50 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "score 1.36 = ₹6.50 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "person_id": "p_azim_hasham_premji_partner_representing_zash_traders",
+      "name_as_printed": "Mr. Azim Hasham Premji Partner Representing Zash Traders",
+      "name_clean": "azim hasham premji partner representing zash traders",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "2794.59",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "586.86390",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "2794.59",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "586.86390"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "2794.59",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "586.86390"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 2,20,21,33,582 shares in the buyback",
+      "amount_display": "about ₹2,794.59 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash received earlier: about ₹2,794.59 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 586.86 = ₹2794.59 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_azim_hasham_premji_partner_representing_prazim_traders",
+      "name_as_printed": "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+      "name_clean": "azim hasham premji partner representing prazim traders",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "2741.49",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "575.71290",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "2741.49",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "575.71290"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "2741.49",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "575.71290"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 2,16,02,97,946 shares in the buyback",
+      "amount_display": "about ₹2,741.49 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash received earlier: about ₹2,741.49 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 575.71 = ₹2741.49 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_azim_hasham_premji_partner_representing_hasham_traders",
+      "name_as_printed": "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+      "name_clean": "azim hasham premji partner representing hasham traders",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "2394.45",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "502.83450",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "2394.45",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "502.83450"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "2394.45",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "502.83450"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 1,88,68,26,730 shares in the buyback",
+      "amount_display": "about ₹2,394.45 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash received earlier: about ₹2,394.45 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 502.83 = ₹2394.45 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_azim_premji_trust",
+      "name_as_printed": "Azim Premji Trust",
+      "name_clean": "azim premji trust",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "863.43",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "181.32030",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "863.43",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "181.32030"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "863.43",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "181.32030"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 68,03,85,966 shares in the buyback",
+      "amount_display": "about ₹863.43 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 4,
+      "rank_reasons": [
+        "Cash received earlier: about ₹863.43 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 181.32 = ₹863.43 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_prazim_trading_and_investment_company_private_limited",
+      "name_as_printed": "Prazim Trading and Investment Company Private Limited",
+      "name_clean": "prazim trading and investment company private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "245.82",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "51.62220",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "245.82",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "51.62220"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "245.82",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "51.62220"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 19,37,08,256 shares in the buyback",
+      "amount_display": "about ₹245.82 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 5,
+      "rank_reasons": [
+        "Cash received earlier: about ₹245.82 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 51.62 = ₹245.82 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_azim_premji_philanthropic_initiatives_private_limited",
+      "name_as_printed": "Azim Premji Philanthropic Initiatives Private Limited",
+      "name_clean": "azim premji philanthropic initiatives private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "35.18",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "7.38780",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "35.18",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "7.38780"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "35.18",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "7.38780"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 2,77,24,830 shares in the buyback",
+      "amount_display": "about ₹35.18 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 6,
+      "rank_reasons": [
+        "Cash received earlier: about ₹35.18 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 7.39 = ₹35.18 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_hasham_investment_and_trading_co_private_limited",
+      "name_as_printed": "Hasham Investment and Trading Co. Private Limited",
+      "name_clean": "hasham investment and trading co. private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "holding",
+      "call_tier_label": "Cash received earlier",
+      "amount_known": true,
+      "money_now_crore": "3.44",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "0.3",
+      "score": "0.72240",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 145,
+        "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "money_crore": "3.44",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "0.3",
+        "score": "0.72240"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 145,
+          "label": "proceeds paid by 24 Jun 2026 (4 months ago)",
+          "money_crore": "3.44",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "0.3",
+          "score": "0.72240"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "tenders 27,11,906 shares in the buyback",
+      "amount_display": "about ₹3.44 crore (estimate at the general-category entitlement)",
+      "timing_display": "paid by 24 Jun 2026 (4 months ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 7,
+      "rank_reasons": [
+        "Cash received earlier: about ₹3.44 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago). Listed after this month's cash and fresh unlocks.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.72 = ₹3.44 crore (proceeds paid by 24 Jun 2026 (4 months ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 0.3 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

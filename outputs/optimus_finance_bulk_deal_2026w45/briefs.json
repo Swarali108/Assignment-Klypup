@@ -1,0 +1,56 @@
+{
+  "event_id": "optimus_finance_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dashrath_dhakalu_gotarane",
+      "name_as_printed": "DASHRATH DHAKALU GOTARANE",
+      "fields": {
+        "name": "DASHRATH DHAKALU GOTARANE",
+        "role": "unknown",
+        "why_money": "sold 6,36,679 shares in a bulk deal on 5 Nov 2026",
+        "amount": "₹1.26 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.26 crore (6,36,679 shares × ₹19.84 = ₹1.26 crore (NSE 05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679))",
+        "family_link": "'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      },
+      "placeholders": {
+        "name": "DASHRATH DHAKALU GOTARANE",
+        "role": "unknown",
+        "amount": "₹1.26 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹1.26 crore",
+        "shares_offered": "6,36,679 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "DASHRATH DHAKALU GOTARANE, role unknown, is due proceeds from selling 6,36,679 shares in an NSE bulk deal.",
+        "Proceeds of ₹1.26 crore settled settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "Shares-sold proceeds came through 10 days ago; a family link to another holder with the same surname may be worth exploring.",
+        "Caveat: their role at the company is unknown and should be confirmed before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "DASHRATH DHAKALU GOTARANE, role unknown, is due proceeds from selling {shares_offered} in an NSE bulk deal.",
+            "Proceeds of {amount} settled {timing}.",
+            "Shares-sold proceeds came through {event_age}; a family link to another holder with the same surname may be worth exploring.",
+            "Caveat: their role at the company is unknown and should be confirmed before the call."
+          ],
+          "lines": [
+            "DASHRATH DHAKALU GOTARANE, role unknown, is due proceeds from selling 6,36,679 shares in an NSE bulk deal.",
+            "Proceeds of ₹1.26 crore settled settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+            "Shares-sold proceeds came through 10 days ago; a family link to another holder with the same surname may be worth exploring.",
+            "Caveat: their role at the company is unknown and should be confirmed before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

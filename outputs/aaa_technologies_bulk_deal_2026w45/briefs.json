@@ -1,0 +1,56 @@
+{
+  "event_id": "aaa_technologies_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vaibhav_rajendra_doshi",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "fields": {
+        "name": "VAIBHAV RAJENDRA DOSHI",
+        "role": "unknown",
+        "why_money": "sold 84,322 shares in a bulk deal on 6 Nov 2026",
+        "amount": "₹82.80 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹82.80 lakh (84,322 shares × ₹98.2 = ₹82.80 lakh (NSE 06-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 84322))",
+        "family_link": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "placeholders": {
+        "name": "VAIBHAV RAJENDRA DOSHI",
+        "role": "unknown",
+        "amount": "₹82.80 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹82.80 lakh",
+        "shares_offered": "84,322 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "VAIBHAV RAJENDRA DOSHI sold 84,322 shares in a bulk deal, so money is coming to them.",
+        "₹82.80 lakh settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), so the amount is already in hand.",
+        "The family link to another holder with the same name and surname is worth checking.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "{proceeds} settled {timing}, so the amount is already in hand.",
+            "The family link to another holder with the same name and surname is worth checking.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "VAIBHAV RAJENDRA DOSHI sold 84,322 shares in a bulk deal, so money is coming to them.",
+            "₹82.80 lakh settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), so the amount is already in hand.",
+            "The family link to another holder with the same name and surname is worth checking.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

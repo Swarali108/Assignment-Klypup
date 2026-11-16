@@ -1,0 +1,2228 @@
+{
+  "event_id": "wipro_buyback",
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "buyback_price",
+    "low": "250",
+    "high": "250",
+    "inputs": [
+      {
+        "field": "buyback_price",
+        "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+            "pdf_index": 6,
+            "printed_page": "6",
+            "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+            "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+          }
+        ]
+      }
+    ]
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "verified",
+      "date": "2026-06-24",
+      "display": "24 Jun 2026 (4 months ago)",
+      "inputs": [
+        {
+          "field": "payment_date",
+          "value": "June 24, 2026",
+          "evidence": [
+            {
+              "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+              "pdf_index": 5,
+              "printed_page": "5",
+              "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+              "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+            }
+          ]
+        }
+      ],
+      "days_since": 145
+    },
+    "closing": {
+      "status": "verified",
+      "date": "2026-06-17",
+      "display": "17 Jun 2026 (4 months ago)",
+      "inputs": [
+        {
+          "field": "closing_date",
+          "value": "Wednesday, June 17, 2026",
+          "evidence": [
+            {
+              "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+              "pdf_index": 1,
+              "printed_page": "1",
+              "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+              "quote": "BUYBACK CLOSES ON WEDNESDAY, JUNE 17, 2026"
+            }
+          ]
+        }
+      ],
+      "days_since": 152
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [
+    {
+      "person_id": "p_azim_h_premji",
+      "name_as_printed": "Azim H Premji",
+      "names_as_printed": [
+        "Azim H Premji"
+      ],
+      "name_clean": "azim h premji",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "26,20,91,650",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "1. Azim H Premji 26,20,91,650",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "Total 26,20,91,650",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "1. Azim H Premji 26,20,91,650",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "3326036000",
+          "rupees_high": "3326036000",
+          "crore_low": "332.60",
+          "crore_high": "332.60",
+          "display": "about ₹332.60 crore (estimate at the general-category entitlement)",
+          "working": "26,20,91,650 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 1,33,04,144 shares (capped at 26,20,91,650 intended) × ₹250 = ₹332.60 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "26,20,91,650",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "1. Azim H Premji 26,20,91,650"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_azim_hasham_premji_partner_representing_hasham_traders",
+      "name_as_printed": "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+      "names_as_printed": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders"
+      ],
+      "name_clean": "azim hasham premji partner representing hasham traders",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'partner'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "1,88,68,26,730",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "5. Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "5. Mr. Azim Hasham Premji Partner Representing Hasham 1,88,68,26,730",
+          "verified_by": "table_row",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "23944501500",
+          "rupees_high": "23944501500",
+          "crore_low": "2394.45",
+          "crore_high": "2394.45",
+          "display": "about ₹2,394.45 crore (estimate at the general-category entitlement)",
+          "working": "1,88,68,26,730 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 9,57,78,006 shares (capped at 1,88,68,26,730 intended) × ₹250 = ₹2,394.45 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "1,88,68,26,730",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "5. Mr. Azim Hasham Premji Partner Representing Hasham 1,88,68,26,730"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_azim_hasham_premji_partner_representing_prazim_traders",
+      "name_as_printed": "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+      "names_as_printed": [
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders"
+      ],
+      "name_clean": "azim hasham premji partner representing prazim traders",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'partner'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "2,16,02,97,946",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "6. Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "6. Mr. Azim Hasham Premji Partner Representing Prazim 2,16,02,97,946",
+          "verified_by": "table_row",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "27414948500",
+          "rupees_high": "27414948500",
+          "crore_low": "2741.49",
+          "crore_high": "2741.49",
+          "display": "about ₹2,741.49 crore (estimate at the general-category entitlement)",
+          "working": "2,16,02,97,946 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 10,96,59,794 shares (capped at 2,16,02,97,946 intended) × ₹250 = ₹2,741.49 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "2,16,02,97,946",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "6. Mr. Azim Hasham Premji Partner Representing Prazim 2,16,02,97,946"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_azim_hasham_premji_partner_representing_zash_traders",
+      "name_as_printed": "Mr. Azim Hasham Premji Partner Representing Zash Traders",
+      "names_as_printed": [
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "name_clean": "azim hasham premji partner representing zash traders",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'partner'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "2,20,21,33,582",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "7. Mr. Azim Hasham Premji Partner Representing Zash Traders",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "7. Mr. Azim Hasham Premji Partner Representing Zash Traders 2,20,21,33,582",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "27945857500",
+          "rupees_high": "27945857500",
+          "crore_low": "2794.59",
+          "crore_high": "2794.59",
+          "display": "about ₹2,794.59 crore (estimate at the general-category entitlement)",
+          "working": "2,20,21,33,582 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 11,17,83,430 shares (capped at 2,20,21,33,582 intended) × ₹250 = ₹2,794.59 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "2,20,21,33,582",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "7. Mr. Azim Hasham Premji Partner Representing Zash Traders 2,20,21,33,582"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_azim_premji_philanthropic_initiatives_private_limited",
+      "name_as_printed": "Azim Premji Philanthropic Initiatives Private Limited",
+      "names_as_printed": [
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "name_clean": "azim premji philanthropic initiatives private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "2,77,24,830",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "9. Azim Premji Philanthropic Initiatives Private Limited (1) 2,77,24,830",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "9. Azim Premji Philanthropic Initiatives Private Limited (1) 2,77,24,830",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "351837750",
+          "rupees_high": "351837750",
+          "crore_low": "35.18",
+          "crore_high": "35.18",
+          "display": "about ₹35.18 crore (estimate at the general-category entitlement)",
+          "working": "2,77,24,830 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 14,07,351 shares (capped at 2,77,24,830 intended) × ₹250 = ₹35.18 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "2,77,24,830",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "9. Azim Premji Philanthropic Initiatives Private Limited (1) 2,77,24,830"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_azim_premji_trust",
+      "name_as_printed": "Azim Premji Trust",
+      "names_as_printed": [
+        "Azim Premji Trust"
+      ],
+      "name_clean": "azim premji trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "68,03,85,966",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "10. Azim Premji Trust (2) 68,03,85,966",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "10. Azim Premji Trust (2) 68,03,85,966",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "8634339500",
+          "rupees_high": "8634339500",
+          "crore_low": "863.43",
+          "crore_high": "863.43",
+          "display": "about ₹863.43 crore (estimate at the general-category entitlement)",
+          "working": "68,03,85,966 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 3,45,37,358 shares (capped at 68,03,85,966 intended) × ₹250 = ₹863.43 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "68,03,85,966",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "10. Azim Premji Trust (2) 68,03,85,966"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_hasham_investment_and_trading_co_private_limited",
+      "name_as_printed": "Hasham Investment and Trading Co. Private Limited",
+      "names_as_printed": [
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "name_clean": "hasham investment and trading co. private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "27,11,906",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "8. Hasham Investment and Trading Co. Private Limited 27,11,906",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "8. Hasham Investment and Trading Co. Private Limited 27,11,906",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "34415000",
+          "rupees_high": "34415000",
+          "crore_low": "3.44",
+          "crore_high": "3.44",
+          "display": "about ₹3.44 crore (estimate at the general-category entitlement)",
+          "working": "27,11,906 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 1,37,660 shares (capped at 27,11,906 intended) × ₹250 = ₹3.44 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "27,11,906",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "8. Hasham Investment and Trading Co. Private Limited 27,11,906"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_prazim_trading_and_investment_company_private_limited",
+      "name_as_printed": "Prazim Trading and Investment Company Private Limited",
+      "names_as_printed": [
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "name_clean": "prazim trading and investment company private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'company'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "19,37,08,256",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "11. Prazim Trading and Investment Company Private Limited 19,37,08,256",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "11. Prazim Trading and Investment Company Private Limited 19,37,08,256",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "2458226500",
+          "rupees_high": "2458226500",
+          "crore_low": "245.82",
+          "crore_high": "245.82",
+          "display": "about ₹245.82 crore (estimate at the general-category entitlement)",
+          "working": "19,37,08,256 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 98,32,906 shares (capped at 19,37,08,256 intended) × ₹250 = ₹245.82 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "19,37,08,256",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "11. Prazim Trading and Investment Company Private Limited 19,37,08,256"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "adani_energy_solution_block_deal_2026w43",
+          "company": "Adani Energy Solution Ltd",
+          "name_as_printed": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹660.80 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'Prazim Trading and Investment Company Private Limited' / 'PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "aditya_birla_capital_block_deal_2026w43",
+          "company": "Aditya Birla Capital Ltd.",
+          "name_as_printed": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹112.24 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'Prazim Trading and Investment Company Private Limited' / 'PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "craftsman_automation_block_deal_2026w43",
+          "company": "Craftsman Automation Ltd",
+          "name_as_printed": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹31.54 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'Prazim Trading and Investment Company Private Limited' / 'PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "manipal_health_enterpri_l_block_deal_2026w43",
+          "company": "Manipal Health Enterpri L",
+          "name_as_printed": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹119.57 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'Prazim Trading and Investment Company Private Limited' / 'PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "spr_auto_technologies_block_deal_2026w43",
+          "company": "SPR Auto Technologies Ltd",
+          "name_as_printed": "PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹115.40 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'Prazim Trading and Investment Company Private Limited' / 'PRAZIM TRADING AND INVESTMENT COMPANY PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_rishad_azim_premji",
+      "name_as_printed": "Rishad Azim Premji",
+      "names_as_printed": [
+        "Rishad Azim Premji"
+      ],
+      "name_clean": "rishad azim premji",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "1,35,37,782",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "3. Rishad Azim Premji 1,35,37,782",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 23,
+          "printed_page": "23",
+          "quote": "Total 1,35,37,782",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "3. Rishad Azim Premji 1,35,37,782",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "171799250",
+          "rupees_high": "171799250",
+          "crore_low": "17.18",
+          "crore_high": "17.18",
+          "display": "about ₹17.18 crore (estimate at the general-category entitlement)",
+          "working": "1,35,37,782 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 6,87,197 shares (capped at 1,35,37,782 intended) × ₹250 = ₹17.18 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "1,35,37,782",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "3. Rishad Azim Premji 1,35,37,782"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_tariq_azim_premji",
+      "name_as_printed": "Tariq Azim Premji",
+      "names_as_printed": [
+        "Tariq Azim Premji"
+      ],
+      "name_clean": "tariq azim premji",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": null,
+      "shares_intended": "1,32,38,430",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "4. Tariq Azim Premji 1,32,38,430",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 23,
+          "printed_page": "23",
+          "quote": "Total 1,32,38,430",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "4. Tariq Azim Premji 1,32,38,430",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "168000250",
+          "rupees_high": "168000250",
+          "crore_low": "16.80",
+          "crore_high": "16.80",
+          "display": "about ₹16.80 crore (estimate at the general-category entitlement)",
+          "working": "1,32,38,430 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 6,72,001 shares (capped at 1,32,38,430 intended) × ₹250 = ₹16.80 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_intended",
+              "value": "1,32,38,430",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "4. Tariq Azim Premji 1,32,38,430"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "no verified pre-offer holding",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_yasmeen_a_premji",
+      "name_as_printed": "Yasmeen A Premji",
+      "names_as_printed": [
+        "Yasmeen A Premji"
+      ],
+      "name_clean": "yasmeen a premji",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": "51,18,756",
+      "shares_intended": "51,18,756",
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "2. Yasmeen A Premji 51,18,756",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 23,
+          "printed_page": "23",
+          "quote": "Total 51,18,756",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_intended",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "2. Yasmeen A Premji 51,18,756",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "have expressed their intention to participate in the Buyback vide their letters dated April 16, 2026",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "tendering",
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "64958750",
+          "rupees_high": "64958750",
+          "crore_low": "6.50",
+          "crore_high": "6.50",
+          "display": "about ₹6.50 crore (estimate at the general-category entitlement)",
+          "working": "51,18,756 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 2,59,835 shares (capped at 51,18,756 intended) × ₹250 = ₹6.50 crore. Acceptance can be higher when other holders do not tender.",
+          "price_kind": "buyback_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "51,18,756",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 23,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=23",
+                  "quote": "Total 51,18,756"
+                }
+              ]
+            },
+            {
+              "field": "shares_intended",
+              "value": "51,18,756",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 22,
+                  "printed_page": "22",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=22",
+                  "quote": "2. Yasmeen A Premji 51,18,756"
+                }
+              ]
+            },
+            {
+              "field": "entitlement_ratio",
+              "value": "10 Equity Share for every 197 Equity Shares held on the Record Date",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "1",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=1",
+                  "quote": "GENERAL CATEGORY FOR ALL OTHER ELIGIBLE SHAREHOLDERS 10 Equity Share for every 197 Equity Shares held on the Record Date"
+                }
+              ]
+            },
+            {
+              "field": "buyback_price",
+              "value": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 6,
+                  "printed_page": "6",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=6",
+                  "quote": "₹ 250/- (Rupees Two Hundred and Fifty only) per fully paid up Equity Share"
+                }
+              ]
+            }
+          ],
+          "label": "estimate"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "paid by 24 Jun 2026 (4 months ago)",
+          "sources": [
+            {
+              "field": "payment_date",
+              "value": "June 24, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "5",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Wipro%20Limited%20-%20LOF_p.pdf#page=5",
+                  "quote": "Last date for payment of consideration to Eligible Shareholders who June 24, 2026 Wednesday"
+                }
+              ]
+            }
+          ],
+          "days_since": 145
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "score": 88.7,
+      "method": "llm",
+      "outcome": "separate",
+      "llm_outcome": "different",
+      "llm_reason": "Both name the same individual as partner, but they represent different firms (Hasham Traders vs Zash Traders). The holder is the partnership firm in each case, and the firm names differ, so these are different holders."
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "score": 88.7,
+      "method": "llm",
+      "outcome": "separate",
+      "llm_outcome": "different",
+      "llm_reason": "Both name the same individual as partner, but the holders are the firms he represents: Prazim Traders and Zash Traders. These are different entities, and the quotes list them as separate entries (6 and 7)."
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders"
+      ],
+      "score": 87.0,
+      "method": "llm",
+      "outcome": "separate",
+      "llm_outcome": "different",
+      "llm_reason": "Both name Azim Hasham Premji as partner, but he represents different partnership firms (Hasham Traders vs Prazim Traders). The holders are the distinct firms, and they appear as separate numbered entries (5 and 6)."
+    },
+    {
+      "pair": [
+        "Hasham Investment and Trading Co. Private Limited",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 83.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Azim Premji Trust"
+      ],
+      "score": 82.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Azim Premji Trust"
+      ],
+      "score": 80.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Tariq Azim Premji"
+      ],
+      "score": 80.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Azim Premji Trust"
+      ],
+      "score": 73.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Tariq Azim Premji"
+      ],
+      "score": 73.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Rishad Azim Premji"
+      ],
+      "score": 71.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Azim Premji Trust"
+      ],
+      "score": 60.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Tariq Azim Premji"
+      ],
+      "score": 60.6,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Rishad Azim Premji"
+      ],
+      "score": 58.8,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Yasmeen A Premji"
+      ],
+      "score": 55.2,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim Premji Philanthropic Initiatives Private Limited",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 54.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 52.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 50.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Hasham Investment and Trading Co. Private Limited",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 49.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 49.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 47.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 47.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 46.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 46.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "score": 45.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders"
+      ],
+      "score": 44.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders"
+      ],
+      "score": 44.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders",
+        "Azim Premji Trust"
+      ],
+      "score": 43.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "score": 43.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+        "Azim Premji Trust"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders",
+        "Azim Premji Trust"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 41.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim Premji Philanthropic Initiatives Private Limited",
+        "Azim Premji Trust"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 39.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders"
+      ],
+      "score": 38.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders"
+      ],
+      "score": 38.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Mr. Azim Hasham Premji Partner Representing Zash Traders"
+      ],
+      "score": 35.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 34.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Mr. Azim Hasham Premji Partner Representing Hasham Traders"
+      ],
+      "score": 34.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Mr. Azim Hasham Premji Partner Representing Prazim Traders"
+      ],
+      "score": 34.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 33.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Tariq Azim Premji",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 33.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rishad Azim Premji",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 33.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Azim Premji Philanthropic Initiatives Private Limited"
+      ],
+      "score": 31.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 31.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim Premji Trust",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 31.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Hasham Investment and Trading Co. Private Limited",
+        "Azim Premji Trust"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 29.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Yasmeen A Premji",
+        "Hasham Investment and Trading Co. Private Limited"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Azim H Premji",
+        "Prazim Trading and Investment Company Private Limited"
+      ],
+      "score": 27.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "Azim H Premji",
+        "Rishad Azim Premji",
+        "Tariq Azim Premji"
+      ],
+      "reasons": [
+        "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'",
+        "'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'",
+        "'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 11,
+    "by_holder_type": {
+      "entity": 7,
+      "person": 4
+    },
+    "by_confidence": {
+      "medium": 11
+    },
+    "sellers": 11,
+    "sellers_unverified": 0,
+    "proceeds_computed": 11,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 11
+    },
+    "identity_decisions": {
+      "below_threshold": 46,
+      "different_first_name": 6,
+      "llm": 3
+    },
+    "identity_merges": 0,
+    "llm_asks": 3,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 11,
+    "follow_on_matches": 5
+  }
+}

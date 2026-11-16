@@ -1,0 +1,27 @@
+{
+  "event_id": "aarti_drugs_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "Aarti Drugs Ltd.",
+  "documents": [],
+  "records": [
+    "2a4a5dbed4368c05",
+    "4cd5a44104d2b961",
+    "58ea553b022bdaa6",
+    "66f263c13c818ac2",
+    "6a46b6e463f094cb",
+    "6cfc310be981c7a5",
+    "6f764ec5a8c5fdd0",
+    "8f361cf9d3712208",
+    "db59ca36b2b43e26",
+    "e7a54b819b8252c3"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-09",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

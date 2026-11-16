@@ -1,0 +1,565 @@
+{
+  "event_id": "krishna_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "68.31",
+    "high": "68.33",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹68.31",
+        "evidence": [
+          {
+            "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "pdf_index": null,
+            "printed_page": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+            "row_ref": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+            "quote": "BSE | KRISHNA | ABHISHEK GUPTA | SELL | 73,093 shares | price 68.31 | 2026-11-13"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹68.33",
+        "evidence": [
+          {
+            "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "pdf_index": null,
+            "printed_page": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+            "row_ref": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+            "quote": "BSE | KRISHNA | MOHD JAFAR | SELL | 2,85,000 shares | price 68.33 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "4,98,093 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_abhishek_gupta",
+      "name_as_printed": "ABHISHEK GUPTA",
+      "names_as_printed": [
+        "ABHISHEK GUPTA"
+      ],
+      "name_clean": "abhishek gupta",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "18c371816471897a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 73093,
+          "record_ids": [
+            "18c371816471897a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+          "row_ref": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+          "quote": "BSE | KRISHNA | ABHISHEK GUPTA | SELL | 73,093 shares | price 68.31 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "18c371816471897a",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "73,093",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "4992982.83",
+          "rupees_high": "4992982.83",
+          "crore_low": "0.50",
+          "crore_high": "0.50",
+          "display": "₹49.93 lakh",
+          "working": "73,093 shares × ₹68.31 = ₹49.93 lakh (BSE 13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "73,093",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+                  "row_ref": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+                  "quote": "BSE | KRISHNA | ABHISHEK GUPTA | SELL | 73,093 shares | price 68.31 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹68.31",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+                  "row_ref": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+                  "quote": "BSE | KRISHNA | ABHISHEK GUPTA | SELL | 73,093 shares | price 68.31 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+                  "row_ref": "13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093",
+                  "quote": "BSE | KRISHNA | ABHISHEK GUPTA | SELL | 73,093 shares | price 68.31 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 73,093 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_mohd_jafar",
+      "name_as_printed": "MOHD JAFAR",
+      "names_as_printed": [
+        "MOHD JAFAR"
+      ],
+      "name_clean": "mohd jafar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "52eabfcd5d7cd28b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 285000,
+          "record_ids": [
+            "52eabfcd5d7cd28b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+          "row_ref": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+          "quote": "BSE | KRISHNA | MOHD JAFAR | SELL | 2,85,000 shares | price 68.33 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "52eabfcd5d7cd28b",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,85,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "19474050.00",
+          "rupees_high": "19474050.00",
+          "crore_low": "1.95",
+          "crore_high": "1.95",
+          "display": "₹1.95 crore",
+          "working": "2,85,000 shares × ₹68.33 = ₹1.95 crore (BSE 13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,85,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+                  "row_ref": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+                  "quote": "BSE | KRISHNA | MOHD JAFAR | SELL | 2,85,000 shares | price 68.33 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹68.33",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+                  "row_ref": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+                  "quote": "BSE | KRISHNA | MOHD JAFAR | SELL | 2,85,000 shares | price 68.33 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+                  "row_ref": "13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000",
+                  "quote": "BSE | KRISHNA | MOHD JAFAR | SELL | 2,85,000 shares | price 68.33 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 2,85,000 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_rinkesh_rajendra_shah",
+      "name_as_printed": "RINKESH RAJENDRA SHAH",
+      "names_as_printed": [
+        "RINKESH RAJENDRA SHAH"
+      ],
+      "name_clean": "rinkesh rajendra shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "54a4800a4145d676"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 140000,
+          "record_ids": [
+            "54a4800a4145d676"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+          "row_ref": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+          "quote": "BSE | KRISHNA | RINKESH RAJENDRA SHAH | SELL | 1,40,000 shares | price 68.32 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "54a4800a4145d676",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,40,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "9564800.00",
+          "rupees_high": "9564800.00",
+          "crore_low": "0.96",
+          "crore_high": "0.96",
+          "display": "₹95.65 lakh",
+          "working": "1,40,000 shares × ₹68.32 = ₹95.65 lakh (BSE 13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,40,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+                  "row_ref": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+                  "quote": "BSE | KRISHNA | RINKESH RAJENDRA SHAH | SELL | 1,40,000 shares | price 68.32 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹68.32",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+                  "row_ref": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+                  "quote": "BSE | KRISHNA | RINKESH RAJENDRA SHAH | SELL | 1,40,000 shares | price 68.32 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+                  "row_ref": "13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000",
+                  "quote": "BSE | KRISHNA | RINKESH RAJENDRA SHAH | SELL | 1,40,000 shares | price 68.32 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 1,40,000 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_yuvraj_chandresh_shah_bought",
+      "name_as_printed": "YUVRAJ CHANDRESH SHAH",
+      "names_as_printed": [
+        "YUVRAJ CHANDRESH SHAH"
+      ],
+      "name_clean": "yuvraj chandresh shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5b09b8d5715106bd"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 70000,
+          "record_ids": [
+            "5b09b8d5715106bd"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · KRISHNA · YUVRAJ CHANDRESH SHAH · B · 70000",
+          "row_ref": "13/11/2026 · KRISHNA · YUVRAJ CHANDRESH SHAH · B · 70000",
+          "quote": "BSE | KRISHNA | YUVRAJ CHANDRESH SHAH | BUY | 70,000 shares | price 68.34 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5b09b8d5715106bd",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 70,000 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "person": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 0
+  }
+}

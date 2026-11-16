@@ -1,0 +1,367 @@
+{
+  "event_id": "abh_healthcare_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "42.08",
+    "high": "42.08",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹42.08",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+            "row_ref": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+            "quote": "NSE | ABH | RIKHAV SECURITIES LIMITED | SELL | 88,800 shares | price 42.08 | 2026-10-21"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "21 Oct 2026",
+    "sale_date_parsed": "2026-10-21",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "88,800 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_rikhav_securities_limited",
+      "name_as_printed": "RIKHAV SECURITIES LIMITED",
+      "names_as_printed": [
+        "RIKHAV SECURITIES LIMITED"
+      ],
+      "name_clean": "rikhav securities limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e6c55bb04a3faa57"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 88800,
+          "record_ids": [
+            "e6c55bb04a3faa57"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+          "row_ref": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+          "quote": "NSE | ABH | RIKHAV SECURITIES LIMITED | SELL | 88,800 shares | price 42.08 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e6c55bb04a3faa57",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "88,800",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "3736704.00",
+          "rupees_high": "3736704.00",
+          "crore_low": "0.37",
+          "crore_high": "0.37",
+          "display": "₹37.37 lakh",
+          "working": "88,800 shares × ₹42.08 = ₹37.37 lakh (NSE 21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "88,800",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+                  "row_ref": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+                  "quote": "NSE | ABH | RIKHAV SECURITIES LIMITED | SELL | 88,800 shares | price 42.08 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹42.08",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+                  "row_ref": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+                  "quote": "NSE | ABH | RIKHAV SECURITIES LIMITED | SELL | 88,800 shares | price 42.08 | 2026-10-21"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "trade_date": "2026-10-21",
+          "settles_on": "2026-10-22",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "21 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+                  "row_ref": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · SELL · 88800",
+                  "quote": "NSE | ABH | RIKHAV SECURITIES LIMITED | SELL | 88,800 shares | price 42.08 | 2026-10-21"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        }
+      },
+      "why_money": "sold 88,800 shares in a bulk deal on 21 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_rikhav_securities_limited_bought",
+      "name_as_printed": "RIKHAV SECURITIES LIMITED",
+      "names_as_printed": [
+        "RIKHAV SECURITIES LIMITED"
+      ],
+      "name_clean": "rikhav securities limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "01f69afed13be29b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 2400,
+          "record_ids": [
+            "01f69afed13be29b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · BUY · 2400",
+          "row_ref": "21-OCT-2026 · ABH · RIKHAV SECURITIES LIMITED · BUY · 2400",
+          "quote": "NSE | ABH | RIKHAV SECURITIES LIMITED | BUY | 2,400 shares | price 41.78 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "01f69afed13be29b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,400 shares in a bulk deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_sidhachakra_enterprise_llp_bought",
+      "name_as_printed": "SIDHACHAKRA ENTERPRISE LLP",
+      "names_as_printed": [
+        "SIDHACHAKRA ENTERPRISE LLP"
+      ],
+      "name_clean": "sidhachakra enterprise llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6ef6d5ad0862d767"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 87600,
+          "record_ids": [
+            "6ef6d5ad0862d767"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · ABH · SIDHACHAKRA ENTERPRISE LLP · BUY · 87600",
+          "row_ref": "21-OCT-2026 · ABH · SIDHACHAKRA ENTERPRISE LLP · BUY · 87600",
+          "quote": "NSE | ABH | SIDHACHAKRA ENTERPRISE LLP | BUY | 87,600 shares | price 42.07 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6ef6d5ad0862d767",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 87,600 shares in a bulk deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

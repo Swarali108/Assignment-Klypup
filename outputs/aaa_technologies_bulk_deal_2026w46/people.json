@@ -1,0 +1,796 @@
+{
+  "event_id": "aaa_technologies_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "89.53",
+    "high": "94.61",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹89.53",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+            "row_ref": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+            "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 80,083 shares | price 89.53 | 2026-11-13"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹94.61",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+            "row_ref": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+            "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 1,01,084 shares | price 94.61 | 2026-11-09"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "9 Nov 2026 to 13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "4,68,339 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 9,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_nova_global_opportunities_fund_pcc_touchstone",
+      "name_as_printed": "NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE",
+      "names_as_printed": [
+        "NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE"
+      ],
+      "name_clean": "nova global opportunities fund pcc - touchstone",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "829a12d612b9184c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 135000,
+          "record_ids": [
+            "829a12d612b9184c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+          "row_ref": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+          "quote": "NSE | AAATECH | NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE | SELL | 1,35,000 shares | price 91.94 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "829a12d612b9184c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,35,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "12411900.00",
+          "rupees_high": "12411900.00",
+          "crore_low": "1.24",
+          "crore_high": "1.24",
+          "display": "₹1.24 crore",
+          "working": "1,35,000 shares × ₹91.94 = ₹1.24 crore (NSE 09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,35,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+                  "row_ref": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+                  "quote": "NSE | AAATECH | NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE | SELL | 1,35,000 shares | price 91.94 | 2026-11-09"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹91.94",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+                  "row_ref": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+                  "quote": "NSE | AAATECH | NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE | SELL | 1,35,000 shares | price 91.94 | 2026-11-09"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "trade_date": "2026-11-09",
+          "settles_on": "2026-11-10",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "9 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+                  "row_ref": "09-NOV-2026 · AAATECH · NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE · SELL · 135000",
+                  "quote": "NSE | AAATECH | NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE | SELL | 1,35,000 shares | price 91.94 | 2026-11-09"
+                }
+              ]
+            }
+          ],
+          "days_since": 6
+        }
+      },
+      "why_money": "sold 1,35,000 shares in a bulk deal on 9 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vaibhav_rajendra_doshi",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "names_as_printed": [
+        "VAIBHAV RAJENDRA DOSHI"
+      ],
+      "name_clean": "vaibhav rajendra doshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "1f32b42494dd705b",
+        "3309fb6a0f38d2d3",
+        "cbd26724a981ac44",
+        "44ab5ca33f6620a2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 101084,
+          "record_ids": [
+            "1f32b42494dd705b"
+          ]
+        },
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 66829,
+          "record_ids": [
+            "3309fb6a0f38d2d3"
+          ]
+        },
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 85343,
+          "record_ids": [
+            "cbd26724a981ac44"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 80083,
+          "record_ids": [
+            "44ab5ca33f6620a2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+          "row_ref": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 1,01,084 shares | price 94.61 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1f32b42494dd705b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
+          "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3309fb6a0f38d2d3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+          "row_ref": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 85,343 shares | price 90.57 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cbd26724a981ac44",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+          "row_ref": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 80,083 shares | price 89.53 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "44ab5ca33f6620a2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,33,339",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "30676664.16",
+          "rupees_high": "30676664.16",
+          "crore_low": "3.07",
+          "crore_high": "3.07",
+          "display": "₹3.07 crore",
+          "working": "1,01,084 shares × ₹94.61 = ₹95.64 lakh (NSE 09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084); 66,829 shares × ₹92.98 = ₹62.14 lakh (NSE 11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829); 85,343 shares × ₹90.57 = ₹77.30 lakh (NSE 12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343); 80,083 shares × ₹89.53 = ₹71.70 lakh (NSE 13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083); total ₹3.07 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,01,084",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+                  "row_ref": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 1,01,084 shares | price 94.61 | 2026-11-09"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹94.61",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+                  "row_ref": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 1,01,084 shares | price 94.61 | 2026-11-09"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "66,829",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
+                  "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹92.98",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
+                  "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "85,343",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+                  "row_ref": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 85,343 shares | price 90.57 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹90.57",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+                  "row_ref": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 85,343 shares | price 90.57 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "80,083",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+                  "row_ref": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 80,083 shares | price 89.53 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹89.53",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+                  "row_ref": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 80,083 shares | price 89.53 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+                  "row_ref": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083",
+                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 80,083 shares | price 89.53 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 6
+        }
+      },
+      "why_money": "sold 3,33,339 shares in bulk deals between 9 Nov 2026 and 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹1.37 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹82.80 lakh",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "agarwal_tough_glass_ind_l_bulk_deal_2026w45",
+          "company": "Agarwal Tough Glass Ind L",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹2.95 crore",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "agarwal_tough_glass_ind_l_bulk_deal_2026w45",
+          "company": "Agarwal Tough Glass Ind L",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vaibhav_rajendra_doshi_bought",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "names_as_printed": [
+        "VAIBHAV RAJENDRA DOSHI"
+      ],
+      "name_clean": "vaibhav rajendra doshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6befa18e226bb811",
+        "87c6b7ff2a04927e",
+        "23e3283b29b2ec73",
+        "9719365df7745901"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 101084,
+          "record_ids": [
+            "6befa18e226bb811"
+          ]
+        },
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 66829,
+          "record_ids": [
+            "87c6b7ff2a04927e"
+          ]
+        },
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 85343,
+          "record_ids": [
+            "23e3283b29b2ec73"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 80083,
+          "record_ids": [
+            "9719365df7745901"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 101084",
+          "row_ref": "09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 101084",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | BUY | 1,01,084 shares | price 94.27 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6befa18e226bb811",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 66829",
+          "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 66829",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | BUY | 66,829 shares | price 93.89 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "87c6b7ff2a04927e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 85343",
+          "row_ref": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 85343",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | BUY | 85,343 shares | price 90.56 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "23e3283b29b2ec73",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 80083",
+          "row_ref": "13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 80083",
+          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | BUY | 80,083 shares | price 90.63 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9719365df7745901",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,33,339 shares in bulk deals between 9 Nov 2026 and 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹1.37 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹82.80 lakh",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "agarwal_tough_glass_ind_l_bulk_deal_2026w45",
+          "company": "Agarwal Tough Glass Ind L",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹2.95 crore",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "agarwal_tough_glass_ind_l_bulk_deal_2026w45",
+          "company": "Agarwal Tough Glass Ind L",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "VAIBHAV RAJENDRA DOSHI",
+        "VAIBHAV RAJENDRA DOSHI"
+      ],
+      "reasons": [
+        "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 1,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 12
+  }
+}

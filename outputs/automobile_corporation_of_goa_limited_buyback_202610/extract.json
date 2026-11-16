@@ -1,0 +1,207 @@
+{
+  "event_id": "automobile_corporation_of_goa_limited_buyback_202610",
+  "rows": [],
+  "unattributed": [],
+  "offer_facts": {
+    "buyback_price": "₹ 2,005/-",
+    "maximum_shares": "1,44,639",
+    "record_date": null,
+    "opening_date": "November 03, 2026",
+    "closing_date": "November 09, 2026",
+    "payment_date": null,
+    "acceptance_ratio": null,
+    "evidence": [
+      {
+        "field": "buyback_price",
+        "pdf_index": 5,
+        "printed_page": "5",
+        "quote": "at a price of ₹ 2,005/- (Indian Rupees Two Thousand",
+        "section": "buyback_terms",
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "maximum_shares",
+        "pdf_index": 5,
+        "printed_page": "5",
+        "quote": "Offer to buy back not exceeding 1,44,639 (One Lakh Forty Four",
+        "section": "buyback_terms",
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "record_date",
+        "pdf_index": 4,
+        "printed_page": "4",
+        "quote": "Record Date for determining the names of Eligible",
+        "section": "buyback_terms",
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+        "field_kept": false
+      },
+      {
+        "field": "opening_date",
+        "pdf_index": 4,
+        "printed_page": "4",
+        "quote": "Buyback Opening Date November 03, 2026 Tuesday",
+        "section": "buyback_terms",
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "closing_date",
+        "pdf_index": 4,
+        "printed_page": "4",
+        "quote": "Buyback Closing Date November 09, 2026 Monday",
+        "section": "buyback_terms",
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "payment_date",
+        "pdf_index": 4,
+        "printed_page": "4",
+        "quote": "Last date of payment of consideration to Eligible",
+        "section": "buyback_terms",
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+        "field_kept": false
+      }
+    ],
+    "conflicts": {},
+    "notes": []
+  },
+  "rejections": [
+    {
+      "row": "offer_facts",
+      "field": "record_date",
+      "value": "October 28, 2026",
+      "reason": "value not in quote",
+      "section": "buyback_terms"
+    },
+    {
+      "row": "offer_facts",
+      "field": "payment_date",
+      "value": "November 17, 2026",
+      "reason": "value not in quote",
+      "section": "buyback_terms"
+    }
+  ],
+  "counts": {
+    "promoter_intention": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "buyback_terms": {
+      "proposed": 6,
+      "kept": 4,
+      "rejected": 2,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "buyback_results": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "buyback_acceptance": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    }
+  },
+  "chosen_pages": {
+    "promoter_intention": [
+      {
+        "pdf_index": 6,
+        "printed_page": "6"
+      },
+      {
+        "pdf_index": 7,
+        "printed_page": "7"
+      },
+      {
+        "pdf_index": 22,
+        "printed_page": "22"
+      },
+      {
+        "pdf_index": 23,
+        "printed_page": "23"
+      },
+      {
+        "pdf_index": 39,
+        "printed_page": "39"
+      },
+      {
+        "pdf_index": 40,
+        "printed_page": "40"
+      }
+    ],
+    "buyback_terms": [
+      {
+        "pdf_index": 4,
+        "printed_page": "4"
+      },
+      {
+        "pdf_index": 5,
+        "printed_page": "5"
+      },
+      {
+        "pdf_index": 6,
+        "printed_page": "6"
+      },
+      {
+        "pdf_index": 7,
+        "printed_page": "7"
+      },
+      {
+        "pdf_index": 8,
+        "printed_page": "8"
+      }
+    ],
+    "buyback_results": [],
+    "buyback_acceptance": []
+  },
+  "page_choice": {
+    "promoter_intention": "top pages",
+    "buyback_terms": "top pages"
+  },
+  "completeness": {
+    "promoter_intention": {
+      "status": "not checked",
+      "reason": "no verified printed total for this table"
+    }
+  },
+  "completeness_retries": {},
+  "table_totals": {
+    "promoter_intention": {
+      "table_total_as_printed": null,
+      "evidence": [
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 22,
+          "printed_page": "22",
+          "quote": "the Promoter and Promoter Group and persons in control of the Company, holding Equity Shares of the Company, vide their letter dated October 19, 2026 have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 39,
+          "printed_page": "39",
+          "quote": "The Promoter and members of the Promoter Group do not intend to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Automobile%20Corporation%20of%20Goa%20Limited-%20PA_p.pdf",
+          "field_kept": false
+        }
+      ],
+      "section": "promoter_intention"
+    }
+  }
+}

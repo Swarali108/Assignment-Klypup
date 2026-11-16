@@ -1,0 +1,21 @@
+{
+  "event_id": "empower_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Empower India Ltd.",
+  "documents": [],
+  "records": [
+    "65f2058db7c9edba",
+    "7e5c6affd74c1762",
+    "83e6aff8d12a9dee",
+    "e5755002a32e0e26"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-21",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

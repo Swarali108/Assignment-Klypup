@@ -1,0 +1,420 @@
+{
+  "event_id": "360_one_wam_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_nikunj_kedia",
+      "name_as_printed": "Nikunj Kedia",
+      "fields": {
+        "name": "Nikunj Kedia",
+        "role": "unknown",
+        "why_money": "sold 50,000 shares (Market Sale) on 5 Nov 2026 and 6 Nov 2026",
+        "amount": "₹5.64 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.64 crore (40,000 shares, value as printed ₹4.52 crore (NSE XBRL context Disclosure1); 10,000 shares, value as printed ₹1.12 crore (NSE XBRL context Disclosure1); total ₹5.64 crore)"
+      },
+      "placeholders": {
+        "name": "Nikunj Kedia",
+        "role": "unknown",
+        "amount": "₹5.64 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹5.64 crore",
+        "shares_offered": "50,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Nikunj Kedia is a holder whose role is unknown; proceeds come from selling 50,000 shares in a market sale.",
+        "₹5.64 crore from the sale settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), so the money is already in hand.",
+        "Open with the recent ₹5.64 crore settlement, then ask what they plan to do with the proceeds.",
+        "Role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; proceeds come from selling {shares_offered} in a market sale.",
+            "{amount} from the sale settled {timing}, so the money is already in hand.",
+            "Open with the recent {amount} settlement, then ask what they plan to do with the proceeds.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "Nikunj Kedia is a holder whose role is unknown; proceeds come from selling 50,000 shares in a market sale.",
+            "₹5.64 crore from the sale settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), so the money is already in hand.",
+            "Open with the recent ₹5.64 crore settlement, then ask what they plan to do with the proceeds.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_himanshu_jain",
+      "name_as_printed": "Himanshu Jain",
+      "fields": {
+        "name": "Himanshu Jain",
+        "role": "unknown",
+        "why_money": "sold 25,000 shares (Market Sale) on 4 Nov 2026 and 5 Nov 2026",
+        "amount": "₹2.76 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.76 crore (10,000 shares, value as printed ₹1.09 crore (NSE XBRL context Disclosure4); 15,000 shares, value as printed ₹1.68 crore (NSE XBRL context Disclosure4); total ₹2.76 crore)"
+      },
+      "placeholders": {
+        "name": "Himanshu Jain",
+        "role": "unknown",
+        "amount": "₹2.76 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹2.76 crore",
+        "shares_offered": "25,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Himanshu Jain sold shares in a market sale and is due proceeds from it; role unknown.",
+        "Proceeds of ₹2.76 crore were settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "Ask about the holding context behind the sale, since the sale was in 25,000 shares.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold shares in a market sale and is due proceeds from it; role unknown.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Ask about the holding context behind the sale, since the sale was in {shares_offered}.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "Himanshu Jain sold shares in a market sale and is due proceeds from it; role unknown.",
+            "Proceeds of ₹2.76 crore were settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+            "Ask about the holding context behind the sale, since the sale was in 25,000 shares.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_niraj_murarka",
+      "name_as_printed": "Niraj Murarka",
+      "fields": {
+        "name": "Niraj Murarka",
+        "role": "unknown",
+        "why_money": "sold 13,615 shares (Market Sale) on 5 Nov 2026",
+        "amount": "₹1.53 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.53 crore (13,615 shares, value as printed ₹1.53 crore (NSE XBRL context Disclosure2))"
+      },
+      "placeholders": {
+        "name": "Niraj Murarka",
+        "role": "unknown",
+        "amount": "₹1.53 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹1.53 crore",
+        "shares_offered": "13,615 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Niraj Murarka is a holder whose role is not recorded, receiving money from a share sale.",
+        "₹1.53 crore from 13,615 shares sold, settled 10 days ago at settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "The sale was a market transaction, so this may be a conversation about proceeds already in hand.",
+        "Role is unknown in the data, so confirm the holder's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is not recorded, receiving money from a share sale.",
+            "{amount} from {shares_offered} sold, settled {event_age} at {timing}.",
+            "The sale was a market transaction, so this may be a conversation about proceeds already in hand.",
+            "Role is unknown in the data, so confirm the holder's position before the call."
+          ],
+          "lines": [
+            "Niraj Murarka is a holder whose role is not recorded, receiving money from a share sale.",
+            "₹1.53 crore from 13,615 shares sold, settled 10 days ago at settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+            "The sale was a market transaction, so this may be a conversation about proceeds already in hand.",
+            "Role is unknown in the data, so confirm the holder's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_sanjay_tulsio_wadhwa",
+      "name_as_printed": "SANJAY TULSIO WADHWA",
+      "fields": {
+        "name": "SANJAY TULSIO WADHWA",
+        "role": "Key managerial person",
+        "why_money": "sold 10,000 shares (Market Sale) on 3 Nov 2026",
+        "amount": "₹1.06 crore",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.06 crore (10,000 shares, value as printed ₹1.06 crore (NSE XBRL context Disclosure3))"
+      },
+      "placeholders": {
+        "name": "SANJAY TULSIO WADHWA",
+        "role": "Key managerial person",
+        "amount": "₹1.06 crore",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "proceeds": "₹1.06 crore",
+        "shares_offered": "10,000 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "SANJAY TULSIO WADHWA, a Key managerial person, sold 10,000 shares and has money coming from that sale.",
+        "Proceeds of ₹1.06 crore were settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago), so the money has already settled.",
+        "Open by acknowledging the recent sale and asking how they plan to deploy the ₹1.06 crore proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a {role}, has money coming from selling {shares_offered} on 3 Nov 2026.",
+            "Proceeds of {proceeds} settled {event_age}, with the trade settled T+1 on 4 Nov.",
+            "Open by acknowledging the recent sale and asking how they plan to deploy the {amount} proceeds."
+          ],
+          "lines": [
+            "{name}, a {role}, has money coming from selling {shares_offered} on 3 Nov 2026.",
+            "Proceeds of {proceeds} settled {event_age}, with the trade settled T+1 on 4 Nov.",
+            "Open by acknowledging the recent sale and asking how they plan to deploy the {amount} proceeds."
+          ],
+          "problem": "writes numbers instead of placeholders: 3, 2026, 1, 4"
+        },
+        {
+          "raw_lines": [
+            "{name}, a {role}, sold {shares_offered} and has money coming from that sale.",
+            "Proceeds of {proceeds} were {timing}, so the money has already settled.",
+            "Open by acknowledging the recent sale and asking how they plan to deploy the {amount} proceeds."
+          ],
+          "lines": [
+            "SANJAY TULSIO WADHWA, a Key managerial person, sold 10,000 shares and has money coming from that sale.",
+            "Proceeds of ₹1.06 crore were settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago), so the money has already settled.",
+            "Open by acknowledging the recent sale and asking how they plan to deploy the ₹1.06 crore proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_navin_narmadeshwar_upadhyaya",
+      "name_as_printed": "Navin Narmadeshwar Upadhyaya",
+      "fields": {
+        "name": "Navin Narmadeshwar Upadhyaya",
+        "role": "unknown",
+        "why_money": "sold 8,000 shares (Market Sale) on 5 Nov 2026 and 6 Nov 2026",
+        "amount": "₹90.82 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹90.82 lakh (4,500 shares, value as printed ₹50.98 lakh (NSE XBRL context Disclosure5); 3,500 shares, value as printed ₹39.83 lakh (NSE XBRL context Disclosure2); total ₹90.82 lakh)"
+      },
+      "placeholders": {
+        "name": "Navin Narmadeshwar Upadhyaya",
+        "role": "unknown",
+        "amount": "₹90.82 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹90.82 lakh",
+        "shares_offered": "8,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Navin Narmadeshwar Upadhyaya, role unknown, is due proceeds from selling 8,000 shares in a market sale.",
+        "Proceeds of ₹90.82 lakh were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), arriving well before this call.",
+        "Lead with the sale: the ₹90.82 lakh is in hand and worth discussing reinvestment options with them.",
+        "Role unknown: confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Navin Narmadeshwar Upadhyaya, role unknown, is due proceeds from selling {shares_offered} in a market sale.",
+            "Proceeds of {proceeds} were {timing}, arriving well before this call.",
+            "Lead with the sale: the {amount} is in hand and worth discussing reinvestment options with them.",
+            "Role unknown: confirm their position before the call."
+          ],
+          "lines": [
+            "Navin Narmadeshwar Upadhyaya, role unknown, is due proceeds from selling 8,000 shares in a market sale.",
+            "Proceeds of ₹90.82 lakh were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), arriving well before this call.",
+            "Lead with the sale: the ₹90.82 lakh is in hand and worth discussing reinvestment options with them.",
+            "Role unknown: confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_samrat_bose",
+      "name_as_printed": "Samrat Bose",
+      "fields": {
+        "name": "Samrat Bose",
+        "role": "unknown",
+        "why_money": "sold 3,000 shares (Market Sale) on 5 Nov 2026",
+        "amount": "₹34.13 lakh",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹34.13 lakh (3,000 shares, value as printed ₹34.13 lakh (NSE XBRL context Disclosure3))"
+      },
+      "placeholders": {
+        "name": "Samrat Bose",
+        "role": "unknown",
+        "amount": "₹34.13 lakh",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹34.13 lakh",
+        "shares_offered": "3,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Samrat Bose is a holder whose role is unknown; money is coming from a sale of 3,000 shares on the trade date.",
+        "Proceeds of ₹34.13 lakh settled 10 days ago, so the money is already in hand.",
+        "Open by confirming how the ₹34.13 lakh is being used and whether any reinvestment conversation is wanted.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; money is coming from a sale of {shares_offered} on 5 Nov 2026.",
+            "Proceeds of {proceeds} settled on 6 Nov 2026, so the money is already in hand, {event_age}.",
+            "Open by confirming how the {proceeds} is being used and whether any reinvestment conversation is wanted.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown; money is coming from a sale of {shares_offered} on 5 Nov 2026.",
+            "Proceeds of {proceeds} settled on 6 Nov 2026, so the money is already in hand, {event_age}.",
+            "Open by confirming how the {proceeds} is being used and whether any reinvestment conversation is wanted.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 5, 2026, 6, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; money is coming from a sale of {shares_offered} on the trade date.",
+            "Proceeds of {proceeds} settled {event_age}, so the money is already in hand.",
+            "Open by confirming how the {proceeds} is being used and whether any reinvestment conversation is wanted.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "Samrat Bose is a holder whose role is unknown; money is coming from a sale of 3,000 shares on the trade date.",
+            "Proceeds of ₹34.13 lakh settled 10 days ago, so the money is already in hand.",
+            "Open by confirming how the ₹34.13 lakh is being used and whether any reinvestment conversation is wanted.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_vipul_murji_gala",
+      "name_as_printed": "Vipul Murji Gala",
+      "fields": {
+        "name": "Vipul Murji Gala",
+        "role": "unknown",
+        "why_money": "sold 1,500 shares (Market Sale) on 3 Nov 2026",
+        "amount": "₹15.81 lakh",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹15.81 lakh (1,500 shares, value as printed ₹15.81 lakh (NSE XBRL context Disclosure2))"
+      },
+      "placeholders": {
+        "name": "Vipul Murji Gala",
+        "role": "unknown",
+        "amount": "₹15.81 lakh",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "proceeds": "₹15.81 lakh",
+        "shares_offered": "1,500 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "Vipul Murji Gala is a holder whose role is unknown, receiving money from a share sale.",
+        "₹15.81 lakh from the sale of 1,500 shares, settled settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago).",
+        "Ask about the sale and how Vipul Murji Gala plans to use the proceeds.",
+        "Role is unknown, so confirm their position before discussing further."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "{proceeds} from the sale of {shares_offered}, settled {timing}.",
+            "Ask about the sale and how {name} plans to use the proceeds.",
+            "Role is unknown, so confirm their position before discussing further."
+          ],
+          "lines": [
+            "Vipul Murji Gala is a holder whose role is unknown, receiving money from a share sale.",
+            "₹15.81 lakh from the sale of 1,500 shares, settled settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago).",
+            "Ask about the sale and how Vipul Murji Gala plans to use the proceeds.",
+            "Role is unknown, so confirm their position before discussing further."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_raghuvir_mukherji",
+      "name_as_printed": "RAGHUVIR MUKHERJI",
+      "fields": {
+        "name": "RAGHUVIR MUKHERJI",
+        "role": "unknown",
+        "why_money": "sold 200 shares (Market Sale) on 3 Nov 2026",
+        "amount": "₹2.13 lakh",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.13 lakh (200 shares, value as printed ₹2.13 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "RAGHUVIR MUKHERJI",
+        "role": "unknown",
+        "amount": "₹2.13 lakh",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "proceeds": "₹2.13 lakh",
+        "shares_offered": "200 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "RAGHUVIR MUKHERJI sold 200 shares in a market sale and is due proceeds from that trade.",
+        "Proceeds of ₹2.13 lakh settled settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago), so the money is already in hand.",
+        "Role is unknown, so confirm their position before any conversation about reinvesting the proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a market sale and is due proceeds from that trade.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Role is unknown, so confirm their position before any conversation about reinvesting the proceeds."
+          ],
+          "lines": [
+            "RAGHUVIR MUKHERJI sold 200 shares in a market sale and is due proceeds from that trade.",
+            "Proceeds of ₹2.13 lakh settled settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago), so the money is already in hand.",
+            "Role is unknown, so confirm their position before any conversation about reinvesting the proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

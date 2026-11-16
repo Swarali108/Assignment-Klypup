@@ -1,0 +1,2352 @@
+{
+  "event_id": "orient_technologies_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "216.03",
+    "high": "217.32",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹216.03",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+            "row_ref": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+            "quote": "NSE | ORIENTTECH | HRTI PRIVATE LIMITED | SELL | 3,36,641 shares | price 216.03 | 2026-10-23"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹217.32",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+            "row_ref": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+            "quote": "NSE | ORIENTTECH | QE SECURITIES LLP | SELL | 3,37,913 shares | price 217.32 | 2026-10-23"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "23 Oct 2026",
+    "sale_date_parsed": "2026-10-23",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "28,18,112 shares sold by 6 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 12,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_hrti_private_limited",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "1b2e1cf4254353a3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 336641,
+          "record_ids": [
+            "1b2e1cf4254353a3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+          "quote": "NSE | ORIENTTECH | HRTI PRIVATE LIMITED | SELL | 3,36,641 shares | price 216.03 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1b2e1cf4254353a3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,36,641",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "72724555.23",
+          "rupees_high": "72724555.23",
+          "crore_low": "7.27",
+          "crore_high": "7.27",
+          "display": "₹7.27 crore",
+          "working": "3,36,641 shares × ₹216.03 = ₹7.27 crore (NSE 23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,36,641",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+                  "quote": "NSE | ORIENTTECH | HRTI PRIVATE LIMITED | SELL | 3,36,641 shares | price 216.03 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹216.03",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+                  "quote": "NSE | ORIENTTECH | HRTI PRIVATE LIMITED | SELL | 3,36,641 shares | price 216.03 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · SELL · 336641",
+                  "quote": "NSE | ORIENTTECH | HRTI PRIVATE LIMITED | SELL | 3,36,641 shares | price 216.03 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 3,36,641 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹1.02 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹15.80 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹8.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited_bought",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1d5887ee6818e418"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 338327,
+          "record_ids": [
+            "1d5887ee6818e418"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · BUY · 338327",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · HRTI PRIVATE LIMITED · BUY · 338327",
+          "quote": "NSE | ORIENTTECH | HRTI PRIVATE LIMITED | BUY | 3,38,327 shares | price 214.83 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1d5887ee6818e418",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,38,327 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹3.19 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹1.02 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹15.80 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "emudhra_bulk_deal_2026w43",
+          "company": "eMudhra Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹8.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_j4s_financial_solutions_llp",
+      "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+      "names_as_printed": [
+        "J4S FINANCIAL SOLUTIONS LLP"
+      ],
+      "name_clean": "j4s financial solutions llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c5bb735b0bb6f80c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 698878,
+          "record_ids": [
+            "c5bb735b0bb6f80c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+          "quote": "NSE | ORIENTTECH | J4S FINANCIAL SOLUTIONS LLP | SELL | 6,98,878 shares | price 216.75 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c5bb735b0bb6f80c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,98,878",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "151481806.50",
+          "rupees_high": "151481806.50",
+          "crore_low": "15.15",
+          "crore_high": "15.15",
+          "display": "₹15.15 crore",
+          "working": "6,98,878 shares × ₹216.75 = ₹15.15 crore (NSE 23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,98,878",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+                  "quote": "NSE | ORIENTTECH | J4S FINANCIAL SOLUTIONS LLP | SELL | 6,98,878 shares | price 216.75 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹216.75",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+                  "quote": "NSE | ORIENTTECH | J4S FINANCIAL SOLUTIONS LLP | SELL | 6,98,878 shares | price 216.75 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · SELL · 698878",
+                  "quote": "NSE | ORIENTTECH | J4S FINANCIAL SOLUTIONS LLP | SELL | 6,98,878 shares | price 216.75 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 6,98,878 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹6.58 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹5.31 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹18.46 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_j4s_financial_solutions_llp_bought",
+      "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+      "names_as_printed": [
+        "J4S FINANCIAL SOLUTIONS LLP"
+      ],
+      "name_clean": "j4s financial solutions llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "aa1f5b6149535700"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 698878,
+          "record_ids": [
+            "aa1f5b6149535700"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · BUY · 698878",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · J4S FINANCIAL SOLUTIONS LLP · BUY · 698878",
+          "quote": "NSE | ORIENTTECH | J4S FINANCIAL SOLUTIONS LLP | BUY | 6,98,878 shares | price 216.58 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "aa1f5b6149535700",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,98,878 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹6.58 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹5.31 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "ganesh_consumer_product_l_bulk_deal_2026w43",
+          "company": "Ganesh Consumer Product L",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "₹18.46 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "J4S FINANCIAL SOLUTIONS LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'J4S FINANCIAL SOLUTIONS LLP' / 'J4S FINANCIAL SOLUTIONS LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "9287fcc16b75fdd7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 591432,
+          "record_ids": [
+            "9287fcc16b75fdd7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+          "quote": "NSE | ORIENTTECH | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,91,432 shares | price 216.95 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9287fcc16b75fdd7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,91,432",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "128311172.40",
+          "rupees_high": "128311172.40",
+          "crore_low": "12.83",
+          "crore_high": "12.83",
+          "display": "₹12.83 crore",
+          "working": "5,91,432 shares × ₹216.95 = ₹12.83 crore (NSE 23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,91,432",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+                  "quote": "NSE | ORIENTTECH | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,91,432 shares | price 216.95 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹216.95",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+                  "quote": "NSE | ORIENTTECH | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,91,432 shares | price 216.95 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 591432",
+                  "quote": "NSE | ORIENTTECH | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,91,432 shares | price 216.95 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 5,91,432 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.76 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹14.03 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "kross_bulk_deal_2026w43",
+          "company": "Kross Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.91 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "kross_bulk_deal_2026w43",
+          "company": "Kross Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹35.27 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "026164cb3975ae56"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 592670,
+          "record_ids": [
+            "026164cb3975ae56"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 592670",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 592670",
+          "quote": "NSE | ORIENTTECH | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 5,92,670 shares | price 216.81 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "026164cb3975ae56",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,92,670 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.76 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹14.03 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "kross_bulk_deal_2026w43",
+          "company": "Kross Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.91 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "kross_bulk_deal_2026w43",
+          "company": "Kross Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹35.27 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "67ede7c7d35d55f8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 387484,
+          "record_ids": [
+            "67ede7c7d35d55f8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+          "quote": "NSE | ORIENTTECH | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,87,484 shares | price 216.64 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "67ede7c7d35d55f8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,87,484",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "83944533.76",
+          "rupees_high": "83944533.76",
+          "crore_low": "8.39",
+          "crore_high": "8.39",
+          "display": "₹8.39 crore",
+          "working": "3,87,484 shares × ₹216.64 = ₹8.39 crore (NSE 23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,87,484",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+                  "quote": "NSE | ORIENTTECH | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,87,484 shares | price 216.64 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹216.64",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+                  "quote": "NSE | ORIENTTECH | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,87,484 shares | price 216.64 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · SELL · 387484",
+                  "quote": "NSE | ORIENTTECH | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,87,484 shares | price 216.64 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 3,87,484 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹82.44 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹78.60 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.85 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.58 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹51.28 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "0642b0e2f8481e38"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 387484,
+          "record_ids": [
+            "0642b0e2f8481e38"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · BUY · 387484",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · MICROCURVES TRADING PRIVATE LIMITED · BUY · 387484",
+          "quote": "NSE | ORIENTTECH | MICROCURVES TRADING PRIVATE LIMITED | BUY | 3,87,484 shares | price 216.17 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0642b0e2f8481e38",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,87,484 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹82.44 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹78.60 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.85 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.58 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹51.28 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "justdial_bulk_deal_2026w43",
+          "company": "Justdial Ltd.",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "3dd07be66c3903ed"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 465764,
+          "record_ids": [
+            "3dd07be66c3903ed"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+          "quote": "NSE | ORIENTTECH | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,65,764 shares | price 216.72 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3dd07be66c3903ed",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,65,764",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "100940374.08",
+          "rupees_high": "100940374.08",
+          "crore_low": "10.09",
+          "crore_high": "10.09",
+          "display": "₹10.09 crore",
+          "working": "4,65,764 shares × ₹216.72 = ₹10.09 crore (NSE 23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,65,764",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+                  "quote": "NSE | ORIENTTECH | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,65,764 shares | price 216.72 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹216.72",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+                  "quote": "NSE | ORIENTTECH | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,65,764 shares | price 216.72 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 465764",
+                  "quote": "NSE | ORIENTTECH | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 4,65,764 shares | price 216.72 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 4,65,764 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹30.56 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.11 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "687aac6c94019508"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 465764,
+          "record_ids": [
+            "687aac6c94019508"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 465764",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 465764",
+          "quote": "NSE | ORIENTTECH | NK SECURITIES RESEARCH PRIVATE LIMITED | BUY | 4,65,764 shares | price 216.58 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "687aac6c94019508",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,65,764 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹30.56 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jindal_poly_films_bulk_deal_2026w43",
+          "company": "Jindal Poly Films Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹43.11 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "le_travenues_technology_l_bulk_deal_2026w43",
+          "company": "Le Travenues Technology L",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ea7e7c3e5e7cfbc9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 337913,
+          "record_ids": [
+            "ea7e7c3e5e7cfbc9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+          "quote": "NSE | ORIENTTECH | QE SECURITIES LLP | SELL | 3,37,913 shares | price 217.32 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ea7e7c3e5e7cfbc9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,37,913",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "73435253.16",
+          "rupees_high": "73435253.16",
+          "crore_low": "7.34",
+          "crore_high": "7.34",
+          "display": "₹7.34 crore",
+          "working": "3,37,913 shares × ₹217.32 = ₹7.34 crore (NSE 23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,37,913",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+                  "quote": "NSE | ORIENTTECH | QE SECURITIES LLP | SELL | 3,37,913 shares | price 217.32 | 2026-10-23"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹217.32",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+                  "quote": "NSE | ORIENTTECH | QE SECURITIES LLP | SELL | 3,37,913 shares | price 217.32 | 2026-10-23"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+          "trade_date": "2026-10-23",
+          "settles_on": "2026-10-26",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "23 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+                  "row_ref": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · SELL · 337913",
+                  "quote": "NSE | ORIENTTECH | QE SECURITIES LLP | SELL | 3,37,913 shares | price 217.32 | 2026-10-23"
+                }
+              ]
+            }
+          ],
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 3,37,913 shares in a bulk deal on 23 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "d88afb3e17eb4e79"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-23",
+          "quantity": 337942,
+          "record_ids": [
+            "d88afb3e17eb4e79"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · BUY · 337942",
+          "row_ref": "23-OCT-2026 · ORIENTTECH · QE SECURITIES LLP · BUY · 337942",
+          "quote": "NSE | ORIENTTECH | QE SECURITIES LLP | BUY | 3,37,942 shares | price 216.52 | 2026-10-23",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d88afb3e17eb4e79",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,37,942 shares in a bulk deal on 23 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 12,
+    "by_holder_type": {
+      "entity": 12
+    },
+    "by_confidence": {
+      "high": 12
+    },
+    "sellers": 6,
+    "sellers_unverified": 0,
+    "buyers": 6,
+    "proceeds_computed": 6,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 12
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 12,
+    "follow_on_matches": 108
+  }
+}

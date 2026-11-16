@@ -1,0 +1,42 @@
+{
+  "event_id": "jio_platforms_limited_ipo_202610",
+  "event_type": "ipo",
+  "company": "Jio Platforms Ltd",
+  "documents": [
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+      "doc_type": "prospectus",
+      "note": "Jio Platforms Ltd.- Prospectus",
+      "from_class": "ipo_prospectus"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_ipo",
+      "sebi_prospectus"
+    ],
+    "first_seen": "2026-11-15T07:46:53+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Jio Platforms Ltd.- Prospectus",
+        "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jio-platforms-ltd-prospectus_105427.html",
+        "published": "Oct 26, 2026",
+        "class": "ipo_prospectus"
+      },
+      {
+        "title": "Jio Platforms Limited - Listed on NSE on 2026-10-28 (issue price 1119)",
+        "link": "https://www.nseindia.in/market-data/all-upcoming-issues-ipo#listed-JPL",
+        "published": "2026-10-28",
+        "class": "listing_notice"
+      },
+      {
+        "title": "Jio Platforms Ltd - New Listing",
+        "link": "https://www.bseindia.com/corporates/ann.html#659c138a-4649-4e76-9d50-4ec5d7213e28",
+        "published": "2026-10-28",
+        "class": "listing_notice"
+      }
+    ]
+  }
+}

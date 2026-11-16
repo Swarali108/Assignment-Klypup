@@ -1,0 +1,147 @@
+{
+  "event_id": "krishna_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_mohd_jafar",
+      "name_as_printed": "MOHD JAFAR",
+      "fields": {
+        "name": "MOHD JAFAR",
+        "role": "unknown",
+        "why_money": "sold 2,85,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹1.95 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹1.95 crore (2,85,000 shares × ₹68.33 = ₹1.95 crore (BSE 13/11/2026 · KRISHNA · MOHD  JAFAR · S · 285000))"
+      },
+      "placeholders": {
+        "name": "MOHD JAFAR",
+        "role": "unknown",
+        "amount": "₹1.95 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹1.95 crore",
+        "shares_offered": "2,85,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "MOHD JAFAR sold 2,85,000 shares in a bulk deal, so the money comes from that sale.",
+        "₹1.95 crore from the sale settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is in hand today.",
+        "Role is unknown, so confirm their position before opening the conversation about reinvesting."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the money comes from that sale.",
+            "{proceeds} from the sale settled {timing}, so the money is in hand today.",
+            "Role is unknown, so confirm their position before opening the conversation about reinvesting."
+          ],
+          "lines": [
+            "MOHD JAFAR sold 2,85,000 shares in a bulk deal, so the money comes from that sale.",
+            "₹1.95 crore from the sale settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is in hand today.",
+            "Role is unknown, so confirm their position before opening the conversation about reinvesting."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rinkesh_rajendra_shah",
+      "name_as_printed": "RINKESH RAJENDRA SHAH",
+      "fields": {
+        "name": "RINKESH RAJENDRA SHAH",
+        "role": "unknown",
+        "why_money": "sold 1,40,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹95.65 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹95.65 lakh (1,40,000 shares × ₹68.32 = ₹95.65 lakh (BSE 13/11/2026 · KRISHNA · RINKESH RAJENDRA SHAH · S · 140000))"
+      },
+      "placeholders": {
+        "name": "RINKESH RAJENDRA SHAH",
+        "role": "unknown",
+        "amount": "₹95.65 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹95.65 lakh",
+        "shares_offered": "1,40,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "RINKESH RAJENDRA SHAH is a holder whose role is unknown, receiving money after selling shares in a bulk deal.",
+        "Proceeds of ₹95.65 lakh from 1,40,000 shares settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is already in motion.",
+        "Open with the recent sale and ask what they plan to do with the proceeds.",
+        "Role is unknown, so confirm their position before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money after selling shares in a bulk deal.",
+            "Proceeds of {proceeds} from {shares_offered} settled {timing}, so the money is already in motion.",
+            "Open with the recent sale and ask what they plan to do with the proceeds.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "lines": [
+            "RINKESH RAJENDRA SHAH is a holder whose role is unknown, receiving money after selling shares in a bulk deal.",
+            "Proceeds of ₹95.65 lakh from 1,40,000 shares settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is already in motion.",
+            "Open with the recent sale and ask what they plan to do with the proceeds.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_abhishek_gupta",
+      "name_as_printed": "ABHISHEK GUPTA",
+      "fields": {
+        "name": "ABHISHEK GUPTA",
+        "role": "unknown",
+        "why_money": "sold 73,093 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹49.93 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹49.93 lakh (73,093 shares × ₹68.31 = ₹49.93 lakh (BSE 13/11/2026 · KRISHNA · ABHISHEK GUPTA · S · 73093))"
+      },
+      "placeholders": {
+        "name": "ABHISHEK GUPTA",
+        "role": "unknown",
+        "amount": "₹49.93 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹49.93 lakh",
+        "shares_offered": "73,093 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "ABHISHEK GUPTA sold 73,093 shares in a bulk deal, so the money is coming to them as proceeds.",
+        "₹49.93 lakh from the sale settles settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Role is unknown, so confirm their position in the company before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the money is coming to them as proceeds.",
+            "{proceeds} from the sale settles {timing}.",
+            "Role is unknown, so confirm their position in the company before discussing next steps."
+          ],
+          "lines": [
+            "ABHISHEK GUPTA sold 73,093 shares in a bulk deal, so the money is coming to them as proceeds.",
+            "₹49.93 lakh from the sale settles settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Role is unknown, so confirm their position in the company before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "event_id": "sedemac_ipo",
+  "event_type": "ipo",
+  "documents": [
+    {
+      "url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+      "doc_type": "rhp",
+      "fetched": "yes",
+      "pages": 582,
+      "low_text_pages": [
+        4,
+        306
+      ],
+      "sections_found": {
+        "selling_shareholders": "472",
+        "offer_structure": "pdf 1",
+        "waca": "152",
+        "promoter_holding": "128",
+        "shareholding_pattern": "120",
+        "kmp": "303",
+        "esop": "135",
+        "lock_in": "130",
+        "price": "143"
+      },
+      "sections_missing": [
+        "buyback_entitlement"
+      ]
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/ADV_INE00XB01019_10MAR2026.pdf",
+      "doc_type": "announcement",
+      "fetched": "yes",
+      "pages": 2,
+      "low_text_pages": [],
+      "read_whole": "2 of 2 pages sent to announcement, allotment"
+    }
+  ],
+  "lock_in_wording": {
+    "minimum_promoters_contribution: Minimum Promoters' Contribution": "found on p. 128",
+    "minimum_promoters_contribution: promoter shares above the 20%": "found on p. 128",
+    "pre_offer_capital: pre-Offer capital": "found on p. 129",
+    "ofs_proceeds_at_listing": "found on p. 140"
+  },
+  "seconds": 9.1
+}

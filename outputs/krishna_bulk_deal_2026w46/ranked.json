@@ -1,0 +1,206 @@
+{
+  "event_id": "krishna_bulk_deal_2026w46",
+  "callable": [
+    {
+      "person_id": "p_mohd_jafar",
+      "name_as_printed": "MOHD JAFAR",
+      "name_clean": "mohd jafar",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.95",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.95000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "1.95",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.95000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "1.95",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.95000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 2,85,000 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹1.95 crore",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹1.95 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "score 1.95 = ₹1.95 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_rinkesh_rajendra_shah",
+      "name_as_printed": "RINKESH RAJENDRA SHAH",
+      "name_clean": "rinkesh rajendra shah",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.96",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.96000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "0.96",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.96000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "0.96",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.96000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,40,000 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹95.65 lakh",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹95.65 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "score 0.96 = ₹0.96 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_abhishek_gupta",
+      "name_as_printed": "ABHISHEK GUPTA",
+      "name_clean": "abhishek gupta",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.50",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.50000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "0.50",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.50000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "0.50",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.50000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 73,093 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹49.93 lakh",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹49.93 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "score 0.50 = ₹0.50 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_yuvraj_chandresh_shah_bought",
+      "name_as_printed": "YUVRAJ CHANDRESH SHAH",
+      "name_clean": "yuvraj chandresh shah",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 70,000 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "event_id": "iifl_capital_services_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "354.22",
+    "high": "355.78",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹354.22",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+            "row_ref": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+            "quote": "NSE | IIFLCAPS | ARVESTA FINANCIAL SERVICES PRIVATE LIMITED | SELL | 20,81,589 shares | price 354.22 | 2026-11-13"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹355.78",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+            "row_ref": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+            "quote": "NSE | IIFLCAPS | NEO TREASURY PLUS FUND | SELL | 18,65,000 shares | price 355.78 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "63,15,728 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alpha_alternatives_financial_services_private_limited",
+      "name_as_printed": "ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED"
+      ],
+      "name_clean": "alpha alternatives financial services private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "d546cd754786fe17"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 2369139,
+          "record_ids": [
+            "d546cd754786fe17"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+          "row_ref": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+          "quote": "NSE | IIFLCAPS | ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED | SELL | 23,69,139 shares | price 354.74 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d546cd754786fe17",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "23,69,139",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "840428368.86",
+          "rupees_high": "840428368.86",
+          "crore_low": "84.04",
+          "crore_high": "84.04",
+          "display": "₹84.04 crore",
+          "working": "23,69,139 shares × ₹354.74 = ₹84.04 crore (NSE 13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "23,69,139",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+                  "quote": "NSE | IIFLCAPS | ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED | SELL | 23,69,139 shares | price 354.74 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹354.74",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+                  "quote": "NSE | IIFLCAPS | ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED | SELL | 23,69,139 shares | price 354.74 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2369139",
+                  "quote": "NSE | IIFLCAPS | ALPHA ALTERNATIVES FINANCIAL SERVICES PRIVATE LIMITED | SELL | 23,69,139 shares | price 354.74 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 23,69,139 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_arvesta_financial_services_private_limited",
+      "name_as_printed": "ARVESTA FINANCIAL SERVICES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ARVESTA FINANCIAL SERVICES PRIVATE LIMITED"
+      ],
+      "name_clean": "arvesta financial services private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "319976aa94d0bde6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 2081589,
+          "record_ids": [
+            "319976aa94d0bde6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+          "row_ref": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+          "quote": "NSE | IIFLCAPS | ARVESTA FINANCIAL SERVICES PRIVATE LIMITED | SELL | 20,81,589 shares | price 354.22 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "319976aa94d0bde6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "20,81,589",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "737340455.58",
+          "rupees_high": "737340455.58",
+          "crore_low": "73.73",
+          "crore_high": "73.73",
+          "display": "₹73.73 crore",
+          "working": "20,81,589 shares × ₹354.22 = ₹73.73 crore (NSE 13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "20,81,589",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+                  "quote": "NSE | IIFLCAPS | ARVESTA FINANCIAL SERVICES PRIVATE LIMITED | SELL | 20,81,589 shares | price 354.22 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹354.22",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+                  "quote": "NSE | IIFLCAPS | ARVESTA FINANCIAL SERVICES PRIVATE LIMITED | SELL | 20,81,589 shares | price 354.22 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · ARVESTA FINANCIAL SERVICES PRIVATE LIMITED · SELL · 2081589",
+                  "quote": "NSE | IIFLCAPS | ARVESTA FINANCIAL SERVICES PRIVATE LIMITED | SELL | 20,81,589 shares | price 354.22 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 20,81,589 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_neo_treasury_plus_fund",
+      "name_as_printed": "NEO TREASURY PLUS FUND",
+      "names_as_printed": [
+        "NEO TREASURY PLUS FUND"
+      ],
+      "name_clean": "neo treasury plus fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "3631c0d32c2b4446"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 1865000,
+          "record_ids": [
+            "3631c0d32c2b4446"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+          "row_ref": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+          "quote": "NSE | IIFLCAPS | NEO TREASURY PLUS FUND | SELL | 18,65,000 shares | price 355.78 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3631c0d32c2b4446",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "18,65,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "663529700.00",
+          "rupees_high": "663529700.00",
+          "crore_low": "66.35",
+          "crore_high": "66.35",
+          "display": "₹66.35 crore",
+          "working": "18,65,000 shares × ₹355.78 = ₹66.35 crore (NSE 13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "18,65,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+                  "quote": "NSE | IIFLCAPS | NEO TREASURY PLUS FUND | SELL | 18,65,000 shares | price 355.78 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹355.78",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+                  "quote": "NSE | IIFLCAPS | NEO TREASURY PLUS FUND | SELL | 18,65,000 shares | price 355.78 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+                  "row_ref": "13-NOV-2026 · IIFLCAPS · NEO TREASURY PLUS FUND · SELL · 1865000",
+                  "quote": "NSE | IIFLCAPS | NEO TREASURY PLUS FUND | SELL | 18,65,000 shares | price 355.78 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 18,65,000 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

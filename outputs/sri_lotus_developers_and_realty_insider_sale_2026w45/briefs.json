@@ -1,0 +1,65 @@
+{
+  "event_id": "sri_lotus_developers_and_realty_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_anand_kamalnayan_pandit",
+      "name_as_printed": "Anand Kamalnayan Pandit",
+      "fields": {
+        "name": "Anand Kamalnayan Pandit",
+        "role": "Promoter",
+        "why_money": "sold 2,38,58,955 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹572.96 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹572.96 crore (2,38,58,955 shares, value as printed ₹572.96 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Anand Kamalnayan Pandit",
+        "role": "Promoter",
+        "amount": "₹572.96 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹572.96 crore",
+        "shares_offered": "2,38,58,955 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Anand Kamalnayan Pandit is a Promoter who sold 2,38,58,955 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹572.96 crore settled settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money has already arrived.",
+        "Ask how they plan to use the proceeds and whether they want a conversation about the next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade on 4 Nov 2026.",
+            "Ask how they plan to use the proceeds and whether they want a conversation about the next steps."
+          ],
+          "lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade on 4 Nov 2026.",
+            "Ask how they plan to use the proceeds and whether they want a conversation about the next steps."
+          ],
+          "problem": "writes numbers instead of placeholders: 4, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}, so the money has already arrived.",
+            "Ask how they plan to use the proceeds and whether they want a conversation about the next steps."
+          ],
+          "lines": [
+            "Anand Kamalnayan Pandit is a Promoter who sold 2,38,58,955 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹572.96 crore settled settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money has already arrived.",
+            "Ask how they plan to use the proceeds and whether they want a conversation about the next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

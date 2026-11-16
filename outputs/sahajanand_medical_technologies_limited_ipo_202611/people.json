@@ -1,0 +1,3485 @@
+{
+  "event_id": "sahajanand_medical_technologies_limited_ipo_202611",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "offer_price",
+    "low": "344",
+    "high": "344",
+    "inputs": [
+      {
+        "field": "offer_price",
+        "value": "344",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+            "pdf_index": 1,
+            "printed_page": "",
+            "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+            "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+          }
+        ]
+      }
+    ]
+  },
+  "listing": {
+    "status": "verified",
+    "date_as_printed": "October 23, 2026",
+    "listed_on": "2026-10-23",
+    "past": true,
+    "inputs": [
+      {
+        "field": "listing_date",
+        "value": "October 23, 2026",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+            "pdf_index": 1,
+            "printed_page": "",
+            "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+            "quote": "trading is expected to commence on October 23, 2026."
+          }
+        ]
+      }
+    ],
+    "days_since": 23,
+    "age": "23 days ago"
+  },
+  "allotment": {
+    "status": "verified",
+    "date_as_printed": "October 21, 2026",
+    "allotted_on": "2026-10-21",
+    "inputs": [
+      {
+        "field": "allotment_date",
+        "value": "October 21, 2026",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+            "pdf_index": 2,
+            "printed_page": "",
+            "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+            "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+          }
+        ]
+      }
+    ]
+  },
+  "people": [
+    {
+      "person_id": "p_ashish_kacholia",
+      "name_as_printed": "Ashish Kacholia",
+      "names_as_printed": [
+        "Ashish Kacholia"
+      ],
+      "name_clean": "ashish kacholia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "1,095,890",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "8. Ashish Kacholia 1,095,890 1.08",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "8. Ashish Kacholia 1,095,890 1.08",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "376986160",
+          "rupees_high": "376986160",
+          "crore_low": "37.70",
+          "crore_high": "37.70",
+          "display": "₹37.70 crore (estimate, valued at offer price)",
+          "working": "1,095,890 × ₹344 = ₹37.70 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "1,095,890",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "8. Ashish Kacholia 1,095,890 1.08"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "1095890",
+          "shares_display": "1,095,890 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_bhargav_dhirajlal_kotadia",
+      "name_as_printed": "Bhargav Dhirajlal Kotadia",
+      "names_as_printed": [
+        "Bhargav Dhirajlal Kotadia"
+      ],
+      "name_clean": "bhargav dhirajlal kotadia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoters",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoters"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "5,000",
+      "waca_per_share": "6.00",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Bhargav Dhirajlal Kotadia' and 'Dhirajlal Vallabhbhai Kotadia' share surname 'kotadia', and the middle name 'dhirajlal' of 'Bhargav Dhirajlal Kotadia' is the first name of 'Dhirajlal Vallabhbhai Kotadia'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Bhargav Dhirajlal Kotadia 5,000 6.00",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Bhargav Dhirajlal Kotadia 5,000 6.00",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Bhargav Dhirajlal Kotadia 5,000 6.00",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Bhargav Dhirajlal Kotadia 5,000 6.00",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 120,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "1720000",
+          "rupees_high": "1720000",
+          "crore_low": "0.17",
+          "crore_high": "0.17",
+          "display": "₹0.17 crore (estimate, valued at offer price)",
+          "working": "5,000 × ₹344 = ₹0.17 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "5,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "Bhargav Dhirajlal Kotadia 5,000 6.00"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "5000",
+          "shares_display": "5,000 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "18 months from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of fully diluted post-Offer capital); six months from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 18,
+              "share_of_retained": "unknown",
+              "ends_on": "2028-04-21",
+              "working": "allotment 21 Oct 2026 + 18 months = 21 Apr 2028",
+              "status": "locked_until",
+              "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 6,
+              "share_of_retained": "unknown",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoters",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+                "locked in for a period of 18 months"
+              ],
+              "quotes": [
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”).",
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”)."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+                "locked in for a period of six months"
+              ],
+              "quotes": [
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment.",
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (promoter_holding)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_dhirajkumar_savjibhai_vasoya",
+      "name_as_printed": "Dhirajkumar Savjibhai Vasoya",
+      "names_as_printed": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "name_clean": "dhirajkumar savjibhai vasoya",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Group Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Promoter Group Selling Shareholder",
+        "waca": "Selling Shareholders"
+      },
+      "shares_offered": "2,000,000",
+      "qualifier": "Up to",
+      "shares_held_pre_offer": "4,082,700",
+      "waca_per_share": "0.63",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Dhirajkumar Savjibhai Vasoya Up to 2,000,000",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Promoter Group Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Dhirajkumar Savjibhai Vasoya Up to 2,000,000",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Up to 2,000,000",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "5. Dhirajkumar Savjibhai Vasoya 4,082,700 4.02",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "5. Dhirajkumar Savjibhai Vasoya 4,082,700 4.02",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Dhirajkumar Savjibhai Vasoya@ 4,082,700 0.63",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Dhirajkumar Savjibhai Vasoya@ 4,082,700 0.63",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Selling Shareholders",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "688000000",
+          "rupees_high": "688000000",
+          "crore_low": "68.80",
+          "crore_high": "68.80",
+          "display": "up to ₹68.80 crore, if all offered shares are sold",
+          "working": "2,000,000 × ₹344 = ₹68.80 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "2,000,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Dhirajkumar Savjibhai Vasoya Up to 2,000,000"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "caveats": []
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "686740000.00",
+          "rupees_high": "686740000.00",
+          "crore_low": "68.67",
+          "crore_high": "68.67",
+          "display": "up to ₹68.67 crore, before offer expenses and taxes, if all offered shares are sold",
+          "working": "2,000,000 × (₹344 − ₹0.63) = ₹68.67 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "2,000,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Dhirajkumar Savjibhai Vasoya Up to 2,000,000"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "0.63",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "Dhirajkumar Savjibhai Vasoya@ 4,082,700 0.63"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "716448800",
+          "rupees_high": "716448800",
+          "crore_low": "71.64",
+          "crore_high": "71.64",
+          "display": "₹71.64 crore (estimate, valued at offer price)",
+          "working": "(4,082,700 − 2,000,000) × ₹344 = ₹71.64 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "4,082,700",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "5. Dhirajkumar Savjibhai Vasoya 4,082,700 4.02"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "2,000,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Dhirajkumar Savjibhai Vasoya Up to 2,000,000"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "2082700",
+          "shares_display": "at least 2,082,700 shares, if all offered shares are sold",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "in_hand",
+          "when": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+          "rule": "ofs_proceeds_at_listing",
+          "rule_found": false,
+          "todo": "The offer document may not state the day sellers are paid. Check the Prospectus or Offer Agreement.",
+          "sources": [
+            {
+              "field": "listing_date",
+              "value": "October 23, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "trading is expected to commence on October 23, 2026."
+                }
+              ]
+            }
+          ],
+          "since": "2026-10-23",
+          "days_since": 23
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "six months from the date of Allotment",
+          "periods": [
+            {
+              "label": "pre-Offer capital",
+              "months": 6,
+              "share_of_retained": "all",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Not locked: shares sold in the Offer for Sale; shares held by VCFs, Category I or II AIFs or FVCIs (subject to Regulation 17); shares employees hold under the ESOP schemes. Whether this holder falls in one of these is not checked.",
+          "rule": "pre_offer_capital",
+          "role_used": "Promoter Group Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 121,
+              "printed_page": "116",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=121",
+              "anchors": [
+                "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+                "six months from the date of allotment"
+              ],
+              "quotes": [
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment.",
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_dhirajlal_vallabhbhai_kotadia",
+      "name_as_printed": "Dhirajlal Vallabhbhai Kotadia",
+      "names_as_printed": [
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "name_clean": "dhirajlal vallabhbhai kotadia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoters",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoters"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "Nil",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Bhargav Dhirajlal Kotadia' and 'Dhirajlal Vallabhbhai Kotadia' share surname 'kotadia', and the middle name 'dhirajlal' of 'Bhargav Dhirajlal Kotadia' is the first name of 'Dhirajlal Vallabhbhai Kotadia'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Dhirajlal Vallabhbhai Kotadia Nil NA",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Dhirajlal Vallabhbhai Kotadia Nil NA",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Dhirajlal Vallabhbhai Kotadia Nil NA",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 120,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "pre-offer holding not verified"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "18 months from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of fully diluted post-Offer capital); six months from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 18,
+              "share_of_retained": "unknown",
+              "ends_on": "2028-04-21",
+              "working": "allotment 21 Oct 2026 + 18 months = 21 Apr 2028",
+              "status": "locked_until",
+              "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 6,
+              "share_of_retained": "unknown",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoters",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+                "locked in for a period of 18 months"
+              ],
+              "quotes": [
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”).",
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”)."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+                "locked in for a period of six months"
+              ],
+              "quotes": [
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment.",
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (promoter_holding)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_esop_trust",
+      "name_as_printed": "SMT ESOP Trust",
+      "names_as_printed": [
+        "SMT ESOP Trust"
+      ],
+      "name_clean": "esop trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "3,515,335",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "6. SMT ESOP Trust# 3,515,335 3.46",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "6. SMT ESOP Trust# 3,515,335 3.46",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "1209275240",
+          "rupees_high": "1209275240",
+          "crore_low": "120.93",
+          "crore_high": "120.93",
+          "display": "₹120.93 crore (estimate, valued at offer price)",
+          "working": "3,515,335 × ₹344 = ₹120.93 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "3,515,335",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "6. SMT ESOP Trust# 3,515,335 3.46"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "3515335",
+          "shares_display": "3,515,335 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kotak_pre_ipo_opportunities_fund",
+      "name_as_printed": "Kotak Pre-IPO Opportunities Fund",
+      "names_as_printed": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "name_clean": "kotak pre-ipo opportunities fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": "Investor Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Investor Selling Shareholder",
+        "waca": "Selling Shareholders"
+      },
+      "shares_offered": "1,307,875",
+      "qualifier": "Up to",
+      "shares_held_pre_offer": "6,075,547",
+      "waca_per_share": "262.46",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Kotak Pre-IPO Opportunities Fund Up to 1,307,875",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Investor Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Kotak Pre-IPO Opportunities Fund Up to 1,307,875",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Up to 1,307,875",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "4. Kotak Pre-IPO Opportunities Fund 6,075,547 5.98",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "4. Kotak Pre-IPO Opportunities Fund 6,075,547 5.98",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Kotak Pre IPO Opportunities Fund 6,075,547 262.46",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Kotak Pre IPO Opportunities Fund 6,075,547 262.46",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Selling Shareholders",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "449909000",
+          "rupees_high": "449909000",
+          "crore_low": "44.99",
+          "crore_high": "44.99",
+          "display": "up to ₹44.99 crore, if all offered shares are sold",
+          "working": "1,307,875 × ₹344 = ₹44.99 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "1,307,875",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Kotak Pre-IPO Opportunities Fund Up to 1,307,875"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "caveats": []
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "106644127.50",
+          "rupees_high": "106644127.50",
+          "crore_low": "10.66",
+          "crore_high": "10.66",
+          "display": "up to ₹10.66 crore, before offer expenses and taxes, if all offered shares are sold",
+          "working": "1,307,875 × (₹344 − ₹262.46) = ₹10.66 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "1,307,875",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Kotak Pre-IPO Opportunities Fund Up to 1,307,875"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "262.46",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "Kotak Pre IPO Opportunities Fund 6,075,547 262.46"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "1640079168",
+          "rupees_high": "1640079168",
+          "crore_low": "164.01",
+          "crore_high": "164.01",
+          "display": "₹164.01 crore (estimate, valued at offer price)",
+          "working": "(6,075,547 − 1,307,875) × ₹344 = ₹164.01 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "6,075,547",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "4. Kotak Pre-IPO Opportunities Fund 6,075,547 5.98"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "1,307,875",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Kotak Pre-IPO Opportunities Fund Up to 1,307,875"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "4767672",
+          "shares_display": "at least 4,767,672 shares, if all offered shares are sold",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "in_hand",
+          "when": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+          "rule": "ofs_proceeds_at_listing",
+          "rule_found": false,
+          "todo": "The offer document may not state the day sellers are paid. Check the Prospectus or Offer Agreement.",
+          "sources": [
+            {
+              "field": "listing_date",
+              "value": "October 23, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "trading is expected to commence on October 23, 2026."
+                }
+              ]
+            }
+          ],
+          "since": "2026-10-23",
+          "days_since": 23
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "six months from the date of Allotment",
+          "periods": [
+            {
+              "label": "pre-Offer capital",
+              "months": 6,
+              "share_of_retained": "all",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Not locked: shares sold in the Offer for Sale; shares held by VCFs, Category I or II AIFs or FVCIs (subject to Regulation 17); shares employees hold under the ESOP schemes. Whether this holder falls in one of these is not checked.",
+          "rule": "pre_offer_capital",
+          "role_used": "Investor Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 121,
+              "printed_page": "116",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=121",
+              "anchors": [
+                "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+                "six months from the date of allotment"
+              ],
+              "quotes": [
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment.",
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nhpea_sparkle_holding_b_v",
+      "name_as_printed": "NHPEA Sparkle Holding B.V.",
+      "names_as_printed": [
+        "NHPEA Sparkle Holding B.V."
+      ],
+      "name_clean": "nhpea sparkle holding b.v.",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'holding'",
+      "role_as_printed": "Investor Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Investor Selling Shareholder",
+        "waca": "Selling Shareholders"
+      },
+      "shares_offered": "1,335,178",
+      "qualifier": "Up to",
+      "shares_held_pre_offer": "15,493,088",
+      "waca_per_share": "97.58",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "NHPEA Sparkle Holding B.V. Up to 1,335,178",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Investor Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "NHPEA Sparkle Holding B.V. Up to 1,335,178",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Up to 1,335,178",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "NHPEA Sparkle Holding B.V. 15,493,088 97.58",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "NHPEA Sparkle Holding B.V. 15,493,088 97.58",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Selling Shareholders",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "3. NHPEA Sparkle Holding B.V. 15,493,088 15.24",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "3. NHPEA Sparkle Holding B.V. 15,493,088 15.24",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "459301232",
+          "rupees_high": "459301232",
+          "crore_low": "45.93",
+          "crore_high": "45.93",
+          "display": "up to ₹45.93 crore, if all offered shares are sold",
+          "working": "1,335,178 × ₹344 = ₹45.93 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "1,335,178",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "NHPEA Sparkle Holding B.V. Up to 1,335,178"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "caveats": []
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "329014562.76",
+          "rupees_high": "329014562.76",
+          "crore_low": "32.90",
+          "crore_high": "32.90",
+          "display": "up to ₹32.90 crore, before offer expenses and taxes, if all offered shares are sold",
+          "working": "1,335,178 × (₹344 − ₹97.58) = ₹32.90 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "1,335,178",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "NHPEA Sparkle Holding B.V. Up to 1,335,178"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "97.58",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "NHPEA Sparkle Holding B.V. 15,493,088 97.58"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "4870321040",
+          "rupees_high": "4870321040",
+          "crore_low": "487.03",
+          "crore_high": "487.03",
+          "display": "₹487.03 crore (estimate, valued at offer price)",
+          "working": "(15,493,088 − 1,335,178) × ₹344 = ₹487.03 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "15,493,088",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "3. NHPEA Sparkle Holding B.V. 15,493,088 15.24"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "1,335,178",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "NHPEA Sparkle Holding B.V. Up to 1,335,178"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "14157910",
+          "shares_display": "at least 14,157,910 shares, if all offered shares are sold",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "in_hand",
+          "when": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+          "rule": "ofs_proceeds_at_listing",
+          "rule_found": false,
+          "todo": "The offer document may not state the day sellers are paid. Check the Prospectus or Offer Agreement.",
+          "sources": [
+            {
+              "field": "listing_date",
+              "value": "October 23, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "trading is expected to commence on October 23, 2026."
+                }
+              ]
+            }
+          ],
+          "since": "2026-10-23",
+          "days_since": 23
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "six months from the date of Allotment",
+          "periods": [
+            {
+              "label": "pre-Offer capital",
+              "months": 6,
+              "share_of_retained": "all",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Not locked: shares sold in the Offer for Sale; shares held by VCFs, Category I or II AIFs or FVCIs (subject to Regulation 17); shares employees hold under the ESOP schemes. Whether this holder falls in one of these is not checked.",
+          "rule": "pre_offer_capital",
+          "role_used": "Investor Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 121,
+              "printed_page": "116",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=121",
+              "anchors": [
+                "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+                "six months from the date of allotment"
+              ],
+              "quotes": [
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment.",
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_priyanka_dhirajlal_cohen",
+      "name_as_printed": "Priyanka Dhirajlal Cohen",
+      "names_as_printed": [
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "name_clean": "priyanka dhirajlal cohen",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoters",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoters"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "Nil",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Priyanka Dhirajlal Cohen Nil NA",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Priyanka Dhirajlal Cohen Nil NA",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Priyanka Dhirajlal Cohen Nil NA",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 120,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "pre-offer holding not verified"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "18 months from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of fully diluted post-Offer capital); six months from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 18,
+              "share_of_retained": "unknown",
+              "ends_on": "2028-04-21",
+              "working": "allotment 21 Oct 2026 + 18 months = 21 Apr 2028",
+              "status": "locked_until",
+              "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 6,
+              "share_of_retained": "unknown",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoters",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+                "locked in for a period of 18 months"
+              ],
+              "quotes": [
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”).",
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”)."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+                "locked in for a period of six months"
+              ],
+              "quotes": [
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment.",
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (promoter_holding)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_samara_capital_markets_holding_limited",
+      "name_as_printed": "Samara Capital Markets Holding Limited",
+      "names_as_printed": [
+        "Samara Capital Markets Holding Limited"
+      ],
+      "name_clean": "samara capital markets holding limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'holding'",
+      "role_as_printed": "Investor Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Investor Selling Shareholder",
+        "waca": "Selling Shareholders"
+      },
+      "shares_offered": "6,479,063",
+      "qualifier": "Up to",
+      "shares_held_pre_offer": "30,097,558",
+      "waca_per_share": "46.40",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Samara Capital Markets Holding Limited Up to 6,479,063",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Investor Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Samara Capital Markets Holding Limited Up to 6,479,063",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Up to 6,479,063",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Samara Capital Markets Holding Limited 30,097,558 46.40",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Samara Capital Markets Holding Limited 30,097,558 46.40",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Selling Shareholders",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "2. Samara Capital Markets Holding Limited 30,097,558 29.61",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "2. Samara Capital Markets Holding Limited 30,097,558 29.61",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "2228797672",
+          "rupees_high": "2228797672",
+          "crore_low": "222.88",
+          "crore_high": "222.88",
+          "display": "up to ₹222.88 crore, if all offered shares are sold",
+          "working": "6,479,063 × ₹344 = ₹222.88 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "6,479,063",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Samara Capital Markets Holding Limited Up to 6,479,063"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "caveats": []
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "1928169148.80",
+          "rupees_high": "1928169148.80",
+          "crore_low": "192.82",
+          "crore_high": "192.82",
+          "display": "up to ₹192.82 crore, before offer expenses and taxes, if all offered shares are sold",
+          "working": "6,479,063 × (₹344 − ₹46.40) = ₹192.82 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "6,479,063",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Samara Capital Markets Holding Limited Up to 6,479,063"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "46.40",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "Samara Capital Markets Holding Limited 30,097,558 46.40"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "8124762280",
+          "rupees_high": "8124762280",
+          "crore_low": "812.48",
+          "crore_high": "812.48",
+          "display": "₹812.48 crore (estimate, valued at offer price)",
+          "working": "(30,097,558 − 6,479,063) × ₹344 = ₹812.48 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "30,097,558",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "2. Samara Capital Markets Holding Limited 30,097,558 29.61"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "6,479,063",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Samara Capital Markets Holding Limited Up to 6,479,063"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "23618495",
+          "shares_display": "at least 23,618,495 shares, if all offered shares are sold",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "in_hand",
+          "when": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+          "rule": "ofs_proceeds_at_listing",
+          "rule_found": false,
+          "todo": "The offer document may not state the day sellers are paid. Check the Prospectus or Offer Agreement.",
+          "sources": [
+            {
+              "field": "listing_date",
+              "value": "October 23, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "trading is expected to commence on October 23, 2026."
+                }
+              ]
+            }
+          ],
+          "since": "2026-10-23",
+          "days_since": 23
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "six months from the date of Allotment",
+          "periods": [
+            {
+              "label": "pre-Offer capital",
+              "months": 6,
+              "share_of_retained": "all",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Not locked: shares sold in the Offer for Sale; shares held by VCFs, Category I or II AIFs or FVCIs (subject to Regulation 17); shares employees hold under the ESOP schemes. Whether this holder falls in one of these is not checked.",
+          "rule": "pre_offer_capital",
+          "role_used": "Investor Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 121,
+              "printed_page": "116",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=121",
+              "anchors": [
+                "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+                "six months from the date of allotment"
+              ],
+              "quotes": [
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment.",
+                "The entire pre-Offer Equity Share capital of our Company (including those Equity Shares held by our Promoters in excess of Promoter’s Contribution), shall be locked in for a period of six months from the date of Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_shree_hari_trust",
+      "name_as_printed": "Shree Hari Trust",
+      "names_as_printed": [
+        "Shree Hari Trust"
+      ],
+      "name_clean": "shree hari trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Promoter Selling Shareholder",
+        "waca": "Promoters",
+        "promoter_holding": "Promoters"
+      },
+      "shares_offered": "2,700,000",
+      "qualifier": "Up to",
+      "shares_held_pre_offer": "37,309,589",
+      "waca_per_share": "13.45",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Shree Hari Trust Up to 2,700,000",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Promoter Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Shree Hari Trust Up to 2,700,000",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 475,
+          "printed_page": "470",
+          "quote": "Up to 2,700,000",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Shree Hari Trust# 37,309,589 13.45",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Shree Hari Trust# 37,309,589 13.45",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Shree Hari Trust# 37,309,589 13.45",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 122,
+          "printed_page": "117",
+          "quote": "Shree Hari Trust# 37,309,589 13.45",
+          "citation_corrected": true,
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 120,
+          "printed_page": "117",
+          "quote": "Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "1. Shree Hari Trust# 37,309,589 36.71",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "1. Shree Hari Trust# 37,309,589 36.71",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "928800000",
+          "rupees_high": "928800000",
+          "crore_low": "92.88",
+          "crore_high": "92.88",
+          "display": "up to ₹92.88 crore, if all offered shares are sold",
+          "working": "2,700,000 × ₹344 = ₹92.88 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "2,700,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Shree Hari Trust Up to 2,700,000"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "caveats": []
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "892485000.00",
+          "rupees_high": "892485000.00",
+          "crore_low": "89.25",
+          "crore_high": "89.25",
+          "display": "up to ₹89.25 crore, before offer expenses and taxes, if all offered shares are sold",
+          "working": "2,700,000 × (₹344 − ₹13.45) = ₹89.25 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "2,700,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Shree Hari Trust Up to 2,700,000"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "13.45",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "Shree Hari Trust# 37,309,589 13.45"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "11905698616",
+          "rupees_high": "11905698616",
+          "crore_low": "1190.57",
+          "crore_high": "1190.57",
+          "display": "₹1,190.57 crore (estimate, valued at offer price)",
+          "working": "(37,309,589 − 2,700,000) × ₹344 = ₹1,190.57 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "37,309,589",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 122,
+                  "printed_page": "117",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=122",
+                  "quote": "Shree Hari Trust# 37,309,589 13.45"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "1. Shree Hari Trust# 37,309,589 36.71"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "2,700,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 475,
+                  "printed_page": "470",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=475",
+                  "quote": "Shree Hari Trust Up to 2,700,000"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "34609589",
+          "shares_display": "at least 34,609,589 shares, if all offered shares are sold",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "in_hand",
+          "when": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+          "rule": "ofs_proceeds_at_listing",
+          "rule_found": false,
+          "todo": "The offer document may not state the day sellers are paid. Check the Prospectus or Offer Agreement.",
+          "sources": [
+            {
+              "field": "listing_date",
+              "value": "October 23, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "trading is expected to commence on October 23, 2026."
+                }
+              ]
+            }
+          ],
+          "since": "2026-10-23",
+          "days_since": 23
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "18 months from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of fully diluted post-Offer capital); six months from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 18,
+              "share_of_retained": "unknown",
+              "ends_on": "2028-04-21",
+              "working": "allotment 21 Oct 2026 + 18 months = 21 Apr 2028",
+              "status": "locked_until",
+              "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 6,
+              "share_of_retained": "unknown",
+              "ends_on": "2027-04-21",
+              "working": "allotment 21 Oct 2026 + 6 months = 21 Apr 2027",
+              "status": "locked_until",
+              "display": "promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+                "locked in for a period of 18 months"
+              ],
+              "quotes": [
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”).",
+                "Details of Promoters’ contribution locked in for eighteen months Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post- Offer Equity Share capital of our Company held by our Promoters, except for the Equity Shares offered by Shree Hari Trust pursuant to the Offer for Sale, shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months from the date of Allotment (“Promoter’s Contribution”)."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+              "pdf_index": 120,
+              "printed_page": "115",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=120",
+              "anchors": [
+                "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+                "locked in for a period of six months"
+              ],
+              "quotes": [
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment.",
+                "Our Promoters’ shareholding in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the Allotment."
+              ]
+            },
+            {
+              "field": "allotment_date",
+              "value": "October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=2",
+                  "quote": "The Board of Directors of our Company at its meeting held on October 21, 2026 has taken on record the basis of allotment"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_suresh_kumar_agarwal_sarita_agarwal_on_behalf_of_rba_finance_investment_co",
+      "name_as_printed": "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)",
+      "names_as_printed": [
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "name_clean": "suresh kumar agarwal & sarita agarwal (on behalf of rba finance & investment co.)",
+      "holder_type": "unsure",
+      "holder_type_reason": "no entity marker and 14 words",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "1,095,891",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [
+        "holder type unsure: no entity marker and 14 words"
+      ],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "7. Suresh Kumar Agarwal & Sarita Agarwal (on 1,095,891 1.08 behalf of RBA Finance & Investment Co.)",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 125,
+          "printed_page": "120",
+          "quote": "7. Suresh Kumar Agarwal & Sarita Agarwal (on 1,095,891 1.08 behalf of RBA Finance & Investment Co.)",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "376986504",
+          "rupees_high": "376986504",
+          "crore_low": "37.70",
+          "crore_high": "37.70",
+          "display": "₹37.70 crore (estimate, valued at offer price)",
+          "working": "1,095,891 × ₹344 = ₹37.70 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "1,095,891",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf",
+                  "pdf_index": 125,
+                  "printed_page": "120",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791785603861.pdf#page=125",
+                  "quote": "7. Suresh Kumar Agarwal & Sarita Agarwal (on 1,095,891 1.08 behalf of RBA Finance & Investment Co.)"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "344",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.com/corporate/ADV_INE356Y01018_22OCT2026.pdf#page=1",
+                  "quote": "OFFER PRICE: `344 PER EQUITY SHARE OF FACE VALUE OF `1 EACH"
+                }
+              ]
+            }
+          ],
+          "shares": "1095891",
+          "shares_display": "1,095,891 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "holder type unsure",
+          "holder type unsure: no entity marker and 14 words"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 100.0,
+      "method": "same_tokens",
+      "outcome": "merge"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 100.0,
+      "method": "same_tokens",
+      "outcome": "merge"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "score": 63.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 57.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "SMT ESOP Trust"
+      ],
+      "score": 53.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "score": 52.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajlal Vallabhbhai Kotadia",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 52.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajlal Vallabhbhai Kotadia",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 49.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "NHPEA Sparkle Holding B.V."
+      ],
+      "score": 48.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Priyanka Dhirajlal Cohen",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 41.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Bhargav Dhirajlal Kotadia"
+      ],
+      "score": 41.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "Ashish Kacholia"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Bhargav Dhirajlal Kotadia"
+      ],
+      "score": 39.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 37.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Ashish Kacholia"
+      ],
+      "score": 37.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya@",
+        "Ashish Kacholia"
+      ],
+      "score": 37.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 36.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Dhirajkumar Savjibhai Vasoya"
+      ],
+      "score": 36.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 36.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "score": 35.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "NHPEA Sparkle Holding B.V."
+      ],
+      "score": 35.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Bhargav Dhirajlal Kotadia"
+      ],
+      "score": 34.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 34.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Kotak Pre-IPO Opportunities Fund"
+      ],
+      "score": 34.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Bhargav Dhirajlal Kotadia"
+      ],
+      "score": 32.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 32.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Ashish Kacholia"
+      ],
+      "score": 32.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "NHPEA Sparkle Holding B.V."
+      ],
+      "score": 32.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 32.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajlal Vallabhbhai Kotadia",
+        "Ashish Kacholia"
+      ],
+      "score": 31.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "NHPEA Sparkle Holding B.V."
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Ashish Kacholia"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Priyanka Dhirajlal Cohen",
+        "Ashish Kacholia"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Samara Capital Markets Holding Limited"
+      ],
+      "score": 30.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 30.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "score": 30.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "Ashish Kacholia"
+      ],
+      "score": 30.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 29.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Samara Capital Markets Holding Limited"
+      ],
+      "score": 29.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajlal Vallabhbhai Kotadia",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 29.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "score": 29.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 29.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya@",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 29.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajlal Vallabhbhai Kotadia",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 28.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre IPO Opportunities Fund",
+        "SMT ESOP Trust"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Priyanka Dhirajlal Cohen"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "SMT ESOP Trust"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Priyanka Dhirajlal Cohen",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre IPO Opportunities Fund",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Bhargav Dhirajlal Kotadia"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 26.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "Kotak Pre-IPO Opportunities Fund"
+      ],
+      "score": 26.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya@",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 26.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Dhirajkumar Savjibhai Vasoya@"
+      ],
+      "score": 26.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 26.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre IPO Opportunities Fund",
+        "Ashish Kacholia"
+      ],
+      "score": 25.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kotak Pre-IPO Opportunities Fund",
+        "Ashish Kacholia"
+      ],
+      "score": 25.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Kotak Pre IPO Opportunities Fund"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Kotak Pre-IPO Opportunities Fund"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "NHPEA Sparkle Holding B.V.",
+        "SMT ESOP Trust"
+      ],
+      "score": 23.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Priyanka Dhirajlal Cohen",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 22.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 22.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Shree Hari Trust",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "score": 22.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Samara Capital Markets Holding Limited",
+        "SMT ESOP Trust"
+      ],
+      "score": 20.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)",
+        "Ashish Kacholia"
+      ],
+      "score": 20.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Priyanka Dhirajlal Cohen",
+        "SMT ESOP Trust"
+      ],
+      "score": 17.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Bhargav Dhirajlal Kotadia",
+        "SMT ESOP Trust"
+      ],
+      "score": 17.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "SMT ESOP Trust",
+        "Ashish Kacholia"
+      ],
+      "score": 16.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya",
+        "SMT ESOP Trust"
+      ],
+      "score": 15.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajkumar Savjibhai Vasoya@",
+        "SMT ESOP Trust"
+      ],
+      "score": 15.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "SMT ESOP Trust",
+        "Suresh Kumar Agarwal & Sarita Agarwal (on behalf of RBA Finance & Investment Co.)"
+      ],
+      "score": 15.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dhirajlal Vallabhbhai Kotadia",
+        "SMT ESOP Trust"
+      ],
+      "score": 10.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "Bhargav Dhirajlal Kotadia",
+        "Dhirajlal Vallabhbhai Kotadia"
+      ],
+      "reasons": [
+        "'Bhargav Dhirajlal Kotadia' and 'Dhirajlal Vallabhbhai Kotadia' share surname 'kotadia', and the middle name 'dhirajlal' of 'Bhargav Dhirajlal Kotadia' is the first name of 'Dhirajlal Vallabhbhai Kotadia'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 11,
+    "by_holder_type": {
+      "entity": 5,
+      "person": 5,
+      "unsure": 1
+    },
+    "by_confidence": {
+      "high": 1,
+      "low": 1,
+      "medium": 9
+    },
+    "sellers": 5,
+    "sellers_unverified": 0,
+    "proceeds_computed": 5,
+    "gain_computed": 5,
+    "retained_valued": 9,
+    "retained_timing": {
+      "locked_in": 8,
+      "unknown": 3
+    },
+    "identity_decisions": {
+      "below_threshold": 75,
+      "different_first_name": 1,
+      "same_tokens": 2
+    },
+    "identity_merges": 2,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 1,
+    "index_lookups": 11,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "event_id": "r_k_fashion_accessories_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ashmit_kabra",
+      "name_as_printed": "ASHMIT KABRA",
+      "fields": {
+        "name": "ASHMIT KABRA",
+        "role": "unknown",
+        "why_money": "sold 1,20,000 shares in a bulk deal on 5 Nov 2026",
+        "amount": "₹37.20 lakh",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹37.20 lakh (1,20,000 shares × ₹31 = ₹37.20 lakh (NSE 05-NOV-2026 · RKFAL · ASHMIT KABRA · SELL · 120000))"
+      },
+      "placeholders": {
+        "name": "ASHMIT KABRA",
+        "role": "unknown",
+        "amount": "₹37.20 lakh",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹37.20 lakh",
+        "shares_offered": "1,20,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "ASHMIT KABRA, role unknown, sold shares in a bulk deal, so proceeds are coming to them.",
+        "₹37.20 lakh from 1,20,000 shares, settled settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "They sold in a bulk deal, so the sale was recent; ask whether they want to discuss reinvesting the proceeds.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "ASHMIT KABRA, role unknown, sold shares in a bulk deal, so proceeds are coming to them.",
+            "{amount} from {shares_offered}, settled {timing}.",
+            "They sold in a bulk deal, so the sale was recent; ask whether they want to discuss reinvesting the proceeds.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "ASHMIT KABRA, role unknown, sold shares in a bulk deal, so proceeds are coming to them.",
+            "₹37.20 lakh from 1,20,000 shares, settled settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+            "They sold in a bulk deal, so the sale was recent; ask whether they want to discuss reinvesting the proceeds.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

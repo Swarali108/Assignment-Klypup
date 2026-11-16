@@ -1,0 +1,48 @@
+{
+  "run_id": "auto-genus_power_infrastructures_limited_buyback_202610-20261116T010804Z",
+  "total_s": 0.5836828339379281,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.203131917049177,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.17335137503687292,
+      "calls": 4,
+      "cached": 4,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.06303345807828009,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.03585391701199114,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.03535033401567489,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "report",
+      "seconds": 0.04223316605202854,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

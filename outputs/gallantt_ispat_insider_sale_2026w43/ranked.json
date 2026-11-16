@@ -1,0 +1,62 @@
+{
+  "event_id": "gallantt_ispat_insider_sale_2026w43",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_gallantt_industry_private_limited",
+      "name_as_printed": "Gallantt Industry Private Limited",
+      "name_clean": "gallantt industry private limited",
+      "holder_type": "entity",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash due, date not confirmed",
+      "amount_known": true,
+      "money_now_crore": "149.84",
+      "confidence": "low",
+      "confidence_weight": "0.4",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "14.984000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 25,
+        "label": "proceeds, timing unknown",
+        "money_crore": "149.84",
+        "timing_status": "unknown",
+        "timing_weight": "0.25",
+        "recency_weight": "1.0",
+        "score": "14.984000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 25,
+          "label": "proceeds, timing unknown",
+          "money_crore": "149.84",
+          "timing_status": "unknown",
+          "timing_weight": "0.25",
+          "recency_weight": "1.0",
+          "score": "14.984000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 26,51,975 shares (Block Deal) on 22 Oct 2026",
+      "amount_display": "₹149.84 crore",
+      "timing_display": "unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash due, date not confirmed: ₹149.84 crore; unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 14.98 = ₹149.84 crore (proceeds, timing unknown) × 0.4 (low confidence) × 0.25 (timing unknown) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

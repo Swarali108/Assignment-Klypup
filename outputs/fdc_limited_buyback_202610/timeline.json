@@ -1,0 +1,48 @@
+{
+  "run_id": "fdc_limited_buyback_202610-20261115T135547Z",
+  "total_s": 19.370578874950297,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.032979417010210454,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 10.397756999998819,
+      "calls": 3,
+      "cached": 2,
+      "cost_usd": 0.004562
+    },
+    {
+      "step": "people",
+      "seconds": 0.0059846670483238995,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0034669999731704593,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 8.903225250018295,
+      "calls": 4,
+      "cached": 0,
+      "cost_usd": 0.000725
+    },
+    {
+      "step": "report",
+      "seconds": 0.00768108299234882,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

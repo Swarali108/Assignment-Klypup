@@ -1,0 +1,48 @@
+{
+  "run_id": "spacenet_ofs-20261115T135434Z",
+  "total_s": 7.733708415995352,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.018407041032332927,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.1831351249711588,
+      "calls": 2,
+      "cached": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.007167333038523793,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0034038330195471644,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 7.494062500016298,
+      "calls": 4,
+      "cached": 0,
+      "cost_usd": 0.000761
+    },
+    {
+      "step": "report",
+      "seconds": 0.007303709047846496,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

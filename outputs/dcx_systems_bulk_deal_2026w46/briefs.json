@@ -1,0 +1,56 @@
+{
+  "event_id": "dcx_systems_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_krish_natvarbhai_patel",
+      "name_as_printed": "KRISH NATVARBHAI PATEL",
+      "fields": {
+        "name": "KRISH NATVARBHAI PATEL",
+        "role": "unknown",
+        "why_money": "sold 7,10,416 shares in a bulk deal on 12 Nov 2026",
+        "amount": "₹11.40 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹11.40 crore (7,10,416 shares × ₹160.51 = ₹11.40 crore (NSE 12-NOV-2026 · DCXINDIA · KRISH NATVARBHAI PATEL · SELL · 710416))",
+        "family_link": "'KRISH NATVARBHAI PATEL' and 'KRISH NATVARBHAI PATEL' share surname 'patel' and middle name 'natvarbhai'"
+      },
+      "placeholders": {
+        "name": "KRISH NATVARBHAI PATEL",
+        "role": "unknown",
+        "amount": "₹11.40 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹11.40 crore",
+        "shares_offered": "7,10,416 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "KRISH NATVARBHAI PATEL sold 7,10,416 shares in a bulk deal, so the money is coming to them as a seller.",
+        "Proceeds of ₹11.40 crore were settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), with the trade settled 3 days ago.",
+        "A family link appears with another holder sharing the surname Patel and middle name Natvarbhai; confirm the relationship before raising it.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the money is coming to them as a seller.",
+            "Proceeds of {proceeds} were {timing}, with the trade settled {event_age}.",
+            "A family link appears with another holder sharing the surname Patel and middle name Natvarbhai; confirm the relationship before raising it.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "KRISH NATVARBHAI PATEL sold 7,10,416 shares in a bulk deal, so the money is coming to them as a seller.",
+            "Proceeds of ₹11.40 crore were settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), with the trade settled 3 days ago.",
+            "A family link appears with another holder sharing the surname Patel and middle name Natvarbhai; confirm the relationship before raising it.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

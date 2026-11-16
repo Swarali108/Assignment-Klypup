@@ -1,0 +1,633 @@
+{
+  "event_id": "maxwell_engineering_sol_l_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "276.06",
+    "high": "300.21",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹276.06",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+            "row_ref": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+            "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 85,600 shares | price 276.06 | 2026-11-13"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹300.21",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+            "row_ref": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+            "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 30,400 shares | price 300.21 | 2026-11-11"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "11 Nov 2026 to 13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,16,000 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_kedia_shares_stocks_brokers_bought",
+      "name_as_printed": "KEDIA SHARES & STOCKS BROKERS",
+      "names_as_printed": [
+        "KEDIA SHARES & STOCKS BROKERS"
+      ],
+      "name_clean": "kedia shares & stocks brokers",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'stocks' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "2fee4dcba3eef8e8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 97600,
+          "record_ids": [
+            "2fee4dcba3eef8e8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · MAXENGS · KEDIA SHARES & STOCKS BROKERS · BUY · 97600",
+          "row_ref": "11-NOV-2026 · MAXENGS · KEDIA SHARES & STOCKS BROKERS · BUY · 97600",
+          "quote": "NSE | MAXENGS | KEDIA SHARES & STOCKS BROKERS | BUY | 97,600 shares | price 301.77 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2fee4dcba3eef8e8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 97,600 shares in a bulk deal on 11 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "NEO APEX SHARE BROKING SERVICES LLP"
+      ],
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "15406abd578a513d",
+        "0ea6844c3886f4fb"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 30400,
+          "record_ids": [
+            "15406abd578a513d"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 85600,
+          "record_ids": [
+            "0ea6844c3886f4fb"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+          "row_ref": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+          "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 30,400 shares | price 300.21 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "15406abd578a513d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+          "row_ref": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+          "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 85,600 shares | price 276.06 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0ea6844c3886f4fb",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,16,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "32757120.00",
+          "rupees_high": "32757120.00",
+          "crore_low": "3.28",
+          "crore_high": "3.28",
+          "display": "₹3.28 crore",
+          "working": "30,400 shares × ₹300.21 = ₹91.26 lakh (NSE 11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400); 85,600 shares × ₹276.06 = ₹2.36 crore (NSE 13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600); total ₹3.28 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "30,400",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+                  "row_ref": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+                  "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 30,400 shares | price 300.21 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹300.21",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+                  "row_ref": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 30400",
+                  "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 30,400 shares | price 300.21 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "85,600",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+                  "row_ref": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+                  "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 85,600 shares | price 276.06 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹276.06",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+                  "row_ref": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+                  "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 85,600 shares | price 276.06 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+                  "row_ref": "13-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · SELL · 85600",
+                  "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | SELL | 85,600 shares | price 276.06 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 1,16,000 shares in bulk deals on 11 Nov 2026 and 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹1.36 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹97.34 lakh",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹26.33 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹47.72 lakh",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "r_k_fashion_accessories_l_bulk_deal_2026w44",
+          "company": "R K Fashion Accessories L",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹66.40 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "r_k_fashion_accessories_l_bulk_deal_2026w44",
+          "company": "R K Fashion Accessories L",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp_bought",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "NEO APEX SHARE BROKING SERVICES LLP"
+      ],
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "148570f103f9b543"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 175200,
+          "record_ids": [
+            "148570f103f9b543"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · BUY · 175200",
+          "row_ref": "11-NOV-2026 · MAXENGS · NEO APEX SHARE BROKING SERVICES LLP · BUY · 175200",
+          "quote": "NSE | MAXENGS | NEO APEX SHARE BROKING SERVICES LLP | BUY | 1,75,200 shares | price 298.75 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "148570f103f9b543",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,75,200 shares in a bulk deal on 11 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹1.36 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹97.34 lakh",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹26.33 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹47.72 lakh",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "r_k_fashion_accessories_l_bulk_deal_2026w44",
+          "company": "R K Fashion Accessories L",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹66.40 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "r_k_fashion_accessories_l_bulk_deal_2026w44",
+          "company": "R K Fashion Accessories L",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 20
+  }
+}

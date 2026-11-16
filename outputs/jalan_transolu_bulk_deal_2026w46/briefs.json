@@ -1,0 +1,55 @@
+{
+  "event_id": "jalan_transolu_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_shashank_bahad",
+      "name_as_printed": "SHASHANK BAHAD",
+      "fields": {
+        "name": "SHASHANK BAHAD",
+        "role": "unknown",
+        "why_money": "sold 75,000 shares in a bulk deal on 9 Nov 2026",
+        "amount": "₹1.05 lakh",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.05 lakh (75,000 shares × ₹1.4 = ₹1.05 lakh (NSE 09-NOV-2026 · JALAN · SHASHANK BAHAD · SELL · 75000))"
+      },
+      "placeholders": {
+        "name": "SHASHANK BAHAD",
+        "role": "unknown",
+        "amount": "₹1.05 lakh",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹1.05 lakh",
+        "shares_offered": "75,000 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "SHASHANK BAHAD, role unknown, is receiving money from selling shares in a bulk deal.",
+        "They receive ₹1.05 lakh from selling 75,000 shares, settled 6 days ago.",
+        "Ask whether they plan to redeploy these proceeds, since the sale was recent.",
+        "Role is unknown, so confirm their position before discussing further."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "SHASHANK BAHAD, role unknown, is receiving money from selling shares in a bulk deal.",
+            "They receive {proceeds} from selling {shares_offered}, settled {event_age}.",
+            "Ask whether they plan to redeploy these proceeds, since the sale was recent.",
+            "Role is unknown, so confirm their position before discussing further."
+          ],
+          "lines": [
+            "SHASHANK BAHAD, role unknown, is receiving money from selling shares in a bulk deal.",
+            "They receive ₹1.05 lakh from selling 75,000 shares, settled 6 days ago.",
+            "Ask whether they plan to redeploy these proceeds, since the sale was recent.",
+            "Role is unknown, so confirm their position before discussing further."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

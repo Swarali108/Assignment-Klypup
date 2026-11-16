@@ -1,0 +1,27 @@
+{
+  "event_id": "swiggy_block_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Swiggy Limited",
+  "documents": [],
+  "records": [
+    "0167e812bed9c43b",
+    "1ed82a5a55b40800",
+    "539283bab8e90096",
+    "6c3e758f295d3da8",
+    "79c85dd89248d27f",
+    "a1cc002a980c391d",
+    "a5f60bd7deb50716",
+    "a94ed1b45e21e330",
+    "c6db6e24298be3c8",
+    "f9dec85e767ed08a"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-30",
+  "discovery": {
+    "sources": [
+      "nse_block_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

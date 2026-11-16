@@ -1,0 +1,65 @@
+{
+  "event_id": "kapston_services_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_srikanth_kodali",
+      "name_as_printed": "SRIKANTH KODALI",
+      "fields": {
+        "name": "SRIKANTH KODALI",
+        "role": "Promoter",
+        "why_money": "sold 1,00,000 shares (Market Sale) on 29 Oct 2026",
+        "amount": "₹4.99 crore",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.99 crore (1,00,000 shares, value as printed ₹4.99 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "SRIKANTH KODALI",
+        "role": "Promoter",
+        "amount": "₹4.99 crore",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹4.99 crore",
+        "shares_offered": "1,00,000 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "SRIKANTH KODALI, a Promoter, is receiving money from selling 1,00,000 shares in a market sale.",
+        "Proceeds of ₹4.99 crore arrived settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), a sale that happened 17 days ago.",
+        "Ask whether they plan to reinvest the proceeds, since the sale settled 17 days ago and funds are now available."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a Promoter, is receiving money from selling 1,00,000 shares in a market sale.",
+            "Proceeds of {proceeds} settled {event_age}, with the trade executed on 29 Oct 2026.",
+            "Ask whether they plan to reinvest the proceeds, since the sale settled {event_age} and funds are now available."
+          ],
+          "lines": [
+            "{name}, a Promoter, is receiving money from selling 1,00,000 shares in a market sale.",
+            "Proceeds of {proceeds} settled {event_age}, with the trade executed on 29 Oct 2026.",
+            "Ask whether they plan to reinvest the proceeds, since the sale settled {event_age} and funds are now available."
+          ],
+          "problem": "writes numbers instead of placeholders: 1,00,000, 29, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving money from selling {shares_offered} in a market sale.",
+            "Proceeds of {proceeds} arrived {timing}, a sale that happened {event_age}.",
+            "Ask whether they plan to reinvest the proceeds, since the sale settled {event_age} and funds are now available."
+          ],
+          "lines": [
+            "SRIKANTH KODALI, a Promoter, is receiving money from selling 1,00,000 shares in a market sale.",
+            "Proceeds of ₹4.99 crore arrived settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), a sale that happened 17 days ago.",
+            "Ask whether they plan to reinvest the proceeds, since the sale settled 17 days ago and funds are now available."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

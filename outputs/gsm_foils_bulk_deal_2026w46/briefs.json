@@ -1,0 +1,52 @@
+{
+  "event_id": "gsm_foils_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_jayesh_mannar",
+      "name_as_printed": "JAYESH MANNAR",
+      "fields": {
+        "name": "JAYESH MANNAR",
+        "role": "unknown",
+        "why_money": "sold 73,500 shares in a bulk deal on 9 Nov 2026",
+        "amount": "₹41.97 lakh",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹41.97 lakh (73,500 shares × ₹57.1 = ₹41.97 lakh (NSE 09-NOV-2026 · GSMFOILS · JAYESH MANNAR · SELL · 73500))"
+      },
+      "placeholders": {
+        "name": "JAYESH MANNAR",
+        "role": "unknown",
+        "amount": "₹41.97 lakh",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹41.97 lakh",
+        "shares_offered": "73,500 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "JAYESH MANNAR sold 73,500 shares in a bulk deal, so the proceeds are coming to them.",
+        "₹41.97 lakh was settled 6 days ago, with proceeds from the settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago) sale.",
+        "Ask how they plan to use these funds, since the ₹41.97 lakh sits in hand now."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so the proceeds are coming to them.",
+            "{amount} was settled {event_age}, with proceeds from the {timing} sale.",
+            "Ask how they plan to use these funds, since the {amount} sits in hand now."
+          ],
+          "lines": [
+            "JAYESH MANNAR sold 73,500 shares in a bulk deal, so the proceeds are coming to them.",
+            "₹41.97 lakh was settled 6 days ago, with proceeds from the settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago) sale.",
+            "Ask how they plan to use these funds, since the ₹41.97 lakh sits in hand now."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

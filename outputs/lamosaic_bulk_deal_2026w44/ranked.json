@@ -1,0 +1,154 @@
+{
+  "event_id": "lamosaic_bulk_deal_2026w44",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_kesar_tracom_india_llp",
+      "name_as_printed": "KESAR TRACOM INDIA LLP",
+      "name_clean": "kesar tracom india llp",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.85",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.85000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 17,
+        "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "money_crore": "0.85",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.85000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 17,
+          "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "money_crore": "0.85",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.85000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,71,000 shares in a bulk deal on 29 Oct 2026",
+      "amount_display": "₹84.64 lakh",
+      "timing_display": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹84.64 lakh; settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.85 = ₹0.85 crore (proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_kuber_equity_services_llp",
+      "name_as_printed": "KUBER EQUITY SERVICES LLP",
+      "name_clean": "kuber equity services llp",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.77",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.77000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 18,
+        "label": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "money_crore": "0.77",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.77000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 18,
+          "label": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "money_crore": "0.77",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.77000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,58,400 shares in a bulk deal on 28 Oct 2026",
+      "amount_display": "₹77.46 lakh",
+      "timing_display": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹77.46 lakh; settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.77 = ₹0.77 crore (proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "person_id": "p_nopea_capital_services_private_limited_bought",
+      "name_as_printed": "NOPEA CAPITAL SERVICES PRIVATE LIMITED",
+      "name_clean": "nopea capital services private limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 4,06,200 shares in bulk deals on 28 Oct 2026 and 29 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

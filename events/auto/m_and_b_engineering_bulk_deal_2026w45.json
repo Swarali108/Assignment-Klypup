@@ -1,0 +1,23 @@
+{
+  "event_id": "m_and_b_engineering_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "M and B Engineering Ltd",
+  "documents": [],
+  "records": [
+    "094a9c8777011fff",
+    "42d9b3e54ba488d1",
+    "624debddbe182180",
+    "8ce9652c3f9ad99e",
+    "9d19bf84b5e060fc",
+    "fa1a27c7c1a575b9"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-05",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

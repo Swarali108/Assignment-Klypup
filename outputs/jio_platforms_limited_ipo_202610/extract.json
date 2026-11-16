@@ -1,0 +1,459 @@
+{
+  "event_id": "jio_platforms_limited_ipo_202610",
+  "rows": [
+    {
+      "name_as_printed": "Reliance Industries Limited",
+      "role_as_printed": null,
+      "shares_offered": null,
+      "shares_held_pre_offer": "5,937,841,645",
+      "waca_per_share": "89.58",
+      "qualifier": null,
+      "amount_as_printed": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "117",
+          "quote": "Reliance Industries Limited",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "117",
+          "quote": "89.58",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 111,
+          "printed_page": "111",
+          "quote": "(i) Reliance Industries Limited 5,937,841,645 66.43",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 111,
+          "printed_page": "111",
+          "quote": "(i) Reliance Industries Limited 5,937,841,645 66.43",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 110,
+          "printed_page": "110",
+          "quote": "(A) Promoter 1 5,937,841,645",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": false
+        }
+      ],
+      "name_clean": "reliance industries limited",
+      "role_by_section": {},
+      "conflicts": {}
+    }
+  ],
+  "unattributed": [],
+  "offer_facts": {
+    "fresh_issue_size": "270,000,000 Equity Shares",
+    "ofs_size": null,
+    "price_band_low": null,
+    "price_band_high": null,
+    "offer_price": "₹1,119",
+    "face_value": "₹10",
+    "listing_date": null,
+    "allotment_date": null,
+    "listing_date_scheduled": "On or about Wednesday, October 28, 2026",
+    "evidence": [
+      {
+        "field": "fresh_issue_size",
+        "pdf_index": 1,
+        "printed_page": "",
+        "quote": "270,000,000 Equity Shares^*",
+        "section": "offer_structure",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "face_value",
+        "pdf_index": 527,
+        "printed_page": "527",
+        "quote": "The face value of each Equity Share is ₹10.",
+        "section": "offer_structure",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "offer_price",
+        "pdf_index": 527,
+        "printed_page": "527",
+        "quote": "The Issue Price is ₹1,119 per Equity Share.",
+        "section": "price",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "face_value",
+        "pdf_index": 527,
+        "printed_page": "527",
+        "quote": "The face value of each Equity Share is ₹10.",
+        "section": "price",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "field_kept": true
+      },
+      {
+        "field": "listing_date_scheduled",
+        "pdf_index": 529,
+        "printed_page": "529",
+        "quote": "COMMENCEMENT OF TRADING OF THE EQUITY On or about Wednesday, October 28, 2026",
+        "section": "timetable",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "field_kept": true
+      }
+    ],
+    "conflicts": {},
+    "notes": [
+      {
+        "kind": "employee_discount",
+        "quote": "For details in relation ₹1,109* per Equity ₹301,876 million^* to share allocation and reservation among QIBs, NIIs, Share) aggregating to RIIs, Eligible Employees and Eligible RIL Shareholders, ₹301,876 million^* see “Issue Structure” on page 534. ^Subject to finalisation of Basis of Allotment. *Includes 4,694,835 Equity Shares of face value ₹10 each that are allocated to Eligible Employees Biddin",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "pdf_index": 1,
+        "printed_page": null
+      },
+      {
+        "kind": "employee_discount",
+        "quote": "The Company, in consultation with the BRLMs, offered a discount of ₹54 per Equity Share of face value of ₹10 each to Eligible Employees bidding in the Employee Reservation Portion.",
+        "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+        "pdf_index": 527,
+        "printed_page": "527"
+      }
+    ]
+  },
+  "rejections": [
+    {
+      "row": "Reliance Industries Limited",
+      "field": "role_as_printed",
+      "value": "Promoter & Promoter Group",
+      "reason": "value not in quote",
+      "section": "shareholding_pattern"
+    }
+  ],
+  "counts": {
+    "selling_shareholders": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "seller_amounts": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "waca": {
+      "proposed": 2,
+      "kept": 2,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "promoter_holding": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "shareholding_pattern": {
+      "proposed": 3,
+      "kept": 2,
+      "rejected": 1,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "offer_structure": {
+      "proposed": 2,
+      "kept": 2,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "price": {
+      "proposed": 2,
+      "kept": 2,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "timetable": {
+      "proposed": 1,
+      "kept": 1,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "announcement": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "allotment": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    }
+  },
+  "chosen_pages": {
+    "selling_shareholders": [],
+    "seller_amounts": [],
+    "waca": [
+      {
+        "pdf_index": 116,
+        "printed_page": "116"
+      },
+      {
+        "pdf_index": 117,
+        "printed_page": "117"
+      },
+      {
+        "pdf_index": 118,
+        "printed_page": "118"
+      },
+      {
+        "pdf_index": 142,
+        "printed_page": "142"
+      },
+      {
+        "pdf_index": 143,
+        "printed_page": "143"
+      }
+    ],
+    "promoter_holding": [],
+    "shareholding_pattern": [
+      {
+        "pdf_index": 110,
+        "printed_page": "110"
+      },
+      {
+        "pdf_index": 111,
+        "printed_page": "111"
+      },
+      {
+        "pdf_index": 262,
+        "printed_page": "262"
+      },
+      {
+        "pdf_index": 263,
+        "printed_page": "263"
+      },
+      {
+        "pdf_index": 319,
+        "printed_page": "319"
+      },
+      {
+        "pdf_index": 320,
+        "printed_page": "320"
+      }
+    ],
+    "offer_structure": [
+      {
+        "pdf_index": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_index": 2,
+        "printed_page": null
+      },
+      {
+        "pdf_index": 527,
+        "printed_page": "527"
+      },
+      {
+        "pdf_index": 528,
+        "printed_page": "528"
+      },
+      {
+        "pdf_index": 559,
+        "printed_page": "559"
+      },
+      {
+        "pdf_index": 560,
+        "printed_page": "560"
+      }
+    ],
+    "price": [
+      {
+        "pdf_index": 129,
+        "printed_page": "129"
+      },
+      {
+        "pdf_index": 130,
+        "printed_page": "130"
+      },
+      {
+        "pdf_index": 142,
+        "printed_page": "142"
+      },
+      {
+        "pdf_index": 143,
+        "printed_page": "143"
+      },
+      {
+        "pdf_index": 527,
+        "printed_page": "527"
+      },
+      {
+        "pdf_index": 528,
+        "printed_page": "528"
+      }
+    ],
+    "timetable": [
+      {
+        "pdf_index": 259,
+        "printed_page": "259"
+      },
+      {
+        "pdf_index": 260,
+        "printed_page": "260"
+      },
+      {
+        "pdf_index": 261,
+        "printed_page": "261"
+      },
+      {
+        "pdf_index": 529,
+        "printed_page": "529"
+      },
+      {
+        "pdf_index": 530,
+        "printed_page": "530"
+      }
+    ],
+    "announcement": [],
+    "allotment": []
+  },
+  "page_choice": {
+    "selling_shareholders": "top pages",
+    "seller_amounts": "top pages",
+    "waca": "must_contain not found; used top pages",
+    "promoter_holding": "top pages",
+    "shareholding_pattern": "top pages",
+    "offer_structure": "top pages",
+    "price": "top pages",
+    "timetable": "top pages"
+  },
+  "completeness": {
+    "selling_shareholders": {
+      "status": "not checked",
+      "reason": "no verified printed total for this table",
+      "share_field": "shares_offered"
+    },
+    "selling_shareholders vs ofs_size": {
+      "status": "not checked",
+      "reason": "no verified ofs_size"
+    }
+  },
+  "completeness_retries": {},
+  "table_totals": {
+    "waca": {
+      "table_total_as_printed": null,
+      "evidence": [],
+      "section": "waca"
+    },
+    "shareholding_pattern": {
+      "table_total_as_printed": "8,939,030,830",
+      "evidence": [
+        {
+          "field": "table_total_as_printed",
+          "pdf_index": 110,
+          "printed_page": "110",
+          "quote": "8,939,030,830",
+          "found_by": "code: value printed on this page",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        }
+      ],
+      "section": "shareholding_pattern"
+    }
+  },
+  "rule_sources": {
+    "minimum_promoters_contribution": {
+      "variant": "three_year",
+      "periods": {
+        "Minimum Promoters' Contribution": {
+          "found": true,
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "pdf_index": 107,
+          "printed_page": "107",
+          "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=107",
+          "anchors": [
+            "aggregate of 20%",
+            "locked in for a period of three years"
+          ],
+          "quotes": [
+            "Lock-in requirements (a) Details of Promoter’s Contribution and lock-in Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully-diluted post-Issue Equity Share capital of the Company held by the Promoter shall be considered as minimum promoter’s contribution and locked-in for a period of three years from the date of Allotment (“Promoter’s Contribution”).",
+            "Lock-in requirements (a) Details of Promoter’s Contribution and lock-in Pursuant to Regulations 14 and 16(1)(a) of the SEBI ICDR Regulations, an aggregate of 20% of the fully-diluted post-Issue Equity Share capital of the Company held by the Promoter shall be considered as minimum promoter’s contribution and locked-in for a period of three years from the date of Allotment (“Promoter’s Contribution”)."
+          ]
+        },
+        "promoter shares above the 20%": {
+          "found": true,
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "pdf_index": 107,
+          "printed_page": "107",
+          "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=107",
+          "anchors": [
+            "in excess of 20%",
+            "locked in for a period of one year"
+          ],
+          "quotes": [
+            "The Promoter’s shareholding in excess of 20% of the fully-diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+            "The Promoter’s shareholding in excess of 20% of the fully-diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+          ]
+        }
+      }
+    },
+    "pre_offer_capital": {
+      "variant": "default",
+      "periods": {
+        "pre-Offer capital": {
+          "found": true,
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "pdf_index": 108,
+          "printed_page": "108",
+          "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=108",
+          "anchors": [
+            "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+            "six months from the date of allotment"
+          ],
+          "quotes": [
+            "(b) Details of Equity Shares locked-in for six months In addition to the lock-in requirements as prescribed in “- Details of Promoter’s Contribution and lock-in” on page 107, the entire pre-Issue paid-up Equity Share capital held by persons other than the Promoter, will be locked- in for a period of six months from the date of Allotment, in terms of Regulation 17(1) of the SEBI ICDR Regulations.",
+            "(b) Details of Equity Shares locked-in for six months In addition to the lock-in requirements as prescribed in “- Details of Promoter’s Contribution and lock-in” on page 107, the entire pre-Issue paid-up Equity Share capital held by persons other than the Promoter, will be locked- in for a period of six months from the date of Allotment, in terms of Regulation 17(1) of the SEBI ICDR Regulations."
+          ]
+        }
+      }
+    },
+    "ofs_proceeds_at_listing": {
+      "found": false,
+      "anchors": [
+        "listing and trading | listing approval | listing approvals",
+        "transferred to the selling shareholders | transferred to the selling shareholder | transferred to each of the selling shareholders | paid to the selling shareholders | paid to the selling shareholder | remitted to the selling shareholders | credited to the selling shareholders | released to the selling shareholders"
+      ]
+    }
+  }
+}

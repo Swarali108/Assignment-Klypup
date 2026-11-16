@@ -1,0 +1,117 @@
+{
+  "event_id": "jsw_steel_insider_sale_2026w44",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_jsw_steel_employees_welfare_trust_opj_esop_plan_2021_a_c",
+      "name_as_printed": "JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c",
+      "name_clean": "jsw steel employees welfare trust - opj esop plan 2021 a/c",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.50",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.50000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 18,
+        "label": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "money_crore": "0.50",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.50000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 18,
+          "label": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "money_crore": "0.50",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.50000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 21,128 shares (Market Sale, Off Market) between 26 Oct 2026 and 30 Oct 2026",
+      "amount_display": "₹49.85 lakh",
+      "timing_display": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹49.85 lakh; settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.50 = ₹0.50 crore (proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_jsw_steel_employees_welfare_trust_jswsl_opj_samruddhi_plan_2021_a_c",
+      "name_as_printed": "JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c",
+      "name_clean": "jsw steel employees welfare trust - jswsl opj samruddhi plan 2021 a/c",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.08",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.08000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 18,
+        "label": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "money_crore": "0.08",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.08000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 18,
+          "label": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "money_crore": "0.08",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.08000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 10,606 shares (Market Sale, Off Market) between 26 Oct 2026 and 30 Oct 2026",
+      "amount_display": "₹8.43 lakh",
+      "timing_display": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹8.43 lakh; settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.08 = ₹0.08 crore (proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

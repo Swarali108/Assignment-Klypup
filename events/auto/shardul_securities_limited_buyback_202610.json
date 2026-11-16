@@ -1,0 +1,40 @@
+{
+  "event_id": "shardul_securities_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "Shardul Securities Ltd",
+  "documents": [
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0662694e-5408-4e64-a72d-76ae591a66e9.pdf",
+      "doc_type": "announcement",
+      "note": "Shardul Securities Ltd - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/30f59684-f305-4099-9437-121c68ca338e.pdf",
+      "doc_type": "announcement",
+      "note": "Shardul Securities Ltd - Closure of Buy Back",
+      "from_class": "buyback_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Shardul Securities Ltd - Post Buyback Public Announcement",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0662694e-5408-4e64-a72d-76ae591a66e9.pdf",
+        "published": "2026-10-30",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Shardul Securities Ltd - Closure of Buy Back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/30f59684-f305-4099-9437-121c68ca338e.pdf",
+        "published": "2026-11-03",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

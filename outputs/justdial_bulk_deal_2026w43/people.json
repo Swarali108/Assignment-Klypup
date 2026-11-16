@@ -1,0 +1,1128 @@
+{
+  "event_id": "justdial_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "761.34",
+    "high": "772.34",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹761.34",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+            "row_ref": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+            "quote": "NSE | JUSTDIAL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,73,497 shares | price 761.34 | 2026-10-19"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹772.34",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+            "row_ref": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+            "quote": "NSE | JUSTDIAL | ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED | SELL | 7,06,586 shares | price 772.34 | 2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "19 Oct 2026",
+    "sale_date_parsed": "2026-10-19",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "27,06,257 shares sold by 4 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 8,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "07da2adfdb0cc5df"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 758066,
+          "record_ids": [
+            "07da2adfdb0cc5df"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+          "quote": "NSE | JUSTDIAL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 7,58,066 shares | price 764.48 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "07da2adfdb0cc5df",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,58,066",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "579526295.68",
+          "rupees_high": "579526295.68",
+          "crore_low": "57.95",
+          "crore_high": "57.95",
+          "display": "₹57.95 crore",
+          "working": "7,58,066 shares × ₹764.48 = ₹57.95 crore (NSE 19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "7,58,066",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+                  "quote": "NSE | JUSTDIAL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 7,58,066 shares | price 764.48 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹764.48",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+                  "quote": "NSE | JUSTDIAL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 7,58,066 shares | price 764.48 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 758066",
+                  "quote": "NSE | JUSTDIAL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 7,58,066 shares | price 764.48 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 7,58,066 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹27.53 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "94a746763a5a2b38"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 758066,
+          "record_ids": [
+            "94a746763a5a2b38"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 758066",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 758066",
+          "quote": "NSE | JUSTDIAL | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 7,58,066 shares | price 764.24 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "94a746763a5a2b38",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 7,58,066 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹27.53 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_elixir_wealth_management_private_limited",
+      "name_as_printed": "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED",
+      "names_as_printed": [
+        "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED"
+      ],
+      "name_clean": "elixir wealth management private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6554d835f49dcd7f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 706586,
+          "record_ids": [
+            "6554d835f49dcd7f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+          "quote": "NSE | JUSTDIAL | ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED | SELL | 7,06,586 shares | price 772.34 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6554d835f49dcd7f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,06,586",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "545724631.24",
+          "rupees_high": "545724631.24",
+          "crore_low": "54.57",
+          "crore_high": "54.57",
+          "display": "₹54.57 crore",
+          "working": "7,06,586 shares × ₹772.34 = ₹54.57 crore (NSE 19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "7,06,586",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+                  "quote": "NSE | JUSTDIAL | ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED | SELL | 7,06,586 shares | price 772.34 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹772.34",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+                  "quote": "NSE | JUSTDIAL | ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED | SELL | 7,06,586 shares | price 772.34 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · SELL · 706586",
+                  "quote": "NSE | JUSTDIAL | ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED | SELL | 7,06,586 shares | price 772.34 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 7,06,586 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_elixir_wealth_management_private_limited_bought",
+      "name_as_printed": "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED",
+      "names_as_printed": [
+        "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED"
+      ],
+      "name_clean": "elixir wealth management private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f5b6c8d03fb2a2b8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 706631,
+          "record_ids": [
+            "f5b6c8d03fb2a2b8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · BUY · 706631",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED · BUY · 706631",
+          "quote": "NSE | JUSTDIAL | ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED | BUY | 7,06,631 shares | price 771.38 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f5b6c8d03fb2a2b8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 7,06,631 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "d00fa9798e99874a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 673497,
+          "record_ids": [
+            "d00fa9798e99874a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+          "quote": "NSE | JUSTDIAL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,73,497 shares | price 761.34 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d00fa9798e99874a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,73,497",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "512760205.98",
+          "rupees_high": "512760205.98",
+          "crore_low": "51.28",
+          "crore_high": "51.28",
+          "display": "₹51.28 crore",
+          "working": "6,73,497 shares × ₹761.34 = ₹51.28 crore (NSE 19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,73,497",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+                  "quote": "NSE | JUSTDIAL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,73,497 shares | price 761.34 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹761.34",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+                  "quote": "NSE | JUSTDIAL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,73,497 shares | price 761.34 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 673497",
+                  "quote": "NSE | JUSTDIAL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 6,73,497 shares | price 761.34 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 6,73,497 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.58 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "475c89da826ff4b1"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 673497,
+          "record_ids": [
+            "475c89da826ff4b1"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · BUY · 673497",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · MICROCURVES TRADING PRIVATE LIMITED · BUY · 673497",
+          "quote": "NSE | JUSTDIAL | MICROCURVES TRADING PRIVATE LIMITED | BUY | 6,73,497 shares | price 761.03 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "475c89da826ff4b1",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,73,497 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹22.58 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "55391a5d9d043a72"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 568108,
+          "record_ids": [
+            "55391a5d9d043a72"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+          "quote": "NSE | JUSTDIAL | QE SECURITIES LLP | SELL | 5,68,108 shares | price 765.99 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "55391a5d9d043a72",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,68,108",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "435165046.92",
+          "rupees_high": "435165046.92",
+          "crore_low": "43.52",
+          "crore_high": "43.52",
+          "display": "₹43.52 crore",
+          "working": "5,68,108 shares × ₹765.99 = ₹43.52 crore (NSE 19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,68,108",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+                  "quote": "NSE | JUSTDIAL | QE SECURITIES LLP | SELL | 5,68,108 shares | price 765.99 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹765.99",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+                  "quote": "NSE | JUSTDIAL | QE SECURITIES LLP | SELL | 5,68,108 shares | price 765.99 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+                  "row_ref": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · SELL · 568108",
+                  "quote": "NSE | JUSTDIAL | QE SECURITIES LLP | SELL | 5,68,108 shares | price 765.99 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 5,68,108 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹21.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "dd3a878caf6cddc0"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 561427,
+          "record_ids": [
+            "dd3a878caf6cddc0"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · BUY · 561427",
+          "row_ref": "19-OCT-2026 · JUSTDIAL · QE SECURITIES LLP · BUY · 561427",
+          "quote": "NSE | JUSTDIAL | QE SECURITIES LLP | BUY | 5,61,427 shares | price 764.04 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dd3a878caf6cddc0",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,61,427 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹21.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 8,
+    "by_holder_type": {
+      "entity": 8
+    },
+    "by_confidence": {
+      "high": 8
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "buyers": 4,
+    "proceeds_computed": 4,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 8
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 8,
+    "follow_on_matches": 24
+  }
+}

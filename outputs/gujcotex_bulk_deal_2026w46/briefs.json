@@ -1,0 +1,55 @@
+{
+  "event_id": "gujcotex_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_parmar_nikitaben_sunilkumar",
+      "name_as_printed": "PARMAR NIKITABEN SUNILKUMAR",
+      "fields": {
+        "name": "PARMAR NIKITABEN SUNILKUMAR",
+        "role": "unknown",
+        "why_money": "sold 4,74,930 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹12.82 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹12.82 lakh (4,74,930 shares × ₹2.7 = ₹12.82 lakh (BSE 13/11/2026 · GUJCOTEX · PARMAR NIKITABEN SUNILKUMAR · S · 474930))"
+      },
+      "placeholders": {
+        "name": "PARMAR NIKITABEN SUNILKUMAR",
+        "role": "unknown",
+        "amount": "₹12.82 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹12.82 lakh",
+        "shares_offered": "4,74,930 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "PARMAR NIKITABEN SUNILKUMAR is a holder whose role is unknown, receiving proceeds from a bulk share sale.",
+        "₹12.82 lakh settles settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), from selling 4,74,930 shares in a bulk deal.",
+        "Ask whether the holder wants to discuss reinvesting these proceeds, since the money has just arrived.",
+        "Role is unknown, so confirm the holder's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving proceeds from a bulk share sale.",
+            "{proceeds} settles {timing}, from selling {shares_offered} in a bulk deal.",
+            "Ask whether the holder wants to discuss reinvesting these proceeds, since the money has just arrived.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "lines": [
+            "PARMAR NIKITABEN SUNILKUMAR is a holder whose role is unknown, receiving proceeds from a bulk share sale.",
+            "₹12.82 lakh settles settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), from selling 4,74,930 shares in a bulk deal.",
+            "Ask whether the holder wants to discuss reinvesting these proceeds, since the money has just arrived.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

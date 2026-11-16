@@ -1,0 +1,125 @@
+{
+  "event_id": "karur_vysya_bank_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_m_s_jeevarekha",
+      "name_as_printed": "M S Jeevarekha",
+      "fields": {
+        "name": "M S Jeevarekha",
+        "role": "Promoter group",
+        "why_money": "sold 10,000 shares (Market Sale) on 12 Nov 2026",
+        "amount": "₹38.23 lakh",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹38.23 lakh (10,000 shares, value as printed ₹38.23 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "M S Jeevarekha",
+        "role": "Promoter group",
+        "amount": "₹38.23 lakh",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹38.23 lakh",
+        "shares_offered": "10,000 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "M S Jeevarekha is a Promoter group member who sold 10,000 shares in a market sale 3 days ago.",
+        "Proceeds of ₹38.23 lakh settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), so the money has already arrived.",
+        "Open with the sale 3 days ago and offer to review how they plan to deploy the ₹38.23 lakh proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} member who sold {shares_offered} in a market sale on 12 Nov 2026.",
+            "Proceeds of {proceeds} settled {timing}, so the money has already arrived.",
+            "Open with the recent sale and offer to review how they plan to deploy the {amount} proceeds."
+          ],
+          "lines": [
+            "{name} is a {role} member who sold {shares_offered} in a market sale on 12 Nov 2026.",
+            "Proceeds of {proceeds} settled {timing}, so the money has already arrived.",
+            "Open with the recent sale and offer to review how they plan to deploy the {amount} proceeds."
+          ],
+          "problem": "writes numbers instead of placeholders: 12, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} member who sold {shares_offered} in a market sale {event_age}.",
+            "Proceeds of {proceeds} settled {timing}, so the money has already arrived.",
+            "Open with the sale {event_age} and offer to review how they plan to deploy the {amount} proceeds."
+          ],
+          "lines": [
+            "M S Jeevarekha is a Promoter group member who sold 10,000 shares in a market sale 3 days ago.",
+            "Proceeds of ₹38.23 lakh settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), so the money has already arrived.",
+            "Open with the sale 3 days ago and offer to review how they plan to deploy the ₹38.23 lakh proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_m_v_usha",
+      "name_as_printed": "M V Usha",
+      "fields": {
+        "name": "M V Usha",
+        "role": "Promoter group",
+        "why_money": "sold 2,000 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹7.61 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹7.61 lakh (2,000 shares, value as printed ₹7.61 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "M V Usha",
+        "role": "Promoter group",
+        "amount": "₹7.61 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹7.61 lakh",
+        "shares_offered": "2,000 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "M V Usha (Promoter group) sold 2,000 shares (Market Sale) on 11 Nov 2026.",
+        "₹7.61 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "Ask about their plans for the holding."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "unknown placeholders: {event_date}",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} holder who sold {shares_offered} in a market sale on the 11 Nov trade.",
+            "Proceeds of {proceeds} settled {timing}, arriving {event_age}.",
+            "Open with the sale timing and ask whether they plan any further share movements."
+          ],
+          "lines": [
+            "{name} is a {role} holder who sold {shares_offered} in a market sale on the 11 Nov trade.",
+            "Proceeds of {proceeds} settled {timing}, arriving {event_age}.",
+            "Open with the sale timing and ask whether they plan any further share movements."
+          ],
+          "problem": "writes numbers instead of placeholders: 11"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} holder who sold {shares_offered} in a market sale on the {event_date} trade.",
+            "Proceeds of {proceeds} settled {timing}, arriving {event_age}.",
+            "Open with the sale timing and ask whether they plan any further share movements."
+          ],
+          "lines": [
+            "{name} is a {role} holder who sold {shares_offered} in a market sale on the {event_date} trade.",
+            "Proceeds of {proceeds} settled {timing}, arriving {event_age}.",
+            "Open with the sale timing and ask whether they plan any further share movements."
+          ],
+          "problem": "unknown placeholders: {event_date}"
+        }
+      ]
+    }
+  ]
+}

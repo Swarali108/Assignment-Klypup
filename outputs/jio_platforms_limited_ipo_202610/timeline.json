@@ -1,0 +1,48 @@
+{
+  "run_id": "jio_platforms_limited_ipo_202610-20261115T210001Z",
+  "total_s": 4.669160166988149,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 3.3516330830170773,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 1.11903754202649,
+      "calls": 5,
+      "cached": 5,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.0616127920220606,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.03436041600070894,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.03434833401115611,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "report",
+      "seconds": 0.03928516700398177,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

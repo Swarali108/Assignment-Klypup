@@ -1,0 +1,61 @@
+{
+  "event_id": "lux_industries_insider_sale_2026w46",
+  "callable": [
+    {
+      "person_id": "p_pradip_kumar_todi_huf",
+      "name_as_printed": "PRADIP KUMAR TODI HUF",
+      "name_clean": "pradip kumar todi huf",
+      "holder_type": "family_vehicle",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash due, date not confirmed",
+      "amount_known": true,
+      "money_now_crore": "1.57",
+      "confidence": "low",
+      "confidence_weight": "0.4",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.157000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 4,
+        "label": "proceeds, timing unknown",
+        "money_crore": "1.57",
+        "timing_status": "unknown",
+        "timing_weight": "0.25",
+        "recency_weight": "1.0",
+        "score": "0.157000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 4,
+          "label": "proceeds, timing unknown",
+          "money_crore": "1.57",
+          "timing_status": "unknown",
+          "timing_weight": "0.25",
+          "recency_weight": "1.0",
+          "score": "0.157000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 13,340 shares (Others) on 12 Nov 2026",
+      "amount_display": "₹1.57 crore",
+      "timing_display": "unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash due, date not confirmed: ₹1.57 crore; unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known.",
+        "score 0.16 = ₹1.57 crore (proceeds, timing unknown) × 0.4 (low confidence) × 0.25 (timing unknown) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

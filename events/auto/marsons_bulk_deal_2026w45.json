@@ -1,0 +1,33 @@
+{
+  "event_id": "marsons_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "Marsons Limited",
+  "documents": [],
+  "records": [
+    "01b166a34c19f774",
+    "0ca0bbbc00e1ba29",
+    "0df717f917eb67e7",
+    "1395cb6dc5d5b27e",
+    "2030974588ca5a49",
+    "405baf6ef6c0d1d8",
+    "414a5476992aeb04",
+    "4d718f1d1ffe70d2",
+    "5f676ba3842ac40b",
+    "6167bc419ada6e49",
+    "94c8cf3595b0b406",
+    "95168bba407c26cb",
+    "af4341f5151212a5",
+    "ca75861b1f1ad6b7",
+    "d1350021a80108cc",
+    "d6b6456ad22acafe"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-06",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

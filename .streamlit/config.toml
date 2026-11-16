@@ -1,0 +1,28 @@
+# AURELIA theme. Every key here is listed by `streamlit config show` for the pinned
+# Streamlit version (1.66.1). Glass cards, pills and the page background are in ui/styles.py.
+
+[theme]
+base = "dark"
+primaryColor = "#c9b6f2"
+backgroundColor = "#060a13"
+secondaryBackgroundColor = "#111827"
+textColor = "#f1ece3"
+linkColor = "#e9cfa5"
+linkUnderline = false
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Cormorant Garamond:https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap, serif"
+baseRadius = "0.75rem"
+buttonRadius = "0.75rem"
+borderColor = "#232c3d"
+dataframeBorderColor = "#232c3d"
+dataframeHeaderBackgroundColor = "#0e1422"
+showWidgetBorder = true
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#080c16"
+secondaryBackgroundColor = "#111827"
+
+[client]
+# Hide rerun, clear-cache and deploy from visitors.
+toolbarMode = "viewer"

@@ -1,0 +1,48 @@
+{
+  "run_id": "garware_buyback-20261115T135331Z",
+  "total_s": 1.4859350829501636,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.0979541249689646,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 1.3242604999686591,
+      "calls": 3,
+      "cached": 3,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.016882500029169023,
+      "calls": 3,
+      "cached": 3,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0036292499862611294,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.004584332986269146,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "report",
+      "seconds": 0.00866583304014057,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "event_id": "swiggy_block_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "180.65",
+    "high": "180.65",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹180.65",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+            "row_ref": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+            "quote": "NSE | SWIGGY | TENCENT CLOUD EUROPE B.V. | SELL | 5,43,47,662 shares | price 180.65 | 2026-10-30"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "30 Oct 2026",
+    "sale_date_parsed": "2026-10-30",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "5,43,47,662 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 10,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_aditya_birla_sun_life_mutual_fund_bought",
+      "name_as_printed": "ADITYA BIRLA SUN LIFE MUTUAL FUND",
+      "names_as_printed": [
+        "ADITYA BIRLA SUN LIFE MUTUAL FUND"
+      ],
+      "name_clean": "aditya birla sun life mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6c3e758f295d3da8",
+        "79c85dd89248d27f",
+        "a5f60bd7deb50716",
+        "f9dec85e767ed08a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 1492270,
+          "record_ids": [
+            "6c3e758f295d3da8",
+            "79c85dd89248d27f",
+            "a5f60bd7deb50716",
+            "f9dec85e767ed08a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 553556",
+          "row_ref": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 553556",
+          "quote": "NSE | SWIGGY | ADITYA BIRLA SUN LIFE MUTUAL FUND | BUY | 5,53,556 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6c3e758f295d3da8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 276778",
+          "row_ref": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 276778",
+          "quote": "NSE | SWIGGY | ADITYA BIRLA SUN LIFE MUTUAL FUND | BUY | 2,76,778 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "79c85dd89248d27f",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 551225",
+          "row_ref": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 551225",
+          "quote": "NSE | SWIGGY | ADITYA BIRLA SUN LIFE MUTUAL FUND | BUY | 5,51,225 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a5f60bd7deb50716",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 110711",
+          "row_ref": "30-OCT-2026 · SWIGGY · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 110711",
+          "quote": "NSE | SWIGGY | ADITYA BIRLA SUN LIFE MUTUAL FUND | BUY | 1,10,711 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f9dec85e767ed08a",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 14,92,270 shares in block deals on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ghisallo_master_fund_lp_bought",
+      "name_as_printed": "GHISALLO MASTER FUND LP",
+      "names_as_printed": [
+        "GHISALLO MASTER FUND LP"
+      ],
+      "name_clean": "ghisallo master fund lp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "0167e812bed9c43b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 2608392,
+          "record_ids": [
+            "0167e812bed9c43b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · GHISALLO MASTER FUND LP · BUY · 2608392",
+          "row_ref": "30-OCT-2026 · SWIGGY · GHISALLO MASTER FUND LP · BUY · 2608392",
+          "quote": "NSE | SWIGGY | GHISALLO MASTER FUND LP | BUY | 26,08,392 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0167e812bed9c43b",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 26,08,392 shares in a block deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_goldman_sachs_bank_europe_se_bought",
+      "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+      "names_as_printed": [
+        "GOLDMAN SACHS BANK EUROPE SE"
+      ],
+      "name_clean": "goldman sachs bank europe se",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c6db6e24298be3c8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 10550000,
+          "record_ids": [
+            "c6db6e24298be3c8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · GOLDMAN SACHS BANK EUROPE SE · BUY · 10550000",
+          "row_ref": "30-OCT-2026 · SWIGGY · GOLDMAN SACHS BANK EUROPE SE · BUY · 10550000",
+          "quote": "NSE | SWIGGY | GOLDMAN SACHS BANK EUROPE SE | BUY | 1,05,50,000 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c6db6e24298be3c8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,05,50,000 shares in a block deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_morgan_stanley_asia_singapore_pte_bought",
+      "name_as_printed": "MORGAN STANLEY ASIA SINGAPORE PTE",
+      "names_as_printed": [
+        "MORGAN STANLEY ASIA SINGAPORE PTE"
+      ],
+      "name_clean": "morgan stanley asia singapore pte",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'singapore' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a1cc002a980c391d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 13190000,
+          "record_ids": [
+            "a1cc002a980c391d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · MORGAN STANLEY ASIA SINGAPORE PTE · BUY · 13190000",
+          "row_ref": "30-OCT-2026 · SWIGGY · MORGAN STANLEY ASIA SINGAPORE PTE · BUY · 13190000",
+          "quote": "NSE | SWIGGY | MORGAN STANLEY ASIA SINGAPORE PTE | BUY | 1,31,90,000 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a1cc002a980c391d",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,31,90,000 shares in a block deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nippon_india_mutual_fund_bought",
+      "name_as_printed": "NIPPON INDIA MUTUAL FUND",
+      "names_as_printed": [
+        "NIPPON INDIA MUTUAL FUND"
+      ],
+      "name_clean": "nippon india mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a94ed1b45e21e330"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 2767000,
+          "record_ids": [
+            "a94ed1b45e21e330"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · NIPPON INDIA MUTUAL FUND · BUY · 2767000",
+          "row_ref": "30-OCT-2026 · SWIGGY · NIPPON INDIA MUTUAL FUND · BUY · 2767000",
+          "quote": "NSE | SWIGGY | NIPPON INDIA MUTUAL FUND | BUY | 27,67,000 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a94ed1b45e21e330",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 27,67,000 shares in a block deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_societe_generale_bought",
+      "name_as_printed": "SOCIETE GENERALE",
+      "names_as_printed": [
+        "SOCIETE GENERALE"
+      ],
+      "name_clean": "societe generale",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "539283bab8e90096"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 23740000,
+          "record_ids": [
+            "539283bab8e90096"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · SOCIETE GENERALE · BUY · 23740000",
+          "row_ref": "30-OCT-2026 · SWIGGY · SOCIETE GENERALE · BUY · 23740000",
+          "quote": "NSE | SWIGGY | SOCIETE GENERALE | BUY | 2,37,40,000 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "539283bab8e90096",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,37,40,000 shares in a block deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "SOCIETE GENERALE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SOCIETE GENERALE' / 'SOCIETE GENERALE'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_tencent_cloud_europe_b_v",
+      "name_as_printed": "TENCENT CLOUD EUROPE B.V.",
+      "names_as_printed": [
+        "TENCENT CLOUD EUROPE B.V."
+      ],
+      "name_clean": "tencent cloud europe b.v.",
+      "holder_type": "entity",
+      "holder_type_reason": "ends with 'bv' (legal form)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "1ed82a5a55b40800"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 54347662,
+          "record_ids": [
+            "1ed82a5a55b40800"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+          "row_ref": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+          "quote": "NSE | SWIGGY | TENCENT CLOUD EUROPE B.V. | SELL | 5,43,47,662 shares | price 180.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1ed82a5a55b40800",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,43,47,662",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "9817905140.30",
+          "rupees_high": "9817905140.30",
+          "crore_low": "981.79",
+          "crore_high": "981.79",
+          "display": "₹981.79 crore",
+          "working": "5,43,47,662 shares × ₹180.65 = ₹981.79 crore (NSE 30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,43,47,662",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+                  "row_ref": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+                  "quote": "NSE | SWIGGY | TENCENT CLOUD EUROPE B.V. | SELL | 5,43,47,662 shares | price 180.65 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹180.65",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+                  "row_ref": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+                  "quote": "NSE | SWIGGY | TENCENT CLOUD EUROPE B.V. | SELL | 5,43,47,662 shares | price 180.65 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+                  "row_ref": "30-OCT-2026 · SWIGGY · TENCENT CLOUD EUROPE B.V. · SELL · 54347662",
+                  "quote": "NSE | SWIGGY | TENCENT CLOUD EUROPE B.V. | SELL | 5,43,47,662 shares | price 180.65 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 14
+        }
+      },
+      "why_money": "sold 5,43,47,662 shares in a block deal on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 7,
+    "by_holder_type": {
+      "entity": 6,
+      "person": 1
+    },
+    "by_confidence": {
+      "high": 7
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 6,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 7
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 7,
+    "follow_on_matches": 1
+  }
+}

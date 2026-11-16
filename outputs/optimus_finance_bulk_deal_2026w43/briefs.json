@@ -1,0 +1,56 @@
+{
+  "event_id": "optimus_finance_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_yash_dasharath_gotarane",
+      "name_as_printed": "YASH DASHARATH GOTARANE",
+      "fields": {
+        "name": "YASH DASHARATH GOTARANE",
+        "role": "unknown",
+        "why_money": "sold 5,22,339 shares in a bulk deal on 23 Oct 2026",
+        "amount": "₹83.89 lakh",
+        "timing": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "event": "proceeds settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "event_age": "21 days ago",
+        "event_is": "recent",
+        "proceeds": "₹83.89 lakh (5,22,339 shares × ₹16.06 = ₹83.89 lakh (NSE 23-OCT-2026 · OPTIFIN · YASH DASHARATH GOTARANE · SELL · 522339))",
+        "family_link": "'YASH DASHARATH GOTARANE' and 'YASH DASHARATH GOTARANE' share surname 'gotarane' and middle name 'dasharath'"
+      },
+      "placeholders": {
+        "name": "YASH DASHARATH GOTARANE",
+        "role": "unknown",
+        "amount": "₹83.89 lakh",
+        "timing": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "proceeds": "₹83.89 lakh",
+        "shares_offered": "5,22,339 shares",
+        "event_age": "21 days ago"
+      },
+      "lines": [
+        "YASH DASHARATH GOTARANE sold 5,22,339 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹83.89 lakh were settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago).",
+        "Their family link to another holder with the same surname and middle name may be worth raising.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Their family link to another holder with the same surname and middle name may be worth raising.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "YASH DASHARATH GOTARANE sold 5,22,339 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹83.89 lakh were settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago).",
+            "Their family link to another holder with the same surname and middle name may be worth raising.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

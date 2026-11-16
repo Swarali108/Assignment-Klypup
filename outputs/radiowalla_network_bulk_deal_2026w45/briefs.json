@@ -1,0 +1,55 @@
+{
+  "event_id": "radiowalla_network_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_devendra_agarwal",
+      "name_as_printed": "DEVENDRA AGARWAL",
+      "fields": {
+        "name": "DEVENDRA AGARWAL",
+        "role": "unknown",
+        "why_money": "sold 2,01,600 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹42.84 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹42.84 lakh (2,01,600 shares × ₹21.25 = ₹42.84 lakh (NSE 02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600))"
+      },
+      "placeholders": {
+        "name": "DEVENDRA AGARWAL",
+        "role": "unknown",
+        "amount": "₹42.84 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹42.84 lakh",
+        "shares_offered": "2,01,600 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "DEVENDRA AGARWAL sold 2,01,600 shares in a bulk deal and is due proceeds from it.",
+        "₹42.84 lakh from the sale settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+        "Ask DEVENDRA AGARWAL whether this follows any other holding decisions, since the role is unknown.",
+        "Role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal and is due proceeds from it.",
+            "{amount} from the sale settled {timing}.",
+            "Ask {name} whether this follows any other holding decisions, since the role is unknown.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "DEVENDRA AGARWAL sold 2,01,600 shares in a bulk deal and is due proceeds from it.",
+            "₹42.84 lakh from the sale settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+            "Ask DEVENDRA AGARWAL whether this follows any other holding decisions, since the role is unknown.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

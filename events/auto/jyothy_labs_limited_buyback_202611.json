@@ -1,0 +1,54 @@
+{
+  "event_id": "jyothy_labs_limited_buyback_202611",
+  "event_type": "buyback",
+  "company": "Jyothy Labs Limited",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/JYOTHYLAB_04112026135214_SEIntimationOutcomeBM.pdf",
+      "doc_type": "announcement",
+      "note": "Jyothy Labs Limited - Buyback",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a12ba9f-ec98-42d8-8dd7-a6717864b56e.pdf",
+      "doc_type": "announcement",
+      "note": "Jyothy Labs Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+      "doc_type": "public_announcement",
+      "note": "Jyothy Labs Limited",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements",
+      "sebi_buyback_tender"
+    ],
+    "first_seen": "2026-11-15T07:46:53+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Jyothy Labs Limited",
+        "link": "https://www.sebi.gov.in/filings/buybacks/nov-2026/jyothy-labs-limited_105727.html",
+        "published": "Nov 06, 2026",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Jyothy Labs Limited - Buyback",
+        "link": "https://nsearchives.nseindia.in/corporate/JYOTHYLAB_04112026135214_SEIntimationOutcomeBM.pdf",
+        "published": "2026-11-04",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Jyothy Labs Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a12ba9f-ec98-42d8-8dd7-a6717864b56e.pdf",
+        "published": "2026-11-04",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

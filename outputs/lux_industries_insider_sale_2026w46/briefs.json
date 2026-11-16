@@ -1,0 +1,58 @@
+{
+  "event_id": "lux_industries_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_pradip_kumar_todi_huf",
+      "name_as_printed": "PRADIP KUMAR TODI HUF",
+      "fields": {
+        "name": "PRADIP KUMAR TODI HUF",
+        "role": "Promoter group",
+        "why_money": "sold 13,340 shares (Others) on 12 Nov 2026",
+        "amount": "₹1.57 crore",
+        "timing": "unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+        "event": "proceeds, timing unknown",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.57 crore (13,340 shares, value as printed ₹1.57 crore (NSE XBRL context Disclosure1))",
+        "unknowns": [
+          "timing: mode of sale not printed as a market sale (Others), so the settlement date is not known"
+        ]
+      },
+      "placeholders": {
+        "name": "PRADIP KUMAR TODI HUF",
+        "role": "Promoter group",
+        "amount": "₹1.57 crore",
+        "timing": "unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+        "proceeds": "₹1.57 crore",
+        "shares_offered": "13,340 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "PRADIP KUMAR TODI HUF is a promoter group holder, and proceeds from their share sale are coming to them.",
+        "They sold 13,340 shares for ₹1.57 crore, with timing not known yet.",
+        "Recent sale, 4 days ago; the sale was recorded as Others, so settlement date is unclear.",
+        "Timing is unknown because the sale was not printed as a market sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a promoter group holder, and proceeds from their share sale are coming to them.",
+            "They sold {shares_offered} for {proceeds}, with timing not known yet.",
+            "Recent sale, {event_age}; the sale was recorded as Others, so settlement date is unclear.",
+            "Timing is unknown because the sale was not printed as a market sale."
+          ],
+          "lines": [
+            "PRADIP KUMAR TODI HUF is a promoter group holder, and proceeds from their share sale are coming to them.",
+            "They sold 13,340 shares for ₹1.57 crore, with timing not known yet.",
+            "Recent sale, 4 days ago; the sale was recorded as Others, so settlement date is unclear.",
+            "Timing is unknown because the sale was not printed as a market sale."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "event_id": "belding_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Belding India Limited",
+  "documents": [],
+  "records": [
+    "8a30a6a6e1821621",
+    "90189fccd348868c",
+    "e8e0fc8163bc25d4",
+    "f83a355bec9ac3bc"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-26",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

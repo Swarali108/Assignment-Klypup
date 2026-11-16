@@ -1,0 +1,55 @@
+{
+  "event_id": "himatsingka_seide_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ajay_kumar_aggarwal",
+      "name_as_printed": "AJAY KUMAR AGGARWAL",
+      "fields": {
+        "name": "AJAY KUMAR AGGARWAL",
+        "role": "unknown",
+        "why_money": "sold 6,60,000 shares in a bulk deal on 26 Oct 2026",
+        "amount": "₹3.55 crore",
+        "timing": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "event": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "event_age": "20 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.55 crore (6,60,000 shares × ₹53.76 = ₹3.55 crore (NSE 26-OCT-2026 · HIMATSEIDE · AJAY KUMAR AGGARWAL · SELL · 660000))"
+      },
+      "placeholders": {
+        "name": "AJAY KUMAR AGGARWAL",
+        "role": "unknown",
+        "amount": "₹3.55 crore",
+        "timing": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "proceeds": "₹3.55 crore",
+        "shares_offered": "6,60,000 shares",
+        "event_age": "20 days ago"
+      },
+      "lines": [
+        "AJAY KUMAR AGGARWAL sold 6,60,000 shares in a bulk deal, so money is coming to them from that sale.",
+        "₹3.55 crore from the sale settled settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+        "The sale was about 20 days ago, so the conversation is about what they plan to do with the proceeds.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "{amount} from the sale settled {timing}.",
+            "The sale was about {event_age}, so the conversation is about what they plan to do with the proceeds.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "AJAY KUMAR AGGARWAL sold 6,60,000 shares in a bulk deal, so money is coming to them from that sale.",
+            "₹3.55 crore from the sale settled settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+            "The sale was about 20 days ago, so the conversation is about what they plan to do with the proceeds.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "event_id": "radiowalla_network_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "21.25",
+    "high": "21.37",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹21.25",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+            "row_ref": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+            "quote": "NSE | RADIOWALLA | DEVENDRA AGARWAL | SELL | 2,01,600 shares | price 21.25 | 2026-11-02"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹21.37",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+            "row_ref": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+            "quote": "NSE | RADIOWALLA | SS CORPORATE SECURITIES LIMITED | SELL | 41,600 shares | price 21.37 | 2026-11-02"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "2 Nov 2026",
+    "sale_date_parsed": "2026-11-02",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,43,200 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_devendra_agarwal",
+      "name_as_printed": "DEVENDRA AGARWAL",
+      "names_as_printed": [
+        "DEVENDRA AGARWAL"
+      ],
+      "name_clean": "devendra agarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "f0c91865d59230aa"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 201600,
+          "record_ids": [
+            "f0c91865d59230aa"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+          "row_ref": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+          "quote": "NSE | RADIOWALLA | DEVENDRA AGARWAL | SELL | 2,01,600 shares | price 21.25 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f0c91865d59230aa",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,01,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "4284000.00",
+          "rupees_high": "4284000.00",
+          "crore_low": "0.43",
+          "crore_high": "0.43",
+          "display": "₹42.84 lakh",
+          "working": "2,01,600 shares × ₹21.25 = ₹42.84 lakh (NSE 02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,01,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+                  "row_ref": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+                  "quote": "NSE | RADIOWALLA | DEVENDRA AGARWAL | SELL | 2,01,600 shares | price 21.25 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹21.25",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+                  "row_ref": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+                  "quote": "NSE | RADIOWALLA | DEVENDRA AGARWAL | SELL | 2,01,600 shares | price 21.25 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+                  "row_ref": "02-NOV-2026 · RADIOWALLA · DEVENDRA AGARWAL · SELL · 201600",
+                  "quote": "NSE | RADIOWALLA | DEVENDRA AGARWAL | SELL | 2,01,600 shares | price 21.25 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 2,01,600 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nautilus_private_capital_ltd_bought",
+      "name_as_printed": "NAUTILUS PRIVATE CAPITAL LTD",
+      "names_as_printed": [
+        "NAUTILUS PRIVATE CAPITAL LTD"
+      ],
+      "name_clean": "nautilus private capital ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f5b55df186cc65cf"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 70400,
+          "record_ids": [
+            "f5b55df186cc65cf"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RADIOWALLA · NAUTILUS PRIVATE CAPITAL LTD · BUY · 70400",
+          "row_ref": "02-NOV-2026 · RADIOWALLA · NAUTILUS PRIVATE CAPITAL LTD · BUY · 70400",
+          "quote": "NSE | RADIOWALLA | NAUTILUS PRIVATE CAPITAL LTD | BUY | 70,400 shares | price 21.29 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f5b55df186cc65cf",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 70,400 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ss_corporate_securities_limited",
+      "name_as_printed": "SS CORPORATE SECURITIES LIMITED",
+      "names_as_printed": [
+        "SS CORPORATE SECURITIES LIMITED"
+      ],
+      "name_clean": "ss corporate securities limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "901ea51237f139ab"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 41600,
+          "record_ids": [
+            "901ea51237f139ab"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+          "row_ref": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+          "quote": "NSE | RADIOWALLA | SS CORPORATE SECURITIES LIMITED | SELL | 41,600 shares | price 21.37 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "901ea51237f139ab",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "41,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "888992.00",
+          "rupees_high": "888992.00",
+          "crore_low": "0.09",
+          "crore_high": "0.09",
+          "display": "₹8.89 lakh",
+          "working": "41,600 shares × ₹21.37 = ₹8.89 lakh (NSE 02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "41,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+                  "row_ref": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+                  "quote": "NSE | RADIOWALLA | SS CORPORATE SECURITIES LIMITED | SELL | 41,600 shares | price 21.37 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹21.37",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+                  "row_ref": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+                  "quote": "NSE | RADIOWALLA | SS CORPORATE SECURITIES LIMITED | SELL | 41,600 shares | price 21.37 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+                  "row_ref": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · SELL · 41600",
+                  "quote": "NSE | RADIOWALLA | SS CORPORATE SECURITIES LIMITED | SELL | 41,600 shares | price 21.37 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 41,600 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ss_corporate_securities_limited_bought",
+      "name_as_printed": "SS CORPORATE SECURITIES LIMITED",
+      "names_as_printed": [
+        "SS CORPORATE SECURITIES LIMITED"
+      ],
+      "name_clean": "ss corporate securities limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cd9de299340d76e9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 176000,
+          "record_ids": [
+            "cd9de299340d76e9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · BUY · 176000",
+          "row_ref": "02-NOV-2026 · RADIOWALLA · SS CORPORATE SECURITIES LIMITED · BUY · 176000",
+          "quote": "NSE | RADIOWALLA | SS CORPORATE SECURITIES LIMITED | BUY | 1,76,000 shares | price 21.25 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cd9de299340d76e9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,76,000 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 3,
+      "person": 1
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 0
+  }
+}

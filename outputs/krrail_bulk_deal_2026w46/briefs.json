@@ -1,0 +1,70 @@
+{
+  "event_id": "krrail_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_pratik_madhukar_sheth",
+      "name_as_printed": "PRATIK MADHUKAR SHETH",
+      "fields": {
+        "name": "PRATIK MADHUKAR SHETH",
+        "role": "unknown",
+        "why_money": "sold 3,08,314 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹47.73 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹47.73 lakh (3,08,314 shares × ₹15.48 = ₹47.73 lakh (BSE 13/11/2026 · KRRAIL · PRATIK MADHUKAR SHETH · S · 308314))"
+      },
+      "placeholders": {
+        "name": "PRATIK MADHUKAR SHETH",
+        "role": "unknown",
+        "amount": "₹47.73 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹47.73 lakh",
+        "shares_offered": "3,08,314 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "PRATIK MADHUKAR SHETH is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+        "They sold 3,08,314 shares for ₹47.73 lakh, and the money arrives settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "The sale was a bulk deal today, so the proceeds are recent and worth discussing now.",
+        "Confirm their position before the call, since their role is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+            "They sold {shares_offered} for {proceeds}, settled {timing}.",
+            "The sale was a bulk deal on 13 Nov 2026, so the proceeds are recent and worth discussing today.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+            "They sold {shares_offered} for {proceeds}, settled {timing}.",
+            "The sale was a bulk deal on 13 Nov 2026, so the proceeds are recent and worth discussing today.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 13, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, receiving money from a bulk-deal share sale.",
+            "They sold {shares_offered} for {proceeds}, and the money arrives {timing}.",
+            "The sale was a bulk deal {event_age}, so the proceeds are recent and worth discussing now.",
+            "Confirm their position before the call, since their role is {role}."
+          ],
+          "lines": [
+            "PRATIK MADHUKAR SHETH is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+            "They sold 3,08,314 shares for ₹47.73 lakh, and the money arrives settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "The sale was a bulk deal today, so the proceeds are recent and worth discussing now.",
+            "Confirm their position before the call, since their role is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "event_id": "enkei_wheels_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_neerav_apurva_parekh",
+      "name_as_printed": "NEERAV APURVA PAREKH",
+      "fields": {
+        "name": "NEERAV APURVA PAREKH",
+        "role": "unknown",
+        "why_money": "sold 1,69,057 shares in a bulk deal on 3 Nov 2026",
+        "amount": "₹6.76 crore",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹6.76 crore (1,69,057 shares × ₹399.99 = ₹6.76 crore (NSE 03-NOV-2026 · ENKEIWHEL · NEERAV APURVA PAREKH · SELL · 169057))"
+      },
+      "placeholders": {
+        "name": "NEERAV APURVA PAREKH",
+        "role": "unknown",
+        "amount": "₹6.76 crore",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "proceeds": "₹6.76 crore",
+        "shares_offered": "1,69,057 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "NEERAV APURVA PAREKH is a shareholder who sold 1,69,057 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹6.76 crore settled 12 days ago, after the trade.",
+        "Their role is unknown, so confirm their relationship to the company before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade on 3 Nov 2026.",
+            "Their role is unknown, so confirm their relationship to the company before discussing next steps."
+          ],
+          "lines": [
+            "{name} is a shareholder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade on 3 Nov 2026.",
+            "Their role is unknown, so confirm their relationship to the company before discussing next steps."
+          ],
+          "problem": "writes numbers instead of placeholders: 3, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a shareholder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade.",
+            "Their role is unknown, so confirm their relationship to the company before discussing next steps."
+          ],
+          "lines": [
+            "NEERAV APURVA PAREKH is a shareholder who sold 1,69,057 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹6.76 crore settled 12 days ago, after the trade.",
+            "Their role is unknown, so confirm their relationship to the company before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

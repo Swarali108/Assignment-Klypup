@@ -1,0 +1,71 @@
+{
+  "event_id": "jalan_transolu_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_darshana_mukesh_desai",
+      "name_as_printed": "DARSHANA MUKESH DESAI",
+      "fields": {
+        "name": "DARSHANA MUKESH DESAI",
+        "role": "unknown",
+        "why_money": "sold 99,000 shares in a bulk deal on 19 Oct 2026",
+        "amount": "₹1.48 lakh",
+        "timing": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "event": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "event_age": "27 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.48 lakh (99,000 shares × ₹1.5 = ₹1.48 lakh (NSE 19-OCT-2026 · JALAN · DARSHANA MUKESH DESAI · SELL · 99000))",
+        "family_link": "'DARSHANA MUKESH DESAI' and 'MUKESH CHIMANLAL DESAI' share surname 'desai', and the middle name 'mukesh' of 'DARSHANA MUKESH DESAI' is the first name of 'MUKESH CHIMANLAL DESAI'"
+      },
+      "placeholders": {
+        "name": "DARSHANA MUKESH DESAI",
+        "role": "unknown",
+        "amount": "₹1.48 lakh",
+        "timing": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "proceeds": "₹1.48 lakh",
+        "shares_offered": "99,000 shares",
+        "event_age": "27 days ago"
+      },
+      "lines": [
+        "DARSHANA MUKESH DESAI is a holder whose role is unknown, receiving money from a share sale.",
+        "They sold 99,000 shares in a bulk deal; ₹1.48 lakh settled settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+        "A family link exists with MUKESH CHIMANLAL DESAI, a surname and name match worth noting.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold {shares_offered} on 19 Oct; {proceeds} settled {event_age}.",
+            "A family link exists with MUKESH CHIMANLAL DESAI, a surname and name match worth noting.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold {shares_offered} on 19 Oct; {proceeds} settled {event_age}.",
+            "A family link exists with MUKESH CHIMANLAL DESAI, a surname and name match worth noting.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 19"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, receiving money from a share sale.",
+            "They sold {shares_offered} in a bulk deal; {proceeds} settled {timing}.",
+            "A family link exists with MUKESH CHIMANLAL DESAI, a surname and name match worth noting.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "DARSHANA MUKESH DESAI is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold 99,000 shares in a bulk deal; ₹1.48 lakh settled settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+            "A family link exists with MUKESH CHIMANLAL DESAI, a surname and name match worth noting.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

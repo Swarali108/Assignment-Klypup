@@ -1,0 +1,1657 @@
+{
+  "event_id": "jai_corp_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "96.62",
+    "high": "98.58",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹96.62",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+            "row_ref": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+            "quote": "NSE | JAICORPLTD | HRTI PRIVATE LIMITED | SELL | 8,94,203 shares | price 96.62 | 2026-10-19"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹98.58",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+            "row_ref": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+            "quote": "NSE | JAICORPLTD | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 10,23,686 shares | price 98.58 | 2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "19 Oct 2026",
+    "sale_date_parsed": "2026-10-19",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,21,07,114 shares sold by 7 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 14,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_alphagrep_securities_private_limited",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "615974cf647559c1"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 2807851,
+          "record_ids": [
+            "615974cf647559c1"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+          "quote": "NSE | JAICORPLTD | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 28,07,851 shares | price 98.05 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "615974cf647559c1",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "28,07,851",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "275309790.55",
+          "rupees_high": "275309790.55",
+          "crore_low": "27.53",
+          "crore_high": "27.53",
+          "display": "₹27.53 crore",
+          "working": "28,07,851 shares × ₹98.05 = ₹27.53 crore (NSE 19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "28,07,851",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+                  "quote": "NSE | JAICORPLTD | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 28,07,851 shares | price 98.05 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹98.05",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+                  "quote": "NSE | JAICORPLTD | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 28,07,851 shares | price 98.05 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 2807851",
+                  "quote": "NSE | JAICORPLTD | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 28,07,851 shares | price 98.05 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 28,07,851 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_alphagrep_securities_private_limited_bought",
+      "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "ALPHAGREP SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "alphagrep securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a20fe64f06a642e1"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 2807851,
+          "record_ids": [
+            "a20fe64f06a642e1"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 2807851",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 2807851",
+          "quote": "NSE | JAICORPLTD | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 28,07,851 shares | price 97.99 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a20fe64f06a642e1",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 28,07,851 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹19.52 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "81d78e24d79010e7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 894203,
+          "record_ids": [
+            "81d78e24d79010e7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+          "quote": "NSE | JAICORPLTD | HRTI PRIVATE LIMITED | SELL | 8,94,203 shares | price 96.62 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "81d78e24d79010e7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "8,94,203",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "86397893.86",
+          "rupees_high": "86397893.86",
+          "crore_low": "8.64",
+          "crore_high": "8.64",
+          "display": "₹8.64 crore",
+          "working": "8,94,203 shares × ₹96.62 = ₹8.64 crore (NSE 19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "8,94,203",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+                  "quote": "NSE | JAICORPLTD | HRTI PRIVATE LIMITED | SELL | 8,94,203 shares | price 96.62 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹96.62",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+                  "quote": "NSE | JAICORPLTD | HRTI PRIVATE LIMITED | SELL | 8,94,203 shares | price 96.62 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · SELL · 894203",
+                  "quote": "NSE | JAICORPLTD | HRTI PRIVATE LIMITED | SELL | 8,94,203 shares | price 96.62 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 8,94,203 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_hrti_private_limited_bought",
+      "name_as_printed": "HRTI PRIVATE LIMITED",
+      "names_as_printed": [
+        "HRTI PRIVATE LIMITED"
+      ],
+      "name_clean": "hrti private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "d3c6a5a56e549ca6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1055012,
+          "record_ids": [
+            "d3c6a5a56e549ca6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · BUY · 1055012",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · HRTI PRIVATE LIMITED · BUY · 1055012",
+          "quote": "NSE | JAICORPLTD | HRTI PRIVATE LIMITED | BUY | 10,55,012 shares | price 96.75 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d3c6a5a56e549ca6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,55,012 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.71 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "HRTI PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_jump_trading_financial_india_private_limited",
+      "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED"
+      ],
+      "name_clean": "jump trading financial india private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "3f8f4d5e688b03f2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1405182,
+          "record_ids": [
+            "3f8f4d5e688b03f2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+          "quote": "NSE | JAICORPLTD | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 14,05,182 shares | price 98.36 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3f8f4d5e688b03f2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "14,05,182",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "138213701.52",
+          "rupees_high": "138213701.52",
+          "crore_low": "13.82",
+          "crore_high": "13.82",
+          "display": "₹13.82 crore",
+          "working": "14,05,182 shares × ₹98.36 = ₹13.82 crore (NSE 19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "14,05,182",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+                  "quote": "NSE | JAICORPLTD | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 14,05,182 shares | price 98.36 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹98.36",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+                  "quote": "NSE | JAICORPLTD | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 14,05,182 shares | price 98.36 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 1405182",
+                  "quote": "NSE | JAICORPLTD | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 14,05,182 shares | price 98.36 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 14,05,182 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_jump_trading_financial_india_private_limited_bought",
+      "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED"
+      ],
+      "name_clean": "jump trading financial india private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8e24629dd747b4eb"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1405182,
+          "record_ids": [
+            "8e24629dd747b4eb"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 1405182",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 1405182",
+          "quote": "NSE | JAICORPLTD | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | BUY | 14,05,182 shares | price 98 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8e24629dd747b4eb",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 14,05,182 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "fcd243a996483f14"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1434653,
+          "record_ids": [
+            "fcd243a996483f14"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+          "quote": "NSE | JAICORPLTD | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 14,34,653 shares | price 97.78 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "fcd243a996483f14",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "14,34,653",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "140280370.34",
+          "rupees_high": "140280370.34",
+          "crore_low": "14.03",
+          "crore_high": "14.03",
+          "display": "₹14.03 crore",
+          "working": "14,34,653 shares × ₹97.78 = ₹14.03 crore (NSE 19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "14,34,653",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+                  "quote": "NSE | JAICORPLTD | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 14,34,653 shares | price 97.78 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹97.78",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+                  "quote": "NSE | JAICORPLTD | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 14,34,653 shares | price 97.78 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 1434653",
+                  "quote": "NSE | JAICORPLTD | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 14,34,653 shares | price 97.78 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 14,34,653 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_junomoneta_finsol_private_limited_bought",
+      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUNOMONETA FINSOL PRIVATE LIMITED"
+      ],
+      "name_clean": "junomoneta finsol private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6375d3d3d568e1eb"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1430499,
+          "record_ids": [
+            "6375d3d3d568e1eb"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 1430499",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 1430499",
+          "quote": "NSE | JAICORPLTD | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 14,30,499 shares | price 97.73 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6375d3d3d568e1eb",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 14,30,499 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹12.90 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ced2f96ac27ce72d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 2295893,
+          "record_ids": [
+            "ced2f96ac27ce72d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+          "quote": "NSE | JAICORPLTD | MICROCURVES TRADING PRIVATE LIMITED | SELL | 22,95,893 shares | price 98.34 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ced2f96ac27ce72d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "22,95,893",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "225778117.62",
+          "rupees_high": "225778117.62",
+          "crore_low": "22.58",
+          "crore_high": "22.58",
+          "display": "₹22.58 crore",
+          "working": "22,95,893 shares × ₹98.34 = ₹22.58 crore (NSE 19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "22,95,893",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+                  "quote": "NSE | JAICORPLTD | MICROCURVES TRADING PRIVATE LIMITED | SELL | 22,95,893 shares | price 98.34 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹98.34",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+                  "quote": "NSE | JAICORPLTD | MICROCURVES TRADING PRIVATE LIMITED | SELL | 22,95,893 shares | price 98.34 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · SELL · 2295893",
+                  "quote": "NSE | JAICORPLTD | MICROCURVES TRADING PRIVATE LIMITED | SELL | 22,95,893 shares | price 98.34 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 22,95,893 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_microcurves_trading_private_limited_bought",
+      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MICROCURVES TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "microcurves trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "b587941bd04f4228"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 2295893,
+          "record_ids": [
+            "b587941bd04f4228"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · BUY · 2295893",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · MICROCURVES TRADING PRIVATE LIMITED · BUY · 2295893",
+          "quote": "NSE | JAICORPLTD | MICROCURVES TRADING PRIVATE LIMITED | BUY | 22,95,893 shares | price 98.25 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b587941bd04f4228",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 22,95,893 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6e075310ef231b6d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1023686,
+          "record_ids": [
+            "6e075310ef231b6d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+          "quote": "NSE | JAICORPLTD | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 10,23,686 shares | price 98.58 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6e075310ef231b6d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "10,23,686",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "100914965.88",
+          "rupees_high": "100914965.88",
+          "crore_low": "10.09",
+          "crore_high": "10.09",
+          "display": "₹10.09 crore",
+          "working": "10,23,686 shares × ₹98.58 = ₹10.09 crore (NSE 19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "10,23,686",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+                  "quote": "NSE | JAICORPLTD | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 10,23,686 shares | price 98.58 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹98.58",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+                  "quote": "NSE | JAICORPLTD | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 10,23,686 shares | price 98.58 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 1023686",
+                  "quote": "NSE | JAICORPLTD | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 10,23,686 shares | price 98.58 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 10,23,686 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a6e4febb09770c5b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1023686,
+          "record_ids": [
+            "a6e4febb09770c5b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 1023686",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 1023686",
+          "quote": "NSE | JAICORPLTD | NK SECURITIES RESEARCH PRIVATE LIMITED | BUY | 10,23,686 shares | price 98.53 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a6e4febb09770c5b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,23,686 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "cd459737477d9189"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 2245646,
+          "record_ids": [
+            "cd459737477d9189"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+          "quote": "NSE | JAICORPLTD | QE SECURITIES LLP | SELL | 22,45,646 shares | price 97.5 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cd459737477d9189",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "22,45,646",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "218950485.0",
+          "rupees_high": "218950485.0",
+          "crore_low": "21.90",
+          "crore_high": "21.90",
+          "display": "₹21.90 crore",
+          "working": "22,45,646 shares × ₹97.5 = ₹21.90 crore (NSE 19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "22,45,646",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+                  "quote": "NSE | JAICORPLTD | QE SECURITIES LLP | SELL | 22,45,646 shares | price 97.5 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹97.5",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+                  "quote": "NSE | JAICORPLTD | QE SECURITIES LLP | SELL | 22,45,646 shares | price 97.5 | 2026-10-19"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "trade_date": "2026-10-19",
+          "settles_on": "2026-10-20",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "19 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+                  "row_ref": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · SELL · 2245646",
+                  "quote": "NSE | JAICORPLTD | QE SECURITIES LLP | SELL | 22,45,646 shares | price 97.5 | 2026-10-19"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 22,45,646 shares in a bulk deal on 19 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "3aa2cf172d452ce4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 2268327,
+          "record_ids": [
+            "3aa2cf172d452ce4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · BUY · 2268327",
+          "row_ref": "19-OCT-2026 · JAICORPLTD · QE SECURITIES LLP · BUY · 2268327",
+          "quote": "NSE | JAICORPLTD | QE SECURITIES LLP | BUY | 22,68,327 shares | price 97.49 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3aa2cf172d452ce4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 22,68,327 shares in a bulk deal on 19 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 14,
+    "by_holder_type": {
+      "entity": 14
+    },
+    "by_confidence": {
+      "high": 14
+    },
+    "sellers": 7,
+    "sellers_unverified": 0,
+    "buyers": 7,
+    "proceeds_computed": 7,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 14
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 14,
+    "follow_on_matches": 20
+  }
+}

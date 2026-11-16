@@ -1,0 +1,103 @@
+{
+  "event_id": "mk_sons_fine_jewels_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_natvarsinh_t_chavda",
+      "name_as_printed": "NATVARSINH T CHAVDA",
+      "fields": {
+        "name": "NATVARSINH T CHAVDA",
+        "role": "unknown",
+        "why_money": "sold 12,41,746 shares in bulk deals on 4 Nov 2026 and 5 Nov 2026",
+        "amount": "₹20.40 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹20.40 crore (8,82,605 shares × ₹165.59 = ₹14.62 crore (NSE 04-NOV-2026 · MKJEWELS · NATVARSINH T CHAVDA · SELL · 882605); 3,59,141 shares × ₹160.97 = ₹5.78 crore (NSE 05-NOV-2026 · MKJEWELS · NATVARSINH T CHAVDA · SELL · 359141); total ₹20.40 crore)",
+        "family_link": "'NATVARSINH T CHAVDA' and 'NATVARSINH T CHAVDA' share surname 'chavda' and middle name 't'"
+      },
+      "placeholders": {
+        "name": "NATVARSINH T CHAVDA",
+        "role": "unknown",
+        "amount": "₹20.40 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹20.40 crore",
+        "shares_offered": "12,41,746 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "NATVARSINH T CHAVDA is a holder whose role is unknown; sold shares in bulk deals, bringing in proceeds.",
+        "They sold 12,41,746 shares for ₹20.40 crore, settled settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "Family link to another holder sharing surname and middle initial; check whether they are related."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; sold shares in bulk deals, bringing in proceeds.",
+            "They sold {shares_offered} for {proceeds}, settled {timing}.",
+            "Family link to another holder sharing surname and middle initial; check whether they are related."
+          ],
+          "lines": [
+            "NATVARSINH T CHAVDA is a holder whose role is unknown; sold shares in bulk deals, bringing in proceeds.",
+            "They sold 12,41,746 shares for ₹20.40 crore, settled settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+            "Family link to another holder sharing surname and middle initial; check whether they are related."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_altab_usmanbhai_pathan",
+      "name_as_printed": "ALTAB USMANBHAI PATHAN",
+      "fields": {
+        "name": "ALTAB USMANBHAI PATHAN",
+        "role": "unknown",
+        "why_money": "sold 6,30,282 shares in a bulk deal on 4 Nov 2026",
+        "amount": "₹10.52 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹10.52 crore (6,30,282 shares × ₹166.88 = ₹10.52 crore (NSE 04-NOV-2026 · MKJEWELS · ALTAB USMANBHAI PATHAN · SELL · 630282))",
+        "family_link": "'ALTAB USMANBHAI PATHAN' and 'ALTAB USMANBHAI PATHAN' share surname 'pathan' and middle name 'usmanbhai'"
+      },
+      "placeholders": {
+        "name": "ALTAB USMANBHAI PATHAN",
+        "role": "unknown",
+        "amount": "₹10.52 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹10.52 crore",
+        "shares_offered": "6,30,282 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "ALTAB USMANBHAI PATHAN, role unknown, is coming into money after selling shares in a bulk deal.",
+        "₹10.52 crore proceeds from 6,30,282 shares, settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "Family link: shares the surname and middle name with another holder in the same deal.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "ALTAB USMANBHAI PATHAN, role unknown, is coming into money after selling shares in a bulk deal.",
+            "{amount} proceeds from {shares_offered}, {timing}.",
+            "Family link: shares the surname and middle name with another holder in the same deal.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "ALTAB USMANBHAI PATHAN, role unknown, is coming into money after selling shares in a bulk deal.",
+            "₹10.52 crore proceeds from 6,30,282 shares, settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+            "Family link: shares the surname and middle name with another holder in the same deal.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

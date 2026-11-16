@@ -1,0 +1,41 @@
+{
+  "event_id": "voler_car_bulk_deal_2026w44",
+  "run_id": "auto-voler_car_bulk_deal_2026w44-20261115T185419Z",
+  "totals": {
+    "calls": 1,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 1240,
+    "output_tokens": 118,
+    "cost_usd": 0.000183,
+    "fresh_usd": 0.000183,
+    "unpriced_calls": 0,
+    "wall_s": 2.355338749999646,
+    "callable_people": 1,
+    "cost_per_callable_usd": 0.000183,
+    "fresh_per_callable_usd": 0.000183
+  },
+  "per_person": [
+    {
+      "person_id": "p_kamal_kumar_dugar_huf",
+      "name_as_printed": "KAMAL KUMAR DUGAR HUF",
+      "cost_usd": 0.000183,
+      "fresh_usd": 0.000183,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_prognosis_securities_pvt_ltd",
+      "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_prognosis_securities_pvt_ltd_bought",
+      "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

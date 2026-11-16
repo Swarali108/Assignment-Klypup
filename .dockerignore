@@ -1,0 +1,26 @@
+# Build context for the API image (Dockerfile at the repo root). Keep secrets and local state out.
+.git
+.github
+.env
+.env.*
+**/.env
+**/.env.*
+.venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.playwright-mcp
+.streamlit
+# The web app deploys to Vercel, not in this image.
+web
+# Local app state (SQLite, session secret, PIDs, logs, backups): never shipped.
+api/state
+# Downloaded filings and parsed pages are large and machine-local; cache/llm IS shipped (free replays).
+cache/fetch
+cache/pages
+cache/runs
+# Not needed at run time.
+tests
+docs
+eval
+*.pdf

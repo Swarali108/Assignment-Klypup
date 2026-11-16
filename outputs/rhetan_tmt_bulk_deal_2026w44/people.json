@@ -1,0 +1,748 @@
+{
+  "event_id": "rhetan_tmt_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "14.78",
+    "high": "14.82",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹14.78",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+            "row_ref": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+            "quote": "NSE | RHETAN | QE SECURITIES LLP | SELL | 42,82,609 shares | price 14.78 | 2026-10-27"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹14.82",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+            "row_ref": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+            "quote": "NSE | RHETAN | JAGID VANITABEN RAJENDRAPRASAD | SELL | 64,81,504 shares | price 14.82 | 2026-10-27"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026",
+    "sale_date_parsed": "2026-10-27",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,07,64,113 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "names_as_printed": [
+        "JAGID VANITABEN RAJENDRAPRASAD"
+      ],
+      "name_clean": "jagid vanitaben rajendraprasad",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "f6d1b2b328572a10"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 6481504,
+          "record_ids": [
+            "f6d1b2b328572a10"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+          "row_ref": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+          "quote": "NSE | RHETAN | JAGID VANITABEN RAJENDRAPRASAD | SELL | 64,81,504 shares | price 14.82 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f6d1b2b328572a10",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "64,81,504",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "96055889.28",
+          "rupees_high": "96055889.28",
+          "crore_low": "9.61",
+          "crore_high": "9.61",
+          "display": "₹9.61 crore",
+          "working": "64,81,504 shares × ₹14.82 = ₹9.61 crore (NSE 27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "64,81,504",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+                  "row_ref": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+                  "quote": "NSE | RHETAN | JAGID VANITABEN RAJENDRAPRASAD | SELL | 64,81,504 shares | price 14.82 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹14.82",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+                  "row_ref": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+                  "quote": "NSE | RHETAN | JAGID VANITABEN RAJENDRAPRASAD | SELL | 64,81,504 shares | price 14.82 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+                  "row_ref": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504",
+                  "quote": "NSE | RHETAN | JAGID VANITABEN RAJENDRAPRASAD | SELL | 64,81,504 shares | price 14.82 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 64,81,504 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JAGID VANITABEN RAJENDRAPRASAD' / 'JAGID VANITABEN RAJENDRAPRASAD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad_bought",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "names_as_printed": [
+        "JAGID VANITABEN RAJENDRAPRASAD"
+      ],
+      "name_clean": "jagid vanitaben rajendraprasad",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "06ee5f042e33c89d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 6275517,
+          "record_ids": [
+            "06ee5f042e33c89d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · BUY · 6275517",
+          "row_ref": "27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · BUY · 6275517",
+          "quote": "NSE | RHETAN | JAGID VANITABEN RAJENDRAPRASAD | BUY | 62,75,517 shares | price 14.8 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "06ee5f042e33c89d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 62,75,517 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "eventions_bulk_deal_2026w43",
+          "company": "Eventions Limited",
+          "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JAGID VANITABEN RAJENDRAPRASAD' / 'JAGID VANITABEN RAJENDRAPRASAD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "9725db59fb8e211d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 4282609,
+          "record_ids": [
+            "9725db59fb8e211d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+          "row_ref": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+          "quote": "NSE | RHETAN | QE SECURITIES LLP | SELL | 42,82,609 shares | price 14.78 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9725db59fb8e211d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "42,82,609",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "63296961.02",
+          "rupees_high": "63296961.02",
+          "crore_low": "6.33",
+          "crore_high": "6.33",
+          "display": "₹6.33 crore",
+          "working": "42,82,609 shares × ₹14.78 = ₹6.33 crore (NSE 27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "42,82,609",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+                  "row_ref": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+                  "quote": "NSE | RHETAN | QE SECURITIES LLP | SELL | 42,82,609 shares | price 14.78 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹14.78",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+                  "row_ref": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+                  "quote": "NSE | RHETAN | QE SECURITIES LLP | SELL | 42,82,609 shares | price 14.78 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+                  "row_ref": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · SELL · 4282609",
+                  "quote": "NSE | RHETAN | QE SECURITIES LLP | SELL | 42,82,609 shares | price 14.78 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 42,82,609 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ed4b8567f0e30a32"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 4262279,
+          "record_ids": [
+            "ed4b8567f0e30a32"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · BUY · 4262279",
+          "row_ref": "27-OCT-2026 · RHETAN · QE SECURITIES LLP · BUY · 4262279",
+          "quote": "NSE | RHETAN | QE SECURITIES LLP | BUY | 42,62,279 shares | price 14.84 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ed4b8567f0e30a32",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 42,62,279 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "JAGID VANITABEN RAJENDRAPRASAD",
+        "JAGID VANITABEN RAJENDRAPRASAD"
+      ],
+      "reasons": [
+        "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 22
+  }
+}

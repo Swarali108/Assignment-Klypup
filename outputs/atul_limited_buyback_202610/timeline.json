@@ -1,0 +1,48 @@
+{
+  "run_id": "auto-atul_limited_buyback_202610-20261116T010803Z",
+  "total_s": 0.6177337080007419,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.22665629198309034,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.18138249998446554,
+      "calls": 4,
+      "cached": 4,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.06406487489584833,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0357857090421021,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.03652583295479417,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "report",
+      "seconds": 0.0419725839747116,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

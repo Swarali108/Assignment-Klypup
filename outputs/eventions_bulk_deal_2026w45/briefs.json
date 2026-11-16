@@ -1,0 +1,55 @@
+{
+  "event_id": "eventions_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "fields": {
+        "name": "JAGID VANITABEN RAJENDRAPRASAD",
+        "role": "unknown",
+        "why_money": "sold 4,95,600 shares in a bulk deal on 3 Nov 2026",
+        "amount": "₹2.68 crore",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "event_age": "12 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.68 crore (4,95,600 shares × ₹53.99 = ₹2.68 crore (NSE 03-NOV-2026 · EVENTIONS · JAGID VANITABEN RAJENDRAPRASAD · SELL · 495600))"
+      },
+      "placeholders": {
+        "name": "JAGID VANITABEN RAJENDRAPRASAD",
+        "role": "unknown",
+        "amount": "₹2.68 crore",
+        "timing": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "proceeds": "₹2.68 crore",
+        "shares_offered": "4,95,600 shares",
+        "event_age": "12 days ago"
+      },
+      "lines": [
+        "JAGID VANITABEN RAJENDRAPRASAD sold 4,95,600 shares in a bulk deal, so proceeds are coming to them.",
+        "They are receiving ₹2.68 crore, settled settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago).",
+        "Ask about their next steps for the ₹2.68 crore now that it has settled.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so proceeds are coming to them.",
+            "They are receiving {amount}, settled {timing}.",
+            "Ask about their next steps for the {amount} now that it has settled.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "JAGID VANITABEN RAJENDRAPRASAD sold 4,95,600 shares in a bulk deal, so proceeds are coming to them.",
+            "They are receiving ₹2.68 crore, settled settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago).",
+            "Ask about their next steps for the ₹2.68 crore now that it has settled.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

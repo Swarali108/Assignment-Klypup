@@ -1,0 +1,55 @@
+{
+  "event_id": "mobilise_app_lab_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_maahir_consultants",
+      "name_as_printed": "MAAHIR CONSULTANTS",
+      "fields": {
+        "name": "MAAHIR CONSULTANTS",
+        "role": "unknown",
+        "why_money": "sold 62,400 shares in a bulk deal on 8 Nov 2026",
+        "amount": "₹75.50 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹75.50 lakh (62,400 shares × ₹121 = ₹75.50 lakh (NSE 08-NOV-2026 · MOBILISE · MAAHIR CONSULTANTS · SELL · 62400))"
+      },
+      "placeholders": {
+        "name": "MAAHIR CONSULTANTS",
+        "role": "unknown",
+        "amount": "₹75.50 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹75.50 lakh",
+        "shares_offered": "62,400 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "MAAHIR CONSULTANTS sold 62,400 shares in a bulk deal, so money is coming to them from that sale.",
+        "They receive ₹75.50 lakh, settled settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+        "Ask whether the ₹75.50 lakh from this sale changes their plans, since the sale was recent and 7 days ago.",
+        "Their role is unknown, so confirm who the decision-maker is before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "They receive {amount}, settled {timing}.",
+            "Ask whether the {proceeds} from this sale changes their plans, since the sale was recent and {event_age}.",
+            "Their role is unknown, so confirm who the decision-maker is before the call."
+          ],
+          "lines": [
+            "MAAHIR CONSULTANTS sold 62,400 shares in a bulk deal, so money is coming to them from that sale.",
+            "They receive ₹75.50 lakh, settled settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+            "Ask whether the ₹75.50 lakh from this sale changes their plans, since the sale was recent and 7 days ago.",
+            "Their role is unknown, so confirm who the decision-maker is before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

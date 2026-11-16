@@ -1,0 +1,24 @@
+# Project: Money-event → RM call list engine (FDE intern assignment)
+
+Goal: given a real Indian money event (IPO, acquisition, buyback, etc.), return a ranked list of
+people a wealth-firm RM should call. Each person gets: name and role (as the source states them),
+why they got money, a ₹ range with working shown, timing, confidence (kept separate from amount),
+evidence links, and a 3–4 line RM brief.
+
+HARD RULES — never break these:
+1. Never invent a number, name, date, or regulation. Every figure comes from a source document
+   (URL + page number) or is labelled ESTIMATE with the formula shown.
+2. No hard-coding of specific companies, events, or people anywhere in code or prompts.
+   The system will be tested live on an event nobody has seen.
+3. Every LLM call goes through llm_call() in tools/llm.py, which logs cost.
+   Never call a model SDK directly anywhere else.
+4. Every network fetch goes through tools/fetch.py, which caches by URL + content hash.
+5. Plain Python only. No agent frameworks. Use code instead of an LLM wherever the task is
+   deterministic (parsing, arithmetic, matching, ranking).
+6. Public data only. No LinkedIn. Don't scrape any site whose terms forbid it — if unsure,
+   stop and ask me. Never collect phone numbers, personal emails, or home addresses.
+7. If you're unsure about a fact or regulation (e.g., SEBI lock-in periods), do NOT fill it in
+   from memory. Leave a clearly marked TODO saying what needs checking and where.
+8. Keep functions small with a docstring each. I must be able to explain every line on a call.
+9. After every task, end your reply with:
+   (a) files changed, (b) assumptions you made, (c) what could break on an unseen event.

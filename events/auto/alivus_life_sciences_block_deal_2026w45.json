@@ -1,0 +1,29 @@
+{
+  "event_id": "alivus_life_sciences_block_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "Alivus Life Sciences Ltd",
+  "documents": [],
+  "records": [
+    "1300a5f3b07f8468",
+    "4ed16b94c25ff5c2",
+    "9d1aab7f5fe48754",
+    "a3a0e4a66ad16c68",
+    "a536851bef516ecb",
+    "a936929c8e2ac8f8",
+    "a939988f88e85504",
+    "a983fed20fc704fd",
+    "cdc0d189ad043682",
+    "d076cb97513e3a48",
+    "e10bf26d4613e018",
+    "ef5244f360ee9b8b"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-06",
+  "discovery": {
+    "sources": [
+      "nse_block_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

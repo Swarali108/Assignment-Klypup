@@ -1,0 +1,52 @@
+{
+  "event_id": "apsis_aerocom_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kashmira_ajay_patel",
+      "name_as_printed": "KASHMIRA AJAY PATEL",
+      "fields": {
+        "name": "KASHMIRA AJAY PATEL",
+        "role": "unknown",
+        "why_money": "sold 1,60,000 shares in a bulk deal on 6 Nov 2026",
+        "amount": "₹7.49 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹7.49 crore (1,60,000 shares × ₹468.18 = ₹7.49 crore (NSE 06-NOV-2026 · APSISAERO · KASHMIRA AJAY PATEL · SELL · 160000))"
+      },
+      "placeholders": {
+        "name": "KASHMIRA AJAY PATEL",
+        "role": "unknown",
+        "amount": "₹7.49 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹7.49 crore",
+        "shares_offered": "1,60,000 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "KASHMIRA AJAY PATEL sold 1,60,000 shares in an NSE bulk deal, so money is coming to them from that sale.",
+        "Proceeds of ₹7.49 crore were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "Role is unknown, so confirm their position before discussing next steps on this sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in an NSE bulk deal, so money is coming to them from that sale.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Role is unknown, so confirm their position before discussing next steps on this sale."
+          ],
+          "lines": [
+            "KASHMIRA AJAY PATEL sold 1,60,000 shares in an NSE bulk deal, so money is coming to them from that sale.",
+            "Proceeds of ₹7.49 crore were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+            "Role is unknown, so confirm their position before discussing next steps on this sale."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

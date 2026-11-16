@@ -1,0 +1,29 @@
+{
+  "event_id": "ikio_technologies_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "IKIO Technologies Limited",
+  "documents": [],
+  "records": [
+    "125e3785bcccaf43",
+    "1a668e9e20797386",
+    "35c8a118c2f5dff2",
+    "3cac57d01463ae07",
+    "4480662d5502ba8f",
+    "44c6842311c8ba06",
+    "5865b6c0d4794e10",
+    "5ffde2ca180f3f96",
+    "9b3aa3ebbd21c3c7",
+    "d12d4e3e1c6a8070",
+    "d79dc1fdbfad45dd",
+    "d8e76e7189f6b7d8"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-06",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

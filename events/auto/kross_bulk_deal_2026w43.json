@@ -1,0 +1,39 @@
+{
+  "event_id": "kross_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Kross Limited",
+  "documents": [],
+  "records": [
+    "2c7c63de7cf4717c",
+    "34ea7a696bc7da4c",
+    "37f6a5fffd4b7bcd",
+    "4859fa5674e2ae90",
+    "5f0e1012a13b1945",
+    "64ef40fd1ba0b1b0",
+    "65542097bbcc2867",
+    "70013f156c997abf",
+    "918ef9505efe9521",
+    "9b5cd04c6e97e809",
+    "a58afde9125fde7d",
+    "aa28f3beeddbba31",
+    "b5f408d2a0e89aa0",
+    "b919d954e6ac5eed",
+    "bdbc5f88223b4169",
+    "ca0d665137dd0da8",
+    "d0df4c7c2c9960e5",
+    "d17f5b4bc5790bc0",
+    "d185afadd9b02a40",
+    "dbab8fe2a5ca5b66",
+    "edcd0914c76a2960",
+    "f3fc89049e22b4bd"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-23",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

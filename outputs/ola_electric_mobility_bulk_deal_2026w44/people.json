@@ -1,0 +1,981 @@
+{
+  "event_id": "ola_electric_mobility_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "1.31",
+    "high": "36.08",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹1.31",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+            "row_ref": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+            "quote": "NSE | OLAELEC-RE | VANGUARD ESG INTERNATIONAL STOCK ETF | SELL | 57,05,325 shares | price 1.31 | 2026-10-26"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹36.08",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+            "row_ref": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+            "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,42,66,211 shares | price 36.08 | 2026-10-28"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "26 Oct 2026 to 28 Oct 2026",
+    "sale_date_parsed": "2026-10-28",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "8,47,69,085 shares sold by 4 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 9,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_jump_trading_financial_india_private_limited",
+      "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED"
+      ],
+      "name_clean": "jump trading financial india private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "f16fcce7c93726e0",
+        "5b897436d143ec84"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 23557236,
+          "record_ids": [
+            "f16fcce7c93726e0"
+          ]
+        },
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 24266211,
+          "record_ids": [
+            "5b897436d143ec84"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236",
+          "row_ref": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236",
+          "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,35,57,236 shares | price 33.16 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f16fcce7c93726e0",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+          "row_ref": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+          "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,42,66,211 shares | price 36.08 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5b897436d143ec84",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,78,23,447",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1656682838.64",
+          "rupees_high": "1656682838.64",
+          "crore_low": "165.67",
+          "crore_high": "165.67",
+          "display": "₹165.67 crore",
+          "working": "2,35,57,236 shares × ₹33.16 = ₹78.12 crore (NSE 27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236); 2,42,66,211 shares × ₹36.08 = ₹87.55 crore (NSE 28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211); total ₹165.67 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,35,57,236",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236",
+                  "row_ref": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236",
+                  "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,35,57,236 shares | price 33.16 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹33.16",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236",
+                  "row_ref": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 23557236",
+                  "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,35,57,236 shares | price 33.16 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "2,42,66,211",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+                  "row_ref": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+                  "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,42,66,211 shares | price 36.08 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹36.08",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+                  "row_ref": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+                  "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,42,66,211 shares | price 36.08 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+                  "row_ref": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 24266211",
+                  "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 2,42,66,211 shares | price 36.08 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 4,78,23,447 shares in bulk deals on 27 Oct 2026 and 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹108.73 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.82 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_jump_trading_financial_india_private_limited_bought",
+      "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED"
+      ],
+      "name_clean": "jump trading financial india private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1f60d583ba7e768d",
+        "f4213a149e88e7d7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 23305798,
+          "record_ids": [
+            "1f60d583ba7e768d"
+          ]
+        },
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 24153106,
+          "record_ids": [
+            "f4213a149e88e7d7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 23305798",
+          "row_ref": "27-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 23305798",
+          "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | BUY | 2,33,05,798 shares | price 33.06 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1f60d583ba7e768d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 24153106",
+          "row_ref": "28-OCT-2026 · OLAELEC · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 24153106",
+          "quote": "NSE | OLAELEC | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | BUY | 2,41,53,106 shares | price 36.16 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f4213a149e88e7d7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,74,58,904 shares in bulk deals on 27 Oct 2026 and 28 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹108.73 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.82 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_krone_finstock_private_limited_bought",
+      "name_as_printed": "KRONE FINSTOCK PRIVATE LIMITED",
+      "names_as_printed": [
+        "KRONE FINSTOCK PRIVATE LIMITED"
+      ],
+      "name_clean": "krone finstock private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9ee0b7ec1fed920d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 2000000,
+          "record_ids": [
+            "9ee0b7ec1fed920d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · OLAELEC-RE · KRONE FINSTOCK PRIVATE LIMITED · BUY · 2000000",
+          "row_ref": "26-OCT-2026 · OLAELEC-RE · KRONE FINSTOCK PRIVATE LIMITED · BUY · 2000000",
+          "quote": "NSE | OLAELEC-RE | KRONE FINSTOCK PRIVATE LIMITED | BUY | 20,00,000 shares | price 1.31 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9ee0b7ec1fed920d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 20,00,000 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_oem_employees_welfare_trust",
+      "name_as_printed": "OEM EMPLOYEES WELFARE TRUST",
+      "names_as_printed": [
+        "OEM EMPLOYEES WELFARE TRUST"
+      ],
+      "name_clean": "oem employees welfare trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "9c2e77b42c0e90e8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 7525682,
+          "record_ids": [
+            "9c2e77b42c0e90e8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+          "row_ref": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+          "quote": "NSE | OLAELEC-RE | OEM EMPLOYEES WELFARE TRUST | SELL | 75,25,682 shares | price 1.31 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9c2e77b42c0e90e8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "75,25,682",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "9858643.42",
+          "rupees_high": "9858643.42",
+          "crore_low": "0.99",
+          "crore_high": "0.99",
+          "display": "₹98.59 lakh",
+          "working": "75,25,682 shares × ₹1.31 = ₹98.59 lakh (NSE 26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "75,25,682",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+                  "quote": "NSE | OLAELEC-RE | OEM EMPLOYEES WELFARE TRUST | SELL | 75,25,682 shares | price 1.31 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1.31",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+                  "quote": "NSE | OLAELEC-RE | OEM EMPLOYEES WELFARE TRUST | SELL | 75,25,682 shares | price 1.31 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · OEM EMPLOYEES WELFARE TRUST · SELL · 7525682",
+                  "quote": "NSE | OLAELEC-RE | OEM EMPLOYEES WELFARE TRUST | SELL | 75,25,682 shares | price 1.31 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 75,25,682 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_param_capital_bought",
+      "name_as_printed": "PARAM CAPITAL",
+      "names_as_printed": [
+        "PARAM CAPITAL"
+      ],
+      "name_clean": "param capital",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'capital' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "3bfc07858b5f3eb4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 21750000,
+          "record_ids": [
+            "3bfc07858b5f3eb4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · OLAELEC-RE · PARAM CAPITAL · BUY · 21750000",
+          "row_ref": "26-OCT-2026 · OLAELEC-RE · PARAM CAPITAL · BUY · 21750000",
+          "quote": "NSE | OLAELEC-RE | PARAM CAPITAL | BUY | 2,17,50,000 shares | price 1.31 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3bfc07858b5f3eb4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,17,50,000 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_svf_ii_ostrich_de_llc",
+      "name_as_printed": "SVF II OSTRICH (DE) LLC",
+      "names_as_printed": [
+        "SVF II OSTRICH (DE) LLC"
+      ],
+      "name_clean": "svf ii ostrich (de) llc",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llc'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "8c2533eafb39caa3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 23714631,
+          "record_ids": [
+            "8c2533eafb39caa3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+          "row_ref": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+          "quote": "NSE | OLAELEC-RE | SVF II OSTRICH (DE) LLC | SELL | 2,37,14,631 shares | price 1.32 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8c2533eafb39caa3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,37,14,631",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "31303312.92",
+          "rupees_high": "31303312.92",
+          "crore_low": "3.13",
+          "crore_high": "3.13",
+          "display": "₹3.13 crore",
+          "working": "2,37,14,631 shares × ₹1.32 = ₹3.13 crore (NSE 26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,37,14,631",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+                  "quote": "NSE | OLAELEC-RE | SVF II OSTRICH (DE) LLC | SELL | 2,37,14,631 shares | price 1.32 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1.32",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+                  "quote": "NSE | OLAELEC-RE | SVF II OSTRICH (DE) LLC | SELL | 2,37,14,631 shares | price 1.32 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · SVF II OSTRICH (DE) LLC · SELL · 23714631",
+                  "quote": "NSE | OLAELEC-RE | SVF II OSTRICH (DE) LLC | SELL | 2,37,14,631 shares | price 1.32 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 2,37,14,631 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ola_electric_mobility_bulk_deal_2026w43",
+          "company": "Ola Electric Mobility Ltd",
+          "name_as_printed": "SVF II OSTRICH (DE) LLC",
+          "role": null,
+          "amount": "₹3.89 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SVF II OSTRICH (DE) LLC' / 'SVF II OSTRICH (DE) LLC'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vanguard_esg_international_stock_etf",
+      "name_as_printed": "VANGUARD ESG INTERNATIONAL STOCK ETF",
+      "names_as_printed": [
+        "VANGUARD ESG INTERNATIONAL STOCK ETF"
+      ],
+      "name_clean": "vanguard esg international stock etf",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'international' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "34fd4aeb481eb534"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 5705325,
+          "record_ids": [
+            "34fd4aeb481eb534"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+          "row_ref": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+          "quote": "NSE | OLAELEC-RE | VANGUARD ESG INTERNATIONAL STOCK ETF | SELL | 57,05,325 shares | price 1.31 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "34fd4aeb481eb534",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "57,05,325",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "7473975.75",
+          "rupees_high": "7473975.75",
+          "crore_low": "0.75",
+          "crore_high": "0.75",
+          "display": "₹74.74 lakh",
+          "working": "57,05,325 shares × ₹1.31 = ₹74.74 lakh (NSE 26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "57,05,325",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+                  "quote": "NSE | OLAELEC-RE | VANGUARD ESG INTERNATIONAL STOCK ETF | SELL | 57,05,325 shares | price 1.31 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1.31",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+                  "quote": "NSE | OLAELEC-RE | VANGUARD ESG INTERNATIONAL STOCK ETF | SELL | 57,05,325 shares | price 1.31 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+                  "row_ref": "26-OCT-2026 · OLAELEC-RE · VANGUARD ESG INTERNATIONAL STOCK ETF · SELL · 5705325",
+                  "quote": "NSE | OLAELEC-RE | VANGUARD ESG INTERNATIONAL STOCK ETF | SELL | 57,05,325 shares | price 1.31 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 57,05,325 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 7,
+    "by_holder_type": {
+      "entity": 7
+    },
+    "by_confidence": {
+      "high": 7
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 4,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 7
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 7,
+    "follow_on_matches": 9
+  }
+}

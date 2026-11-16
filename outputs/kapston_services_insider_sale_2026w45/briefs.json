@@ -1,0 +1,65 @@
+{
+  "event_id": "kapston_services_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_srikanth_kodali",
+      "name_as_printed": "SRIKANTH KODALI",
+      "fields": {
+        "name": "SRIKANTH KODALI",
+        "role": "Promoter",
+        "why_money": "sold 1,04,265 shares (Market Sale) on 2 Nov 2026 and 4 Nov 2026",
+        "amount": "₹5.04 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.04 crore (88,000 shares, value as printed ₹4.23 crore (NSE XBRL context Disclosure1); 16,265 shares, value as printed ₹81.57 lakh (NSE XBRL context Disclosure1); total ₹5.04 crore)"
+      },
+      "placeholders": {
+        "name": "SRIKANTH KODALI",
+        "role": "Promoter",
+        "amount": "₹5.04 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹5.04 crore",
+        "shares_offered": "1,04,265 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "SRIKANTH KODALI is a Promoter who sold 1,04,265 shares in market sales, so money is coming to them.",
+        "Proceeds of ₹5.04 crore settled settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "Ask how they plan to use the proceeds now that the sale is 13 days ago."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in market sales, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Ask whether they plan to hold the rest of their stake, noting they still keep {retained_shares}."
+          ],
+          "lines": [
+            "{name} is a {role} who sold {shares_offered} in market sales, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Ask whether they plan to hold the rest of their stake, noting they still keep {retained_shares}."
+          ],
+          "problem": "unknown placeholders: {retained_shares}"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in market sales, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Ask how they plan to use the proceeds now that the sale is {event_age}."
+          ],
+          "lines": [
+            "SRIKANTH KODALI is a Promoter who sold 1,04,265 shares in market sales, so money is coming to them.",
+            "Proceeds of ₹5.04 crore settled settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+            "Ask how they plan to use the proceeds now that the sale is 13 days ago."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "event_id": "voler_car_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kamal_kumar_dugar_huf",
+      "name_as_printed": "KAMAL KUMAR DUGAR HUF",
+      "fields": {
+        "name": "KAMAL KUMAR DUGAR HUF",
+        "role": "unknown",
+        "why_money": "sold 1,04,800 shares in a bulk deal on 27 Oct 2026",
+        "amount": "₹2.96 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.96 crore (1,04,800 shares × ₹282.8 = ₹2.96 crore (NSE 27-OCT-2026 · VOLERCAR · KAMAL KUMAR DUGAR HUF · SELL · 104800))"
+      },
+      "placeholders": {
+        "name": "KAMAL KUMAR DUGAR HUF",
+        "role": "unknown",
+        "amount": "₹2.96 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹2.96 crore",
+        "shares_offered": "1,04,800 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "KAMAL KUMAR DUGAR HUF is a holder whose role is unknown, receiving money from a stock sale.",
+        "₹2.96 crore from 1,04,800 shares sold in a bulk deal, settled 19 days ago.",
+        "Ask whether the sale was planned and what they intend for the remaining holding.",
+        "Role is unknown, so confirm who within the family handles this account."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a stock sale.",
+            "{proceeds} from {shares_offered} sold in a bulk deal, settled {event_age}.",
+            "Ask whether the sale was planned and what they intend for the remaining holding.",
+            "Role is unknown, so confirm who within the family handles this account."
+          ],
+          "lines": [
+            "KAMAL KUMAR DUGAR HUF is a holder whose role is unknown, receiving money from a stock sale.",
+            "₹2.96 crore from 1,04,800 shares sold in a bulk deal, settled 19 days ago.",
+            "Ask whether the sale was planned and what they intend for the remaining holding.",
+            "Role is unknown, so confirm who within the family handles this account."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

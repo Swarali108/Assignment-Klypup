@@ -1,0 +1,58 @@
+{
+  "event_id": "devinsu_trading_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_deniis_desai",
+      "name_as_printed": "Mr. Deniis Desai",
+      "fields": {
+        "name": "Mr. Deniis Desai",
+        "role": "Promoter",
+        "why_money": "sold 1,71,493 shares (Off Market) on 29 Oct 2026",
+        "amount": "₹6.09 crore",
+        "timing": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+        "event": "proceeds, timing unknown",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹6.09 crore (1,71,493 shares, value as printed ₹6.09 crore (BSE Fld_ID 165462 · Mr. Deniis Desai))",
+        "unknowns": [
+          "timing: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date"
+        ]
+      },
+      "placeholders": {
+        "name": "Mr. Deniis Desai",
+        "role": "Promoter",
+        "amount": "₹6.09 crore",
+        "timing": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+        "proceeds": "₹6.09 crore",
+        "shares_offered": "1,71,493 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "Mr. Deniis Desai is a Promoter, and money is coming to them from a recent share sale.",
+        "Proceeds of ₹6.09 crore from selling 1,71,493 shares, received 18 days ago.",
+        "Their share sale was off-market, so a conversation about next steps could start from that liquidity.",
+        "Timing is unknown: the transfer was paid directly between the parties with no exchange settlement date."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Mr. Deniis Desai is a Promoter, and money is coming to them from a recent share sale.",
+            "Proceeds of {proceeds} from selling {shares_offered}, received {event_age}.",
+            "Their share sale was off-market, so a conversation about next steps could start from that liquidity.",
+            "Timing is unknown: the transfer was paid directly between the parties with no exchange settlement date."
+          ],
+          "lines": [
+            "Mr. Deniis Desai is a Promoter, and money is coming to them from a recent share sale.",
+            "Proceeds of ₹6.09 crore from selling 1,71,493 shares, received 18 days ago.",
+            "Their share sale was off-market, so a conversation about next steps could start from that liquidity.",
+            "Timing is unknown: the transfer was paid directly between the parties with no exchange settlement date."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

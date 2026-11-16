@@ -1,0 +1,42 @@
+{
+  "event_id": "hd_fire_protect_limited_ipo_202610",
+  "event_type": "ipo",
+  "company": "HD Fire Protect Limited",
+  "documents": [
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+      "doc_type": "prospectus",
+      "note": "HD Fire Protect Limited - Prospectus",
+      "from_class": "ipo_prospectus"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_ipo",
+      "sebi_prospectus"
+    ],
+    "first_seen": "2026-11-15T07:46:53+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "HD Fire Protect Limited - Prospectus",
+        "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-prospectus_105337.html",
+        "published": "Oct 16, 2026",
+        "class": "ipo_prospectus"
+      },
+      {
+        "title": "HD Fire Protect Limited - Listed on NSE on 2026-10-21 (issue price 271)",
+        "link": "https://www.nseindia.in/market-data/all-upcoming-issues-ipo#listed-HDFIRE",
+        "published": "2026-10-21",
+        "class": "listing_notice"
+      },
+      {
+        "title": "HD Fire Protect Ltd - New Listing",
+        "link": "https://www.bseindia.com/corporates/ann.html#843abfb8-f8e2-4c6b-9785-f9a3ef42ab28",
+        "published": "2026-10-21",
+        "class": "listing_notice"
+      }
+    ]
+  }
+}

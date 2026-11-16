@@ -1,0 +1,62 @@
+{
+  "event_id": "infosys_insider_sale_2026w45",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_infosys_employee_benefits_trust",
+      "name_as_printed": "Infosys Employee Benefits Trust",
+      "name_clean": "infosys employee benefits trust",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash due, date not confirmed",
+      "amount_known": true,
+      "money_now_crore": "0.06",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.015000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds, timing unknown",
+        "money_crore": "0.06",
+        "timing_status": "unknown",
+        "timing_weight": "0.25",
+        "recency_weight": "1.0",
+        "score": "0.015000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds, timing unknown",
+          "money_crore": "0.06",
+          "timing_status": "unknown",
+          "timing_weight": "0.25",
+          "recency_weight": "1.0",
+          "score": "0.015000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 574 shares (Off Market) on 3 Nov 2026",
+      "amount_display": "₹6.48 lakh",
+      "timing_display": "unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash due, date not confirmed: ₹6.48 lakh; unknown: off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.02 = ₹0.06 crore (proceeds, timing unknown) × 1.0 (high confidence) × 0.25 (timing unknown) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

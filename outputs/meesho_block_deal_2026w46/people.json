@@ -1,0 +1,2019 @@
+{
+  "event_id": "meesho_block_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "246.75",
+    "high": "246.75",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹246.75",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+            "pdf_index": null,
+            "printed_page": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+            "row_ref": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+            "quote": "NSE | MEESHO | SVF II MEERKAT (DE) LLC | SELL | 7,64,00,000 shares | price 246.75 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "7,64,00,000 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 26,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_aditya_birla_sun_life_mutual_fund_bought",
+      "name_as_printed": "ADITYA BIRLA SUN LIFE MUTUAL FUND",
+      "names_as_printed": [
+        "ADITYA BIRLA SUN LIFE MUTUAL FUND"
+      ],
+      "name_clean": "aditya birla sun life mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "3ba2131cf1078f39"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 4200000,
+          "record_ids": [
+            "3ba2131cf1078f39"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 4200000",
+          "row_ref": "13-NOV-2026 · MEESHO · ADITYA BIRLA SUN LIFE MUTUAL FUND · BUY · 4200000",
+          "quote": "NSE | MEESHO | ADITYA BIRLA SUN LIFE MUTUAL FUND | BUY | 42,00,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3ba2131cf1078f39",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 42,00,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "swiggy_block_deal_2026w44",
+          "company": "Swiggy Limited",
+          "name_as_printed": "ADITYA BIRLA SUN LIFE MUTUAL FUND",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ADITYA BIRLA SUN LIFE MUTUAL FUND' / 'ADITYA BIRLA SUN LIFE MUTUAL FUND'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_bajaj_allianz_life_insurance_company_limited_bought",
+      "name_as_printed": "BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED",
+      "names_as_printed": [
+        "BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED"
+      ],
+      "name_clean": "bajaj allianz life insurance company limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'company'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a7dea21b14470bc8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 1015000,
+          "record_ids": [
+            "a7dea21b14470bc8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED · BUY · 1015000",
+          "row_ref": "13-NOV-2026 · MEESHO · BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED · BUY · 1015000",
+          "quote": "NSE | MEESHO | BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED | BUY | 10,15,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a7dea21b14470bc8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,15,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_bnp_paribas_financial_markets_bought",
+      "name_as_printed": "BNP PARIBAS FINANCIAL MARKETS",
+      "names_as_printed": [
+        "BNP PARIBAS FINANCIAL MARKETS"
+      ],
+      "name_clean": "bnp paribas financial markets",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'financial' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a25c6edbb14e892c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 3817000,
+          "record_ids": [
+            "a25c6edbb14e892c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · BNP PARIBAS FINANCIAL MARKETS · BUY · 3817000",
+          "row_ref": "13-NOV-2026 · MEESHO · BNP PARIBAS FINANCIAL MARKETS · BUY · 3817000",
+          "quote": "NSE | MEESHO | BNP PARIBAS FINANCIAL MARKETS | BUY | 38,17,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a25c6edbb14e892c",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 38,17,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "fusion_cx_bulk_deal_2026w43",
+          "company": "Fusion CX Limited",
+          "name_as_printed": "BNP PARIBAS FINANCIAL MARKETS",
+          "role": null,
+          "amount": "₹61.12 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'BNP PARIBAS FINANCIAL MARKETS' / 'BNP PARIBAS FINANCIAL MARKETS'"
+        },
+        {
+          "event_id": "lenskart_block_deal_2026w45",
+          "company": "LENSKART",
+          "name_as_printed": "BNP PARIBAS FINANCIAL MARKETS",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'BNP PARIBAS FINANCIAL MARKETS' / 'BNP PARIBAS FINANCIAL MARKETS'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_edelweiss_mutual_fund_bought",
+      "name_as_printed": "EDELWEISS MUTUAL FUND",
+      "names_as_printed": [
+        "EDELWEISS MUTUAL FUND"
+      ],
+      "name_clean": "edelweiss mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1c4211f95dc6d9ea"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 1015000,
+          "record_ids": [
+            "1c4211f95dc6d9ea"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · EDELWEISS MUTUAL FUND · BUY · 1015000",
+          "row_ref": "13-NOV-2026 · MEESHO · EDELWEISS MUTUAL FUND · BUY · 1015000",
+          "quote": "NSE | MEESHO | EDELWEISS MUTUAL FUND | BUY | 10,15,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1c4211f95dc6d9ea",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,15,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fgtfebp_fiam_select_emerging_markets_equity_commingled_pool_bought",
+      "name_as_printed": "FGTFEBP FIAM SELECT EMERGING MARKETS EQUITY COMMINGLED POOL",
+      "names_as_printed": [
+        "FGTFEBP FIAM SELECT EMERGING MARKETS EQUITY COMMINGLED POOL"
+      ],
+      "name_clean": "fgtfebp fiam select emerging markets equity commingled pool",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'markets' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f490356145504c1e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 3847600,
+          "record_ids": [
+            "f490356145504c1e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FGTFEBP FIAM SELECT EMERGING MARKETS EQUITY COMMINGLED POOL · BUY · 3847600",
+          "row_ref": "13-NOV-2026 · MEESHO · FGTFEBP FIAM SELECT EMERGING MARKETS EQUITY COMMINGLED POOL · BUY · 3847600",
+          "quote": "NSE | MEESHO | FGTFEBP FIAM SELECT EMERGING MARKETS EQUITY COMMINGLED POOL | BUY | 38,47,600 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f490356145504c1e",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 38,47,600 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fiam_select_emerging_markets_equity_fund_lp_bought",
+      "name_as_printed": "FIAM SELECT EMERGING MARKETS EQUITY FUND LP",
+      "names_as_printed": [
+        "FIAM SELECT EMERGING MARKETS EQUITY FUND LP"
+      ],
+      "name_clean": "fiam select emerging markets equity fund lp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "df61bd8e6fb7554b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 540000,
+          "record_ids": [
+            "df61bd8e6fb7554b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIAM SELECT EMERGING MARKETS EQUITY FUND LP · BUY · 540000",
+          "row_ref": "13-NOV-2026 · MEESHO · FIAM SELECT EMERGING MARKETS EQUITY FUND LP · BUY · 540000",
+          "quote": "NSE | MEESHO | FIAM SELECT EMERGING MARKETS EQUITY FUND LP | BUY | 5,40,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "df61bd8e6fb7554b",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 5,40,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fidelity_investment_tr_fidelity_sai_sustainable_emerging_markets_equity_fd_bought",
+      "name_as_printed": "FIDELITY INVESTMENT TR FIDELITY SAI SUSTAINABLE EMERGING MARKETS EQUITY FD",
+      "names_as_printed": [
+        "FIDELITY INVESTMENT TR FIDELITY SAI SUSTAINABLE EMERGING MARKETS EQUITY FD"
+      ],
+      "name_clean": "fidelity investment tr fidelity sai sustainable emerging markets equity fd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investment' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "db80eec4bda8c229"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 137000,
+          "record_ids": [
+            "db80eec4bda8c229"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIDELITY INVESTMENT TR FIDELITY SAI SUSTAINABLE EMERGING MARKETS EQUITY FD · BUY · 137000",
+          "row_ref": "13-NOV-2026 · MEESHO · FIDELITY INVESTMENT TR FIDELITY SAI SUSTAINABLE EMERGING MARKETS EQUITY FD · BUY · 137000",
+          "quote": "NSE | MEESHO | FIDELITY INVESTMENT TR FIDELITY SAI SUSTAINABLE EMERGING MARKETS EQUITY FD | BUY | 1,37,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "db80eec4bda8c229",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,37,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fidelity_investment_trust_fidelity_series_emerging_markets_fund_bought",
+      "name_as_printed": "FIDELITY INVESTMENT TRUST FIDELITY SERIES EMERGING MARKETS FUND",
+      "names_as_printed": [
+        "FIDELITY INVESTMENT TRUST FIDELITY SERIES EMERGING MARKETS FUND"
+      ],
+      "name_clean": "fidelity investment trust fidelity series emerging markets fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f7e12e62c0d4371a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 7610300,
+          "record_ids": [
+            "f7e12e62c0d4371a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIDELITY INVESTMENT TRUST FIDELITY SERIES EMERGING MARKETS FUND · BUY · 7610300",
+          "row_ref": "13-NOV-2026 · MEESHO · FIDELITY INVESTMENT TRUST FIDELITY SERIES EMERGING MARKETS FUND · BUY · 7610300",
+          "quote": "NSE | MEESHO | FIDELITY INVESTMENT TRUST FIDELITY SERIES EMERGING MARKETS FUND | BUY | 76,10,300 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f7e12e62c0d4371a",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 76,10,300 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fidelity_investment_trust_fidelity_sustainable_emerging_markets_equity_fund_bought",
+      "name_as_printed": "FIDELITY INVESTMENT TRUST FIDELITY SUSTAINABLE EMERGING MARKETS EQUITY FUND",
+      "names_as_printed": [
+        "FIDELITY INVESTMENT TRUST FIDELITY SUSTAINABLE EMERGING MARKETS EQUITY FUND"
+      ],
+      "name_clean": "fidelity investment trust fidelity sustainable emerging markets equity fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "595c055e0e8796d6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 40000,
+          "record_ids": [
+            "595c055e0e8796d6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIDELITY INVESTMENT TRUST FIDELITY SUSTAINABLE EMERGING MARKETS EQUITY FUND · BUY · 40000",
+          "row_ref": "13-NOV-2026 · MEESHO · FIDELITY INVESTMENT TRUST FIDELITY SUSTAINABLE EMERGING MARKETS EQUITY FUND · BUY · 40000",
+          "quote": "NSE | MEESHO | FIDELITY INVESTMENT TRUST FIDELITY SUSTAINABLE EMERGING MARKETS EQUITY FUND | BUY | 40,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "595c055e0e8796d6",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 40,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fidelity_rutland_square_trust_ii_strategic_advisers_fid_emg_markets_fund_bought",
+      "name_as_printed": "FIDELITY RUTLAND SQUARE TRUST II STRATEGIC ADVISERS FID EMG MARKETS FUND",
+      "names_as_printed": [
+        "FIDELITY RUTLAND SQUARE TRUST II STRATEGIC ADVISERS FID EMG MARKETS FUND"
+      ],
+      "name_clean": "fidelity rutland square trust ii strategic advisers fid emg markets fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ade100dc262f621b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 8475900,
+          "record_ids": [
+            "ade100dc262f621b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIDELITY RUTLAND SQUARE TRUST II STRATEGIC ADVISERS FID EMG MARKETS FUND · BUY · 8475900",
+          "row_ref": "13-NOV-2026 · MEESHO · FIDELITY RUTLAND SQUARE TRUST II STRATEGIC ADVISERS FID EMG MARKETS FUND · BUY · 8475900",
+          "quote": "NSE | MEESHO | FIDELITY RUTLAND SQUARE TRUST II STRATEGIC ADVISERS FID EMG MARKETS FUND | BUY | 84,75,900 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ade100dc262f621b",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 84,75,900 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fidelity_rutland_square_trust_ii_strategic_advisers_emerging_markets_fund_bought",
+      "name_as_printed": "FIDELITY RUTLAND SQUARE TRUST II: STRATEGIC ADVISERS EMERGING MARKETS FUND",
+      "names_as_printed": [
+        "FIDELITY RUTLAND SQUARE TRUST II: STRATEGIC ADVISERS EMERGING MARKETS FUND"
+      ],
+      "name_clean": "fidelity rutland square trust ii: strategic advisers emerging markets fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9df377250919440b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 2296700,
+          "record_ids": [
+            "9df377250919440b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIDELITY RUTLAND SQUARE TRUST II: STRATEGIC ADVISERS EMERGING MARKETS FUND · BUY · 2296700",
+          "row_ref": "13-NOV-2026 · MEESHO · FIDELITY RUTLAND SQUARE TRUST II: STRATEGIC ADVISERS EMERGING MARKETS FUND · BUY · 2296700",
+          "quote": "NSE | MEESHO | FIDELITY RUTLAND SQUARE TRUST II: STRATEGIC ADVISERS EMERGING MARKETS FUND | BUY | 22,96,700 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9df377250919440b",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 22,96,700 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fidelity_select_emerging_markets_equity_institutional_trust_bought",
+      "name_as_printed": "FIDELITY SELECT EMERGING MARKETS EQUITY INSTITUTIONAL TRUST",
+      "names_as_printed": [
+        "FIDELITY SELECT EMERGING MARKETS EQUITY INSTITUTIONAL TRUST"
+      ],
+      "name_clean": "fidelity select emerging markets equity institutional trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c14b6cf095b747d8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 277500,
+          "record_ids": [
+            "c14b6cf095b747d8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · FIDELITY SELECT EMERGING MARKETS EQUITY INSTITUTIONAL TRUST · BUY · 277500",
+          "row_ref": "13-NOV-2026 · MEESHO · FIDELITY SELECT EMERGING MARKETS EQUITY INSTITUTIONAL TRUST · BUY · 277500",
+          "quote": "NSE | MEESHO | FIDELITY SELECT EMERGING MARKETS EQUITY INSTITUTIONAL TRUST | BUY | 2,77,500 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c14b6cf095b747d8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,77,500 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ghisallo_master_fund_lp_bought",
+      "name_as_printed": "GHISALLO MASTER FUND LP",
+      "names_as_printed": [
+        "GHISALLO MASTER FUND LP"
+      ],
+      "name_clean": "ghisallo master fund lp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "805721a81cac6c17"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 3435000,
+          "record_ids": [
+            "805721a81cac6c17"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · GHISALLO MASTER FUND LP · BUY · 3435000",
+          "row_ref": "13-NOV-2026 · MEESHO · GHISALLO MASTER FUND LP · BUY · 3435000",
+          "quote": "NSE | MEESHO | GHISALLO MASTER FUND LP | BUY | 34,35,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "805721a81cac6c17",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 34,35,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "swiggy_block_deal_2026w44",
+          "company": "Swiggy Limited",
+          "name_as_printed": "GHISALLO MASTER FUND LP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GHISALLO MASTER FUND LP' / 'GHISALLO MASTER FUND LP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_goldman_sachs_bank_europe_se_bought",
+      "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+      "names_as_printed": [
+        "GOLDMAN SACHS BANK EUROPE SE"
+      ],
+      "name_clean": "goldman sachs bank europe se",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1017f7388a796ba2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 3626000,
+          "record_ids": [
+            "1017f7388a796ba2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · GOLDMAN SACHS BANK EUROPE SE · BUY · 3626000",
+          "row_ref": "13-NOV-2026 · MEESHO · GOLDMAN SACHS BANK EUROPE SE · BUY · 3626000",
+          "quote": "NSE | MEESHO | GOLDMAN SACHS BANK EUROPE SE | BUY | 36,26,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1017f7388a796ba2",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 36,26,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "lenskart_block_deal_2026w45",
+          "company": "LENSKART",
+          "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GOLDMAN SACHS BANK EUROPE SE' / 'GOLDMAN SACHS BANK EUROPE SE'"
+        },
+        {
+          "event_id": "mk_sons_fine_jewels_bulk_deal_2026w46",
+          "company": "MK Sons Fine Jewels Ltd",
+          "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+          "role": null,
+          "amount": "₹4.67 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GOLDMAN SACHS BANK EUROPE SE' / 'GOLDMAN SACHS BANK EUROPE SE'"
+        },
+        {
+          "event_id": "swiggy_block_deal_2026w44",
+          "company": "Swiggy Limited",
+          "name_as_printed": "GOLDMAN SACHS BANK EUROPE SE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'GOLDMAN SACHS BANK EUROPE SE' / 'GOLDMAN SACHS BANK EUROPE SE'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_government_of_singapore_bought",
+      "name_as_printed": "GOVERNMENT OF SINGAPORE",
+      "names_as_printed": [
+        "GOVERNMENT OF SINGAPORE"
+      ],
+      "name_clean": "government of singapore",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'government' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "655676974fff7d47"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 2177506,
+          "record_ids": [
+            "655676974fff7d47"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · GOVERNMENT OF SINGAPORE · BUY · 2177506",
+          "row_ref": "13-NOV-2026 · MEESHO · GOVERNMENT OF SINGAPORE · BUY · 2177506",
+          "quote": "NSE | MEESHO | GOVERNMENT OF SINGAPORE | BUY | 21,77,506 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "655676974fff7d47",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 21,77,506 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_hdfc_mutual_fund_bought",
+      "name_as_printed": "HDFC MUTUAL FUND",
+      "names_as_printed": [
+        "HDFC MUTUAL FUND"
+      ],
+      "name_clean": "hdfc mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ddb91b14648732e8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 1410000,
+          "record_ids": [
+            "ddb91b14648732e8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · HDFC MUTUAL FUND · BUY · 1410000",
+          "row_ref": "13-NOV-2026 · MEESHO · HDFC MUTUAL FUND · BUY · 1410000",
+          "quote": "NSE | MEESHO | HDFC MUTUAL FUND | BUY | 14,10,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ddb91b14648732e8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 14,10,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_monetary_authority_of_singapore_bought",
+      "name_as_printed": "MONETARY AUTHORITY OF SINGAPORE",
+      "names_as_printed": [
+        "MONETARY AUTHORITY OF SINGAPORE"
+      ],
+      "name_clean": "monetary authority of singapore",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'singapore' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a708e45ee84a1352"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 497494,
+          "record_ids": [
+            "a708e45ee84a1352"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · MONETARY AUTHORITY OF SINGAPORE · BUY · 497494",
+          "row_ref": "13-NOV-2026 · MEESHO · MONETARY AUTHORITY OF SINGAPORE · BUY · 497494",
+          "quote": "NSE | MEESHO | MONETARY AUTHORITY OF SINGAPORE | BUY | 4,97,494 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a708e45ee84a1352",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,97,494 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_morgan_stanley_asia_singapore_pte_bought",
+      "name_as_printed": "MORGAN STANLEY ASIA SINGAPORE PTE",
+      "names_as_printed": [
+        "MORGAN STANLEY ASIA SINGAPORE PTE"
+      ],
+      "name_clean": "morgan stanley asia singapore pte",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'singapore' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5942d1c6c10dc8a2",
+        "f89210e83dc7314f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 9924000,
+          "record_ids": [
+            "5942d1c6c10dc8a2",
+            "f89210e83dc7314f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · MORGAN STANLEY ASIA SINGAPORE PTE · BUY · 4199000",
+          "row_ref": "13-NOV-2026 · MEESHO · MORGAN STANLEY ASIA SINGAPORE PTE · BUY · 4199000",
+          "quote": "NSE | MEESHO | MORGAN STANLEY ASIA SINGAPORE PTE | BUY | 41,99,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5942d1c6c10dc8a2",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · MORGAN STANLEY ASIA SINGAPORE PTE · BUY · 5725000",
+          "row_ref": "13-NOV-2026 · MEESHO · MORGAN STANLEY ASIA SINGAPORE PTE · BUY · 5725000",
+          "quote": "NSE | MEESHO | MORGAN STANLEY ASIA SINGAPORE PTE | BUY | 57,25,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f89210e83dc7314f",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 99,24,000 shares in block deals on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "swiggy_block_deal_2026w44",
+          "company": "Swiggy Limited",
+          "name_as_printed": "MORGAN STANLEY ASIA SINGAPORE PTE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MORGAN STANLEY ASIA SINGAPORE PTE' / 'MORGAN STANLEY ASIA SINGAPORE PTE'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_motilal_oswal_mutual_fund_bought",
+      "name_as_printed": "MOTILAL OSWAL MUTUAL FUND",
+      "names_as_printed": [
+        "MOTILAL OSWAL MUTUAL FUND"
+      ],
+      "name_clean": "motilal oswal mutual fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "2b49f16bef9aa0c1"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 5250000,
+          "record_ids": [
+            "2b49f16bef9aa0c1"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · MOTILAL OSWAL MUTUAL FUND · BUY · 5250000",
+          "row_ref": "13-NOV-2026 · MEESHO · MOTILAL OSWAL MUTUAL FUND · BUY · 5250000",
+          "quote": "NSE | MEESHO | MOTILAL OSWAL MUTUAL FUND | BUY | 52,50,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2b49f16bef9aa0c1",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 52,50,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aditya_infotech_block_deal_2026w46",
+          "company": "Aditya Infotech Limited",
+          "name_as_printed": "MOTILAL OSWAL MUTUAL FUND",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MOTILAL OSWAL MUTUAL FUND' / 'MOTILAL OSWAL MUTUAL FUND'"
+        },
+        {
+          "event_id": "aditya_infotech_bulk_deal_2026w46",
+          "company": "Aditya Infotech Limited",
+          "name_as_printed": "MOTILAL OSWAL MUTUAL FUND",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MOTILAL OSWAL MUTUAL FUND' / 'MOTILAL OSWAL MUTUAL FUND'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_norges_bank_on_account_of_the_government_pension_fund_global_bought",
+      "name_as_printed": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
+      "names_as_printed": [
+        "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL"
+      ],
+      "name_clean": "norges bank on account of the government pension fund global",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'bank'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "3891a7e6321e3e57"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 1015000,
+          "record_ids": [
+            "3891a7e6321e3e57"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL · BUY · 1015000",
+          "row_ref": "13-NOV-2026 · MEESHO · NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL · BUY · 1015000",
+          "quote": "NSE | MEESHO | NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL | BUY | 10,15,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3891a7e6321e3e57",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,15,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "alivus_life_sciences_block_deal_2026w45",
+          "company": "Alivus Life Sciences Ltd",
+          "name_as_printed": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL' / 'NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL'"
+        },
+        {
+          "event_id": "lenskart_block_deal_2026w45",
+          "company": "LENSKART",
+          "name_as_printed": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL' / 'NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_societe_generale_bought",
+      "name_as_printed": "SOCIETE GENERALE",
+      "names_as_printed": [
+        "SOCIETE GENERALE"
+      ],
+      "name_clean": "societe generale",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "914013d2ee08ded0"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 14778000,
+          "record_ids": [
+            "914013d2ee08ded0"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · SOCIETE GENERALE · BUY · 14778000",
+          "row_ref": "13-NOV-2026 · MEESHO · SOCIETE GENERALE · BUY · 14778000",
+          "quote": "NSE | MEESHO | SOCIETE GENERALE | BUY | 1,47,78,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "914013d2ee08ded0",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,47,78,000 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "SOCIETE GENERALE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SOCIETE GENERALE' / 'SOCIETE GENERALE'"
+        },
+        {
+          "event_id": "swiggy_block_deal_2026w44",
+          "company": "Swiggy Limited",
+          "name_as_printed": "SOCIETE GENERALE",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SOCIETE GENERALE' / 'SOCIETE GENERALE'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_svf_ii_meerkat_de_llc",
+      "name_as_printed": "SVF II MEERKAT (DE) LLC",
+      "names_as_printed": [
+        "SVF II MEERKAT (DE) LLC"
+      ],
+      "name_clean": "svf ii meerkat (de) llc",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llc'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "5d0c68cb260eefcc"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 76400000,
+          "record_ids": [
+            "5d0c68cb260eefcc"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+          "row_ref": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+          "quote": "NSE | MEESHO | SVF II MEERKAT (DE) LLC | SELL | 7,64,00,000 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5d0c68cb260eefcc",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,64,00,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "18851700000.00",
+          "rupees_high": "18851700000.00",
+          "crore_low": "1885.17",
+          "crore_high": "1885.17",
+          "display": "₹1,885.17 crore",
+          "working": "7,64,00,000 shares × ₹246.75 = ₹1,885.17 crore (NSE 13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "7,64,00,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+                  "row_ref": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+                  "quote": "NSE | MEESHO | SVF II MEERKAT (DE) LLC | SELL | 7,64,00,000 shares | price 246.75 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹246.75",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+                  "row_ref": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+                  "quote": "NSE | MEESHO | SVF II MEERKAT (DE) LLC | SELL | 7,64,00,000 shares | price 246.75 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+                  "row_ref": "13-NOV-2026 · MEESHO · SVF II MEERKAT (DE) LLC · SELL · 76400000",
+                  "quote": "NSE | MEESHO | SVF II MEERKAT (DE) LLC | SELL | 7,64,00,000 shares | price 246.75 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 7,64,00,000 shares in a block deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_texas_municipal_retirement_system_bought",
+      "name_as_printed": "TEXAS MUNICIPAL RETIREMENT SYSTEM",
+      "names_as_printed": [
+        "TEXAS MUNICIPAL RETIREMENT SYSTEM"
+      ],
+      "name_clean": "texas municipal retirement system",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "25a2019c97d7b5e3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 329789,
+          "record_ids": [
+            "25a2019c97d7b5e3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · TEXAS MUNICIPAL RETIREMENT SYSTEM · BUY · 329789",
+          "row_ref": "13-NOV-2026 · MEESHO · TEXAS MUNICIPAL RETIREMENT SYSTEM · BUY · 329789",
+          "quote": "NSE | MEESHO | TEXAS MUNICIPAL RETIREMENT SYSTEM | BUY | 3,29,789 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "25a2019c97d7b5e3",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,29,789 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "lenskart_block_deal_2026w45",
+          "company": "LENSKART",
+          "name_as_printed": "TEXAS MUNICIPAL RETIREMENT SYSTEM",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'TEXAS MUNICIPAL RETIREMENT SYSTEM' / 'TEXAS MUNICIPAL RETIREMENT SYSTEM'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_william_blair_emerging_markets_ex_china_growth_collective_investment_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND"
+      ],
+      "name_clean": "william blair emerging markets ex china growth collective investment fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "dc26494c7cb2ecd8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 623914,
+          "record_ids": [
+            "dc26494c7cb2ecd8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND · BUY · 623914",
+          "row_ref": "13-NOV-2026 · MEESHO · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND · BUY · 623914",
+          "quote": "NSE | MEESHO | WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND | BUY | 6,23,914 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dc26494c7cb2ecd8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,23,914 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "lenskart_block_deal_2026w45",
+          "company": "LENSKART",
+          "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND' / 'WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH COLLECTIVE INVESTMENT FUND'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_william_blair_emerging_markets_ex_china_growth_fund_bought",
+      "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND",
+      "names_as_printed": [
+        "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND"
+      ],
+      "name_clean": "william blair emerging markets ex china growth fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6e9a085aee437be8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 61297,
+          "record_ids": [
+            "6e9a085aee437be8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/block.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · MEESHO · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND · BUY · 61297",
+          "row_ref": "13-NOV-2026 · MEESHO · WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND · BUY · 61297",
+          "quote": "NSE | MEESHO | WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND | BUY | 61,297 shares | price 246.75 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6e9a085aee437be8",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 61,297 shares in a block deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "lenskart_block_deal_2026w45",
+          "company": "LENSKART",
+          "name_as_printed": "WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND' / 'WILLIAM BLAIR EMERGING MARKETS EX CHINA GROWTH FUND'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 25,
+    "by_holder_type": {
+      "entity": 23,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 25
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 24,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 25
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 25,
+    "follow_on_matches": 17
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "event_id": "geekay_wires_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_anita_agarwal",
+      "name_as_printed": "Anita Agarwal",
+      "fields": {
+        "name": "Anita Agarwal",
+        "role": "Promoter",
+        "why_money": "sold 2,892 shares (Market Sale) on 8 Nov 2026",
+        "amount": "₹78,006",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹78,006 (2,892 shares, value as printed ₹78,006 (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Anita Agarwal",
+        "role": "Promoter",
+        "amount": "₹78,006",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹78,006",
+        "shares_offered": "2,892 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "Anita Agarwal, a Promoter, is receiving proceeds from a market sale of 2,892 shares on settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+        "Proceeds of ₹78,006 were settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money has already arrived.",
+        "Ask whether they plan to redeploy ₹78,006 now that the sale has settled 7 days ago."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Anita Agarwal, a Promoter, is receiving proceeds from a market sale of {shares_offered} on 8 Nov.",
+            "Proceeds of {proceeds} were {timing}, so the money has already arrived.",
+            "Ask whether they plan to redeploy {amount} now that the sale has settled {event_age}."
+          ],
+          "lines": [
+            "Anita Agarwal, a Promoter, is receiving proceeds from a market sale of {shares_offered} on 8 Nov.",
+            "Proceeds of {proceeds} were {timing}, so the money has already arrived.",
+            "Ask whether they plan to redeploy {amount} now that the sale has settled {event_age}."
+          ],
+          "problem": "writes numbers instead of placeholders: 8"
+        },
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving proceeds from a market sale of {shares_offered} on {timing}.",
+            "Proceeds of {proceeds} were {timing}, so the money has already arrived.",
+            "Ask whether they plan to redeploy {amount} now that the sale has settled {event_age}."
+          ],
+          "lines": [
+            "Anita Agarwal, a Promoter, is receiving proceeds from a market sale of 2,892 shares on settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+            "Proceeds of ₹78,006 were settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money has already arrived.",
+            "Ask whether they plan to redeploy ₹78,006 now that the sale has settled 7 days ago."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_praveen_kumar_agarwal",
+      "name_as_printed": "PRAVEEN KUMAR AGARWAL",
+      "fields": {
+        "name": "PRAVEEN KUMAR AGARWAL",
+        "role": "Promoter",
+        "why_money": "sold 1,394 shares (Market Sale) on 8 Nov 2026",
+        "amount": "₹37,601",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹37,601 (1,394 shares, value as printed ₹37,601 (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "PRAVEEN KUMAR AGARWAL",
+        "role": "Promoter",
+        "amount": "₹37,601",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹37,601",
+        "shares_offered": "1,394 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "PRAVEEN KUMAR AGARWAL is a Promoter who sold 1,394 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹37,601 settled 7 days ago, with timing noted as settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+        "Ask whether they plan to reinvest the proceeds or keep the cash available for near-term needs."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, with timing noted as {timing}.",
+            "Ask whether they plan to reinvest the proceeds or keep the cash available for near-term needs."
+          ],
+          "lines": [
+            "PRAVEEN KUMAR AGARWAL is a Promoter who sold 1,394 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹37,601 settled 7 days ago, with timing noted as settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+            "Ask whether they plan to reinvest the proceeds or keep the cash available for near-term needs."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

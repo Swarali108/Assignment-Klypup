@@ -1,0 +1,70 @@
+{
+  "event_id": "360_one_wam_insider_sale_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_guarav_doshi",
+      "name_as_printed": "Guarav Doshi",
+      "fields": {
+        "name": "Guarav Doshi",
+        "role": "unknown",
+        "why_money": "sold 1,200 shares (Market Sale) on 23 Oct 2026",
+        "amount": "₹12.26 lakh",
+        "timing": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "event": "proceeds settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "event_age": "21 days ago",
+        "event_is": "recent",
+        "proceeds": "₹12.26 lakh (1,200 shares, value as printed ₹12.26 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Guarav Doshi",
+        "role": "unknown",
+        "amount": "₹12.26 lakh",
+        "timing": "settled 26 Oct 2026, T+1 after the 23 Oct 2026 trade (21 days ago)",
+        "proceeds": "₹12.26 lakh",
+        "shares_offered": "1,200 shares",
+        "event_age": "21 days ago"
+      },
+      "lines": [
+        "Guarav Doshi is a holder whose role is unknown, receiving money from a share sale.",
+        "They sold 1,200 shares and ₹12.26 lakh settled 21 days ago, so this money has already arrived.",
+        "Confirm their role and ask whether the sale changes their overall holdings plan.",
+        "Role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold {shares_offered} on 23 Oct; {proceeds} settled {event_age}, so this money has already arrived.",
+            "Confirm their role and ask whether the sale changes their overall holdings plan.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold {shares_offered} on 23 Oct; {proceeds} settled {event_age}, so this money has already arrived.",
+            "Confirm their role and ask whether the sale changes their overall holdings plan.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 23"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, receiving money from a share sale.",
+            "They sold {shares_offered} and {proceeds} settled {event_age}, so this money has already arrived.",
+            "Confirm their role and ask whether the sale changes their overall holdings plan.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Guarav Doshi is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold 1,200 shares and ₹12.26 lakh settled 21 days ago, so this money has already arrived.",
+            "Confirm their role and ask whether the sale changes their overall holdings plan.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "rajgor_castor_derivati_l_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Rajgor Castor Derivati L",
+  "documents": [],
+  "records": [
+    "10af28c49fac85f5",
+    "c00f7d755e42cc51",
+    "db04112844469aec"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-28",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

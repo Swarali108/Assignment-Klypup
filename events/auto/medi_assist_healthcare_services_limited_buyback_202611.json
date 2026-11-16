@@ -1,0 +1,78 @@
+{
+  "event_id": "medi_assist_healthcare_services_limited_buyback_202611",
+  "event_type": "buyback",
+  "company": "Medi Assist Healthcare Services Limited",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_30102026183649_Reg30BuyBackSd.pdf",
+      "doc_type": "announcement",
+      "note": "Medi Assist Healthcare Services Limited - Buyback",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/379ed5ce-fc18-4593-8920-47466bd3aa1d.pdf",
+      "doc_type": "announcement",
+      "note": "Medi Assist Healthcare Services Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Medi%20Assist%20Healthcare%20Services%20Limited-PA_p.pdf",
+      "doc_type": "public_announcement",
+      "note": "Medi Assist Healthcare Services Limited",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_03112026174459_MAHSEintimationBuybackPABRsd.pdf",
+      "doc_type": "public_announcement",
+      "note": "Medi Assist Healthcare Services Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6f721add-7960-4b0f-aeff-6f49c9db36a3.pdf",
+      "doc_type": "public_announcement",
+      "note": "Medi Assist Healthcare Services Ltd - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements",
+      "sebi_buyback_tender"
+    ],
+    "first_seen": "2026-11-15T07:46:53+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Medi Assist Healthcare Services Limited",
+        "link": "https://www.sebi.gov.in/filings/buybacks/nov-2026/medi-assist-healthcare-services-limited_105579.html",
+        "published": "Nov 04, 2026",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Medi Assist Healthcare Services Limited - Buyback",
+        "link": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_30102026183649_Reg30BuyBackSd.pdf",
+        "published": "2026-10-30",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Medi Assist Healthcare Services Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/379ed5ce-fc18-4593-8920-47466bd3aa1d.pdf",
+        "published": "2026-10-30",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Medi Assist Healthcare Services Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_03112026174459_MAHSEintimationBuybackPABRsd.pdf",
+        "published": "2026-11-03",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Medi Assist Healthcare Services Ltd - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6f721add-7960-4b0f-aeff-6f49c9db36a3.pdf",
+        "published": "2026-11-03",
+        "class": "buyback_public_announcement"
+      }
+    ]
+  }
+}

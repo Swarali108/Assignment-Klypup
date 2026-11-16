@@ -1,0 +1,61 @@
+{
+  "event_id": "gravita_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_ravinder_singh",
+      "name_as_printed": "Ravinder Singh",
+      "name_clean": "ravinder singh",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.15",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.15000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "money_crore": "0.15",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.15000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+          "money_crore": "0.15",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.15000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,001 shares (Market Sale) between 2 Nov 2026 and 8 Nov 2026",
+      "amount_display": "₹14.79 lakh",
+      "timing_display": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹14.79 lakh; settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago).",
+        "score 0.15 = ₹0.15 crore (proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

@@ -1,0 +1,55 @@
+{
+  "event_id": "neogen_chemicals_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_sanjay_natwarlal_mehta_huf",
+      "name_as_printed": "SANJAY NATWARLAL MEHTA HUF",
+      "fields": {
+        "name": "SANJAY NATWARLAL MEHTA HUF",
+        "role": "unknown",
+        "why_money": "sold 2,361 shares (Market Sale) on 5 Nov 2026 and 6 Nov 2026",
+        "amount": "₹58.56 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹58.56 lakh (61 shares, value as printed ₹1.48 lakh (NSE XBRL context Disclosure1); 2,300 shares, value as printed ₹57.08 lakh (NSE XBRL context Disclosure2); total ₹58.56 lakh)"
+      },
+      "placeholders": {
+        "name": "SANJAY NATWARLAL MEHTA HUF",
+        "role": "unknown",
+        "amount": "₹58.56 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹58.56 lakh",
+        "shares_offered": "2,361 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "SANJAY NATWARLAL MEHTA HUF is an unknown-role holder receiving money from a recent sale of 2,361 shares.",
+        "₹58.56 lakh proceeds settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), with the sale completed 10 days ago.",
+        "Ask how they plan to use the proceeds, since the holding left after the sale is unclear.",
+        "Caveat: the role of the holder is unknown and should be confirmed before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an unknown-role holder receiving money from a recent sale of {shares_offered}.",
+            "{amount} proceeds settled {timing}, with the sale completed {event_age}.",
+            "Ask how they plan to use the proceeds, since the holding left after the sale is unclear.",
+            "Caveat: the role of the holder is unknown and should be confirmed before the call."
+          ],
+          "lines": [
+            "SANJAY NATWARLAL MEHTA HUF is an unknown-role holder receiving money from a recent sale of 2,361 shares.",
+            "₹58.56 lakh proceeds settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago), with the sale completed 10 days ago.",
+            "Ask how they plan to use the proceeds, since the holding left after the sale is unclear.",
+            "Caveat: the role of the holder is unknown and should be confirmed before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

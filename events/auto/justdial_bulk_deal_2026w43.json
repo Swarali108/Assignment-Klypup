@@ -1,0 +1,25 @@
+{
+  "event_id": "justdial_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Justdial Ltd.",
+  "documents": [],
+  "records": [
+    "07da2adfdb0cc5df",
+    "475c89da826ff4b1",
+    "55391a5d9d043a72",
+    "6554d835f49dcd7f",
+    "94a746763a5a2b38",
+    "d00fa9798e99874a",
+    "dd3a878caf6cddc0",
+    "f5b6c8d03fb2a2b8"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-19",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

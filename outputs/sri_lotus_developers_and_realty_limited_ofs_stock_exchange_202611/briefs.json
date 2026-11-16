@@ -1,0 +1,65 @@
+{
+  "event_id": "sri_lotus_developers_and_realty_limited_ofs_stock_exchange_202611",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_anand_kamalnayan_pandit",
+      "name_as_printed": "Anand Kamalnayan Pandit",
+      "fields": {
+        "name": "Anand Kamalnayan Pandit",
+        "role": "Promoter",
+        "why_money": "sells 2,37,95,818 shares in the offer for sale through the stock exchange",
+        "amount": "₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher) (2,37,95,818 × ₹240 floor = ₹571.10 crore)"
+      },
+      "placeholders": {
+        "name": "Anand Kamalnayan Pandit",
+        "role": "Promoter",
+        "amount": "₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "proceeds": "₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "shares_offered": "2,37,95,818 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Anand Kamalnayan Pandit, a Promoter, is receiving money from an offer for sale of 2,37,95,818 shares.",
+        "Proceeds of ₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher) settles after the sale on 3 Nov 2026 (13 days ago), which was 13 days ago.",
+        "The ₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher) figure is at floor price and the actual sale price is not confirmed, so it may be higher."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Anand Kamalnayan Pandit, Promoter, is receiving money from an offer for sale of {shares_offered}.",
+            "Proceeds of {proceeds} settle after the sale on 3 Nov 2026, {event_age}.",
+            "The {amount} figure is at floor price, and the actual sale price is not confirmed from the documents, so it may be higher."
+          ],
+          "lines": [
+            "Anand Kamalnayan Pandit, Promoter, is receiving money from an offer for sale of {shares_offered}.",
+            "Proceeds of {proceeds} settle after the sale on 3 Nov 2026, {event_age}.",
+            "The {amount} figure is at floor price, and the actual sale price is not confirmed from the documents, so it may be higher."
+          ],
+          "problem": "writes numbers instead of placeholders: 3, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving money from an offer for sale of {shares_offered}.",
+            "Proceeds of {proceeds} {timing}, which was {event_age}.",
+            "The {amount} figure is at floor price and the actual sale price is not confirmed, so it may be higher."
+          ],
+          "lines": [
+            "Anand Kamalnayan Pandit, a Promoter, is receiving money from an offer for sale of 2,37,95,818 shares.",
+            "Proceeds of ₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher) settles after the sale on 3 Nov 2026 (13 days ago), which was 13 days ago.",
+            "The ₹571.10 crore (at floor price; actual sale price not confirmed from the documents; may be higher) figure is at floor price and the actual sale price is not confirmed, so it may be higher."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

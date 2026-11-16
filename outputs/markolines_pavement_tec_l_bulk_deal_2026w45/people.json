@@ -1,0 +1,946 @@
+{
+  "event_id": "markolines_pavement_tec_l_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "172.63",
+    "high": "176.35",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹172.63",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+            "row_ref": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+            "quote": "NSE | MARKOLINES | YOKE SECURITIES LTD | SELL | 1,16,360 shares | price 172.63 | 2026-11-05"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹176.35",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+            "row_ref": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+            "quote": "NSE | MARKOLINES | MSB E TRADE SECURITIES LIMITED | SELL | 1,42,989 shares | price 176.35 | 2026-11-02"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "2 Nov 2026 to 5 Nov 2026",
+    "sale_date_parsed": "2026-11-05",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "6,26,549 shares sold by 4 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 8,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_hi_klass_trading_and_investment_limited",
+      "name_as_printed": "HI-KLASS TRADING AND INVESTMENT LIMITED",
+      "names_as_printed": [
+        "HI-KLASS TRADING AND INVESTMENT LIMITED"
+      ],
+      "name_clean": "hi-klass trading and investment limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "506c1370e96466e3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 212936,
+          "record_ids": [
+            "506c1370e96466e3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+          "row_ref": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+          "quote": "NSE | MARKOLINES | HI-KLASS TRADING AND INVESTMENT LIMITED | SELL | 2,12,936 shares | price 176.18 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "506c1370e96466e3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,12,936",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "37515064.48",
+          "rupees_high": "37515064.48",
+          "crore_low": "3.75",
+          "crore_high": "3.75",
+          "display": "₹3.75 crore",
+          "working": "2,12,936 shares × ₹176.18 = ₹3.75 crore (NSE 02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,12,936",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+                  "quote": "NSE | MARKOLINES | HI-KLASS TRADING AND INVESTMENT LIMITED | SELL | 2,12,936 shares | price 176.18 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹176.18",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+                  "quote": "NSE | MARKOLINES | HI-KLASS TRADING AND INVESTMENT LIMITED | SELL | 2,12,936 shares | price 176.18 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · SELL · 212936",
+                  "quote": "NSE | MARKOLINES | HI-KLASS TRADING AND INVESTMENT LIMITED | SELL | 2,12,936 shares | price 176.18 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 2,12,936 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_hi_klass_trading_and_investment_limited_bought",
+      "name_as_printed": "HI-KLASS TRADING AND INVESTMENT LIMITED",
+      "names_as_printed": [
+        "HI-KLASS TRADING AND INVESTMENT LIMITED"
+      ],
+      "name_clean": "hi-klass trading and investment limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "034d549aae637c80"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 13602,
+          "record_ids": [
+            "034d549aae637c80"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · BUY · 13602",
+          "row_ref": "02-NOV-2026 · MARKOLINES · HI-KLASS TRADING AND INVESTMENT LIMITED · BUY · 13602",
+          "quote": "NSE | MARKOLINES | HI-KLASS TRADING AND INVESTMENT LIMITED | BUY | 13,602 shares | price 176.51 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "034d549aae637c80",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 13,602 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_msb_e_trade_securities_limited",
+      "name_as_printed": "MSB E TRADE SECURITIES LIMITED",
+      "names_as_printed": [
+        "MSB E TRADE SECURITIES LIMITED"
+      ],
+      "name_clean": "msb e trade securities limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6c09641dd336a386"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 142989,
+          "record_ids": [
+            "6c09641dd336a386"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+          "row_ref": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+          "quote": "NSE | MARKOLINES | MSB E TRADE SECURITIES LIMITED | SELL | 1,42,989 shares | price 176.35 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6c09641dd336a386",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,42,989",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "25216110.15",
+          "rupees_high": "25216110.15",
+          "crore_low": "2.52",
+          "crore_high": "2.52",
+          "display": "₹2.52 crore",
+          "working": "1,42,989 shares × ₹176.35 = ₹2.52 crore (NSE 02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,42,989",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+                  "quote": "NSE | MARKOLINES | MSB E TRADE SECURITIES LIMITED | SELL | 1,42,989 shares | price 176.35 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹176.35",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+                  "quote": "NSE | MARKOLINES | MSB E TRADE SECURITIES LIMITED | SELL | 1,42,989 shares | price 176.35 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · SELL · 142989",
+                  "quote": "NSE | MARKOLINES | MSB E TRADE SECURITIES LIMITED | SELL | 1,42,989 shares | price 176.35 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 1,42,989 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "shanti_overseas_ind_bulk_deal_2026w44",
+          "company": "Shanti Overseas (Ind) Ltd",
+          "name_as_printed": "MSB E TRADE SECURITIES LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MSB E TRADE SECURITIES LIMITED' / 'MSB E TRADE SECURITIES LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_msb_e_trade_securities_limited_bought",
+      "name_as_printed": "MSB E TRADE SECURITIES LIMITED",
+      "names_as_printed": [
+        "MSB E TRADE SECURITIES LIMITED"
+      ],
+      "name_clean": "msb e trade securities limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "efc52501d85d40a7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 13745,
+          "record_ids": [
+            "efc52501d85d40a7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · BUY · 13745",
+          "row_ref": "02-NOV-2026 · MARKOLINES · MSB E TRADE SECURITIES LIMITED · BUY · 13745",
+          "quote": "NSE | MARKOLINES | MSB E TRADE SECURITIES LIMITED | BUY | 13,745 shares | price 172.71 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "efc52501d85d40a7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 13,745 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "shanti_overseas_ind_bulk_deal_2026w44",
+          "company": "Shanti Overseas (Ind) Ltd",
+          "name_as_printed": "MSB E TRADE SECURITIES LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MSB E TRADE SECURITIES LIMITED' / 'MSB E TRADE SECURITIES LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vistaar_trading_service_private_limited",
+      "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+      "names_as_printed": [
+        "VISTAAR TRADING SERVICE PRIVATE LIMITED"
+      ],
+      "name_clean": "vistaar trading service private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "4d7786621436556c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 154264,
+          "record_ids": [
+            "4d7786621436556c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+          "row_ref": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+          "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,54,264 shares | price 176.1 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4d7786621436556c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,54,264",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "27165890.4",
+          "rupees_high": "27165890.4",
+          "crore_low": "2.72",
+          "crore_high": "2.72",
+          "display": "₹2.72 crore",
+          "working": "1,54,264 shares × ₹176.1 = ₹2.72 crore (NSE 02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,54,264",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,54,264 shares | price 176.1 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹176.1",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,54,264 shares | price 176.1 | 2026-11-02"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "trade_date": "2026-11-02",
+          "settles_on": "2026-11-03",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "2 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+                  "row_ref": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · SELL · 154264",
+                  "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | SELL | 1,54,264 shares | price 176.1 | 2026-11-02"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 1,54,264 shares in a bulk deal on 2 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.21 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vistaar_trading_service_private_limited_bought",
+      "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+      "names_as_printed": [
+        "VISTAAR TRADING SERVICE PRIVATE LIMITED"
+      ],
+      "name_clean": "vistaar trading service private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cf19d2880d946a11"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 110357,
+          "record_ids": [
+            "cf19d2880d946a11"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · BUY · 110357",
+          "row_ref": "02-NOV-2026 · MARKOLINES · VISTAAR TRADING SERVICE PRIVATE LIMITED · BUY · 110357",
+          "quote": "NSE | MARKOLINES | VISTAAR TRADING SERVICE PRIVATE LIMITED | BUY | 1,10,357 shares | price 173.81 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cf19d2880d946a11",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,10,357 shares in a bulk deal on 2 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.21 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "markolines_pavement_tec_l_bulk_deal_2026w43",
+          "company": "Markolines Pavement Tec L",
+          "name_as_printed": "VISTAAR TRADING SERVICE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VISTAAR TRADING SERVICE PRIVATE LIMITED' / 'VISTAAR TRADING SERVICE PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_yoke_securities_ltd",
+      "name_as_printed": "YOKE SECURITIES LTD",
+      "names_as_printed": [
+        "YOKE SECURITIES LTD"
+      ],
+      "name_clean": "yoke securities ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ltd'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "b55fa59d5d3c45b2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 116360,
+          "record_ids": [
+            "b55fa59d5d3c45b2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+          "row_ref": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+          "quote": "NSE | MARKOLINES | YOKE SECURITIES LTD | SELL | 1,16,360 shares | price 172.63 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b55fa59d5d3c45b2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,16,360",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "20087226.80",
+          "rupees_high": "20087226.80",
+          "crore_low": "2.01",
+          "crore_high": "2.01",
+          "display": "₹2.01 crore",
+          "working": "1,16,360 shares × ₹172.63 = ₹2.01 crore (NSE 05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,16,360",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+                  "row_ref": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+                  "quote": "NSE | MARKOLINES | YOKE SECURITIES LTD | SELL | 1,16,360 shares | price 172.63 | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹172.63",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+                  "row_ref": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+                  "quote": "NSE | MARKOLINES | YOKE SECURITIES LTD | SELL | 1,16,360 shares | price 172.63 | 2026-11-05"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+          "trade_date": "2026-11-05",
+          "settles_on": "2026-11-06",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "5 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+                  "row_ref": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · SELL · 116360",
+                  "quote": "NSE | MARKOLINES | YOKE SECURITIES LTD | SELL | 1,16,360 shares | price 172.63 | 2026-11-05"
+                }
+              ]
+            }
+          ],
+          "days_since": 10
+        }
+      },
+      "why_money": "sold 1,16,360 shares in a bulk deal on 5 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_yoke_securities_ltd_bought",
+      "name_as_printed": "YOKE SECURITIES LTD",
+      "names_as_printed": [
+        "YOKE SECURITIES LTD"
+      ],
+      "name_clean": "yoke securities ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ltd'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "dee859bb5ecba918"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 113360,
+          "record_ids": [
+            "dee859bb5ecba918"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · BUY · 113360",
+          "row_ref": "05-NOV-2026 · MARKOLINES · YOKE SECURITIES LTD · BUY · 113360",
+          "quote": "NSE | MARKOLINES | YOKE SECURITIES LTD | BUY | 1,13,360 shares | price 172.8 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dee859bb5ecba918",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,13,360 shares in a bulk deal on 5 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 8,
+    "by_holder_type": {
+      "entity": 8
+    },
+    "by_confidence": {
+      "high": 8
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "buyers": 4,
+    "proceeds_computed": 4,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 8
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 8,
+    "follow_on_matches": 6
+  }
+}

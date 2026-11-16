@@ -1,0 +1,101 @@
+{
+  "event_id": "panth_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_satish_mejiyatar",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "fields": {
+        "name": "SATISH MEJIYATAR",
+        "role": "unknown",
+        "why_money": "sold 8,23,195 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹1.24 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹1.24 crore (8,23,195 shares × ₹15.07 = ₹1.24 crore (BSE 13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195))"
+      },
+      "placeholders": {
+        "name": "SATISH MEJIYATAR",
+        "role": "unknown",
+        "amount": "₹1.24 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹1.24 crore",
+        "shares_offered": "8,23,195 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "SATISH MEJIYATAR is a holder whose role is unknown, and is receiving money from a bulk-deal share sale.",
+        "₹1.24 crore in proceeds settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), from selling 8,23,195 shares in a bulk deal.",
+        "Ask whether they plan to reinvest the proceeds, since the sale completed today."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, and is receiving money from a bulk-deal share sale.",
+            "{amount} in proceeds settled {timing}, from selling {shares_offered} in a bulk deal.",
+            "Ask whether they plan to reinvest the proceeds, since the sale completed {event_age}."
+          ],
+          "lines": [
+            "SATISH MEJIYATAR is a holder whose role is unknown, and is receiving money from a bulk-deal share sale.",
+            "₹1.24 crore in proceeds settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), from selling 8,23,195 shares in a bulk deal.",
+            "Ask whether they plan to reinvest the proceeds, since the sale completed today."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_mahender_agarwal",
+      "name_as_printed": "MAHENDER AGARWAL",
+      "fields": {
+        "name": "MAHENDER AGARWAL",
+        "role": "unknown",
+        "why_money": "sold 3,18,481 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹48.00 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹48.00 lakh (3,18,481 shares × ₹15.07 = ₹48.00 lakh (BSE 13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481))"
+      },
+      "placeholders": {
+        "name": "MAHENDER AGARWAL",
+        "role": "unknown",
+        "amount": "₹48.00 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹48.00 lakh",
+        "shares_offered": "3,18,481 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "MAHENDER AGARWAL sold 3,18,481 shares in a bulk deal, so money is coming to them from that sale.",
+        "₹48.00 lakh from the sale settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the funds are in motion now.",
+        "Ask how they want to deploy these proceeds, since the trade just closed and timing matters.",
+        "Their role is unknown, so confirm their position and relationship before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "{proceeds} from the sale settled {timing}, so the funds are in motion now.",
+            "Ask how they want to deploy these proceeds, since the trade just closed and timing matters.",
+            "Their role is unknown, so confirm their position and relationship before the call."
+          ],
+          "lines": [
+            "MAHENDER AGARWAL sold 3,18,481 shares in a bulk deal, so money is coming to them from that sale.",
+            "₹48.00 lakh from the sale settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the funds are in motion now.",
+            "Ask how they want to deploy these proceeds, since the trade just closed and timing matters.",
+            "Their role is unknown, so confirm their position and relationship before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

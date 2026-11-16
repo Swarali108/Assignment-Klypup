@@ -1,0 +1,52 @@
+{
+  "event_id": "j_k_cement_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kalpana_singhania",
+      "name_as_printed": "Kalpana Singhania",
+      "fields": {
+        "name": "Kalpana Singhania",
+        "role": "Promoter group",
+        "why_money": "sold 1,000 shares (Market Sale) on 5 Nov 2026",
+        "amount": "₹52.55 lakh",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹52.55 lakh (1,000 shares, value as printed ₹52.55 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Kalpana Singhania",
+        "role": "Promoter group",
+        "amount": "₹52.55 lakh",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹52.55 lakh",
+        "shares_offered": "1,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Kalpana Singhania, Promoter group, received money from a market sale of 1,000 shares on 10 days ago.",
+        "Proceeds of ₹52.55 lakh were settled, arriving in hand on settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "Ask how they plan to use the proceeds, given the recent settlement."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Kalpana Singhania, Promoter group, received money from a market sale of {shares_offered} on {event_age}.",
+            "Proceeds of {proceeds} were settled, arriving in hand on {timing}.",
+            "Ask how they plan to use the proceeds, given the recent settlement."
+          ],
+          "lines": [
+            "Kalpana Singhania, Promoter group, received money from a market sale of 1,000 shares on 10 days ago.",
+            "Proceeds of ₹52.55 lakh were settled, arriving in hand on settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+            "Ask how they plan to use the proceeds, given the recent settlement."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "event_id": "sakar_healthcare_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_rita_s_shah",
+      "name_as_printed": "Rita S. Shah",
+      "name_clean": "rita s. shah",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "2.54",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.77800",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "money_crore": "2.54",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.77800"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+          "money_crore": "2.54",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.77800"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 25,000 shares (Market Sale) on 5 Nov 2026",
+      "amount_display": "₹2.54 crore",
+      "timing_display": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹2.54 crore; settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "score 1.78 = ₹2.54 crore (proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

@@ -1,0 +1,503 @@
+{
+  "event_id": "irm_energy_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "274.15",
+    "high": "274.15",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹274.15",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+            "row_ref": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+            "quote": "NSE | IRMENERGY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 2,77,103 shares | price 274.15 | 2026-11-09"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "9 Nov 2026",
+    "sale_date_parsed": "2026-11-09",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,77,103 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_nk_securities_research_private_limited",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "5a660e0bbec6cd2f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 277103,
+          "record_ids": [
+            "5a660e0bbec6cd2f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+          "row_ref": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+          "quote": "NSE | IRMENERGY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 2,77,103 shares | price 274.15 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5a660e0bbec6cd2f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,77,103",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "75967787.45",
+          "rupees_high": "75967787.45",
+          "crore_low": "7.60",
+          "crore_high": "7.60",
+          "display": "₹7.60 crore",
+          "working": "2,77,103 shares × ₹274.15 = ₹7.60 crore (NSE 09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,77,103",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+                  "row_ref": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+                  "quote": "NSE | IRMENERGY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 2,77,103 shares | price 274.15 | 2026-11-09"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹274.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+                  "row_ref": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+                  "quote": "NSE | IRMENERGY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 2,77,103 shares | price 274.15 | 2026-11-09"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "trade_date": "2026-11-09",
+          "settles_on": "2026-11-10",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "9 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+                  "row_ref": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · SELL · 277103",
+                  "quote": "NSE | IRMENERGY | NK SECURITIES RESEARCH PRIVATE LIMITED | SELL | 2,77,103 shares | price 274.15 | 2026-11-09"
+                }
+              ]
+            }
+          ],
+          "days_since": 6
+        }
+      },
+      "why_money": "sold 2,77,103 shares in a bulk deal on 9 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹107.85 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.73 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ikio_technologies_bulk_deal_2026w45",
+          "company": "IKIO Technologies Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.46 crore",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ikio_technologies_bulk_deal_2026w45",
+          "company": "IKIO Technologies Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nk_securities_research_private_limited_bought",
+      "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "names_as_printed": [
+        "NK SECURITIES RESEARCH PRIVATE LIMITED"
+      ],
+      "name_clean": "nk securities research private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "980f66349c44e7d4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 277103,
+          "record_ids": [
+            "980f66349c44e7d4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 277103",
+          "row_ref": "09-NOV-2026 · IRMENERGY · NK SECURITIES RESEARCH PRIVATE LIMITED · BUY · 277103",
+          "quote": "NSE | IRMENERGY | NK SECURITIES RESEARCH PRIVATE LIMITED | BUY | 2,77,103 shares | price 273.96 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "980f66349c44e7d4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,77,103 shares in a bulk deal on 9 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹107.85 crore",
+          "trigger_date": "2026-11-04",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹18.84 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹2.73 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ikio_technologies_bulk_deal_2026w45",
+          "company": "IKIO Technologies Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.46 crore",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "ikio_technologies_bulk_deal_2026w45",
+          "company": "IKIO Technologies Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.09 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NK SECURITIES RESEARCH PRIVATE LIMITED' / 'NK SECURITIES RESEARCH PRIVATE LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 20
+  }
+}

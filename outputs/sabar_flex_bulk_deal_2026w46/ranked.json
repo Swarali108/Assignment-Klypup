@@ -1,0 +1,98 @@
+{
+  "event_id": "sabar_flex_bulk_deal_2026w46",
+  "callable": [
+    {
+      "person_id": "p_kunjit_maheshbhai_patel",
+      "name_as_printed": "KUNJIT MAHESHBHAI PATEL",
+      "name_clean": "kunjit maheshbhai patel",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.37",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.37000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 0,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "0.37",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.37000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 0,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "0.37",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.37000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 4,00,000 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹37.00 lakh",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹37.00 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "score 0.37 = ₹0.37 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_alegula_madhu_babu_bought",
+      "name_as_printed": "ALEGULA MADHU BABU",
+      "name_clean": "alegula madhu babu",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 4,10,000 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

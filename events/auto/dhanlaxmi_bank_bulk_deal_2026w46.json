@@ -1,0 +1,27 @@
+{
+  "event_id": "dhanlaxmi_bank_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "Dhanlaxmi Bank Limited",
+  "documents": [],
+  "records": [
+    "0b5b6db8612a3422",
+    "18db7ecdc10ab910",
+    "21b5c6f6a0955aaa",
+    "2a9a328c32ede037",
+    "895673816e4fdf77",
+    "90a06f791b6ab4d7",
+    "afdaccd88e3bec5a",
+    "bac5cabee0035e86",
+    "c2a2c8e254e7834f",
+    "ea67defee312bfce"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-13",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

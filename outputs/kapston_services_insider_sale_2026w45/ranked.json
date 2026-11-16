@@ -1,0 +1,61 @@
+{
+  "event_id": "kapston_services_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_srikanth_kodali",
+      "name_as_printed": "SRIKANTH KODALI",
+      "name_clean": "srikanth kodali",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "5.04",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "5.04000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "money_crore": "5.04",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "5.04000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "money_crore": "5.04",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "5.04000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,04,265 shares (Market Sale) on 2 Nov 2026 and 4 Nov 2026",
+      "amount_display": "₹5.04 crore",
+      "timing_display": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹5.04 crore; settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "score 5.04 = ₹5.04 crore (proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

@@ -1,0 +1,48 @@
+{
+  "run_id": "wipro_buyback-20261115T165916Z",
+  "total_s": 2.0580295830150135,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.2271925830282271,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 1.6619371250271797,
+      "calls": 2,
+      "cached": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.03196204104460776,
+      "calls": 3,
+      "cached": 3,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.01078675000462681,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.06514404097106308,
+      "calls": 6,
+      "cached": 6,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "report",
+      "seconds": 0.021125250030308962,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

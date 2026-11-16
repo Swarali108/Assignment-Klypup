@@ -1,0 +1,41 @@
+{
+  "event_id": "kesarpe_bulk_deal_2026w46",
+  "run_id": "auto-kesarpe_bulk_deal_2026w46-20261115T190357Z",
+  "totals": {
+    "calls": 1,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 1203,
+    "output_tokens": 121,
+    "cost_usd": 0.000181,
+    "fresh_usd": 0.000181,
+    "unpriced_calls": 0,
+    "wall_s": 1.8126730000367388,
+    "callable_people": 1,
+    "cost_per_callable_usd": 0.000181,
+    "fresh_per_callable_usd": 0.000181
+  },
+  "per_person": [
+    {
+      "person_id": "p_dinesh_sharma_huf",
+      "name_as_printed": "DINESH SHARMA (HUF)",
+      "cost_usd": 0.000181,
+      "fresh_usd": 0.000181,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_niraj_umesh_joshi_bought",
+      "name_as_printed": "NIRAJ UMESH JOSHI",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_sanjyot_ritesh_nemade_bought",
+      "name_as_printed": "SANJYOT RITESH NEMADE",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "event_id": "orienttr_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "4.06",
+    "high": "4.07",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹4.06",
+        "evidence": [
+          {
+            "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "pdf_index": null,
+            "printed_page": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+            "row_ref": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+            "quote": "BSE | ORIENTTR | JAMEER AYUB ATAR | SELL | 8,69,010 shares | price 4.06 | 2026-11-13"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹4.07",
+        "evidence": [
+          {
+            "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "pdf_index": null,
+            "printed_page": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+            "row_ref": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+            "quote": "BSE | ORIENTTR | ABHINAV COMMOSALES | SELL | 12,62,967 shares | price 4.07 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "21,31,977 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 5,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_abhinav_commosales",
+      "name_as_printed": "ABHINAV COMMOSALES",
+      "names_as_printed": [
+        "ABHINAV COMMOSALES"
+      ],
+      "name_clean": "abhinav commosales",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "7c94e423bc813958"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 1262967,
+          "record_ids": [
+            "7c94e423bc813958"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+          "row_ref": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+          "quote": "BSE | ORIENTTR | ABHINAV COMMOSALES | SELL | 12,62,967 shares | price 4.07 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7c94e423bc813958",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "12,62,967",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "5140275.69",
+          "rupees_high": "5140275.69",
+          "crore_low": "0.51",
+          "crore_high": "0.51",
+          "display": "₹51.40 lakh",
+          "working": "12,62,967 shares × ₹4.07 = ₹51.40 lakh (BSE 13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "12,62,967",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+                  "row_ref": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+                  "quote": "BSE | ORIENTTR | ABHINAV COMMOSALES | SELL | 12,62,967 shares | price 4.07 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹4.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+                  "row_ref": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+                  "quote": "BSE | ORIENTTR | ABHINAV COMMOSALES | SELL | 12,62,967 shares | price 4.07 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+                  "row_ref": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967",
+                  "quote": "BSE | ORIENTTR | ABHINAV COMMOSALES | SELL | 12,62,967 shares | price 4.07 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 12,62,967 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_abhinav_commosales_bought",
+      "name_as_printed": "ABHINAV COMMOSALES",
+      "names_as_printed": [
+        "ABHINAV COMMOSALES"
+      ],
+      "name_clean": "abhinav commosales",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cab119deaebf751c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 844780,
+          "record_ids": [
+            "cab119deaebf751c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · B · 844780",
+          "row_ref": "13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · B · 844780",
+          "quote": "BSE | ORIENTTR | ABHINAV COMMOSALES | BUY | 8,44,780 shares | price 4.06 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cab119deaebf751c",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 8,44,780 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_avantika_commosales_llp_bought",
+      "name_as_printed": "AVANTIKA COMMOSALES LLP",
+      "names_as_printed": [
+        "AVANTIKA COMMOSALES LLP"
+      ],
+      "name_clean": "avantika commosales llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "46c920d243008e05"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 983888,
+          "record_ids": [
+            "46c920d243008e05"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · ORIENTTR · AVANTIKA COMMOSALES LLP · B · 983888",
+          "row_ref": "13/11/2026 · ORIENTTR · AVANTIKA COMMOSALES LLP · B · 983888",
+          "quote": "BSE | ORIENTTR | AVANTIKA COMMOSALES LLP | BUY | 9,83,888 shares | price 4.06 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "46c920d243008e05",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 9,83,888 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_jameer_ayub_atar",
+      "name_as_printed": "JAMEER AYUB ATAR",
+      "names_as_printed": [
+        "JAMEER AYUB ATAR"
+      ],
+      "name_clean": "jameer ayub atar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "530b301b96418bc4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 869010,
+          "record_ids": [
+            "530b301b96418bc4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+          "row_ref": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+          "quote": "BSE | ORIENTTR | JAMEER AYUB ATAR | SELL | 8,69,010 shares | price 4.06 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "530b301b96418bc4",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "8,69,010",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "3528180.60",
+          "rupees_high": "3528180.60",
+          "crore_low": "0.35",
+          "crore_high": "0.35",
+          "display": "₹35.28 lakh",
+          "working": "8,69,010 shares × ₹4.06 = ₹35.28 lakh (BSE 13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "8,69,010",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+                  "row_ref": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+                  "quote": "BSE | ORIENTTR | JAMEER AYUB ATAR | SELL | 8,69,010 shares | price 4.06 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹4.06",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+                  "row_ref": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+                  "quote": "BSE | ORIENTTR | JAMEER AYUB ATAR | SELL | 8,69,010 shares | price 4.06 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+                  "row_ref": "13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010",
+                  "quote": "BSE | ORIENTTR | JAMEER AYUB ATAR | SELL | 8,69,010 shares | price 4.06 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 8,69,010 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kapil_kasat_bought",
+      "name_as_printed": "KAPIL KASAT",
+      "names_as_printed": [
+        "KAPIL KASAT"
+      ],
+      "name_clean": "kapil kasat",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e5be584c587df9f3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 400000,
+          "record_ids": [
+            "e5be584c587df9f3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · ORIENTTR · KAPIL  KASAT · B · 400000",
+          "row_ref": "13/11/2026 · ORIENTTR · KAPIL  KASAT · B · 400000",
+          "quote": "BSE | ORIENTTR | KAPIL KASAT | BUY | 4,00,000 shares | price 4.08 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e5be584c587df9f3",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,00,000 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 5,
+    "by_holder_type": {
+      "entity": 1,
+      "person": 4
+    },
+    "by_confidence": {
+      "high": 5
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 5
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 5,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "event_id": "marushika_technology_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "119.99",
+    "high": "120.13",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹119.99",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+            "row_ref": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+            "quote": "NSE | MARUSHIKA | STRATEGIC SIXTH SENSE CAPITAL FUND | SELL | 48,000 shares | price 119.99 | 2026-11-04"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹120.13",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+            "row_ref": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+            "quote": "NSE | MARUSHIKA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 99,600 shares | price 120.13 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "4 Nov 2026 to 6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,47,600 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_mansi_share_and_stock_broking_private_limited",
+      "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED"
+      ],
+      "name_clean": "mansi share and stock broking private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "2134d1edce235c7b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 99600,
+          "record_ids": [
+            "2134d1edce235c7b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+          "row_ref": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+          "quote": "NSE | MARUSHIKA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 99,600 shares | price 120.13 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2134d1edce235c7b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "99,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "11964948.00",
+          "rupees_high": "11964948.00",
+          "crore_low": "1.20",
+          "crore_high": "1.20",
+          "display": "₹1.20 crore",
+          "working": "99,600 shares × ₹120.13 = ₹1.20 crore (NSE 06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "99,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+                  "row_ref": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+                  "quote": "NSE | MARUSHIKA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 99,600 shares | price 120.13 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹120.13",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+                  "row_ref": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+                  "quote": "NSE | MARUSHIKA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 99,600 shares | price 120.13 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+                  "row_ref": "06-NOV-2026 · MARUSHIKA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 99600",
+                  "quote": "NSE | MARUSHIKA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 99,600 shares | price 120.13 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 99,600 shares in a bulk deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹28.15 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹34.68 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+          "company": "Jain Irrigation Systems L",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.98 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+          "company": "Jain Irrigation Systems L",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹98.61 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_strategic_sixth_sense_capital_fund",
+      "name_as_printed": "STRATEGIC SIXTH SENSE CAPITAL FUND",
+      "names_as_printed": [
+        "STRATEGIC SIXTH SENSE CAPITAL FUND"
+      ],
+      "name_clean": "strategic sixth sense capital fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "1141e96cf962f6d7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 48000,
+          "record_ids": [
+            "1141e96cf962f6d7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+          "row_ref": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+          "quote": "NSE | MARUSHIKA | STRATEGIC SIXTH SENSE CAPITAL FUND | SELL | 48,000 shares | price 119.99 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1141e96cf962f6d7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "48,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "5759520.00",
+          "rupees_high": "5759520.00",
+          "crore_low": "0.58",
+          "crore_high": "0.58",
+          "display": "₹57.60 lakh",
+          "working": "48,000 shares × ₹119.99 = ₹57.60 lakh (NSE 04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "48,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+                  "row_ref": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+                  "quote": "NSE | MARUSHIKA | STRATEGIC SIXTH SENSE CAPITAL FUND | SELL | 48,000 shares | price 119.99 | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹119.99",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+                  "row_ref": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+                  "quote": "NSE | MARUSHIKA | STRATEGIC SIXTH SENSE CAPITAL FUND | SELL | 48,000 shares | price 119.99 | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+                  "row_ref": "04-NOV-2026 · MARUSHIKA · STRATEGIC SIXTH SENSE CAPITAL FUND · SELL · 48000",
+                  "quote": "NSE | MARUSHIKA | STRATEGIC SIXTH SENSE CAPITAL FUND | SELL | 48,000 shares | price 119.99 | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 48,000 shares in a bulk deal on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 8
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "event_id": "pashupati_cotspin_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_rathod_manoj_chhaganlal_huf",
+      "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+      "fields": {
+        "name": "RATHOD MANOJ CHHAGANLAL HUF",
+        "role": "unknown",
+        "why_money": "sold 9,54,844 shares in a bulk deal on 27 Oct 2026",
+        "amount": "₹11.00 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹11.00 crore (9,54,844 shares × ₹115.17 = ₹11.00 crore (NSE 27-OCT-2026 · PASHUPATI · RATHOD MANOJ CHHAGANLAL HUF · SELL · 954844))",
+        "family_link": "'RATHOD MANOJ CHHAGANLAL HUF' and 'RATHOD MANOJ CHHAGANLAL HUF' share surname 'chhaganlal' and middle name 'manoj'"
+      },
+      "placeholders": {
+        "name": "RATHOD MANOJ CHHAGANLAL HUF",
+        "role": "unknown",
+        "amount": "₹11.00 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹11.00 crore",
+        "shares_offered": "9,54,844 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "RATHOD MANOJ CHHAGANLAL HUF is a holder who sold 9,54,844 shares in a bulk deal, so money is coming to them.",
+        "₹11.00 crore from the sale, settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "Role is unknown, so confirm who the decision-maker is before the call.",
+        "Another holder shares this name pattern, so check for a family link."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "{amount} from the sale, {timing}.",
+            "Role is unknown, so confirm who the decision-maker is before the call.",
+            "Another holder shares this name pattern, so check for a family link."
+          ],
+          "lines": [
+            "RATHOD MANOJ CHHAGANLAL HUF is a holder who sold 9,54,844 shares in a bulk deal, so money is coming to them.",
+            "₹11.00 crore from the sale, settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+            "Role is unknown, so confirm who the decision-maker is before the call.",
+            "Another holder shares this name pattern, so check for a family link."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

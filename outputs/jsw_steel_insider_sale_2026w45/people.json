@@ -1,0 +1,871 @@
+{
+  "event_id": "jsw_steel_insider_sale_2026w45",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "2 Nov 2026 to 6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "32,049 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
+        "records": 167,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 13,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_jsw_steel_employees_welfare_trust_jswsl_opj_samruddhi_plan_2021_a_c",
+      "name_as_printed": "JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c",
+      "names_as_printed": [
+        "JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c"
+      ],
+      "name_clean": "jsw steel employees welfare trust - jswsl opj samruddhi plan 2021 a/c",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "87d9dde996b63cf3",
+        "cbd9f682c4050ccf",
+        "1205dd282aaa4dfa",
+        "9103250dac611a55",
+        "2ad1ea244d6a08ef",
+        "5d1eaf58671ce910",
+        "4a0ff80087028cad"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 1982,
+          "record_ids": [
+            "87d9dde996b63cf3",
+            "cbd9f682c4050ccf"
+          ]
+        },
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 2371,
+          "record_ids": [
+            "1205dd282aaa4dfa",
+            "9103250dac611a55"
+          ]
+        },
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 12,
+          "record_ids": [
+            "2ad1ea244d6a08ef"
+          ]
+        },
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 43,
+          "record_ids": [
+            "5d1eaf58671ce910"
+          ]
+        },
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 217,
+          "record_ids": [
+            "4a0ff80087028cad"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure8",
+          "row_ref": "XBRL context Disclosure8",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 540 shares | value 706869 | Market Sale | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "87d9dde996b63cf3",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure9",
+          "row_ref": "XBRL context Disclosure9",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 1,442 shares | value 1442 | Off Market | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cbd9f682c4050ccf",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure3",
+          "row_ref": "XBRL context Disclosure3",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 2,215 shares | value 2215 | Off Market | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1205dd282aaa4dfa",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 156 shares | value 205140 | Market Sale | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9103250dac611a55",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure5",
+          "row_ref": "XBRL context Disclosure5",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 12 shares | value 16007 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2ad1ea244d6a08ef",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure8",
+          "row_ref": "XBRL context Disclosure8",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 43 shares | value 58295 | Market Sale | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5d1eaf58671ce910",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure10",
+          "row_ref": "XBRL context Disclosure10",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 217 shares | value 294324 | Market Sale | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4a0ff80087028cad",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,625",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1284292",
+          "rupees_high": "1284292",
+          "crore_low": "0.13",
+          "crore_high": "0.13",
+          "display": "₹12.84 lakh",
+          "working": "540 shares, value as printed ₹7.07 lakh (NSE XBRL context Disclosure8); 1,442 shares, value as printed ₹1,442 (NSE XBRL context Disclosure9); 2,215 shares, value as printed ₹2,215 (NSE XBRL context Disclosure3); 156 shares, value as printed ₹2.05 lakh (NSE XBRL context Disclosure1); 12 shares, value as printed ₹16,007 (NSE XBRL context Disclosure5); 43 shares, value as printed ₹58,295 (NSE XBRL context Disclosure8); 217 shares, value as printed ₹2.94 lakh (NSE XBRL context Disclosure10); total ₹12.84 lakh",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "540",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure8",
+                  "row_ref": "XBRL context Disclosure8",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 540 shares | value 706869 | Market Sale | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹7.07 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure8",
+                  "row_ref": "XBRL context Disclosure8",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 540 shares | value 706869 | Market Sale | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,442",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure9",
+                  "row_ref": "XBRL context Disclosure9",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 1,442 shares | value 1442 | Off Market | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹1,442",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure9",
+                  "row_ref": "XBRL context Disclosure9",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 1,442 shares | value 1442 | Off Market | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "2,215",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 2,215 shares | value 2215 | Off Market | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹2,215",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 2,215 shares | value 2215 | Off Market | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "156",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 156 shares | value 205140 | Market Sale | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹2.05 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 156 shares | value 205140 | Market Sale | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "12",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure5",
+                  "row_ref": "XBRL context Disclosure5",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 12 shares | value 16007 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹16,007",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure5",
+                  "row_ref": "XBRL context Disclosure5",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 12 shares | value 16007 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "43",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure8",
+                  "row_ref": "XBRL context Disclosure8",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 43 shares | value 58295 | Market Sale | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹58,295",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure8",
+                  "row_ref": "XBRL context Disclosure8",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 43 shares | value 58295 | Market Sale | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "217",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure10",
+                  "row_ref": "XBRL context Disclosure10",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 217 shares | value 294324 | Market Sale | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹2.94 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure10",
+                  "row_ref": "XBRL context Disclosure10",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 217 shares | value 294324 | Market Sale | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure10",
+                  "row_ref": "XBRL context Disclosure10",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c | SELL | 217 shares | value 294324 | Market Sale | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 4,625 shares (Market Sale, Off Market) between 2 Nov 2026 and 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jsw_steel_insider_sale_2026w44",
+          "company": "JSW STEEL LIMITED",
+          "name_as_printed": "JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c",
+          "role": null,
+          "amount": "₹8.43 lakh",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c' / 'JSW Steel Employees Welfare Trust – JSWSL OPJ Samruddhi Plan 2021 A/c'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_jsw_steel_employees_welfare_trust_opj_esop_plan_2021_a_c",
+      "name_as_printed": "JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c",
+      "names_as_printed": [
+        "JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c"
+      ],
+      "name_clean": "jsw steel employees welfare trust - opj esop plan 2021 a/c",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c936e4814556db6d",
+        "e61458b4a72749e5",
+        "1f9e102cf7a389c3",
+        "cc4ee7a1a9c20a28",
+        "eb80e70f7d834c78",
+        "26c4a35f240feac3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 65,
+          "record_ids": [
+            "c936e4814556db6d"
+          ]
+        },
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 6979,
+          "record_ids": [
+            "e61458b4a72749e5"
+          ]
+        },
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 18513,
+          "record_ids": [
+            "1f9e102cf7a389c3",
+            "cc4ee7a1a9c20a28"
+          ]
+        },
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 52,
+          "record_ids": [
+            "eb80e70f7d834c78"
+          ]
+        },
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1815,
+          "record_ids": [
+            "26c4a35f240feac3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure7",
+          "row_ref": "XBRL context Disclosure7",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 65 shares | value 85111 | Market Sale | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c936e4814556db6d",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure2",
+          "row_ref": "XBRL context Disclosure2",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 6,979 shares | value 6979 | Off Market | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e61458b4a72749e5",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure6",
+          "row_ref": "XBRL context Disclosure6",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 16,336 shares | value 16336 | Off Market | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1f9e102cf7a389c3",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure4",
+          "row_ref": "XBRL context Disclosure4",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 2,177 shares | value 2902932 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cc4ee7a1a9c20a28",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure7",
+          "row_ref": "XBRL context Disclosure7",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 52 shares | value 70473 | Market Sale | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "eb80e70f7d834c78",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure9",
+          "row_ref": "XBRL context Disclosure9",
+          "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 1,815 shares | value 2460959 | Market Sale | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "26c4a35f240feac3",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "27,424",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "5542790",
+          "rupees_high": "5542790",
+          "crore_low": "0.55",
+          "crore_high": "0.55",
+          "display": "₹55.43 lakh",
+          "working": "65 shares, value as printed ₹85,111 (NSE XBRL context Disclosure7); 6,979 shares, value as printed ₹6,979 (NSE XBRL context Disclosure2); 16,336 shares, value as printed ₹16,336 (NSE XBRL context Disclosure6); 2,177 shares, value as printed ₹29.03 lakh (NSE XBRL context Disclosure4); 52 shares, value as printed ₹70,473 (NSE XBRL context Disclosure7); 1,815 shares, value as printed ₹24.61 lakh (NSE XBRL context Disclosure9); total ₹55.43 lakh",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "65",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure7",
+                  "row_ref": "XBRL context Disclosure7",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 65 shares | value 85111 | Market Sale | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹85,111",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261104_130840340_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure7",
+                  "row_ref": "XBRL context Disclosure7",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 65 shares | value 85111 | Market Sale | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "6,979",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 6,979 shares | value 6979 | Off Market | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹6,979",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 6,979 shares | value 6979 | Off Market | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "16,336",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure6",
+                  "row_ref": "XBRL context Disclosure6",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 16,336 shares | value 16336 | Off Market | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹16,336",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure6",
+                  "row_ref": "XBRL context Disclosure6",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 16,336 shares | value 16336 | Off Market | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "2,177",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 2,177 shares | value 2902932 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹29.03 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 2,177 shares | value 2902932 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "52",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure7",
+                  "row_ref": "XBRL context Disclosure7",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 52 shares | value 70473 | Market Sale | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹70,473",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure7",
+                  "row_ref": "XBRL context Disclosure7",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 52 shares | value 70473 | Market Sale | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,815",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure9",
+                  "row_ref": "XBRL context Disclosure9",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 1,815 shares | value 2460959 | Market Sale | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹24.61 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure9",
+                  "row_ref": "XBRL context Disclosure9",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 1,815 shares | value 2460959 | Market Sale | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2266_20261106_172414750_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure9",
+                  "row_ref": "XBRL context Disclosure9",
+                  "quote": "NSE | JSWSTEEL | JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c | SELL | 1,815 shares | value 2460959 | Market Sale | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 27,424 shares (Market Sale, Off Market) between 2 Nov 2026 and 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jsw_steel_insider_sale_2026w44",
+          "company": "JSW STEEL LIMITED",
+          "name_as_printed": "JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c",
+          "role": null,
+          "amount": "₹49.85 lakh",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c' / 'JSW Steel Employees Welfare Trust – OPJ ESOP Plan 2021 A/c'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 2
+  }
+}

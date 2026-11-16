@@ -1,0 +1,55 @@
+{
+  "event_id": "c_p_s_shapers_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_shruti_chandak",
+      "name_as_printed": "SHRUTI CHANDAK",
+      "fields": {
+        "name": "SHRUTI CHANDAK",
+        "role": "unknown",
+        "why_money": "sold 15,150 shares in a bulk deal on 28 Oct 2026",
+        "amount": "₹1.52 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.52 crore (15,150 shares × ₹1,000 = ₹1.52 crore (NSE 28-OCT-2026 · CPS · SHRUTI  CHANDAK · SELL · 15150))"
+      },
+      "placeholders": {
+        "name": "SHRUTI CHANDAK",
+        "role": "unknown",
+        "amount": "₹1.52 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "proceeds": "₹1.52 crore",
+        "shares_offered": "15,150 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "SHRUTI CHANDAK, role unknown, received ₹1.52 crore from selling 15,150 shares in a bulk deal.",
+        "The ₹1.52 crore settled settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago), so the money has already arrived.",
+        "Ask whether they plan to reinvest the proceeds, and note the sale was recent.",
+        "Role is unknown, so confirm their position before discussing any next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "SHRUTI CHANDAK, role unknown, received {proceeds} from selling {shares_offered} in a bulk deal.",
+            "The {amount} settled {timing}, so the money has already arrived.",
+            "Ask whether they plan to reinvest the proceeds, and note the sale was recent.",
+            "Role is unknown, so confirm their position before discussing any next steps."
+          ],
+          "lines": [
+            "SHRUTI CHANDAK, role unknown, received ₹1.52 crore from selling 15,150 shares in a bulk deal.",
+            "The ₹1.52 crore settled settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago), so the money has already arrived.",
+            "Ask whether they plan to reinvest the proceeds, and note the sale was recent.",
+            "Role is unknown, so confirm their position before discussing any next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

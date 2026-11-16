@@ -1,0 +1,845 @@
+{
+  "event_id": "north_east_carry_corp_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "22.06",
+    "high": "22.92",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹22.06",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+            "row_ref": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+            "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 10,98,034 shares | price 22.06 | 2026-11-11"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹22.92",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+            "row_ref": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+            "quote": "NSE | NECCLTD | RATHOD MANOJ CHHAGANLAL HUF | SELL | 3,82,237 shares | price 22.92 | 2026-11-11"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "11 Nov 2026 to 13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "21,94,833 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 8,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_ankita_vishal_shah",
+      "name_as_printed": "ANKITA VISHAL SHAH",
+      "names_as_printed": [
+        "ANKITA VISHAL SHAH"
+      ],
+      "name_clean": "ankita vishal shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "908b7f0649457f4a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 482329,
+          "record_ids": [
+            "908b7f0649457f4a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'ANKITA VISHAL SHAH' and 'ANKITA VISHAL SHAH' share surname 'shah' and middle name 'vishal'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+          "row_ref": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+          "quote": "NSE | NECCLTD | ANKITA VISHAL SHAH | SELL | 4,82,329 shares | price 22.8 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "908b7f0649457f4a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,82,329",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "10997101.2",
+          "rupees_high": "10997101.2",
+          "crore_low": "1.10",
+          "crore_high": "1.10",
+          "display": "₹1.10 crore",
+          "working": "4,82,329 shares × ₹22.8 = ₹1.10 crore (NSE 11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,82,329",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+                  "row_ref": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+                  "quote": "NSE | NECCLTD | ANKITA VISHAL SHAH | SELL | 4,82,329 shares | price 22.8 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹22.8",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+                  "row_ref": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+                  "quote": "NSE | NECCLTD | ANKITA VISHAL SHAH | SELL | 4,82,329 shares | price 22.8 | 2026-11-11"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "trade_date": "2026-11-11",
+          "settles_on": "2026-11-12",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "11 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+                  "row_ref": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · SELL · 482329",
+                  "quote": "NSE | NECCLTD | ANKITA VISHAL SHAH | SELL | 4,82,329 shares | price 22.8 | 2026-11-11"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 4,82,329 shares in a bulk deal on 11 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ankita_vishal_shah_bought",
+      "name_as_printed": "ANKITA VISHAL SHAH",
+      "names_as_printed": [
+        "ANKITA VISHAL SHAH"
+      ],
+      "name_clean": "ankita vishal shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "d371c36e626a8b59"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 1179355,
+          "record_ids": [
+            "d371c36e626a8b59"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'ANKITA VISHAL SHAH' and 'ANKITA VISHAL SHAH' share surname 'shah' and middle name 'vishal'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · BUY · 1179355",
+          "row_ref": "11-NOV-2026 · NECCLTD · ANKITA VISHAL SHAH · BUY · 1179355",
+          "quote": "NSE | NECCLTD | ANKITA VISHAL SHAH | BUY | 11,79,355 shares | price 22.89 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d371c36e626a8b59",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 11,79,355 shares in a bulk deal on 11 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_prajal_bhandari",
+      "name_as_printed": "PRAJAL BHANDARI",
+      "names_as_printed": [
+        "PRAJAL BHANDARI"
+      ],
+      "name_clean": "prajal bhandari",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "4aa68c57ca9a29c3",
+        "0459ecb55463d3e4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 1098034,
+          "record_ids": [
+            "4aa68c57ca9a29c3"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 232233,
+          "record_ids": [
+            "0459ecb55463d3e4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+          "row_ref": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+          "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 10,98,034 shares | price 22.06 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4aa68c57ca9a29c3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+          "row_ref": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+          "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 2,32,233 shares | price 22.50 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0459ecb55463d3e4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "13,30,267",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "29447872.54",
+          "rupees_high": "29447872.54",
+          "crore_low": "2.94",
+          "crore_high": "2.94",
+          "display": "₹2.94 crore",
+          "working": "10,98,034 shares × ₹22.06 = ₹2.42 crore (NSE 11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034); 2,32,233 shares × ₹22.50 = ₹52.25 lakh (NSE 13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233); total ₹2.94 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "10,98,034",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+                  "row_ref": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+                  "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 10,98,034 shares | price 22.06 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹22.06",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+                  "row_ref": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 1098034",
+                  "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 10,98,034 shares | price 22.06 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "2,32,233",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+                  "row_ref": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+                  "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 2,32,233 shares | price 22.50 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹22.50",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+                  "row_ref": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+                  "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 2,32,233 shares | price 22.50 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+                  "pdf_index": null,
+                  "printed_page": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+                  "row_ref": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · SELL · 232233",
+                  "quote": "NSE | NECCLTD | PRAJAL BHANDARI | SELL | 2,32,233 shares | price 22.50 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 13,30,267 shares in bulk deals on 11 Nov 2026 and 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_prajal_bhandari_bought",
+      "name_as_printed": "PRAJAL BHANDARI",
+      "names_as_printed": [
+        "PRAJAL BHANDARI"
+      ],
+      "name_clean": "prajal bhandari",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e9bb63d7f2d78b31",
+        "0099055f0ef89fd9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 1050085,
+          "record_ids": [
+            "e9bb63d7f2d78b31"
+          ]
+        },
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 885561,
+          "record_ids": [
+            "0099055f0ef89fd9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · BUY · 1050085",
+          "row_ref": "11-NOV-2026 · NECCLTD · PRAJAL BHANDARI · BUY · 1050085",
+          "quote": "NSE | NECCLTD | PRAJAL BHANDARI | BUY | 10,50,085 shares | price 21.84 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e9bb63d7f2d78b31",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+          "pdf_index": null,
+          "printed_page": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · BUY · 885561",
+          "row_ref": "13-NOV-2026 · NECCLTD · PRAJAL BHANDARI · BUY · 885561",
+          "quote": "NSE | NECCLTD | PRAJAL BHANDARI | BUY | 8,85,561 shares | price 22.58 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0099055f0ef89fd9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 19,35,646 shares in bulk deals on 11 Nov 2026 and 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_rathod_manoj_chhaganlal_huf",
+      "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+      "names_as_printed": [
+        "RATHOD MANOJ CHHAGANLAL HUF"
+      ],
+      "name_clean": "rathod manoj chhaganlal huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ac4f3a091b1646c9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 382237,
+          "record_ids": [
+            "ac4f3a091b1646c9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'RATHOD MANOJ CHHAGANLAL HUF' and 'RATHOD MANOJ CHHAGANLAL HUF' share surname 'chhaganlal' and middle name 'manoj'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+          "row_ref": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+          "quote": "NSE | NECCLTD | RATHOD MANOJ CHHAGANLAL HUF | SELL | 3,82,237 shares | price 22.92 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ac4f3a091b1646c9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,82,237",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "8760872.04",
+          "rupees_high": "8760872.04",
+          "crore_low": "0.88",
+          "crore_high": "0.88",
+          "display": "₹87.61 lakh",
+          "working": "3,82,237 shares × ₹22.92 = ₹87.61 lakh (NSE 11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,82,237",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+                  "row_ref": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+                  "quote": "NSE | NECCLTD | RATHOD MANOJ CHHAGANLAL HUF | SELL | 3,82,237 shares | price 22.92 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹22.92",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+                  "row_ref": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+                  "quote": "NSE | NECCLTD | RATHOD MANOJ CHHAGANLAL HUF | SELL | 3,82,237 shares | price 22.92 | 2026-11-11"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "trade_date": "2026-11-11",
+          "settles_on": "2026-11-12",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "11 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+                  "row_ref": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · SELL · 382237",
+                  "quote": "NSE | NECCLTD | RATHOD MANOJ CHHAGANLAL HUF | SELL | 3,82,237 shares | price 22.92 | 2026-11-11"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 3,82,237 shares in a bulk deal on 11 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "pashupati_cotspin_bulk_deal_2026w44",
+          "company": "Pashupati Cotspin Limited",
+          "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+          "role": null,
+          "amount": "₹11.00 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'RATHOD MANOJ CHHAGANLAL HUF' / 'RATHOD MANOJ CHHAGANLAL HUF'"
+        },
+        {
+          "event_id": "pashupati_cotspin_bulk_deal_2026w44",
+          "company": "Pashupati Cotspin Limited",
+          "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'RATHOD MANOJ CHHAGANLAL HUF' / 'RATHOD MANOJ CHHAGANLAL HUF'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_rathod_manoj_chhaganlal_huf_bought",
+      "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+      "names_as_printed": [
+        "RATHOD MANOJ CHHAGANLAL HUF"
+      ],
+      "name_clean": "rathod manoj chhaganlal huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8445af5e30d8942b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 730843,
+          "record_ids": [
+            "8445af5e30d8942b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'RATHOD MANOJ CHHAGANLAL HUF' and 'RATHOD MANOJ CHHAGANLAL HUF' share surname 'chhaganlal' and middle name 'manoj'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · BUY · 730843",
+          "row_ref": "11-NOV-2026 · NECCLTD · RATHOD MANOJ CHHAGANLAL HUF · BUY · 730843",
+          "quote": "NSE | NECCLTD | RATHOD MANOJ CHHAGANLAL HUF | BUY | 7,30,843 shares | price 22.65 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8445af5e30d8942b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 7,30,843 shares in a bulk deal on 11 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "pashupati_cotspin_bulk_deal_2026w44",
+          "company": "Pashupati Cotspin Limited",
+          "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+          "role": null,
+          "amount": "₹11.00 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'RATHOD MANOJ CHHAGANLAL HUF' / 'RATHOD MANOJ CHHAGANLAL HUF'"
+        },
+        {
+          "event_id": "pashupati_cotspin_bulk_deal_2026w44",
+          "company": "Pashupati Cotspin Limited",
+          "name_as_printed": "RATHOD MANOJ CHHAGANLAL HUF",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'RATHOD MANOJ CHHAGANLAL HUF' / 'RATHOD MANOJ CHHAGANLAL HUF'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "ANKITA VISHAL SHAH",
+        "ANKITA VISHAL SHAH"
+      ],
+      "reasons": [
+        "'ANKITA VISHAL SHAH' and 'ANKITA VISHAL SHAH' share surname 'shah' and middle name 'vishal'"
+      ]
+    },
+    {
+      "id": "family_2",
+      "members": [
+        "RATHOD MANOJ CHHAGANLAL HUF",
+        "RATHOD MANOJ CHHAGANLAL HUF"
+      ],
+      "reasons": [
+        "'RATHOD MANOJ CHHAGANLAL HUF' and 'RATHOD MANOJ CHHAGANLAL HUF' share surname 'chhaganlal' and middle name 'manoj'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "family_vehicle": 2,
+      "person": 4
+    },
+    "by_confidence": {
+      "high": 6
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 6
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 2,
+    "flagged": 0,
+    "index_lookups": 6,
+    "follow_on_matches": 4
+  }
+}

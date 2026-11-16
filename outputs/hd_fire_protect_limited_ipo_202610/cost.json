@@ -1,0 +1,62 @@
+{
+  "event_id": "hd_fire_protect_limited_ipo_202610",
+  "run_id": "hd_fire_protect_limited_ipo_202610-20261115T135607Z",
+  "totals": {
+    "calls": 15,
+    "cached_calls": 8,
+    "cached_share": 0.533,
+    "input_tokens": 10315,
+    "output_tokens": 974,
+    "cost_usd": 0.001518,
+    "fresh_usd": 0.012549,
+    "unpriced_calls": 0,
+    "wall_s": 17.288152749999426,
+    "callable_people": 6,
+    "cost_per_callable_usd": 0.000253,
+    "fresh_per_callable_usd": 0.002092
+  },
+  "per_person": [
+    {
+      "person_id": "p_harish_narshi_dharamshi",
+      "name_as_printed": "HARISH NARSHI DHARAMSHI",
+      "cost_usd": 0.000235,
+      "fresh_usd": 0.003979,
+      "calls": 3.667
+    },
+    {
+      "person_id": "p_kusum_harish_dharamshi",
+      "name_as_printed": "KUSUM HARISH DHARAMSHI",
+      "cost_usd": 0.000488,
+      "fresh_usd": 0.003723,
+      "calls": 4.167
+    },
+    {
+      "person_id": "p_anik_narendra_dharamshi",
+      "name_as_printed": "Anik Narendra Dharamshi",
+      "cost_usd": 0.000205,
+      "fresh_usd": 0.0016,
+      "calls": 2.167
+    },
+    {
+      "person_id": "p_parika_miheer_ghotikar",
+      "name_as_printed": "Parika Miheer Ghotikar",
+      "cost_usd": 0.000199,
+      "fresh_usd": 0.001085,
+      "calls": 1.667
+    },
+    {
+      "person_id": "p_miheer_sadanand_ghotikar",
+      "name_as_printed": "Miheer Sadanand Ghotikar",
+      "cost_usd": 0.000196,
+      "fresh_usd": 0.001082,
+      "calls": 1.667
+    },
+    {
+      "person_id": "p_narendra_visanji_dharamshi",
+      "name_as_printed": "Narendra Visanji Dharamshi",
+      "cost_usd": 0.000195,
+      "fresh_usd": 0.001081,
+      "calls": 1.667
+    }
+  ]
+}

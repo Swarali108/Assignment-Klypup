@@ -1,0 +1,239 @@
+{
+  "event_id": "wipro_buyback",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_azim_h_premji",
+      "name_as_printed": "Azim H Premji",
+      "fields": {
+        "name": "Azim H Premji",
+        "role": "unknown",
+        "why_money": "tenders 26,20,91,650 shares in the buyback",
+        "amount": "about ₹332.60 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "event": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "event_age": "145 days ago",
+        "event_is": "old",
+        "proceeds": "about ₹332.60 crore (estimate at the general-category entitlement) (26,20,91,650 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 1,33,04,144 shares (capped at 26,20,91,650 intended) × ₹250 = ₹332.60 crore. Acceptance can be higher when other holders do not tender.)",
+        "family_link": "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'"
+      },
+      "placeholders": {
+        "name": "Azim H Premji",
+        "role": "unknown",
+        "amount": "about ₹332.60 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "proceeds": "about ₹332.60 crore (estimate at the general-category entitlement)",
+        "event_age": "145 days ago"
+      },
+      "lines": [
+        "Azim H Premji is a unknown who tendered shares in the buyback, so proceeds are coming to them.",
+        "The about ₹332.60 crore (estimate at the general-category entitlement) were paid by 24 Jun 2026 (4 months ago), so this money has already arrived, 145 days ago.",
+        "Acceptance could run higher if other holders do not tender, so their remaining stake may matter to them.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who tenders {shares_offered} in the buyback, so proceeds are coming to them.",
+            "The proceeds of {amount} were {timing}, so this money has already arrived, {event_age}.",
+            "Acceptance could run higher if other holders do not tender, so their {retained_shares} stake may still matter to them.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "{name} is a holder who tenders {shares_offered} in the buyback, so proceeds are coming to them.",
+            "The proceeds of {amount} were {timing}, so this money has already arrived, {event_age}.",
+            "Acceptance could run higher if other holders do not tender, so their {retained_shares} stake may still matter to them.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": "unknown placeholders: {retained_shares}, {shares_offered}"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who tendered shares in the buyback, so proceeds are coming to them.",
+            "The {proceeds} were {timing}, so this money has already arrived, {event_age}.",
+            "Acceptance could run higher if other holders do not tender, so their remaining stake may matter to them.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Azim H Premji is a unknown who tendered shares in the buyback, so proceeds are coming to them.",
+            "The about ₹332.60 crore (estimate at the general-category entitlement) were paid by 24 Jun 2026 (4 months ago), so this money has already arrived, 145 days ago.",
+            "Acceptance could run higher if other holders do not tender, so their remaining stake may matter to them.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rishad_azim_premji",
+      "name_as_printed": "Rishad Azim Premji",
+      "fields": {
+        "name": "Rishad Azim Premji",
+        "role": "unknown",
+        "why_money": "tenders 1,35,37,782 shares in the buyback",
+        "amount": "about ₹17.18 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "event": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "event_age": "145 days ago",
+        "event_is": "old",
+        "proceeds": "about ₹17.18 crore (estimate at the general-category entitlement) (1,35,37,782 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 6,87,197 shares (capped at 1,35,37,782 intended) × ₹250 = ₹17.18 crore. Acceptance can be higher when other holders do not tender.)",
+        "family_link": "'Rishad Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Rishad Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      },
+      "placeholders": {
+        "name": "Rishad Azim Premji",
+        "role": "unknown",
+        "amount": "about ₹17.18 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "proceeds": "about ₹17.18 crore (estimate at the general-category entitlement)",
+        "event_age": "145 days ago"
+      },
+      "lines": [
+        "Rishad Azim Premji tenders 1,35,37,782 shares in the buyback.",
+        "about ₹17.18 crore (estimate at the general-category entitlement); paid by 24 Jun 2026 (4 months ago).",
+        "Family members also hold shares in this event; consider one joint conversation."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "calls proceeds an estimate; proceeds are a calculation",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder whose role is unknown, receiving money from a buyback tender of {shares_offered}.",
+            "Proceeds of {proceeds} were {timing}, and the money event is {event_age}.",
+            "Family link: {name} shares surname and middle name with other Premji holders, a possible conversation angle.",
+            "Caveat: the holder's role is unknown and the proceeds figure is an estimate that may rise if fewer holders tender."
+          ],
+          "lines": [
+            "{name} is a shareholder whose role is unknown, receiving money from a buyback tender of {shares_offered}.",
+            "Proceeds of {proceeds} were {timing}, and the money event is {event_age}.",
+            "Family link: {name} shares surname and middle name with other Premji holders, a possible conversation angle.",
+            "Caveat: the holder's role is unknown and the proceeds figure is an estimate that may rise if fewer holders tender."
+          ],
+          "problem": "unknown placeholders: {shares_offered}"
+        },
+        {
+          "raw_lines": [
+            "{name} is a shareholder whose role is {role}, receiving money from a buyback tender.",
+            "Proceeds of {amount} were {timing}, and the money event is {event_age}.",
+            "Family link: {name} shares surname and middle name with other Premji holders, a possible conversation angle.",
+            "Caveat: the holder's role is {role} and the proceeds figure is an estimate that may rise if fewer holders tender."
+          ],
+          "lines": [
+            "{name} is a shareholder whose role is {role}, receiving money from a buyback tender.",
+            "Proceeds of {amount} were {timing}, and the money event is {event_age}.",
+            "Family link: {name} shares surname and middle name with other Premji holders, a possible conversation angle.",
+            "Caveat: the holder's role is {role} and the proceeds figure is an estimate that may rise if fewer holders tender."
+          ],
+          "problem": "calls proceeds an estimate; proceeds are a calculation"
+        }
+      ]
+    },
+    {
+      "person_id": "p_tariq_azim_premji",
+      "name_as_printed": "Tariq Azim Premji",
+      "fields": {
+        "name": "Tariq Azim Premji",
+        "role": "unknown",
+        "why_money": "tenders 1,32,38,430 shares in the buyback",
+        "amount": "about ₹16.80 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "event": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "event_age": "145 days ago",
+        "event_is": "old",
+        "proceeds": "about ₹16.80 crore (estimate at the general-category entitlement) (1,32,38,430 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 6,72,001 shares (capped at 1,32,38,430 intended) × ₹250 = ₹16.80 crore. Acceptance can be higher when other holders do not tender.)",
+        "family_link": "'Tariq Azim Premji' and 'Azim H Premji' share surname 'premji', and the middle name 'azim' of 'Tariq Azim Premji' is the first name of 'Azim H Premji'; 'Rishad Azim Premji' and 'Tariq Azim Premji' share surname 'premji' and middle name 'azim'"
+      },
+      "placeholders": {
+        "name": "Tariq Azim Premji",
+        "role": "unknown",
+        "amount": "about ₹16.80 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "proceeds": "about ₹16.80 crore (estimate at the general-category entitlement)",
+        "event_age": "145 days ago"
+      },
+      "lines": [
+        "Tariq Azim Premji is a shareholder whose role is unknown; they tendered shares in a buyback, so money is coming to them.",
+        "They received about ₹16.80 crore (estimate at the general-category entitlement), with the payment paid by 24 Jun 2026 (4 months ago).",
+        "Tariq Azim Premji shares a surname and middle name with other holders in the family, a link worth raising."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder whose role is unknown; they tendered shares in a buyback, so money is coming to them.",
+            "They received {proceeds}, with the payment {timing}.",
+            "{name} shares a surname and middle name with other holders in the family, a link worth raising."
+          ],
+          "lines": [
+            "Tariq Azim Premji is a shareholder whose role is unknown; they tendered shares in a buyback, so money is coming to them.",
+            "They received about ₹16.80 crore (estimate at the general-category entitlement), with the payment paid by 24 Jun 2026 (4 months ago).",
+            "Tariq Azim Premji shares a surname and middle name with other holders in the family, a link worth raising."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_yasmeen_a_premji",
+      "name_as_printed": "Yasmeen A Premji",
+      "fields": {
+        "name": "Yasmeen A Premji",
+        "role": "unknown",
+        "why_money": "tenders 51,18,756 shares in the buyback",
+        "amount": "about ₹6.50 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "event": "proceeds paid by 24 Jun 2026 (4 months ago)",
+        "event_age": "145 days ago",
+        "event_is": "old",
+        "proceeds": "about ₹6.50 crore (estimate at the general-category entitlement) (51,18,756 × 10 Equity Share for every 197 Equity Shares held on the Record Date = 2,59,835 shares (capped at 51,18,756 intended) × ₹250 = ₹6.50 crore. Acceptance can be higher when other holders do not tender.)"
+      },
+      "placeholders": {
+        "name": "Yasmeen A Premji",
+        "role": "unknown",
+        "amount": "about ₹6.50 crore (estimate at the general-category entitlement)",
+        "timing": "paid by 24 Jun 2026 (4 months ago)",
+        "proceeds": "about ₹6.50 crore (estimate at the general-category entitlement)",
+        "shares_held": "51,18,756 shares",
+        "event_age": "145 days ago"
+      },
+      "lines": [
+        "Yasmeen A Premji, unknown, is receiving money from a buyback tender of 51,18,756 shares.",
+        "Proceeds of about ₹6.50 crore (estimate at the general-category entitlement) were paid paid by 24 Jun 2026 (4 months ago), which was 145 days ago.",
+        "Ask how they used the about ₹6.50 crore (estimate at the general-category entitlement) proceeds and what they want their cash to do next."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Yasmeen A Premji, role unknown, is receiving money from a buyback tender of {shares_held}.",
+            "Proceeds of {proceeds} were paid by {timing}, which was {event_age}.",
+            "Discuss how they used the proceeds and what they now want their cash to do."
+          ],
+          "lines": [
+            "Yasmeen A Premji, role unknown, is receiving money from a buyback tender of {shares_held}.",
+            "Proceeds of {proceeds} were paid by {timing}, which was {event_age}.",
+            "Discuss how they used the proceeds and what they now want their cash to do."
+          ],
+          "problem": "says now about an event that is 145 days ago"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from a buyback tender of {shares_held}.",
+            "Proceeds of {proceeds} were paid {timing}, which was {event_age}.",
+            "Ask how they used the {amount} proceeds and what they want their cash to do next."
+          ],
+          "lines": [
+            "Yasmeen A Premji, unknown, is receiving money from a buyback tender of 51,18,756 shares.",
+            "Proceeds of about ₹6.50 crore (estimate at the general-category entitlement) were paid paid by 24 Jun 2026 (4 months ago), which was 145 days ago.",
+            "Ask how they used the about ₹6.50 crore (estimate at the general-category entitlement) proceeds and what they want their cash to do next."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

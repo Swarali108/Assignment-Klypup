@@ -1,0 +1,62 @@
+{
+  "event_id": "iifl_capital_services_bulk_deal_2026w44",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_theleme_india_master_fund_limited",
+      "name_as_printed": "THELEME INDIA MASTER FUND LIMITED",
+      "name_clean": "theleme india master fund limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "108.72",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "108.72000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 17,
+        "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "money_crore": "108.72",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "108.72000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 17,
+          "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "money_crore": "108.72",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "108.72000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 31,24,131 shares in a bulk deal on 29 Oct 2026",
+      "amount_display": "₹108.72 crore",
+      "timing_display": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹108.72 crore; settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 108.72 = ₹108.72 crore (proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

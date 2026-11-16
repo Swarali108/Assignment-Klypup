@@ -1,0 +1,55 @@
+{
+  "event_id": "jakharia_fabric_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ajay_narendra_bansal",
+      "name_as_printed": "AJAY NARENDRA BANSAL",
+      "fields": {
+        "name": "AJAY NARENDRA BANSAL",
+        "role": "unknown",
+        "why_money": "sold 2,83,200 shares in a bulk deal on 28 Oct 2026",
+        "amount": "₹1.59 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.59 crore (2,83,200 shares × ₹56 = ₹1.59 crore (NSE 28-OCT-2026 · JAKHARIA · AJAY NARENDRA BANSAL · SELL · 283200))"
+      },
+      "placeholders": {
+        "name": "AJAY NARENDRA BANSAL",
+        "role": "unknown",
+        "amount": "₹1.59 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "proceeds": "₹1.59 crore",
+        "shares_offered": "2,83,200 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "AJAY NARENDRA BANSAL is a holder whose role is unknown; money is coming from a share sale on the NSE.",
+        "They sold 2,83,200 shares for ₹1.59 crore, settled 18 days ago.",
+        "Ask whether they plan to reinvest the proceeds, and clarify their role and any other holdings.",
+        "Caveat: their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; money is coming from a share sale on the NSE.",
+            "They sold {shares_offered} for {proceeds}, settled {event_age}.",
+            "Ask whether they plan to reinvest the proceeds, and clarify their role and any other holdings.",
+            "Caveat: their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "AJAY NARENDRA BANSAL is a holder whose role is unknown; money is coming from a share sale on the NSE.",
+            "They sold 2,83,200 shares for ₹1.59 crore, settled 18 days ago.",
+            "Ask whether they plan to reinvest the proceeds, and clarify their role and any other holdings.",
+            "Caveat: their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

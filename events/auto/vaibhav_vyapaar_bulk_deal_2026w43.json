@@ -1,0 +1,20 @@
+{
+  "event_id": "vaibhav_vyapaar_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Vaibhav Vyapaar Limited",
+  "documents": [],
+  "records": [
+    "2cc94aee677d1c1f",
+    "a6d3e4382a08f6fb",
+    "eb499de2fe661648"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-21",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "event_id": "bio_medica_laboratories_l_bulk_deal_2026w44",
+  "callable": [
+    {
+      "person_id": "p_jayant_babulal_bokadia",
+      "name_as_printed": "JAYANT BABULAL BOKADIA",
+      "name_clean": "jayant babulal bokadia",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.17",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.17000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 19,
+        "label": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "money_crore": "1.17",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.17000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 19,
+          "label": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "money_crore": "1.17",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.17000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 80,000 shares in a bulk deal on 27 Oct 2026",
+      "amount_display": "₹1.17 crore",
+      "timing_display": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JAYANT BABULAL BOKADIA' and 'RATAN BABULAL BOKADIA' share surname 'bokadia' and middle name 'babulal'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹1.17 crore; settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "score 1.17 = ₹1.17 crore (proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'JAYANT BABULAL BOKADIA' and 'RATAN BABULAL BOKADIA' share surname 'bokadia' and middle name 'babulal'"
+      ]
+    },
+    {
+      "person_id": "p_dixit_jitendra_bokadia",
+      "name_as_printed": "DIXIT JITENDRA BOKADIA",
+      "name_clean": "dixit jitendra bokadia",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.10",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.10000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 20,
+        "label": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "money_crore": "1.10",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.10000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 20,
+          "label": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "money_crore": "1.10",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.10000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 75,000 shares in a bulk deal on 26 Oct 2026",
+      "amount_display": "₹1.10 crore",
+      "timing_display": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹1.10 crore; settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+        "score 1.10 = ₹1.10 crore (proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_ratan_babulal_bokadia",
+      "name_as_printed": "RATAN BABULAL BOKADIA",
+      "name_clean": "ratan babulal bokadia",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.01",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.01000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 20,
+        "label": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+        "money_crore": "1.01",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.01000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 20,
+          "label": "proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "money_crore": "1.01",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.01000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 69,000 shares in a bulk deal on 26 Oct 2026",
+      "amount_display": "₹1.01 crore",
+      "timing_display": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JAYANT BABULAL BOKADIA' and 'RATAN BABULAL BOKADIA' share surname 'bokadia' and middle name 'babulal'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹1.01 crore; settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago).",
+        "score 1.01 = ₹1.01 crore (proceeds settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'JAYANT BABULAL BOKADIA' and 'RATAN BABULAL BOKADIA' share surname 'bokadia' and middle name 'babulal'"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_oswal_energies_limited_bought",
+      "name_as_printed": "OSWAL ENERGIES LIMITED",
+      "name_clean": "oswal energies limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 2,24,000 shares in bulk deals on 26 Oct 2026 and 27 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

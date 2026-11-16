@@ -1,0 +1,65 @@
+{
+  "event_id": "bhagiradha_chemicals_industries_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_singavarapu_chandrasekhar",
+      "name_as_printed": "SINGAVARAPU CHANDRASEKHAR",
+      "fields": {
+        "name": "SINGAVARAPU CHANDRASEKHAR",
+        "role": "Promoter",
+        "why_money": "sold 1,50,000 shares (Market Sale) on 9 Nov 2026",
+        "amount": "₹189",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹189 (1,50,000 shares, value as printed ₹189 (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "SINGAVARAPU CHANDRASEKHAR",
+        "role": "Promoter",
+        "amount": "₹189",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹189",
+        "shares_offered": "1,50,000 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "SINGAVARAPU CHANDRASEKHAR is a Promoter who sold 1,50,000 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹189 were settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "Ask whether they plan to reinvest the sale proceeds or hold the cash."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} on 9 Nov, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Ask whether they plan to reinvest the sale proceeds or hold the cash."
+          ],
+          "lines": [
+            "{name} is a {role} who sold {shares_offered} on 9 Nov, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Ask whether they plan to reinvest the sale proceeds or hold the cash."
+          ],
+          "problem": "writes numbers instead of placeholders: 9"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Ask whether they plan to reinvest the sale proceeds or hold the cash."
+          ],
+          "lines": [
+            "SINGAVARAPU CHANDRASEKHAR is a Promoter who sold 1,50,000 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹189 were settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+            "Ask whether they plan to reinvest the sale proceeds or hold the cash."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

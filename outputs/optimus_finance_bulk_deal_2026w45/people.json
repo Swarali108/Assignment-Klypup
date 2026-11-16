@@ -1,0 +1,320 @@
+{
+  "event_id": "optimus_finance_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "19.84",
+    "high": "19.84",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹19.84",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+            "row_ref": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+            "quote": "NSE | OPTIFIN | DASHRATH DHAKALU GOTARANE | SELL | 6,36,679 shares | price 19.84 | 2026-11-05"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "5 Nov 2026",
+    "sale_date_parsed": "2026-11-05",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "6,36,679 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_dashrath_dhakalu_gotarane",
+      "name_as_printed": "DASHRATH DHAKALU GOTARANE",
+      "names_as_printed": [
+        "DASHRATH DHAKALU GOTARANE"
+      ],
+      "name_clean": "dashrath dhakalu gotarane",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "1b06d5f663c12867"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 636679,
+          "record_ids": [
+            "1b06d5f663c12867"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+          "row_ref": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+          "quote": "NSE | OPTIFIN | DASHRATH DHAKALU GOTARANE | SELL | 6,36,679 shares | price 19.84 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1b06d5f663c12867",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,36,679",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "12631711.36",
+          "rupees_high": "12631711.36",
+          "crore_low": "1.26",
+          "crore_high": "1.26",
+          "display": "₹1.26 crore",
+          "working": "6,36,679 shares × ₹19.84 = ₹1.26 crore (NSE 05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,36,679",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+                  "row_ref": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+                  "quote": "NSE | OPTIFIN | DASHRATH DHAKALU GOTARANE | SELL | 6,36,679 shares | price 19.84 | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹19.84",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+                  "row_ref": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+                  "quote": "NSE | OPTIFIN | DASHRATH DHAKALU GOTARANE | SELL | 6,36,679 shares | price 19.84 | 2026-11-05"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+          "trade_date": "2026-11-05",
+          "settles_on": "2026-11-06",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "5 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+                  "row_ref": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · SELL · 636679",
+                  "quote": "NSE | OPTIFIN | DASHRATH DHAKALU GOTARANE | SELL | 6,36,679 shares | price 19.84 | 2026-11-05"
+                }
+              ]
+            }
+          ],
+          "days_since": 10
+        }
+      },
+      "why_money": "sold 6,36,679 shares in a bulk deal on 5 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_dashrath_dhakalu_gotarane_bought",
+      "name_as_printed": "DASHRATH DHAKALU GOTARANE",
+      "names_as_printed": [
+        "DASHRATH DHAKALU GOTARANE"
+      ],
+      "name_clean": "dashrath dhakalu gotarane",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a7491eb57b89bd1c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 642922,
+          "record_ids": [
+            "a7491eb57b89bd1c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · BUY · 642922",
+          "row_ref": "05-NOV-2026 · OPTIFIN · DASHRATH DHAKALU GOTARANE · BUY · 642922",
+          "quote": "NSE | OPTIFIN | DASHRATH DHAKALU GOTARANE | BUY | 6,42,922 shares | price 19.83 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a7491eb57b89bd1c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,42,922 shares in a bulk deal on 5 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "DASHRATH DHAKALU GOTARANE",
+        "DASHRATH DHAKALU GOTARANE"
+      ],
+      "reasons": [
+        "'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 0
+  }
+}

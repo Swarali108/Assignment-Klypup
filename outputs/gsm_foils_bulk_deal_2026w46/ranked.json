@@ -1,0 +1,154 @@
+{
+  "event_id": "gsm_foils_bulk_deal_2026w46",
+  "callable": [
+    {
+      "person_id": "p_jayesh_mannar",
+      "name_as_printed": "JAYESH MANNAR",
+      "name_clean": "jayesh mannar",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.42",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.42000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "money_crore": "0.42",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.42000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "money_crore": "0.42",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.42000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 73,500 shares in a bulk deal on 9 Nov 2026",
+      "amount_display": "₹41.97 lakh",
+      "timing_display": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹41.97 lakh; settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "score 0.42 = ₹0.42 crore (proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "person_id": "p_hi_growth_corporate_services_pvt_ltd",
+      "name_as_printed": "HI GROWTH CORPORATE SERVICES PVT LTD",
+      "name_clean": "hi growth corporate services pvt ltd",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.27",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.27000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "money_crore": "0.27",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.27000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "money_crore": "0.27",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.27000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 48,000 shares in a bulk deal on 9 Nov 2026",
+      "amount_display": "₹27.47 lakh",
+      "timing_display": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹27.47 lakh; settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.27 = ₹0.27 crore (proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "person_id": "p_hi_growth_corporate_services_pvt_ltd_bought",
+      "name_as_printed": "HI GROWTH CORPORATE SERVICES PVT LTD",
+      "name_clean": "hi growth corporate services pvt ltd",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 99,000 shares in a bulk deal on 9 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

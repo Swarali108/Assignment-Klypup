@@ -1,0 +1,292 @@
+{
+  "event_id": "sahajanand_medical_technologies_limited_ipo_202611",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dhirajkumar_savjibhai_vasoya",
+      "name_as_printed": "Dhirajkumar Savjibhai Vasoya",
+      "fields": {
+        "name": "Dhirajkumar Savjibhai Vasoya",
+        "role": "Promoter Group Selling Shareholder",
+        "why_money": "sells up to 2,000,000 shares in the offer for sale",
+        "amount": "up to ₹68.80 crore, if all offered shares are sold",
+        "timing": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+        "event": "proceeds in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+        "event_age": "23 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹68.80 crore, if all offered shares are sold (2,000,000 × ₹344 = ₹68.80 crore)",
+        "gain": "up to ₹68.67 crore, before offer expenses and taxes, if all offered shares are sold (2,000,000 × (₹344 − ₹0.63) = ₹68.67 crore)",
+        "retained": "₹71.64 crore (estimate, valued at offer price) ((4,082,700 − 2,000,000) × ₹344 = ₹71.64 crore)",
+        "retained_shares": "at least 2,082,700 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+      },
+      "placeholders": {
+        "name": "Dhirajkumar Savjibhai Vasoya",
+        "role": "Promoter Group Selling Shareholder",
+        "amount": "up to ₹68.80 crore, if all offered shares are sold",
+        "timing": "in hand since 23 Oct 2026 (23 days ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹68.80 crore, if all offered shares are sold",
+        "gain": "up to ₹68.67 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹71.64 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 2,082,700 shares, if all offered shares are sold",
+        "shares_offered": "up to 2,000,000 shares",
+        "shares_held": "4,082,700 shares",
+        "event_age": "23 days ago",
+        "locked_until": "21 Apr 2027"
+      },
+      "lines": [
+        "Dhirajkumar Savjibhai Vasoya, a Promoter Group Selling Shareholder, is receiving proceeds from selling up to 2,000,000 shares in the offer for sale.",
+        "Proceeds of up to ₹68.80 crore, if all offered shares are sold have been in hand since 23 days ago, with up to ₹68.67 crore, before offer expenses and taxes, if all offered shares are sold in gain.",
+        "They keep at least 2,082,700 shares, if all offered shares are sold, which stay locked until 21 Apr 2027, so further value is tied to that date.",
+        "Caveat: the listing timing is unknown because the event documents do not state it."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving proceeds from selling up to {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {event_age}, with {gain} in gain at offer price.",
+            "They keep {retained_shares} locked until 21 Apr 2027, so further value is tied to that date.",
+            "Caveat: the listing date is not stated in the event documents, so timing at listing is unknown."
+          ],
+          "lines": [
+            "{name}, a {role}, is receiving proceeds from selling up to {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {event_age}, with {gain} in gain at offer price.",
+            "They keep {retained_shares} locked until 21 Apr 2027, so further value is tied to that date.",
+            "Caveat: the listing date is not stated in the event documents, so timing at listing is unknown."
+          ],
+          "problem": "writes numbers instead of placeholders: 21, 2027"
+        },
+        {
+          "raw_lines": [
+            "{name}, a {role}, is receiving proceeds from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} have been in hand since {event_age}, with {gain} in gain.",
+            "They keep {retained_shares}, which stay locked until {locked_until}, so further value is tied to that date.",
+            "Caveat: the listing timing is unknown because the event documents do not state it."
+          ],
+          "lines": [
+            "Dhirajkumar Savjibhai Vasoya, a Promoter Group Selling Shareholder, is receiving proceeds from selling up to 2,000,000 shares in the offer for sale.",
+            "Proceeds of up to ₹68.80 crore, if all offered shares are sold have been in hand since 23 days ago, with up to ₹68.67 crore, before offer expenses and taxes, if all offered shares are sold in gain.",
+            "They keep at least 2,082,700 shares, if all offered shares are sold, which stay locked until 21 Apr 2027, so further value is tied to that date.",
+            "Caveat: the listing timing is unknown because the event documents do not state it."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ashish_kacholia",
+      "name_as_printed": "Ashish Kacholia",
+      "fields": {
+        "name": "Ashish Kacholia",
+        "role": "unknown",
+        "why_money": "holds 1,095,890 shares before the offer; not selling in it",
+        "amount": "₹37.70 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹37.70 crore (estimate, valued at offer price) (1,095,890 × ₹344 = ₹37.70 crore)",
+        "retained_shares": "1,095,890 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Ashish Kacholia",
+        "role": "unknown",
+        "amount": "₹37.70 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹37.70 crore (estimate, valued at offer price)",
+        "retained_shares": "1,095,890 shares",
+        "shares_held": "1,095,890 shares"
+      },
+      "lines": [
+        "Ashish Kacholia, role unknown, holds 1,095,890 shares before the offer and is not selling in it.",
+        "Their position is valued at ₹37.70 crore (estimate, valued at offer price); shares, not cash at offer price, shares rather than cash.",
+        "They keep 1,095,890 shares, so the value they hold depends on where the stock trades next.",
+        "Caveat: their role and timing of any money event are unknown; no role is printed."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ashish Kacholia, role unknown, holds {shares_held} before the offer and is not selling in it.",
+            "Their position is valued at {amount} at offer price, shares rather than cash.",
+            "They keep {retained_shares}, so the value they hold depends on where the stock trades next.",
+            "Caveat: their role and timing of any money event are unknown; no role is printed."
+          ],
+          "lines": [
+            "Ashish Kacholia, role unknown, holds 1,095,890 shares before the offer and is not selling in it.",
+            "Their position is valued at ₹37.70 crore (estimate, valued at offer price); shares, not cash at offer price, shares rather than cash.",
+            "They keep 1,095,890 shares, so the value they hold depends on where the stock trades next.",
+            "Caveat: their role and timing of any money event are unknown; no role is printed."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_bhargav_dhirajlal_kotadia",
+      "name_as_printed": "Bhargav Dhirajlal Kotadia",
+      "fields": {
+        "name": "Bhargav Dhirajlal Kotadia",
+        "role": "Promoters",
+        "why_money": "holds 5,000 shares before the offer; not selling in it",
+        "amount": "₹0.17 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹0.17 crore (estimate, valued at offer price) (5,000 × ₹344 = ₹0.17 crore)",
+        "retained_shares": "5,000 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "family_link": "'Bhargav Dhirajlal Kotadia' and 'Dhirajlal Vallabhbhai Kotadia' share surname 'kotadia', and the middle name 'dhirajlal' of 'Bhargav Dhirajlal Kotadia' is the first name of 'Dhirajlal Vallabhbhai Kotadia'"
+      },
+      "placeholders": {
+        "name": "Bhargav Dhirajlal Kotadia",
+        "role": "Promoters",
+        "amount": "₹0.17 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "retained": "₹0.17 crore (estimate, valued at offer price)",
+        "retained_shares": "5,000 shares",
+        "shares_held": "5,000 shares"
+      },
+      "lines": [
+        "Bhargav Dhirajlal Kotadia is a promoter; no money event applies, as they hold 5,000 shares and are not selling.",
+        "Their retained stake is worth ₹0.17 crore (estimate, valued at offer price) and stays locked until Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027).",
+        "Their family link to Dhirajlal Vallabhbhai Kotadia, sharing surname and name, may open a joint conversation about the promoter holding."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Bhargav Dhirajlal Kotadia is a promoter; no money event applies, as they hold {shares_held} and are not selling.",
+            "Their retained stake is worth {retained} and stays locked until {timing}.",
+            "Their family link to Dhirajlal Vallabhbhai Kotadia, sharing surname and name, may open a joint conversation about the promoter holding."
+          ],
+          "lines": [
+            "Bhargav Dhirajlal Kotadia is a promoter; no money event applies, as they hold 5,000 shares and are not selling.",
+            "Their retained stake is worth ₹0.17 crore (estimate, valued at offer price) and stays locked until Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027).",
+            "Their family link to Dhirajlal Vallabhbhai Kotadia, sharing surname and name, may open a joint conversation about the promoter holding."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_dhirajlal_vallabhbhai_kotadia",
+      "name_as_printed": "Dhirajlal Vallabhbhai Kotadia",
+      "fields": {
+        "name": "Dhirajlal Vallabhbhai Kotadia",
+        "role": "Promoters",
+        "why_money": "holds Nil before the offer; not selling in it",
+        "amount": "unknown: pre-offer holding not confirmed from the documents",
+        "timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "family_link": "'Bhargav Dhirajlal Kotadia' and 'Dhirajlal Vallabhbhai Kotadia' share surname 'kotadia', and the middle name 'dhirajlal' of 'Bhargav Dhirajlal Kotadia' is the first name of 'Dhirajlal Vallabhbhai Kotadia'",
+        "unknowns": [
+          "amount: pre-offer holding not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Dhirajlal Vallabhbhai Kotadia",
+        "role": "Promoters",
+        "amount": "unknown: pre-offer holding not confirmed from the documents",
+        "timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+      },
+      "lines": [
+        "Dhirajlal Vallabhbhai Kotadia is a Promoter, with no money event from the offer for this holder.",
+        "Their shares are locked, with Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027) once the lock-in ends.",
+        "Family link: shares the surname Kotadia with Bhargav Dhirajlal Kotadia, whose middle name matches their first name.",
+        "Caveat: their pre-offer holding is not confirmed from the documents, so the amount is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Dhirajlal Vallabhbhai Kotadia is a Promoter, with no money event from the offer for this holder.",
+            "Their shares are locked, with {timing} once the lock-in ends.",
+            "Family link: shares the surname Kotadia with Bhargav Dhirajlal Kotadia, whose middle name matches their first name.",
+            "Caveat: their pre-offer holding is not confirmed from the documents, so the amount is unknown."
+          ],
+          "lines": [
+            "Dhirajlal Vallabhbhai Kotadia is a Promoter, with no money event from the offer for this holder.",
+            "Their shares are locked, with Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027) once the lock-in ends.",
+            "Family link: shares the surname Kotadia with Bhargav Dhirajlal Kotadia, whose middle name matches their first name.",
+            "Caveat: their pre-offer holding is not confirmed from the documents, so the amount is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_priyanka_dhirajlal_cohen",
+      "name_as_printed": "Priyanka Dhirajlal Cohen",
+      "fields": {
+        "name": "Priyanka Dhirajlal Cohen",
+        "role": "Promoters",
+        "why_money": "holds Nil before the offer; not selling in it",
+        "amount": "unknown: pre-offer holding not confirmed from the documents",
+        "timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "unknown: pre-offer holding not confirmed from the documents",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)",
+        "unknowns": [
+          "amount: pre-offer holding not confirmed from the documents",
+          "retained: pre-offer holding not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Priyanka Dhirajlal Cohen",
+        "role": "Promoters",
+        "amount": "unknown: pre-offer holding not confirmed from the documents",
+        "timing": "Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027)"
+      },
+      "lines": [
+        "Priyanka Dhirajlal Cohen is a Promoter; no money event is coming to them from this offer.",
+        "Their pre-offer holding is unconfirmed, so no amount or arrival can be stated.",
+        "Promoter lock-ins run until Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027); discuss how locked holdings are expected to be treated.",
+        "Pre-offer holding is not confirmed in the documents, so retained position is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Priyanka Dhirajlal Cohen is a Promoter; no money event is coming to them from this offer.",
+            "Their pre-offer holding is unconfirmed, so no amount or arrival can be stated.",
+            "Promoter lock-ins run until {timing}; discuss how locked holdings are expected to be treated.",
+            "Pre-offer holding is not confirmed in the documents, so retained position is unknown."
+          ],
+          "lines": [
+            "Priyanka Dhirajlal Cohen is a Promoter; no money event is coming to them from this offer.",
+            "Their pre-offer holding is unconfirmed, so no amount or arrival can be stated.",
+            "Promoter lock-ins run until Minimum Promoters' Contribution: locked until 21 Apr 2028 (allotment 21 Oct 2026 + 18 months = 21 Apr 2028); promoter shares above the 20%: locked until 21 Apr 2027 (allotment 21 Oct 2026 + 6 months = 21 Apr 2027); discuss how locked holdings are expected to be treated.",
+            "Pre-offer holding is not confirmed in the documents, so retained position is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

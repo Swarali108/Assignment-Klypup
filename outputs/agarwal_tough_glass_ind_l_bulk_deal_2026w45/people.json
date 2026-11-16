@@ -1,0 +1,540 @@
+{
+  "event_id": "agarwal_tough_glass_ind_l_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "169.03",
+    "high": "169.78",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹169.03",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+            "row_ref": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+            "quote": "NSE | AGARWALTUF | A M LODHA & SONS (HUF) | SELL | 1,68,000 shares | price 169.03 | 2026-11-06"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹169.78",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+            "row_ref": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+            "quote": "NSE | AGARWALTUF | VAIBHAV RAJENDRA DOSHI | SELL | 1,74,000 shares | price 169.78 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "3,42,000 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_a_m_lodha_sons_huf",
+      "name_as_printed": "A M LODHA & SONS (HUF)",
+      "names_as_printed": [
+        "A M LODHA & SONS (HUF)"
+      ],
+      "name_clean": "a m lodha & sons (huf)",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "38ec45d15d74f934"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 168000,
+          "record_ids": [
+            "38ec45d15d74f934"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+          "row_ref": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+          "quote": "NSE | AGARWALTUF | A M LODHA & SONS (HUF) | SELL | 1,68,000 shares | price 169.03 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "38ec45d15d74f934",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,68,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "28397040.00",
+          "rupees_high": "28397040.00",
+          "crore_low": "2.84",
+          "crore_high": "2.84",
+          "display": "₹2.84 crore",
+          "working": "1,68,000 shares × ₹169.03 = ₹2.84 crore (NSE 06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,68,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+                  "row_ref": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+                  "quote": "NSE | AGARWALTUF | A M LODHA & SONS (HUF) | SELL | 1,68,000 shares | price 169.03 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹169.03",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+                  "row_ref": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+                  "quote": "NSE | AGARWALTUF | A M LODHA & SONS (HUF) | SELL | 1,68,000 shares | price 169.03 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+                  "row_ref": "06-NOV-2026 · AGARWALTUF · A M LODHA & SONS (HUF) · SELL · 168000",
+                  "quote": "NSE | AGARWALTUF | A M LODHA & SONS (HUF) | SELL | 1,68,000 shares | price 169.03 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 1,68,000 shares in a bulk deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vaibhav_rajendra_doshi",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "names_as_printed": [
+        "VAIBHAV RAJENDRA DOSHI"
+      ],
+      "name_clean": "vaibhav rajendra doshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "98df0c4e46796a70"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 174000,
+          "record_ids": [
+            "98df0c4e46796a70"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+          "row_ref": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+          "quote": "NSE | AGARWALTUF | VAIBHAV RAJENDRA DOSHI | SELL | 1,74,000 shares | price 169.78 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "98df0c4e46796a70",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,74,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "29541720.00",
+          "rupees_high": "29541720.00",
+          "crore_low": "2.95",
+          "crore_high": "2.95",
+          "display": "₹2.95 crore",
+          "working": "1,74,000 shares × ₹169.78 = ₹2.95 crore (NSE 06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,74,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+                  "row_ref": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+                  "quote": "NSE | AGARWALTUF | VAIBHAV RAJENDRA DOSHI | SELL | 1,74,000 shares | price 169.78 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹169.78",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+                  "row_ref": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+                  "quote": "NSE | AGARWALTUF | VAIBHAV RAJENDRA DOSHI | SELL | 1,74,000 shares | price 169.78 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+                  "row_ref": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · SELL · 174000",
+                  "quote": "NSE | AGARWALTUF | VAIBHAV RAJENDRA DOSHI | SELL | 1,74,000 shares | price 169.78 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 1,74,000 shares in a bulk deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹1.37 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹82.80 lakh",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_vaibhav_rajendra_doshi_bought",
+      "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+      "names_as_printed": [
+        "VAIBHAV RAJENDRA DOSHI"
+      ],
+      "name_clean": "vaibhav rajendra doshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8a2788e96a6adce2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 177600,
+          "record_ids": [
+            "8a2788e96a6adce2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · BUY · 177600",
+          "row_ref": "06-NOV-2026 · AGARWALTUF · VAIBHAV RAJENDRA DOSHI · BUY · 177600",
+          "quote": "NSE | AGARWALTUF | VAIBHAV RAJENDRA DOSHI | BUY | 1,77,600 shares | price 169.63 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8a2788e96a6adce2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,77,600 shares in a bulk deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹1.37 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w44",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "₹82.80 lakh",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        },
+        {
+          "event_id": "aaa_technologies_bulk_deal_2026w45",
+          "company": "AAA Technologies Limited",
+          "name_as_printed": "VAIBHAV RAJENDRA DOSHI",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VAIBHAV RAJENDRA DOSHI' / 'VAIBHAV RAJENDRA DOSHI'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "VAIBHAV RAJENDRA DOSHI",
+        "VAIBHAV RAJENDRA DOSHI"
+      ],
+      "reasons": [
+        "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "family_vehicle": 1,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 8
+  }
+}

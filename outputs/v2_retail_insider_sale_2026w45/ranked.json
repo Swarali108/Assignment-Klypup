@@ -1,0 +1,117 @@
+{
+  "event_id": "v2_retail_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_ram_chandra_agarwal",
+      "name_as_printed": "Ram Chandra Agarwal",
+      "name_clean": "ram chandra agarwal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash due, date not confirmed",
+      "amount_known": true,
+      "money_now_crore": "100.16",
+      "confidence": "low",
+      "confidence_weight": "0.4",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "10.016000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds, timing unknown",
+        "money_crore": "100.16",
+        "timing_status": "unknown",
+        "timing_weight": "0.25",
+        "recency_weight": "1.0",
+        "score": "10.016000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds, timing unknown",
+          "money_crore": "100.16",
+          "timing_status": "unknown",
+          "timing_weight": "0.25",
+          "recency_weight": "1.0",
+          "score": "10.016000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 62,60,000 shares (Block Deal) on 6 Nov 2026",
+      "amount_display": "₹100.16 crore",
+      "timing_display": "unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash due, date not confirmed: ₹100.16 crore; unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known.",
+        "score 10.02 = ₹100.16 crore (proceeds, timing unknown) × 0.4 (low confidence) × 0.25 (timing unknown) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "person_id": "p_ricon_commodities_private_limited",
+      "name_as_printed": "Ricon Commodities Private Limited",
+      "name_clean": "ricon commodities private limited",
+      "holder_type": "entity",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash due, date not confirmed",
+      "amount_known": true,
+      "money_now_crore": "157.84",
+      "confidence": "low",
+      "confidence_weight": "0.4",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "15.784000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds, timing unknown",
+        "money_crore": "157.84",
+        "timing_status": "unknown",
+        "timing_weight": "0.25",
+        "recency_weight": "1.0",
+        "score": "15.784000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds, timing unknown",
+          "money_crore": "157.84",
+          "timing_status": "unknown",
+          "timing_weight": "0.25",
+          "recency_weight": "1.0",
+          "score": "15.784000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 98,65,000 shares (Block Deal) on 6 Nov 2026",
+      "amount_display": "₹157.84 crore",
+      "timing_display": "unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known",
+      "timing_display_status": "unknown",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash due, date not confirmed: ₹157.84 crore; unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known.",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 15.78 = ₹157.84 crore (proceeds, timing unknown) × 0.4 (low confidence) × 0.25 (timing unknown) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

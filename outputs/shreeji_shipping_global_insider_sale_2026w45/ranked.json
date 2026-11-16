@@ -1,0 +1,124 @@
+{
+  "event_id": "shreeji_shipping_global_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_ashokkumar_haridas_lal",
+      "name_as_printed": "ASHOKKUMAR HARIDAS LAL",
+      "name_clean": "ashokkumar haridas lal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "128.27",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "128.27000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 11,
+        "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "money_crore": "128.27",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "128.27000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 11,
+          "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "money_crore": "128.27",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "128.27000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 15,00,000 shares (Market Sale) on 4 Nov 2026",
+      "amount_display": "₹128.27 crore",
+      "timing_display": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JITENDRAKUMAR HARIDAS LAL' and 'ASHOKKUMAR HARIDAS LAL' share surname 'lal' and middle name 'haridas'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹128.27 crore; settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "score 128.27 = ₹128.27 crore (proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "tied with JITENDRAKUMAR HARIDAS LAL; name order breaks the tie",
+        "family link (family_1): 'JITENDRAKUMAR HARIDAS LAL' and 'ASHOKKUMAR HARIDAS LAL' share surname 'lal' and middle name 'haridas'"
+      ]
+    },
+    {
+      "person_id": "p_jitendrakumar_haridas_lal",
+      "name_as_printed": "JITENDRAKUMAR HARIDAS LAL",
+      "name_clean": "jitendrakumar haridas lal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "128.27",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "128.27000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 11,
+        "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "money_crore": "128.27",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "128.27000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 11,
+          "label": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "money_crore": "128.27",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "128.27000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 15,00,000 shares (Market Sale) on 4 Nov 2026",
+      "amount_display": "₹128.27 crore",
+      "timing_display": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'JITENDRAKUMAR HARIDAS LAL' and 'ASHOKKUMAR HARIDAS LAL' share surname 'lal' and middle name 'haridas'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹128.27 crore; settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "score 128.27 = ₹128.27 crore (proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'JITENDRAKUMAR HARIDAS LAL' and 'ASHOKKUMAR HARIDAS LAL' share surname 'lal' and middle name 'haridas'"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

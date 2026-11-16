@@ -1,0 +1,356 @@
+{
+  "event_id": "hd_fire_protect_limited_ipo_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kusum_harish_dharamshi",
+      "name_as_printed": "KUSUM HARISH DHARAMSHI",
+      "fields": {
+        "name": "KUSUM HARISH DHARAMSHI",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 17,300,800 shares in the offer for sale",
+        "amount": "₹468.85 crore",
+        "timing": "in hand since about 21 Oct 2026 (25 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹468.85 crore (17,300,800 × ₹271.00 = ₹468.85 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "₹468.70 crore, before offer expenses and taxes (17,300,800 × (₹271.00 − ₹0.09) = ₹468.70 crore)",
+        "retained": "₹377.75 crore (estimate, valued at offer price) ((31,240,000 − 17,300,800) × ₹271.00 = ₹377.75 crore)",
+        "retained_shares": "13,939,200 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'KUSUM HARISH DHARAMSHI' and 'HARISH NARSHI DHARAMSHI' share surname 'dharamshi', and the middle name 'harish' of 'KUSUM HARISH DHARAMSHI' is the first name of 'HARISH NARSHI DHARAMSHI'"
+      },
+      "placeholders": {
+        "name": "KUSUM HARISH DHARAMSHI",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹468.85 crore",
+        "timing": "in hand since about 21 Oct 2026 (25 days ago), the listing date in the offer timetable",
+        "proceeds": "₹468.85 crore",
+        "gain": "₹468.70 crore, before offer expenses and taxes",
+        "retained": "₹377.75 crore (estimate, valued at offer price)",
+        "retained_shares": "13,939,200 shares",
+        "shares_offered": "17,300,800 shares",
+        "shares_held": "31,240,000 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "KUSUM HARISH DHARAMSHI is a Promoter Selling Shareholder, receiving proceeds from the offer for sale of 17,300,800 shares.",
+        "₹468.85 crore has been in hand since 25 days ago, when the offer listed.",
+        "They keep 13,939,200 shares that are locked in, so more money can follow later; a family link exists with HARISH NARSHI DHARAMSHI."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "KUSUM HARISH DHARAMSHI is a Promoter Selling Shareholder, receiving proceeds from the offer for sale of 17,300,800 shares.",
+            "{proceeds} has been in hand since {event_age}, when the offer listed.",
+            "They keep {retained_shares} that are locked in, so more money can follow later; a family link exists with HARISH NARSHI DHARAMSHI."
+          ],
+          "lines": [
+            "KUSUM HARISH DHARAMSHI is a Promoter Selling Shareholder, receiving proceeds from the offer for sale of 17,300,800 shares.",
+            "{proceeds} has been in hand since {event_age}, when the offer listed.",
+            "They keep {retained_shares} that are locked in, so more money can follow later; a family link exists with HARISH NARSHI DHARAMSHI."
+          ],
+          "problem": "writes numbers instead of placeholders: 17,300,800"
+        },
+        {
+          "raw_lines": [
+            "KUSUM HARISH DHARAMSHI is a Promoter Selling Shareholder, receiving proceeds from the offer for sale of {shares_offered}.",
+            "{proceeds} has been in hand since {event_age}, when the offer listed.",
+            "They keep {retained_shares} that are locked in, so more money can follow later; a family link exists with HARISH NARSHI DHARAMSHI."
+          ],
+          "lines": [
+            "KUSUM HARISH DHARAMSHI is a Promoter Selling Shareholder, receiving proceeds from the offer for sale of 17,300,800 shares.",
+            "₹468.85 crore has been in hand since 25 days ago, when the offer listed.",
+            "They keep 13,939,200 shares that are locked in, so more money can follow later; a family link exists with HARISH NARSHI DHARAMSHI."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_harish_narshi_dharamshi",
+      "name_as_printed": "HARISH NARSHI DHARAMSHI",
+      "fields": {
+        "name": "HARISH NARSHI DHARAMSHI",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 8,983,700 shares in the offer for sale",
+        "amount": "₹243.46 crore",
+        "timing": "in hand since about 21 Oct 2026 (25 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹243.46 crore (8,983,700 × ₹271.00 = ₹243.46 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "₹243.41 crore, before offer expenses and taxes (8,983,700 × (₹271.00 − ₹0.05) = ₹243.41 crore)",
+        "retained": "₹2,421.85 crore (estimate, valued at offer price) ((98,351,000 − 8,983,700) × ₹271.00 = ₹2,421.85 crore)",
+        "retained_shares": "89,367,300 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'KUSUM HARISH DHARAMSHI' and 'HARISH NARSHI DHARAMSHI' share surname 'dharamshi', and the middle name 'harish' of 'KUSUM HARISH DHARAMSHI' is the first name of 'HARISH NARSHI DHARAMSHI'"
+      },
+      "placeholders": {
+        "name": "HARISH NARSHI DHARAMSHI",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹243.46 crore",
+        "timing": "in hand since about 21 Oct 2026 (25 days ago), the listing date in the offer timetable",
+        "proceeds": "₹243.46 crore",
+        "gain": "₹243.41 crore, before offer expenses and taxes",
+        "retained": "₹2,421.85 crore (estimate, valued at offer price)",
+        "retained_shares": "89,367,300 shares",
+        "shares_offered": "8,983,700 shares",
+        "shares_held": "98,351,000 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "HARISH NARSHI DHARAMSHI is a Promoter Selling Shareholder who sells 8,983,700 shares in the offer for sale, so money is coming to them.",
+        "They are due ₹243.46 crore in proceeds, in hand since 25 days ago at the listing date.",
+        "They keep 89,367,300 shares that are locked in, so more value may follow later from retained holdings.",
+        "Note: the exact allotment date is unconfirmed, so lock-in end dates cannot be fixed yet."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sells {shares_offered} in the offer for sale, so money is coming to them.",
+            "They are due {amount} in proceeds, in hand since {event_age} at the listing date.",
+            "They keep {retained_shares} that are locked in, so more value may follow later from retained holdings.",
+            "Note: the exact allotment date is unconfirmed, so lock-in end dates cannot be fixed yet."
+          ],
+          "lines": [
+            "HARISH NARSHI DHARAMSHI is a Promoter Selling Shareholder who sells 8,983,700 shares in the offer for sale, so money is coming to them.",
+            "They are due ₹243.46 crore in proceeds, in hand since 25 days ago at the listing date.",
+            "They keep 89,367,300 shares that are locked in, so more value may follow later from retained holdings.",
+            "Note: the exact allotment date is unconfirmed, so lock-in end dates cannot be fixed yet."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_miheer_sadanand_ghotikar",
+      "name_as_printed": "Miheer Sadanand Ghotikar",
+      "fields": {
+        "name": "Miheer Sadanand Ghotikar",
+        "role": "unknown",
+        "why_money": "holds 18,392,000 shares before the offer; not selling in it",
+        "amount": "₹498.42 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹498.42 crore (estimate, valued at offer price) (18,392,000 × ₹271.00 = ₹498.42 crore)",
+        "retained_shares": "18,392,000 shares",
+        "family_link": "'Parika Miheer Ghotikar' and 'Miheer Sadanand Ghotikar' share surname 'ghotikar', and the middle name 'miheer' of 'Parika Miheer Ghotikar' is the first name of 'Miheer Sadanand Ghotikar'",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Miheer Sadanand Ghotikar",
+        "role": "unknown",
+        "amount": "₹498.42 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹498.42 crore (estimate, valued at offer price)",
+        "retained_shares": "18,392,000 shares",
+        "shares_held": "18,392,000 shares"
+      },
+      "lines": [
+        "Miheer Sadanand Ghotikar is a holder, with unknown not printed, and their money comes from holding 18,392,000 shares.",
+        "They hold 18,392,000 shares before the offer and are not selling in it; the stake is valued at ₹498.42 crore (estimate, valued at offer price); shares, not cash.",
+        "Their family link to Parika Miheer Ghotikar is a useful opening for a wider conversation.",
+        "Timing is unknown because no role is printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder, with {role} not printed, and their money comes from holding {shares_held}.",
+            "They hold {shares_held} before the offer and are not selling in it; the stake is valued at {amount}.",
+            "Their family link to Parika Miheer Ghotikar is a useful opening for a wider conversation.",
+            "Timing is unknown because no role is printed for this holder."
+          ],
+          "lines": [
+            "Miheer Sadanand Ghotikar is a holder, with unknown not printed, and their money comes from holding 18,392,000 shares.",
+            "They hold 18,392,000 shares before the offer and are not selling in it; the stake is valued at ₹498.42 crore (estimate, valued at offer price); shares, not cash.",
+            "Their family link to Parika Miheer Ghotikar is a useful opening for a wider conversation.",
+            "Timing is unknown because no role is printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_parika_miheer_ghotikar",
+      "name_as_printed": "Parika Miheer Ghotikar",
+      "fields": {
+        "name": "Parika Miheer Ghotikar",
+        "role": "unknown",
+        "why_money": "holds 11,594,000 shares before the offer; not selling in it",
+        "amount": "₹314.20 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹314.20 crore (estimate, valued at offer price) (11,594,000 × ₹271.00 = ₹314.20 crore)",
+        "retained_shares": "11,594,000 shares",
+        "family_link": "'Parika Miheer Ghotikar' and 'Miheer Sadanand Ghotikar' share surname 'ghotikar', and the middle name 'miheer' of 'Parika Miheer Ghotikar' is the first name of 'Miheer Sadanand Ghotikar'",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Parika Miheer Ghotikar",
+        "role": "unknown",
+        "amount": "₹314.20 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹314.20 crore (estimate, valued at offer price)",
+        "retained_shares": "11,594,000 shares",
+        "shares_held": "11,594,000 shares"
+      },
+      "lines": [
+        "Parika Miheer Ghotikar, role unknown, holds 11,594,000 shares before the offer and is not selling in it.",
+        "Their stake is valued at ₹314.20 crore (estimate, valued at offer price); shares, not cash, with timing unknown since no role is printed.",
+        "Their surname and middle name link them to Miheer Sadanand Ghotikar, a possible family conversation angle.",
+        "Caveat: their role and when any money arrives are unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Parika Miheer Ghotikar, role unknown, holds {shares_held} before the offer and is not selling in it.",
+            "Their stake is valued at {amount}, with timing unknown since no role is printed.",
+            "Their surname and middle name link them to Miheer Sadanand Ghotikar, a possible family conversation angle.",
+            "Caveat: their role and when any money arrives are unknown."
+          ],
+          "lines": [
+            "Parika Miheer Ghotikar, role unknown, holds 11,594,000 shares before the offer and is not selling in it.",
+            "Their stake is valued at ₹314.20 crore (estimate, valued at offer price); shares, not cash, with timing unknown since no role is printed.",
+            "Their surname and middle name link them to Miheer Sadanand Ghotikar, a possible family conversation angle.",
+            "Caveat: their role and when any money arrives are unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_anik_narendra_dharamshi",
+      "name_as_printed": "Anik Narendra Dharamshi",
+      "fields": {
+        "name": "Anik Narendra Dharamshi",
+        "role": "unknown",
+        "why_money": "holds 7,458,000 shares before the offer; not selling in it",
+        "amount": "₹202.11 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹202.11 crore (estimate, valued at offer price) (7,458,000 × ₹271.00 = ₹202.11 crore)",
+        "retained_shares": "7,458,000 shares",
+        "family_link": "'Anik Narendra Dharamshi' and 'Narendra Visanji Dharamshi' share surname 'dharamshi', and the middle name 'narendra' of 'Anik Narendra Dharamshi' is the first name of 'Narendra Visanji Dharamshi'",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Anik Narendra Dharamshi",
+        "role": "unknown",
+        "amount": "₹202.11 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹202.11 crore (estimate, valued at offer price)",
+        "retained_shares": "7,458,000 shares",
+        "shares_held": "7,458,000 shares"
+      },
+      "lines": [
+        "Anik Narendra Dharamshi is a shareholder with no role printed, holding 7,458,000 shares before the offer; the money here is shares, not cash.",
+        "Their stake is valued at ₹202.11 crore (estimate, valued at offer price); shares, not cash at offer price, but no event or arrival timing applies to this holder.",
+        "They keep 7,458,000 shares after the offer; a family link to Narendra Visanji Dharamshi is worth raising.",
+        "Unknown: their role and the timing of any money, since no role is printed."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder with no role printed, holding {shares_held} before the offer; the money here is shares, not cash.",
+            "Their stake is valued at {amount} at offer price, but no event or arrival timing applies to this holder.",
+            "They keep {retained_shares} after the offer; a family link to Narendra Visanji Dharamshi is worth raising.",
+            "Unknown: their role and the timing of any money, since no role is printed."
+          ],
+          "lines": [
+            "Anik Narendra Dharamshi is a shareholder with no role printed, holding 7,458,000 shares before the offer; the money here is shares, not cash.",
+            "Their stake is valued at ₹202.11 crore (estimate, valued at offer price); shares, not cash at offer price, but no event or arrival timing applies to this holder.",
+            "They keep 7,458,000 shares after the offer; a family link to Narendra Visanji Dharamshi is worth raising.",
+            "Unknown: their role and the timing of any money, since no role is printed."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_narendra_visanji_dharamshi",
+      "name_as_printed": "Narendra Visanji Dharamshi",
+      "fields": {
+        "name": "Narendra Visanji Dharamshi",
+        "role": "unknown",
+        "why_money": "holds 6,006,000 shares before the offer; not selling in it",
+        "amount": "₹162.76 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹162.76 crore (estimate, valued at offer price) (6,006,000 × ₹271.00 = ₹162.76 crore)",
+        "retained_shares": "6,006,000 shares",
+        "family_link": "'Anik Narendra Dharamshi' and 'Narendra Visanji Dharamshi' share surname 'dharamshi', and the middle name 'narendra' of 'Anik Narendra Dharamshi' is the first name of 'Narendra Visanji Dharamshi'",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Narendra Visanji Dharamshi",
+        "role": "unknown",
+        "amount": "₹162.76 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹162.76 crore (estimate, valued at offer price)",
+        "retained_shares": "6,006,000 shares",
+        "shares_held": "6,006,000 shares"
+      },
+      "lines": [
+        "Narendra Visanji Dharamshi is a shareholder; their holding of 6,006,000 shares is not being sold in the offer.",
+        "Their stake is valued at ₹162.76 crore (estimate, valued at offer price); shares, not cash, but this is a share value, not cash, and timing is unknown.",
+        "Their stake is still held in full, so they keep 6,006,000 shares and any future value depends on the share price.",
+        "Timing is unknown: no role is printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder; their holding of {shares_held} is not being sold in the offer.",
+            "Their stake is valued at {amount}, but this is a share value, not cash, and timing is unknown.",
+            "Their stake is still held in full, so they keep {retained_shares} and any future value depends on the share price.",
+            "Timing is unknown: no role is printed for this holder."
+          ],
+          "lines": [
+            "Narendra Visanji Dharamshi is a shareholder; their holding of 6,006,000 shares is not being sold in the offer.",
+            "Their stake is valued at ₹162.76 crore (estimate, valued at offer price); shares, not cash, but this is a share value, not cash, and timing is unknown.",
+            "Their stake is still held in full, so they keep 6,006,000 shares and any future value depends on the share price.",
+            "Timing is unknown: no role is printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

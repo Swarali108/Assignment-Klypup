@@ -1,0 +1,52 @@
+{
+  "event_id": "gaudium_ivf_n_women_h_l_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kishan_gopal_mohta",
+      "name_as_printed": "KISHAN GOPAL MOHTA",
+      "fields": {
+        "name": "KISHAN GOPAL MOHTA",
+        "role": "unknown",
+        "why_money": "sold 4,23,447 shares in a bulk deal on 11 Nov 2026",
+        "amount": "₹4.62 crore",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.62 crore (4,23,447 shares × ₹109.02 = ₹4.62 crore (NSE 11-NOV-2026 · GAUDIUMIVF · KISHAN GOPAL MOHTA · SELL · 423447))"
+      },
+      "placeholders": {
+        "name": "KISHAN GOPAL MOHTA",
+        "role": "unknown",
+        "amount": "₹4.62 crore",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹4.62 crore",
+        "shares_offered": "4,23,447 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "KISHAN GOPAL MOHTA is a holder who sold 4,23,447 shares in a bulk deal, so money is coming to them.",
+        "₹4.62 crore was settled 4 days ago, with the settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago) timing noted.",
+        "Role is unknown, so confirm their position before opening the conversation about reinvesting the proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "{proceeds} was settled {event_age}, with the {timing} timing noted.",
+            "Role is unknown, so confirm their position before opening the conversation about reinvesting the proceeds."
+          ],
+          "lines": [
+            "KISHAN GOPAL MOHTA is a holder who sold 4,23,447 shares in a bulk deal, so money is coming to them.",
+            "₹4.62 crore was settled 4 days ago, with the settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago) timing noted.",
+            "Role is unknown, so confirm their position before opening the conversation about reinvesting the proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

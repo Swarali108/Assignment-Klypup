@@ -1,0 +1,13 @@
+# Pinned to the versions installed and tested locally (Python 3.12.1).
+altair==6.3.0
+httpx==0.28.1
+openai==3.50.0
+pandas==2.2.3
+pdfplumber==0.11.10
+pydantic==2.14.1
+python-dotenv==1.2.1
+rapidfuzz==3.14.6
+# 1.66.1 uploaded to PyPI 2026-10-21; pinned at least two weeks old.
+streamlit==1.66.1
+# Tests only.
+pytest==9.2.0

@@ -1,0 +1,41 @@
+{
+  "event_id": "pasufin_bulk_deal_2026w46",
+  "run_id": "auto-pasufin_bulk_deal_2026w46-20261115T190434Z",
+  "totals": {
+    "calls": 3,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 3809,
+    "output_tokens": 334,
+    "cost_usd": 0.000547,
+    "fresh_usd": 0.000547,
+    "unpriced_calls": 0,
+    "wall_s": 5.7436971249990165,
+    "callable_people": 2,
+    "cost_per_callable_usd": 0.000273,
+    "fresh_per_callable_usd": 0.000273
+  },
+  "per_person": [
+    {
+      "person_id": "p_ramaswamy_anand",
+      "name_as_printed": "RAMASWAMY ANAND .",
+      "cost_usd": 0.000376,
+      "fresh_usd": 0.000376,
+      "calls": 2.0
+    },
+    {
+      "person_id": "p_anand_mohan",
+      "name_as_printed": "ANAND MOHAN .",
+      "cost_usd": 0.000171,
+      "fresh_usd": 0.000171,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp_bought",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

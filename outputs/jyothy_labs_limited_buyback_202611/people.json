@@ -1,0 +1,2791 @@
+{
+  "event_id": "jyothy_labs_limited_buyback_202611",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "buyback_price",
+    "low": "215",
+    "high": "215",
+    "inputs": [
+      {
+        "field": "buyback_price",
+        "value": "215",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+            "pdf_index": 1,
+            "printed_page": "22",
+            "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=1",
+            "quote": "AT A PRICE OF ₹ 215 (INDIAN RUPEES TWO HUNDRED AND FIFTEEN ONLY)"
+          }
+        ]
+      }
+    ]
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "unknown",
+      "reason": "payment_date not verified"
+    },
+    "closing": {
+      "status": "verified",
+      "date": "2026-11-23",
+      "display": "23 Nov 2026",
+      "inputs": [
+        {
+          "field": "closing_date",
+          "value": "November 23, 2026",
+          "evidence": [
+            {
+              "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+              "pdf_index": 2,
+              "printed_page": "23",
+              "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+              "quote": "until November 23, 2026 (the “Tendering Period”)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [
+    {
+      "person_id": "p_geetha_moothedath_divakaran",
+      "name_as_printed": "Geetha Moothedath Divakaran",
+      "names_as_printed": [
+        "Geetha Moothedath Divakaran"
+      ],
+      "name_clean": "geetha moothedath divakaran",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "19,04,000",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Jithin Moothedath Divakaran' and 'Geetha Moothedath Divakaran' share surname 'divakaran' and middle name 'moothedath'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "11. Geetha Moothedath Divakaran 19,04,000 0.52%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "11. Geetha Moothedath Divakaran 19,04,000 0.52%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_jaya_trust",
+      "name_as_printed": "Jaya Trust",
+      "names_as_printed": [
+        "Jaya Trust"
+      ],
+      "name_clean": "jaya trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "43,50,000",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "13. Jaya Trust 43,50,000 1.18%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "13. Jaya Trust 43,50,000 1.18%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_jithin_moothedath_divakaran",
+      "name_as_printed": "Jithin Moothedath Divakaran",
+      "names_as_printed": [
+        "Jithin Moothedath Divakaran"
+      ],
+      "name_clean": "jithin moothedath divakaran",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "19,04,040",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Jithin Moothedath Divakaran' and 'Geetha Moothedath Divakaran' share surname 'divakaran' and middle name 'moothedath'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "10. Jithin Moothedath Divakaran 19,04,040 0.52%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "10. Jithin Moothedath Divakaran 19,04,040 0.52%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_k_k_sujatha",
+      "name_as_printed": "K K Sujatha",
+      "names_as_printed": [
+        "K K Sujatha"
+      ],
+      "name_clean": "k k sujatha",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,62,000",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "12. K K Sujatha 1,62,000 0.04%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "12. K K Sujatha 1,62,000 0.04%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_k_ullas_kamath",
+      "name_as_printed": "K Ullas Kamath",
+      "names_as_printed": [
+        "K Ullas Kamath"
+      ],
+      "name_clean": "k ullas kamath",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "29,02,760",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "8. K Ullas Kamath 29,02,760 0.79%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "8. K Ullas Kamath 29,02,760 0.79%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_g_shanthakumari",
+      "name_as_printed": "M G Shanthakumari",
+      "names_as_printed": [
+        "M G Shanthakumari"
+      ],
+      "name_clean": "m g shanthakumari",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,001",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "2. M G Shanthakumari 1,001 0.00%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "2. M G Shanthakumari 1,001 0.00%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_p_divakaran",
+      "name_as_printed": "M P Divakaran",
+      "names_as_printed": [
+        "M P Divakaran"
+      ],
+      "name_clean": "m p divakaran",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,44,71,826",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "3. M P Divakaran 1,44,71,826 3.94%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "3. M P Divakaran 1,44,71,826 3.94%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_p_ramachandran",
+      "name_as_printed": "M P Ramachandran",
+      "names_as_printed": [
+        "M P Ramachandran"
+      ],
+      "name_clean": "m p ramachandran",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,001",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'M. P. Ramachandran Family Trust – II' contains 'M P Ramachandran'; 'M. P. Ramachandran Family Trust – I' contains 'M P Ramachandran'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "1. M P Ramachandran 1,001 0.00%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "1. M P Ramachandran 1,001 0.00%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_p_sidharthan",
+      "name_as_printed": "M P Sidharthan",
+      "names_as_printed": [
+        "M P Sidharthan"
+      ],
+      "name_clean": "m p sidharthan",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,04,30,460",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "4. M P Sidharthan 1,04,30,460 2.84%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "4. M P Sidharthan 1,04,30,460 2.84%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_r_deepthi",
+      "name_as_printed": "M R Deepthi",
+      "names_as_printed": [
+        "M R Deepthi"
+      ],
+      "name_clean": "m r deepthi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,03,61,770",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "6. M R Deepthi 1,03,61,770 2.82%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "6. M R Deepthi 1,03,61,770 2.82%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_r_jyothy",
+      "name_as_printed": "M R Jyothy",
+      "names_as_printed": [
+        "M R Jyothy"
+      ],
+      "name_clean": "m r jyothy",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,03,61,770",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "5. M R Jyothy 1,03,61,770 2.82%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "5. M R Jyothy 1,03,61,770 2.82%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_p_ramachandran_family_trust_i",
+      "name_as_printed": "M. P. Ramachandran Family Trust – I",
+      "names_as_printed": [
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "name_clean": "m. p. ramachandran family trust - i",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'family trust'",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "64,11,011",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'M. P. Ramachandran Family Trust – I' contains 'M P Ramachandran'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "16. M. P. Ramachandran Family Trust – I 64,11,011 1.75%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "16. M. P. Ramachandran Family Trust – I 64,11,011 1.75%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_m_p_ramachandran_family_trust_ii",
+      "name_as_printed": "M. P. Ramachandran Family Trust – II",
+      "names_as_printed": [
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "name_clean": "m. p. ramachandran family trust - ii",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'family trust'",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "14,36,39,870",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'M. P. Ramachandran Family Trust – II' contains 'M P Ramachandran'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "15. M. P. Ramachandran Family Trust – II 14,36,39,870 39.11%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "15. M. P. Ramachandran Family Trust – II 14,36,39,870 39.11%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_moothedath_sidharthan_srihari",
+      "name_as_printed": "Moothedath Sidharthan Srihari",
+      "names_as_printed": [
+        "Moothedath Sidharthan Srihari"
+      ],
+      "name_clean": "moothedath sidharthan srihari",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "26,40,000",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "9. Moothedath Sidharthan Srihari 26,40,000 0.72%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "9. Moothedath Sidharthan Srihari 26,40,000 0.72%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_sahyadri_agencies_limited",
+      "name_as_printed": "Sahyadri Agencies Limited",
+      "names_as_printed": [
+        "Sahyadri Agencies Limited"
+      ],
+      "name_clean": "sahyadri agencies limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "1,44,99,976",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "14. Sahyadri Agencies Limited 1,44,99,976 3.95%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "14. Sahyadri Agencies Limited 1,44,99,976 3.95%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_u_b_beena",
+      "name_as_printed": "U B Beena",
+      "names_as_printed": [
+        "U B Beena"
+      ],
+      "name_clean": "u b beena",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of the Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of the Promoter Group"
+      },
+      "shares_held_pre_offer": "68,93,200",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "have expressed their intention not to participate in the Buyback",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "7. U B Beena 68,93,200 1.88%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "Members of the Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "22",
+          "quote": "7. U B Beena 68,93,200 1.88%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 2,
+          "printed_page": "23",
+          "quote": "have expressed their intention not to participate in the Buyback.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: have expressed their intention not to participate in the Buyback",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "have expressed their intention not to participate in the Buyback",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf",
+                  "pdf_index": 2,
+                  "printed_page": "23",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Jyothy%20Labs%20Limited%20PA_p.pdf#page=2",
+                  "quote": "have expressed their intention not to participate in the Buyback."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "M. P. Ramachandran Family Trust – II",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 96.8,
+      "method": "numbers_differ",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jithin Moothedath Divakaran",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 85.2,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 68.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 68.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M P Sidharthan"
+      ],
+      "score": 60.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "M R Deepthi"
+      ],
+      "score": 57.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "K K Sujatha"
+      ],
+      "score": 56.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "K K Sujatha"
+      ],
+      "score": 56.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 55.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 55.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 55.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "M P Sidharthan"
+      ],
+      "score": 51.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "K K Sujatha"
+      ],
+      "score": 50.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 47.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 47.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "K Ullas Kamath"
+      ],
+      "score": 45.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jaya Trust",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 43.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jaya Trust",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 43.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Geetha Moothedath Divakaran",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 42.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "Jaya Trust"
+      ],
+      "score": 41.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "M R Deepthi"
+      ],
+      "score": 41.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 40.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "K Ullas Kamath"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "Jaya Trust"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jithin Moothedath Divakaran",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 38.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "M P Sidharthan"
+      ],
+      "score": 37.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "K K Sujatha"
+      ],
+      "score": 37.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 36.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M G Shanthakumari"
+      ],
+      "score": 36.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "K Ullas Kamath"
+      ],
+      "score": 35.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 35.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 35.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sahyadri Agencies Limited",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 35.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sahyadri Agencies Limited",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 35.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 35.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 35.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 35.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "K Ullas Kamath"
+      ],
+      "score": 34.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M P Divakaran"
+      ],
+      "score": 34.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 34.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 34.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 34.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K K Sujatha",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 33.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 33.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 33.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 33.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 33.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 32.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 31.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 31.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 31.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Geetha Moothedath Divakaran",
+        "K K Sujatha"
+      ],
+      "score": 31.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jithin Moothedath Divakaran",
+        "K K Sujatha"
+      ],
+      "score": 31.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 31.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "Jaya Trust"
+      ],
+      "score": 31.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Geetha Moothedath Divakaran",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 31.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Geetha Moothedath Divakaran",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 31.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jithin Moothedath Divakaran",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 31.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jithin Moothedath Divakaran",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 31.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "U B Beena"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 30.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "U B Beena"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "K K Sujatha"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "K K Sujatha"
+      ],
+      "score": 30.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "M R Jyothy"
+      ],
+      "score": 29.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "K Ullas Kamath"
+      ],
+      "score": 29.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M R Deepthi"
+      ],
+      "score": 29.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 29.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 29.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K K Sujatha",
+        "Jaya Trust"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "M R Deepthi"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "K K Sujatha"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 27.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 27.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 27.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 27.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Geetha Moothedath Divakaran",
+        "Jaya Trust"
+      ],
+      "score": 27.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jithin Moothedath Divakaran",
+        "Jaya Trust"
+      ],
+      "score": 27.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 27.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "M P Divakaran"
+      ],
+      "score": 26.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 26.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "Jaya Trust"
+      ],
+      "score": 26.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "M R Jyothy"
+      ],
+      "score": 26.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K Ullas Kamath",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 25.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "K K Sujatha"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "Jaya Trust"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "M R Jyothy"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "K Ullas Kamath"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 25.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 24.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 24.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "U B Beena"
+      ],
+      "score": 24.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "M R Deepthi"
+      ],
+      "score": 24.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "K Ullas Kamath"
+      ],
+      "score": 24.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K K Sujatha",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "K K Sujatha",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "M. P. Ramachandran Family Trust – I"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "Jaya Trust"
+      ],
+      "score": 23.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Ramachandran",
+        "M R Jyothy"
+      ],
+      "score": 23.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Jaya Trust",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 22.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 22.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M G Shanthakumari",
+        "Jaya Trust"
+      ],
+      "score": 22.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "Geetha Moothedath Divakaran"
+      ],
+      "score": 21.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Jyothy",
+        "U B Beena"
+      ],
+      "score": 21.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moothedath Sidharthan Srihari",
+        "Jaya Trust"
+      ],
+      "score": 20.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "Jaya Trust"
+      ],
+      "score": 19.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Divakaran",
+        "U B Beena"
+      ],
+      "score": 18.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M R Deepthi",
+        "K K Sujatha"
+      ],
+      "score": 18.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "Sahyadri Agencies Limited"
+      ],
+      "score": 17.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "M P Sidharthan",
+        "U B Beena"
+      ],
+      "score": 17.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "Jithin Moothedath Divakaran"
+      ],
+      "score": 16.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "U B Beena",
+        "Moothedath Sidharthan Srihari"
+      ],
+      "score": 15.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "Geetha Moothedath Divakaran",
+        "Jithin Moothedath Divakaran"
+      ],
+      "reasons": [
+        "'Jithin Moothedath Divakaran' and 'Geetha Moothedath Divakaran' share surname 'divakaran' and middle name 'moothedath'"
+      ]
+    },
+    {
+      "id": "family_2",
+      "members": [
+        "M P Ramachandran",
+        "M. P. Ramachandran Family Trust – I",
+        "M. P. Ramachandran Family Trust – II"
+      ],
+      "reasons": [
+        "'M. P. Ramachandran Family Trust – II' contains 'M P Ramachandran'",
+        "'M. P. Ramachandran Family Trust – I' contains 'M P Ramachandran'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 16,
+    "by_holder_type": {
+      "entity": 2,
+      "family_vehicle": 2,
+      "person": 12
+    },
+    "by_confidence": {
+      "medium": 16
+    },
+    "sellers": 16,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 16
+    },
+    "identity_decisions": {
+      "below_threshold": 116,
+      "different_first_name": 3,
+      "numbers_differ": 1
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 2,
+    "flagged": 0,
+    "index_lookups": 16,
+    "follow_on_matches": 0
+  }
+}

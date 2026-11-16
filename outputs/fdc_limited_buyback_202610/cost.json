@@ -1,0 +1,41 @@
+{
+  "event_id": "fdc_limited_buyback_202610",
+  "run_id": "fdc_limited_buyback_202610-20261115T135547Z",
+  "totals": {
+    "calls": 7,
+    "cached_calls": 2,
+    "cached_share": 0.286,
+    "input_tokens": 37000,
+    "output_tokens": 3173,
+    "cost_usd": 0.005287,
+    "fresh_usd": 0.01261,
+    "unpriced_calls": 0,
+    "wall_s": 19.362879708991386,
+    "callable_people": 3,
+    "cost_per_callable_usd": 0.001762,
+    "fresh_per_callable_usd": 0.004203
+  },
+  "per_person": [
+    {
+      "person_id": "p_aditi_c_bhanot",
+      "name_as_printed": "Mrs. Aditi C. Bhanot",
+      "cost_usd": 0.001884,
+      "fresh_usd": 0.004325,
+      "calls": 3.0
+    },
+    {
+      "person_id": "p_nomita_ramdas_chandavarkar",
+      "name_as_printed": "Ms. Nomita Ramdas Chandavarkar",
+      "cost_usd": 0.001706,
+      "fresh_usd": 0.004147,
+      "calls": 2.0
+    },
+    {
+      "person_id": "p_ameya_ashok_chandavarkar",
+      "name_as_printed": "Mr. Ameya Ashok Chandavarkar",
+      "cost_usd": 0.001698,
+      "fresh_usd": 0.004139,
+      "calls": 2.0
+    }
+  ]
+}

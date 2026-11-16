@@ -1,0 +1,124 @@
+{
+  "event_id": "cie_automotive_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_anil_haridass",
+      "name_as_printed": "Anil Haridass",
+      "fields": {
+        "name": "Anil Haridass",
+        "role": "Director",
+        "why_money": "sold 1,50,000 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹5.23 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.23 crore (1,50,000 shares, value as printed ₹5.23 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Anil Haridass",
+        "role": "Director",
+        "amount": "₹5.23 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹5.23 crore",
+        "shares_offered": "1,50,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Anil Haridass, Director, is receiving money from a market sale of 1,50,000 shares.",
+        "Proceeds of ₹5.23 crore were settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "Open by asking how they want to think about the ₹5.23 crore now that it has settled."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Anil Haridass, Director, is receiving proceeds from selling {shares_offered} on 4 Nov 2026.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Open with the sale timing and ask whether they want to discuss reinvesting or planning for the cash."
+          ],
+          "lines": [
+            "Anil Haridass, Director, is receiving proceeds from selling {shares_offered} on 4 Nov 2026.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Open with the sale timing and ask whether they want to discuss reinvesting or planning for the cash."
+          ],
+          "problem": "writes numbers instead of placeholders: 4, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from a market sale of {shares_offered}.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Open by asking how they want to think about the {amount} now that it has settled."
+          ],
+          "lines": [
+            "Anil Haridass, Director, is receiving money from a market sale of 1,50,000 shares.",
+            "Proceeds of ₹5.23 crore were settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+            "Open by asking how they want to think about the ₹5.23 crore now that it has settled."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_anjali_powar_haridass",
+      "name_as_printed": "Anjali Powar Haridass",
+      "fields": {
+        "name": "Anjali Powar Haridass",
+        "role": "Director",
+        "why_money": "sold 1,50,000 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹5.23 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹5.23 crore (1,50,000 shares, value as printed ₹5.23 crore (NSE XBRL context Disclosure2))"
+      },
+      "placeholders": {
+        "name": "Anjali Powar Haridass",
+        "role": "Director",
+        "amount": "₹5.23 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹5.23 crore",
+        "shares_offered": "1,50,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Anjali Powar Haridass, Director, is receiving proceeds from a market sale of 1,50,000 shares.",
+        "Proceeds of ₹5.23 crore were settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money is in hand.",
+        "Open by confirming the settlement and asking how they plan to deploy the ₹5.23 crore."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Anjali Powar Haridass, Director, is receiving proceeds from a market sale of {shares_offered} on 4 Nov.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money has already arrived.",
+            "Open by confirming the settlement and asking how they plan to deploy the {amount} proceeds."
+          ],
+          "lines": [
+            "Anjali Powar Haridass, Director, is receiving proceeds from a market sale of {shares_offered} on 4 Nov.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money has already arrived.",
+            "Open by confirming the settlement and asking how they plan to deploy the {amount} proceeds."
+          ],
+          "problem": "writes numbers instead of placeholders: 4"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving proceeds from a market sale of {shares_offered}.",
+            "Proceeds of {proceeds} were {timing}, so the money is in hand.",
+            "Open by confirming the settlement and asking how they plan to deploy the {amount}."
+          ],
+          "lines": [
+            "Anjali Powar Haridass, Director, is receiving proceeds from a market sale of 1,50,000 shares.",
+            "Proceeds of ₹5.23 crore were settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money is in hand.",
+            "Open by confirming the settlement and asking how they plan to deploy the ₹5.23 crore."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

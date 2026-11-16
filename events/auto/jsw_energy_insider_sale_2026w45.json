@@ -1,0 +1,22 @@
+{
+  "event_id": "jsw_energy_insider_sale_2026w45",
+  "event_type": "insider_sale",
+  "company": "JSW Energy Limited",
+  "documents": [],
+  "records": [
+    "558c9fcf6a8869e7",
+    "82a8be2e33f060c6",
+    "bf2213c301f96521",
+    "d243143cc8ce4bb3",
+    "dbda4fde7cc1d5ae"
+  ],
+  "records_file": "outputs/signals/insider.json",
+  "event_date": "2026-11-06",
+  "discovery": {
+    "sources": [
+      "nse_insider_sale"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

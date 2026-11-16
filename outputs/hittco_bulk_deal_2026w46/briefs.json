@@ -1,0 +1,104 @@
+{
+  "event_id": "hittco_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_manish_vinod_mehta",
+      "name_as_printed": "MANISH VINOD MEHTA",
+      "fields": {
+        "name": "MANISH VINOD MEHTA",
+        "role": "unknown",
+        "why_money": "sold 50,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹10.50 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹10.50 lakh (50,000 shares × ₹21.0 = ₹10.50 lakh (BSE 13/11/2026 · HITTCO · MANISH VINOD MEHTA · S · 50000))"
+      },
+      "placeholders": {
+        "name": "MANISH VINOD MEHTA",
+        "role": "unknown",
+        "amount": "₹10.50 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹10.50 lakh",
+        "shares_offered": "50,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "MANISH VINOD MEHTA sold 50,000 shares in a bulk deal and is due the proceeds.",
+        "Proceeds of ₹10.50 lakh settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is coming in today.",
+        "Their role is unknown, so confirm it before the call.",
+        "Role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal and is due the proceeds.",
+            "Proceeds of {proceeds} settled {timing}, so the money is coming in {event_age}.",
+            "Their role is unknown, so confirm it before the call.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "MANISH VINOD MEHTA sold 50,000 shares in a bulk deal and is due the proceeds.",
+            "Proceeds of ₹10.50 lakh settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is coming in today.",
+            "Their role is unknown, so confirm it before the call.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_manmohan_trikala",
+      "name_as_printed": "MANMOHAN TRIKALA",
+      "fields": {
+        "name": "MANMOHAN TRIKALA",
+        "role": "unknown",
+        "why_money": "sold 38,800 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹8.15 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹8.15 lakh (38,800 shares × ₹21.0 = ₹8.15 lakh (BSE 13/11/2026 · HITTCO · MANMOHAN TRIKALA · S · 38800))"
+      },
+      "placeholders": {
+        "name": "MANMOHAN TRIKALA",
+        "role": "unknown",
+        "amount": "₹8.15 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹8.15 lakh",
+        "shares_offered": "38,800 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "MANMOHAN TRIKALA is a holder whose role is unknown, receiving money from a sale of 38,800 shares in a bulk deal.",
+        "Proceeds of ₹8.15 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is coming in now.",
+        "Open with the sale itself and ask what they plan to do with the ₹8.15 lakh proceeds.",
+        "Role is unknown, so confirm their position before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a sale of {shares_offered} in a bulk deal.",
+            "Proceeds of {proceeds} settle {timing}, so the money is coming in now.",
+            "Open with the sale itself and ask what they plan to do with the {amount} proceeds.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "lines": [
+            "MANMOHAN TRIKALA is a holder whose role is unknown, receiving money from a sale of 38,800 shares in a bulk deal.",
+            "Proceeds of ₹8.15 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is coming in now.",
+            "Open with the sale itself and ask what they plan to do with the ₹8.15 lakh proceeds.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "event_id": "innomet_advanced_materi_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vinod_aachi",
+      "name_as_printed": "VINOD AACHI",
+      "fields": {
+        "name": "VINOD AACHI",
+        "role": "unknown",
+        "why_money": "sold 75,000 shares in a bulk deal on 4 Nov 2026",
+        "amount": "₹2.22 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.22 crore (75,000 shares × ₹295.86 = ₹2.22 crore (NSE 04-NOV-2026 · INNOMET · VINOD AACHI · SELL · 75000))"
+      },
+      "placeholders": {
+        "name": "VINOD AACHI",
+        "role": "unknown",
+        "amount": "₹2.22 crore",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹2.22 crore",
+        "shares_offered": "75,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "VINOD AACHI is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+        "They sold 75,000 shares in a bulk deal; ₹2.22 crore settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "The sale was 11 days ago, so a conversation about next steps for the proceeds could be useful.",
+        "Their role is unknown in our records, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+            "They sold {shares_offered} on the 4 Nov trade; {proceeds} was {timing}.",
+            "The sale was recent, {event_age}, so a conversation about reinvesting the proceeds is timely.",
+            "Their role is unknown in our records, so confirm it before the call."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+            "They sold {shares_offered} on the 4 Nov trade; {proceeds} was {timing}.",
+            "The sale was recent, {event_age}, so a conversation about reinvesting the proceeds is timely.",
+            "Their role is unknown in our records, so confirm it before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 4"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, receiving money from a bulk-deal share sale.",
+            "They sold {shares_offered} in a bulk deal; {proceeds} {timing}.",
+            "The sale was {event_age}, so a conversation about next steps for the proceeds could be useful.",
+            "Their role is unknown in our records, so confirm it before the call."
+          ],
+          "lines": [
+            "VINOD AACHI is a holder whose role is unknown, receiving money from a bulk-deal share sale.",
+            "They sold 75,000 shares in a bulk deal; ₹2.22 crore settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+            "The sale was 11 days ago, so a conversation about next steps for the proceeds could be useful.",
+            "Their role is unknown in our records, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

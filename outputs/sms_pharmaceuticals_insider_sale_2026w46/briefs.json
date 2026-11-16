@@ -1,0 +1,70 @@
+{
+  "event_id": "sms_pharmaceuticals_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_potluru_jhansilaxmi",
+      "name_as_printed": "POTLURU JHANSILAXMI",
+      "fields": {
+        "name": "POTLURU JHANSILAXMI",
+        "role": "unknown",
+        "why_money": "sold 2,000 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹10.54 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹10.54 lakh (2,000 shares, value as printed ₹10.54 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "POTLURU JHANSILAXMI",
+        "role": "unknown",
+        "amount": "₹10.54 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹10.54 lakh",
+        "shares_offered": "2,000 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "POTLURU JHANSILAXMI, unknown, is receiving money from a market sale of 2,000 shares made 4 days ago.",
+        "Proceeds of ₹10.54 lakh settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "Their sale was 4 days ago, so the cash is already in hand for planning conversations.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "POTLURU JHANSILAXMI, role unknown, is receiving money from a market sale of {shares_offered} on 11 Nov.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Their sale was {event_age}, so the cash is already in hand for planning conversations.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "POTLURU JHANSILAXMI, role unknown, is receiving money from a market sale of {shares_offered} on 11 Nov.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Their sale was {event_age}, so the cash is already in hand for planning conversations.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 11"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from a market sale of {shares_offered} made {event_age}.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Their sale was {event_age}, so the cash is already in hand for planning conversations.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "POTLURU JHANSILAXMI, unknown, is receiving money from a market sale of 2,000 shares made 4 days ago.",
+            "Proceeds of ₹10.54 lakh settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+            "Their sale was 4 days ago, so the cash is already in hand for planning conversations.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

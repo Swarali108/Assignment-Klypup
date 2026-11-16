@@ -1,0 +1,908 @@
+{
+  "event_id": "tonbo_imaging_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "1502.86",
+    "high": "1503.84",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹1,502.86",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+            "row_ref": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+            "quote": "NSE | TONBO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 3,23,145 shares | price 1502.86 | 2026-11-09"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹1,503.84",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+            "row_ref": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+            "quote": "NSE | TONBO | QE SECURITIES LLP | SELL | 3,13,325 shares | price 1503.84 | 2026-11-09"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "9 Nov 2026",
+    "sale_date_parsed": "2026-11-09",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "6,36,470 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_plutus_wealth_management_llp",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "names_as_printed": [
+        "PLUTUS WEALTH MANAGEMENT LLP"
+      ],
+      "name_clean": "plutus wealth management llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "d238a0482dd854a4"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 323145,
+          "record_ids": [
+            "d238a0482dd854a4"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+          "row_ref": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+          "quote": "NSE | TONBO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 3,23,145 shares | price 1502.86 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d238a0482dd854a4",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,23,145",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "485641694.70",
+          "rupees_high": "485641694.70",
+          "crore_low": "48.56",
+          "crore_high": "48.56",
+          "display": "₹48.56 crore",
+          "working": "3,23,145 shares × ₹1,502.86 = ₹48.56 crore (NSE 09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,23,145",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+                  "row_ref": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+                  "quote": "NSE | TONBO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 3,23,145 shares | price 1502.86 | 2026-11-09"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,502.86",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+                  "row_ref": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+                  "quote": "NSE | TONBO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 3,23,145 shares | price 1502.86 | 2026-11-09"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "trade_date": "2026-11-09",
+          "settles_on": "2026-11-10",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "9 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+                  "row_ref": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · SELL · 323145",
+                  "quote": "NSE | TONBO | PLUTUS WEALTH MANAGEMENT LLP | SELL | 3,23,145 shares | price 1502.86 | 2026-11-09"
+                }
+              ]
+            }
+          ],
+          "days_since": 6
+        }
+      },
+      "why_money": "sold 3,23,145 shares in a bulk deal on 9 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹66.83 crore",
+          "trigger_date": "2026-11-06",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹14.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹2.96 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹48.35 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w45",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹59.20 crore",
+          "trigger_date": "2026-11-06",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w45",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_plutus_wealth_management_llp_bought",
+      "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+      "names_as_printed": [
+        "PLUTUS WEALTH MANAGEMENT LLP"
+      ],
+      "name_clean": "plutus wealth management llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "bec9e24267e42bf3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 323145,
+          "record_ids": [
+            "bec9e24267e42bf3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · BUY · 323145",
+          "row_ref": "09-NOV-2026 · TONBO · PLUTUS WEALTH MANAGEMENT LLP · BUY · 323145",
+          "quote": "NSE | TONBO | PLUTUS WEALTH MANAGEMENT LLP | BUY | 3,23,145 shares | price 1502.11 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bec9e24267e42bf3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,23,145 shares in a bulk deal on 9 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹66.83 crore",
+          "trigger_date": "2026-11-06",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "bls_polymers_bulk_deal_2026w45",
+          "company": "BLS Polymers Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹14.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹2.96 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹48.35 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w44",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w45",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "₹59.20 crore",
+          "trigger_date": "2026-11-06",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        },
+        {
+          "event_id": "moneyview_bulk_deal_2026w45",
+          "company": "Moneyview Limited",
+          "name_as_printed": "PLUTUS WEALTH MANAGEMENT LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PLUTUS WEALTH MANAGEMENT LLP' / 'PLUTUS WEALTH MANAGEMENT LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "38f12155c041b879"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 313325,
+          "record_ids": [
+            "38f12155c041b879"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+          "row_ref": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+          "quote": "NSE | TONBO | QE SECURITIES LLP | SELL | 3,13,325 shares | price 1503.84 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "38f12155c041b879",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,13,325",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "471190668.00",
+          "rupees_high": "471190668.00",
+          "crore_low": "47.12",
+          "crore_high": "47.12",
+          "display": "₹47.12 crore",
+          "working": "3,13,325 shares × ₹1,503.84 = ₹47.12 crore (NSE 09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,13,325",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+                  "row_ref": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+                  "quote": "NSE | TONBO | QE SECURITIES LLP | SELL | 3,13,325 shares | price 1503.84 | 2026-11-09"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,503.84",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+                  "row_ref": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+                  "quote": "NSE | TONBO | QE SECURITIES LLP | SELL | 3,13,325 shares | price 1503.84 | 2026-11-09"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "trade_date": "2026-11-09",
+          "settles_on": "2026-11-10",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "9 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+                  "row_ref": "09-NOV-2026 · TONBO · QE SECURITIES LLP · SELL · 313325",
+                  "quote": "NSE | TONBO | QE SECURITIES LLP | SELL | 3,13,325 shares | price 1503.84 | 2026-11-09"
+                }
+              ]
+            }
+          ],
+          "days_since": 6
+        }
+      },
+      "why_money": "sold 3,13,325 shares in a bulk deal on 9 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹11.76 crore",
+          "trigger_date": "2026-11-05",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ad080592ad1864a3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-09",
+          "quantity": 316487,
+          "record_ids": [
+            "ad080592ad1864a3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "09-NOV-2026 · TONBO · QE SECURITIES LLP · BUY · 316487",
+          "row_ref": "09-NOV-2026 · TONBO · QE SECURITIES LLP · BUY · 316487",
+          "quote": "NSE | TONBO | QE SECURITIES LLP | BUY | 3,16,487 shares | price 1501.12 | 2026-11-09",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ad080592ad1864a3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,16,487 shares in a bulk deal on 9 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹45.25 crore",
+          "trigger_date": "2026-11-10",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aarti_drugs_bulk_deal_2026w46",
+          "company": "Aarti Drugs Ltd.",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹112.56 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "aeroflex_industries_bulk_deal_2026w44",
+          "company": "Aeroflex Industries Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹193.26 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+          "company": "Apollo Micro Systems Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹11.76 crore",
+          "trigger_date": "2026-11-05",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
+          "company": "Awfis Space Solutions Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹76.01 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "birlasoft_bulk_deal_2026w44",
+          "company": "BIRLASOFT LIMITED",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 40
+  }
+}

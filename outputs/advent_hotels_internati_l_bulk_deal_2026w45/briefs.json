@@ -1,0 +1,56 @@
+{
+  "event_id": "advent_hotels_internati_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_anil_kantiprasad_poddar",
+      "name_as_printed": "ANIL KANTIPRASAD PODDAR",
+      "fields": {
+        "name": "ANIL KANTIPRASAD PODDAR",
+        "role": "unknown",
+        "why_money": "sold 2,95,726 shares in a bulk deal on 5 Nov 2026",
+        "amount": "₹3.50 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.50 crore (2,95,726 shares × ₹118.36 = ₹3.50 crore (NSE 05-NOV-2026 · ADVENTHTL · ANIL KANTIPRASAD PODDAR · SELL · 295726))",
+        "family_link": "'MONEKA ANIL PODDAR' and 'ANIL KANTIPRASAD PODDAR' share surname 'poddar', and the middle name 'anil' of 'MONEKA ANIL PODDAR' is the first name of 'ANIL KANTIPRASAD PODDAR'"
+      },
+      "placeholders": {
+        "name": "ANIL KANTIPRASAD PODDAR",
+        "role": "unknown",
+        "amount": "₹3.50 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹3.50 crore",
+        "shares_offered": "2,95,726 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "ANIL KANTIPRASAD PODDAR sold 2,95,726 shares in a bulk deal, so money is coming to them from that sale.",
+        "The ₹3.50 crore proceeds were settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago), so the cash is already in hand.",
+        "Their family link to another holder, MONEKA ANIL PODDAR, could open a joint conversation.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "The {amount} proceeds were {timing}, so the cash is already in hand.",
+            "Their family link to another holder, MONEKA ANIL PODDAR, could open a joint conversation.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "ANIL KANTIPRASAD PODDAR sold 2,95,726 shares in a bulk deal, so money is coming to them from that sale.",
+            "The ₹3.50 crore proceeds were settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago), so the cash is already in hand.",
+            "Their family link to another holder, MONEKA ANIL PODDAR, could open a joint conversation.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

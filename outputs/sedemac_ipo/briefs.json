@@ -1,0 +1,1180 @@
+{
+  "event_id": "sedemac_ipo",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_shashikanth_suryanarayanan",
+      "name_as_printed": "Prof. Shashikanth Suryanarayanan",
+      "fields": {
+        "name": "Prof. Shashikanth Suryanarayanan",
+        "role": "Promoters",
+        "why_money": "holds 7,150,500 shares before the offer; not selling in it",
+        "amount": "₹966.75 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash (promoter shares above the 20%; how many shares is not printed)",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹966.75 crore (estimate, valued at offer price) (7,150,500 × ₹1,352 = ₹966.75 crore)",
+        "retained_shares": "7,150,500 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Prof. Shashikanth Suryanarayanan",
+        "role": "Promoters",
+        "amount": "₹966.75 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "retained": "₹966.75 crore (estimate, valued at offer price)",
+        "retained_shares": "7,150,500 shares",
+        "shares_held": "7,150,500 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Prof. Shashikanth Suryanarayanan, a promoter, is set to receive value from shares unlocked 67 days ago, though no cash has moved.",
+        "Their holding of 7,150,500 shares is valued at ₹966.75 crore (estimate, valued at offer price); shares, not cash, and the shares unlocked on 9 Sep 2026.",
+        "Much of the stake stays locked until 9 Sep 2026, so 7,150,500 shares remain their long-term position.",
+        "Unknown: the exact number of unlocked shares is not printed, so the valuation covers the full holding."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Prof. Shashikanth Suryanarayanan, a promoter, is set to receive value from shares unlocked {event_age}, though no cash has moved.",
+            "Their holding of {shares_held} is valued at {amount}, and the shares unlocked on {unlock_date}.",
+            "Much of the stake is still locked until 9 Sep 2027, so {retained_shares} remain their long-term position.",
+            "Unknown: the exact number of unlocked shares is not printed, so the valuation covers the full holding."
+          ],
+          "lines": [
+            "Prof. Shashikanth Suryanarayanan, a promoter, is set to receive value from shares unlocked {event_age}, though no cash has moved.",
+            "Their holding of {shares_held} is valued at {amount}, and the shares unlocked on {unlock_date}.",
+            "Much of the stake is still locked until 9 Sep 2027, so {retained_shares} remain their long-term position.",
+            "Unknown: the exact number of unlocked shares is not printed, so the valuation covers the full holding."
+          ],
+          "problem": "writes numbers instead of placeholders: 9, 2027"
+        },
+        {
+          "raw_lines": [
+            "Prof. Shashikanth Suryanarayanan, a promoter, is set to receive value from shares unlocked {event_age}, though no cash has moved.",
+            "Their holding of {shares_held} is valued at {amount}, and the shares unlocked on {unlock_date}.",
+            "Much of the stake stays locked until {unlock_date}, so {retained_shares} remain their long-term position.",
+            "Unknown: the exact number of unlocked shares is not printed, so the valuation covers the full holding."
+          ],
+          "lines": [
+            "Prof. Shashikanth Suryanarayanan, a promoter, is set to receive value from shares unlocked 67 days ago, though no cash has moved.",
+            "Their holding of 7,150,500 shares is valued at ₹966.75 crore (estimate, valued at offer price); shares, not cash, and the shares unlocked on 9 Sep 2026.",
+            "Much of the stake stays locked until 9 Sep 2026, so 7,150,500 shares remain their long-term position.",
+            "Unknown: the exact number of unlocked shares is not printed, so the valuation covers the full holding."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nrjn_family_trust_represented_by_entrust_family_office_legal_trusteeship_services_private_limited",
+      "name_as_printed": "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited)",
+      "fields": {
+        "name": "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited)",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 1,050,000 shares in the offer for sale",
+        "amount": "up to ₹141.96 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "proceeds in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event_age": "249 days ago",
+        "event_is": "old",
+        "proceeds": "up to ₹141.96 crore, if all offered shares are sold (1,050,000 × ₹1,352 = ₹141.96 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹132.00 crore, before offer expenses and taxes, if all offered shares are sold (1,050,000 × (₹1,352 − ₹94.86) = ₹132.00 crore)",
+        "retained": "₹119.65 crore (estimate, valued at offer price) ((1,935,000 − 1,050,000) × ₹1,352 = ₹119.65 crore)",
+        "retained_shares": "at least 885,000 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited)",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹141.96 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹141.96 crore, if all offered shares are sold",
+        "gain": "up to ₹132.00 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹119.65 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 885,000 shares, if all offered shares are sold",
+        "shares_offered": "up to 1,050,000 shares",
+        "shares_held": "1,935,000 shares",
+        "event_age": "249 days ago"
+      },
+      "lines": [
+        "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited) is an Investor Selling Shareholder, selling shares in the offer for sale.",
+        "Proceeds of up to ₹141.96 crore, if all offered shares are sold were in hand 249 days ago, with a gain of up to ₹132.00 crore, before offer expenses and taxes, if all offered shares are sold.",
+        "They still hold at least 885,000 shares, if all offered shares are sold after the offer, with pre-Offer capital unlocked since 249 days ago."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an Investor Selling Shareholder, selling shares in the offer for sale.",
+            "Proceeds of {proceeds} were in hand {event_age}, with a gain of {gain}.",
+            "They still hold {retained_shares} after the offer, with pre-Offer capital unlocked since {event_age}."
+          ],
+          "lines": [
+            "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited) is an Investor Selling Shareholder, selling shares in the offer for sale.",
+            "Proceeds of up to ₹141.96 crore, if all offered shares are sold were in hand 249 days ago, with a gain of up to ₹132.00 crore, before offer expenses and taxes, if all offered shares are sold.",
+            "They still hold at least 885,000 shares, if all offered shares are sold after the offer, with pre-Offer capital unlocked since 249 days ago."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_mallika_r_iyer",
+      "name_as_printed": "Mallika R Iyer",
+      "fields": {
+        "name": "Mallika R Iyer",
+        "role": "Promoter Group",
+        "why_money": "holds 1,234,500 shares before the offer; not selling in it",
+        "amount": "₹166.90 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹166.90 crore (estimate, valued at offer price) (1,234,500 × ₹1,352 = ₹166.90 crore)",
+        "retained_shares": "1,234,500 shares",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Mallika R Iyer",
+        "role": "Promoter Group",
+        "amount": "₹166.90 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "retained": "₹166.90 crore (estimate, valued at offer price)",
+        "retained_shares": "1,234,500 shares",
+        "shares_held": "1,234,500 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Mallika R Iyer, Promoter Group, holds 1,234,500 shares and is not selling in the offer.",
+        "Their shares unlocked on 9 Sep 2026, 67 days ago; the stake is valued at ₹166.90 crore (estimate, valued at offer price); shares, not cash.",
+        "They keep 1,234,500 shares, so more of their value stays with them after the offer."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Mallika R Iyer, Promoter Group, holds {shares_held} and is not selling in the offer.",
+            "Their shares unlocked on {unlock_date}, {event_age}; the stake is valued at {amount}.",
+            "They keep {retained_shares}, so more of their value stays with them after the offer."
+          ],
+          "lines": [
+            "Mallika R Iyer, Promoter Group, holds 1,234,500 shares and is not selling in the offer.",
+            "Their shares unlocked on 9 Sep 2026, 67 days ago; the stake is valued at ₹166.90 crore (estimate, valued at offer price); shares, not cash.",
+            "They keep 1,234,500 shares, so more of their value stays with them after the offer."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ashwini_amit_dixit",
+      "name_as_printed": "Ashwini Amit Dixit",
+      "fields": {
+        "name": "Ashwini Amit Dixit",
+        "role": "Promoter Group Selling Shareholder",
+        "why_money": "sells up to 67,500 shares in the offer for sale",
+        "amount": "up to ₹9.13 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹9.13 crore, if all offered shares are sold (67,500 × ₹1,352 = ₹9.13 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹8.45 crore, before offer expenses and taxes, if all offered shares are sold (67,500 × (₹1,352 − ₹100.00) = ₹8.45 crore)",
+        "retained": "₹64.08 crore (estimate, valued at offer price) ((541,500 − 67,500) × ₹1,352 = ₹64.08 crore)",
+        "retained_shares": "at least 474,000 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "family_link": "'Ashwini Amit Dixit' and 'Amit Arun Dixit' share surname 'dixit', and the middle name 'amit' of 'Ashwini Amit Dixit' is the first name of 'Amit Arun Dixit'"
+      },
+      "placeholders": {
+        "name": "Ashwini Amit Dixit",
+        "role": "Promoter Group Selling Shareholder",
+        "amount": "up to ₹9.13 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹9.13 crore, if all offered shares are sold",
+        "gain": "up to ₹8.45 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹64.08 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 474,000 shares, if all offered shares are sold",
+        "shares_offered": "up to 67,500 shares",
+        "shares_held": "541,500 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Ashwini Amit Dixit is a Promoter Group Selling Shareholder whose offer-for-sale shares are bringing them money.",
+        "Proceeds of up to ₹9.13 crore, if all offered shares are sold arrive at listing, after shares unlocked 67 days ago.",
+        "They keep at least 474,000 shares, if all offered shares are sold worth ₹64.08 crore (estimate, valued at offer price), so a long-term conversation about the remaining holding makes sense."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} whose offer-for-sale shares are bringing them money.",
+            "Proceeds of {proceeds} arrive at listing, after shares unlocked {event_age}.",
+            "They keep {retained_shares} worth {retained}, so a long-term conversation about the remaining holding makes sense."
+          ],
+          "lines": [
+            "Ashwini Amit Dixit is a Promoter Group Selling Shareholder whose offer-for-sale shares are bringing them money.",
+            "Proceeds of up to ₹9.13 crore, if all offered shares are sold arrive at listing, after shares unlocked 67 days ago.",
+            "They keep at least 474,000 shares, if all offered shares are sold worth ₹64.08 crore (estimate, valued at offer price), so a long-term conversation about the remaining holding makes sense."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_amit_arun_dixit",
+      "name_as_printed": "Amit Arun Dixit",
+      "fields": {
+        "name": "Amit Arun Dixit",
+        "role": "Promoters",
+        "why_money": "holds 1,245,000 shares before the offer; not selling in it",
+        "amount": "₹168.32 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash (promoter shares above the 20%; how many shares is not printed)",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹168.32 crore (estimate, valued at offer price) (1,245,000 × ₹1,352 = ₹168.32 crore)",
+        "retained_shares": "1,245,000 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "family_link": "'Ashwini Amit Dixit' and 'Amit Arun Dixit' share surname 'dixit', and the middle name 'amit' of 'Ashwini Amit Dixit' is the first name of 'Amit Arun Dixit'"
+      },
+      "placeholders": {
+        "name": "Amit Arun Dixit",
+        "role": "Promoters",
+        "amount": "₹168.32 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "retained": "₹168.32 crore (estimate, valued at offer price)",
+        "retained_shares": "1,245,000 shares",
+        "shares_held": "1,245,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Amit Arun Dixit, a Promoter, holds 1,245,000 shares and has the shares unlocked, so they hold value without selling.",
+        "₹168.32 crore (estimate, valued at offer price); shares, not cash of shares unlocked on 9 Sep 2026, 67 days ago, and they are shares, not cash.",
+        "They keep 1,245,000 shares, and the minimum Promoters' Contribution stays locked until Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026), so more value is held longer.",
+        "Ashwini Amit Dixit shares a surname and the name Amit with this holder, so a family link is worth raising."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Amit Arun Dixit, a Promoter, holds {shares_held} and has the shares unlocked, so they hold value without selling.",
+            "{amount} of shares unlocked on {unlock_date}, {event_age}, and they are shares, not cash.",
+            "They keep {retained_shares}, and the minimum Promoters' Contribution stays locked until 9 Sep 2027, so more value is held longer.",
+            "Ashwini Amit Dixit shares a surname and the name Amit with this holder, so a family link is worth raising."
+          ],
+          "lines": [
+            "Amit Arun Dixit, a Promoter, holds {shares_held} and has the shares unlocked, so they hold value without selling.",
+            "{amount} of shares unlocked on {unlock_date}, {event_age}, and they are shares, not cash.",
+            "They keep {retained_shares}, and the minimum Promoters' Contribution stays locked until 9 Sep 2027, so more value is held longer.",
+            "Ashwini Amit Dixit shares a surname and the name Amit with this holder, so a family link is worth raising."
+          ],
+          "problem": "writes numbers instead of placeholders: 9, 2027"
+        },
+        {
+          "raw_lines": [
+            "Amit Arun Dixit, a Promoter, holds {shares_held} and has the shares unlocked, so they hold value without selling.",
+            "{amount} of shares unlocked on {unlock_date}, {event_age}, and they are shares, not cash.",
+            "They keep {retained_shares}, and the minimum Promoters' Contribution stays locked until {timing}, so more value is held longer.",
+            "Ashwini Amit Dixit shares a surname and the name Amit with this holder, so a family link is worth raising."
+          ],
+          "lines": [
+            "Amit Arun Dixit, a Promoter, holds 1,245,000 shares and has the shares unlocked, so they hold value without selling.",
+            "₹168.32 crore (estimate, valued at offer price); shares, not cash of shares unlocked on 9 Sep 2026, 67 days ago, and they are shares, not cash.",
+            "They keep 1,245,000 shares, and the minimum Promoters' Contribution stays locked until Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026), so more value is held longer.",
+            "Ashwini Amit Dixit shares a surname and the name Amit with this holder, so a family link is worth raising."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_manish_sharma",
+      "name_as_printed": "Manish Sharma",
+      "fields": {
+        "name": "Manish Sharma",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells up to 45,000 shares in the offer for sale",
+        "amount": "up to ₹6.08 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash (promoter shares above the 20%; how many shares is not printed)",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹6.08 crore, if all offered shares are sold (45,000 × ₹1,352 = ₹6.08 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹5.88 crore, before offer expenses and taxes, if all offered shares are sold (45,000 × (₹1,352 − ₹46.00) = ₹5.88 crore)",
+        "retained": "₹110.73 crore (estimate, valued at offer price) ((864,000 − 45,000) × ₹1,352 = ₹110.73 crore)",
+        "retained_shares": "at least 819,000 shares, if all offered shares are sold",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "family_link": "'Priyanka Manish Sharma' contains 'Manish Sharma'"
+      },
+      "placeholders": {
+        "name": "Manish Sharma",
+        "role": "Promoter Selling Shareholder",
+        "amount": "up to ₹6.08 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹6.08 crore, if all offered shares are sold",
+        "gain": "up to ₹5.88 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹110.73 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 819,000 shares, if all offered shares are sold",
+        "shares_offered": "up to 45,000 shares",
+        "shares_held": "864,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Manish Sharma is a Promoter Selling Shareholder who sells up to 45,000 shares in the offer for sale.",
+        "Proceeds of up to ₹6.08 crore, if all offered shares are sold are in hand since in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents), with shares unlocked on 9 Sep 2026.",
+        "They keep at least 819,000 shares, if all offered shares are sold with a lock-in running to 9 Sep 2026, a basis for a retention conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sells up to 45,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} are in hand since {timing}, with shares unlocked on {unlock_date}.",
+            "They keep {retained_shares} with a lock-in running to {unlock_date}, a basis for a retention conversation."
+          ],
+          "lines": [
+            "{name} is a {role} who sells up to 45,000 shares in the offer for sale.",
+            "Proceeds of {proceeds} are in hand since {timing}, with shares unlocked on {unlock_date}.",
+            "They keep {retained_shares} with a lock-in running to {unlock_date}, a basis for a retention conversation."
+          ],
+          "problem": "writes numbers instead of placeholders: 45,000"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sells {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} are in hand since {timing}, with shares unlocked on {unlock_date}.",
+            "They keep {retained_shares} with a lock-in running to {unlock_date}, a basis for a retention conversation."
+          ],
+          "lines": [
+            "Manish Sharma is a Promoter Selling Shareholder who sells up to 45,000 shares in the offer for sale.",
+            "Proceeds of up to ₹6.08 crore, if all offered shares are sold are in hand since in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents), with shares unlocked on 9 Sep 2026.",
+            "They keep at least 819,000 shares, if all offered shares are sold with a lock-in running to 9 Sep 2026, a basis for a retention conversation."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_anaykumar_avinash_joshi",
+      "name_as_printed": "Anaykumar Avinash Joshi",
+      "fields": {
+        "name": "Anaykumar Avinash Joshi",
+        "role": "Promoters",
+        "why_money": "holds 591,000 shares before the offer; not selling in it",
+        "amount": "₹79.90 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash (promoter shares above the 20%; how many shares is not printed)",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹79.90 crore (estimate, valued at offer price) (591,000 × ₹1,352 = ₹79.90 crore)",
+        "retained_shares": "591,000 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Anaykumar Avinash Joshi",
+        "role": "Promoters",
+        "amount": "₹79.90 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "retained": "₹79.90 crore (estimate, valued at offer price)",
+        "retained_shares": "591,000 shares",
+        "shares_held": "591,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Anaykumar Avinash Joshi, a Promoter, holds 591,000 shares and is not selling in the offer.",
+        "Their unlocked promoter shares, worth ₹79.90 crore (estimate, valued at offer price); shares, not cash, have been freed since 67 days ago, though they are not cash.",
+        "Ask whether they plan to keep the 591,000 shares locked until 9 Sep 2026, which the Minimum Promoters' Contribution rules govern."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Anaykumar Avinash Joshi, a Promoter, holds {shares_held} and is not selling in the offer.",
+            "Their unlocked promoter shares, worth {amount}, have been freed since {event_age}, though they are not cash.",
+            "Ask whether they plan to keep the {retained_shares} locked until {unlock_date}, which the Minimum Promoters' Contribution rules govern."
+          ],
+          "lines": [
+            "Anaykumar Avinash Joshi, a Promoter, holds 591,000 shares and is not selling in the offer.",
+            "Their unlocked promoter shares, worth ₹79.90 crore (estimate, valued at offer price); shares, not cash, have been freed since 67 days ago, though they are not cash.",
+            "Ask whether they plan to keep the 591,000 shares locked until 9 Sep 2026, which the Minimum Promoters' Contribution rules govern."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_himanshu_kantilal_sanghavi_huf",
+      "name_as_printed": "Himanshu Kantilal Sanghavi HUF",
+      "fields": {
+        "name": "Himanshu Kantilal Sanghavi HUF",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 25,200 shares in the offer for sale",
+        "amount": "up to ₹3.41 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹3.41 crore, if all offered shares are sold (25,200 × ₹1,352 = ₹3.41 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹2.52 crore, before offer expenses and taxes, if all offered shares are sold (25,200 × (₹1,352 − ₹352.29) = ₹2.52 crore)",
+        "retained": "₹7.95 crore (estimate, valued at offer price) ((84,000 − 25,200) × ₹1,352 = ₹7.95 crore)",
+        "retained_shares": "at least 58,800 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Himanshu Kantilal Sanghavi HUF",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹3.41 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹3.41 crore, if all offered shares are sold",
+        "gain": "up to ₹2.52 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹7.95 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 58,800 shares, if all offered shares are sold",
+        "shares_offered": "up to 25,200 shares",
+        "shares_held": "84,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Himanshu Kantilal Sanghavi HUF is an Investor Selling Shareholder; they are selling part of their holding in the offer for sale.",
+        "They may receive up to ₹3.41 crore, if all offered shares are sold from up to 25,200 shares, with proceeds in hand since in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents).",
+        "They keep at least 58,800 shares, if all offered shares are sold, unlocked since 9 Sep 2026, so retained holdings may matter for later discussion."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an Investor Selling Shareholder; they are selling part of their holding in the offer for sale.",
+            "They may receive {proceeds} from {shares_offered}, with proceeds in hand since {timing}.",
+            "They keep {retained_shares}, unlocked since {unlock_date}, so retained holdings may matter for later discussion."
+          ],
+          "lines": [
+            "Himanshu Kantilal Sanghavi HUF is an Investor Selling Shareholder; they are selling part of their holding in the offer for sale.",
+            "They may receive up to ₹3.41 crore, if all offered shares are sold from up to 25,200 shares, with proceeds in hand since in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents).",
+            "They keep at least 58,800 shares, if all offered shares are sold, unlocked since 9 Sep 2026, so retained holdings may matter for later discussion."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_priyanka_manish_sharma",
+      "name_as_printed": "Priyanka Manish Sharma",
+      "fields": {
+        "name": "Priyanka Manish Sharma",
+        "role": "Promoter Group",
+        "why_money": "holds 57,000 shares before the offer; not selling in it",
+        "amount": "₹7.71 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹7.71 crore (estimate, valued at offer price) (57,000 × ₹1,352 = ₹7.71 crore)",
+        "retained_shares": "57,000 shares",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "family_link": "'Priyanka Manish Sharma' contains 'Manish Sharma'"
+      },
+      "placeholders": {
+        "name": "Priyanka Manish Sharma",
+        "role": "Promoter Group",
+        "amount": "₹7.71 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "retained": "₹7.71 crore (estimate, valued at offer price)",
+        "retained_shares": "57,000 shares",
+        "shares_held": "57,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Priyanka Manish Sharma is a Promoter Group holder with 57,000 shares before the offer, not selling in it.",
+        "Their 57,000 shares unlocked on 9 Sep 2026, worth ₹7.71 crore (estimate, valued at offer price), and that stake is now liquid.",
+        "Discuss how 67 days ago unlock timing shapes their options, without suggesting any specific action.",
+        "Family link: their name contains Manish Sharma, so check for a related holder before calling."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} holder with {shares_held} before the offer, not selling in it.",
+            "Their {retained_shares} unlocked on {unlock_date}, worth {retained}, and that stake is now liquid.",
+            "Discuss how {event_age} unlock timing shapes their options, without suggesting any specific action.",
+            "Family link: their name contains Manish Sharma, so check for a related holder before calling."
+          ],
+          "lines": [
+            "Priyanka Manish Sharma is a Promoter Group holder with 57,000 shares before the offer, not selling in it.",
+            "Their 57,000 shares unlocked on 9 Sep 2026, worth ₹7.71 crore (estimate, valued at offer price), and that stake is now liquid.",
+            "Discuss how 67 days ago unlock timing shapes their options, without suggesting any specific action.",
+            "Family link: their name contains Manish Sharma, so check for a related holder before calling."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_devang_mehta",
+      "name_as_printed": "Devang Mehta",
+      "fields": {
+        "name": "Devang Mehta",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 16,650 shares in the offer for sale",
+        "amount": "up to ₹2.25 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹2.25 crore, if all offered shares are sold (16,650 × ₹1,352 = ₹2.25 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹1.66 crore, before offer expenses and taxes, if all offered shares are sold (16,650 × (₹1,352 − ₹352.29) = ₹1.66 crore)",
+        "retained": "₹5.25 crore (estimate, valued at offer price) ((55,500 − 16,650) × ₹1,352 = ₹5.25 crore)",
+        "retained_shares": "at least 38,850 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Devang Mehta",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹2.25 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹2.25 crore, if all offered shares are sold",
+        "gain": "up to ₹1.66 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹5.25 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 38,850 shares, if all offered shares are sold",
+        "shares_offered": "up to 16,650 shares",
+        "shares_held": "55,500 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Devang Mehta, an Investor Selling Shareholder, is receiving money by selling part of their holding in the offer for sale.",
+        "up to ₹2.25 crore, if all offered shares are sold from the offer, with the shares unlocked on 9 Sep 2026, 67 days ago.",
+        "They keep at least 38,850 shares, if all offered shares are sold after selling, so they still benefit from the company's future performance."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Devang Mehta, an Investor Selling Shareholder, is receiving money by selling part of their holding in the offer for sale.",
+            "Up to {proceeds} from the offer, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares} after selling, so they still benefit from the company's future performance."
+          ],
+          "lines": [
+            "Devang Mehta, an Investor Selling Shareholder, is receiving money by selling part of their holding in the offer for sale.",
+            "Up to {proceeds} from the offer, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares} after selling, so they still benefit from the company's future performance."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "Devang Mehta, an Investor Selling Shareholder, is receiving money by selling part of their holding in the offer for sale.",
+            "{proceeds} from the offer, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares} after selling, so they still benefit from the company's future performance."
+          ],
+          "lines": [
+            "Devang Mehta, an Investor Selling Shareholder, is receiving money by selling part of their holding in the offer for sale.",
+            "up to ₹2.25 crore, if all offered shares are sold from the offer, with the shares unlocked on 9 Sep 2026, 67 days ago.",
+            "They keep at least 38,850 shares, if all offered shares are sold after selling, so they still benefit from the company's future performance."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_atul_hiralal_shah",
+      "name_as_printed": "Atul Hiralal Shah",
+      "fields": {
+        "name": "Atul Hiralal Shah",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 12,600 shares in the offer for sale",
+        "amount": "up to ₹1.70 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹1.70 crore, if all offered shares are sold (12,600 × ₹1,352 = ₹1.70 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹1.26 crore, before offer expenses and taxes, if all offered shares are sold (12,600 × (₹1,352 − ₹352.29) = ₹1.26 crore)",
+        "retained": "₹3.97 crore (estimate, valued at offer price) ((42,000 − 12,600) × ₹1,352 = ₹3.97 crore)",
+        "retained_shares": "at least 29,400 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "family_link": "'Atul Hiralal Shah' and 'Bakul Hiralal Shah' share surname 'shah' and middle name 'hiralal'"
+      },
+      "placeholders": {
+        "name": "Atul Hiralal Shah",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹1.70 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹1.70 crore, if all offered shares are sold",
+        "gain": "up to ₹1.26 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹3.97 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 29,400 shares, if all offered shares are sold",
+        "shares_offered": "up to 12,600 shares",
+        "shares_held": "42,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Atul Hiralal Shah, an Investor Selling Shareholder, is due proceeds from shares offered in the offer for sale.",
+        "Proceeds of up to ₹1.70 crore, if all offered shares are sold are in hand since in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents), after the 9 Sep 2026 unlock.",
+        "They keep at least 29,400 shares, if all offered shares are sold, and a family link to Bakul Hiralal Shah may open a wider conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Atul Hiralal Shah, an Investor Selling Shareholder, is due proceeds from shares offered in the offer for sale.",
+            "Proceeds of {proceeds} are in hand since {timing}, after the {unlock_date} unlock.",
+            "They keep {retained_shares}, and a family link to Bakul Hiralal Shah may open a wider conversation."
+          ],
+          "lines": [
+            "Atul Hiralal Shah, an Investor Selling Shareholder, is due proceeds from shares offered in the offer for sale.",
+            "Proceeds of up to ₹1.70 crore, if all offered shares are sold are in hand since in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents), after the 9 Sep 2026 unlock.",
+            "They keep at least 29,400 shares, if all offered shares are sold, and a family link to Bakul Hiralal Shah may open a wider conversation."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_bakul_hiralal_shah",
+      "name_as_printed": "Bakul Hiralal Shah",
+      "fields": {
+        "name": "Bakul Hiralal Shah",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 12,600 shares in the offer for sale",
+        "amount": "up to ₹1.70 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹1.70 crore, if all offered shares are sold (12,600 × ₹1,352 = ₹1.70 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹1.26 crore, before offer expenses and taxes, if all offered shares are sold (12,600 × (₹1,352 − ₹352.29) = ₹1.26 crore)",
+        "retained": "₹3.97 crore (estimate, valued at offer price) ((42,000 − 12,600) × ₹1,352 = ₹3.97 crore)",
+        "retained_shares": "at least 29,400 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "family_link": "'Atul Hiralal Shah' and 'Bakul Hiralal Shah' share surname 'shah' and middle name 'hiralal'"
+      },
+      "placeholders": {
+        "name": "Bakul Hiralal Shah",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹1.70 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹1.70 crore, if all offered shares are sold",
+        "gain": "up to ₹1.26 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹3.97 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 29,400 shares, if all offered shares are sold",
+        "shares_offered": "up to 12,600 shares",
+        "shares_held": "42,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Bakul Hiralal Shah, Investor Selling Shareholder, is due proceeds from selling part of their holding in the offer for sale.",
+        "up to ₹1.70 crore, if all offered shares are sold from up to 12,600 shares, with a up to ₹1.26 crore, before offer expenses and taxes, if all offered shares are sold gain calculated from printed prices.",
+        "They keep at least 29,400 shares, if all offered shares are sold after the offer; Atul Hiralal Shah shares the surname and middle name, a possible family link."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Bakul Hiralal Shah, Investor Selling Shareholder, is due proceeds from selling part of their holding in the offer for sale.",
+            "Up to {proceeds} from {shares_offered}; the {gain} gain is a calculation from printed prices.",
+            "They keep {retained_shares} after the offer; Atul Hiralal Shah shares the surname and middle name, a possible family link."
+          ],
+          "lines": [
+            "Bakul Hiralal Shah, Investor Selling Shareholder, is due proceeds from selling part of their holding in the offer for sale.",
+            "Up to {proceeds} from {shares_offered}; the {gain} gain is a calculation from printed prices.",
+            "They keep {retained_shares} after the offer; Atul Hiralal Shah shares the surname and middle name, a possible family link."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "Bakul Hiralal Shah, Investor Selling Shareholder, is due proceeds from selling part of their holding in the offer for sale.",
+            "{proceeds} from {shares_offered}, with a {gain} gain calculated from printed prices.",
+            "They keep {retained_shares} after the offer; Atul Hiralal Shah shares the surname and middle name, a possible family link."
+          ],
+          "lines": [
+            "Bakul Hiralal Shah, Investor Selling Shareholder, is due proceeds from selling part of their holding in the offer for sale.",
+            "up to ₹1.70 crore, if all offered shares are sold from up to 12,600 shares, with a up to ₹1.26 crore, before offer expenses and taxes, if all offered shares are sold gain calculated from printed prices.",
+            "They keep at least 29,400 shares, if all offered shares are sold after the offer; Atul Hiralal Shah shares the surname and middle name, a possible family link."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_devinjit_singh",
+      "name_as_printed": "Devinjit Singh",
+      "fields": {
+        "name": "Devinjit Singh",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 6,750 shares in the offer for sale",
+        "amount": "up to ₹0.91 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹0.91 crore, if all offered shares are sold (6,750 × ₹1,352 = ₹0.91 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹0.67 crore, before offer expenses and taxes, if all offered shares are sold (6,750 × (₹1,352 − ₹352.29) = ₹0.67 crore)",
+        "retained": "₹2.13 crore (estimate, valued at offer price) ((22,500 − 6,750) × ₹1,352 = ₹2.13 crore)",
+        "retained_shares": "at least 15,750 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Devinjit Singh",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹0.91 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹0.91 crore, if all offered shares are sold",
+        "gain": "up to ₹0.67 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹2.13 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 15,750 shares, if all offered shares are sold",
+        "shares_offered": "up to 6,750 shares",
+        "shares_held": "22,500 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Devinjit Singh, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+        "up to ₹0.91 crore, if all offered shares are sold from selling up to 6,750 shares, with the shares unlocked on 9 Sep 2026, 67 days ago.",
+        "They keep at least 15,750 shares, if all offered shares are sold after the offer, so the holding still carries value beyond this sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Devinjit Singh, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "Up to {proceeds} from selling {shares_offered}, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares} after the offer, so the holding still carries value beyond this sale."
+          ],
+          "lines": [
+            "Devinjit Singh, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "Up to {proceeds} from selling {shares_offered}, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares} after the offer, so the holding still carries value beyond this sale."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "Devinjit Singh, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "{proceeds} from selling {shares_offered}, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares} after the offer, so the holding still carries value beyond this sale."
+          ],
+          "lines": [
+            "Devinjit Singh, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "up to ₹0.91 crore, if all offered shares are sold from selling up to 6,750 shares, with the shares unlocked on 9 Sep 2026, 67 days ago.",
+            "They keep at least 15,750 shares, if all offered shares are sold after the offer, so the holding still carries value beyond this sale."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_perumal_ramamurthy_srinivasan",
+      "name_as_printed": "Perumal Ramamurthy Srinivasan",
+      "fields": {
+        "name": "Perumal Ramamurthy Srinivasan",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 6,750 shares in the offer for sale",
+        "amount": "up to ₹0.91 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹0.91 crore, if all offered shares are sold (6,750 × ₹1,352 = ₹0.91 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹0.67 crore, before offer expenses and taxes, if all offered shares are sold (6,750 × (₹1,352 − ₹352.29) = ₹0.67 crore)",
+        "retained": "₹2.13 crore (estimate, valued at offer price) ((22,500 − 6,750) × ₹1,352 = ₹2.13 crore)",
+        "retained_shares": "at least 15,750 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Perumal Ramamurthy Srinivasan",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹0.91 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹0.91 crore, if all offered shares are sold",
+        "gain": "up to ₹0.67 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹2.13 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 15,750 shares, if all offered shares are sold",
+        "shares_offered": "up to 6,750 shares",
+        "shares_held": "22,500 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Perumal Ramamurthy Srinivasan, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+        "up to ₹0.91 crore, if all offered shares are sold from up to 6,750 shares, with a up to ₹0.67 crore, before offer expenses and taxes, if all offered shares are sold gain; the shares unlocked 67 days ago.",
+        "They keep at least 15,750 shares, if all offered shares are sold and their retained stake is valued at ₹2.13 crore (estimate, valued at offer price), a longer-term angle to discuss."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Perumal Ramamurthy Srinivasan, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "Up to {proceeds} from up to {shares_offered}, with {gain} gain; the shares unlocked {event_age}.",
+            "They keep {retained_shares} and their retained stake is valued at {retained}, a longer-term angle to discuss."
+          ],
+          "lines": [
+            "Perumal Ramamurthy Srinivasan, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "Up to {proceeds} from up to {shares_offered}, with {gain} gain; the shares unlocked {event_age}.",
+            "They keep {retained_shares} and their retained stake is valued at {retained}, a longer-term angle to discuss."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "Perumal Ramamurthy Srinivasan, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "{proceeds} from {shares_offered}, with a {gain} gain; the shares unlocked {event_age}.",
+            "They keep {retained_shares} and their retained stake is valued at {retained}, a longer-term angle to discuss."
+          ],
+          "lines": [
+            "Perumal Ramamurthy Srinivasan, an Investor Selling Shareholder, is due money from selling shares in the offer for sale.",
+            "up to ₹0.91 crore, if all offered shares are sold from up to 6,750 shares, with a up to ₹0.67 crore, before offer expenses and taxes, if all offered shares are sold gain; the shares unlocked 67 days ago.",
+            "They keep at least 15,750 shares, if all offered shares are sold and their retained stake is valued at ₹2.13 crore (estimate, valued at offer price), a longer-term angle to discuss."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ravikumar_krishnamurthi",
+      "name_as_printed": "Ravikumar Krishnamurthi",
+      "fields": {
+        "name": "Ravikumar Krishnamurthi",
+        "role": "Promoter Group",
+        "why_money": "holds 15,000 shares before the offer; not selling in it",
+        "amount": "₹2.03 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹2.03 crore (estimate, valued at offer price) (15,000 × ₹1,352 = ₹2.03 crore)",
+        "retained_shares": "15,000 shares",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Ravikumar Krishnamurthi",
+        "role": "Promoter Group",
+        "amount": "₹2.03 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+        "retained": "₹2.03 crore (estimate, valued at offer price)",
+        "retained_shares": "15,000 shares",
+        "shares_held": "15,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Ravikumar Krishnamurthi is a Promoter Group holding 15,000 shares, with money coming from pre-offer shares that were not sold.",
+        "The stake is valued at ₹2.03 crore (estimate, valued at offer price); shares, not cash, and the lock-in ended 67 days ago, on 9 Sep 2026.",
+        "Since they are not selling in the offer, the conversation can focus on how they plan to keep their 15,000 shares.",
+        "The current market value is an estimate, not a cash figure, so confirm the valuation basis first."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} holding {shares_held}, with money coming from pre-offer shares that were not sold.",
+            "The stake is valued at {amount}, and the lock-in ended {event_age}, on {unlock_date}.",
+            "Since they are not selling in the offer, the conversation can focus on how they plan to keep their {retained_shares}.",
+            "The current market value is an estimate, not a cash figure, so confirm the valuation basis first."
+          ],
+          "lines": [
+            "Ravikumar Krishnamurthi is a Promoter Group holding 15,000 shares, with money coming from pre-offer shares that were not sold.",
+            "The stake is valued at ₹2.03 crore (estimate, valued at offer price); shares, not cash, and the lock-in ended 67 days ago, on 9 Sep 2026.",
+            "Since they are not selling in the offer, the conversation can focus on how they plan to keep their 15,000 shares.",
+            "The current market value is an estimate, not a cash figure, so confirm the valuation basis first."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_bhavya_kapoor",
+      "name_as_printed": "Bhavya Kapoor",
+      "fields": {
+        "name": "Bhavya Kapoor",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 4,500 shares in the offer for sale",
+        "amount": "up to ₹0.61 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹0.61 crore, if all offered shares are sold (4,500 × ₹1,352 = ₹0.61 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹0.45 crore, before offer expenses and taxes, if all offered shares are sold (4,500 × (₹1,352 − ₹352.29) = ₹0.45 crore)",
+        "retained": "₹1.42 crore (estimate, valued at offer price) ((15,000 − 4,500) × ₹1,352 = ₹1.42 crore)",
+        "retained_shares": "at least 10,500 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Bhavya Kapoor",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹0.61 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹0.61 crore, if all offered shares are sold",
+        "gain": "up to ₹0.45 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹1.42 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 10,500 shares, if all offered shares are sold",
+        "shares_offered": "up to 4,500 shares",
+        "shares_held": "15,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Bhavya Kapoor, Investor Selling Shareholder, is due money from selling part of their holding in an offer for sale.",
+        "up to ₹0.61 crore, if all offered shares are sold from up to 4,500 shares; the gain is up to ₹0.45 crore, before offer expenses and taxes, if all offered shares are sold.",
+        "They keep at least 10,500 shares, if all offered shares are sold after unlocking on 9 Sep 2026, so the holding still carries value."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Bhavya Kapoor, Investor Selling Shareholder, is due money from selling part of their holding in an offer for sale.",
+            "Up to {proceeds} from {shares_offered}, with the proceeds tied to the offer; the gain is {gain}.",
+            "They keep {retained_shares} after unlocking on {unlock_date}, so the holding still carries value."
+          ],
+          "lines": [
+            "Bhavya Kapoor, Investor Selling Shareholder, is due money from selling part of their holding in an offer for sale.",
+            "Up to {proceeds} from {shares_offered}, with the proceeds tied to the offer; the gain is {gain}.",
+            "They keep {retained_shares} after unlocking on {unlock_date}, so the holding still carries value."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "Bhavya Kapoor, Investor Selling Shareholder, is due money from selling part of their holding in an offer for sale.",
+            "{proceeds} from {shares_offered}; the gain is {gain}.",
+            "They keep {retained_shares} after unlocking on {unlock_date}, so the holding still carries value."
+          ],
+          "lines": [
+            "Bhavya Kapoor, Investor Selling Shareholder, is due money from selling part of their holding in an offer for sale.",
+            "up to ₹0.61 crore, if all offered shares are sold from up to 4,500 shares; the gain is up to ₹0.45 crore, before offer expenses and taxes, if all offered shares are sold.",
+            "They keep at least 10,500 shares, if all offered shares are sold after unlocking on 9 Sep 2026, so the holding still carries value."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rahul_bahri",
+      "name_as_printed": "Rahul Bahri",
+      "fields": {
+        "name": "Rahul Bahri",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 1,800 shares in the offer for sale",
+        "amount": "up to ₹0.24 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "shares unlocked on 9 Sep 2026; shares, not cash",
+        "event_age": "67 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹0.24 crore, if all offered shares are sold (1,800 × ₹1,352 = ₹0.24 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹0.18 crore, before offer expenses and taxes, if all offered shares are sold (1,800 × (₹1,352 − ₹352.29) = ₹0.18 crore)",
+        "retained": "₹0.57 crore (estimate, valued at offer price) ((6,000 − 1,800) × ₹1,352 = ₹0.57 crore)",
+        "retained_shares": "at least 4,200 shares, if all offered shares are sold",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Rahul Bahri",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹0.24 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹0.24 crore, if all offered shares are sold",
+        "gain": "up to ₹0.18 crore, before offer expenses and taxes, if all offered shares are sold",
+        "retained": "₹0.57 crore (estimate, valued at offer price)",
+        "retained_shares": "at least 4,200 shares, if all offered shares are sold",
+        "shares_offered": "up to 1,800 shares",
+        "shares_held": "6,000 shares",
+        "event_age": "67 days ago",
+        "unlock_date": "9 Sep 2026"
+      },
+      "lines": [
+        "Rahul Bahri, an Investor Selling Shareholder, is due money from selling part of their stake in the offer for sale.",
+        "Proceeds of up to ₹0.24 crore, if all offered shares are sold are expected, with the shares unlocked on 9 Sep 2026, 67 days ago.",
+        "They keep at least 4,200 shares, if all offered shares are sold, and the retained stake's value of ₹0.57 crore (estimate, valued at offer price) may matter for a later conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Rahul Bahri, an Investor Selling Shareholder, is due money from selling part of his stake in the offer for sale.",
+            "Proceeds of {proceeds} are expected, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares}, and the retained stake's value of {retained} may matter for a later conversation."
+          ],
+          "lines": [
+            "Rahul Bahri, an Investor Selling Shareholder, is due money from selling part of his stake in the offer for sale.",
+            "Proceeds of {proceeds} are expected, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares}, and the retained stake's value of {retained} may matter for a later conversation."
+          ],
+          "problem": "gendered words not in the fields: his"
+        },
+        {
+          "raw_lines": [
+            "Rahul Bahri, an Investor Selling Shareholder, is due money from selling part of their stake in the offer for sale.",
+            "Proceeds of {proceeds} are expected, with the shares unlocked on {unlock_date}, {event_age}.",
+            "They keep {retained_shares}, and the retained stake's value of {retained} may matter for a later conversation."
+          ],
+          "lines": [
+            "Rahul Bahri, an Investor Selling Shareholder, is due money from selling part of their stake in the offer for sale.",
+            "Proceeds of up to ₹0.24 crore, if all offered shares are sold are expected, with the shares unlocked on 9 Sep 2026, 67 days ago.",
+            "They keep at least 4,200 shares, if all offered shares are sold, and the retained stake's value of ₹0.57 crore (estimate, valued at offer price) may matter for a later conversation."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_pushkaraj_panse",
+      "name_as_printed": "Pushkaraj Panse",
+      "fields": {
+        "name": "Pushkaraj Panse",
+        "role": "unknown",
+        "why_money": "holds 874,500 shares before the offer; not selling in it",
+        "amount": "₹118.23 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "₹118.23 crore (estimate, valued at offer price) (874,500 × ₹1,352 = ₹118.23 crore)",
+        "retained_shares": "874,500 shares",
+        "unknowns": [
+          "timing: no role printed"
+        ]
+      },
+      "placeholders": {
+        "name": "Pushkaraj Panse",
+        "role": "unknown",
+        "amount": "₹118.23 crore (estimate, valued at offer price); shares, not cash",
+        "timing": "unknown: no role printed",
+        "retained": "₹118.23 crore (estimate, valued at offer price)",
+        "retained_shares": "874,500 shares",
+        "shares_held": "874,500 shares"
+      },
+      "lines": [
+        "Pushkaraj Panse is a holder with 874,500 shares before the offer, with no role printed.",
+        "They are not selling in the offer, so no money event applies here.",
+        "Their stake of ₹118.23 crore (estimate, valued at offer price) is worth discussing as a retained holding, not cash.",
+        "Timing is unknown: no role was printed for this holder."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder with {shares_held} before the offer, with no role printed.",
+            "They are not selling in the offer, so no money event applies here.",
+            "Their stake of {retained} is worth discussing as a retained holding, not cash.",
+            "Timing is unknown: no role was printed for this holder."
+          ],
+          "lines": [
+            "Pushkaraj Panse is a holder with 874,500 shares before the offer, with no role printed.",
+            "They are not selling in the offer, so no money event applies here.",
+            "Their stake of ₹118.23 crore (estimate, valued at offer price) is worth discussing as a retained holding, not cash.",
+            "Timing is unknown: no role was printed for this holder."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_cyrus_jamshed_guzder",
+      "name_as_printed": "Cyrus Jamshed Guzder",
+      "fields": {
+        "name": "Cyrus Jamshed Guzder",
+        "role": "Investor Selling Shareholders",
+        "why_money": "sells up to 132,000 shares in the offer for sale",
+        "amount": "up to ₹17.85 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event": "proceeds in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "event_age": "249 days ago",
+        "event_is": "old",
+        "proceeds": "up to ₹17.85 crore, if all offered shares are sold (132,000 × ₹1,352 = ₹17.85 crore). Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+        "gain": "up to ₹13.36 crore, before offer expenses and taxes, if all offered shares are sold (132,000 × (₹1,352 − ₹340.00) = ₹13.36 crore)",
+        "retained": "none retained",
+        "retained_shares_timing": "pre-Offer capital: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)"
+      },
+      "placeholders": {
+        "name": "Cyrus Jamshed Guzder",
+        "role": "Investor Selling Shareholders",
+        "amount": "up to ₹17.85 crore, if all offered shares are sold",
+        "timing": "in hand since 11 Mar 2026 (8 months ago); at listing (not stated in this event's documents)",
+        "proceeds": "up to ₹17.85 crore, if all offered shares are sold",
+        "gain": "up to ₹13.36 crore, before offer expenses and taxes, if all offered shares are sold",
+        "shares_offered": "up to 132,000 shares",
+        "shares_held": "132,000 shares",
+        "event_age": "249 days ago"
+      },
+      "lines": [
+        "Cyrus Jamshed Guzder is an Investor Selling Shareholder, and money is coming from selling up to 132,000 shares in the offer.",
+        "Proceeds of up to ₹17.85 crore, if all offered shares are sold were in hand 249 days ago ago, with the offer price shown on the sale.",
+        "They hold no retained shares, so their gain of up to ₹13.36 crore, before offer expenses and taxes, if all offered shares are sold is fully realised from this sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an Investor Selling Shareholder, and money is coming from selling up to {shares_offered} in the offer.",
+            "Proceeds of {proceeds} were in hand {event_age} ago, with the offer price shown on the sale.",
+            "They hold no retained shares, so their gain of {gain} is fully realised from this sale."
+          ],
+          "lines": [
+            "{name} is an Investor Selling Shareholder, and money is coming from selling up to {shares_offered} in the offer.",
+            "Proceeds of {proceeds} were in hand {event_age} ago, with the offer price shown on the sale.",
+            "They hold no retained shares, so their gain of {gain} is fully realised from this sale."
+          ],
+          "problem": "writes \"up to\" next to a placeholder; the value carries its own qualifier"
+        },
+        {
+          "raw_lines": [
+            "{name} is an Investor Selling Shareholder, and money is coming from selling {shares_offered} in the offer.",
+            "Proceeds of {proceeds} were in hand {event_age} ago, with the offer price shown on the sale.",
+            "They hold no retained shares, so their gain of {gain} is fully realised from this sale."
+          ],
+          "lines": [
+            "Cyrus Jamshed Guzder is an Investor Selling Shareholder, and money is coming from selling up to 132,000 shares in the offer.",
+            "Proceeds of up to ₹17.85 crore, if all offered shares are sold were in hand 249 days ago ago, with the offer price shown on the sale.",
+            "They hold no retained shares, so their gain of up to ₹13.36 crore, before offer expenses and taxes, if all offered shares are sold is fully realised from this sale."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

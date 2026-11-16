@@ -1,0 +1,45 @@
+{
+  "event_id": "atul_limited_buyback_202610",
+  "event_type": "buyback",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ATUL1_23102026142022_intimation.pdf",
+      "doc_type": "announcement",
+      "fetched": "yes",
+      "pages": 22,
+      "low_text_pages": [],
+      "read_whole": "6 of 22 pages sent to buyback_results, buyback_acceptance"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 19,
+      "low_text_pages": [
+        14,
+        15
+      ],
+      "sections_found": {
+        "buyback_terms": "pdf 4",
+        "promoter_intention": "pdf 5"
+      },
+      "sections_missing": []
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 19,
+      "low_text_pages": [
+        14,
+        15
+      ],
+      "sections_found": {
+        "buyback_terms": "pdf 4",
+        "promoter_intention": "pdf 5"
+      },
+      "sections_missing": []
+    }
+  ],
+  "seconds": 0.1
+}

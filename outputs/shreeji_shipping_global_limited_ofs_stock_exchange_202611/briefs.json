@@ -1,0 +1,153 @@
+{
+  "event_id": "shreeji_shipping_global_limited_ofs_stock_exchange_202611",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_jitendra_haridas_lal",
+      "name_as_printed": "Jitendra Haridas Lal",
+      "fields": {
+        "name": "Jitendra Haridas Lal",
+        "role": "Promoter",
+        "why_money": "sells up to 30,00,000 shares in the offer for sale through the stock exchange",
+        "amount": "up to ₹250.50 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "up to ₹250.50 crore (at floor price; actual sale price not confirmed from the documents; may be higher) (30,00,000 × ₹835 floor = ₹250.50 crore)",
+        "family_link": "'Ashokkumar Haridas Lal' and 'Jitendra Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Jitendra Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      },
+      "placeholders": {
+        "name": "Jitendra Haridas Lal",
+        "role": "Promoter",
+        "amount": "up to ₹250.50 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "proceeds": "up to ₹250.50 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "shares_offered": "up to 30,00,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Jitendra Haridas Lal, a Promoter, is receiving proceeds from selling shares in an offer for sale.",
+        "They sold up to ₹250.50 crore (at floor price; actual sale price not confirmed from the documents; may be higher), which settles after the sale on 3 Nov 2026 (13 days ago).",
+        "Family link: Ashokkumar Haridas Lal shares the surname and middle name, a possible relationship to discuss."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Jitendra Haridas Lal, a Promoter, is receiving proceeds from selling shares in an offer for sale.",
+            "They sold {amount}, which {timing}.",
+            "Family link: Ashokkumar Haridas Lal shares the surname and middle name, a possible relationship to discuss."
+          ],
+          "lines": [
+            "Jitendra Haridas Lal, a Promoter, is receiving proceeds from selling shares in an offer for sale.",
+            "They sold up to ₹250.50 crore (at floor price; actual sale price not confirmed from the documents; may be higher), which settles after the sale on 3 Nov 2026 (13 days ago).",
+            "Family link: Ashokkumar Haridas Lal shares the surname and middle name, a possible relationship to discuss."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ashokkumar_haridas_lal",
+      "name_as_printed": "Ashokkumar Haridas Lal",
+      "fields": {
+        "name": "Ashokkumar Haridas Lal",
+        "role": "Promoter",
+        "why_money": "sells 15,00,000 shares in the offer for sale through the stock exchange",
+        "amount": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) (15,00,000 × ₹835 floor = ₹125.25 crore)",
+        "family_link": "'Ashokkumar Haridas Lal' and 'Jitendra Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Ashokkumar Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      },
+      "placeholders": {
+        "name": "Ashokkumar Haridas Lal",
+        "role": "Promoter",
+        "amount": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "proceeds": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "shares_offered": "15,00,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Ashokkumar Haridas Lal, a Promoter, is set to receive proceeds from selling 15,00,000 shares in the offer for sale.",
+        "Proceeds of ₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) settle settles after the sale on 3 Nov 2026 (13 days ago), so the money has already been credited.",
+        "The amount is at floor price and the actual sale price is not confirmed in the documents, so it may be higher.",
+        "A related holder, Jitendra Haridas Lal, shares the same surname and middle name and could be a family link."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a Promoter, is set to receive proceeds from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} settle {timing}, so the money has already been credited.",
+            "The amount is at floor price and the actual sale price is not confirmed in the documents, so it may be higher.",
+            "A related holder, Jitendra Haridas Lal, shares the same surname and middle name and could be a family link."
+          ],
+          "lines": [
+            "Ashokkumar Haridas Lal, a Promoter, is set to receive proceeds from selling 15,00,000 shares in the offer for sale.",
+            "Proceeds of ₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) settle settles after the sale on 3 Nov 2026 (13 days ago), so the money has already been credited.",
+            "The amount is at floor price and the actual sale price is not confirmed in the documents, so it may be higher.",
+            "A related holder, Jitendra Haridas Lal, shares the same surname and middle name and could be a family link."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_jitendrakumar_haridas_lal",
+      "name_as_printed": "Mr. Jitendrakumar Haridas Lal",
+      "fields": {
+        "name": "Mr. Jitendrakumar Haridas Lal",
+        "role": "Promoter",
+        "why_money": "sells 15,00,000 shares in the offer for sale through the stock exchange",
+        "amount": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) (15,00,000 × ₹835 floor = ₹125.25 crore)",
+        "family_link": "'Ashokkumar Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Jitendra Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      },
+      "placeholders": {
+        "name": "Mr. Jitendrakumar Haridas Lal",
+        "role": "Promoter",
+        "amount": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "timing": "settles after the sale on 3 Nov 2026 (13 days ago)",
+        "proceeds": "₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher)",
+        "shares_offered": "15,00,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Mr. Jitendrakumar Haridas Lal, a Promoter, is receiving proceeds from selling 15,00,000 shares in the offer for sale.",
+        "Proceeds of ₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) settle settles after the sale on 3 Nov 2026 (13 days ago), with the final sale price still to be confirmed.",
+        "Ask whether they have a view on the family link to Jitendra Haridas Lal and Ashokkumar Haridas Lal, who share surname and middle name.",
+        "Caveat: the actual sale price is not confirmed from the documents, so ₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) may be higher."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, a Promoter, is receiving proceeds from selling {shares_offered} in the offer for sale.",
+            "Proceeds of {proceeds} settle {timing}, with the final sale price still to be confirmed.",
+            "Ask whether they have a view on the family link to Jitendra Haridas Lal and Ashokkumar Haridas Lal, who share surname and middle name.",
+            "Caveat: the actual sale price is not confirmed from the documents, so {amount} may be higher."
+          ],
+          "lines": [
+            "Mr. Jitendrakumar Haridas Lal, a Promoter, is receiving proceeds from selling 15,00,000 shares in the offer for sale.",
+            "Proceeds of ₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) settle settles after the sale on 3 Nov 2026 (13 days ago), with the final sale price still to be confirmed.",
+            "Ask whether they have a view on the family link to Jitendra Haridas Lal and Ashokkumar Haridas Lal, who share surname and middle name.",
+            "Caveat: the actual sale price is not confirmed from the documents, so ₹125.25 crore (at floor price; actual sale price not confirmed from the documents; may be higher) may be higher."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

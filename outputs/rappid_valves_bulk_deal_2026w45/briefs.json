@@ -1,0 +1,52 @@
+{
+  "event_id": "rappid_valves_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ashok_kumar_dhariwal",
+      "name_as_printed": "ASHOK KUMAR DHARIWAL",
+      "fields": {
+        "name": "ASHOK KUMAR DHARIWAL",
+        "role": "unknown",
+        "why_money": "sold 34,200 shares in a bulk deal on 6 Nov 2026",
+        "amount": "₹1.32 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.32 crore (34,200 shares × ₹385 = ₹1.32 crore (NSE 06-NOV-2026 · RAPPID · ASHOK KUMAR DHARIWAL · SELL · 34200))"
+      },
+      "placeholders": {
+        "name": "ASHOK KUMAR DHARIWAL",
+        "role": "unknown",
+        "amount": "₹1.32 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹1.32 crore",
+        "shares_offered": "34,200 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "ASHOK KUMAR DHARIWAL sold 34,200 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹1.32 crore were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "Role is unknown, so confirm their position before any conversation about next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Role is unknown, so confirm their position before any conversation about next steps."
+          ],
+          "lines": [
+            "ASHOK KUMAR DHARIWAL sold 34,200 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹1.32 crore were settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+            "Role is unknown, so confirm their position before any conversation about next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

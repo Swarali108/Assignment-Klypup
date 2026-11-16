@@ -1,0 +1,1506 @@
+{
+  "event_id": "hd_fire_protect_limited_ipo_202610",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "offer_price",
+    "low": "271.00",
+    "high": "271.00",
+    "inputs": [
+      {
+        "field": "offer_price",
+        "value": "₹271.00",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+            "pdf_index": 385,
+            "printed_page": "381",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+            "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+          }
+        ]
+      }
+    ]
+  },
+  "listing": {
+    "status": "scheduled",
+    "date_as_printed": "On or about Wednesday, October 21, 2026",
+    "listed_on": "2026-10-21",
+    "inputs": [
+      {
+        "field": "listing_date_scheduled",
+        "value": "On or about Wednesday, October 21, 2026",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+            "pdf_index": 387,
+            "printed_page": "383",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=387",
+            "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Wednesday, October 21, 2026"
+          }
+        ]
+      }
+    ],
+    "days_since": 25,
+    "age": "25 days ago"
+  },
+  "allotment": {
+    "status": "unknown",
+    "reason": "allotment date not verified"
+  },
+  "people": [
+    {
+      "person_id": "p_anik_narendra_dharamshi",
+      "name_as_printed": "Anik Narendra Dharamshi",
+      "names_as_printed": [
+        "Anik Narendra Dharamshi"
+      ],
+      "name_clean": "anik narendra dharamshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "7,458,000",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Anik Narendra Dharamshi' and 'Narendra Visanji Dharamshi' share surname 'dharamshi', and the middle name 'narendra' of 'Anik Narendra Dharamshi' is the first name of 'Narendra Visanji Dharamshi'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 109,
+          "printed_page": "105",
+          "quote": "Anik Narendra Dharamshi",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 109,
+          "printed_page": "105",
+          "quote": "Total (E) 7,458,000 4.26 4.26",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "5 Anik Narendra Dharamshi 7,458,000 4.26%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "5 Anik Narendra Dharamshi 7,458,000 4.26%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "2021118000.00",
+          "rupees_high": "2021118000.00",
+          "crore_low": "202.11",
+          "crore_high": "202.11",
+          "display": "₹202.11 crore (estimate, valued at offer price)",
+          "working": "7,458,000 × ₹271.00 = ₹202.11 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "7,458,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 109,
+                  "printed_page": "105",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=109",
+                  "quote": "Total (E) 7,458,000 4.26 4.26"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 117,
+                  "printed_page": "113",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=117",
+                  "quote": "5 Anik Narendra Dharamshi 7,458,000 4.26%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "7458000",
+          "shares_display": "7,458,000 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_harish_narshi_dharamshi",
+      "name_as_printed": "HARISH NARSHI DHARAMSHI",
+      "names_as_printed": [
+        "HARISH NARSHI DHARAMSHI"
+      ],
+      "name_clean": "harish narshi dharamshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Promoter Selling Shareholder",
+        "waca": "Promoter Selling Shareholder"
+      },
+      "shares_offered": "8,983,700",
+      "qualifier": null,
+      "shares_held_pre_offer": "98,351,000",
+      "waca_per_share": "0.05",
+      "amount_as_printed": "₹ 2,433.97 million",
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'KUSUM HARISH DHARAMSHI' and 'HARISH NARSHI DHARAMSHI' share surname 'dharamshi', and the middle name 'harish' of 'KUSUM HARISH DHARAMSHI' is the first name of 'HARISH NARSHI DHARAMSHI'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "8,983,700 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "(TOGETHER, THE “PROMOTER SELLING SHAREHOLDERS”",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "8,983,700 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "BY HARISH NARSHI DHARAMSHI",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "amount_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Harish Narshi Dharamshi",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Harish Narshi Dharamshi Promoter Selling Shareholder 8,983,700^ Equity Shares of face 0.05",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 110,
+          "printed_page": "106",
+          "quote": "Harish March 28, March Bonus issue 35,060,000 Other than 18 5 NA 20.01 20.01 Capitalisatio",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "1 Harish Narshi Dharamshi 98,351,000 56.13%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "1 Harish Narshi Dharamshi 98,351,000 56.13%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "2434582700.00",
+          "rupees_high": "2434582700.00",
+          "crore_low": "243.46",
+          "crore_high": "243.46",
+          "display": "₹243.46 crore",
+          "working": "8,983,700 × ₹271.00 = ₹243.46 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "8,983,700",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "8,983,700 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            },
+            {
+              "field": "amount_as_printed",
+              "value": "₹ 2,433.97 million",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI"
+                }
+              ]
+            }
+          ],
+          "caveats": [
+            {
+              "text": "Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+              "source": {
+                "kind": "employee_discount",
+                "quote": "Website: www.hdfire.com Corporate Identity Number: U29270MH1997PLC107536 OUR PROMOTERS: HARISH NARSHI DHARAMSHI, KUSUM HARISH DHARAMSHI, MIHEER SADANAND GHOTIKAR, PARIKA MIHEER GHOTIKAR AND ANIK NARENDRA DHARAMSHI INITIAL PUBLIC OFFERING OF 26,284,500^ EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF HD FIRE PROTECT LIMITED (“OUR COMPANY” OR THE “COMPANY” OR THE “ISSUER”) FOR CASH AT A ",
+                "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                "pdf_index": 3,
+                "printed_page": null,
+                "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3"
+              }
+            }
+          ],
+          "printed_check": {
+            "status": "matches",
+            "page": "pdf 3",
+            "text": "matches the document's printed amount (pdf 3)"
+          }
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "2434133515.00",
+          "rupees_high": "2434133515.00",
+          "crore_low": "243.41",
+          "crore_high": "243.41",
+          "display": "₹243.41 crore, before offer expenses and taxes",
+          "working": "8,983,700 × (₹271.00 − ₹0.05) = ₹243.41 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "8,983,700",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "8,983,700 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "0.05",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=1",
+                  "quote": "Harish Narshi Dharamshi Promoter Selling Shareholder 8,983,700^ Equity Shares of face 0.05"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "24218538300.00",
+          "rupees_high": "24218538300.00",
+          "crore_low": "2421.85",
+          "crore_high": "2421.85",
+          "display": "₹2,421.85 crore (estimate, valued at offer price)",
+          "working": "(98,351,000 − 8,983,700) × ₹271.00 = ₹2,421.85 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "98,351,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 117,
+                  "printed_page": "113",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=117",
+                  "quote": "1 Harish Narshi Dharamshi 98,351,000 56.13%"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "8,983,700",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "8,983,700 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 2,433.97 MILLION BY HARISH NARSHI DHARAMSHI"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "89367300",
+          "shares_display": "89,367,300 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "scheduled",
+          "when": "listing scheduled for On or about Wednesday, October 21, 2026 per the offer document's timetable; not confirmed by a listing notice",
+          "date_as_printed": "On or about Wednesday, October 21, 2026",
+          "sources": [
+            {
+              "field": "listing_date_scheduled",
+              "value": "On or about Wednesday, October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 387,
+                  "printed_page": "383",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=387",
+                  "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Wednesday, October 21, 2026"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "18 months from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of fully diluted post-Offer capital); six months from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 18,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 6,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 6 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+              "pdf_index": 109,
+              "printed_page": "105",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=109",
+              "anchors": [
+                "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+                "locked in for a period of 18 months"
+              ],
+              "quotes": [
+                "c) Details of Minimum Promoters’ Contribution locked in as may be prescribed under applicable law Pursuant to Regulation 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post Offer Equity Share capital of our Company held by our Promoters shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months or any other period as may be prescribed under applicable law, from the date of Allotment (“Minimum Promoters’ Contribution”).",
+                "c) Details of Minimum Promoters’ Contribution locked in as may be prescribed under applicable law Pursuant to Regulation 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post Offer Equity Share capital of our Company held by our Promoters shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months or any other period as may be prescribed under applicable law, from the date of Allotment (“Minimum Promoters’ Contribution”)."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+              "pdf_index": 110,
+              "printed_page": "106",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=110",
+              "anchors": [
+                "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+                "locked in for a period of six months"
+              ],
+              "quotes": [
+                "d) Details of share capital locked-in for six months or any other period as may be prescribed under applicable law In terms of Regulation 17 of the SEBI ICDR Regulations, except for the Minimum Promoters’ Contribution and any Equity Shares held by our Promoters in excess of Minimum Promoter’s Contribution, which shall be locked in as above, the entire pre-Offer Equity Share capital of our Company, shall, unless otherwise permitted under the SEBI ICDR Regulations, be locked in for a period of six months from the date of Allotment in the Offer.",
+                "d) Details of share capital locked-in for six months or any other period as may be prescribed under applicable law In terms of Regulation 17 of the SEBI ICDR Regulations, except for the Minimum Promoters’ Contribution and any Equity Shares held by our Promoters in excess of Minimum Promoter’s Contribution, which shall be locked in as above, the entire pre-Offer Equity Share capital of our Company, shall, unless otherwise permitted under the SEBI ICDR Regulations, be locked in for a period of six months from the date of Allotment in the Offer."
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kusum_harish_dharamshi",
+      "name_as_printed": "KUSUM HARISH DHARAMSHI",
+      "names_as_printed": [
+        "KUSUM HARISH DHARAMSHI"
+      ],
+      "name_clean": "kusum harish dharamshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Promoter Selling Shareholder",
+        "waca": "Promoter Selling Shareholder"
+      },
+      "shares_offered": "17,300,800",
+      "qualifier": null,
+      "shares_held_pre_offer": "31,240,000",
+      "waca_per_share": "0.09",
+      "amount_as_printed": "₹ 4,687.35 million",
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_2",
+        "reason": "'KUSUM HARISH DHARAMSHI' and 'HARISH NARSHI DHARAMSHI' share surname 'dharamshi', and the middle name 'harish' of 'KUSUM HARISH DHARAMSHI' is the first name of 'HARISH NARSHI DHARAMSHI'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "17,300,800 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "(TOGETHER, THE “PROMOTER SELLING SHAREHOLDERS”",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "17,300,800 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "BY KUSUM HARISH DHARAMSHI",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "amount_as_printed",
+          "pdf_index": 3,
+          "printed_page": "",
+          "quote": "AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Kusum Harish Dharamshi",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Kusum Harish Dharamshi Promoter Selling Shareholder 17,300,800^ Equity Shares of face 0.09",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "2 Kusum Harish Dharamshi 31,240,000 17.83%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "2 Kusum Harish Dharamshi 31,240,000 17.83%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "4688516800.00",
+          "rupees_high": "4688516800.00",
+          "crore_low": "468.85",
+          "crore_high": "468.85",
+          "display": "₹468.85 crore",
+          "working": "17,300,800 × ₹271.00 = ₹468.85 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "17,300,800",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "17,300,800 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            },
+            {
+              "field": "amount_as_printed",
+              "value": "₹ 4,687.35 million",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI"
+                }
+              ]
+            }
+          ],
+          "caveats": [
+            {
+              "text": "Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower.",
+              "source": {
+                "kind": "employee_discount",
+                "quote": "Website: www.hdfire.com Corporate Identity Number: U29270MH1997PLC107536 OUR PROMOTERS: HARISH NARSHI DHARAMSHI, KUSUM HARISH DHARAMSHI, MIHEER SADANAND GHOTIKAR, PARIKA MIHEER GHOTIKAR AND ANIK NARENDRA DHARAMSHI INITIAL PUBLIC OFFERING OF 26,284,500^ EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF HD FIRE PROTECT LIMITED (“OUR COMPANY” OR THE “COMPANY” OR THE “ISSUER”) FOR CASH AT A ",
+                "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                "pdf_index": 3,
+                "printed_page": null,
+                "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3"
+              }
+            }
+          ],
+          "printed_check": {
+            "status": "matches",
+            "page": "pdf 3",
+            "text": "matches the document's printed amount (pdf 3)"
+          }
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "4686959728.00",
+          "rupees_high": "4686959728.00",
+          "crore_low": "468.70",
+          "crore_high": "468.70",
+          "display": "₹468.70 crore, before offer expenses and taxes",
+          "working": "17,300,800 × (₹271.00 − ₹0.09) = ₹468.70 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "17,300,800",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "17,300,800 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "0.09",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=1",
+                  "quote": "Kusum Harish Dharamshi Promoter Selling Shareholder 17,300,800^ Equity Shares of face 0.09"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "3777523200.00",
+          "rupees_high": "3777523200.00",
+          "crore_low": "377.75",
+          "crore_high": "377.75",
+          "display": "₹377.75 crore (estimate, valued at offer price)",
+          "working": "(31,240,000 − 17,300,800) × ₹271.00 = ₹377.75 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "31,240,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 117,
+                  "printed_page": "113",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=117",
+                  "quote": "2 Kusum Harish Dharamshi 31,240,000 17.83%"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "17,300,800",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 3,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=3",
+                  "quote": "17,300,800 EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING TO ₹ 4,687.35 MILLION BY KUSUM HARISH DHARAMSHI"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "13939200",
+          "shares_display": "13,939,200 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "scheduled",
+          "when": "listing scheduled for On or about Wednesday, October 21, 2026 per the offer document's timetable; not confirmed by a listing notice",
+          "date_as_printed": "On or about Wednesday, October 21, 2026",
+          "sources": [
+            {
+              "field": "listing_date_scheduled",
+              "value": "On or about Wednesday, October 21, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 387,
+                  "printed_page": "383",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=387",
+                  "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Wednesday, October 21, 2026"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "18 months from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of fully diluted post-Offer capital); six months from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 18,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 6,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 6 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+              "pdf_index": 109,
+              "printed_page": "105",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=109",
+              "anchors": [
+                "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+                "locked in for a period of 18 months"
+              ],
+              "quotes": [
+                "c) Details of Minimum Promoters’ Contribution locked in as may be prescribed under applicable law Pursuant to Regulation 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post Offer Equity Share capital of our Company held by our Promoters shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months or any other period as may be prescribed under applicable law, from the date of Allotment (“Minimum Promoters’ Contribution”).",
+                "c) Details of Minimum Promoters’ Contribution locked in as may be prescribed under applicable law Pursuant to Regulation 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post Offer Equity Share capital of our Company held by our Promoters shall be considered as minimum promoters’ contribution and locked-in for a period of eighteen months or any other period as may be prescribed under applicable law, from the date of Allotment (“Minimum Promoters’ Contribution”)."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+              "pdf_index": 110,
+              "printed_page": "106",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=110",
+              "anchors": [
+                "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+                "locked in for a period of six months"
+              ],
+              "quotes": [
+                "d) Details of share capital locked-in for six months or any other period as may be prescribed under applicable law In terms of Regulation 17 of the SEBI ICDR Regulations, except for the Minimum Promoters’ Contribution and any Equity Shares held by our Promoters in excess of Minimum Promoter’s Contribution, which shall be locked in as above, the entire pre-Offer Equity Share capital of our Company, shall, unless otherwise permitted under the SEBI ICDR Regulations, be locked in for a period of six months from the date of Allotment in the Offer.",
+                "d) Details of share capital locked-in for six months or any other period as may be prescribed under applicable law In terms of Regulation 17 of the SEBI ICDR Regulations, except for the Minimum Promoters’ Contribution and any Equity Shares held by our Promoters in excess of Minimum Promoter’s Contribution, which shall be locked in as above, the entire pre-Offer Equity Share capital of our Company, shall, unless otherwise permitted under the SEBI ICDR Regulations, be locked in for a period of six months from the date of Allotment in the Offer."
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_miheer_sadanand_ghotikar",
+      "name_as_printed": "Miheer Sadanand Ghotikar",
+      "names_as_printed": [
+        "Miheer Sadanand Ghotikar"
+      ],
+      "name_clean": "miheer sadanand ghotikar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "18,392,000",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_3",
+        "reason": "'Parika Miheer Ghotikar' and 'Miheer Sadanand Ghotikar' share surname 'ghotikar', and the middle name 'miheer' of 'Parika Miheer Ghotikar' is the first name of 'Miheer Sadanand Ghotikar'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "3 Miheer Sadanand Ghotikar 18,392,000 10.49%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "3 Miheer Sadanand Ghotikar 18,392,000 10.49%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "4984232000.00",
+          "rupees_high": "4984232000.00",
+          "crore_low": "498.42",
+          "crore_high": "498.42",
+          "display": "₹498.42 crore (estimate, valued at offer price)",
+          "working": "18,392,000 × ₹271.00 = ₹498.42 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "18,392,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 117,
+                  "printed_page": "113",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=117",
+                  "quote": "3 Miheer Sadanand Ghotikar 18,392,000 10.49%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "18392000",
+          "shares_display": "18,392,000 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_narendra_visanji_dharamshi",
+      "name_as_printed": "Narendra Visanji Dharamshi",
+      "names_as_printed": [
+        "Narendra Visanji Dharamshi"
+      ],
+      "name_clean": "narendra visanji dharamshi",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "6,006,000",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Anik Narendra Dharamshi' and 'Narendra Visanji Dharamshi' share surname 'dharamshi', and the middle name 'narendra' of 'Anik Narendra Dharamshi' is the first name of 'Narendra Visanji Dharamshi'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "6. Narendra Visanji Dharamshi 6,006,000 3.43%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "6. Narendra Visanji Dharamshi 6,006,000 3.43%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "1627626000.00",
+          "rupees_high": "1627626000.00",
+          "crore_low": "162.76",
+          "crore_high": "162.76",
+          "display": "₹162.76 crore (estimate, valued at offer price)",
+          "working": "6,006,000 × ₹271.00 = ₹162.76 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "6,006,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 117,
+                  "printed_page": "113",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=117",
+                  "quote": "6. Narendra Visanji Dharamshi 6,006,000 3.43%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "6006000",
+          "shares_display": "6,006,000 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_parika_miheer_ghotikar",
+      "name_as_printed": "Parika Miheer Ghotikar",
+      "names_as_printed": [
+        "Parika Miheer Ghotikar"
+      ],
+      "name_clean": "parika miheer ghotikar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "11,594,000",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_3",
+        "reason": "'Parika Miheer Ghotikar' and 'Miheer Sadanand Ghotikar' share surname 'ghotikar', and the middle name 'miheer' of 'Parika Miheer Ghotikar' is the first name of 'Miheer Sadanand Ghotikar'"
+      },
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "4 Parika Miheer Ghotikar 11,594,000 6.62%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "4 Parika Miheer Ghotikar 11,594,000 6.62%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "3141974000.00",
+          "rupees_high": "3141974000.00",
+          "crore_low": "314.20",
+          "crore_high": "314.20",
+          "display": "₹314.20 crore (estimate, valued at offer price)",
+          "working": "11,594,000 × ₹271.00 = ₹314.20 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "11,594,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 117,
+                  "printed_page": "113",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=117",
+                  "quote": "4 Parika Miheer Ghotikar 11,594,000 6.62%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹271.00",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf",
+                  "pdf_index": 385,
+                  "printed_page": "381",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792555028569.pdf#page=385",
+                  "quote": "The Offer Price is ₹ 271.00 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "11594000",
+          "shares_display": "11,594,000 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "HARISH NARSHI DHARAMSHI",
+        "KUSUM HARISH DHARAMSHI"
+      ],
+      "score": 80.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Miheer Sadanand Ghotikar",
+        "Parika Miheer Ghotikar"
+      ],
+      "score": 78.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Anik Narendra Dharamshi",
+        "Narendra Visanji Dharamshi"
+      ],
+      "score": 73.5,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "HARISH NARSHI DHARAMSHI",
+        "Narendra Visanji Dharamshi"
+      ],
+      "score": 65.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "HARISH NARSHI DHARAMSHI",
+        "Anik Narendra Dharamshi"
+      ],
+      "score": 60.9,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "KUSUM HARISH DHARAMSHI",
+        "Narendra Visanji Dharamshi"
+      ],
+      "score": 58.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "KUSUM HARISH DHARAMSHI",
+        "Anik Narendra Dharamshi"
+      ],
+      "score": 53.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "HARISH NARSHI DHARAMSHI",
+        "Parika Miheer Ghotikar"
+      ],
+      "score": 48.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Anik Narendra Dharamshi",
+        "Miheer Sadanand Ghotikar"
+      ],
+      "score": 46.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "KUSUM HARISH DHARAMSHI",
+        "Parika Miheer Ghotikar"
+      ],
+      "score": 45.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Anik Narendra Dharamshi",
+        "Parika Miheer Ghotikar"
+      ],
+      "score": 44.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Miheer Sadanand Ghotikar",
+        "Narendra Visanji Dharamshi"
+      ],
+      "score": 44.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "HARISH NARSHI DHARAMSHI",
+        "Miheer Sadanand Ghotikar"
+      ],
+      "score": 42.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Parika Miheer Ghotikar",
+        "Narendra Visanji Dharamshi"
+      ],
+      "score": 41.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "KUSUM HARISH DHARAMSHI",
+        "Miheer Sadanand Ghotikar"
+      ],
+      "score": 39.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "Anik Narendra Dharamshi",
+        "Narendra Visanji Dharamshi"
+      ],
+      "reasons": [
+        "'Anik Narendra Dharamshi' and 'Narendra Visanji Dharamshi' share surname 'dharamshi', and the middle name 'narendra' of 'Anik Narendra Dharamshi' is the first name of 'Narendra Visanji Dharamshi'"
+      ]
+    },
+    {
+      "id": "family_2",
+      "members": [
+        "HARISH NARSHI DHARAMSHI",
+        "KUSUM HARISH DHARAMSHI"
+      ],
+      "reasons": [
+        "'KUSUM HARISH DHARAMSHI' and 'HARISH NARSHI DHARAMSHI' share surname 'dharamshi', and the middle name 'harish' of 'KUSUM HARISH DHARAMSHI' is the first name of 'HARISH NARSHI DHARAMSHI'"
+      ]
+    },
+    {
+      "id": "family_3",
+      "members": [
+        "Miheer Sadanand Ghotikar",
+        "Parika Miheer Ghotikar"
+      ],
+      "reasons": [
+        "'Parika Miheer Ghotikar' and 'Miheer Sadanand Ghotikar' share surname 'ghotikar', and the middle name 'miheer' of 'Parika Miheer Ghotikar' is the first name of 'Miheer Sadanand Ghotikar'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "person": 6
+    },
+    "by_confidence": {
+      "medium": 6
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 2,
+    "retained_valued": 6,
+    "retained_timing": {
+      "locked_in": 2,
+      "unknown": 4
+    },
+    "identity_decisions": {
+      "below_threshold": 8,
+      "different_first_name": 7
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 3,
+    "flagged": 0,
+    "index_lookups": 6,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "event_id": "rhetan_tmt_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "fields": {
+        "name": "JAGID VANITABEN RAJENDRAPRASAD",
+        "role": "unknown",
+        "why_money": "sold 64,81,504 shares in a bulk deal on 27 Oct 2026",
+        "amount": "₹9.61 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹9.61 crore (64,81,504 shares × ₹14.82 = ₹9.61 crore (NSE 27-OCT-2026 · RHETAN · JAGID VANITABEN RAJENDRAPRASAD · SELL · 6481504))",
+        "family_link": "'JAGID VANITABEN RAJENDRAPRASAD' and 'JAGID VANITABEN RAJENDRAPRASAD' share surname 'rajendraprasad' and middle name 'vanitaben'"
+      },
+      "placeholders": {
+        "name": "JAGID VANITABEN RAJENDRAPRASAD",
+        "role": "unknown",
+        "amount": "₹9.61 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹9.61 crore",
+        "shares_offered": "64,81,504 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "JAGID VANITABEN RAJENDRAPRASAD is a shareholder who sold 64,81,504 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹9.61 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago), 19 days ago.",
+        "Family link: the holder shares surname and middle name with another holder, so ask about joint planning.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}, {event_age}.",
+            "Family link: the holder shares surname and middle name with another holder, so ask about joint planning.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "JAGID VANITABEN RAJENDRAPRASAD is a shareholder who sold 64,81,504 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹9.61 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago), 19 days ago.",
+            "Family link: the holder shares surname and middle name with another holder, so ask about joint planning.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

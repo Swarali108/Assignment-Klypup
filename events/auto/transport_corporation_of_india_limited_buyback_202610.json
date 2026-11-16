@@ -1,0 +1,53 @@
+{
+  "event_id": "transport_corporation_of_india_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "Transport Corporation of India Ltd",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ak_bansal_tcil_com_30102026123654_TCIL.pdf",
+      "doc_type": "announcement",
+      "note": "Transport Corporation of India Limited - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/da632baf-62db-4dbf-b89b-772d0b9286bd.pdf",
+      "doc_type": "announcement",
+      "note": "Transport Corporation of India Ltd - Post Buyback Public Announcement",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4855584d-9f6b-4857-9777-47ea67f41f17.pdf",
+      "doc_type": "announcement",
+      "note": "Transport Corporation of India Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Transport Corporation of India Limited - Post Buyback Public Announcement",
+        "link": "https://nsearchives.nseindia.in/corporate/ak_bansal_tcil_com_30102026123654_TCIL.pdf",
+        "published": "2026-10-30",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Transport Corporation of India Ltd - Post Buyback Public Announcement",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/da632baf-62db-4dbf-b89b-772d0b9286bd.pdf",
+        "published": "2026-10-30",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Transport Corporation of India Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4855584d-9f6b-4857-9777-47ea67f41f17.pdf",
+        "published": "2026-11-02",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

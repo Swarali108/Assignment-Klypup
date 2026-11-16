@@ -1,0 +1,61 @@
+{
+  "event_id": "karur_vysya_bank_insider_sale_2026w44",
+  "callable": [
+    {
+      "person_id": "p_m_v_usha",
+      "name_as_printed": "M V Usha",
+      "name_clean": "m v usha",
+      "holder_type": "person",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.05",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.03500",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 17,
+        "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "money_crore": "0.05",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.03500"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 17,
+          "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "money_crore": "0.05",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.03500"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,500 shares (Market Sale) on 29 Oct 2026",
+      "amount_display": "₹5.35 lakh",
+      "timing_display": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹5.35 lakh; settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago).",
+        "score 0.04 = ₹0.05 crore (proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

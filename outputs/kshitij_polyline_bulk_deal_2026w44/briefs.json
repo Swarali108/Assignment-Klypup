@@ -1,0 +1,52 @@
+{
+  "event_id": "kshitij_polyline_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_satish_mejiyatar",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "fields": {
+        "name": "SATISH MEJIYATAR",
+        "role": "unknown",
+        "why_money": "sold 14,97,280 shares in a bulk deal on 30 Oct 2026",
+        "amount": "₹46.27 lakh",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event_age": "14 days ago",
+        "event_is": "recent",
+        "proceeds": "₹46.27 lakh (14,97,280 shares × ₹3.09 = ₹46.27 lakh (NSE 30-OCT-2026 · KSHITIJPOL · SATISH MEJIYATAR · SELL · 1497280))"
+      },
+      "placeholders": {
+        "name": "SATISH MEJIYATAR",
+        "role": "unknown",
+        "amount": "₹46.27 lakh",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "proceeds": "₹46.27 lakh",
+        "shares_offered": "14,97,280 shares",
+        "event_age": "14 days ago"
+      },
+      "lines": [
+        "SATISH MEJIYATAR is a holder whose role is unknown, receiving money after selling shares in a bulk deal.",
+        "₹46.27 lakh from 14,97,280 shares settled 14 days ago, so the money has already arrived.",
+        "Ask how they plan to use the settled proceeds, since the sale was recent and no later payments are pending."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money after selling shares in a bulk deal.",
+            "{proceeds} from {shares_offered} settled {event_age}, so the money has already arrived.",
+            "Ask how they plan to use the settled proceeds, since the sale was recent and no later payments are pending."
+          ],
+          "lines": [
+            "SATISH MEJIYATAR is a holder whose role is unknown, receiving money after selling shares in a bulk deal.",
+            "₹46.27 lakh from 14,97,280 shares settled 14 days ago, so the money has already arrived.",
+            "Ask how they plan to use the settled proceeds, since the sale was recent and no later payments are pending."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

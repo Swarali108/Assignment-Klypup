@@ -1,0 +1,55 @@
+{
+  "event_id": "antarctica_graphics_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_k_hemanthkumar",
+      "name_as_printed": "K HEMANTHKUMAR",
+      "fields": {
+        "name": "K HEMANTHKUMAR",
+        "role": "unknown",
+        "why_money": "sold 6,28,766 shares in a bulk deal on 12 Nov 2026",
+        "amount": "₹4.59 lakh",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.59 lakh (6,28,766 shares × ₹0.73 = ₹4.59 lakh (NSE 12-NOV-2026 · ANTGRAPHIC · K HEMANTHKUMAR · SELL · 628766))"
+      },
+      "placeholders": {
+        "name": "K HEMANTHKUMAR",
+        "role": "unknown",
+        "amount": "₹4.59 lakh",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹4.59 lakh",
+        "shares_offered": "6,28,766 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "K HEMANTHKUMAR is a holder, role unknown, who sold 6,28,766 shares in a bulk deal, bringing money to them.",
+        "₹4.59 lakh from the sale was settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), so it has already arrived.",
+        "The sale was 3 days ago, so the proceeds are settled and the conversation can focus on what they plan next.",
+        "Role is unknown, so confirm who the holder is before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder, role unknown, who sold {shares_offered} in a bulk deal, bringing money to them.",
+            "{amount} from the sale was {timing}, so it has already arrived.",
+            "The sale was {event_age}, so the proceeds are settled and the conversation can focus on what they plan next.",
+            "Role is unknown, so confirm who the holder is before the call."
+          ],
+          "lines": [
+            "K HEMANTHKUMAR is a holder, role unknown, who sold 6,28,766 shares in a bulk deal, bringing money to them.",
+            "₹4.59 lakh from the sale was settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), so it has already arrived.",
+            "The sale was 3 days ago, so the proceeds are settled and the conversation can focus on what they plan next.",
+            "Role is unknown, so confirm who the holder is before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

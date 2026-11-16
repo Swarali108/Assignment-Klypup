@@ -1,0 +1,70 @@
+{
+  "event_id": "capricorn_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_yenugonda_mounika",
+      "name_as_printed": "YENUGONDA MOUNIKA",
+      "fields": {
+        "name": "YENUGONDA MOUNIKA",
+        "role": "unknown",
+        "why_money": "sold 2,90,573 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹51.08 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹51.08 lakh (2,90,573 shares × ₹17.58 = ₹51.08 lakh (BSE 13/11/2026 · CAPRICORN · YENUGONDA MOUNIKA · S · 290573))"
+      },
+      "placeholders": {
+        "name": "YENUGONDA MOUNIKA",
+        "role": "unknown",
+        "amount": "₹51.08 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹51.08 lakh",
+        "shares_offered": "2,90,573 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "YENUGONDA MOUNIKA, unknown, sold 2,90,573 shares in a bulk deal today and is receiving the proceeds.",
+        "Proceeds of ₹51.08 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is arriving today.",
+        "Offer a review of how they plan to deploy these proceeds, given the sale was just completed.",
+        "Their role is unknown, so confirm it before discussing the sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "YENUGONDA MOUNIKA, role unknown, sold shares in a bulk deal on 13 Nov 2026 and is receiving proceeds.",
+            "Proceeds of {proceeds} settle {timing}, so the money is arriving today.",
+            "Offer a review of how they plan to deploy these proceeds, given the sale was just completed.",
+            "Their role is unknown, so confirm it before discussing the sale."
+          ],
+          "lines": [
+            "YENUGONDA MOUNIKA, role unknown, sold shares in a bulk deal on 13 Nov 2026 and is receiving proceeds.",
+            "Proceeds of {proceeds} settle {timing}, so the money is arriving today.",
+            "Offer a review of how they plan to deploy these proceeds, given the sale was just completed.",
+            "Their role is unknown, so confirm it before discussing the sale."
+          ],
+          "problem": "writes numbers instead of placeholders: 13, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, sold {shares_offered} in a bulk deal {event_age} and is receiving the proceeds.",
+            "Proceeds of {amount} settle {timing}, so the money is arriving today.",
+            "Offer a review of how they plan to deploy these proceeds, given the sale was just completed.",
+            "Their role is unknown, so confirm it before discussing the sale."
+          ],
+          "lines": [
+            "YENUGONDA MOUNIKA, unknown, sold 2,90,573 shares in a bulk deal today and is receiving the proceeds.",
+            "Proceeds of ₹51.08 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is arriving today.",
+            "Offer a review of how they plan to deploy these proceeds, given the sale was just completed.",
+            "Their role is unknown, so confirm it before discussing the sale."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

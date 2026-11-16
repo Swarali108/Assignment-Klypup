@@ -1,0 +1,56 @@
+{
+  "event_id": "kabra_jewels_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_smital_suresh_thakkar",
+      "name_as_printed": "SMITAL SURESH THAKKAR",
+      "fields": {
+        "name": "SMITAL SURESH THAKKAR",
+        "role": "unknown",
+        "why_money": "sold 38,000 shares in a bulk deal on 11 Nov 2026",
+        "amount": "₹63.78 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹63.78 lakh (38,000 shares × ₹167.84 = ₹63.78 lakh (NSE 11-NOV-2026 · KKJEWELS · SMITAL SURESH THAKKAR · SELL · 38000))",
+        "family_link": "'SMITAL SURESH THAKKAR' and 'SMITAL SURESH THAKKAR' share surname 'thakkar' and middle name 'suresh'"
+      },
+      "placeholders": {
+        "name": "SMITAL SURESH THAKKAR",
+        "role": "unknown",
+        "amount": "₹63.78 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹63.78 lakh",
+        "shares_offered": "38,000 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "SMITAL SURESH THAKKAR is a holder whose role is unknown, receiving money from selling 38,000 shares in a bulk deal.",
+        "Proceeds of ₹63.78 lakh settled 4 days ago, and the amount arrived settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "A family link: another holder shares this surname and middle name, so ask whether they are connected to this sale.",
+        "Role is unknown, so confirm the holder's position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from selling {shares_offered} in a bulk deal.",
+            "Proceeds of {proceeds} settled {event_age}, and the amount arrived {timing}.",
+            "A family link: another holder shares this surname and middle name, so ask whether they are connected to this sale.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "lines": [
+            "SMITAL SURESH THAKKAR is a holder whose role is unknown, receiving money from selling 38,000 shares in a bulk deal.",
+            "Proceeds of ₹63.78 lakh settled 4 days ago, and the amount arrived settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+            "A family link: another holder shares this surname and middle name, so ask whether they are connected to this sale.",
+            "Role is unknown, so confirm the holder's position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

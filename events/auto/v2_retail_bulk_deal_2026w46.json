@@ -1,0 +1,25 @@
+{
+  "event_id": "v2_retail_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "V2 Retail Limited",
+  "documents": [],
+  "records": [
+    "3165d431de033910",
+    "3aa7fda70efe5fa6",
+    "4face8e289657bcd",
+    "56db94490cb5217a",
+    "adad4717a18944c6",
+    "bd6963cfc25097cf",
+    "c20f06140a346e2a",
+    "f86c9ca173f6c61e"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-13",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

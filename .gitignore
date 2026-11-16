@@ -1,0 +1,19 @@
+.env
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+_brief_extract.txt
+# Downloaded PDFs (cache/fetch) and parsed pages (cache/pages) are large and stay local.
+# cache/llm is tracked: small, and it makes reruns free.
+cache/*
+!cache/.gitkeep
+!cache/llm/
+
+# demo rebuild
+.venv/
+api/state/
+web/node_modules/
+web/.next/
+.playwright-mcp/

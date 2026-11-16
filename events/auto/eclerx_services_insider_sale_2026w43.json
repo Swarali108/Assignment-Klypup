@@ -1,0 +1,20 @@
+{
+  "event_id": "eclerx_services_insider_sale_2026w43",
+  "event_type": "insider_sale",
+  "company": "eClerx Services Ltd",
+  "documents": [],
+  "records": [
+    "0a9253fc69440e91",
+    "6909d4cd02523ede"
+  ],
+  "records_file": "outputs/signals/insider.json",
+  "event_date": "2026-10-22",
+  "discovery": {
+    "sources": [
+      "bse_insider_sale",
+      "nse_insider_sale"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:48:41+00:00"
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "410.63",
+    "high": "435.26",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹410.63",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+            "row_ref": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+            "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 25,16,393 shares | price 410.63 | 2026-10-26"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹435.26",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+            "row_ref": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+            "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 20,65,992 shares | price 435.26 | 2026-10-27"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "26 Oct 2026 to 27 Oct 2026",
+    "sale_date_parsed": "2026-10-27",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "72,24,345 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_jump_trading_financial_india_private_limited",
+      "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED"
+      ],
+      "name_clean": "jump trading financial india private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "a9a9a69180d2fdc6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 2641960,
+          "record_ids": [
+            "a9a9a69180d2fdc6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+          "row_ref": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+          "quote": "NSE | APOLLO | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 26,41,960 shares | price 411.55 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a9a9a69180d2fdc6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "26,41,960",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1087298638.00",
+          "rupees_high": "1087298638.00",
+          "crore_low": "108.73",
+          "crore_high": "108.73",
+          "display": "₹108.73 crore",
+          "working": "26,41,960 shares × ₹411.55 = ₹108.73 crore (NSE 26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "26,41,960",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+                  "row_ref": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+                  "quote": "NSE | APOLLO | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 26,41,960 shares | price 411.55 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹411.55",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+                  "row_ref": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+                  "quote": "NSE | APOLLO | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 26,41,960 shares | price 411.55 | 2026-10-26"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 27 Oct 2026, T+1 after the 26 Oct 2026 trade (20 days ago)",
+          "trade_date": "2026-10-26",
+          "settles_on": "2026-10-27",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "26 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+                  "row_ref": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · SELL · 2641960",
+                  "quote": "NSE | APOLLO | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | SELL | 26,41,960 shares | price 411.55 | 2026-10-26"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 26,41,960 shares in a bulk deal on 26 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.82 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_jump_trading_financial_india_private_limited_bought",
+      "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+      "names_as_printed": [
+        "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED"
+      ],
+      "name_clean": "jump trading financial india private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "190a4a1dba347422"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 2641960,
+          "record_ids": [
+            "190a4a1dba347422"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 2641960",
+          "row_ref": "26-OCT-2026 · APOLLO · JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED · BUY · 2641960",
+          "quote": "NSE | APOLLO | JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED | BUY | 26,41,960 shares | price 411.53 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "190a4a1dba347422",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 26,41,960 shares in a bulk deal on 26 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹13.82 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jai_corp_bulk_deal_2026w43",
+          "company": "Jai Corp Limited",
+          "name_as_printed": "JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED' / 'JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "562bc9ae0657d1e2",
+        "efbe21d264ce8818"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 2516393,
+          "record_ids": [
+            "562bc9ae0657d1e2"
+          ]
+        },
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 2065992,
+          "record_ids": [
+            "efbe21d264ce8818"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+          "row_ref": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+          "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 25,16,393 shares | price 410.63 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "562bc9ae0657d1e2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+          "row_ref": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+          "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 20,65,992 shares | price 435.26 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "efbe21d264ce8818",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "45,82,385",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1932550135.51",
+          "rupees_high": "1932550135.51",
+          "crore_low": "193.26",
+          "crore_high": "193.26",
+          "display": "₹193.26 crore",
+          "working": "25,16,393 shares × ₹410.63 = ₹103.33 crore (NSE 26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393); 20,65,992 shares × ₹435.26 = ₹89.92 crore (NSE 27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992); total ₹193.26 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "25,16,393",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+                  "row_ref": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+                  "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 25,16,393 shares | price 410.63 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹410.63",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+                  "row_ref": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2516393",
+                  "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 25,16,393 shares | price 410.63 | 2026-10-26"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "20,65,992",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+                  "row_ref": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+                  "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 20,65,992 shares | price 435.26 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹435.26",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+                  "row_ref": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+                  "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 20,65,992 shares | price 435.26 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+                  "row_ref": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · SELL · 2065992",
+                  "quote": "NSE | APOLLO | QE SECURITIES LLP | SELL | 20,65,992 shares | price 435.26 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 20
+        }
+      },
+      "why_money": "sold 45,82,385 shares in bulk deals on 26 Oct 2026 and 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "names_as_printed": [
+        "QE SECURITIES LLP"
+      ],
+      "name_clean": "qe securities llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "71b193c4530d80b3",
+        "e7bbe20886d0ec1e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 2465951,
+          "record_ids": [
+            "71b193c4530d80b3"
+          ]
+        },
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 2084836,
+          "record_ids": [
+            "e7bbe20886d0ec1e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · BUY · 2465951",
+          "row_ref": "26-OCT-2026 · APOLLO · QE SECURITIES LLP · BUY · 2465951",
+          "quote": "NSE | APOLLO | QE SECURITIES LLP | BUY | 24,65,951 shares | price 410.93 | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "71b193c4530d80b3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · BUY · 2084836",
+          "row_ref": "27-OCT-2026 · APOLLO · QE SECURITIES LLP · BUY · 2084836",
+          "quote": "NSE | APOLLO | QE SECURITIES LLP | BUY | 20,84,836 shares | price 436.38 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e7bbe20886d0ec1e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 45,50,787 shares in bulk deals on 26 Oct 2026 and 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹71.98 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cements_bulk_deal_2026w43",
+          "company": "The India Cements Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹72.97 crore",
+          "trigger_date": "2026-10-26",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "cyient_bulk_deal_2026w43",
+          "company": "Cyient Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.23 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
+          "company": "DCM Shriram Ind Ltd",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹13.64 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "deepa_jewellers_bulk_deal_2026w43",
+          "company": "Deepa Jewellers Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "₹16.20 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        },
+        {
+          "event_id": "euro_pratik_sales_bulk_deal_2026w43",
+          "company": "Euro Pratik Sales Limited",
+          "name_as_printed": "QE SECURITIES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 24
+  }
+}

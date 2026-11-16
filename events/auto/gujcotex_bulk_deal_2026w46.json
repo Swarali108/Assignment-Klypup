@@ -1,0 +1,21 @@
+{
+  "event_id": "gujcotex_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "GUJCOTEX",
+  "documents": [],
+  "records": [
+    "24a11cc3306c66c0",
+    "6eaa2890ce5cdaa0",
+    "ef7da8d8a298ffdc",
+    "f07bec1a7bb762c7"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-13",
+  "discovery": {
+    "sources": [
+      "bse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

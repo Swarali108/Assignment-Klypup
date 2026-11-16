@@ -1,0 +1,86 @@
+{
+ "nse_announcements.json": {
+  "url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=09-11-2026&to_date=15-11-2026",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:04Z",
+  "trimmed": "10 of 3981 rows: one per subject"
+ },
+ "nse_ipo_current.json": {
+  "url": "https://www.nseindia.in/api/ipo-current-issue",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:06Z",
+  "trimmed": "whole answer"
+ },
+ "nse_ipo_past.json": {
+  "url": "https://www.nseindia.in/api/public-past-issues",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:10Z",
+  "trimmed": "first 6 of 1493 rows"
+ },
+ "nse_bulk_deals.json": {
+  "url": "https://www.nseindia.in/api/historicalOR/bulk-block-short-deals?optionType=bulk_deals&from=09-11-2026&to=15-11-2026",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:14Z",
+  "trimmed": "first 5 of 70 rows"
+ },
+ "nse_block_deals.json": {
+  "url": "https://www.nseindia.in/api/historicalOR/bulk-block-short-deals?optionType=block_deals&from=09-11-2026&to=15-11-2026",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:19Z",
+  "trimmed": "first 5 of 36 rows"
+ },
+ "nse_bulk.csv": {
+  "url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:19Z",
+  "trimmed": "header and first 6 of 136 rows"
+ },
+ "nse_block.csv": {
+  "url": "https://nsearchives.nseindia.in/content/equities/block.csv",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:21Z",
+  "trimmed": "header and first 4 of 26 rows"
+ },
+ "nse_pit_list.json": {
+  "url": "https://www.nseindia.in/api/corporates-pit-gg?index=equities&from_date=09-11-2026&to_date=15-11-2026",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:23Z",
+  "trimmed": "3 of 112 rows (the first is the XBRL fixture's filing)"
+ },
+ "nse_pit_xbrl.xml": {
+  "url": "https://nsearchives.nseindia.in/corporate/xbrl/IT_23918_WebXMLFile_20261114_223334796.xml",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:10:23Z",
+  "trimmed": "whole file (a filing with a sale and a buy)"
+ },
+ "bse_announcements.json": {
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w (several category/subcategory queries)",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:12:31Z",
+  "trimmed": "one row per subcategory from 9 cached answers"
+ },
+ "bse_issues.json": {
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/GetPublicIssue_par_updated/w?flag=1",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:13:21Z",
+  "trimmed": "whole answer"
+ },
+ "bse_bulk.json": {
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/BulkDeal_Beta/w",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:13:23Z",
+  "trimmed": "first 5 of 51 rows"
+ },
+ "bse_block.json": {
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/BlockDeal_Beta/w",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:13:25Z",
+  "trimmed": "first 3 of 31 rows"
+ },
+ "bse_insider.json": {
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/getCorp_Regulation_ng/w?scripCode=&Regulation=&fromDT=20261109&ToDate=20261115&Isdefault=0",
+  "recorded_by": "connector fetch (tools/exchanges/client.py)",
+  "fetched_at": "2026-11-15T18:13:30Z",
+  "trimmed": "3 of 25 rows; address, contact, PAN, CIN and DIN fields removed"
+ }
+}

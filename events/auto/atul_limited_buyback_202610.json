@@ -1,0 +1,60 @@
+{
+  "event_id": "atul_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "Atul Ltd",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ATUL1_23102026142022_intimation.pdf",
+      "doc_type": "announcement",
+      "note": "Atul Limited - Buyback",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf",
+      "doc_type": "public_announcement",
+      "note": "Atul Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf",
+      "doc_type": "public_announcement",
+      "note": "Atul Ltd - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "bse_ipo",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Atul Limited - Buyback",
+        "link": "https://nsearchives.nseindia.in/corporate/ATUL1_23102026142022_intimation.pdf",
+        "published": "2026-10-23",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Atul Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/ATUL1_27102026152823_Intimation_to_Stock_Exchange_-_BR_PA.pdf",
+        "published": "2026-10-27",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Atul Ltd - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1bf285ac-125b-424e-a3e8-52cac03f622a.pdf",
+        "published": "2026-10-27",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Atul Ltd - BUYBACK live 2026-11-02 to 2027-02-08, price 7500.00",
+        "link": "https://www.bseindia.com/markets/publicIssues/DisplayIPO?id=500027&type=BuyBack&idtype=1&status=L&IPONo=1&startdt=02/11/2026",
+        "published": "2026-11-02",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

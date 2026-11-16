@@ -1,0 +1,182 @@
+{
+  "event_id": "shreeji_shipping_global_limited_ofs_stock_exchange_202611",
+  "callable": [
+    {
+      "person_id": "p_jitendra_haridas_lal",
+      "name_as_printed": "Jitendra Haridas Lal",
+      "name_clean": "jitendra haridas lal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "250.50",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "after_date",
+      "timing_weight": "0.8",
+      "recency_weight": "1.0",
+      "score": "140.28000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "money_crore": "250.50",
+        "timing_status": "after_date",
+        "timing_weight": "0.8",
+        "recency_weight": "1.0",
+        "score": "140.28000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+          "money_crore": "250.50",
+          "timing_status": "after_date",
+          "timing_weight": "0.8",
+          "recency_weight": "1.0",
+          "score": "140.28000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sells up to 30,00,000 shares in the offer for sale through the stock exchange",
+      "amount_display": "up to ₹250.50 crore (at floor price; actual sale price not verified; may be higher)",
+      "timing_display": "settles after the sale on 3 Nov 2026 (13 days ago)",
+      "timing_display_status": "after_date",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Ashokkumar Haridas Lal' and 'Jitendra Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Jitendra Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: up to ₹250.50 crore (at floor price; actual sale price not verified; may be higher); settles after the sale on 3 Nov 2026 (13 days ago).",
+        "score 140.28 = ₹250.50 crore (proceeds settles after the sale on 3 Nov 2026 (13 days ago)) × 0.7 (medium confidence) × 0.8 (timing after_date) × 1.0 (recency)",
+        "family link (family_1): 'Ashokkumar Haridas Lal' and 'Jitendra Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Jitendra Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      ]
+    },
+    {
+      "person_id": "p_ashokkumar_haridas_lal",
+      "name_as_printed": "Ashokkumar Haridas Lal",
+      "name_clean": "ashokkumar haridas lal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "125.25",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "after_date",
+      "timing_weight": "0.8",
+      "recency_weight": "1.0",
+      "score": "70.14000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "money_crore": "125.25",
+        "timing_status": "after_date",
+        "timing_weight": "0.8",
+        "recency_weight": "1.0",
+        "score": "70.14000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+          "money_crore": "125.25",
+          "timing_status": "after_date",
+          "timing_weight": "0.8",
+          "recency_weight": "1.0",
+          "score": "70.14000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sells 15,00,000 shares in the offer for sale through the stock exchange",
+      "amount_display": "₹125.25 crore (at floor price; actual sale price not verified; may be higher)",
+      "timing_display": "settles after the sale on 3 Nov 2026 (13 days ago)",
+      "timing_display_status": "after_date",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Ashokkumar Haridas Lal' and 'Jitendra Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Ashokkumar Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹125.25 crore (at floor price; actual sale price not verified; may be higher); settles after the sale on 3 Nov 2026 (13 days ago).",
+        "score 70.14 = ₹125.25 crore (proceeds settles after the sale on 3 Nov 2026 (13 days ago)) × 0.7 (medium confidence) × 0.8 (timing after_date) × 1.0 (recency)",
+        "tied with Mr. Jitendrakumar Haridas Lal; name order breaks the tie",
+        "family link (family_1): 'Ashokkumar Haridas Lal' and 'Jitendra Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Ashokkumar Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      ]
+    },
+    {
+      "person_id": "p_jitendrakumar_haridas_lal",
+      "name_as_printed": "Mr. Jitendrakumar Haridas Lal",
+      "name_clean": "jitendrakumar haridas lal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "125.25",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "after_date",
+      "timing_weight": "0.8",
+      "recency_weight": "1.0",
+      "score": "70.14000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+        "money_crore": "125.25",
+        "timing_status": "after_date",
+        "timing_weight": "0.8",
+        "recency_weight": "1.0",
+        "score": "70.14000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settles after the sale on 3 Nov 2026 (13 days ago)",
+          "money_crore": "125.25",
+          "timing_status": "after_date",
+          "timing_weight": "0.8",
+          "recency_weight": "1.0",
+          "score": "70.14000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sells 15,00,000 shares in the offer for sale through the stock exchange",
+      "amount_display": "₹125.25 crore (at floor price; actual sale price not verified; may be higher)",
+      "timing_display": "settles after the sale on 3 Nov 2026 (13 days ago)",
+      "timing_display_status": "after_date",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Ashokkumar Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Jitendra Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹125.25 crore (at floor price; actual sale price not verified; may be higher); settles after the sale on 3 Nov 2026 (13 days ago).",
+        "score 70.14 = ₹125.25 crore (proceeds settles after the sale on 3 Nov 2026 (13 days ago)) × 0.7 (medium confidence) × 0.8 (timing after_date) × 1.0 (recency)",
+        "family link (family_1): 'Ashokkumar Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'; 'Jitendra Haridas Lal' and 'Mr. Jitendrakumar Haridas Lal' share surname 'lal' and middle name 'haridas'"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

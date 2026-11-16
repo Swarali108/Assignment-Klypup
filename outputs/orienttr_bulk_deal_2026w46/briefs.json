@@ -1,0 +1,104 @@
+{
+  "event_id": "orienttr_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_abhinav_commosales",
+      "name_as_printed": "ABHINAV COMMOSALES",
+      "fields": {
+        "name": "ABHINAV COMMOSALES",
+        "role": "unknown",
+        "why_money": "sold 12,62,967 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹51.40 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹51.40 lakh (12,62,967 shares × ₹4.07 = ₹51.40 lakh (BSE 13/11/2026 · ORIENTTR · ABHINAV COMMOSALES · S · 1262967))"
+      },
+      "placeholders": {
+        "name": "ABHINAV COMMOSALES",
+        "role": "unknown",
+        "amount": "₹51.40 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹51.40 lakh",
+        "shares_offered": "12,62,967 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "ABHINAV COMMOSALES is a shareholder whose stake was sold in a bulk deal, so money is coming to them.",
+        "₹51.40 lakh proceeds settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), from the sale of 12,62,967 shares.",
+        "ABHINAV COMMOSALES has an unknown role, so confirm their position before discussing next steps.",
+        "Role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder whose stake was sold in a bulk deal, so money is coming to them.",
+            "{amount} proceeds settle {timing}, from the sale of {shares_offered}.",
+            "{name} has an unknown role, so confirm their position before discussing next steps.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "ABHINAV COMMOSALES is a shareholder whose stake was sold in a bulk deal, so money is coming to them.",
+            "₹51.40 lakh proceeds settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), from the sale of 12,62,967 shares.",
+            "ABHINAV COMMOSALES has an unknown role, so confirm their position before discussing next steps.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_jameer_ayub_atar",
+      "name_as_printed": "JAMEER AYUB ATAR",
+      "fields": {
+        "name": "JAMEER AYUB ATAR",
+        "role": "unknown",
+        "why_money": "sold 8,69,010 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹35.28 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹35.28 lakh (8,69,010 shares × ₹4.06 = ₹35.28 lakh (BSE 13/11/2026 · ORIENTTR · JAMEER AYUB ATAR · S · 869010))"
+      },
+      "placeholders": {
+        "name": "JAMEER AYUB ATAR",
+        "role": "unknown",
+        "amount": "₹35.28 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹35.28 lakh",
+        "shares_offered": "8,69,010 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "JAMEER AYUB ATAR sold 8,69,010 shares in a bulk deal, so money is coming to them from that sale.",
+        "Proceeds of ₹35.28 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Ask whether they plan to reinvest the ₹35.28 lakh proceeds, and how they want to handle the timing.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of {proceeds} settle {timing}.",
+            "Ask whether they plan to reinvest the {amount} proceeds, and how they want to handle the timing.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "JAMEER AYUB ATAR sold 8,69,010 shares in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of ₹35.28 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Ask whether they plan to reinvest the ₹35.28 lakh proceeds, and how they want to handle the timing.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

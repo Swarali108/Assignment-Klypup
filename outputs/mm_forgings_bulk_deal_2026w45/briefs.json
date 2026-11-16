@@ -1,0 +1,52 @@
+{
+  "event_id": "mm_forgings_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_apurva_mahesh_shah",
+      "name_as_printed": "APURVA MAHESH SHAH",
+      "fields": {
+        "name": "APURVA MAHESH SHAH",
+        "role": "unknown",
+        "why_money": "sold 2,70,000 shares in a bulk deal on 6 Nov 2026",
+        "amount": "₹16.74 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹16.74 crore (2,70,000 shares × ₹620.02 = ₹16.74 crore (NSE 06-NOV-2026 · MMFL · APURVA MAHESH SHAH · SELL · 270000))"
+      },
+      "placeholders": {
+        "name": "APURVA MAHESH SHAH",
+        "role": "unknown",
+        "amount": "₹16.74 crore",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹16.74 crore",
+        "shares_offered": "2,70,000 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "APURVA MAHESH SHAH sold 2,70,000 shares in a bulk deal, so money is coming from that sale.",
+        "Proceeds of ₹16.74 crore settled 7 days ago, after the trade.",
+        "Their role is unknown, so confirm their position before any conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming from that sale.",
+            "Proceeds of {proceeds} settled {event_age}, after the trade.",
+            "Their role is {role}, so confirm their position before any conversation."
+          ],
+          "lines": [
+            "APURVA MAHESH SHAH sold 2,70,000 shares in a bulk deal, so money is coming from that sale.",
+            "Proceeds of ₹16.74 crore settled 7 days ago, after the trade.",
+            "Their role is unknown, so confirm their position before any conversation."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

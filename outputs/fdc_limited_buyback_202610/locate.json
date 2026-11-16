@@ -1,0 +1,78 @@
+{
+  "event_id": "fdc_limited_buyback_202610",
+  "event_type": "buyback",
+  "documents": [
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+      "doc_type": "public_announcement",
+      "path": "cache/fetch/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.bin",
+      "page_count": 3
+    }
+  ],
+  "sections": {
+    "buyback_terms": [
+      {
+        "pdf_index": 1,
+        "printed_page": null,
+        "score": 22,
+        "matched_terms": [
+          "buyback price",
+          "record date"
+        ],
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf"
+      },
+      {
+        "pdf_index": 3,
+        "printed_page": "3",
+        "score": 12,
+        "matched_terms": [
+          "buyback closing date",
+          "record date"
+        ],
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf"
+      },
+      {
+        "pdf_index": 2,
+        "printed_page": "2",
+        "score": 8,
+        "matched_terms": [
+          "record date"
+        ],
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf"
+      }
+    ],
+    "promoter_intention": [
+      {
+        "pdf_index": 1,
+        "printed_page": null,
+        "score": 24,
+        "matched_terms": [
+          "intention of the promoters",
+          "intention to participate",
+          "name of the shareholder",
+          "number of equity shares"
+        ],
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf"
+      },
+      {
+        "pdf_index": 2,
+        "printed_page": "2",
+        "score": 8,
+        "matched_terms": [
+          "maximum number of equity shares",
+          "number of equity shares"
+        ],
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf"
+      },
+      {
+        "pdf_index": 3,
+        "printed_page": "3",
+        "score": 4,
+        "matched_terms": [
+          "number of equity shares"
+        ],
+        "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "event_id": "kshitij_polyline_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_satish_mejiyatar",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "fields": {
+        "name": "SATISH MEJIYATAR",
+        "role": "unknown",
+        "why_money": "sold 25,00,000 shares in a bulk deal on 19 Oct 2026",
+        "amount": "₹85.00 lakh",
+        "timing": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "event": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "event_age": "27 days ago",
+        "event_is": "recent",
+        "proceeds": "₹85.00 lakh (25,00,000 shares × ₹3.4 = ₹85.00 lakh (NSE 19-OCT-2026 · KSHITIJPOL · SATISH MEJIYATAR · SELL · 2500000))"
+      },
+      "placeholders": {
+        "name": "SATISH MEJIYATAR",
+        "role": "unknown",
+        "amount": "₹85.00 lakh",
+        "timing": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "proceeds": "₹85.00 lakh",
+        "shares_offered": "25,00,000 shares",
+        "event_age": "27 days ago"
+      },
+      "lines": [
+        "SATISH MEJIYATAR sold 25,00,000 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹85.00 lakh settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago), so the cash is already in hand.",
+        "Ask how they plan to deploy the ₹85.00 lakh they now hold.",
+        "Their unknown is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal on 19 Oct, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the 19 Oct trade.",
+            "Ask how they plan to deploy the {amount} they now hold in cash.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "{name} sold {shares_offered} in a bulk deal on 19 Oct, so money is coming to them.",
+            "Proceeds of {proceeds} settled {event_age}, after the 19 Oct trade.",
+            "Ask how they plan to deploy the {amount} they now hold in cash.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 19, 19"
+        },
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} {timing}, so the cash is already in hand.",
+            "Ask how they plan to deploy the {amount} they now hold.",
+            "Their {role} is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "SATISH MEJIYATAR sold 25,00,000 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹85.00 lakh settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago), so the cash is already in hand.",
+            "Ask how they plan to deploy the ₹85.00 lakh they now hold.",
+            "Their unknown is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

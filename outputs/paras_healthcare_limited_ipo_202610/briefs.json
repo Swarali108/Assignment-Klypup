@@ -1,0 +1,74 @@
+{
+  "event_id": "paras_healthcare_limited_ipo_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dharminder_kumar_nagar",
+      "name_as_printed": "Dr. Dharminder Kumar Nagar",
+      "fields": {
+        "name": "Dr. Dharminder Kumar Nagar",
+        "role": "Promoter Selling Shareholder",
+        "why_money": "sells 4,329,004 shares in the offer for sale",
+        "amount": "₹300.00 crore",
+        "timing": "in hand since about 28 Oct 2026 (18 days ago), the listing date in the offer timetable",
+        "event": "proceeds since the timetable listing date (18 days ago)",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹300.00 crore (4,329,004 × ₹693 = ₹300.00 crore)",
+        "gain": "₹298.98 crore, before offer expenses and taxes (4,329,004 × (₹693 − ₹2.35) = ₹298.98 crore)",
+        "retained": "₹4,794.88 crore (estimate, valued at offer price) ((73,519,238 − 4,329,004) × ₹693 = ₹4,794.88 crore)",
+        "retained_shares": "69,190,234 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not confirmed from the documents)"
+      },
+      "placeholders": {
+        "name": "Dr. Dharminder Kumar Nagar",
+        "role": "Promoter Selling Shareholder",
+        "amount": "₹300.00 crore",
+        "timing": "in hand since about 28 Oct 2026 (18 days ago), the listing date in the offer timetable",
+        "proceeds": "₹300.00 crore",
+        "gain": "₹298.98 crore, before offer expenses and taxes",
+        "retained": "₹4,794.88 crore (estimate, valued at offer price)",
+        "retained_shares": "69,190,234 shares",
+        "shares_offered": "4,329,004 shares",
+        "shares_held": "73,519,238 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "Dr. Dharminder Kumar Nagar (Promoter Selling Shareholder) sells 4,329,004 shares in the offer for sale.",
+        "₹300.00 crore; in hand since about 28 Oct 2026 (18 days ago), the listing date in the offer timetable.",
+        "Retained shares are still locked in, so more money can follow when they unlock."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "writes numbers instead of placeholders: 12, 36",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a Promoter Selling Shareholder who sold shares in the offer for sale.",
+            "{proceeds} arrived in hand since {timing_short}, from {shares_offered} sold at ₹693.",
+            "They keep {retained_shares}, locked in for 12 to 36 months after allotment, so more value stays with them later."
+          ],
+          "lines": [
+            "{name} is a Promoter Selling Shareholder who sold shares in the offer for sale.",
+            "{proceeds} arrived in hand since {timing_short}, from {shares_offered} sold at ₹693.",
+            "They keep {retained_shares}, locked in for 12 to 36 months after allotment, so more value stays with them later."
+          ],
+          "problem": "unknown placeholders: {timing_short}"
+        },
+        {
+          "raw_lines": [
+            "{name} is a Promoter Selling Shareholder who sold shares in the offer for sale.",
+            "{amount} arrived in hand {timing}, from {shares_offered} sold at the offer price.",
+            "They keep {retained_shares}, locked in for 12 to 36 months after allotment, so more value stays with them later."
+          ],
+          "lines": [
+            "{name} is a Promoter Selling Shareholder who sold shares in the offer for sale.",
+            "{amount} arrived in hand {timing}, from {shares_offered} sold at the offer price.",
+            "They keep {retained_shares}, locked in for 12 to 36 months after allotment, so more value stays with them later."
+          ],
+          "problem": "writes numbers instead of placeholders: 12, 36"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "event_id": "kpit_technologies_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_rajesh_janwadkar",
+      "name_as_printed": "Rajesh Janwadkar",
+      "fields": {
+        "name": "Rajesh Janwadkar",
+        "role": "unknown",
+        "why_money": "sold 15,000 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹77.46 lakh",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹77.46 lakh (15,000 shares, value as printed ₹77.46 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Rajesh Janwadkar",
+        "role": "unknown",
+        "amount": "₹77.46 lakh",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹77.46 lakh",
+        "shares_offered": "15,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Rajesh Janwadkar is a unknown; they sold 15,000 shares in a market sale, generating ₹77.46 lakh.",
+        "The ₹77.46 lakh arrived settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money is already in hand.",
+        "Open with the sale, then ask what they plan to do with the proceeds next.",
+        "Role is unknown, so confirm their current position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an unknown role; they sold {shares_offered} on 4 Nov 2026, generating {proceeds}.",
+            "The {amount} settled {timing}, so the money is already in hand.",
+            "Open with the sale, then ask what they plan to do with the proceeds next.",
+            "Role is unknown, so confirm their current position before the call."
+          ],
+          "lines": [
+            "{name} is an unknown role; they sold {shares_offered} on 4 Nov 2026, generating {proceeds}.",
+            "The {amount} settled {timing}, so the money is already in hand.",
+            "Open with the sale, then ask what they plan to do with the proceeds next.",
+            "Role is unknown, so confirm their current position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 4, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role}; they sold {shares_offered} in a market sale, generating {proceeds}.",
+            "The {amount} arrived {timing}, so the money is already in hand.",
+            "Open with the sale, then ask what they plan to do with the proceeds next.",
+            "Role is unknown, so confirm their current position before the call."
+          ],
+          "lines": [
+            "Rajesh Janwadkar is a unknown; they sold 15,000 shares in a market sale, generating ₹77.46 lakh.",
+            "The ₹77.46 lakh arrived settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago), so the money is already in hand.",
+            "Open with the sale, then ask what they plan to do with the proceeds next.",
+            "Role is unknown, so confirm their current position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_hemlata_shende",
+      "name_as_printed": "Hemlata Shende",
+      "fields": {
+        "name": "Hemlata Shende",
+        "role": "Promoter",
+        "why_money": "sold 8,000 shares (Market Sale) on 4 Nov 2026",
+        "amount": "₹41.48 lakh",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event": "proceeds settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹41.48 lakh (8,000 shares, value as printed ₹41.48 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Hemlata Shende",
+        "role": "Promoter",
+        "amount": "₹41.48 lakh",
+        "timing": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+        "proceeds": "₹41.48 lakh",
+        "shares_offered": "8,000 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Hemlata Shende is a Promoter who sold shares in a Market Sale, so money is coming to them.",
+        "Proceeds of ₹41.48 lakh from 8,000 shares settled 11 days ago, on settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+        "Ask how they plan to deploy these proceeds, since the sale was recent and the money is now in hand."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Hemlata Shende is a Promoter who sold shares in a Market Sale, so money is coming to them.",
+            "Proceeds of {proceeds} from {shares_offered} settled {event_age}, on {timing}.",
+            "Ask how they plan to deploy these proceeds, since the sale was recent and the money is now in hand."
+          ],
+          "lines": [
+            "Hemlata Shende is a Promoter who sold shares in a Market Sale, so money is coming to them.",
+            "Proceeds of ₹41.48 lakh from 8,000 shares settled 11 days ago, on settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago).",
+            "Ask how they plan to deploy these proceeds, since the sale was recent and the money is now in hand."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

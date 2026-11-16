@@ -1,0 +1,223 @@
+{
+  "event_id": "avenue_supermarts_insider_sale_2026w46",
+  "callable": [
+    {
+      "person_id": "p_elvin_machado",
+      "name_as_printed": "Elvin Machado",
+      "name_clean": "elvin machado",
+      "holder_type": "person",
+      "role_as_printed": "Director",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.73",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.73000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "money_crore": "1.73",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.73000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "money_crore": "1.73",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.73000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 5,000 shares (Market Sale) on 9 Nov 2026",
+      "amount_display": "₹1.73 crore",
+      "timing_display": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹1.73 crore; settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "score 1.73 = ₹1.73 crore (proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_jaideep_soman",
+      "name_as_printed": "Jaideep Soman",
+      "name_clean": "jaideep soman",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.52",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.52000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "money_crore": "0.52",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.52000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "money_crore": "0.52",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.52000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,500 shares (Market Sale) on 9 Nov 2026 and 13 Nov 2026",
+      "amount_display": "₹52.00 lakh",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹52.00 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "score 0.52 = ₹0.52 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_arun_kumar_singh",
+      "name_as_printed": "Arun Kumar Singh",
+      "name_clean": "arun kumar singh",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.35",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.35000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 4,
+        "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "money_crore": "0.35",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.35000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 4,
+          "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "money_crore": "0.35",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.35000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,000 shares (Market Sale) on 11 Nov 2026",
+      "amount_display": "₹34.75 lakh",
+      "timing_display": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹34.75 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "score 0.35 = ₹0.35 crore (proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_mahesh_sitaram_pawar",
+      "name_as_printed": "Mahesh Sitaram Pawar",
+      "name_clean": "mahesh sitaram pawar",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.17",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.17000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "money_crore": "0.17",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.17000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "money_crore": "0.17",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.17000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 500 shares (Market Sale) on 9 Nov 2026",
+      "amount_display": "₹17.22 lakh",
+      "timing_display": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 4,
+      "rank_reasons": [
+        "Cash in hand: ₹17.22 lakh; settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "score 0.17 = ₹0.17 crore (proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

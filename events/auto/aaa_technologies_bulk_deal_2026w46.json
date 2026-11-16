@@ -1,0 +1,26 @@
+{
+  "event_id": "aaa_technologies_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "AAA Technologies Limited",
+  "documents": [],
+  "records": [
+    "1f32b42494dd705b",
+    "23e3283b29b2ec73",
+    "3309fb6a0f38d2d3",
+    "44ab5ca33f6620a2",
+    "6befa18e226bb811",
+    "829a12d612b9184c",
+    "87c6b7ff2a04927e",
+    "9719365df7745901",
+    "cbd26724a981ac44"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-13",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "event_id": "fascinate_textiles_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "105.95",
+    "high": "110.78",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹105.95",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+            "row_ref": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+            "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 72,800 shares | price 105.95 | 2026-11-04"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹110.78",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+            "row_ref": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+            "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,00,000 shares | price 110.78 | 2026-11-03"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "3 Nov 2026 to 4 Nov 2026",
+    "sale_date_parsed": "2026-11-04",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,72,800 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 5,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_pratius_commercials_private_limited_bought",
+      "name_as_printed": "PRATIUS COMMERCIALS PRIVATE LIMITED",
+      "names_as_printed": [
+        "PRATIUS COMMERCIALS PRIVATE LIMITED"
+      ],
+      "name_clean": "pratius commercials private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "00f4454c04f29164",
+        "97354254be87c2b6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 100000,
+          "record_ids": [
+            "00f4454c04f29164"
+          ]
+        },
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 76000,
+          "record_ids": [
+            "97354254be87c2b6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · FASCINATE · PRATIUS COMMERCIALS PRIVATE LIMITED · BUY · 100000",
+          "row_ref": "03-NOV-2026 · FASCINATE · PRATIUS COMMERCIALS PRIVATE LIMITED · BUY · 100000",
+          "quote": "NSE | FASCINATE | PRATIUS COMMERCIALS PRIVATE LIMITED | BUY | 1,00,000 shares | price 110.8 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "00f4454c04f29164",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · FASCINATE · PRATIUS COMMERCIALS PRIVATE LIMITED · BUY · 76000",
+          "row_ref": "04-NOV-2026 · FASCINATE · PRATIUS COMMERCIALS PRIVATE LIMITED · BUY · 76000",
+          "quote": "NSE | FASCINATE | PRATIUS COMMERCIALS PRIVATE LIMITED | BUY | 76,000 shares | price 105.95 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "97354254be87c2b6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,76,000 shares in bulk deals on 3 Nov 2026 and 4 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_prognosis_securities_pvt_ltd",
+      "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+      "names_as_printed": [
+        "PROGNOSIS SECURITIES PVT. LTD"
+      ],
+      "name_clean": "prognosis securities pvt. ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "7ce0f60ac597accc",
+        "d1c01d2780b4b8dc"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 100000,
+          "record_ids": [
+            "7ce0f60ac597accc"
+          ]
+        },
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 72800,
+          "record_ids": [
+            "d1c01d2780b4b8dc"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+          "row_ref": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+          "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,00,000 shares | price 110.78 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7ce0f60ac597accc",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+          "row_ref": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+          "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 72,800 shares | price 105.95 | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d1c01d2780b4b8dc",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,72,800",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "18791160.00",
+          "rupees_high": "18791160.00",
+          "crore_low": "1.88",
+          "crore_high": "1.88",
+          "display": "₹1.88 crore",
+          "working": "1,00,000 shares × ₹110.78 = ₹1.11 crore (NSE 03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000); 72,800 shares × ₹105.95 = ₹77.13 lakh (NSE 04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800); total ₹1.88 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,00,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+                  "row_ref": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+                  "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,00,000 shares | price 110.78 | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹110.78",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+                  "row_ref": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 100000",
+                  "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,00,000 shares | price 110.78 | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "72,800",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+                  "row_ref": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+                  "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 72,800 shares | price 105.95 | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹105.95",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+                  "row_ref": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+                  "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 72,800 shares | price 105.95 | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+                  "row_ref": "04-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · SELL · 72800",
+                  "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | SELL | 72,800 shares | price 105.95 | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 12
+        }
+      },
+      "why_money": "sold 1,72,800 shares in bulk deals on 3 Nov 2026 and 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "annapurna_swadisht_bulk_deal_2026w44",
+          "company": "Annapurna Swadisht Ltd",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹33.33 lakh",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "annapurna_swadisht_bulk_deal_2026w44",
+          "company": "Annapurna Swadisht Ltd",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w43",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹11.35 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w43",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹25.34 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "rays_of_belief_bulk_deal_2026w43",
+          "company": "Rays of Belief Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹4.82 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "rays_of_belief_bulk_deal_2026w43",
+          "company": "Rays of Belief Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "vishal_nirmiti_bulk_deal_2026w44",
+          "company": "Vishal Nirmiti Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹1.33 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "voler_car_bulk_deal_2026w44",
+          "company": "Voler Car Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹1.84 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_prognosis_securities_pvt_ltd_bought",
+      "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+      "names_as_printed": [
+        "PROGNOSIS SECURITIES PVT. LTD"
+      ],
+      "name_clean": "prognosis securities pvt. ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "99158825a5cd638b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 40800,
+          "record_ids": [
+            "99158825a5cd638b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · BUY · 40800",
+          "row_ref": "03-NOV-2026 · FASCINATE · PROGNOSIS SECURITIES PVT. LTD · BUY · 40800",
+          "quote": "NSE | FASCINATE | PROGNOSIS SECURITIES PVT. LTD | BUY | 40,800 shares | price 111 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "99158825a5cd638b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 40,800 shares in a bulk deal on 3 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "annapurna_swadisht_bulk_deal_2026w44",
+          "company": "Annapurna Swadisht Ltd",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹33.33 lakh",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "annapurna_swadisht_bulk_deal_2026w44",
+          "company": "Annapurna Swadisht Ltd",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w43",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹11.35 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w43",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹25.34 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w44",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "rays_of_belief_bulk_deal_2026w43",
+          "company": "Rays of Belief Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹4.82 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "rays_of_belief_bulk_deal_2026w43",
+          "company": "Rays of Belief Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "vishal_nirmiti_bulk_deal_2026w44",
+          "company": "Vishal Nirmiti Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹1.33 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "voler_car_bulk_deal_2026w44",
+          "company": "Voler Car Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹1.84 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 20
+  }
+}

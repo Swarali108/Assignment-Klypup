@@ -1,0 +1,61 @@
+{
+  "event_id": "bls_polymers_limited_ipo_202610",
+  "event_type": "ipo",
+  "company": "BLS Polymers Limited",
+  "documents": [
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+      "doc_type": "prospectus",
+      "note": "BLS Polymers Limited - Prospectus",
+      "from_class": "ipo_prospectus"
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792994711898.pdf",
+      "doc_type": "announcement",
+      "note": "BLS Polymers Limited - Addendum to RHP and Price Band",
+      "from_class": "price_band_ad"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_ipo",
+      "sebi_prospectus",
+      "sebi_rhp"
+    ],
+    "first_seen": "2026-11-15T07:46:53+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "BLS Polymers Limited – RHP",
+        "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
+        "published": "Oct 19, 2026",
+        "class": "ipo_rhp"
+      },
+      {
+        "title": "BLS Polymers Limited - Addendum to RHP and Price Band",
+        "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-addendum-to-rhp-and-price-band_105419.html",
+        "published": "Oct 26, 2026",
+        "class": "price_band_ad"
+      },
+      {
+        "title": "BLS Polymers Limited - Prospectus",
+        "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-prospectus_105357.html",
+        "published": "Oct 30, 2026",
+        "class": "ipo_prospectus"
+      },
+      {
+        "title": "BLS Polymers Limited - Listed on NSE on 2026-11-03 (issue price 150)",
+        "link": "https://www.nseindia.in/market-data/all-upcoming-issues-ipo#listed-BLSPOLY",
+        "published": "2026-11-03",
+        "class": "listing_notice"
+      },
+      {
+        "title": "BLS Polymers Ltd - New Listing",
+        "link": "https://www.bseindia.com/corporates/ann.html#fd2e0174-84f2-4527-8e01-459ebea5cade",
+        "published": "2026-11-03",
+        "class": "listing_notice"
+      }
+    ]
+  }
+}

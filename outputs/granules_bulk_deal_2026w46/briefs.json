@@ -1,0 +1,56 @@
+{
+  "event_id": "granules_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_saumik_ketankumar_doshi",
+      "name_as_printed": "SAUMIK KETANKUMAR DOSHI",
+      "fields": {
+        "name": "SAUMIK KETANKUMAR DOSHI",
+        "role": "unknown",
+        "why_money": "sold 10,39,512 shares in a bulk deal on 12 Nov 2026",
+        "amount": "₹85.36 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹85.36 crore (10,39,512 shares × ₹821.12 = ₹85.36 crore (NSE 12-NOV-2026 · GRANULES · SAUMIK KETANKUMAR DOSHI · SELL · 1039512))",
+        "family_link": "'SAUMIK KETANKUMAR DOSHI' and 'SAUMIK KETANKUMAR DOSHI' share surname 'doshi' and middle name 'ketankumar'"
+      },
+      "placeholders": {
+        "name": "SAUMIK KETANKUMAR DOSHI",
+        "role": "unknown",
+        "amount": "₹85.36 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹85.36 crore",
+        "shares_offered": "10,39,512 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "SAUMIK KETANKUMAR DOSHI is a holder who sold 10,39,512 shares in a bulk deal, bringing money to them.",
+        "₹85.36 crore settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), so the money is already in hand.",
+        "The family link to another holder with the same surname and middle name is worth raising.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who sold {shares_offered} in a bulk deal, bringing money to them.",
+            "{proceeds} settled {timing}, so the money is already in hand.",
+            "The family link to another holder with the same surname and middle name is worth raising.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "SAUMIK KETANKUMAR DOSHI is a holder who sold 10,39,512 shares in a bulk deal, bringing money to them.",
+            "₹85.36 crore settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), so the money is already in hand.",
+            "The family link to another holder with the same surname and middle name is worth raising.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

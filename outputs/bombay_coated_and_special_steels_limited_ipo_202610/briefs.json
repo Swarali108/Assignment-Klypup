@@ -1,0 +1,296 @@
+{
+  "event_id": "bombay_coated_and_special_steels_limited_ipo_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_bhawna_nitin_gupta",
+      "name_as_printed": "Bhawna Nitin Gupta",
+      "fields": {
+        "name": "Bhawna Nitin Gupta",
+        "role": "Promoters",
+        "why_money": "holds 3,960,000 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "3,960,000 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "3,960,000 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'Bhawna Nitin Gupta' and 'Nitin Vijaykumar Gupta' share surname 'gupta', and the middle name 'nitin' of 'Bhawna Nitin Gupta' is the first name of 'Nitin Vijaykumar Gupta'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band"
+        ]
+      },
+      "placeholders": {
+        "name": "Bhawna Nitin Gupta",
+        "role": "Promoters",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "retained_shares": "3,960,000 shares",
+        "shares_held": "3,960,000 shares"
+      },
+      "lines": [
+        "Bhawna Nitin Gupta is a Promoter holding 3,960,000 shares before the offer and is not selling in it.",
+        "Their 3,960,000 shares stay locked in under the Minimum Promoters' Contribution rule and the promoter shares above the limit rule, each tied to Allotment.",
+        "Allotment date is not confirmed and no offer price or price band is set, so the value of the holding is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a Promoter holding {shares_held} before the offer and is not selling in it.",
+            "Their {retained_shares} stay locked in: Minimum Promoters' Contribution runs 18 months from Allotment, and promoter shares above the 20% limit run 6 months from Allotment.",
+            "Allotment date is not confirmed and no offer price or price band is set, so the value of the holding is unknown."
+          ],
+          "lines": [
+            "{name} is a Promoter holding {shares_held} before the offer and is not selling in it.",
+            "Their {retained_shares} stay locked in: Minimum Promoters' Contribution runs 18 months from Allotment, and promoter shares above the 20% limit run 6 months from Allotment.",
+            "Allotment date is not confirmed and no offer price or price band is set, so the value of the holding is unknown."
+          ],
+          "problem": "writes numbers instead of placeholders: 18, 20, 6"
+        },
+        {
+          "raw_lines": [
+            "{name} is a Promoter holding {shares_held} before the offer and is not selling in it.",
+            "Their {retained_shares} stay locked in under the Minimum Promoters' Contribution rule and the promoter shares above the limit rule, each tied to Allotment.",
+            "Allotment date is not confirmed and no offer price or price band is set, so the value of the holding is unknown."
+          ],
+          "lines": [
+            "Bhawna Nitin Gupta is a Promoter holding 3,960,000 shares before the offer and is not selling in it.",
+            "Their 3,960,000 shares stay locked in under the Minimum Promoters' Contribution rule and the promoter shares above the limit rule, each tied to Allotment.",
+            "Allotment date is not confirmed and no offer price or price band is set, so the value of the holding is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nitin_vijaykumar_gupta",
+      "name_as_printed": "Nitin Vijaykumar Gupta",
+      "fields": {
+        "name": "Nitin Vijaykumar Gupta",
+        "role": "Promoters",
+        "why_money": "holds 31,679,840 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "31,679,840 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "31,679,840 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'Nitin Vijaykumar Gupta' and 'Vijaykumar Himatrai Gupta' share surname 'gupta', and the middle name 'vijaykumar' of 'Nitin Vijaykumar Gupta' is the first name of 'Vijaykumar Himatrai Gupta'; 'Bhawna Nitin Gupta' and 'Nitin Vijaykumar Gupta' share surname 'gupta', and the middle name 'nitin' of 'Bhawna Nitin Gupta' is the first name of 'Nitin Vijaykumar Gupta'; 'Nitin Vijaykumar Gupta' and 'Sunita Vijaykumar Gupta' share surname 'gupta' and middle name 'vijaykumar'; 'Nitin Vijaykumar Gupta' and 'Ruchi Vijaykumar Gupta' share surname 'gupta' and middle name 'vijaykumar'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band"
+        ]
+      },
+      "placeholders": {
+        "name": "Nitin Vijaykumar Gupta",
+        "role": "Promoters",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "retained_shares": "31,679,840 shares",
+        "shares_held": "31,679,840 shares"
+      },
+      "lines": [
+        "Nitin Vijaykumar Gupta is a Promoter; money is not coming to them from this offer.",
+        "They keep 31,679,840 shares after the offer; the value is unknown until an offer price or band is confirmed.",
+        "Their retained shares lock in for Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents), so their holding stays in place for a while.",
+        "Caveat: the offer price and allotment date are not confirmed in the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Nitin Vijaykumar Gupta is a Promoter; money is not coming to them from this offer.",
+            "They keep {retained_shares} after the offer; the value is unknown until an offer price or band is confirmed.",
+            "Their retained shares lock in for {timing}, so their holding stays in place for a while.",
+            "Caveat: the offer price and allotment date are not confirmed in the documents."
+          ],
+          "lines": [
+            "Nitin Vijaykumar Gupta is a Promoter; money is not coming to them from this offer.",
+            "They keep 31,679,840 shares after the offer; the value is unknown until an offer price or band is confirmed.",
+            "Their retained shares lock in for Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents), so their holding stays in place for a while.",
+            "Caveat: the offer price and allotment date are not confirmed in the documents."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ruchi_vijaykumar_gupta",
+      "name_as_printed": "Ruchi Vijaykumar Gupta",
+      "fields": {
+        "name": "Ruchi Vijaykumar Gupta",
+        "role": "Promoter Group (other than our Promoters)",
+        "why_money": "holds 40 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "40 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "40 shares",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'Nitin Vijaykumar Gupta' and 'Ruchi Vijaykumar Gupta' share surname 'gupta' and middle name 'vijaykumar'; 'Ruchi Vijaykumar Gupta' and 'Vijaykumar Himatrai Gupta' share surname 'gupta', and the middle name 'vijaykumar' of 'Ruchi Vijaykumar Gupta' is the first name of 'Vijaykumar Himatrai Gupta'; 'Sunita Vijaykumar Gupta' and 'Ruchi Vijaykumar Gupta' share surname 'gupta' and middle name 'vijaykumar'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band"
+        ]
+      },
+      "placeholders": {
+        "name": "Ruchi Vijaykumar Gupta",
+        "role": "Promoter Group (other than our Promoters)",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "retained_shares": "40 shares",
+        "shares_held": "40 shares"
+      },
+      "lines": [
+        "Ruchi Vijaykumar Gupta, Promoter Group member, holds 40 shares before the offer and is not selling in it.",
+        "No confirmed offer price yet, so the value of 40 shares is unknown; timing is pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents).",
+        "Family link: shares a surname and middle name with Nitin and Sunita Gupta, both also in the Promoter Group.",
+        "Caveat: the offer price and allotment date are not yet confirmed in the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ruchi Vijaykumar Gupta, Promoter Group member, holds {shares_held} before the offer and is not selling in it.",
+            "No confirmed offer price yet, so the value of {retained_shares} is unknown; timing is {timing}.",
+            "Family link: shares a surname and middle name with Nitin and Sunita Gupta, both also in the Promoter Group.",
+            "Caveat: the offer price and allotment date are not yet confirmed in the documents."
+          ],
+          "lines": [
+            "Ruchi Vijaykumar Gupta, Promoter Group member, holds 40 shares before the offer and is not selling in it.",
+            "No confirmed offer price yet, so the value of 40 shares is unknown; timing is pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents).",
+            "Family link: shares a surname and middle name with Nitin and Sunita Gupta, both also in the Promoter Group.",
+            "Caveat: the offer price and allotment date are not yet confirmed in the documents."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_sunita_vijaykumar_gupta",
+      "name_as_printed": "Sunita Vijaykumar Gupta",
+      "fields": {
+        "name": "Sunita Vijaykumar Gupta",
+        "role": "Promoter Group (other than our Promoters)",
+        "why_money": "holds 40 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "40 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "40 shares",
+        "retained_shares_timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'Nitin Vijaykumar Gupta' and 'Sunita Vijaykumar Gupta' share surname 'gupta' and middle name 'vijaykumar'; 'Sunita Vijaykumar Gupta' and 'Vijaykumar Himatrai Gupta' share surname 'gupta', and the middle name 'vijaykumar' of 'Sunita Vijaykumar Gupta' is the first name of 'Vijaykumar Himatrai Gupta'; 'Sunita Vijaykumar Gupta' and 'Ruchi Vijaykumar Gupta' share surname 'gupta' and middle name 'vijaykumar'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band"
+        ]
+      },
+      "placeholders": {
+        "name": "Sunita Vijaykumar Gupta",
+        "role": "Promoter Group (other than our Promoters)",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "retained_shares": "40 shares",
+        "shares_held": "40 shares"
+      },
+      "lines": [
+        "Sunita Vijaykumar Gupta is Promoter Group (other than our Promoters) and holds 40 shares before the offer; they are not selling in it.",
+        "Their offer amount is unknown until a price band is confirmed, and retained shares are locked in for pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents).",
+        "They keep 40 shares, and family ties to other Gupta holders in this offer may be a useful conversation point.",
+        "Caveat: the offer price and allotment date are not yet confirmed, so the value and lock-in end date are unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is Promoter Group (other than our Promoters) and holds {shares_held} before the offer; they are not selling in it.",
+            "Their offer amount is unknown until a price band is confirmed, and retained shares are locked in for {timing}.",
+            "They keep {retained_shares}, and family ties to other Gupta holders in this offer may be a useful conversation point.",
+            "Caveat: the offer price and allotment date are not yet confirmed, so the value and lock-in end date are unknown."
+          ],
+          "lines": [
+            "Sunita Vijaykumar Gupta is Promoter Group (other than our Promoters) and holds 40 shares before the offer; they are not selling in it.",
+            "Their offer amount is unknown until a price band is confirmed, and retained shares are locked in for pre-Offer capital: 6 months from the date of Allotment (allotment date not confirmed from the documents).",
+            "They keep 40 shares, and family ties to other Gupta holders in this offer may be a useful conversation point.",
+            "Caveat: the offer price and allotment date are not yet confirmed, so the value and lock-in end date are unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_vijaykumar_himatrai_gupta",
+      "name_as_printed": "Vijaykumar Himatrai Gupta",
+      "fields": {
+        "name": "Vijaykumar Himatrai Gupta",
+        "role": "Promoters",
+        "why_money": "holds 3,960,000 shares before the offer; not selling in it",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "not applicable: not in the seller table",
+        "gain": "not applicable: not in the seller table",
+        "retained": "3,960,000 shares; value unknown: no confirmed offer price or price band",
+        "retained_shares": "3,960,000 shares",
+        "retained_shares_timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "family_link": "'Nitin Vijaykumar Gupta' and 'Vijaykumar Himatrai Gupta' share surname 'gupta', and the middle name 'vijaykumar' of 'Nitin Vijaykumar Gupta' is the first name of 'Vijaykumar Himatrai Gupta'; 'Sunita Vijaykumar Gupta' and 'Vijaykumar Himatrai Gupta' share surname 'gupta', and the middle name 'vijaykumar' of 'Sunita Vijaykumar Gupta' is the first name of 'Vijaykumar Himatrai Gupta'; 'Ruchi Vijaykumar Gupta' and 'Vijaykumar Himatrai Gupta' share surname 'gupta', and the middle name 'vijaykumar' of 'Ruchi Vijaykumar Gupta' is the first name of 'Vijaykumar Himatrai Gupta'",
+        "unknowns": [
+          "amount: no confirmed offer price or price band"
+        ]
+      },
+      "placeholders": {
+        "name": "Vijaykumar Himatrai Gupta",
+        "role": "Promoters",
+        "amount": "unknown: no confirmed offer price or price band",
+        "timing": "Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents)",
+        "retained_shares": "3,960,000 shares",
+        "shares_held": "3,960,000 shares"
+      },
+      "lines": [
+        "Vijaykumar Himatrai Gupta is a Promoter, holding 3,960,000 shares before the offer and not selling in it.",
+        "Their 3,960,000 shares are locked in under promoter timing rules, so the value stays with them through Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents).",
+        "Family link: Nitin, Sunita and Ruchi Vijaykumar Gupta share the Gupta surname and Vijaykumar middle name.",
+        "Amount unknown: no confirmed offer price or price band exists yet to value the retained shares."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Vijaykumar Himatrai Gupta is a Promoter, holding {shares_held} before the offer and not selling in it.",
+            "Their {retained_shares} are locked in under promoter timing rules, so the value stays with them through {timing}.",
+            "Family link: Nitin, Sunita and Ruchi Vijaykumar Gupta share the Gupta surname and Vijaykumar middle name.",
+            "Amount unknown: no confirmed offer price or price band exists yet to value the retained shares."
+          ],
+          "lines": [
+            "Vijaykumar Himatrai Gupta is a Promoter, holding 3,960,000 shares before the offer and not selling in it.",
+            "Their 3,960,000 shares are locked in under promoter timing rules, so the value stays with them through Minimum Promoters' Contribution: 18 months from the date of Allotment (allotment date not confirmed from the documents); promoter shares above the 20%: 6 months from the date of Allotment (allotment date not confirmed from the documents).",
+            "Family link: Nitin, Sunita and Ruchi Vijaykumar Gupta share the Gupta surname and Vijaykumar middle name.",
+            "Amount unknown: no confirmed offer price or price band exists yet to value the retained shares."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

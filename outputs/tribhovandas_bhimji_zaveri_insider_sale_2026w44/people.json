@@ -1,0 +1,850 @@
+{
+  "event_id": "tribhovandas_bhimji_zaveri_insider_sale_2026w44",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "30 Oct 2026",
+    "sale_date_parsed": "2026-10-30",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "9,89,19,550 shares sold by 6 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
+        "records": 167,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 12,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_binaisha_shrikant_zaveri",
+      "name_as_printed": "Binaisha Shrikant Zaveri",
+      "names_as_printed": [
+        "Binaisha Shrikant Zaveri"
+      ],
+      "name_clean": "binaisha shrikant zaveri",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "e2e2eb66d22152b9",
+        "ea333b0cffaf4b16"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 10570000,
+          "record_ids": [
+            "e2e2eb66d22152b9",
+            "ea333b0cffaf4b16"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "1 disclosure row(s) printed on more than one exchange counted once: NSE XBRL context Disclosure3"
+      ],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Raashi Shrikant Zaveri' and 'Binaisha Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'; 'Binaisha Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Binaisha Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'; 'Bindu Shrikant Zaveri' and 'Binaisha Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165457 · Binaisha Shrikant Zaveri",
+          "row_ref": "Fld_ID 165457 · Binaisha Shrikant Zaveri",
+          "quote": "BSE | 534369 | Binaisha Shrikant Zaveri | SELL | 52,85,000 shares | value 1104565000.00 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e2e2eb66d22152b9",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure3",
+          "row_ref": "XBRL context Disclosure3",
+          "quote": "NSE | TBZ | Binaisha Shrikant Zaveri | SELL | 52,85,000 shares | value 1104565000 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ea333b0cffaf4b16",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "52,85,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1104565000.00",
+          "rupees_high": "1104565000.00",
+          "crore_low": "110.46",
+          "crore_high": "110.46",
+          "display": "₹110.46 crore",
+          "working": "52,85,000 shares, value as printed ₹110.46 crore (BSE Fld_ID 165457 · Binaisha Shrikant Zaveri)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "52,85,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Binaisha Shrikant Zaveri",
+                  "row_ref": "Fld_ID 165457 · Binaisha Shrikant Zaveri",
+                  "quote": "BSE | 534369 | Binaisha Shrikant Zaveri | SELL | 52,85,000 shares | value 1104565000.00 | Off Market | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹110.46 crore",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Binaisha Shrikant Zaveri",
+                  "row_ref": "Fld_ID 165457 · Binaisha Shrikant Zaveri",
+                  "quote": "BSE | 534369 | Binaisha Shrikant Zaveri | SELL | 52,85,000 shares | value 1104565000.00 | Off Market | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+          "trade_date": "2026-10-30",
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 52,85,000 shares (Off Market) on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_bindu_shrikant_zaveri",
+      "name_as_printed": "Bindu Shrikant Zaveri",
+      "names_as_printed": [
+        "Bindu Shrikant Zaveri"
+      ],
+      "name_clean": "bindu shrikant zaveri",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "89f758a499299f00",
+        "f2654eafea333d15"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 7000000,
+          "record_ids": [
+            "89f758a499299f00",
+            "f2654eafea333d15"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "1 disclosure row(s) printed on more than one exchange counted once: BSE Fld_ID 165457 · Bindu Shrikant Zaveri"
+      ],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Raashi Shrikant Zaveri' and 'Bindu Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'; 'Bindu Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Bindu Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'; 'Bindu Shrikant Zaveri' and 'Binaisha Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure2",
+          "row_ref": "XBRL context Disclosure2",
+          "quote": "NSE | TBZ | Bindu Shrikant Zaveri | SELL | 35,00,000 shares | value 731500000 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "89f758a499299f00",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165457 · Bindu Shrikant Zaveri",
+          "row_ref": "Fld_ID 165457 · Bindu Shrikant Zaveri",
+          "quote": "BSE | 534369 | Bindu Shrikant Zaveri | SELL | 35,00,000 shares | value 731500000.00 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f2654eafea333d15",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "35,00,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "731500000",
+          "rupees_high": "731500000",
+          "crore_low": "73.15",
+          "crore_high": "73.15",
+          "display": "₹73.15 crore",
+          "working": "35,00,000 shares, value as printed ₹73.15 crore (NSE XBRL context Disclosure2)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "35,00,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | TBZ | Bindu Shrikant Zaveri | SELL | 35,00,000 shares | value 731500000 | Off Market | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹73.15 crore",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | TBZ | Bindu Shrikant Zaveri | SELL | 35,00,000 shares | value 731500000 | Off Market | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+          "trade_date": "2026-10-30",
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 35,00,000 shares (Off Market) on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_raashi_shrikant_zaveri",
+      "name_as_printed": "Raashi Shrikant Zaveri",
+      "names_as_printed": [
+        "Raashi Shrikant Zaveri"
+      ],
+      "name_clean": "raashi shrikant zaveri",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "0514908283e63a63",
+        "e4837338d33baaf3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 9145000,
+          "record_ids": [
+            "0514908283e63a63",
+            "e4837338d33baaf3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "1 disclosure row(s) printed on more than one exchange counted once: BSE Fld_ID 165457 · Raashi Shrikant Zaveri"
+      ],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Raashi Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Raashi Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'; 'Raashi Shrikant Zaveri' and 'Bindu Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'; 'Raashi Shrikant Zaveri' and 'Binaisha Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure4",
+          "row_ref": "XBRL context Disclosure4",
+          "quote": "NSE | TBZ | Raashi Shrikant Zaveri | SELL | 45,72,500 shares | value 955652500 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0514908283e63a63",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165457 · Raashi Shrikant Zaveri",
+          "row_ref": "Fld_ID 165457 · Raashi Shrikant Zaveri",
+          "quote": "BSE | 534369 | Raashi Shrikant Zaveri | SELL | 45,72,500 shares | value 955652500.00 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e4837338d33baaf3",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "45,72,500",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "955652500",
+          "rupees_high": "955652500",
+          "crore_low": "95.57",
+          "crore_high": "95.57",
+          "display": "₹95.57 crore",
+          "working": "45,72,500 shares, value as printed ₹95.57 crore (NSE XBRL context Disclosure4)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "45,72,500",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | TBZ | Raashi Shrikant Zaveri | SELL | 45,72,500 shares | value 955652500 | Off Market | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹95.57 crore",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | TBZ | Raashi Shrikant Zaveri | SELL | 45,72,500 shares | value 955652500 | Off Market | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+          "trade_date": "2026-10-30",
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 45,72,500 shares (Off Market) on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_shrikant_gopaldas_zaveri",
+      "name_as_printed": "Shrikant Gopaldas Zaveri",
+      "names_as_printed": [
+        "Shrikant Gopaldas Zaveri"
+      ],
+      "name_clean": "shrikant gopaldas zaveri",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "48ef2bcb1e59a8af",
+        "e509040986611ae6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 66804550,
+          "record_ids": [
+            "48ef2bcb1e59a8af",
+            "e509040986611ae6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "1 disclosure row(s) printed on more than one exchange counted once: NSE XBRL context Disclosure1"
+      ],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Raashi Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Raashi Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'; 'Bindu Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Bindu Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'; 'Binaisha Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Binaisha Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165457 · Shrikant Gopaldas Zaveri",
+          "row_ref": "Fld_ID 165457 · Shrikant Gopaldas Zaveri",
+          "quote": "BSE | 534369 | Shrikant Gopaldas Zaveri | SELL | 3,34,02,275 shares | value 6981075475.00 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "48ef2bcb1e59a8af",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | TBZ | Shrikant Gopaldas Zaveri | SELL | 3,34,02,275 shares | value 6981075475 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e509040986611ae6",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,34,02,275",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "6981075475.00",
+          "rupees_high": "6981075475.00",
+          "crore_low": "698.11",
+          "crore_high": "698.11",
+          "display": "₹698.11 crore",
+          "working": "3,34,02,275 shares, value as printed ₹698.11 crore (BSE Fld_ID 165457 · Shrikant Gopaldas Zaveri)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,34,02,275",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Shrikant Gopaldas Zaveri",
+                  "row_ref": "Fld_ID 165457 · Shrikant Gopaldas Zaveri",
+                  "quote": "BSE | 534369 | Shrikant Gopaldas Zaveri | SELL | 3,34,02,275 shares | value 6981075475.00 | Off Market | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹698.11 crore",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Shrikant Gopaldas Zaveri",
+                  "row_ref": "Fld_ID 165457 · Shrikant Gopaldas Zaveri",
+                  "quote": "BSE | 534369 | Shrikant Gopaldas Zaveri | SELL | 3,34,02,275 shares | value 6981075475.00 | Off Market | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+          "trade_date": "2026-10-30",
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 3,34,02,275 shares (Off Market) on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_tribhovandas_bhimji_zaveri_tbz_private_limited",
+      "name_as_printed": "Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+      "names_as_printed": [
+        "Tribhovandas Bhimji Zaveri (TBZ) Private Limited"
+      ],
+      "name_clean": "tribhovandas bhimji zaveri (tbz) private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": "Promoter group",
+      "role_by_section": {
+        "exchange_record": "Promoter group"
+      },
+      "side": "sell",
+      "record_ids": [
+        "916b3bb93413e5e9",
+        "fd5dafc9297dea8e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 2700000,
+          "record_ids": [
+            "916b3bb93413e5e9",
+            "fd5dafc9297dea8e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "1 disclosure row(s) printed on more than one exchange counted once: NSE XBRL context Disclosure5"
+      ],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+          "row_ref": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+          "quote": "BSE | 534369 | Tribhovandas Bhimji Zaveri (TBZ) Private Limited | SELL | 13,50,000 shares | value 282150000.00 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "916b3bb93413e5e9",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure5",
+          "row_ref": "XBRL context Disclosure5",
+          "quote": "NSE | TBZ | Tribhovandas Bhimji Zaveri (TBZ) Private Limited | SELL | 13,50,000 shares | value 282150000 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "fd5dafc9297dea8e",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "13,50,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "282150000.00",
+          "rupees_high": "282150000.00",
+          "crore_low": "28.22",
+          "crore_high": "28.22",
+          "display": "₹28.22 crore",
+          "working": "13,50,000 shares, value as printed ₹28.22 crore (BSE Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "13,50,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+                  "row_ref": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+                  "quote": "BSE | 534369 | Tribhovandas Bhimji Zaveri (TBZ) Private Limited | SELL | 13,50,000 shares | value 282150000.00 | Off Market | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹28.22 crore",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+                  "row_ref": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri (TBZ) Private Limited",
+                  "quote": "BSE | 534369 | Tribhovandas Bhimji Zaveri (TBZ) Private Limited | SELL | 13,50,000 shares | value 282150000.00 | Off Market | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+          "trade_date": "2026-10-30",
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 13,50,000 shares (Off Market) on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_tribhovandas_bhimji_zaveri_jewellers_mumbai_private_limited",
+      "name_as_printed": "Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+      "names_as_printed": [
+        "Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited"
+      ],
+      "name_clean": "tribhovandas bhimji zaveri jewellers (mumbai) private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": "Promoter group",
+      "role_by_section": {
+        "exchange_record": "Promoter group"
+      },
+      "side": "sell",
+      "record_ids": [
+        "525d2f027c1ae330",
+        "83dd6687dccab7f2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 2700000,
+          "record_ids": [
+            "525d2f027c1ae330",
+            "83dd6687dccab7f2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "1 disclosure row(s) printed on more than one exchange counted once: NSE XBRL context Disclosure6"
+      ],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+          "pdf_index": null,
+          "printed_page": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+          "row_ref": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+          "quote": "BSE | 534369 | Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited | SELL | 13,50,000 shares | value 282150000.00 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "525d2f027c1ae330",
+          "exchange": "BSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_5889_20261031_155627908_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure6",
+          "row_ref": "XBRL context Disclosure6",
+          "quote": "NSE | TBZ | Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited | SELL | 13,50,000 shares | value 282150000 | Off Market | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "83dd6687dccab7f2",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "13,50,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "282150000.00",
+          "rupees_high": "282150000.00",
+          "crore_low": "28.22",
+          "crore_high": "28.22",
+          "display": "₹28.22 crore",
+          "working": "13,50,000 shares, value as printed ₹28.22 crore (BSE Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "13,50,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+                  "row_ref": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+                  "quote": "BSE | 534369 | Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited | SELL | 13,50,000 shares | value 282150000.00 | Off Market | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹28.22 crore",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_534369_3110202613956_PIT.html",
+                  "pdf_index": null,
+                  "printed_page": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+                  "row_ref": "Fld_ID 165457 · Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited",
+                  "quote": "BSE | 534369 | Tribhovandas Bhimji Zaveri Jewellers (Mumbai) Private Limited | SELL | 13,50,000 shares | value 282150000.00 | Off Market | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "off-market transfer (mode as printed: Off Market): paid between the parties, so there is no exchange settlement date",
+          "trade_date": "2026-10-30",
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 13,50,000 shares (Off Market) on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "Binaisha Shrikant Zaveri",
+        "Bindu Shrikant Zaveri",
+        "Raashi Shrikant Zaveri",
+        "Shrikant Gopaldas Zaveri"
+      ],
+      "reasons": [
+        "'Raashi Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Raashi Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'",
+        "'Raashi Shrikant Zaveri' and 'Bindu Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'",
+        "'Raashi Shrikant Zaveri' and 'Binaisha Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'",
+        "'Bindu Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Bindu Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'",
+        "'Binaisha Shrikant Zaveri' and 'Shrikant Gopaldas Zaveri' share surname 'zaveri', and the middle name 'shrikant' of 'Binaisha Shrikant Zaveri' is the first name of 'Shrikant Gopaldas Zaveri'",
+        "'Bindu Shrikant Zaveri' and 'Binaisha Shrikant Zaveri' share surname 'zaveri' and middle name 'shrikant'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 6,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 4
+    },
+    "by_confidence": {
+      "high": 6
+    },
+    "sellers": 6,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 6,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 6
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 6,
+    "index_lookups": 6,
+    "follow_on_matches": 0
+  }
+}

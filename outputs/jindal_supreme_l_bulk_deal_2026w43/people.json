@@ -1,0 +1,433 @@
+{
+  "event_id": "jindal_supreme_l_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "150",
+    "high": "150",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹150",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+            "row_ref": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+            "quote": "NSE | JSIPL | CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND | SELL | 5,37,659 shares | price 150 | 2026-10-21"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "21 Oct 2026",
+    "sale_date_parsed": "2026-10-21",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "5,37,659 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_aprp_ventures_llp_bought",
+      "name_as_printed": "APRP VENTURES LLP",
+      "names_as_printed": [
+        "APRP VENTURES LLP"
+      ],
+      "name_clean": "aprp ventures llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ventures'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "b38fe7ed22c521b2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 297232,
+          "record_ids": [
+            "b38fe7ed22c521b2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · JSIPL · APRP VENTURES LLP · BUY · 297232",
+          "row_ref": "21-OCT-2026 · JSIPL · APRP VENTURES LLP · BUY · 297232",
+          "quote": "NSE | JSIPL | APRP VENTURES LLP | BUY | 2,97,232 shares | price 149.85 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b38fe7ed22c521b2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,97,232 shares in a bulk deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_craft_emerging_market_fund_pcc_citadel_capital_fund",
+      "name_as_printed": "CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND",
+      "names_as_printed": [
+        "CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND"
+      ],
+      "name_clean": "craft emerging market fund pcc-citadel capital fund",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e410419eaca33b96"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 537659,
+          "record_ids": [
+            "e410419eaca33b96"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+          "row_ref": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+          "quote": "NSE | JSIPL | CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND | SELL | 5,37,659 shares | price 150 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e410419eaca33b96",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "5,37,659",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "80648850",
+          "rupees_high": "80648850",
+          "crore_low": "8.06",
+          "crore_high": "8.06",
+          "display": "₹8.06 crore",
+          "working": "5,37,659 shares × ₹150 = ₹8.06 crore (NSE 21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "5,37,659",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+                  "row_ref": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+                  "quote": "NSE | JSIPL | CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND | SELL | 5,37,659 shares | price 150 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹150",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+                  "row_ref": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+                  "quote": "NSE | JSIPL | CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND | SELL | 5,37,659 shares | price 150 | 2026-10-21"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "trade_date": "2026-10-21",
+          "settles_on": "2026-10-22",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "21 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+                  "row_ref": "21-OCT-2026 · JSIPL · CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND · SELL · 537659",
+                  "quote": "NSE | JSIPL | CRAFT EMERGING MARKET FUND PCC-CITADEL CAPITAL FUND | SELL | 5,37,659 shares | price 150 | 2026-10-21"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        }
+      },
+      "why_money": "sold 5,37,659 shares in a bulk deal on 21 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_neomile_growth_fund_series_i_bought",
+      "name_as_printed": "NEOMILE GROWTH FUND-SERIES I",
+      "names_as_printed": [
+        "NEOMILE GROWTH FUND-SERIES I"
+      ],
+      "name_clean": "neomile growth fund-series i",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c3b8a68aa92b673c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 1079995,
+          "record_ids": [
+            "c3b8a68aa92b673c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · JSIPL · NEOMILE GROWTH FUND-SERIES I · BUY · 1079995",
+          "row_ref": "21-OCT-2026 · JSIPL · NEOMILE GROWTH FUND-SERIES I · BUY · 1079995",
+          "quote": "NSE | JSIPL | NEOMILE GROWTH FUND-SERIES I | BUY | 10,79,995 shares | price 149.94 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c3b8a68aa92b673c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,79,995 shares in a bulk deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_poorvi_marg_private_limited_bought",
+      "name_as_printed": "POORVI MARG PRIVATE LIMITED",
+      "names_as_printed": [
+        "POORVI MARG PRIVATE LIMITED"
+      ],
+      "name_clean": "poorvi marg private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "a15e08ca1ae4d1ba"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 300000,
+          "record_ids": [
+            "a15e08ca1ae4d1ba"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · JSIPL · POORVI MARG PRIVATE LIMITED · BUY · 300000",
+          "row_ref": "21-OCT-2026 · JSIPL · POORVI MARG PRIVATE LIMITED · BUY · 300000",
+          "quote": "NSE | JSIPL | POORVI MARG PRIVATE LIMITED | BUY | 3,00,000 shares | price 150 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a15e08ca1ae4d1ba",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,00,000 shares in a bulk deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 3,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 0
+  }
+}

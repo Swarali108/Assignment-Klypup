@@ -1,0 +1,681 @@
+{
+  "event_id": "panth_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "15.07",
+    "high": "15.07",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹15.07",
+        "evidence": [
+          {
+            "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+            "pdf_index": null,
+            "printed_page": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+            "row_ref": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+            "quote": "BSE | PANTH | BHAVISHYA ECOMMERCE PRIVATE LIMITED | SELL | 9,94,809 shares | price 15.07 | 2026-11-13"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "13 Nov 2026",
+    "sale_date_parsed": "2026-11-13",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "21,36,485 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 5,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_bhavishya_ecommerce_private_limited",
+      "name_as_printed": "BHAVISHYA ECOMMERCE PRIVATE LIMITED",
+      "names_as_printed": [
+        "BHAVISHYA ECOMMERCE PRIVATE LIMITED"
+      ],
+      "name_clean": "bhavishya ecommerce private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "650498d91699b8ef"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 994809,
+          "record_ids": [
+            "650498d91699b8ef"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+          "row_ref": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+          "quote": "BSE | PANTH | BHAVISHYA ECOMMERCE PRIVATE LIMITED | SELL | 9,94,809 shares | price 15.07 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "650498d91699b8ef",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "9,94,809",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "14991771.63",
+          "rupees_high": "14991771.63",
+          "crore_low": "1.50",
+          "crore_high": "1.50",
+          "display": "₹1.50 crore",
+          "working": "9,94,809 shares × ₹15.07 = ₹1.50 crore (BSE 13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "9,94,809",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+                  "row_ref": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+                  "quote": "BSE | PANTH | BHAVISHYA ECOMMERCE PRIVATE LIMITED | SELL | 9,94,809 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹15.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+                  "row_ref": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+                  "quote": "BSE | PANTH | BHAVISHYA ECOMMERCE PRIVATE LIMITED | SELL | 9,94,809 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+                  "row_ref": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · S · 994809",
+                  "quote": "BSE | PANTH | BHAVISHYA ECOMMERCE PRIVATE LIMITED | SELL | 9,94,809 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 9,94,809 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "kshitij_polyline_bulk_deal_2026w44",
+          "company": "Kshitij Polyline Limited",
+          "name_as_printed": "BHAVISHYA ECOMMERCE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'BHAVISHYA ECOMMERCE PRIVATE LIMITED' / 'BHAVISHYA ECOMMERCE PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_bhavishya_ecommerce_private_limited_bought",
+      "name_as_printed": "BHAVISHYA ECOMMERCE PRIVATE LIMITED",
+      "names_as_printed": [
+        "BHAVISHYA ECOMMERCE PRIVATE LIMITED"
+      ],
+      "name_clean": "bhavishya ecommerce private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "7f34df6962b938f1"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 144474,
+          "record_ids": [
+            "7f34df6962b938f1"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · B · 144474",
+          "row_ref": "13/11/2026 · PANTH · BHAVISHYA ECOMMERCE PRIVATE LIMITED · B · 144474",
+          "quote": "BSE | PANTH | BHAVISHYA ECOMMERCE PRIVATE LIMITED | BUY | 1,44,474 shares | price 15.04 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7f34df6962b938f1",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,44,474 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "kshitij_polyline_bulk_deal_2026w44",
+          "company": "Kshitij Polyline Limited",
+          "name_as_printed": "BHAVISHYA ECOMMERCE PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'BHAVISHYA ECOMMERCE PRIVATE LIMITED' / 'BHAVISHYA ECOMMERCE PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mahender_agarwal",
+      "name_as_printed": "MAHENDER AGARWAL",
+      "names_as_printed": [
+        "MAHENDER AGARWAL"
+      ],
+      "name_clean": "mahender agarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "b3484ccf596bcf55"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 318481,
+          "record_ids": [
+            "b3484ccf596bcf55"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+          "row_ref": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+          "quote": "BSE | PANTH | MAHENDER AGARWAL | SELL | 3,18,481 shares | price 15.07 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b3484ccf596bcf55",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,18,481",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "4799508.67",
+          "rupees_high": "4799508.67",
+          "crore_low": "0.48",
+          "crore_high": "0.48",
+          "display": "₹48.00 lakh",
+          "working": "3,18,481 shares × ₹15.07 = ₹48.00 lakh (BSE 13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,18,481",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+                  "row_ref": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+                  "quote": "BSE | PANTH | MAHENDER AGARWAL | SELL | 3,18,481 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹15.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+                  "row_ref": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+                  "quote": "BSE | PANTH | MAHENDER AGARWAL | SELL | 3,18,481 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+                  "row_ref": "13/11/2026 · PANTH · MAHENDER AGARWAL · S · 318481",
+                  "quote": "BSE | PANTH | MAHENDER AGARWAL | SELL | 3,18,481 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 3,18,481 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_satish_mejiyatar",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "names_as_printed": [
+        "SATISH MEJIYATAR"
+      ],
+      "name_clean": "satish mejiyatar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "b56e1c9a8f24aad7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 823195,
+          "record_ids": [
+            "b56e1c9a8f24aad7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+          "row_ref": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+          "quote": "BSE | PANTH | SATISH MEJIYATAR | SELL | 8,23,195 shares | price 15.07 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b56e1c9a8f24aad7",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "8,23,195",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "12405548.65",
+          "rupees_high": "12405548.65",
+          "crore_low": "1.24",
+          "crore_high": "1.24",
+          "display": "₹1.24 crore",
+          "working": "8,23,195 shares × ₹15.07 = ₹1.24 crore (BSE 13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "8,23,195",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+                  "row_ref": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+                  "quote": "BSE | PANTH | SATISH MEJIYATAR | SELL | 8,23,195 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹15.07",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+                  "row_ref": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+                  "quote": "BSE | PANTH | SATISH MEJIYATAR | SELL | 8,23,195 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "trade_date": "2026-11-13",
+          "settles_on": "2026-11-16",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "13 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+                  "pdf_index": null,
+                  "printed_page": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+                  "row_ref": "13/11/2026 · PANTH · SATISH MEJIYATAR · S · 823195",
+                  "quote": "BSE | PANTH | SATISH MEJIYATAR | SELL | 8,23,195 shares | price 15.07 | 2026-11-13"
+                }
+              ]
+            }
+          ],
+          "days_since": 0
+        }
+      },
+      "why_money": "sold 8,23,195 shares in a bulk deal on 13 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "kshitij_polyline_bulk_deal_2026w43",
+          "company": "Kshitij Polyline Limited",
+          "name_as_printed": "SATISH MEJIYATAR",
+          "role": null,
+          "amount": "₹85.00 lakh",
+          "trigger_date": "2026-10-20",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SATISH MEJIYATAR' / 'SATISH MEJIYATAR'"
+        },
+        {
+          "event_id": "kshitij_polyline_bulk_deal_2026w44",
+          "company": "Kshitij Polyline Limited",
+          "name_as_printed": "SATISH MEJIYATAR",
+          "role": null,
+          "amount": "₹46.27 lakh",
+          "trigger_date": "2026-11-02",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SATISH MEJIYATAR' / 'SATISH MEJIYATAR'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_satish_mejiyatar_bought",
+      "name_as_printed": "SATISH MEJIYATAR",
+      "names_as_printed": [
+        "SATISH MEJIYATAR"
+      ],
+      "name_clean": "satish mejiyatar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f5e51a727c029901"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-13",
+          "quantity": 890525,
+          "record_ids": [
+            "f5e51a727c029901"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "link": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+          "pdf_index": null,
+          "printed_page": "13/11/2026 · PANTH · SATISH MEJIYATAR · B · 890525",
+          "row_ref": "13/11/2026 · PANTH · SATISH MEJIYATAR · B · 890525",
+          "quote": "BSE | PANTH | SATISH MEJIYATAR | BUY | 8,90,525 shares | price 14.99 | 2026-11-13",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f5e51a727c029901",
+          "exchange": "BSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 8,90,525 shares in a bulk deal on 13 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "kshitij_polyline_bulk_deal_2026w43",
+          "company": "Kshitij Polyline Limited",
+          "name_as_printed": "SATISH MEJIYATAR",
+          "role": null,
+          "amount": "₹85.00 lakh",
+          "trigger_date": "2026-10-20",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SATISH MEJIYATAR' / 'SATISH MEJIYATAR'"
+        },
+        {
+          "event_id": "kshitij_polyline_bulk_deal_2026w44",
+          "company": "Kshitij Polyline Limited",
+          "name_as_printed": "SATISH MEJIYATAR",
+          "role": null,
+          "amount": "₹46.27 lakh",
+          "trigger_date": "2026-11-02",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'SATISH MEJIYATAR' / 'SATISH MEJIYATAR'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 5,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 3
+    },
+    "by_confidence": {
+      "high": 5
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 5
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 5,
+    "follow_on_matches": 6
+  }
+}

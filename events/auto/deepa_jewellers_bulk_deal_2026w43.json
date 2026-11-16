@@ -1,0 +1,21 @@
+{
+  "event_id": "deepa_jewellers_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Deepa Jewellers Limited",
+  "documents": [],
+  "records": [
+    "2828d9dd511b38d3",
+    "306b894f8c42b323",
+    "52e9888453ab36c3",
+    "becf6d8d8b030fd9"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-19",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

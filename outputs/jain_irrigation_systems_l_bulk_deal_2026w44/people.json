@@ -1,0 +1,1109 @@
+{
+  "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "25.28",
+    "high": "28.49",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹25.28",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+            "row_ref": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+            "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 42,71,556 shares | price 25.28 | 2026-10-27"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹28.49",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+            "row_ref": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+            "quote": "NSE | JISLJALEQS | NITN KAPOOR | SELL | 1,15,86,211 shares | price 28.49 | 2026-10-30"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026 to 30 Oct 2026",
+    "sale_date_parsed": "2026-10-30",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "3,53,86,029 shares sold by 4 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 10,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_laxmi_trade_solutions",
+      "name_as_printed": "LAXMI TRADE SOLUTIONS",
+      "names_as_printed": [
+        "LAXMI TRADE SOLUTIONS"
+      ],
+      "name_clean": "laxmi trade solutions",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'solutions' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "f2ad7854a68cae4f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 6050894,
+          "record_ids": [
+            "f2ad7854a68cae4f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+          "quote": "NSE | JISLJALEQS | LAXMI TRADE SOLUTIONS | SELL | 60,50,894 shares | price 27.65 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f2ad7854a68cae4f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "60,50,894",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "167307219.10",
+          "rupees_high": "167307219.10",
+          "crore_low": "16.73",
+          "crore_high": "16.73",
+          "display": "₹16.73 crore",
+          "working": "60,50,894 shares × ₹27.65 = ₹16.73 crore (NSE 30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "60,50,894",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+                  "quote": "NSE | JISLJALEQS | LAXMI TRADE SOLUTIONS | SELL | 60,50,894 shares | price 27.65 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹27.65",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+                  "quote": "NSE | JISLJALEQS | LAXMI TRADE SOLUTIONS | SELL | 60,50,894 shares | price 27.65 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · SELL · 6050894",
+                  "quote": "NSE | JISLJALEQS | LAXMI TRADE SOLUTIONS | SELL | 60,50,894 shares | price 27.65 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 14
+        }
+      },
+      "why_money": "sold 60,50,894 shares in a bulk deal on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_laxmi_trade_solutions_bought",
+      "name_as_printed": "LAXMI TRADE SOLUTIONS",
+      "names_as_printed": [
+        "LAXMI TRADE SOLUTIONS"
+      ],
+      "name_clean": "laxmi trade solutions",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'solutions' (exchange counterparty word)",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "1f35aee0384764df"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 6000894,
+          "record_ids": [
+            "1f35aee0384764df"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · BUY · 6000894",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · LAXMI TRADE SOLUTIONS · BUY · 6000894",
+          "quote": "NSE | JISLJALEQS | LAXMI TRADE SOLUTIONS | BUY | 60,00,894 shares | price 27.86 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1f35aee0384764df",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 60,00,894 shares in a bulk deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_mansi_share_and_stock_broking_private_limited",
+      "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED"
+      ],
+      "name_clean": "mansi share and stock broking private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "2e24d654412f7723"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 3867654,
+          "record_ids": [
+            "2e24d654412f7723"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+          "quote": "NSE | JISLJALEQS | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 38,67,654 shares | price 28.4 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "2e24d654412f7723",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "38,67,654",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "109841373.6",
+          "rupees_high": "109841373.6",
+          "crore_low": "10.98",
+          "crore_high": "10.98",
+          "display": "₹10.98 crore",
+          "working": "38,67,654 shares × ₹28.4 = ₹10.98 crore (NSE 30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "38,67,654",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+                  "quote": "NSE | JISLJALEQS | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 38,67,654 shares | price 28.4 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹28.4",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+                  "quote": "NSE | JISLJALEQS | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 38,67,654 shares | price 28.4 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 3867654",
+                  "quote": "NSE | JISLJALEQS | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 38,67,654 shares | price 28.4 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 14
+        }
+      },
+      "why_money": "sold 38,67,654 shares in a bulk deal on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹28.15 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹34.68 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹98.61 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mansi_share_and_stock_broking_private_limited_bought",
+      "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED"
+      ],
+      "name_clean": "mansi share and stock broking private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "18de649880a9162c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 4567654,
+          "record_ids": [
+            "18de649880a9162c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 4567654",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 4567654",
+          "quote": "NSE | JISLJALEQS | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | BUY | 45,67,654 shares | price 28.5 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "18de649880a9162c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 45,67,654 shares in a bulk deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹28.15 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹34.68 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹98.61 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_nitn_kapoor",
+      "name_as_printed": "NITN KAPOOR",
+      "names_as_printed": [
+        "NITN KAPOOR"
+      ],
+      "name_clean": "nitn kapoor",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "5d499be2a6bed12f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 11586211,
+          "record_ids": [
+            "5d499be2a6bed12f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+          "quote": "NSE | JISLJALEQS | NITN KAPOOR | SELL | 1,15,86,211 shares | price 28.49 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5d499be2a6bed12f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,15,86,211",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "330091151.39",
+          "rupees_high": "330091151.39",
+          "crore_low": "33.01",
+          "crore_high": "33.01",
+          "display": "₹33.01 crore",
+          "working": "1,15,86,211 shares × ₹28.49 = ₹33.01 crore (NSE 30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,15,86,211",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR | SELL | 1,15,86,211 shares | price 28.49 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹28.49",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR | SELL | 1,15,86,211 shares | price 28.49 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · SELL · 11586211",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR | SELL | 1,15,86,211 shares | price 28.49 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 14
+        }
+      },
+      "why_money": "sold 1,15,86,211 shares in a bulk deal on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nitn_kapoor_bought",
+      "name_as_printed": "NITN KAPOOR",
+      "names_as_printed": [
+        "NITN KAPOOR"
+      ],
+      "name_clean": "nitn kapoor",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "7656ac3fcb2fadc7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 11586211,
+          "record_ids": [
+            "7656ac3fcb2fadc7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · BUY · 11586211",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · NITN  KAPOOR · BUY · 11586211",
+          "quote": "NSE | JISLJALEQS | NITN KAPOOR | BUY | 1,15,86,211 shares | price 28.37 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7656ac3fcb2fadc7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,15,86,211 shares in a bulk deal on 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nitn_kapoor_and_huf",
+      "name_as_printed": "NITN KAPOOR AND HUF",
+      "names_as_printed": [
+        "NITN KAPOOR AND HUF"
+      ],
+      "name_clean": "nitn kapoor and huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "001185f967630b9e",
+        "4cd2539a9dd3a82c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 4271556,
+          "record_ids": [
+            "001185f967630b9e"
+          ]
+        },
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 9609714,
+          "record_ids": [
+            "4cd2539a9dd3a82c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'NITN KAPOOR AND HUF' and 'NITN KAPOOR AND HUF' share surname 'and' and middle name 'kapoor'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+          "row_ref": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+          "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 42,71,556 shares | price 25.28 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "001185f967630b9e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+          "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 96,09,714 shares | price 27.61 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4cd2539a9dd3a82c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,38,81,270",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "373309139.22",
+          "rupees_high": "373309139.22",
+          "crore_low": "37.33",
+          "crore_high": "37.33",
+          "display": "₹37.33 crore",
+          "working": "42,71,556 shares × ₹25.28 = ₹10.80 crore (NSE 27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556); 96,09,714 shares × ₹27.61 = ₹26.53 crore (NSE 30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714); total ₹37.33 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "42,71,556",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+                  "row_ref": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 42,71,556 shares | price 25.28 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹25.28",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+                  "row_ref": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4271556",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 42,71,556 shares | price 25.28 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "96,09,714",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 96,09,714 shares | price 27.61 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹27.61",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 96,09,714 shares | price 27.61 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+                  "row_ref": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 9609714",
+                  "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | SELL | 96,09,714 shares | price 27.61 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 1,38,81,270 shares in bulk deals on 27 Oct 2026 and 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nitn_kapoor_and_huf_bought",
+      "name_as_printed": "NITN KAPOOR AND HUF",
+      "names_as_printed": [
+        "NITN KAPOOR AND HUF"
+      ],
+      "name_clean": "nitn kapoor and huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "39a630937b3f0d02",
+        "be8d1c8f8d917a34"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 4271556,
+          "record_ids": [
+            "39a630937b3f0d02"
+          ]
+        },
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 9609714,
+          "record_ids": [
+            "be8d1c8f8d917a34"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'NITN KAPOOR AND HUF' and 'NITN KAPOOR AND HUF' share surname 'and' and middle name 'kapoor'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'; 'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · BUY · 4271556",
+          "row_ref": "27-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · BUY · 4271556",
+          "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | BUY | 42,71,556 shares | price 25.34 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "39a630937b3f0d02",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · BUY · 9609714",
+          "row_ref": "30-OCT-2026 · JISLJALEQS · NITN KAPOOR AND HUF · BUY · 9609714",
+          "quote": "NSE | JISLJALEQS | NITN KAPOOR AND HUF | BUY | 96,09,714 shares | price 26.41 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "be8d1c8f8d917a34",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,38,81,270 shares in bulk deals on 27 Oct 2026 and 30 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "NITN KAPOOR",
+        "NITN KAPOOR",
+        "NITN KAPOOR AND HUF",
+        "NITN KAPOOR AND HUF"
+      ],
+      "reasons": [
+        "'NITN KAPOOR AND HUF' and 'NITN KAPOOR AND HUF' share surname 'and' and middle name 'kapoor'",
+        "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'",
+        "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'",
+        "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'",
+        "'NITN KAPOOR AND HUF' contains 'NITN KAPOOR'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 8,
+    "by_holder_type": {
+      "entity": 4,
+      "family_vehicle": 2,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 8
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "buyers": 4,
+    "proceeds_computed": 4,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 8
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 8,
+    "follow_on_matches": 12
+  }
+}

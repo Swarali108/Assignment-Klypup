@@ -1,0 +1,48 @@
+{
+  "run_id": "auto-shreeji_shipping_global_limited_ofs_stock_exchange_202611-20261115T185713Z",
+  "total_s": 57.254892500001006,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 10.284646291984245,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 40.724100874969736,
+      "calls": 12,
+      "cached": 2,
+      "cost_usd": 0.025693
+    },
+    {
+      "step": "people",
+      "seconds": 0.04958812502445653,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.029634499980602413,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 6.107645334035624,
+      "calls": 3,
+      "cached": 0,
+      "cost_usd": 0.000624
+    },
+    {
+      "step": "report",
+      "seconds": 0.034160375013016164,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

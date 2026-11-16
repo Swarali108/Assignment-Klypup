@@ -1,0 +1,65 @@
+{
+  "event_id": "suvidhaa_infoserve_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_prashant_prahaladray_thakar",
+      "name_as_printed": "Prashant Prahaladray Thakar",
+      "fields": {
+        "name": "Prashant Prahaladray Thakar",
+        "role": "Director",
+        "why_money": "sold 77,070 shares (Market Sale) on 9 Nov 2026",
+        "amount": "₹1.64 lakh",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "event_age": "6 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.64 lakh (77,070 shares, value as printed ₹1.64 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Prashant Prahaladray Thakar",
+        "role": "Director",
+        "amount": "₹1.64 lakh",
+        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "proceeds": "₹1.64 lakh",
+        "shares_offered": "77,070 shares",
+        "event_age": "6 days ago"
+      },
+      "lines": [
+        "Prashant Prahaladray Thakar is a Director who sold 77,070 shares in a market sale.",
+        "Proceeds of ₹1.64 lakh were settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago), so the money has already arrived.",
+        "Open with the recent market sale and ask how they plan to use the proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} on 9 Nov, a market sale.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money has already arrived.",
+            "Open with the recent market sale and ask how they plan to use the proceeds."
+          ],
+          "lines": [
+            "{name} is a {role} who sold {shares_offered} on 9 Nov, a market sale.",
+            "Proceeds of {proceeds} were settled {event_age}, so the money has already arrived.",
+            "Open with the recent market sale and ask how they plan to use the proceeds."
+          ],
+          "problem": "writes numbers instead of placeholders: 9"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} in a market sale.",
+            "Proceeds of {proceeds} were {timing}, so the money has already arrived.",
+            "Open with the recent market sale and ask how they plan to use the proceeds."
+          ],
+          "lines": [
+            "Prashant Prahaladray Thakar is a Director who sold 77,070 shares in a market sale.",
+            "Proceeds of ₹1.64 lakh were settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago), so the money has already arrived.",
+            "Open with the recent market sale and ask how they plan to use the proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

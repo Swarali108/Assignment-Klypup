@@ -1,0 +1,53 @@
+{
+  "event_id": "amir_chand_jag_kum_e_l_bulk_deal_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_shlok_vimal_rathod",
+      "name_as_printed": "SHLOK VIMAL RATHOD",
+      "fields": {
+        "name": "SHLOK VIMAL RATHOD",
+        "role": "unknown",
+        "why_money": "sold 5,85,303 shares in a bulk deal on 21 Oct 2026",
+        "amount": "₹12.27 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹12.27 crore (5,85,303 shares × ₹209.59 = ₹12.27 crore (NSE 21-OCT-2026 · AEROPLANE · SHLOK VIMAL RATHOD · SELL · 585303))",
+        "family_link": "'SHLOK VIMAL RATHOD' and 'SHLOK VIMAL RATHOD' share surname 'rathod' and middle name 'vimal'"
+      },
+      "placeholders": {
+        "name": "SHLOK VIMAL RATHOD",
+        "role": "unknown",
+        "amount": "₹12.27 crore",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹12.27 crore",
+        "shares_offered": "5,85,303 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "SHLOK VIMAL RATHOD is a holder who sold 5,85,303 shares in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹12.27 crore settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago), which is 25 days ago, so the money has already arrived.",
+        "Family link: SHLOK VIMAL RATHOD shares surname and middle name with another holder of the same name, worth confirming before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}, which is {event_age}, so the money has already arrived.",
+            "Family link: {name} shares surname and middle name with another holder of the same name, worth confirming before the call."
+          ],
+          "lines": [
+            "SHLOK VIMAL RATHOD is a holder who sold 5,85,303 shares in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹12.27 crore settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago), which is 25 days ago, so the money has already arrived.",
+            "Family link: SHLOK VIMAL RATHOD shares surname and middle name with another holder of the same name, worth confirming before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "event_id": "gallantt_ispat_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_dinesh_r_agarwal",
+      "name_as_printed": "Dinesh R. Agarwal",
+      "name_clean": "dinesh r. agarwal",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "270.62",
+      "confidence": "low",
+      "confidence_weight": "0.4",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "108.24800",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 13,
+        "label": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "money_crore": "270.62",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "108.24800"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 13,
+          "label": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+          "money_crore": "270.62",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "108.24800"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 53,89,708 shares (Block Deal, Market Sale) on 2 Nov 2026 and 3 Nov 2026",
+      "amount_display": "₹270.62 crore",
+      "timing_display": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹270.62 crore; settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+        "score 108.25 = ₹270.62 crore (proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)) × 0.4 (low confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

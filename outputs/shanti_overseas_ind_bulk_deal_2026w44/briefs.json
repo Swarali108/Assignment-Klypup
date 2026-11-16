@@ -1,0 +1,55 @@
+{
+  "event_id": "shanti_overseas_ind_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_prasanna_phani_sankar_pogaru",
+      "name_as_printed": "PRASANNA PHANI SANKAR POGARU",
+      "fields": {
+        "name": "PRASANNA PHANI SANKAR POGARU",
+        "role": "unknown",
+        "why_money": "sold 60,000 shares in a bulk deal on 27 Oct 2026",
+        "amount": "₹3.67 lakh",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹3.67 lakh (60,000 shares × ₹6.12 = ₹3.67 lakh (NSE 27-OCT-2026 · SHANTI · PRASANNA PHANI SANKAR POGARU · SELL · 60000))"
+      },
+      "placeholders": {
+        "name": "PRASANNA PHANI SANKAR POGARU",
+        "role": "unknown",
+        "amount": "₹3.67 lakh",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹3.67 lakh",
+        "shares_offered": "60,000 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "PRASANNA PHANI SANKAR POGARU sold 60,000 shares in a bulk deal and is due ₹3.67 lakh in proceeds.",
+        "The ₹3.67 lakh from the sale settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "Proceeds reflect a recent sale, so open with the timing of the settlement.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal and is due {proceeds} in proceeds.",
+            "The {proceeds} from the sale settled {timing}.",
+            "Proceeds reflect a recent sale, so open with the timing of the settlement.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "PRASANNA PHANI SANKAR POGARU sold 60,000 shares in a bulk deal and is due ₹3.67 lakh in proceeds.",
+            "The ₹3.67 lakh from the sale settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+            "Proceeds reflect a recent sale, so open with the timing of the settlement.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

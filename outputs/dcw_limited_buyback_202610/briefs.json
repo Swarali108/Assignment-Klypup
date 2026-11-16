@@ -1,0 +1,318 @@
+{
+  "event_id": "dcw_limited_buyback_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_adhiraj_anil_harish",
+      "name_as_printed": "Adhiraj Anil Harish",
+      "fields": {
+        "name": "Adhiraj Anil Harish",
+        "role": "Directors of the Company",
+        "why_money": "holds 55,720 shares; tender intention not printed",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: tender intention not confirmed from the documents",
+        "unknowns": [
+          "amount: tender intention not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: tender intention not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Adhiraj Anil Harish",
+        "role": "Directors of the Company",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "55,720 shares"
+      },
+      "lines": [
+        "Adhiraj Anil Harish, a Director of the Company, holds 55,720 shares and may be a potential tender participant.",
+        "The amount and payment timing are unknown: tender intention is not confirmed in the documents.",
+        "Ask whether they plan to tender any of their holding before raising proceeds or timing.",
+        "Confirm the tender intention and expected payment date before discussing any amount."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Adhiraj Anil Harish, a Director of the Company, holds {shares_held} and may be a potential tender participant.",
+            "The amount and payment timing are unknown: tender intention is not confirmed in the documents.",
+            "Ask whether they plan to tender any of their holding before raising proceeds or timing.",
+            "Confirm the tender intention and expected payment date before discussing any amount."
+          ],
+          "lines": [
+            "Adhiraj Anil Harish, a Director of the Company, holds 55,720 shares and may be a potential tender participant.",
+            "The amount and payment timing are unknown: tender intention is not confirmed in the documents.",
+            "Ask whether they plan to tender any of their holding before raising proceeds or timing.",
+            "Confirm the tender intention and expected payment date before discussing any amount."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ashish_jain",
+      "name_as_printed": "Ashish Jain",
+      "fields": {
+        "name": "Ashish Jain",
+        "role": "Directors of the Company",
+        "why_money": "holds 3,24,30,530 shares; tender intention not printed",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: tender intention not confirmed from the documents",
+        "unknowns": [
+          "amount: tender intention not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: tender intention not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Ashish Jain",
+        "role": "Directors of the Company",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "3,24,30,530 shares"
+      },
+      "lines": [
+        "Ashish Jain, Directors of the Company, holds 3,24,30,530 shares and may be a tender participant.",
+        "Amount and timing are unknown: no tender intention or payment date is confirmed in the documents.",
+        "Open by asking whether they plan to tender their holding, then confirm the expected payment timeline.",
+        "Caveat: tender intention and proceeds are not confirmed, so do not quote any amount yet."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ashish Jain, Directors of the Company, holds {shares_held} and may be a tender participant.",
+            "Amount and timing are unknown: no tender intention or payment date is confirmed in the documents.",
+            "Open by asking whether they plan to tender their holding, then confirm the expected payment timeline.",
+            "Caveat: tender intention and proceeds are not confirmed, so do not quote any amount yet."
+          ],
+          "lines": [
+            "Ashish Jain, Directors of the Company, holds 3,24,30,530 shares and may be a tender participant.",
+            "Amount and timing are unknown: no tender intention or payment date is confirmed in the documents.",
+            "Open by asking whether they plan to tender their holding, then confirm the expected payment timeline.",
+            "Caveat: tender intention and proceeds are not confirmed, so do not quote any amount yet."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_bakul_jain",
+      "name_as_printed": "Bakul Jain",
+      "fields": {
+        "name": "Bakul Jain",
+        "role": "Directors of the Company",
+        "why_money": "holds 1,62,25,896 shares; tender intention not printed",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: tender intention not confirmed from the documents",
+        "unknowns": [
+          "amount: tender intention not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: tender intention not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Bakul Jain",
+        "role": "Directors of the Company",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "1,62,25,896 shares"
+      },
+      "lines": [
+        "Bakul Jain, a Director of the Company, holds 1,62,25,896 shares and may receive money from a share tender.",
+        "The amount and payment date are unknown: tender intention not confirmed from the documents and unknown: no confirmed payment or closing date, as no tender intention has been confirmed.",
+        "Ask whether they plan to tender any holding, and what proceeds they would expect once the offer closes.",
+        "Caveat: the documents do not confirm tender intention, so amount and timing remain unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Bakul Jain, a Director of the Company, holds {shares_held} and may receive money from a share tender.",
+            "The amount and payment date are {amount} and {timing}, as no tender intention has been confirmed.",
+            "Ask whether they plan to tender any holding, and what proceeds they would expect once the offer closes.",
+            "Caveat: the documents do not confirm tender intention, so amount and timing remain unknown."
+          ],
+          "lines": [
+            "Bakul Jain, a Director of the Company, holds 1,62,25,896 shares and may receive money from a share tender.",
+            "The amount and payment date are unknown: tender intention not confirmed from the documents and unknown: no confirmed payment or closing date, as no tender intention has been confirmed.",
+            "Ask whether they plan to tender any holding, and what proceeds they would expect once the offer closes.",
+            "Caveat: the documents do not confirm tender intention, so amount and timing remain unknown."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_pradipto_mukherjee",
+      "name_as_printed": "Pradipto Mukherjee",
+      "fields": {
+        "name": "Pradipto Mukherjee",
+        "role": "Key Managerial Personnels of the Company",
+        "why_money": "holds 7,750 shares; tender intention not printed",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: tender intention not confirmed from the documents",
+        "unknowns": [
+          "amount: tender intention not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: tender intention not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Pradipto Mukherjee",
+        "role": "Key Managerial Personnels of the Company",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "7,750 shares"
+      },
+      "lines": [
+        "Pradipto Mukherjee is a Key Managerial Personnels of the Company, holding 7,750 shares, so a possible tender payment could follow.",
+        "The amount is unknown: tender intention not confirmed from the documents and the timing is unknown: no confirmed payment or closing date, since no confirmed payment or closing date exists.",
+        "Open by asking whether they intend to tender any of their holding, since that decides whether money arrives.",
+        "Caveat: tender intention and payment timing are not confirmed in the documents and must be checked first."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role}, holding {shares_held}, so a possible tender payment could follow.",
+            "The amount is {amount} and the timing is {timing}, since no confirmed payment or closing date exists.",
+            "Open by asking whether they intend to tender any of their holding, since that decides whether money arrives.",
+            "Caveat: tender intention and payment timing are not confirmed in the documents and must be checked first."
+          ],
+          "lines": [
+            "Pradipto Mukherjee is a Key Managerial Personnels of the Company, holding 7,750 shares, so a possible tender payment could follow.",
+            "The amount is unknown: tender intention not confirmed from the documents and the timing is unknown: no confirmed payment or closing date, since no confirmed payment or closing date exists.",
+            "Open by asking whether they intend to tender any of their holding, since that decides whether money arrives.",
+            "Caveat: tender intention and payment timing are not confirmed in the documents and must be checked first."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_sudarshan_ganapathy",
+      "name_as_printed": "Sudarshan Ganapathy",
+      "fields": {
+        "name": "Sudarshan Ganapathy",
+        "role": "unknown",
+        "why_money": "holds 5,55,555 shares; tender intention not printed",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: tender intention not confirmed from the documents",
+        "unknowns": [
+          "amount: tender intention not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: tender intention not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Sudarshan Ganapathy",
+        "role": "unknown",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "5,55,555 shares"
+      },
+      "lines": [
+        "Sudarshan Ganapathy, role unknown, holds 5,55,555 shares; no money event is recorded for them yet.",
+        "Amount and timing are unknown: tender intention and payment or closing date are not confirmed in the documents.",
+        "Open by asking whether they plan to tender their holding, then confirm the amount and timing before discussing options.",
+        "Unknown: role and tender intention; confirm both before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Sudarshan Ganapathy, role unknown, holds {shares_held}; no money event is recorded for them yet.",
+            "Amount and timing are unknown: tender intention and payment or closing date are not confirmed in the documents.",
+            "Open by asking whether they plan to tender their holding, then confirm the amount and timing before discussing options.",
+            "Unknown: role and tender intention; confirm both before the call."
+          ],
+          "lines": [
+            "Sudarshan Ganapathy, role unknown, holds 5,55,555 shares; no money event is recorded for them yet.",
+            "Amount and timing are unknown: tender intention and payment or closing date are not confirmed in the documents.",
+            "Open by asking whether they plan to tender their holding, then confirm the amount and timing before discussing options.",
+            "Unknown: role and tender intention; confirm both before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_vivek_jain",
+      "name_as_printed": "Vivek Jain",
+      "fields": {
+        "name": "Vivek Jain",
+        "role": "Directors of the Company",
+        "why_money": "holds 2,36,84,312 shares; tender intention not printed",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: tender intention not confirmed from the documents",
+        "unknowns": [
+          "amount: tender intention not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: tender intention not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Vivek Jain",
+        "role": "Directors of the Company",
+        "amount": "unknown: tender intention not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "2,36,84,312 shares"
+      },
+      "lines": [
+        "Vivek Jain, a Director of the Company, holds 2,36,84,312 shares and may be eligible for a share buyback.",
+        "The amount and timing are unknown: no tender intention or confirmed payment date is printed in the documents.",
+        "Ask whether Vivek intends to tender any holding, since the decision drives both the amount and when it arrives.",
+        "Confirm the tender intention and payment date before quoting any figure."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Vivek Jain, a Director of the Company, holds {shares_held} and may be eligible for a share buyback.",
+            "The amount and timing are unknown: no tender intention or confirmed payment date is printed in the documents.",
+            "Ask whether Vivek intends to tender any holding, since the decision drives both the amount and when it arrives.",
+            "Confirm the tender intention and payment date before quoting any figure."
+          ],
+          "lines": [
+            "Vivek Jain, a Director of the Company, holds 2,36,84,312 shares and may be eligible for a share buyback.",
+            "The amount and timing are unknown: no tender intention or confirmed payment date is printed in the documents.",
+            "Ask whether Vivek intends to tender any holding, since the decision drives both the amount and when it arrives.",
+            "Confirm the tender intention and payment date before quoting any figure."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

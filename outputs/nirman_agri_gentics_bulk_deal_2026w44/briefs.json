@@ -1,0 +1,56 @@
+{
+  "event_id": "nirman_agri_gentics_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_yash_dasharath_gotarane",
+      "name_as_printed": "YASH DASHARATH GOTARANE",
+      "fields": {
+        "name": "YASH DASHARATH GOTARANE",
+        "role": "unknown",
+        "why_money": "sold 45,300 shares in a bulk deal on 29 Oct 2026",
+        "amount": "₹12.43 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "event_age": "17 days ago",
+        "event_is": "recent",
+        "proceeds": "₹12.43 lakh (45,300 shares × ₹27.45 = ₹12.43 lakh (NSE 29-OCT-2026 · NIRMAN · YASH DASHARATH GOTARANE · SELL · 45300))",
+        "family_link": "'YASH DASHARATH GOTARANE' and 'YASH DASHARATH GOTARANE' share surname 'gotarane' and middle name 'dasharath'"
+      },
+      "placeholders": {
+        "name": "YASH DASHARATH GOTARANE",
+        "role": "unknown",
+        "amount": "₹12.43 lakh",
+        "timing": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "proceeds": "₹12.43 lakh",
+        "shares_offered": "45,300 shares",
+        "event_age": "17 days ago"
+      },
+      "lines": [
+        "YASH DASHARATH GOTARANE sold 45,300 shares in a bulk deal and is due proceeds from it.",
+        "Proceeds of ₹12.43 lakh settled settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), and the sale closed 17 days ago.",
+        "Ask whether they plan to reinvest, given the recent sale and the shared family link.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal and is due proceeds from it.",
+            "Proceeds of {proceeds} settled {timing}, and the sale closed {event_age}.",
+            "Ask whether they plan to reinvest, given the recent sale and the shared family link.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "YASH DASHARATH GOTARANE sold 45,300 shares in a bulk deal and is due proceeds from it.",
+            "Proceeds of ₹12.43 lakh settled settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago), and the sale closed 17 days ago.",
+            "Ask whether they plan to reinvest, given the recent sale and the shared family link.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

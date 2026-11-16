@@ -1,0 +1,25 @@
+{
+  "event_id": "pc_jeweller_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "PC Jeweller Ltd",
+  "documents": [],
+  "records": [
+    "1ab804d90184401a",
+    "53c6d8558177847f",
+    "5569f671ae5264c4",
+    "61e83a67adbaaf37",
+    "7c8d1032932c7bfe",
+    "d90a46fd15a2c471",
+    "e6fc2e1a5167d96e",
+    "e83185b441806d60"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-29",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

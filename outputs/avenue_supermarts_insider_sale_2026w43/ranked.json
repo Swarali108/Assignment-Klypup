@@ -1,0 +1,223 @@
+{
+  "event_id": "avenue_supermarts_insider_sale_2026w43",
+  "callable": [
+    {
+      "person_id": "p_vikram_bhatia",
+      "name_as_printed": "Vikram Bhatia",
+      "name_clean": "vikram bhatia",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "4.79",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "4.79000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 24,
+        "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "money_crore": "4.79",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "4.79000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 24,
+          "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "money_crore": "4.79",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "4.79000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 15,000 shares (Market Sale) on 22 Oct 2026",
+      "amount_display": "₹4.79 crore",
+      "timing_display": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹4.79 crore; settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "score 4.79 = ₹4.79 crore (proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_harish_joshi",
+      "name_as_printed": "Harish Joshi",
+      "name_clean": "harish joshi",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "2.03",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "2.03000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 24,
+        "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "money_crore": "2.03",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "2.03000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 24,
+          "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "money_crore": "2.03",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "2.03000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 6,500 shares (Market Sale) on 22 Oct 2026",
+      "amount_display": "₹2.03 crore",
+      "timing_display": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹2.03 crore; settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "score 2.03 = ₹2.03 crore (proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_elvin_machado",
+      "name_as_printed": "Elvin Machado",
+      "name_clean": "elvin machado",
+      "holder_type": "person",
+      "role_as_printed": "Director",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.90",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.90000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 24,
+        "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "money_crore": "1.90",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.90000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 24,
+          "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "money_crore": "1.90",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.90000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 6,000 shares (Market Sale) on 22 Oct 2026",
+      "amount_display": "₹1.90 crore",
+      "timing_display": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹1.90 crore; settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "score 1.90 = ₹1.90 crore (proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_mahesh_ramji_nagda",
+      "name_as_printed": "Mahesh Ramji Nagda",
+      "name_clean": "mahesh ramji nagda",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.10",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.10000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 25,
+        "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "money_crore": "0.10",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.10000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 25,
+          "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "money_crore": "0.10",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.10000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 300 shares (Market Sale) on 21 Oct 2026",
+      "amount_display": "₹9.86 lakh",
+      "timing_display": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 4,
+      "rank_reasons": [
+        "Cash in hand: ₹9.86 lakh; settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "score 0.10 = ₹0.10 crore (proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

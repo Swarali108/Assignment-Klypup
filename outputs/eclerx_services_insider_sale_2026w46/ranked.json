@@ -1,0 +1,61 @@
+{
+  "event_id": "eclerx_services_insider_sale_2026w46",
+  "callable": [
+    {
+      "person_id": "p_eclerx_employee_welfare",
+      "name_as_printed": "Eclerx Employee Welfare",
+      "name_clean": "eclerx employee welfare",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.72",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.72000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 6,
+        "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+        "money_crore": "1.72",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.72000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 6,
+          "label": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+          "money_crore": "1.72",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.72000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 11,059 shares (Market Sale) on 9 Nov 2026",
+      "amount_display": "₹1.72 crore",
+      "timing_display": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹1.72 crore; settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago).",
+        "score 1.72 = ₹1.72 crore (proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

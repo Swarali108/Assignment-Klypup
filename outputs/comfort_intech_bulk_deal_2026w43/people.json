@@ -1,0 +1,1120 @@
+{
+  "event_id": "comfort_intech_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "9.27",
+    "high": "11.14",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹9.27",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+            "row_ref": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+            "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 17,65,231 shares | price 9.27 | 2026-10-19"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹11.14",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+            "row_ref": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+            "quote": "NSE | COMFINTE | MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED | SELL | 20,09,828 shares | price 11.14 | 2026-10-22"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "19 Oct 2026 to 22 Oct 2026",
+    "sale_date_parsed": "2026-10-22",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,57,70,864 shares sold by 4 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 14,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_hjs_securities_private_limited",
+      "name_as_printed": "HJS SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "HJS SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "hjs securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "cdd0d94190340c46",
+        "5d5567dd440876f9",
+        "41e6a764ee934fb2"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1765231,
+          "record_ids": [
+            "cdd0d94190340c46"
+          ]
+        },
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 4186020,
+          "record_ids": [
+            "5d5567dd440876f9"
+          ]
+        },
+        {
+          "trade_date": "2026-10-22",
+          "quantity": 2323414,
+          "record_ids": [
+            "41e6a764ee934fb2"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+          "row_ref": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+          "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 17,65,231 shares | price 9.27 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cdd0d94190340c46",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020",
+          "row_ref": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020",
+          "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 41,86,020 shares | price 10.11 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5d5567dd440876f9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+          "row_ref": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+          "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 23,23,414 shares | price 11.01 | 2026-10-22",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "41e6a764ee934fb2",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "82,74,665",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "84265141.71",
+          "rupees_high": "84265141.71",
+          "crore_low": "8.43",
+          "crore_high": "8.43",
+          "display": "₹8.43 crore",
+          "working": "17,65,231 shares × ₹9.27 = ₹1.64 crore (NSE 19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231); 41,86,020 shares × ₹10.11 = ₹4.23 crore (NSE 21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020); 23,23,414 shares × ₹11.01 = ₹2.56 crore (NSE 22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414); total ₹8.43 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "17,65,231",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+                  "row_ref": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 17,65,231 shares | price 9.27 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹9.27",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+                  "row_ref": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 1765231",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 17,65,231 shares | price 9.27 | 2026-10-19"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "41,86,020",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020",
+                  "row_ref": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 41,86,020 shares | price 10.11 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹10.11",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020",
+                  "row_ref": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 4186020",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 41,86,020 shares | price 10.11 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "23,23,414",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+                  "row_ref": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 23,23,414 shares | price 11.01 | 2026-10-22"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹11.01",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+                  "row_ref": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 23,23,414 shares | price 11.01 | 2026-10-22"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "trade_date": "2026-10-22",
+          "settles_on": "2026-10-23",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "22 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+                  "row_ref": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · SELL · 2323414",
+                  "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | SELL | 23,23,414 shares | price 11.01 | 2026-10-22"
+                }
+              ]
+            }
+          ],
+          "days_since": 27
+        }
+      },
+      "why_money": "sold 82,74,665 shares in bulk deals between 19 Oct 2026 and 22 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_hjs_securities_private_limited_bought",
+      "name_as_printed": "HJS SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "HJS SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "hjs securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "19136e0996f2b4f1",
+        "0056dc9a6b7811b3",
+        "992e2cbb84cb65ae"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-19",
+          "quantity": 1765231,
+          "record_ids": [
+            "19136e0996f2b4f1"
+          ]
+        },
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 4459213,
+          "record_ids": [
+            "0056dc9a6b7811b3"
+          ]
+        },
+        {
+          "trade_date": "2026-10-22",
+          "quantity": 3304867,
+          "record_ids": [
+            "992e2cbb84cb65ae"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · BUY · 1765231",
+          "row_ref": "19-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · BUY · 1765231",
+          "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | BUY | 17,65,231 shares | price 9.22 | 2026-10-19",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "19136e0996f2b4f1",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · BUY · 4459213",
+          "row_ref": "21-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · BUY · 4459213",
+          "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | BUY | 44,59,213 shares | price 10.13 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0056dc9a6b7811b3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · BUY · 3304867",
+          "row_ref": "22-OCT-2026 · COMFINTE · HJS SECURITIES PRIVATE LIMITED · BUY · 3304867",
+          "quote": "NSE | COMFINTE | HJS SECURITIES PRIVATE LIMITED | BUY | 33,04,867 shares | price 11 | 2026-10-22",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "992e2cbb84cb65ae",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 95,29,311 shares in bulk deals between 19 Oct 2026 and 22 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_multiplier_share_stock_advisors_private_limited",
+      "name_as_printed": "MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED",
+      "names_as_printed": [
+        "MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED"
+      ],
+      "name_clean": "multiplier share & stock advisors private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "42ad1a718ca484cb"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-22",
+          "quantity": 2009828,
+          "record_ids": [
+            "42ad1a718ca484cb"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+          "row_ref": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+          "quote": "NSE | COMFINTE | MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED | SELL | 20,09,828 shares | price 11.14 | 2026-10-22",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "42ad1a718ca484cb",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "20,09,828",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "22389483.92",
+          "rupees_high": "22389483.92",
+          "crore_low": "2.24",
+          "crore_high": "2.24",
+          "display": "₹2.24 crore",
+          "working": "20,09,828 shares × ₹11.14 = ₹2.24 crore (NSE 22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "20,09,828",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+                  "row_ref": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+                  "quote": "NSE | COMFINTE | MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED | SELL | 20,09,828 shares | price 11.14 | 2026-10-22"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹11.14",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+                  "row_ref": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+                  "quote": "NSE | COMFINTE | MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED | SELL | 20,09,828 shares | price 11.14 | 2026-10-22"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "trade_date": "2026-10-22",
+          "settles_on": "2026-10-23",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "22 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+                  "row_ref": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · SELL · 2009828",
+                  "quote": "NSE | COMFINTE | MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED | SELL | 20,09,828 shares | price 11.14 | 2026-10-22"
+                }
+              ]
+            }
+          ],
+          "days_since": 24
+        }
+      },
+      "why_money": "sold 20,09,828 shares in a bulk deal on 22 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_multiplier_share_stock_advisors_private_limited_bought",
+      "name_as_printed": "MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED",
+      "names_as_printed": [
+        "MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED"
+      ],
+      "name_clean": "multiplier share & stock advisors private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "6c2e98b41f4f8d6c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-22",
+          "quantity": 1459828,
+          "record_ids": [
+            "6c2e98b41f4f8d6c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · BUY · 1459828",
+          "row_ref": "22-OCT-2026 · COMFINTE · MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED · BUY · 1459828",
+          "quote": "NSE | COMFINTE | MULTIPLIER SHARE & STOCK ADVISORS PRIVATE LIMITED | BUY | 14,59,828 shares | price 11.11 | 2026-10-22",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6c2e98b41f4f8d6c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 14,59,828 shares in a bulk deal on 22 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nikunj_jagadishchandra_purohit",
+      "name_as_printed": "NIKUNJ JAGADISHCHANDRA PUROHIT",
+      "names_as_printed": [
+        "NIKUNJ JAGADISHCHANDRA PUROHIT"
+      ],
+      "name_clean": "nikunj jagadishchandra purohit",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "a44832df8903c551",
+        "1ae3a3af51482df3"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 3466365,
+          "record_ids": [
+            "a44832df8903c551"
+          ]
+        },
+        {
+          "trade_date": "2026-10-22",
+          "quantity": 20000,
+          "record_ids": [
+            "1ae3a3af51482df3"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'NIKUNJ JAGADISHCHANDRA PUROHIT' and 'NIKUNJ JAGADISHCHANDRA PUROHIT' share surname 'purohit' and middle name 'jagadishchandra'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365",
+          "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365",
+          "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 34,66,365 shares | price 10.19 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a44832df8903c551",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+          "row_ref": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+          "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 20,000 shares | price 11.02 | 2026-10-22",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "1ae3a3af51482df3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "34,86,365",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "35542659.35",
+          "rupees_high": "35542659.35",
+          "crore_low": "3.55",
+          "crore_high": "3.55",
+          "display": "₹3.55 crore",
+          "working": "34,66,365 shares × ₹10.19 = ₹3.53 crore (NSE 21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365); 20,000 shares × ₹11.02 = ₹2.20 lakh (NSE 22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000); total ₹3.55 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "34,66,365",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365",
+                  "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365",
+                  "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 34,66,365 shares | price 10.19 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹10.19",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365",
+                  "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 3466365",
+                  "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 34,66,365 shares | price 10.19 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "20,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+                  "row_ref": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+                  "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 20,000 shares | price 11.02 | 2026-10-22"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹11.02",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+                  "row_ref": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+                  "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 20,000 shares | price 11.02 | 2026-10-22"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "trade_date": "2026-10-22",
+          "settles_on": "2026-10-23",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "22 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+                  "row_ref": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · SELL · 20000",
+                  "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | SELL | 20,000 shares | price 11.02 | 2026-10-22"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        }
+      },
+      "why_money": "sold 34,86,365 shares in bulk deals on 21 Oct 2026 and 22 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nikunj_jagadishchandra_purohit_bought",
+      "name_as_printed": "NIKUNJ JAGADISHCHANDRA PUROHIT",
+      "names_as_printed": [
+        "NIKUNJ JAGADISHCHANDRA PUROHIT"
+      ],
+      "name_clean": "nikunj jagadishchandra purohit",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "4ab37871c5ec9e84",
+        "38029829d9c4c867"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 3530128,
+          "record_ids": [
+            "4ab37871c5ec9e84"
+          ]
+        },
+        {
+          "trade_date": "2026-10-22",
+          "quantity": 2734570,
+          "record_ids": [
+            "38029829d9c4c867"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'NIKUNJ JAGADISHCHANDRA PUROHIT' and 'NIKUNJ JAGADISHCHANDRA PUROHIT' share surname 'purohit' and middle name 'jagadishchandra'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · BUY · 3530128",
+          "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · BUY · 3530128",
+          "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | BUY | 35,30,128 shares | price 10.12 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4ab37871c5ec9e84",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · BUY · 2734570",
+          "row_ref": "22-OCT-2026 · COMFINTE · NIKUNJ JAGADISHCHANDRA PUROHIT · BUY · 2734570",
+          "quote": "NSE | COMFINTE | NIKUNJ JAGADISHCHANDRA PUROHIT | BUY | 27,34,570 shares | price 11.01 | 2026-10-22",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "38029829d9c4c867",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 62,64,698 shares in bulk deals on 21 Oct 2026 and 22 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nikunj_shah",
+      "name_as_printed": "NIKUNJ SHAH",
+      "names_as_printed": [
+        "NIKUNJ SHAH"
+      ],
+      "name_clean": "nikunj shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "8ef28cd6ac29993d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 2000006,
+          "record_ids": [
+            "8ef28cd6ac29993d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+          "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+          "quote": "NSE | COMFINTE | NIKUNJ SHAH | SELL | 20,00,006 shares | price 10.14 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8ef28cd6ac29993d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "20,00,006",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "20280060.84",
+          "rupees_high": "20280060.84",
+          "crore_low": "2.03",
+          "crore_high": "2.03",
+          "display": "₹2.03 crore",
+          "working": "20,00,006 shares × ₹10.14 = ₹2.03 crore (NSE 21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "20,00,006",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+                  "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+                  "quote": "NSE | COMFINTE | NIKUNJ SHAH | SELL | 20,00,006 shares | price 10.14 | 2026-10-21"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹10.14",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+                  "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+                  "quote": "NSE | COMFINTE | NIKUNJ SHAH | SELL | 20,00,006 shares | price 10.14 | 2026-10-21"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "trade_date": "2026-10-21",
+          "settles_on": "2026-10-22",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "21 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+                  "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · SELL · 2000006",
+                  "quote": "NSE | COMFINTE | NIKUNJ SHAH | SELL | 20,00,006 shares | price 10.14 | 2026-10-21"
+                }
+              ]
+            }
+          ],
+          "days_since": 25
+        }
+      },
+      "why_money": "sold 20,00,006 shares in a bulk deal on 21 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nikunj_shah_bought",
+      "name_as_printed": "NIKUNJ SHAH",
+      "names_as_printed": [
+        "NIKUNJ SHAH"
+      ],
+      "name_clean": "nikunj shah",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "b72b3290a04a71b6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-21",
+          "quantity": 2000006,
+          "record_ids": [
+            "b72b3290a04a71b6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · BUY · 2000006",
+          "row_ref": "21-OCT-2026 · COMFINTE · NIKUNJ SHAH · BUY · 2000006",
+          "quote": "NSE | COMFINTE | NIKUNJ SHAH | BUY | 20,00,006 shares | price 10.19 | 2026-10-21",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b72b3290a04a71b6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 20,00,006 shares in a bulk deal on 21 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "NIKUNJ JAGADISHCHANDRA PUROHIT",
+        "NIKUNJ JAGADISHCHANDRA PUROHIT"
+      ],
+      "reasons": [
+        "'NIKUNJ JAGADISHCHANDRA PUROHIT' and 'NIKUNJ JAGADISHCHANDRA PUROHIT' share surname 'purohit' and middle name 'jagadishchandra'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 8,
+    "by_holder_type": {
+      "entity": 4,
+      "person": 4
+    },
+    "by_confidence": {
+      "high": 8
+    },
+    "sellers": 4,
+    "sellers_unverified": 0,
+    "buyers": 4,
+    "proceeds_computed": 4,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 8
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 8,
+    "follow_on_matches": 0
+  }
+}

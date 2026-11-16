@@ -1,0 +1,383 @@
+{
+  "event_id": "gyftr_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "210.89",
+    "high": "210.89",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹210.89",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+            "row_ref": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+            "quote": "NSE | GYFTR | ACME CAPITAL MARKET LIMITED | SELL | 4,06,715 shares | price 210.89 | 2026-11-05"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "5 Nov 2026",
+    "sale_date_parsed": "2026-11-05",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "4,06,715 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_acme_capital_market_limited",
+      "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+      "names_as_printed": [
+        "ACME CAPITAL MARKET LIMITED"
+      ],
+      "name_clean": "acme capital market limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "07664db1229954ff"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 406715,
+          "record_ids": [
+            "07664db1229954ff"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+          "row_ref": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+          "quote": "NSE | GYFTR | ACME CAPITAL MARKET LIMITED | SELL | 4,06,715 shares | price 210.89 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "07664db1229954ff",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "4,06,715",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "85772126.35",
+          "rupees_high": "85772126.35",
+          "crore_low": "8.58",
+          "crore_high": "8.58",
+          "display": "₹8.58 crore",
+          "working": "4,06,715 shares × ₹210.89 = ₹8.58 crore (NSE 05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "4,06,715",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+                  "row_ref": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+                  "quote": "NSE | GYFTR | ACME CAPITAL MARKET LIMITED | SELL | 4,06,715 shares | price 210.89 | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹210.89",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+                  "row_ref": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+                  "quote": "NSE | GYFTR | ACME CAPITAL MARKET LIMITED | SELL | 4,06,715 shares | price 210.89 | 2026-11-05"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+          "trade_date": "2026-11-05",
+          "settles_on": "2026-11-06",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "5 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+                  "row_ref": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · SELL · 406715",
+                  "quote": "NSE | GYFTR | ACME CAPITAL MARKET LIMITED | SELL | 4,06,715 shares | price 210.89 | 2026-11-05"
+                }
+              ]
+            }
+          ],
+          "days_since": 10
+        }
+      },
+      "why_money": "sold 4,06,715 shares in a bulk deal on 5 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "₹17.96 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "technocraft_ventures_bulk_deal_2026w44",
+          "company": "Technocraft Ventures Ltd",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "₹31.77 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "technocraft_ventures_bulk_deal_2026w44",
+          "company": "Technocraft Ventures Ltd",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_acme_capital_market_limited_bought",
+      "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+      "names_as_printed": [
+        "ACME CAPITAL MARKET LIMITED"
+      ],
+      "name_clean": "acme capital market limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "26839a9cbb962a74"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 406715,
+          "record_ids": [
+            "26839a9cbb962a74"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · BUY · 406715",
+          "row_ref": "05-NOV-2026 · GYFTR · ACME CAPITAL MARKET LIMITED · BUY · 406715",
+          "quote": "NSE | GYFTR | ACME CAPITAL MARKET LIMITED | BUY | 4,06,715 shares | price 207.08 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "26839a9cbb962a74",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,06,715 shares in a bulk deal on 5 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "₹17.96 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "technocraft_ventures_bulk_deal_2026w44",
+          "company": "Technocraft Ventures Ltd",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "₹31.77 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "technocraft_ventures_bulk_deal_2026w44",
+          "company": "Technocraft Ventures Ltd",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 8
+  }
+}

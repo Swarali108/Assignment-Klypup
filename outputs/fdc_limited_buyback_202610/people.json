@@ -1,0 +1,299 @@
+{
+  "event_id": "fdc_limited_buyback_202610",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "no verified buyback price"
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "unknown",
+      "reason": "payment_date not verified"
+    },
+    "closing": {
+      "status": "unknown",
+      "reason": "closing_date not verified"
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [
+    {
+      "person_id": "p_aditi_c_bhanot",
+      "name_as_printed": "Mrs. Aditi C. Bhanot",
+      "names_as_printed": [
+        "Mrs. Aditi C. Bhanot"
+      ],
+      "name_clean": "aditi c. bhanot",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": "1,10,69,381",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": null,
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4 Mrs. Aditi C. Bhanot",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4 Mrs. Aditi C. Bhanot 1,10,69,381 1,10,69,381 6.80%",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "have informed the Company regarding their intention to participate in the Buyback",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": false
+        }
+      ],
+      "participation": "unknown",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "buyback price not verified"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "no verified payment or closing date"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ameya_ashok_chandavarkar",
+      "name_as_printed": "Mr. Ameya Ashok Chandavarkar",
+      "names_as_printed": [
+        "Mr. Ameya Ashok Chandavarkar"
+      ],
+      "name_clean": "ameya ashok chandavarkar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": "99,23,930",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": null,
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "1 Mr. Ameya Ashok",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "1 Mr. Ameya Ashok 99,23,930 99,23,930 6.10%",
+          "verified_by": "table_row",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "have informed the Company regarding their intention to participate in the Buyback",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": false
+        }
+      ],
+      "participation": "unknown",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "buyback price not verified"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "no verified payment or closing date"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nomita_ramdas_chandavarkar",
+      "name_as_printed": "Ms. Nomita Ramdas Chandavarkar",
+      "names_as_printed": [
+        "Ms. Nomita Ramdas Chandavarkar"
+      ],
+      "name_clean": "nomita ramdas chandavarkar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": "3,69,16,689",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": null,
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "2 Ms. Nomita Ramdas",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "2 Ms. Nomita Ramdas 3,69,16,689 3,69,16,689 22.67%",
+          "verified_by": "table_row",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "have informed the Company regarding their intention to participate in the Buyback",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+          "field_kept": false
+        }
+      ],
+      "participation": "unknown",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "buyback price not verified"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "no verified payment or closing date"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "Mr. Ameya Ashok Chandavarkar",
+        "Ms. Nomita Ramdas Chandavarkar"
+      ],
+      "score": 48.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Ms. Nomita Ramdas Chandavarkar",
+        "Mrs. Aditi C. Bhanot"
+      ],
+      "score": 35.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mr. Ameya Ashok Chandavarkar",
+        "Mrs. Aditi C. Bhanot"
+      ],
+      "score": 31.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "person": 3
+    },
+    "by_confidence": {
+      "medium": 3
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {
+      "below_threshold": 2,
+      "different_first_name": 1
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "event_id": "pashupati_cotspin_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "Pashupati Cotspin Limited",
+  "documents": [],
+  "records": [
+    "6795bfc317f5bba0",
+    "700859a15518e551",
+    "7c039c87d7fa2328",
+    "cf6a04778f33e98e"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-02",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

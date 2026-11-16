@@ -1,0 +1,115 @@
+{
+  "event_id": "karur_vysya_bank_insider_sale_2026w46",
+  "callable": [
+    {
+      "person_id": "p_m_s_jeevarekha",
+      "name_as_printed": "M S Jeevarekha",
+      "name_clean": "m s jeevarekha",
+      "holder_type": "person",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.38",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.26600",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 3,
+        "label": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "money_crore": "0.38",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.26600"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 3,
+          "label": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "money_crore": "0.38",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.26600"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 10,000 shares (Market Sale) on 12 Nov 2026",
+      "amount_display": "₹38.23 lakh",
+      "timing_display": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹38.23 lakh; settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago).",
+        "score 0.27 = ₹0.38 crore (proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_m_v_usha",
+      "name_as_printed": "M V Usha",
+      "name_clean": "m v usha",
+      "holder_type": "person",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.08",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.05600",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 4,
+        "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "money_crore": "0.08",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.05600"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 4,
+          "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "money_crore": "0.08",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.05600"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 2,000 shares (Market Sale) on 11 Nov 2026",
+      "amount_display": "₹7.61 lakh",
+      "timing_display": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹7.61 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
+        "score 0.06 = ₹0.08 crore (proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

@@ -1,0 +1,34 @@
+{
+  "run_id": "auto-pasufin_bulk_deal_2026w46-20261115T190434Z",
+  "total_s": 5.775818917027209,
+  "steps": [
+    {
+      "step": "people",
+      "seconds": 0.0683382919523865,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.03176029201131314,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 5.621009166003205,
+      "calls": 3,
+      "cached": 0,
+      "cost_usd": 0.000547
+    },
+    {
+      "step": "report",
+      "seconds": 0.036396625044289976,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

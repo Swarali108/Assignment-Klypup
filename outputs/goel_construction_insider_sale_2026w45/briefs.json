@@ -1,0 +1,52 @@
+{
+  "event_id": "goel_construction_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vijay_kumar_goel",
+      "name_as_printed": "Vijay Kumar Goel",
+      "fields": {
+        "name": "Vijay Kumar Goel",
+        "role": "Promoter group",
+        "why_money": "sold 2,400 shares (Market Sale) on 8 Nov 2026",
+        "amount": "₹12.97 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event_age": "7 days ago",
+        "event_is": "recent",
+        "proceeds": "₹12.97 lakh (2,400 shares, value as printed ₹12.97 lakh (BSE Fld_ID 165729 · Vijay Kumar Goel))"
+      },
+      "placeholders": {
+        "name": "Vijay Kumar Goel",
+        "role": "Promoter group",
+        "amount": "₹12.97 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹12.97 lakh",
+        "shares_offered": "2,400 shares",
+        "event_age": "7 days ago"
+      },
+      "lines": [
+        "Vijay Kumar Goel, promoter group member, received ₹12.97 lakh after selling 2,400 shares in a market sale.",
+        "Proceeds settled settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money has already arrived in their account.",
+        "Open with the recent sale and ask how they plan to deploy the ₹12.97 lakh proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, promoter group member, received {proceeds} after selling {shares_offered} in a market sale.",
+            "Proceeds settled {timing}, so the money has already arrived in their account.",
+            "Open with the recent sale and ask how they plan to deploy the {proceeds} proceeds."
+          ],
+          "lines": [
+            "Vijay Kumar Goel, promoter group member, received ₹12.97 lakh after selling 2,400 shares in a market sale.",
+            "Proceeds settled settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money has already arrived in their account.",
+            "Open with the recent sale and ask how they plan to deploy the ₹12.97 lakh proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

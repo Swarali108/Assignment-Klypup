@@ -1,0 +1,106 @@
+{
+  "event_id": "optimus_finance_bulk_deal_2026w45",
+  "callable": [
+    {
+      "person_id": "p_dashrath_dhakalu_gotarane",
+      "name_as_printed": "DASHRATH DHAKALU GOTARANE",
+      "name_clean": "dashrath dhakalu gotarane",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "1.26",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "1.26000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "money_crore": "1.26",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "1.26000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+          "money_crore": "1.26",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "1.26000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 6,36,679 shares in a bulk deal on 5 Nov 2026",
+      "amount_display": "₹1.26 crore",
+      "timing_display": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹1.26 crore; settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago).",
+        "score 1.26 = ₹1.26 crore (proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_dashrath_dhakalu_gotarane_bought",
+      "name_as_printed": "DASHRATH DHAKALU GOTARANE",
+      "name_clean": "dashrath dhakalu gotarane",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 6,42,922 shares in a bulk deal on 5 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "family link (family_1): 'DASHRATH DHAKALU GOTARANE' and 'DASHRATH DHAKALU GOTARANE' share surname 'gotarane' and middle name 'dhakalu'"
+      ]
+    }
+  ]
+}

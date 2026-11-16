@@ -1,0 +1,59 @@
+{
+  "event_id": "ncl_industries_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vinodrai_v_goradia",
+      "name_as_printed": "Vinodrai V Goradia",
+      "fields": {
+        "name": "Vinodrai V Goradia",
+        "role": "Promoter",
+        "why_money": "sold 3,09,034 shares (Others) on 26 Oct 2026",
+        "amount": "unknown: NSE XBRL context Disclosure1 prints neither a trade value nor a price",
+        "timing": "unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+        "event": "proceeds, timing unknown",
+        "event_age": "21 days ago",
+        "event_is": "recent",
+        "proceeds": "unknown: NSE XBRL context Disclosure1 prints neither a trade value nor a price",
+        "unknowns": [
+          "amount: NSE XBRL context Disclosure1 prints neither a trade value nor a price",
+          "timing: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+          "proceeds: NSE XBRL context Disclosure1 prints neither a trade value nor a price"
+        ]
+      },
+      "placeholders": {
+        "name": "Vinodrai V Goradia",
+        "role": "Promoter",
+        "amount": "unknown: NSE XBRL context Disclosure1 prints neither a trade value nor a price",
+        "timing": "unknown: mode of sale not printed as a market sale (Others), so the settlement date is not known",
+        "shares_offered": "3,09,034 shares",
+        "event_age": "21 days ago"
+      },
+      "lines": [
+        "Vinodrai V Goradia is a Promoter who sold 3,09,034 shares via an Others transaction, so money is coming to them.",
+        "The amount is unknown and the settlement timing is unknown, since the sale was not printed as a market sale.",
+        "The sale happened 21 days ago, so the proceeds may already be settled; confirm the timing before discussing it.",
+        "Caveat: neither the trade value nor the settlement date is printed in the filing, so both remain unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} who sold {shares_offered} via an Others transaction, so money is coming to them.",
+            "The amount is unknown and the settlement timing is unknown, since the sale was not printed as a market sale.",
+            "The sale happened {event_age}, so the proceeds may already be settled; confirm the timing before discussing it.",
+            "Caveat: neither the trade value nor the settlement date is printed in the filing, so both remain unknown."
+          ],
+          "lines": [
+            "Vinodrai V Goradia is a Promoter who sold 3,09,034 shares via an Others transaction, so money is coming to them.",
+            "The amount is unknown and the settlement timing is unknown, since the sale was not printed as a market sale.",
+            "The sale happened 21 days ago, so the proceeds may already be settled; confirm the timing before discussing it.",
+            "Caveat: neither the trade value nor the settlement date is printed in the filing, so both remain unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

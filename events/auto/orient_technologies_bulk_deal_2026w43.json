@@ -1,0 +1,29 @@
+{
+  "event_id": "orient_technologies_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Orient Technologies Ltd",
+  "documents": [],
+  "records": [
+    "026164cb3975ae56",
+    "0642b0e2f8481e38",
+    "1b2e1cf4254353a3",
+    "1d5887ee6818e418",
+    "3dd07be66c3903ed",
+    "67ede7c7d35d55f8",
+    "687aac6c94019508",
+    "9287fcc16b75fdd7",
+    "aa1f5b6149535700",
+    "c5bb735b0bb6f80c",
+    "d88afb3e17eb4e79",
+    "ea7e7c3e5e7cfbc9"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-23",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

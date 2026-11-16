@@ -1,0 +1,850 @@
+{
+  "event_id": "agi_infra_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "252.4",
+    "high": "298.78",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹252.4",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+            "row_ref": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+            "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 6,79,989 shares | price 252.4 | 2026-11-02"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹298.78",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+            "row_ref": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+            "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 9,39,252 shares | price 298.78 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "2 Nov 2026 to 6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "29,49,942 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 8,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_arihant_capital_markets_limited",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "dfe8b9a1dd278ec6",
+        "01710806169d3f0c",
+        "e09aad6a111ec25e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 679989,
+          "record_ids": [
+            "dfe8b9a1dd278ec6"
+          ]
+        },
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 1330449,
+          "record_ids": [
+            "01710806169d3f0c"
+          ]
+        },
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 939252,
+          "record_ids": [
+            "e09aad6a111ec25e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+          "row_ref": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+          "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 6,79,989 shares | price 252.4 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dfe8b9a1dd278ec6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449",
+          "row_ref": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449",
+          "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 13,30,449 shares | price 266.03 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "01710806169d3f0c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+          "row_ref": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+          "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 9,39,252 shares | price 298.78 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e09aad6a111ec25e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "29,49,690",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "806198283.63",
+          "rupees_high": "806198283.63",
+          "crore_low": "80.62",
+          "crore_high": "80.62",
+          "display": "₹80.62 crore",
+          "working": "6,79,989 shares × ₹252.4 = ₹17.16 crore (NSE 02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989); 13,30,449 shares × ₹266.03 = ₹35.39 crore (NSE 03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449); 9,39,252 shares × ₹298.78 = ₹28.06 crore (NSE 06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252); total ₹80.62 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "6,79,989",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+                  "row_ref": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 6,79,989 shares | price 252.4 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹252.4",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+                  "row_ref": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 679989",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 6,79,989 shares | price 252.4 | 2026-11-02"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "13,30,449",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449",
+                  "row_ref": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 13,30,449 shares | price 266.03 | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹266.03",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449",
+                  "row_ref": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 1330449",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 13,30,449 shares | price 266.03 | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "9,39,252",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+                  "row_ref": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 9,39,252 shares | price 298.78 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹298.78",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+                  "row_ref": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 9,39,252 shares | price 298.78 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+                  "row_ref": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · SELL · 939252",
+                  "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | SELL | 9,39,252 shares | price 298.78 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 13
+        }
+      },
+      "why_money": "sold 29,49,690 shares in bulk deals between 2 Nov 2026 and 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹54.10 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹11.92 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w45",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹17.33 crore",
+          "trigger_date": "2026-11-03",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w45",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_arihant_capital_markets_limited_bought",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c81e176dfba2a48a",
+        "02ed9027827e850e",
+        "68cd3010a2da2c4d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-02",
+          "quantity": 456825,
+          "record_ids": [
+            "c81e176dfba2a48a"
+          ]
+        },
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 1347189,
+          "record_ids": [
+            "02ed9027827e850e"
+          ]
+        },
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1025716,
+          "record_ids": [
+            "68cd3010a2da2c4d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · BUY · 456825",
+          "row_ref": "02-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · BUY · 456825",
+          "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | BUY | 4,56,825 shares | price 252.76 | 2026-11-02",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c81e176dfba2a48a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1347189",
+          "row_ref": "03-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1347189",
+          "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | BUY | 13,47,189 shares | price 263.16 | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "02ed9027827e850e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1025716",
+          "row_ref": "06-NOV-2026 · AGIIL · ARIHANT CAPITAL MARKETS LIMITED · BUY · 1025716",
+          "quote": "NSE | AGIIL | ARIHANT CAPITAL MARKETS LIMITED | BUY | 10,25,716 shares | price 295.93 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "68cd3010a2da2c4d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 28,29,730 shares in bulk deals between 2 Nov 2026 and 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹54.10 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "ackruti_city_bulk_deal_2026w44",
+          "company": "Ackruti City Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹11.92 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w44",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w45",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹17.33 crore",
+          "trigger_date": "2026-11-03",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w45",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_arthkumbh_ventures_llp",
+      "name_as_printed": "ARTHKUMBH VENTURES LLP",
+      "names_as_printed": [
+        "ARTHKUMBH VENTURES LLP"
+      ],
+      "name_clean": "arthkumbh ventures llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ventures'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e6acf04ca5511fb9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 252,
+          "record_ids": [
+            "e6acf04ca5511fb9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+          "row_ref": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+          "quote": "NSE | AGIIL | ARTHKUMBH VENTURES LLP | SELL | 252 shares | price 267.24 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e6acf04ca5511fb9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "252",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "67344.48",
+          "rupees_high": "67344.48",
+          "crore_low": "0.01",
+          "crore_high": "0.01",
+          "display": "₹67,344",
+          "working": "252 shares × ₹267.24 = ₹67,344 (NSE 05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "252",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+                  "row_ref": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+                  "quote": "NSE | AGIIL | ARTHKUMBH VENTURES LLP | SELL | 252 shares | price 267.24 | 2026-11-05"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹267.24",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+                  "row_ref": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+                  "quote": "NSE | AGIIL | ARTHKUMBH VENTURES LLP | SELL | 252 shares | price 267.24 | 2026-11-05"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+          "trade_date": "2026-11-05",
+          "settles_on": "2026-11-06",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "5 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+                  "row_ref": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · SELL · 252",
+                  "quote": "NSE | AGIIL | ARTHKUMBH VENTURES LLP | SELL | 252 shares | price 267.24 | 2026-11-05"
+                }
+              ]
+            }
+          ],
+          "days_since": 10
+        }
+      },
+      "why_money": "sold 252 shares in a bulk deal on 5 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_arthkumbh_ventures_llp_bought",
+      "name_as_printed": "ARTHKUMBH VENTURES LLP",
+      "names_as_printed": [
+        "ARTHKUMBH VENTURES LLP"
+      ],
+      "name_clean": "arthkumbh ventures llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ventures'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "abd9d85abfc193d8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-05",
+          "quantity": 1000000,
+          "record_ids": [
+            "abd9d85abfc193d8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · BUY · 1000000",
+          "row_ref": "05-NOV-2026 · AGIIL · ARTHKUMBH VENTURES LLP · BUY · 1000000",
+          "quote": "NSE | AGIIL | ARTHKUMBH VENTURES LLP | BUY | 10,00,000 shares | price 273 | 2026-11-05",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "abd9d85abfc193d8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 10,00,000 shares in a bulk deal on 5 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 4
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 20
+  }
+}

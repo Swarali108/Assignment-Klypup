@@ -1,0 +1,31 @@
+{
+  "event_id": "maha_tel_nigam_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "Maha Tel Nigam Ltd.",
+  "documents": [],
+  "records": [
+    "1ad218c727555845",
+    "3c18f087d7cbee1d",
+    "3e58ab7df709e220",
+    "4e6a14f880bb3b37",
+    "64f70e0c2f8a9006",
+    "693f609ae1546595",
+    "6f25ced25d364dff",
+    "902643ea24045429",
+    "93a153c330cda6f9",
+    "a9a9eee9fe7bebb8",
+    "aae5eea4c68cf6df",
+    "b6307392576f0e26",
+    "def8b7bf7a9acf45",
+    "f29d994c5ae9ca0e"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-06",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "refreshed_at": "2026-11-14T12:00:00Z",
+  "source_status": {"nse_insider": {"status": "ok", "items": 4}, "bse_insider": {"status": "blocked", "reason": "HTTP 403"}},
+  "records": [
+    {"id": "is01", "kind": "insider_sale", "exchange": "NSE", "symbol": "EXAMPLEIND", "company": "Example Industries Limited",
+     "trade_date": "2026-11-13", "name_as_printed": "Ravi Kumar Sample", "category": "promoter_group", "side": "sell",
+     "quantity": 40000, "price_inr": null, "value_inr": "48,00,000", "mode": "Market Sale",
+     "link": "https://example.test/nse/insider?symbol=EXAMPLEIND", "row_ref": "NSE PIT disclosure row 7",
+     "fetched_at": "2026-11-14T12:00:00Z"},
+    {"id": "is02", "kind": "insider_sale", "exchange": "NSE", "symbol": "EXAMPLEIND", "company": "Example Industries Limited",
+     "trade_date": "2026-11-10", "name_as_printed": "Nina Sample", "category": "director", "side": "sell",
+     "quantity": 15000, "price_inr": null, "value_inr": "18,00,000", "mode": "Off Market",
+     "link": "https://example.test/nse/insider?symbol=EXAMPLEIND", "row_ref": "NSE PIT disclosure row 8",
+     "fetched_at": "2026-11-14T12:00:00Z"},
+    {"id": "is03", "kind": "insider_sale", "exchange": "NSE", "symbol": "EXAMPLEIND", "company": "Example Industries Limited",
+     "trade_date": "2026-11-11", "name_as_printed": "Arun Sample", "category": "promoter", "side": "sell",
+     "quantity": 25000, "price_inr": null, "value_inr": null, "mode": "Gift",
+     "link": "https://example.test/nse/insider?symbol=EXAMPLEIND", "row_ref": "NSE PIT disclosure row 9",
+     "fetched_at": "2026-11-14T12:00:00Z"},
+    {"id": "is04", "kind": "insider_sale", "exchange": "NSE", "symbol": "EXAMPLEIND", "company": "Example Industries Limited",
+     "trade_date": "2026-11-12", "name_as_printed": "Kavya Sample", "category": "kmp", "side": "buy",
+     "quantity": 1000, "price_inr": null, "value_inr": "1,20,000", "mode": "Market Purchase",
+     "link": "https://example.test/nse/insider?symbol=EXAMPLEIND", "row_ref": "NSE PIT disclosure row 10",
+     "fetched_at": "2026-11-14T12:00:00Z"}
+  ]
+}

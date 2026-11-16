@@ -1,0 +1,98 @@
+{
+  "event_id": "enkei_wheels_bulk_deal_2026w45",
+  "callable": [
+    {
+      "person_id": "p_neerav_apurva_parekh",
+      "name_as_printed": "NEERAV APURVA PAREKH",
+      "name_clean": "neerav apurva parekh",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "6.76",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "6.76000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 12,
+        "label": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+        "money_crore": "6.76",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "6.76000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 12,
+          "label": "proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+          "money_crore": "6.76",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "6.76000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 1,69,057 shares in a bulk deal on 3 Nov 2026",
+      "amount_display": "₹6.76 crore",
+      "timing_display": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹6.76 crore; settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago).",
+        "score 6.76 = ₹6.76 crore (proceeds settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": [
+    {
+      "person_id": "p_shyam_s_bought",
+      "name_as_printed": "SHYAM S",
+      "name_clean": "shyam s",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 2,00,000 shares in a bulk deal on 3 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 0.7 (medium confidence) × 0.25 (timing unknown)"
+      ]
+    }
+  ]
+}

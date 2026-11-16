@@ -1,0 +1,62 @@
+{
+  "event_id": "supreme_engineering_bulk_deal_2026w44",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.68",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.68000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 19,
+        "label": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "money_crore": "0.68",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.68000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 19,
+          "label": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "money_crore": "0.68",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.68000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 13,90,533 shares in a bulk deal on 27 Oct 2026",
+      "amount_display": "₹68.28 lakh",
+      "timing_display": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹68.28 lakh; settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 0.68 = ₹0.68 crore (proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

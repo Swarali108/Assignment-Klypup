@@ -1,0 +1,983 @@
+{
+  "event_id": "shiv_aum_steels_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "540",
+    "high": "541.5",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹540",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+            "row_ref": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+            "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 1,41,500 shares | price 540 | 2026-10-28"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹541.5",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+            "row_ref": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+            "quote": "NSE | SHIVAUM | CRABEL VINTRADE PRIVATE LIMITED | SELL | 80,000 shares | price 541.5 | 2026-10-27"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026 to 28 Oct 2026",
+    "sale_date_parsed": "2026-10-28",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "3,79,100 shares sold by 3 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 8,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_arihant_capital_markets_limited_bought",
+      "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+      "names_as_printed": [
+        "ARIHANT CAPITAL MARKETS LIMITED"
+      ],
+      "name_clean": "arihant capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "cef7bbac2070515d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 102951,
+          "record_ids": [
+            "cef7bbac2070515d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · SHIVAUM · ARIHANT CAPITAL MARKETS LIMITED · BUY · 102951",
+          "row_ref": "27-OCT-2026 · SHIVAUM · ARIHANT CAPITAL MARKETS LIMITED · BUY · 102951",
+          "quote": "NSE | SHIVAUM | ARIHANT CAPITAL MARKETS LIMITED | BUY | 1,02,951 shares | price 540.04 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "cef7bbac2070515d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,02,951 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹25.06 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "agi_infra_bulk_deal_2026w44",
+          "company": "Agi Infra Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.50 crore",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "commercial_syn_bags_bulk_deal_2026w43",
+          "company": "Commercial Syn Bags Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹12.75 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "motisons_jewellers_bulk_deal_2026w44",
+          "company": "Motisons Jewellers Ltd",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "₹10.01 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        },
+        {
+          "event_id": "sunshine_pictures_bulk_deal_2026w44",
+          "company": "Sunshine Pictures Limited",
+          "name_as_printed": "ARIHANT CAPITAL MARKETS LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ARIHANT CAPITAL MARKETS LIMITED' / 'ARIHANT CAPITAL MARKETS LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_crabel_vintrade_private_limited",
+      "name_as_printed": "CRABEL VINTRADE PRIVATE LIMITED",
+      "names_as_printed": [
+        "CRABEL VINTRADE PRIVATE LIMITED"
+      ],
+      "name_clean": "crabel vintrade private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ae1ca577d8a78afa"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 80000,
+          "record_ids": [
+            "ae1ca577d8a78afa"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+          "row_ref": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+          "quote": "NSE | SHIVAUM | CRABEL VINTRADE PRIVATE LIMITED | SELL | 80,000 shares | price 541.5 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ae1ca577d8a78afa",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "80,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "43320000.0",
+          "rupees_high": "43320000.0",
+          "crore_low": "4.33",
+          "crore_high": "4.33",
+          "display": "₹4.33 crore",
+          "working": "80,000 shares × ₹541.5 = ₹4.33 crore (NSE 27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "80,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+                  "quote": "NSE | SHIVAUM | CRABEL VINTRADE PRIVATE LIMITED | SELL | 80,000 shares | price 541.5 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹541.5",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+                  "quote": "NSE | SHIVAUM | CRABEL VINTRADE PRIVATE LIMITED | SELL | 80,000 shares | price 541.5 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · CRABEL VINTRADE PRIVATE LIMITED · SELL · 80000",
+                  "quote": "NSE | SHIVAUM | CRABEL VINTRADE PRIVATE LIMITED | SELL | 80,000 shares | price 541.5 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 80,000 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_dealmoney_commodities_private_limited",
+      "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "DEALMONEY COMMODITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "dealmoney commodities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "ab9f382f191b06bf"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 82600,
+          "record_ids": [
+            "ab9f382f191b06bf"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+          "row_ref": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+          "quote": "NSE | SHIVAUM | DEALMONEY COMMODITIES PRIVATE LIMITED | SELL | 82,600 shares | price 541.27 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ab9f382f191b06bf",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "82,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "44708902.00",
+          "rupees_high": "44708902.00",
+          "crore_low": "4.47",
+          "crore_high": "4.47",
+          "display": "₹4.47 crore",
+          "working": "82,600 shares × ₹541.27 = ₹4.47 crore (NSE 27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "82,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+                  "quote": "NSE | SHIVAUM | DEALMONEY COMMODITIES PRIVATE LIMITED | SELL | 82,600 shares | price 541.27 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹541.27",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+                  "quote": "NSE | SHIVAUM | DEALMONEY COMMODITIES PRIVATE LIMITED | SELL | 82,600 shares | price 541.27 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · SELL · 82600",
+                  "quote": "NSE | SHIVAUM | DEALMONEY COMMODITIES PRIVATE LIMITED | SELL | 82,600 shares | price 541.27 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 82,600 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "advance_agrolife_bulk_deal_2026w43",
+          "company": "Advance Agrolife Limited",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.45 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "advance_agrolife_bulk_deal_2026w43",
+          "company": "Advance Agrolife Limited",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "arihant_capital_mkts_bulk_deal_2026w44",
+          "company": "Arihant Capital Mkts Ltd",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.49 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "arihant_capital_mkts_bulk_deal_2026w44",
+          "company": "Arihant Capital Mkts Ltd",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_dealmoney_commodities_private_limited_bought",
+      "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "DEALMONEY COMMODITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "dealmoney commodities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "468fac398e40f2cb"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 92150,
+          "record_ids": [
+            "468fac398e40f2cb"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · BUY · 92150",
+          "row_ref": "27-OCT-2026 · SHIVAUM · DEALMONEY COMMODITIES PRIVATE LIMITED · BUY · 92150",
+          "quote": "NSE | SHIVAUM | DEALMONEY COMMODITIES PRIVATE LIMITED | BUY | 92,150 shares | price 541.63 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "468fac398e40f2cb",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 92,150 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "advance_agrolife_bulk_deal_2026w43",
+          "company": "Advance Agrolife Limited",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹6.45 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "advance_agrolife_bulk_deal_2026w43",
+          "company": "Advance Agrolife Limited",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "arihant_capital_mkts_bulk_deal_2026w44",
+          "company": "Arihant Capital Mkts Ltd",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.49 crore",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "arihant_capital_mkts_bulk_deal_2026w44",
+          "company": "Arihant Capital Mkts Ltd",
+          "name_as_printed": "DEALMONEY COMMODITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'DEALMONEY COMMODITIES PRIVATE LIMITED' / 'DEALMONEY COMMODITIES PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_moksh_trading_private_limited_bought",
+      "name_as_printed": "MOKSH TRADING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MOKSH TRADING PRIVATE LIMITED"
+      ],
+      "name_clean": "moksh trading private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8f0d23a39c02a6c9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 75000,
+          "record_ids": [
+            "8f0d23a39c02a6c9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · SHIVAUM · MOKSH TRADING PRIVATE LIMITED · BUY · 75000",
+          "row_ref": "28-OCT-2026 · SHIVAUM · MOKSH TRADING PRIVATE LIMITED · BUY · 75000",
+          "quote": "NSE | SHIVAUM | MOKSH TRADING PRIVATE LIMITED | BUY | 75,000 shares | price 540 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8f0d23a39c02a6c9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 75,000 shares in a bulk deal on 28 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_parmanand_kejriwal_sons_private_limited_bought",
+      "name_as_printed": "PARMANAND KEJRIWAL & SONS PRIVATE LIMITED",
+      "names_as_printed": [
+        "PARMANAND KEJRIWAL & SONS PRIVATE LIMITED"
+      ],
+      "name_clean": "parmanand kejriwal & sons private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "7f1960980af67166"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 80000,
+          "record_ids": [
+            "7f1960980af67166"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · SHIVAUM · PARMANAND KEJRIWAL & SONS PRIVATE LIMITED · BUY · 80000",
+          "row_ref": "27-OCT-2026 · SHIVAUM · PARMANAND KEJRIWAL & SONS PRIVATE LIMITED · BUY · 80000",
+          "quote": "NSE | SHIVAUM | PARMANAND KEJRIWAL & SONS PRIVATE LIMITED | BUY | 80,000 shares | price 541.25 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7f1960980af67166",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 80,000 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_venkateshwara_industrial_promotion_co_limited",
+      "name_as_printed": "VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED",
+      "names_as_printed": [
+        "VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED"
+      ],
+      "name_clean": "venkateshwara industrial promotion co limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "bde2ce96070244b5",
+        "d552878497a019f6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 75000,
+          "record_ids": [
+            "bde2ce96070244b5"
+          ]
+        },
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 141500,
+          "record_ids": [
+            "d552878497a019f6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000",
+          "row_ref": "27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000",
+          "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 75,000 shares | price 540.03 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bde2ce96070244b5",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+          "row_ref": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+          "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 1,41,500 shares | price 540 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d552878497a019f6",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,16,500",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "116912250.00",
+          "rupees_high": "116912250.00",
+          "crore_low": "11.69",
+          "crore_high": "11.69",
+          "display": "₹11.69 crore",
+          "working": "75,000 shares × ₹540.03 = ₹4.05 crore (NSE 27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000); 1,41,500 shares × ₹540 = ₹7.64 crore (NSE 28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500); total ₹11.69 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "75,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000",
+                  "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 75,000 shares | price 540.03 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹540.03",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000",
+                  "row_ref": "27-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 75000",
+                  "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 75,000 shares | price 540.03 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,41,500",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+                  "row_ref": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+                  "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 1,41,500 shares | price 540 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹540",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+                  "row_ref": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+                  "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 1,41,500 shares | price 540 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+                  "row_ref": "28-OCT-2026 · SHIVAUM · VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED · SELL · 141500",
+                  "quote": "NSE | SHIVAUM | VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED | SELL | 1,41,500 shares | price 540 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 2,16,500 shares in bulk deals on 27 Oct 2026 and 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "jakharia_fabric_bulk_deal_2026w44",
+          "company": "JAKHARIA FABRIC LIMITED",
+          "name_as_printed": "VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED' / 'VENKATESHWARA INDUSTRIAL PROMOTION CO LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 7,
+    "by_holder_type": {
+      "entity": 7
+    },
+    "by_confidence": {
+      "high": 7
+    },
+    "sellers": 3,
+    "sellers_unverified": 0,
+    "buyers": 4,
+    "proceeds_computed": 3,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 7
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 7,
+    "follow_on_matches": 17
+  }
+}

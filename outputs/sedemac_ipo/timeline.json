@@ -1,0 +1,48 @@
+{
+  "run_id": "sedemac_ipo-20261115T135332Z",
+  "total_s": 61.61652383301407,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 3.4017327500041574,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 4.788915666984394,
+      "calls": 10,
+      "cached": 10,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.025448125030379742,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.006689041969366372,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 53.360199874965474,
+      "calls": 29,
+      "cached": 0,
+      "cost_usd": 0.006681
+    },
+    {
+      "step": "report",
+      "seconds": 0.014791540976148099,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

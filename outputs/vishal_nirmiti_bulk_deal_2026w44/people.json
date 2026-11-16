@@ -1,0 +1,1568 @@
+{
+  "event_id": "vishal_nirmiti_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "89.19",
+    "high": "103.12",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹89.19",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+            "row_ref": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+            "quote": "NSE | VNL | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,49,505 shares | price 89.19 | 2026-10-28"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹103.12",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+            "row_ref": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+            "quote": "NSE | VNL | SUNCITY SHARE BROKER PRIVATE LIMITED | SELL | 1,76,404 shares | price 103.12 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026 to 29 Oct 2026",
+    "sale_date_parsed": "2026-10-29",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "10,32,026 shares sold by 5 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 12,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_kalpalabdhi_securities_private_limited_bought",
+      "name_as_printed": "KALPALABDHI SECURITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "KALPALABDHI SECURITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "kalpalabdhi securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e0abee55fd5a85e7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 200000,
+          "record_ids": [
+            "e0abee55fd5a85e7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · KALPALABDHI SECURITIES PRIVATE LIMITED · BUY · 200000",
+          "row_ref": "27-OCT-2026 · VNL · KALPALABDHI SECURITIES PRIVATE LIMITED · BUY · 200000",
+          "quote": "NSE | VNL | KALPALABDHI SECURITIES PRIVATE LIMITED | BUY | 2,00,000 shares | price 93.88 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e0abee55fd5a85e7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,00,000 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "NEO APEX SHARE BROKING SERVICES LLP"
+      ],
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "a5c46f6543c8eb89"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 311595,
+          "record_ids": [
+            "a5c46f6543c8eb89"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+          "row_ref": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+          "quote": "NSE | VNL | NEO APEX SHARE BROKING SERVICES LLP | SELL | 3,11,595 shares | price 93.9 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "a5c46f6543c8eb89",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,11,595",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "29258770.5",
+          "rupees_high": "29258770.5",
+          "crore_low": "2.93",
+          "crore_high": "2.93",
+          "display": "₹2.93 crore",
+          "working": "3,11,595 shares × ₹93.9 = ₹2.93 crore (NSE 27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,11,595",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+                  "row_ref": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+                  "quote": "NSE | VNL | NEO APEX SHARE BROKING SERVICES LLP | SELL | 3,11,595 shares | price 93.9 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹93.9",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+                  "row_ref": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+                  "quote": "NSE | VNL | NEO APEX SHARE BROKING SERVICES LLP | SELL | 3,11,595 shares | price 93.9 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+                  "row_ref": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · SELL · 311595",
+                  "quote": "NSE | VNL | NEO APEX SHARE BROKING SERVICES LLP | SELL | 3,11,595 shares | price 93.9 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 3,11,595 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹1.36 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹97.34 lakh",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹26.33 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹47.72 lakh",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "supreme_engineering_bulk_deal_2026w44",
+          "company": "Supreme Engineering Ltd",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹68.28 lakh",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "vinod_texworld_bulk_deal_2026w44",
+          "company": "Vinod Texworld Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹48.36 lakh",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_neo_apex_share_broking_services_llp_bought",
+      "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+      "names_as_printed": [
+        "NEO APEX SHARE BROKING SERVICES LLP"
+      ],
+      "name_clean": "neo apex share broking services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "dfe7d2cb939409a8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 311595,
+          "record_ids": [
+            "dfe7d2cb939409a8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · BUY · 311595",
+          "row_ref": "27-OCT-2026 · VNL · NEO APEX SHARE BROKING SERVICES LLP · BUY · 311595",
+          "quote": "NSE | VNL | NEO APEX SHARE BROKING SERVICES LLP | BUY | 3,11,595 shares | price 93.95 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dfe7d2cb939409a8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,11,595 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹1.36 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w43",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹97.34 lakh",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "empower_bulk_deal_2026w44",
+          "company": "Empower India Ltd.",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹26.33 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹47.72 lakh",
+          "trigger_date": "2026-10-20",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "kabra_jewels_bulk_deal_2026w43",
+          "company": "Kabra Jewels Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "supreme_engineering_bulk_deal_2026w44",
+          "company": "Supreme Engineering Ltd",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹68.28 lakh",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        },
+        {
+          "event_id": "vinod_texworld_bulk_deal_2026w44",
+          "company": "Vinod Texworld Limited",
+          "name_as_printed": "NEO APEX SHARE BROKING SERVICES LLP",
+          "role": null,
+          "amount": "₹48.36 lakh",
+          "trigger_date": "2026-10-28",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'NEO APEX SHARE BROKING SERVICES LLP' / 'NEO APEX SHARE BROKING SERVICES LLP'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_prognosis_securities_pvt_ltd",
+      "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+      "names_as_printed": [
+        "PROGNOSIS SECURITIES PVT. LTD"
+      ],
+      "name_clean": "prognosis securities pvt. ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "4663a14b8ad7d46d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 149505,
+          "record_ids": [
+            "4663a14b8ad7d46d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+          "row_ref": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+          "quote": "NSE | VNL | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,49,505 shares | price 89.19 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4663a14b8ad7d46d",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,49,505",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "13334350.95",
+          "rupees_high": "13334350.95",
+          "crore_low": "1.33",
+          "crore_high": "1.33",
+          "display": "₹1.33 crore",
+          "working": "1,49,505 shares × ₹89.19 = ₹1.33 crore (NSE 28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,49,505",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+                  "row_ref": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+                  "quote": "NSE | VNL | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,49,505 shares | price 89.19 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹89.19",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+                  "row_ref": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+                  "quote": "NSE | VNL | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,49,505 shares | price 89.19 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+                  "row_ref": "28-OCT-2026 · VNL · PROGNOSIS SECURITIES PVT. LTD · SELL · 149505",
+                  "quote": "NSE | VNL | PROGNOSIS SECURITIES PVT. LTD | SELL | 1,49,505 shares | price 89.19 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        }
+      },
+      "why_money": "sold 1,49,505 shares in a bulk deal on 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "marsons_bulk_deal_2026w43",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹11.35 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "marsons_bulk_deal_2026w43",
+          "company": "Marsons Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "rays_of_belief_bulk_deal_2026w43",
+          "company": "Rays of Belief Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹4.82 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "rays_of_belief_bulk_deal_2026w43",
+          "company": "Rays of Belief Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "voler_car_bulk_deal_2026w44",
+          "company": "Voler Car Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "₹1.84 crore",
+          "trigger_date": "2026-10-29",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        },
+        {
+          "event_id": "voler_car_bulk_deal_2026w44",
+          "company": "Voler Car Limited",
+          "name_as_printed": "PROGNOSIS SECURITIES PVT. LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'PROGNOSIS SECURITIES PVT. LTD' / 'PROGNOSIS SECURITIES PVT. LTD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_sahastraa_advisors_private_limited",
+      "name_as_printed": "SAHASTRAA ADVISORS PRIVATE LIMITED",
+      "names_as_printed": [
+        "SAHASTRAA ADVISORS PRIVATE LIMITED"
+      ],
+      "name_clean": "sahastraa advisors private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6a645a90e5c42d6c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 136204,
+          "record_ids": [
+            "6a645a90e5c42d6c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+          "row_ref": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+          "quote": "NSE | VNL | SAHASTRAA ADVISORS PRIVATE LIMITED | SELL | 1,36,204 shares | price 94.3 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6a645a90e5c42d6c",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,36,204",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "12844037.2",
+          "rupees_high": "12844037.2",
+          "crore_low": "1.28",
+          "crore_high": "1.28",
+          "display": "₹1.28 crore",
+          "working": "1,36,204 shares × ₹94.3 = ₹1.28 crore (NSE 27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,36,204",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+                  "row_ref": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+                  "quote": "NSE | VNL | SAHASTRAA ADVISORS PRIVATE LIMITED | SELL | 1,36,204 shares | price 94.3 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹94.3",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+                  "row_ref": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+                  "quote": "NSE | VNL | SAHASTRAA ADVISORS PRIVATE LIMITED | SELL | 1,36,204 shares | price 94.3 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+                  "row_ref": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · SELL · 136204",
+                  "quote": "NSE | VNL | SAHASTRAA ADVISORS PRIVATE LIMITED | SELL | 1,36,204 shares | price 94.3 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 1,36,204 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_sahastraa_advisors_private_limited_bought",
+      "name_as_printed": "SAHASTRAA ADVISORS PRIVATE LIMITED",
+      "names_as_printed": [
+        "SAHASTRAA ADVISORS PRIVATE LIMITED"
+      ],
+      "name_clean": "sahastraa advisors private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9e67d44cd8165c32"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 146201,
+          "record_ids": [
+            "9e67d44cd8165c32"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · BUY · 146201",
+          "row_ref": "27-OCT-2026 · VNL · SAHASTRAA ADVISORS PRIVATE LIMITED · BUY · 146201",
+          "quote": "NSE | VNL | SAHASTRAA ADVISORS PRIVATE LIMITED | BUY | 1,46,201 shares | price 93.99 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9e67d44cd8165c32",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,46,201 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_setu_securities_pvt_ltd",
+      "name_as_printed": "SETU SECURITIES PVT LTD",
+      "names_as_printed": [
+        "SETU SECURITIES PVT LTD"
+      ],
+      "name_clean": "setu securities pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "84a4d0d342408cf1",
+        "eb4190a7b16a4b1e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 82482,
+          "record_ids": [
+            "84a4d0d342408cf1"
+          ]
+        },
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 175836,
+          "record_ids": [
+            "eb4190a7b16a4b1e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482",
+          "row_ref": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482",
+          "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 82,482 shares | price 93.88 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "84a4d0d342408cf1",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+          "row_ref": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+          "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 1,75,836 shares | price 95.72 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "eb4190a7b16a4b1e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,58,318",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "24574432.08",
+          "rupees_high": "24574432.08",
+          "crore_low": "2.46",
+          "crore_high": "2.46",
+          "display": "₹2.46 crore",
+          "working": "82,482 shares × ₹93.88 = ₹77.43 lakh (NSE 27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482); 1,75,836 shares × ₹95.72 = ₹1.68 crore (NSE 28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836); total ₹2.46 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "82,482",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482",
+                  "row_ref": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482",
+                  "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 82,482 shares | price 93.88 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹93.88",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482",
+                  "row_ref": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 82482",
+                  "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 82,482 shares | price 93.88 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "1,75,836",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+                  "row_ref": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+                  "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 1,75,836 shares | price 95.72 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹95.72",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+                  "row_ref": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+                  "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 1,75,836 shares | price 95.72 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+                  "row_ref": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · SELL · 175836",
+                  "quote": "NSE | VNL | SETU SECURITIES PVT LTD | SELL | 1,75,836 shares | price 95.72 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 2,58,318 shares in bulk deals on 27 Oct 2026 and 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹17.43 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹29.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹28.72 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "indo_tech_transformers_li_bulk_deal_2026w44",
+          "company": "Indo Tech Transformers Li",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹72.95 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "indo_tech_transformers_li_bulk_deal_2026w44",
+          "company": "Indo Tech Transformers Li",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_setu_securities_pvt_ltd_bought",
+      "name_as_printed": "SETU SECURITIES PVT LTD",
+      "names_as_printed": [
+        "SETU SECURITIES PVT LTD"
+      ],
+      "name_clean": "setu securities pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "edea8a4dcd60e66b",
+        "56c052fb703c9573"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 200020,
+          "record_ids": [
+            "edea8a4dcd60e66b"
+          ]
+        },
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 106836,
+          "record_ids": [
+            "56c052fb703c9573"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · BUY · 200020",
+          "row_ref": "27-OCT-2026 · VNL · SETU SECURITIES PVT LTD · BUY · 200020",
+          "quote": "NSE | VNL | SETU SECURITIES PVT LTD | BUY | 2,00,020 shares | price 93.88 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "edea8a4dcd60e66b",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · BUY · 106836",
+          "row_ref": "28-OCT-2026 · VNL · SETU SECURITIES PVT LTD · BUY · 106836",
+          "quote": "NSE | VNL | SETU SECURITIES PVT LTD | BUY | 1,06,836 shares | price 89.26 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "56c052fb703c9573",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 3,06,856 shares in bulk deals on 27 Oct 2026 and 28 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹17.43 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "belding_bulk_deal_2026w44",
+          "company": "Belding India Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹29.87 crore",
+          "trigger_date": "2026-10-22",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hd_fire_protect_bulk_deal_2026w43",
+          "company": "HD Fire Protect Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹28.72 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "indo_tech_transformers_li_bulk_deal_2026w44",
+          "company": "Indo Tech Transformers Li",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "₹72.95 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        },
+        {
+          "event_id": "indo_tech_transformers_li_bulk_deal_2026w44",
+          "company": "Indo Tech Transformers Li",
+          "name_as_printed": "SETU SECURITIES PVT LTD",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'SETU SECURITIES PVT LTD' / 'SETU SECURITIES PVT LTD'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_suncity_share_broker_private_limited",
+      "name_as_printed": "SUNCITY SHARE BROKER PRIVATE LIMITED",
+      "names_as_printed": [
+        "SUNCITY SHARE BROKER PRIVATE LIMITED"
+      ],
+      "name_clean": "suncity share broker private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "034d96e7f138ba31"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 176404,
+          "record_ids": [
+            "034d96e7f138ba31"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+          "row_ref": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+          "quote": "NSE | VNL | SUNCITY SHARE BROKER PRIVATE LIMITED | SELL | 1,76,404 shares | price 103.12 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "034d96e7f138ba31",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,76,404",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "18190780.48",
+          "rupees_high": "18190780.48",
+          "crore_low": "1.82",
+          "crore_high": "1.82",
+          "display": "₹1.82 crore",
+          "working": "1,76,404 shares × ₹103.12 = ₹1.82 crore (NSE 29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,76,404",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+                  "row_ref": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+                  "quote": "NSE | VNL | SUNCITY SHARE BROKER PRIVATE LIMITED | SELL | 1,76,404 shares | price 103.12 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹103.12",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+                  "row_ref": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+                  "quote": "NSE | VNL | SUNCITY SHARE BROKER PRIVATE LIMITED | SELL | 1,76,404 shares | price 103.12 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+                  "row_ref": "29-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · SELL · 176404",
+                  "quote": "NSE | VNL | SUNCITY SHARE BROKER PRIVATE LIMITED | SELL | 1,76,404 shares | price 103.12 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 1,76,404 shares in a bulk deal on 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_suncity_share_broker_private_limited_bought",
+      "name_as_printed": "SUNCITY SHARE BROKER PRIVATE LIMITED",
+      "names_as_printed": [
+        "SUNCITY SHARE BROKER PRIVATE LIMITED"
+      ],
+      "name_clean": "suncity share broker private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "9cf217866e9b4cee"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 195000,
+          "record_ids": [
+            "9cf217866e9b4cee"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · BUY · 195000",
+          "row_ref": "27-OCT-2026 · VNL · SUNCITY SHARE BROKER PRIVATE LIMITED · BUY · 195000",
+          "quote": "NSE | VNL | SUNCITY SHARE BROKER PRIVATE LIMITED | BUY | 1,95,000 shares | price 94.01 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "9cf217866e9b4cee",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,95,000 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 10,
+    "by_holder_type": {
+      "entity": 10
+    },
+    "by_confidence": {
+      "high": 10
+    },
+    "sellers": 5,
+    "sellers_unverified": 0,
+    "buyers": 5,
+    "proceeds_computed": 5,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 10
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 10,
+    "follow_on_matches": 42
+  }
+}

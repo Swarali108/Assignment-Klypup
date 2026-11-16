@@ -1,0 +1,43 @@
+{
+  "event_id": "dcw_limited_buyback_202610",
+  "event_type": "buyback",
+  "documents": [
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3b5d5d81-0e71-440f-a78c-39d5c5afb271.pdf",
+      "doc_type": "announcement",
+      "fetched": "yes",
+      "pages": 12,
+      "low_text_pages": [],
+      "read_whole": "6 of 12 pages sent to buyback_results, buyback_acceptance"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/DCW_31102026155745_NSEPABRUndertakingBrokerletter.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 23,
+      "low_text_pages": [
+        6,
+        7,
+        8
+      ],
+      "sections_found": {
+        "buyback_terms": "p. 24",
+        "promoter_intention": "p. 23"
+      },
+      "sections_missing": []
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/47a627b8-f546-4338-b55a-3178cf9a32f0.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 24,
+      "low_text_pages": [],
+      "sections_found": {
+        "buyback_terms": "p. 24",
+        "promoter_intention": "p. 23"
+      },
+      "sections_missing": []
+    }
+  ],
+  "seconds": 11.2
+}

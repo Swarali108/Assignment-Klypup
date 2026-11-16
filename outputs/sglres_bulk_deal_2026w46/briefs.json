@@ -1,0 +1,55 @@
+{
+  "event_id": "sglres_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_swapneel_ashish_shah",
+      "name_as_printed": "SWAPNEEL ASHISH SHAH",
+      "fields": {
+        "name": "SWAPNEEL ASHISH SHAH",
+        "role": "unknown",
+        "why_money": "sold 24,00,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹49.20 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹49.20 lakh (24,00,000 shares × ₹2.05 = ₹49.20 lakh (BSE 13/11/2026 · SGLRES · SWAPNEEL ASHISH SHAH · S · 2400000))"
+      },
+      "placeholders": {
+        "name": "SWAPNEEL ASHISH SHAH",
+        "role": "unknown",
+        "amount": "₹49.20 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹49.20 lakh",
+        "shares_offered": "24,00,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "SWAPNEEL ASHISH SHAH is a holder whose role is unknown, receiving money from a share sale.",
+        "They sold 24,00,000 shares in a bulk deal; proceeds of ₹49.20 lakh settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Ask whether they want to discuss how to deploy the ₹49.20 lakh received today.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold {shares_offered} in a bulk deal; proceeds of {proceeds} settled {timing}.",
+            "Ask whether they want to discuss how to deploy the {amount} received today.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "SWAPNEEL ASHISH SHAH is a holder whose role is unknown, receiving money from a share sale.",
+            "They sold 24,00,000 shares in a bulk deal; proceeds of ₹49.20 lakh settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Ask whether they want to discuss how to deploy the ₹49.20 lakh received today.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

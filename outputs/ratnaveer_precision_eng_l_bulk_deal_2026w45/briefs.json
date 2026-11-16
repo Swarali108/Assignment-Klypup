@@ -1,0 +1,52 @@
+{
+  "event_id": "ratnaveer_precision_eng_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_thakkar_nileshkumar_farshuram_huf",
+      "name_as_printed": "THAKKAR NILESHKUMAR FARSHURAM HUF",
+      "fields": {
+        "name": "THAKKAR NILESHKUMAR FARSHURAM HUF",
+        "role": "unknown",
+        "why_money": "sold 5,00,000 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹19.00 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹19.00 crore (5,00,000 shares × ₹380.02 = ₹19.00 crore (NSE 02-NOV-2026 · RATNAVEER · THAKKAR NILESHKUMAR FARSHURAM HUF · SELL · 500000))"
+      },
+      "placeholders": {
+        "name": "THAKKAR NILESHKUMAR FARSHURAM HUF",
+        "role": "unknown",
+        "amount": "₹19.00 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹19.00 crore",
+        "shares_offered": "5,00,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "THAKKAR NILESHKUMAR FARSHURAM HUF sold 5,00,000 shares in a bulk deal, so proceeds are coming to them.",
+        "₹19.00 crore settled 13 days ago, from the settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago) window.",
+        "Ask how they plan to use these proceeds, given their role is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so proceeds are coming to them.",
+            "{proceeds} settled {event_age}, from the {timing} window.",
+            "Ask how they plan to use these proceeds, given their role is unknown."
+          ],
+          "lines": [
+            "THAKKAR NILESHKUMAR FARSHURAM HUF sold 5,00,000 shares in a bulk deal, so proceeds are coming to them.",
+            "₹19.00 crore settled 13 days ago, from the settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago) window.",
+            "Ask how they plan to use these proceeds, given their role is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

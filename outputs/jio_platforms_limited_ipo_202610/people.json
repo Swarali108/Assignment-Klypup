@@ -1,0 +1,215 @@
+{
+  "event_id": "jio_platforms_limited_ipo_202610",
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "offer_price",
+    "low": "1119",
+    "high": "1119",
+    "inputs": [
+      {
+        "field": "offer_price",
+        "value": "₹1,119",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+            "pdf_index": 527,
+            "printed_page": "527",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=527",
+            "quote": "The Issue Price is ₹1,119 per Equity Share."
+          }
+        ]
+      }
+    ]
+  },
+  "listing": {
+    "status": "scheduled",
+    "date_as_printed": "On or about Wednesday, October 28, 2026",
+    "listed_on": "2026-10-28",
+    "inputs": [
+      {
+        "field": "listing_date_scheduled",
+        "value": "On or about Wednesday, October 28, 2026",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+            "pdf_index": 529,
+            "printed_page": "529",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=529",
+            "quote": "COMMENCEMENT OF TRADING OF THE EQUITY On or about Wednesday, October 28, 2026"
+          }
+        ]
+      }
+    ],
+    "days_since": 19,
+    "age": "19 days ago"
+  },
+  "allotment": {
+    "status": "unknown",
+    "reason": "allotment date not verified"
+  },
+  "people": [
+    {
+      "person_id": "p_reliance_industries_limited",
+      "name_as_printed": "Reliance Industries Limited",
+      "names_as_printed": [
+        "Reliance Industries Limited"
+      ],
+      "name_clean": "reliance industries limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "5,937,841,645",
+      "waca_per_share": "89.58",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "117",
+          "quote": "Reliance Industries Limited",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "117",
+          "quote": "89.58",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 111,
+          "printed_page": "111",
+          "quote": "(i) Reliance Industries Limited 5,937,841,645 66.43",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 111,
+          "printed_page": "111",
+          "quote": "(i) Reliance Industries Limited 5,937,841,645 66.43",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 110,
+          "printed_page": "110",
+          "quote": "(A) Promoter 1 5,937,841,645",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+          "field_kept": false
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "6644444800755",
+          "rupees_high": "6644444800755",
+          "crore_low": "664444.48",
+          "crore_high": "664444.48",
+          "display": "₹664,444.48 crore (estimate, valued at offer price)",
+          "working": "5,937,841,645 × ₹1,119 = ₹664,444.48 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "5,937,841,645",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+                  "pdf_index": 111,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=111",
+                  "quote": "(i) Reliance Industries Limited 5,937,841,645 66.43"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹1,119",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+                  "pdf_index": 527,
+                  "printed_page": "527",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf#page=527",
+                  "quote": "The Issue Price is ₹1,119 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "5937841645",
+          "shares_display": "5,937,841,645 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 1,
+    "by_holder_type": {
+      "entity": 1
+    },
+    "by_confidence": {
+      "medium": 1
+    },
+    "sellers": 0,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 1,
+    "retained_timing": {
+      "unknown": 1
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 1,
+    "follow_on_matches": 0
+  }
+}

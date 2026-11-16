@@ -1,0 +1,30 @@
+{
+  "event_id": "jaro_ins_of_tec_mg_n_re_l_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "Jaro Ins of Tec Mg N Re L",
+  "documents": [],
+  "records": [
+    "0e8572ad698f1c6e",
+    "1fe979de4d5b9b64",
+    "21cf384fd5bfcc9d",
+    "281f0ea2e50f55e8",
+    "2d285ea46bc1ee55",
+    "42b7d09aee855687",
+    "65d4ea7a2a1449d6",
+    "80a6e07a3e8dd05f",
+    "834d6229f0db67c8",
+    "bbaaa1f4c31fa186",
+    "e2219bdafd7246c8",
+    "e3efa530a2ba9f59",
+    "e66c8250c4fd5296"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-13",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

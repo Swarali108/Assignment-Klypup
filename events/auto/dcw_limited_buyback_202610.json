@@ -1,0 +1,60 @@
+{
+  "event_id": "dcw_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "DCW Ltd",
+  "documents": [
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3b5d5d81-0e71-440f-a78c-39d5c5afb271.pdf",
+      "doc_type": "announcement",
+      "note": "DCW Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/DCW_31102026155745_NSEPABRUndertakingBrokerletter.pdf",
+      "doc_type": "public_announcement",
+      "note": "DCW Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/47a627b8-f546-4338-b55a-3178cf9a32f0.pdf",
+      "doc_type": "public_announcement",
+      "note": "DCW Ltd - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "bse_ipo",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "DCW Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3b5d5d81-0e71-440f-a78c-39d5c5afb271.pdf",
+        "published": "2026-10-29",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "DCW Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/DCW_31102026155745_NSEPABRUndertakingBrokerletter.pdf",
+        "published": "2026-10-31",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "DCW Ltd - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/47a627b8-f546-4338-b55a-3178cf9a32f0.pdf",
+        "published": "2026-10-31",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "DCW Ltd - BUYBACK live 2026-11-03 to 2027-02-08, price 58.00",
+        "link": "https://www.bseindia.com/markets/publicIssues/DisplayIPO?id=500117&type=BuyBack&idtype=1&status=L&IPONo=1&startdt=03/11/2026",
+        "published": "2026-11-03",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

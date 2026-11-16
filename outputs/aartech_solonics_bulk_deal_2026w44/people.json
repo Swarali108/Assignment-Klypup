@@ -1,0 +1,441 @@
+{
+  "event_id": "aartech_solonics_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "40.51",
+    "high": "45.77",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹40.51",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+            "row_ref": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+            "quote": "NSE | AARTECH | MILLENNIAL FAMILY TRUST | SELL | 2,00,000 shares | price 40.51 | 2026-10-30"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹45.77",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+            "row_ref": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+            "quote": "NSE | AARTECH | KAILASH KABRA | SELL | 2,57,874 shares | price 45.77 | 2026-10-27"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026 to 30 Oct 2026",
+    "sale_date_parsed": "2026-10-30",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "4,57,874 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_kailash_kabra",
+      "name_as_printed": "KAILASH KABRA",
+      "names_as_printed": [
+        "KAILASH KABRA"
+      ],
+      "name_clean": "kailash kabra",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "fe9f8b40574e6b71"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 257874,
+          "record_ids": [
+            "fe9f8b40574e6b71"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+          "row_ref": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+          "quote": "NSE | AARTECH | KAILASH KABRA | SELL | 2,57,874 shares | price 45.77 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "fe9f8b40574e6b71",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,57,874",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "11802892.98",
+          "rupees_high": "11802892.98",
+          "crore_low": "1.18",
+          "crore_high": "1.18",
+          "display": "₹1.18 crore",
+          "working": "2,57,874 shares × ₹45.77 = ₹1.18 crore (NSE 27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,57,874",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+                  "row_ref": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+                  "quote": "NSE | AARTECH | KAILASH KABRA | SELL | 2,57,874 shares | price 45.77 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹45.77",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+                  "row_ref": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+                  "quote": "NSE | AARTECH | KAILASH KABRA | SELL | 2,57,874 shares | price 45.77 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+                  "row_ref": "27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874",
+                  "quote": "NSE | AARTECH | KAILASH KABRA | SELL | 2,57,874 shares | price 45.77 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 2,57,874 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kailash_kabra_bought",
+      "name_as_printed": "KAILASH KABRA",
+      "names_as_printed": [
+        "KAILASH KABRA"
+      ],
+      "name_clean": "kailash kabra",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "176131e03e525559"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 267874,
+          "record_ids": [
+            "176131e03e525559"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · AARTECH · KAILASH KABRA · BUY · 267874",
+          "row_ref": "27-OCT-2026 · AARTECH · KAILASH KABRA · BUY · 267874",
+          "quote": "NSE | AARTECH | KAILASH KABRA | BUY | 2,67,874 shares | price 48.7 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "176131e03e525559",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,67,874 shares in a bulk deal on 27 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_millennial_family_trust",
+      "name_as_printed": "MILLENNIAL FAMILY TRUST",
+      "names_as_printed": [
+        "MILLENNIAL FAMILY TRUST"
+      ],
+      "name_clean": "millennial family trust",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'family trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "f2fa71ef32d9c123"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-30",
+          "quantity": 200000,
+          "record_ids": [
+            "f2fa71ef32d9c123"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+          "row_ref": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+          "quote": "NSE | AARTECH | MILLENNIAL FAMILY TRUST | SELL | 2,00,000 shares | price 40.51 | 2026-10-30",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f2fa71ef32d9c123",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,00,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "8102000.00",
+          "rupees_high": "8102000.00",
+          "crore_low": "0.81",
+          "crore_high": "0.81",
+          "display": "₹81.02 lakh",
+          "working": "2,00,000 shares × ₹40.51 = ₹81.02 lakh (NSE 30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,00,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+                  "row_ref": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+                  "quote": "NSE | AARTECH | MILLENNIAL FAMILY TRUST | SELL | 2,00,000 shares | price 40.51 | 2026-10-30"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹40.51",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+                  "row_ref": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+                  "quote": "NSE | AARTECH | MILLENNIAL FAMILY TRUST | SELL | 2,00,000 shares | price 40.51 | 2026-10-30"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+          "trade_date": "2026-10-30",
+          "settles_on": "2026-11-02",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "30 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+                  "row_ref": "30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000",
+                  "quote": "NSE | AARTECH | MILLENNIAL FAMILY TRUST | SELL | 2,00,000 shares | price 40.51 | 2026-10-30"
+                }
+              ]
+            }
+          ],
+          "days_since": 14
+        }
+      },
+      "why_money": "sold 2,00,000 shares in a bulk deal on 30 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "family_vehicle": 1,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "event_id": "hcl_technologies_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ruchika_rungta",
+      "name_as_printed": "Ruchika Rungta",
+      "fields": {
+        "name": "Ruchika Rungta",
+        "role": "unknown",
+        "why_money": "sold 2,000 shares (Market Sale) on 5 Nov 2026 and 6 Nov 2026",
+        "amount": "₹28.88 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹28.88 lakh (1,000 shares, value as printed ₹14.32 lakh (NSE XBRL context Disclosure2); 1,000 shares, value as printed ₹14.55 lakh (NSE XBRL context Disclosure3); total ₹28.88 lakh)"
+      },
+      "placeholders": {
+        "name": "Ruchika Rungta",
+        "role": "unknown",
+        "amount": "₹28.88 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹28.88 lakh",
+        "shares_offered": "2,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Ruchika Rungta, unknown, is receiving money from a market sale of shares settled recently.",
+        "Proceeds of ₹28.88 lakh settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "Recent sale: they may want to discuss reinvesting the proceeds with the firm.",
+        "Caveat: their role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ruchika Rungta, role unknown, is receiving money from a market sale of shares on 5 and 6 Nov 2026.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Recent sale: they may want to discuss reinvesting the proceeds with the firm.",
+            "Caveat: their role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "Ruchika Rungta, role unknown, is receiving money from a market sale of shares on 5 and 6 Nov 2026.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Recent sale: they may want to discuss reinvesting the proceeds with the firm.",
+            "Caveat: their role is unknown, so confirm their position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 5, 6, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from a market sale of shares settled recently.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Recent sale: they may want to discuss reinvesting the proceeds with the firm.",
+            "Caveat: their role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "Ruchika Rungta, unknown, is receiving money from a market sale of shares settled recently.",
+            "Proceeds of ₹28.88 lakh settled settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+            "Recent sale: they may want to discuss reinvesting the proceeds with the firm.",
+            "Caveat: their role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

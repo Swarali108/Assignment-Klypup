@@ -1,0 +1,438 @@
+{
+  "event_id": "stl_networks_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "31.87",
+    "high": "35.25",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹31.87",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+            "row_ref": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+            "quote": "NSE | STLNETWORK | UNO METALS LTD | SELL | 27,90,000 shares | price 31.87 | 2026-10-28"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹35.25",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+            "row_ref": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+            "quote": "NSE | STLNETWORK | RAMDOOT REALTORS PVT LTD | SELL | 22,45,601 shares | price 35.25 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "28 Oct 2026 to 29 Oct 2026",
+    "sale_date_parsed": "2026-10-29",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "50,35,601 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_ramdoot_realtors_pvt_ltd",
+      "name_as_printed": "RAMDOOT REALTORS PVT LTD",
+      "names_as_printed": [
+        "RAMDOOT REALTORS PVT LTD"
+      ],
+      "name_clean": "ramdoot realtors pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "36750c91c108cc3a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 2245601,
+          "record_ids": [
+            "36750c91c108cc3a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+          "row_ref": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+          "quote": "NSE | STLNETWORK | RAMDOOT REALTORS PVT LTD | SELL | 22,45,601 shares | price 35.25 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "36750c91c108cc3a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "22,45,601",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "79157435.25",
+          "rupees_high": "79157435.25",
+          "crore_low": "7.92",
+          "crore_high": "7.92",
+          "display": "₹7.92 crore",
+          "working": "22,45,601 shares × ₹35.25 = ₹7.92 crore (NSE 29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "22,45,601",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+                  "row_ref": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+                  "quote": "NSE | STLNETWORK | RAMDOOT REALTORS PVT LTD | SELL | 22,45,601 shares | price 35.25 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹35.25",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+                  "row_ref": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+                  "quote": "NSE | STLNETWORK | RAMDOOT REALTORS PVT LTD | SELL | 22,45,601 shares | price 35.25 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+                  "row_ref": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · SELL · 2245601",
+                  "quote": "NSE | STLNETWORK | RAMDOOT REALTORS PVT LTD | SELL | 22,45,601 shares | price 35.25 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 22,45,601 shares in a bulk deal on 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ramdoot_realtors_pvt_ltd_bought",
+      "name_as_printed": "RAMDOOT REALTORS PVT LTD",
+      "names_as_printed": [
+        "RAMDOOT REALTORS PVT LTD"
+      ],
+      "name_clean": "ramdoot realtors pvt ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'pvt'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5f7c727acf58640e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 2747100,
+          "record_ids": [
+            "5f7c727acf58640e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · BUY · 2747100",
+          "row_ref": "29-OCT-2026 · STLNETWORK · RAMDOOT REALTORS PVT LTD · BUY · 2747100",
+          "quote": "NSE | STLNETWORK | RAMDOOT REALTORS PVT LTD | BUY | 27,47,100 shares | price 34.96 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5f7c727acf58640e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 27,47,100 shares in a bulk deal on 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_uno_metals_ltd",
+      "name_as_printed": "UNO METALS LTD",
+      "names_as_printed": [
+        "UNO METALS LTD"
+      ],
+      "name_clean": "uno metals ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ltd'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "7016bea4363c21f7"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 2790000,
+          "record_ids": [
+            "7016bea4363c21f7"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+          "row_ref": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+          "quote": "NSE | STLNETWORK | UNO METALS LTD | SELL | 27,90,000 shares | price 31.87 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "7016bea4363c21f7",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "27,90,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "88917300.00",
+          "rupees_high": "88917300.00",
+          "crore_low": "8.89",
+          "crore_high": "8.89",
+          "display": "₹8.89 crore",
+          "working": "27,90,000 shares × ₹31.87 = ₹8.89 crore (NSE 28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "27,90,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+                  "row_ref": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+                  "quote": "NSE | STLNETWORK | UNO METALS LTD | SELL | 27,90,000 shares | price 31.87 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹31.87",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+                  "row_ref": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+                  "quote": "NSE | STLNETWORK | UNO METALS LTD | SELL | 27,90,000 shares | price 31.87 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+                  "row_ref": "28-OCT-2026 · STLNETWORK · UNO METALS LTD · SELL · 2790000",
+                  "quote": "NSE | STLNETWORK | UNO METALS LTD | SELL | 27,90,000 shares | price 31.87 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        }
+      },
+      "why_money": "sold 27,90,000 shares in a bulk deal on 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "event_id": "gallantt_ispat_block_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dinesh_r_agarwal",
+      "name_as_printed": "DINESH R AGARWAL",
+      "fields": {
+        "name": "DINESH R AGARWAL",
+        "role": "unknown",
+        "why_money": "sold 40,00,000 shares in a block deal on 12 Nov 2026",
+        "amount": "₹201.20 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹201.20 crore (40,00,000 shares × ₹503 = ₹201.20 crore (NSE 12-NOV-2026 · GALLANTT · DINESH R AGARWAL · SELL · 4000000))"
+      },
+      "placeholders": {
+        "name": "DINESH R AGARWAL",
+        "role": "unknown",
+        "amount": "₹201.20 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹201.20 crore",
+        "shares_offered": "40,00,000 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "Dinesh R Agarwal, role unknown, is due proceeds from selling 40,00,000 shares in a block deal.",
+        "₹201.20 crore was settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), meaning it has already arrived in hand.",
+        "The sale was recent, 3 days ago, so a call could cover reinvestment options for the proceeds.",
+        "Role is unknown, so confirm their position before the conversation."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Dinesh R Agarwal, role unknown, is due proceeds from selling {shares_offered} in a block deal.",
+            "{amount} was settled {timing}, meaning it has already arrived in hand.",
+            "The sale was recent, {event_age}, so a call could cover reinvestment options for the proceeds.",
+            "Role is unknown, so confirm their position before the conversation."
+          ],
+          "lines": [
+            "Dinesh R Agarwal, role unknown, is due proceeds from selling 40,00,000 shares in a block deal.",
+            "₹201.20 crore was settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago), meaning it has already arrived in hand.",
+            "The sale was recent, 3 days ago, so a call could cover reinvestment options for the proceeds.",
+            "Role is unknown, so confirm their position before the conversation."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

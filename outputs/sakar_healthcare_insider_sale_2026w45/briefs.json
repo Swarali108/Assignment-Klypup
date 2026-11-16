@@ -1,0 +1,52 @@
+{
+  "event_id": "sakar_healthcare_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_rita_s_shah",
+      "name_as_printed": "Rita S. Shah",
+      "fields": {
+        "name": "Rita S. Shah",
+        "role": "Promoter",
+        "why_money": "sold 25,000 shares (Market Sale) on 5 Nov 2026",
+        "amount": "₹2.54 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event": "proceeds settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.54 crore (25,000 shares, value as printed ₹2.54 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Rita S. Shah",
+        "role": "Promoter",
+        "amount": "₹2.54 crore",
+        "timing": "settled 6 Nov 2026, T+1 after the 5 Nov 2026 trade (10 days ago)",
+        "proceeds": "₹2.54 crore",
+        "shares_offered": "25,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Rita S. Shah, Promoter, received proceeds after selling 25,000 shares in a Market Sale.",
+        "₹2.54 crore settled 10 days ago, with proceeds of ₹2.54 crore now in hand.",
+        "Ask how they plan to deploy the ₹2.54 crore from their recent sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Rita S. Shah, Promoter, received proceeds after selling {shares_offered} in a Market Sale.",
+            "{amount} settled {event_age}, with proceeds of {proceeds} now in hand.",
+            "Ask how they plan to deploy the {proceeds} from their recent sale."
+          ],
+          "lines": [
+            "Rita S. Shah, Promoter, received proceeds after selling 25,000 shares in a Market Sale.",
+            "₹2.54 crore settled 10 days ago, with proceeds of ₹2.54 crore now in hand.",
+            "Ask how they plan to deploy the ₹2.54 crore from their recent sale."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

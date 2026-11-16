@@ -1,0 +1,153 @@
+{
+  "event_id": "zensar_technologies_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vijayasimha_alilughatta",
+      "name_as_printed": "Vijayasimha Alilughatta",
+      "fields": {
+        "name": "Vijayasimha Alilughatta",
+        "role": "unknown",
+        "why_money": "sold 20,000 shares (Market Sale) on 2 Nov 2026",
+        "amount": "₹1.09 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.09 crore (20,000 shares, value as printed ₹1.09 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Vijayasimha Alilughatta",
+        "role": "unknown",
+        "amount": "₹1.09 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹1.09 crore",
+        "shares_offered": "20,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Vijayasimha Alilughatta sold 20,000 shares in a market sale, so money is coming to them.",
+        "Proceeds of ₹1.09 crore settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), which is 13 days ago.",
+        "Role is unknown, so confirm their position before discussing next steps for these funds.",
+        "Ask whether they plan to reinvest or hold cash from this sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a market sale, so money is coming to them.",
+            "Proceeds of {proceeds} settled {timing}, which is {event_age}.",
+            "Role is unknown, so confirm their position before discussing next steps for these funds.",
+            "Ask whether they plan to reinvest or hold cash from this sale."
+          ],
+          "lines": [
+            "Vijayasimha Alilughatta sold 20,000 shares in a market sale, so money is coming to them.",
+            "Proceeds of ₹1.09 crore settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), which is 13 days ago.",
+            "Role is unknown, so confirm their position before discussing next steps for these funds.",
+            "Ask whether they plan to reinvest or hold cash from this sale."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_rajiv_mundhra",
+      "name_as_printed": "Rajiv Mundhra",
+      "fields": {
+        "name": "Rajiv Mundhra",
+        "role": "unknown",
+        "why_money": "sold 9,000 shares (Market Sale) on 2 Nov 2026",
+        "amount": "₹49.06 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹49.06 lakh (9,000 shares, value as printed ₹49.06 lakh (NSE XBRL context Disclosure2))"
+      },
+      "placeholders": {
+        "name": "Rajiv Mundhra",
+        "role": "unknown",
+        "amount": "₹49.06 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹49.06 lakh",
+        "shares_offered": "9,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Rajiv Mundhra, role unknown, is due money from a market sale of 9,000 shares on 13 days ago.",
+        "Proceeds of ₹49.06 lakh settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), so the money is already in hand.",
+        "Open with the sale itself, then ask what they plan to do with the ₹49.06 lakh proceeds.",
+        "Role is unknown: confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Rajiv Mundhra, role unknown, is due money from a market sale of {shares_offered} on {event_age}.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Open with the sale itself, then ask what they plan to do with the {amount} proceeds.",
+            "Role is unknown: confirm their position before the call."
+          ],
+          "lines": [
+            "Rajiv Mundhra, role unknown, is due money from a market sale of 9,000 shares on 13 days ago.",
+            "Proceeds of ₹49.06 lakh settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), so the money is already in hand.",
+            "Open with the sale itself, then ask what they plan to do with the ₹49.06 lakh proceeds.",
+            "Role is unknown: confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nimesh_khemka",
+      "name_as_printed": "Nimesh Khemka",
+      "fields": {
+        "name": "Nimesh Khemka",
+        "role": "unknown",
+        "why_money": "sold 4,793 shares (Market Sale) on 2 Nov 2026",
+        "amount": "₹26.31 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹26.31 lakh (4,793 shares, value as printed ₹26.31 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Nimesh Khemka",
+        "role": "unknown",
+        "amount": "₹26.31 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹26.31 lakh",
+        "shares_offered": "4,793 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Nimesh Khemka is a holder whose role is not on record, and money is coming to them from a market sale.",
+        "They sold 4,793 shares on a market sale, and ₹26.31 lakh settled 13 days ago.",
+        "Ask how they plan to use the proceeds, given the settlement arrived 13 days ago.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is not on record, and money is coming to them from a market sale.",
+            "They sold {shares_offered} on a market sale, and {proceeds} settled {event_age}.",
+            "Ask how they plan to use the proceeds, given the settlement arrived {event_age}.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Nimesh Khemka is a holder whose role is not on record, and money is coming to them from a market sale.",
+            "They sold 4,793 shares on a market sale, and ₹26.31 lakh settled 13 days ago.",
+            "Ask how they plan to use the proceeds, given the settlement arrived 13 days ago.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

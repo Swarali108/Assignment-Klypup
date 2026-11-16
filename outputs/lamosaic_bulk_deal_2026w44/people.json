@@ -1,0 +1,460 @@
+{
+  "event_id": "lamosaic_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "48.9",
+    "high": "49.5",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹48.9",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+            "row_ref": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+            "quote": "NSE | LAMOSAIC | KUBER EQUITY SERVICES LLP | SELL | 1,58,400 shares | price 48.9 | 2026-10-28"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹49.5",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+            "row_ref": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+            "quote": "NSE | LAMOSAIC | KESAR TRACOM INDIA LLP | SELL | 1,71,000 shares | price 49.5 | 2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "28 Oct 2026 to 29 Oct 2026",
+    "sale_date_parsed": "2026-10-29",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "3,29,400 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 4,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_kesar_tracom_india_llp",
+      "name_as_printed": "KESAR TRACOM INDIA LLP",
+      "names_as_printed": [
+        "KESAR TRACOM INDIA LLP"
+      ],
+      "name_clean": "kesar tracom india llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "6ba45c618e2affe9"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 171000,
+          "record_ids": [
+            "6ba45c618e2affe9"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+          "row_ref": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+          "quote": "NSE | LAMOSAIC | KESAR TRACOM INDIA LLP | SELL | 1,71,000 shares | price 49.5 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "6ba45c618e2affe9",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,71,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "8464500.0",
+          "rupees_high": "8464500.0",
+          "crore_low": "0.85",
+          "crore_high": "0.85",
+          "display": "₹84.64 lakh",
+          "working": "1,71,000 shares × ₹49.5 = ₹84.64 lakh (NSE 29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,71,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+                  "row_ref": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+                  "quote": "NSE | LAMOSAIC | KESAR TRACOM INDIA LLP | SELL | 1,71,000 shares | price 49.5 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹49.5",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+                  "row_ref": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+                  "quote": "NSE | LAMOSAIC | KESAR TRACOM INDIA LLP | SELL | 1,71,000 shares | price 49.5 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+                  "row_ref": "29-OCT-2026 · LAMOSAIC · KESAR TRACOM INDIA LLP · SELL · 171000",
+                  "quote": "NSE | LAMOSAIC | KESAR TRACOM INDIA LLP | SELL | 1,71,000 shares | price 49.5 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 17
+        }
+      },
+      "why_money": "sold 1,71,000 shares in a bulk deal on 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kuber_equity_services_llp",
+      "name_as_printed": "KUBER EQUITY SERVICES LLP",
+      "names_as_printed": [
+        "KUBER EQUITY SERVICES LLP"
+      ],
+      "name_clean": "kuber equity services llp",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'llp'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "99bb2a2b628103a5"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 158400,
+          "record_ids": [
+            "99bb2a2b628103a5"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+          "row_ref": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+          "quote": "NSE | LAMOSAIC | KUBER EQUITY SERVICES LLP | SELL | 1,58,400 shares | price 48.9 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "99bb2a2b628103a5",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,58,400",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "7745760.0",
+          "rupees_high": "7745760.0",
+          "crore_low": "0.77",
+          "crore_high": "0.77",
+          "display": "₹77.46 lakh",
+          "working": "1,58,400 shares × ₹48.9 = ₹77.46 lakh (NSE 28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,58,400",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+                  "row_ref": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+                  "quote": "NSE | LAMOSAIC | KUBER EQUITY SERVICES LLP | SELL | 1,58,400 shares | price 48.9 | 2026-10-28"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹48.9",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+                  "row_ref": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+                  "quote": "NSE | LAMOSAIC | KUBER EQUITY SERVICES LLP | SELL | 1,58,400 shares | price 48.9 | 2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+          "trade_date": "2026-10-28",
+          "settles_on": "2026-10-29",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "28 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+                  "row_ref": "28-OCT-2026 · LAMOSAIC · KUBER EQUITY SERVICES LLP · SELL · 158400",
+                  "quote": "NSE | LAMOSAIC | KUBER EQUITY SERVICES LLP | SELL | 1,58,400 shares | price 48.9 | 2026-10-28"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        }
+      },
+      "why_money": "sold 1,58,400 shares in a bulk deal on 28 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_nopea_capital_services_private_limited_bought",
+      "name_as_printed": "NOPEA CAPITAL SERVICES PRIVATE LIMITED",
+      "names_as_printed": [
+        "NOPEA CAPITAL SERVICES PRIVATE LIMITED"
+      ],
+      "name_clean": "nopea capital services private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "8d0a9f1abdee42a3",
+        "8cea5dced286af92"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-28",
+          "quantity": 204000,
+          "record_ids": [
+            "8d0a9f1abdee42a3"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 202200,
+          "record_ids": [
+            "8cea5dced286af92"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "28-OCT-2026 · LAMOSAIC · NOPEA CAPITAL SERVICES PRIVATE LIMITED · BUY · 204000",
+          "row_ref": "28-OCT-2026 · LAMOSAIC · NOPEA CAPITAL SERVICES PRIVATE LIMITED · BUY · 204000",
+          "quote": "NSE | LAMOSAIC | NOPEA CAPITAL SERVICES PRIVATE LIMITED | BUY | 2,04,000 shares | price 48.9 | 2026-10-28",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8d0a9f1abdee42a3",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · LAMOSAIC · NOPEA CAPITAL SERVICES PRIVATE LIMITED · BUY · 202200",
+          "row_ref": "29-OCT-2026 · LAMOSAIC · NOPEA CAPITAL SERVICES PRIVATE LIMITED · BUY · 202200",
+          "quote": "NSE | LAMOSAIC | NOPEA CAPITAL SERVICES PRIVATE LIMITED | BUY | 2,02,200 shares | price 49.51 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "8cea5dced286af92",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 4,06,200 shares in bulk deals on 28 Oct 2026 and 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 3
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

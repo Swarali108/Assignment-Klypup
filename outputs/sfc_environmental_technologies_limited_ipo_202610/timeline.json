@@ -1,0 +1,48 @@
+{
+  "run_id": "sfc_environmental_technologies_limited_ipo_202610-20261115T135640Z",
+  "total_s": 63.70074595796177,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 3.3978157499805093,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 1.4490710829850286,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.0140599170117639,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.004723625024780631,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 58.80384020798374,
+      "calls": 32,
+      "cached": 0,
+      "cost_usd": 0.006721
+    },
+    {
+      "step": "report",
+      "seconds": 0.012123082997277379,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

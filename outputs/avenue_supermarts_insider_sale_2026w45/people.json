@@ -1,0 +1,1068 @@
+{
+  "event_id": "avenue_supermarts_insider_sale_2026w45",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "3 Nov 2026 to 4 Nov 2026",
+    "sale_date_parsed": "2026-11-04",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "24,105 shares sold by 7 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
+        "records": 167,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 9,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_arun_kumar_singh",
+      "name_as_printed": "Arun Kumar Singh",
+      "names_as_printed": [
+        "Arun Kumar Singh"
+      ],
+      "name_clean": "arun kumar singh",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "c930c5b3fd5c63ba",
+        "e412a4f3d0a21376"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 1000,
+          "record_ids": [
+            "c930c5b3fd5c63ba"
+          ]
+        },
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 500,
+          "record_ids": [
+            "e412a4f3d0a21376"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure2",
+          "row_ref": "XBRL context Disclosure2",
+          "quote": "NSE | DMART | Arun Kumar Singh | SELL | 1,000 shares | value 3310000 | Market Sale | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c930c5b3fd5c63ba",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure3",
+          "row_ref": "XBRL context Disclosure3",
+          "quote": "NSE | DMART | Arun Kumar Singh | SELL | 500 shares | value 1700000 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e412a4f3d0a21376",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "1,500",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "5010000",
+          "rupees_high": "5010000",
+          "crore_low": "0.50",
+          "crore_high": "0.50",
+          "display": "₹50.10 lakh",
+          "working": "1,000 shares, value as printed ₹33.10 lakh (NSE XBRL context Disclosure2); 500 shares, value as printed ₹17.00 lakh (NSE XBRL context Disclosure3); total ₹50.10 lakh",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "1,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Arun Kumar Singh | SELL | 1,000 shares | value 3310000 | Market Sale | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹33.10 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Arun Kumar Singh | SELL | 1,000 shares | value 3310000 | Market Sale | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "500",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Arun Kumar Singh | SELL | 500 shares | value 1700000 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹17.00 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Arun Kumar Singh | SELL | 500 shares | value 1700000 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Arun Kumar Singh | SELL | 500 shares | value 1700000 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 12
+        }
+      },
+      "why_money": "sold 1,500 shares (Market Sale) on 3 Nov 2026 and 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_dastgir_shailkh",
+      "name_as_printed": "Dastgir shailkh",
+      "names_as_printed": [
+        "Dastgir shailkh"
+      ],
+      "name_clean": "dastgir shailkh",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "61f067e44f14192a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-03",
+          "quantity": 500,
+          "record_ids": [
+            "61f067e44f14192a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure3",
+          "row_ref": "XBRL context Disclosure3",
+          "quote": "NSE | DMART | Dastgir shailkh | SELL | 500 shares | value 1655000 | Market Sale | 2026-11-03",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "61f067e44f14192a",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "500",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1655000",
+          "rupees_high": "1655000",
+          "crore_low": "0.17",
+          "crore_high": "0.17",
+          "display": "₹16.55 lakh",
+          "working": "500 shares, value as printed ₹16.55 lakh (NSE XBRL context Disclosure3)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "500",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Dastgir shailkh | SELL | 500 shares | value 1655000 | Market Sale | 2026-11-03"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹16.55 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Dastgir shailkh | SELL | 500 shares | value 1655000 | Market Sale | 2026-11-03"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 4 Nov 2026, T+1 after the 3 Nov 2026 trade (12 days ago)",
+          "trade_date": "2026-11-03",
+          "settles_on": "2026-11-04",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "3 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261103_173421070_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Dastgir shailkh | SELL | 500 shares | value 1655000 | Market Sale | 2026-11-03"
+                }
+              ]
+            }
+          ],
+          "days_since": 12
+        }
+      },
+      "why_money": "sold 500 shares (Market Sale) on 3 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_elvin_machado",
+      "name_as_printed": "Elvin Machado",
+      "names_as_printed": [
+        "Elvin Machado"
+      ],
+      "name_clean": "elvin machado",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Director",
+      "role_by_section": {
+        "exchange_record": "Director"
+      },
+      "side": "sell",
+      "record_ids": [
+        "4bba4567c0c43055"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 10000,
+          "record_ids": [
+            "4bba4567c0c43055"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure4",
+          "row_ref": "XBRL context Disclosure4",
+          "quote": "NSE | DMART | Elvin Machado | SELL | 10,000 shares | value 33497220 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4bba4567c0c43055",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "10,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "33497220",
+          "rupees_high": "33497220",
+          "crore_low": "3.35",
+          "crore_high": "3.35",
+          "display": "₹3.35 crore",
+          "working": "10,000 shares, value as printed ₹3.35 crore (NSE XBRL context Disclosure4)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "10,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | DMART | Elvin Machado | SELL | 10,000 shares | value 33497220 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹3.35 crore",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | DMART | Elvin Machado | SELL | 10,000 shares | value 33497220 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | DMART | Elvin Machado | SELL | 10,000 shares | value 33497220 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 10,000 shares (Market Sale) on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "avenue_supermarts_insider_sale_2026w43",
+          "company": "AVENUE SUPERMARTS LIMITED",
+          "name_as_printed": "Elvin Machado",
+          "role": "Director",
+          "amount": "₹1.90 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'Elvin Machado' / 'Elvin Machado'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_jaideep_suresh_soman",
+      "name_as_printed": "Jaideep Suresh Soman",
+      "names_as_printed": [
+        "Jaideep Suresh Soman"
+      ],
+      "name_clean": "jaideep suresh soman",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "3d2916966bedab4b"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 2000,
+          "record_ids": [
+            "3d2916966bedab4b"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure4",
+          "row_ref": "XBRL context Disclosure4",
+          "quote": "NSE | DMART | Jaideep Suresh Soman | SELL | 2,000 shares | value 6758000 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "3d2916966bedab4b",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "6758000",
+          "rupees_high": "6758000",
+          "crore_low": "0.68",
+          "crore_high": "0.68",
+          "display": "₹67.58 lakh",
+          "working": "2,000 shares, value as printed ₹67.58 lakh (NSE XBRL context Disclosure4)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | DMART | Jaideep Suresh Soman | SELL | 2,000 shares | value 6758000 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹67.58 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | DMART | Jaideep Suresh Soman | SELL | 2,000 shares | value 6758000 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261104_174838223_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure4",
+                  "row_ref": "XBRL context Disclosure4",
+                  "quote": "NSE | DMART | Jaideep Suresh Soman | SELL | 2,000 shares | value 6758000 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 2,000 shares (Market Sale) on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_parag_lokhande",
+      "name_as_printed": "Parag Lokhande",
+      "names_as_printed": [
+        "Parag Lokhande"
+      ],
+      "name_clean": "parag lokhande",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "048651eb7eb3e224"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 105,
+          "record_ids": [
+            "048651eb7eb3e224"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure2",
+          "row_ref": "XBRL context Disclosure2",
+          "quote": "NSE | DMART | Parag Lokhande | SELL | 105 shares | value 357000 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "048651eb7eb3e224",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "105",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "357000",
+          "rupees_high": "357000",
+          "crore_low": "0.04",
+          "crore_high": "0.04",
+          "display": "₹3.57 lakh",
+          "working": "105 shares, value as printed ₹3.57 lakh (NSE XBRL context Disclosure2)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "105",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Parag Lokhande | SELL | 105 shares | value 357000 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹3.57 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Parag Lokhande | SELL | 105 shares | value 357000 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Parag Lokhande | SELL | 105 shares | value 357000 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 105 shares (Market Sale) on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "avenue_supermarts_insider_sale_2026w44",
+          "company": "AVENUE SUPERMARTS LIMITED",
+          "name_as_printed": "Parag Lokhande",
+          "role": null,
+          "amount": "₹44.52 lakh",
+          "trigger_date": "2026-10-30",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'Parag Lokhande' / 'Parag Lokhande'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_ravi_prakash_sharma",
+      "name_as_printed": "Ravi Prakash sharma",
+      "names_as_printed": [
+        "Ravi Prakash sharma"
+      ],
+      "name_clean": "ravi prakash sharma",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "786b4be0ca13f0c4",
+        "dc29a8454ebc12d8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 7000,
+          "record_ids": [
+            "786b4be0ca13f0c4",
+            "dc29a8454ebc12d8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure3",
+          "row_ref": "XBRL context Disclosure3",
+          "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 2,000 shares | value 6765540 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "786b4be0ca13f0c4",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        },
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure2",
+          "row_ref": "XBRL context Disclosure2",
+          "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 5,000 shares | value 16862650 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "dc29a8454ebc12d8",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "23628190",
+          "rupees_high": "23628190",
+          "crore_low": "2.36",
+          "crore_high": "2.36",
+          "display": "₹2.36 crore",
+          "working": "2,000 shares, value as printed ₹67.66 lakh (NSE XBRL context Disclosure3); 5,000 shares, value as printed ₹1.69 crore (NSE XBRL context Disclosure2); total ₹2.36 crore",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 2,000 shares | value 6765540 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹67.66 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure3",
+                  "row_ref": "XBRL context Disclosure3",
+                  "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 2,000 shares | value 6765540 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "5,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 5,000 shares | value 16862650 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹1.69 crore",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 5,000 shares | value 16862650 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261106_174319183_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure2",
+                  "row_ref": "XBRL context Disclosure2",
+                  "quote": "NSE | DMART | Ravi Prakash sharma | SELL | 5,000 shares | value 16862650 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 7,000 shares (Market Sale) on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vikram_bhatia",
+      "name_as_printed": "Vikram Bhatia",
+      "names_as_printed": [
+        "Vikram Bhatia"
+      ],
+      "name_clean": "vikram bhatia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "94902692efb0791d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-04",
+          "quantity": 3000,
+          "record_ids": [
+            "94902692efb0791d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | DMART | Vikram Bhatia | SELL | 3,000 shares | value 10222714 | Market Sale | 2026-11-04",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "94902692efb0791d",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "10222714",
+          "rupees_high": "10222714",
+          "crore_low": "1.02",
+          "crore_high": "1.02",
+          "display": "₹1.02 crore",
+          "working": "3,000 shares, value as printed ₹1.02 crore (NSE XBRL context Disclosure1)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | DMART | Vikram Bhatia | SELL | 3,000 shares | value 10222714 | Market Sale | 2026-11-04"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹1.02 crore",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | DMART | Vikram Bhatia | SELL | 3,000 shares | value 10222714 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 5 Nov 2026, T+1 after the 4 Nov 2026 trade (11 days ago)",
+          "trade_date": "2026-11-04",
+          "settles_on": "2026-11-05",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "4 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261109_170307798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | DMART | Vikram Bhatia | SELL | 3,000 shares | value 10222714 | Market Sale | 2026-11-04"
+                }
+              ]
+            }
+          ],
+          "days_since": 11
+        }
+      },
+      "why_money": "sold 3,000 shares (Market Sale) on 4 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "avenue_supermarts_insider_sale_2026w43",
+          "company": "AVENUE SUPERMARTS LIMITED",
+          "name_as_printed": "Vikram Bhatia",
+          "role": null,
+          "amount": "₹4.79 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "possible: common name, confirm before using",
+          "reason": "same name tokens after spelling rules: 'Vikram Bhatia' / 'Vikram Bhatia'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 7,
+    "by_holder_type": {
+      "person": 7
+    },
+    "by_confidence": {
+      "high": 7
+    },
+    "sellers": 7,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 7,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 7
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 7,
+    "follow_on_matches": 3
+  }
+}

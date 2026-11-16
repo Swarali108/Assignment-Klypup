@@ -1,0 +1,23 @@
+{
+  "event_id": "td_power_systems_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "company": "TD Power Systems Ltd.",
+  "documents": [],
+  "records": [
+    "05013cae6e942a3f",
+    "1a2abe12374e6f77",
+    "7d424e4e6457c983",
+    "c5ec3f6b6ef4a290",
+    "ef673c3173d4fdb8",
+    "f581a88331d166cd"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-13",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

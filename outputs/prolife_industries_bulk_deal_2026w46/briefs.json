@@ -1,0 +1,55 @@
+{
+  "event_id": "prolife_industries_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_gyanendra_kumar",
+      "name_as_printed": "GYANENDRA KUMAR",
+      "fields": {
+        "name": "GYANENDRA KUMAR",
+        "role": "unknown",
+        "why_money": "sold 26,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹17.83 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹17.83 lakh (26,000 shares × ₹68.59 = ₹17.83 lakh (NSE 13-NOV-2026 · PROLIFE · GYANENDRA KUMAR · SELL · 26000))"
+      },
+      "placeholders": {
+        "name": "GYANENDRA KUMAR",
+        "role": "unknown",
+        "amount": "₹17.83 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹17.83 lakh",
+        "shares_offered": "26,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "GYANENDRA KUMAR sold 26,000 shares in a bulk deal and is receiving the proceeds.",
+        "Proceeds of ₹17.83 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Role is unknown; confirm their position before discussing next steps.",
+        "The sale was today, so this is a fresh liquidity event."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal and is receiving the proceeds.",
+            "Proceeds of {proceeds} settle {timing}.",
+            "Role is unknown; confirm their position before discussing next steps.",
+            "The sale was {event_age}, so this is a fresh liquidity event."
+          ],
+          "lines": [
+            "GYANENDRA KUMAR sold 26,000 shares in a bulk deal and is receiving the proceeds.",
+            "Proceeds of ₹17.83 lakh settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Role is unknown; confirm their position before discussing next steps.",
+            "The sale was today, so this is a fresh liquidity event."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

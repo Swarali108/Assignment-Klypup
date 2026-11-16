@@ -1,0 +1,2849 @@
+{
+  "event_id": "bls_polymers_limited_ipo_202610",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "offer_price",
+    "low": "150",
+    "high": "150",
+    "inputs": [
+      {
+        "field": "offer_price",
+        "value": "₹ 150",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+            "pdf_index": 460,
+            "printed_page": "456",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+            "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+          }
+        ]
+      }
+    ]
+  },
+  "listing": {
+    "status": "verified",
+    "date_as_printed": "Tuesday, November 3, 2026",
+    "listed_on": "2026-11-03",
+    "past": true,
+    "inputs": [
+      {
+        "field": "listing_date",
+        "value": "Tuesday, November 3, 2026",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792994711898.pdf",
+            "pdf_index": 2,
+            "printed_page": "",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792994711898.pdf#page=2",
+            "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Tuesday, November 3, 2026"
+          }
+        ]
+      }
+    ],
+    "days_since": 12,
+    "age": "12 days ago"
+  },
+  "allotment": {
+    "status": "unknown",
+    "reason": "allotment date not verified"
+  },
+  "people": [
+    {
+      "person_id": "p_alka_aggarwal",
+      "name_as_printed": "Alka Aggarwal",
+      "names_as_printed": [
+        "Alka Aggarwal"
+      ],
+      "name_clean": "alka aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "16,41,500",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "10. Alka Aggarwal 16,41,500 3.65",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "10. Alka Aggarwal 16,41,500 3.65",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "246225000",
+          "rupees_high": "246225000",
+          "crore_low": "24.62",
+          "crore_high": "24.62",
+          "display": "₹24.62 crore (estimate, valued at offer price)",
+          "working": "16,41,500 × ₹150 = ₹24.62 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "16,41,500",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "10. Alka Aggarwal 16,41,500 3.65"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "1641500",
+          "shares_display": "1,641,500 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_diwakar_aggarwal",
+      "name_as_printed": "Diwakar Aggarwal",
+      "names_as_printed": [
+        "Diwakar Aggarwal"
+      ],
+      "name_clean": "diwakar aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoter"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "72,37,139",
+      "waca_per_share": "6.91",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Diwakar Aggarwal 72,37,139 6.91",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Diwakar Aggarwal 72,37,139 6.91",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "4. Diwakar Aggarwal 72,37,139 16.07",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "4. Diwakar Aggarwal 72,37,139 16.07",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "Our Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "4. Diwakar Aggarwal 72,37,139 16.07",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "4. Diwakar Aggarwal 72,37,139 16.07",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "1085570850",
+          "rupees_high": "1085570850",
+          "crore_low": "108.56",
+          "crore_high": "108.56",
+          "display": "₹108.56 crore (estimate, valued at offer price)",
+          "working": "72,37,139 × ₹150 = ₹108.56 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "72,37,139",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 313,
+                  "printed_page": "309",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=313",
+                  "quote": "4. Diwakar Aggarwal 72,37,139 16.07"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "4. Diwakar Aggarwal 72,37,139 16.07"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "7237139",
+          "shares_display": "7,237,139 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of post-Offer capital); one year from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "aggregate of 20%",
+                "locked in for a period of three years"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "in excess of 20%",
+                "locked in for a period of one year"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            }
+          ],
+          "variant": "three_year"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_fragrance_credit_and_securities_private_limited",
+      "name_as_printed": "Fragrance Credit and Securities Private Limited",
+      "names_as_printed": [
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "name_clean": "fragrance credit and securities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "20,63,600",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "7. Fragrance Credit and Securities Private 20,63,600 4.58",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "7. Fragrance Credit and Securities Private 20,63,600 4.58",
+          "citation_corrected": true,
+          "verified_by": "table_row",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "309540000",
+          "rupees_high": "309540000",
+          "crore_low": "30.95",
+          "crore_high": "30.95",
+          "display": "₹30.95 crore (estimate, valued at offer price)",
+          "working": "20,63,600 × ₹150 = ₹30.95 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "20,63,600",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "7. Fragrance Credit and Securities Private 20,63,600 4.58"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "2063600",
+          "shares_display": "2,063,600 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_intime_finance_investment_private_limited",
+      "name_as_printed": "Intime Finance & Investment Private Limited",
+      "names_as_printed": [
+        "Intime Finance & Investment Private Limited"
+      ],
+      "name_clean": "intime finance & investment private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "23,59,070",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "6. Intime Finance & Investment Private Limited 23,59,070 5.24",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "6. Intime Finance & Investment Private Limited 23,59,070 5.24",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "353860500",
+          "rupees_high": "353860500",
+          "crore_low": "35.39",
+          "crore_high": "35.39",
+          "display": "₹35.39 crore (estimate, valued at offer price)",
+          "working": "23,59,070 × ₹150 = ₹35.39 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "23,59,070",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "6. Intime Finance & Investment Private Limited 23,59,070 5.24"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "2359070",
+          "shares_display": "2,359,070 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_karan_aggarwal",
+      "name_as_printed": "Karan Aggarwal",
+      "names_as_printed": [
+        "Karan Aggarwal"
+      ],
+      "name_clean": "karan aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoter"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "44,82,392",
+      "waca_per_share": "14.93",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Karan Aggarwal 44,82,392 14.93",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Karan Aggarwal 44,82,392 14.93",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "5. Karan Aggarwal 44,82,392 9.95",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "5. Karan Aggarwal 44,82,392 9.95",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "Our Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "5. Karan Aggarwal 44,82,392 9.95",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "5. Karan Aggarwal 44,82,392 9.95",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "672358800",
+          "rupees_high": "672358800",
+          "crore_low": "67.24",
+          "crore_high": "67.24",
+          "display": "₹67.24 crore (estimate, valued at offer price)",
+          "working": "44,82,392 × ₹150 = ₹67.24 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "44,82,392",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 313,
+                  "printed_page": "309",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=313",
+                  "quote": "5. Karan Aggarwal 44,82,392 9.95"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "5. Karan Aggarwal 44,82,392 9.95"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "4482392",
+          "shares_display": "4,482,392 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of post-Offer capital); one year from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "aggregate of 20%",
+                "locked in for a period of three years"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "in excess of 20%",
+                "locked in for a period of one year"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            }
+          ],
+          "variant": "three_year"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_kavita_aggarwal",
+      "name_as_printed": "Kavita Aggarwal",
+      "names_as_printed": [
+        "Kavita Aggarwal"
+      ],
+      "name_clean": "kavita aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "16,41,500",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "9. Kavita Aggarwal 16,41,500 3.65",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "9. Kavita Aggarwal 16,41,500 3.65",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "246225000",
+          "rupees_high": "246225000",
+          "crore_low": "24.62",
+          "crore_high": "24.62",
+          "display": "₹24.62 crore (estimate, valued at offer price)",
+          "working": "16,41,500 × ₹150 = ₹24.62 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "16,41,500",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "9. Kavita Aggarwal 16,41,500 3.65"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "1641500",
+          "shares_display": "1,641,500 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_madhukar_aggarwal",
+      "name_as_printed": "Madhukar Aggarwal",
+      "names_as_printed": [
+        "Madhukar Aggarwal"
+      ],
+      "name_clean": "madhukar aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoter"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "46,29,030",
+      "waca_per_share": "2.13",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Madhukar Aggarwal 46,29,030 2.13",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Madhukar Aggarwal 46,29,030 2.13",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "3. Madhukar Aggarwal 46,29,030 10.28",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "3. Madhukar Aggarwal 46,29,030 10.28",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "Our Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "3. Madhukar Aggarwal 46,29,030 10.28",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "3. Madhukar Aggarwal 46,29,030 10.28",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "694354500",
+          "rupees_high": "694354500",
+          "crore_low": "69.44",
+          "crore_high": "69.44",
+          "display": "₹69.44 crore (estimate, valued at offer price)",
+          "working": "46,29,030 × ₹150 = ₹69.44 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "46,29,030",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 313,
+                  "printed_page": "309",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=313",
+                  "quote": "3. Madhukar Aggarwal 46,29,030 10.28"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "3. Madhukar Aggarwal 46,29,030 10.28"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "4629030",
+          "shares_display": "4,629,030 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of post-Offer capital); one year from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "aggregate of 20%",
+                "locked in for a period of three years"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "in excess of 20%",
+                "locked in for a period of one year"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            }
+          ],
+          "variant": "three_year"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_new_line_finance_investment_private_limited",
+      "name_as_printed": "New Line Finance & Investment Private Limited",
+      "names_as_printed": [
+        "New Line Finance & Investment Private Limited"
+      ],
+      "name_clean": "new line finance & investment private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "9,28,151",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "13. New Line Finance & Investment Private 9,28,151 2.06",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "13. New Line Finance & Investment Private 9,28,151 2.06",
+          "citation_corrected": true,
+          "verified_by": "table_row",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "139222650",
+          "rupees_high": "139222650",
+          "crore_low": "13.92",
+          "crore_high": "13.92",
+          "display": "₹13.92 crore (estimate, valued at offer price)",
+          "working": "9,28,151 × ₹150 = ₹13.92 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "9,28,151",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "13. New Line Finance & Investment Private 9,28,151 2.06"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "928151",
+          "shares_display": "928,151 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_rachna_aggarwal",
+      "name_as_printed": "Rachna Aggarwal",
+      "names_as_printed": [
+        "Rachna Aggarwal"
+      ],
+      "name_clean": "rachna aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "11,68,279",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "11. Rachna Aggarwal 11,68,279 2.59",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "11. Rachna Aggarwal 11,68,279 2.59",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "175241850",
+          "rupees_high": "175241850",
+          "crore_low": "17.52",
+          "crore_high": "17.52",
+          "display": "₹17.52 crore (estimate, valued at offer price)",
+          "working": "11,68,279 × ₹150 = ₹17.52 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "11,68,279",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "11. Rachna Aggarwal 11,68,279 2.59"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "1168279",
+          "shares_display": "1,168,279 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_sushil_aggarwal",
+      "name_as_printed": "Sushil Aggarwal",
+      "names_as_printed": [
+        "Sushil Aggarwal"
+      ],
+      "name_clean": "sushil aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoter"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "63,87,780",
+      "waca_per_share": "2.13",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Sushil Aggarwal",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Sushil Aggarwal 63,87,780 2.13",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "2. Sushil Aggarwal 63,87,780 14.19",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "2. Sushil Aggarwal 63,87,780 14.19",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "Our Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "2. Sushil Aggarwal 63,87,780 14.19",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "2. Sushil Aggarwal 63,87,780 14.19",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "958167000",
+          "rupees_high": "958167000",
+          "crore_low": "95.82",
+          "crore_high": "95.82",
+          "display": "₹95.82 crore (estimate, valued at offer price)",
+          "working": "63,87,780 × ₹150 = ₹95.82 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "63,87,780",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 313,
+                  "printed_page": "309",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=313",
+                  "quote": "2. Sushil Aggarwal 63,87,780 14.19"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "2. Sushil Aggarwal 63,87,780 14.19"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "6387780",
+          "shares_display": "6,387,780 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of post-Offer capital); one year from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "aggregate of 20%",
+                "locked in for a period of three years"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "in excess of 20%",
+                "locked in for a period of one year"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            }
+          ],
+          "variant": "three_year"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_v_s_estates_private_limited",
+      "name_as_printed": "V. S. Estates Private Limited",
+      "names_as_printed": [
+        "V. S. Estates Private Limited"
+      ],
+      "name_clean": "v. s. estates private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "21,46,613",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "8. V. S. Estates Private Limited 21,46,613 4.77",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "8. V. S. Estates Private Limited 21,46,613 4.77",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "321991950",
+          "rupees_high": "321991950",
+          "crore_low": "32.20",
+          "crore_high": "32.20",
+          "display": "₹32.20 crore (estimate, valued at offer price)",
+          "working": "21,46,613 × ₹150 = ₹32.20 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "21,46,613",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "8. V. S. Estates Private Limited 21,46,613 4.77"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "2146613",
+          "shares_display": "2,146,613 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vinod_aggarwal",
+      "name_as_printed": "Vinod Aggarwal",
+      "names_as_printed": [
+        "Vinod Aggarwal"
+      ],
+      "name_clean": "vinod aggarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "waca": "Promoters",
+        "promoter_holding": "Promoter"
+      },
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "72,78,880",
+      "waca_per_share": "2.13",
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Vinod Aggarwal",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Promoters",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 117,
+          "printed_page": "113",
+          "quote": "Vinod Aggarwal 72,78,880 2.13",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "1. Vinod Aggarwal 72,78,880 16.16",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "1. Vinod Aggarwal 72,78,880 16.16",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 313,
+          "printed_page": "309",
+          "quote": "Our Promoters",
+          "section": "promoter_holding",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "1. Vinod Aggarwal 72,78,880 16.16",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "1. Vinod Aggarwal 72,78,880 16.16",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "1091832000",
+          "rupees_high": "1091832000",
+          "crore_low": "109.18",
+          "crore_high": "109.18",
+          "display": "₹109.18 crore (estimate, valued at offer price)",
+          "working": "72,78,880 × ₹150 = ₹109.18 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "72,78,880",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 313,
+                  "printed_page": "309",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=313",
+                  "quote": "1. Vinod Aggarwal 72,78,880 16.16"
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "1. Vinod Aggarwal 72,78,880 16.16"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "7278880",
+          "shares_display": "7,278,880 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of post-Offer capital); one year from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "aggregate of 20%",
+                "locked in for a period of three years"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+              "pdf_index": 122,
+              "printed_page": "118",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=122",
+              "anchors": [
+                "in excess of 20%",
+                "locked in for a period of one year"
+              ],
+              "quotes": [
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment.",
+                "Details of lock-in of Equity Shares (i) Details of Promoters’ contribution locked in for three years Pursuant to Regulations 14 and 16(1) of the SEBI ICDR Regulations, an aggregate of 20% of the fully diluted post-Issue Equity Share capital of our Company held by the Promoters shall be locked in for a period of three years as minimum promoters’ contribution from the date of Allotment (“Promoters’ Contribution”), and the Promoters’ shareholding in excess of 20% of the fully diluted post-Issue Equity Share capital shall be locked in for a period of one year from the date of Allotment."
+              ]
+            }
+          ],
+          "variant": "three_year"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings agree across 2 sections (promoter_holding, shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_wonder_rock_finance_and_investment_private_limited",
+      "name_as_printed": "Wonder Rock Finance and Investment Private Limited",
+      "names_as_printed": [
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "name_clean": "wonder rock finance and investment private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "23,83,299",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "12. Wonder Rock Finance and Investment Private 23,83,299 5.29",
+          "citation_corrected": true,
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 115,
+          "printed_page": "111",
+          "quote": "12. Wonder Rock Finance and Investment Private 23,83,299 5.29",
+          "citation_corrected": true,
+          "verified_by": "table_row",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "357494850",
+          "rupees_high": "357494850",
+          "crore_low": "35.75",
+          "crore_high": "35.75",
+          "display": "₹35.75 crore (estimate, valued at offer price)",
+          "working": "23,83,299 × ₹150 = ₹35.75 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "23,83,299",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 115,
+                  "printed_page": "111",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=115",
+                  "quote": "12. Wonder Rock Finance and Investment Private 23,83,299 5.29"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 150",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf",
+                  "pdf_index": 460,
+                  "printed_page": "456",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793334662133.pdf#page=460",
+                  "quote": "The Anchor Investor Issue Price is ₹ 150 per Equity Share."
+                }
+              ]
+            }
+          ],
+          "shares": "2383299",
+          "shares_display": "2,383,299 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Alka Aggarwal"
+      ],
+      "score": 82.8,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "Kavita Aggarwal"
+      ],
+      "score": 82.8,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 82.8,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 82.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "Alka Aggarwal"
+      ],
+      "score": 81.5,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Karan Aggarwal"
+      ],
+      "score": 80.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 80.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Alka Aggarwal"
+      ],
+      "score": 80.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Diwakar Aggarwal"
+      ],
+      "score": 78.8,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Alka Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 78.6,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kavita Aggarwal",
+        "Alka Aggarwal"
+      ],
+      "score": 78.6,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Wonder Rock Finance and Investment Private Limited",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 78.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Karan Aggarwal"
+      ],
+      "score": 77.4,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Kavita Aggarwal"
+      ],
+      "score": 75.9,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 75.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kavita Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 73.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Alka Aggarwal"
+      ],
+      "score": 71.4,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Karan Aggarwal"
+      ],
+      "score": 71.4,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Kavita Aggarwal"
+      ],
+      "score": 71.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 71.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 69.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Sushil Aggarwal"
+      ],
+      "score": 69.0,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Kavita Aggarwal"
+      ],
+      "score": 68.8,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Kavita Aggarwal"
+      ],
+      "score": 66.7,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Rachna Aggarwal"
+      ],
+      "score": 66.7,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Alka Aggarwal"
+      ],
+      "score": 66.7,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Diwakar Aggarwal"
+      ],
+      "score": 66.7,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Diwakar Aggarwal"
+      ],
+      "score": 64.5,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Madhukar Aggarwal"
+      ],
+      "score": 64.5,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Madhukar Aggarwal"
+      ],
+      "score": 62.5,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Fragrance Credit and Securities Private Limited",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 62.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Karan Aggarwal"
+      ],
+      "score": 62.1,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "score": 58.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 58.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Fragrance Credit and Securities Private Limited",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 57.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "V. S. Estates Private Limited",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 57.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "V. S. Estates Private Limited",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 56.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Fragrance Credit and Securities Private Limited",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 55.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Fragrance Credit and Securities Private Limited",
+        "Kavita Aggarwal"
+      ],
+      "score": 29.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Fragrance Credit and Securities Private Limited",
+        "Rachna Aggarwal"
+      ],
+      "score": 29.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "score": 29.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "score": 26.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Fragrance Credit and Securities Private Limited"
+      ],
+      "score": 26.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rachna Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 24.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 24.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 24.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "V. S. Estates Private Limited",
+        "Kavita Aggarwal"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "V. S. Estates Private Limited",
+        "Rachna Aggarwal"
+      ],
+      "score": 23.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 23.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Fragrance Credit and Securities Private Limited",
+        "Alka Aggarwal"
+      ],
+      "score": 23.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "Kavita Aggarwal"
+      ],
+      "score": 23.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 22.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kavita Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 22.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 22.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 21.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 21.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Kavita Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 21.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 20.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "Intime Finance & Investment Private Limited"
+      ],
+      "score": 20.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "Intime Finance & Investment Private Limited"
+      ],
+      "score": 20.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Alka Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 20.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "Rachna Aggarwal"
+      ],
+      "score": 20.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "V. S. Estates Private Limited",
+        "Alka Aggarwal"
+      ],
+      "score": 20.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Diwakar Aggarwal",
+        "Intime Finance & Investment Private Limited"
+      ],
+      "score": 19.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Karan Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 19.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 19.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vinod Aggarwal",
+        "V. S. Estates Private Limited"
+      ],
+      "score": 19.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "Intime Finance & Investment Private Limited"
+      ],
+      "score": 19.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Rachna Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 19.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 19.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Alka Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 19.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Madhukar Aggarwal",
+        "New Line Finance & Investment Private Limited"
+      ],
+      "score": 18.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Intime Finance & Investment Private Limited",
+        "Alka Aggarwal"
+      ],
+      "score": 17.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Intime Finance & Investment Private Limited"
+      ],
+      "score": 16.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sushil Aggarwal",
+        "Wonder Rock Finance and Investment Private Limited"
+      ],
+      "score": 15.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [],
+  "counts": {
+    "people": 13,
+    "by_holder_type": {
+      "entity": 5,
+      "person": 8
+    },
+    "by_confidence": {
+      "medium": 13
+    },
+    "sellers": 0,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 13,
+    "retained_timing": {
+      "locked_in": 5,
+      "unknown": 8
+    },
+    "identity_decisions": {
+      "below_threshold": 50,
+      "different_first_name": 28
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 13,
+    "follow_on_matches": 0
+  }
+}

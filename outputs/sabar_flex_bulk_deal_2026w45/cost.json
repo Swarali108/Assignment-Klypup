@@ -1,0 +1,41 @@
+{
+  "event_id": "sabar_flex_bulk_deal_2026w45",
+  "run_id": "auto-sabar_flex_bulk_deal_2026w45-20261115T185707Z",
+  "totals": {
+    "calls": 2,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 2490,
+    "output_tokens": 223,
+    "cost_usd": 0.00036,
+    "fresh_usd": 0.00036,
+    "unpriced_calls": 0,
+    "wall_s": 3.8950278750271536,
+    "callable_people": 2,
+    "cost_per_callable_usd": 0.00018,
+    "fresh_per_callable_usd": 0.00018
+  },
+  "per_person": [
+    {
+      "person_id": "p_kunjit_maheshbhai_patel",
+      "name_as_printed": "KUNJIT MAHESHBHAI PATEL",
+      "cost_usd": 0.000183,
+      "fresh_usd": 0.000183,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_thakor_nayana_chandubhai",
+      "name_as_printed": "THAKOR NAYANA CHANDUBHAI",
+      "cost_usd": 0.000177,
+      "fresh_usd": 0.000177,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_alegula_madhu_babu_bought",
+      "name_as_printed": "ALEGULA MADHU BABU",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "run_id": "paras_healthcare_limited_ipo_202610-20261115T135632Z",
+  "total_s": 7.854740125010721,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 3.652304292016197,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.8046367079950869,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.00669250002829358,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.003582332981750369,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 3.3609321669791825,
+      "calls": 2,
+      "cached": 0,
+      "cost_usd": 0.00042500000000000003
+    },
+    {
+      "step": "report",
+      "seconds": 0.007694667030591518,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

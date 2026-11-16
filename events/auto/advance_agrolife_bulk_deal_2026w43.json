@@ -1,0 +1,21 @@
+{
+  "event_id": "advance_agrolife_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Advance Agrolife Limited",
+  "documents": [],
+  "records": [
+    "17df54e53f47b3b3",
+    "ba098e10883176a7",
+    "dae8b0a9a8d1d3f8",
+    "de16cc1df84ea831"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-21",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

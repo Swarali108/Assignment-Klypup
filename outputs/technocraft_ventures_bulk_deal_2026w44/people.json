@@ -1,0 +1,638 @@
+{
+  "event_id": "technocraft_ventures_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "476",
+    "high": "482.68",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹476",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+            "row_ref": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+            "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,25,769 shares | price 476 | 2026-10-29"
+          }
+        ]
+      },
+      {
+        "field": "trade_price",
+        "value": "₹482.68",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+            "row_ref": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+            "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,37,023 shares | price 482.68 | 2026-10-27"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "27 Oct 2026 to 29 Oct 2026",
+    "sale_date_parsed": "2026-10-29",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "8,62,792 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 6,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_acme_capital_market_limited",
+      "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+      "names_as_printed": [
+        "ACME CAPITAL MARKET LIMITED"
+      ],
+      "name_clean": "acme capital market limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "592c581c23803817",
+        "010279c78aa8699e"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 337023,
+          "record_ids": [
+            "592c581c23803817"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 325769,
+          "record_ids": [
+            "010279c78aa8699e"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+          "row_ref": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+          "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,37,023 shares | price 482.68 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "592c581c23803817",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+          "row_ref": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+          "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,25,769 shares | price 476 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "010279c78aa8699e",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "6,62,792",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "317740305.64",
+          "rupees_high": "317740305.64",
+          "crore_low": "31.77",
+          "crore_high": "31.77",
+          "display": "₹31.77 crore",
+          "working": "3,37,023 shares × ₹482.68 = ₹16.27 crore (NSE 27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023); 3,25,769 shares × ₹476 = ₹15.51 crore (NSE 29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769); total ₹31.77 crore",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "3,37,023",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+                  "row_ref": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+                  "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,37,023 shares | price 482.68 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹482.68",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+                  "row_ref": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 337023",
+                  "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,37,023 shares | price 482.68 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "shares_sold",
+              "value": "3,25,769",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+                  "row_ref": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+                  "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,25,769 shares | price 476 | 2026-10-29"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹476",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+                  "row_ref": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+                  "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,25,769 shares | price 476 | 2026-10-29"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "trade_date": "2026-10-29",
+          "settles_on": "2026-10-30",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "29 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+                  "row_ref": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · SELL · 325769",
+                  "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | SELL | 3,25,769 shares | price 476 | 2026-10-29"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 6,62,792 shares in bulk deals on 27 Oct 2026 and 29 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "₹17.96 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_acme_capital_market_limited_bought",
+      "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+      "names_as_printed": [
+        "ACME CAPITAL MARKET LIMITED"
+      ],
+      "name_clean": "acme capital market limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "b43e5f4b9e643269",
+        "f84ab20dde20bd90"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 337023,
+          "record_ids": [
+            "b43e5f4b9e643269"
+          ]
+        },
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 325769,
+          "record_ids": [
+            "f84ab20dde20bd90"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · BUY · 337023",
+          "row_ref": "27-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · BUY · 337023",
+          "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | BUY | 3,37,023 shares | price 481.34 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "b43e5f4b9e643269",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        },
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · BUY · 325769",
+          "row_ref": "29-OCT-2026 · TECHNOCRAF · ACME CAPITAL MARKET LIMITED · BUY · 325769",
+          "quote": "NSE | TECHNOCRAF | ACME CAPITAL MARKET LIMITED | BUY | 3,25,769 shares | price 473.12 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f84ab20dde20bd90",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 6,62,792 shares in bulk deals on 27 Oct 2026 and 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "₹17.96 crore",
+          "trigger_date": "2026-10-30",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        },
+        {
+          "event_id": "sirca_paint_bulk_deal_2026w44",
+          "company": "Sirca Paint India Limited",
+          "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ACME CAPITAL MARKET LIMITED' / 'ACME CAPITAL MARKET LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_govind_ji_gupta",
+      "name_as_printed": "GOVIND JI GUPTA",
+      "names_as_printed": [
+        "GOVIND JI GUPTA"
+      ],
+      "name_clean": "govind ji gupta",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "456d27db761a1b25"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-27",
+          "quantity": 200000,
+          "record_ids": [
+            "456d27db761a1b25"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+          "row_ref": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+          "quote": "NSE | TECHNOCRAF | GOVIND JI GUPTA | SELL | 2,00,000 shares | price 481.5 | 2026-10-27",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "456d27db761a1b25",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,00,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "96300000.0",
+          "rupees_high": "96300000.0",
+          "crore_low": "9.63",
+          "crore_high": "9.63",
+          "display": "₹9.63 crore",
+          "working": "2,00,000 shares × ₹481.5 = ₹9.63 crore (NSE 27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,00,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+                  "row_ref": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+                  "quote": "NSE | TECHNOCRAF | GOVIND JI GUPTA | SELL | 2,00,000 shares | price 481.5 | 2026-10-27"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹481.5",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+                  "row_ref": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+                  "quote": "NSE | TECHNOCRAF | GOVIND JI GUPTA | SELL | 2,00,000 shares | price 481.5 | 2026-10-27"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "trade_date": "2026-10-27",
+          "settles_on": "2026-10-28",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "27 Oct 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+                  "row_ref": "27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000",
+                  "quote": "NSE | TECHNOCRAF | GOVIND JI GUPTA | SELL | 2,00,000 shares | price 481.5 | 2026-10-27"
+                }
+              ]
+            }
+          ],
+          "days_since": 19
+        }
+      },
+      "why_money": "sold 2,00,000 shares in a bulk deal on 27 Oct 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_govind_ji_gupta_bought",
+      "name_as_printed": "GOVIND JI GUPTA",
+      "names_as_printed": [
+        "GOVIND JI GUPTA"
+      ],
+      "name_clean": "govind ji gupta",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "90df3bdea6d820fa"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-29",
+          "quantity": 250000,
+          "record_ids": [
+            "90df3bdea6d820fa"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "29-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · BUY · 250000",
+          "row_ref": "29-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · BUY · 250000",
+          "quote": "NSE | TECHNOCRAF | GOVIND JI GUPTA | BUY | 2,50,000 shares | price 475.94 | 2026-10-29",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "90df3bdea6d820fa",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 2,50,000 shares in a bulk deal on 29 Oct 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "GOVIND JI GUPTA",
+        "GOVIND JI GUPTA"
+      ],
+      "reasons": [
+        "'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 4,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 4
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 4
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 4,
+    "follow_on_matches": 4
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "event_id": "fdc_limited_buyback_202610",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_aditi_c_bhanot",
+      "name_as_printed": "Mrs. Aditi C. Bhanot",
+      "fields": {
+        "name": "Mrs. Aditi C. Bhanot",
+        "role": "unknown",
+        "why_money": "holds 1,10,69,381 shares; tender intention not printed",
+        "amount": "unknown: buyback price not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: buyback price not confirmed from the documents",
+        "unknowns": [
+          "amount: buyback price not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: buyback price not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Mrs. Aditi C. Bhanot",
+        "role": "unknown",
+        "amount": "unknown: buyback price not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "1,10,69,381 shares"
+      },
+      "lines": [
+        "Mrs. Aditi C. Bhanot holds 1,10,69,381 shares; the documents show no confirmed money event for this holder yet.",
+        "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+        "Ask whether the holder intends to participate in any future offer before discussing next steps.",
+        "Role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Mrs. {name} holds {shares_held}; the documents show no confirmed money event for her yet.",
+            "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+            "Ask whether she intends to participate in any future offer before discussing next steps.",
+            "Her role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Mrs. {name} holds {shares_held}; the documents show no confirmed money event for her yet.",
+            "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+            "Ask whether she intends to participate in any future offer before discussing next steps.",
+            "Her role is unknown, so confirm it before the call."
+          ],
+          "problem": "gendered words not in the fields: her, she"
+        },
+        {
+          "raw_lines": [
+            "{name} holds {shares_held}; the documents show no confirmed money event for this holder yet.",
+            "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+            "Ask whether the holder intends to participate in any future offer before discussing next steps.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "Mrs. Aditi C. Bhanot holds 1,10,69,381 shares; the documents show no confirmed money event for this holder yet.",
+            "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+            "Ask whether the holder intends to participate in any future offer before discussing next steps.",
+            "Role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ameya_ashok_chandavarkar",
+      "name_as_printed": "Mr. Ameya Ashok Chandavarkar",
+      "fields": {
+        "name": "Mr. Ameya Ashok Chandavarkar",
+        "role": "unknown",
+        "why_money": "holds 99,23,930 shares; tender intention not printed",
+        "amount": "unknown: buyback price not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: buyback price not confirmed from the documents",
+        "unknowns": [
+          "amount: buyback price not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: buyback price not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Mr. Ameya Ashok Chandavarkar",
+        "role": "unknown",
+        "amount": "unknown: buyback price not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "99,23,930 shares"
+      },
+      "lines": [
+        "Mr. Ameya Ashok Chandavarkar holds 99,23,930 shares; their role is unknown, and no money event is confirmed for them.",
+        "The amount and timing of any buyback payment are unknown, so no figure or date should be quoted yet.",
+        "Ask whether they intend to tender, since the documents do not print their intention.",
+        "Caveat: buyback price and payment timing are not confirmed from the documents."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held}; their role is unknown, and no money event is confirmed for them.",
+            "The amount and timing of any buyback payment are unknown, so no figure or date should be quoted yet.",
+            "Ask whether they intend to tender, since the documents do not print their intention.",
+            "Caveat: buyback price and payment timing are not confirmed from the documents."
+          ],
+          "lines": [
+            "Mr. Ameya Ashok Chandavarkar holds 99,23,930 shares; their role is unknown, and no money event is confirmed for them.",
+            "The amount and timing of any buyback payment are unknown, so no figure or date should be quoted yet.",
+            "Ask whether they intend to tender, since the documents do not print their intention.",
+            "Caveat: buyback price and payment timing are not confirmed from the documents."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_nomita_ramdas_chandavarkar",
+      "name_as_printed": "Ms. Nomita Ramdas Chandavarkar",
+      "fields": {
+        "name": "Ms. Nomita Ramdas Chandavarkar",
+        "role": "unknown",
+        "why_money": "holds 3,69,16,689 shares; tender intention not printed",
+        "amount": "unknown: buyback price not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "event": "none: no money event for this holder",
+        "event_age": "none",
+        "event_is": "none",
+        "proceeds": "unknown: buyback price not confirmed from the documents",
+        "unknowns": [
+          "amount: buyback price not confirmed from the documents",
+          "timing: no confirmed payment or closing date",
+          "proceeds: buyback price not confirmed from the documents"
+        ]
+      },
+      "placeholders": {
+        "name": "Ms. Nomita Ramdas Chandavarkar",
+        "role": "unknown",
+        "amount": "unknown: buyback price not confirmed from the documents",
+        "timing": "unknown: no confirmed payment or closing date",
+        "shares_held": "3,69,16,689 shares"
+      },
+      "lines": [
+        "Ms. Nomita Ramdas Chandavarkar holds 3,69,16,689 shares; their role is unknown and no money event is confirmed for them yet.",
+        "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+        "Ask whether they intend to tender their shares in the buyback before any proceeds are discussed.",
+        "Caveat: buyback price and closing date remain unknown, so no proceeds figure should be quoted."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} holds {shares_held}; their role is unknown and no money event is confirmed for them yet.",
+            "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+            "Ask whether they intend to tender their shares in the buyback before any proceeds are discussed.",
+            "Caveat: buyback price and closing date remain unknown, so no proceeds figure should be quoted."
+          ],
+          "lines": [
+            "Ms. Nomita Ramdas Chandavarkar holds 3,69,16,689 shares; their role is unknown and no money event is confirmed for them yet.",
+            "Amount and timing are unknown: the buyback price and payment date are not confirmed in the documents.",
+            "Ask whether they intend to tender their shares in the buyback before any proceeds are discussed.",
+            "Caveat: buyback price and closing date remain unknown, so no proceeds figure should be quoted."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

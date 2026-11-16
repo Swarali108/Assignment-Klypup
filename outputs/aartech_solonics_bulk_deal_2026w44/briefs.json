@@ -1,0 +1,104 @@
+{
+  "event_id": "aartech_solonics_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_kailash_kabra",
+      "name_as_printed": "KAILASH KABRA",
+      "fields": {
+        "name": "KAILASH KABRA",
+        "role": "unknown",
+        "why_money": "sold 2,57,874 shares in a bulk deal on 27 Oct 2026",
+        "amount": "₹1.18 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.18 crore (2,57,874 shares × ₹45.77 = ₹1.18 crore (NSE 27-OCT-2026 · AARTECH · KAILASH KABRA · SELL · 257874))"
+      },
+      "placeholders": {
+        "name": "KAILASH KABRA",
+        "role": "unknown",
+        "amount": "₹1.18 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹1.18 crore",
+        "shares_offered": "2,57,874 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "Kailash Kabra, role unknown, is due proceeds from selling 2,57,874 shares in a bulk deal.",
+        "Proceeds of ₹1.18 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "Discuss how this bulk sale fits their broader portfolio, and whether any other holdings need review.",
+        "Role is unknown; confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Kailash Kabra, role unknown, is due proceeds from selling {shares_offered} in a bulk deal.",
+            "Proceeds of {proceeds} settled {timing}.",
+            "Discuss how this bulk sale fits their broader portfolio, and whether any other holdings need review.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "lines": [
+            "Kailash Kabra, role unknown, is due proceeds from selling 2,57,874 shares in a bulk deal.",
+            "Proceeds of ₹1.18 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+            "Discuss how this bulk sale fits their broader portfolio, and whether any other holdings need review.",
+            "Role is unknown; confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_millennial_family_trust",
+      "name_as_printed": "MILLENNIAL FAMILY TRUST",
+      "fields": {
+        "name": "MILLENNIAL FAMILY TRUST",
+        "role": "unknown",
+        "why_money": "sold 2,00,000 shares in a bulk deal on 30 Oct 2026",
+        "amount": "₹81.02 lakh",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event": "proceeds settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "event_age": "14 days ago",
+        "event_is": "recent",
+        "proceeds": "₹81.02 lakh (2,00,000 shares × ₹40.51 = ₹81.02 lakh (NSE 30-OCT-2026 · AARTECH · MILLENNIAL FAMILY TRUST · SELL · 200000))"
+      },
+      "placeholders": {
+        "name": "MILLENNIAL FAMILY TRUST",
+        "role": "unknown",
+        "amount": "₹81.02 lakh",
+        "timing": "settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago)",
+        "proceeds": "₹81.02 lakh",
+        "shares_offered": "2,00,000 shares",
+        "event_age": "14 days ago"
+      },
+      "lines": [
+        "MILLENNIAL FAMILY TRUST sold 2,00,000 shares in a bulk deal, so money is coming to them from that sale.",
+        "Proceeds of ₹81.02 lakh were settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago), meaning the money has already arrived.",
+        "Since the sale is 14 days ago, ask how they plan to use the cash now.",
+        "Their role is unknown, so confirm who the decision-maker is before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of {proceeds} were {timing}, meaning the money has already arrived.",
+            "Since the sale is {event_age}, ask how they plan to use the cash now.",
+            "Their role is unknown, so confirm who the decision-maker is before the call."
+          ],
+          "lines": [
+            "MILLENNIAL FAMILY TRUST sold 2,00,000 shares in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of ₹81.02 lakh were settled 2 Nov 2026, T+1 after the 30 Oct 2026 trade (14 days ago), meaning the money has already arrived.",
+            "Since the sale is 14 days ago, ask how they plan to use the cash now.",
+            "Their role is unknown, so confirm who the decision-maker is before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

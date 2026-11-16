@@ -1,0 +1,29 @@
+{
+  "event_id": "vishal_nirmiti_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Vishal Nirmiti Limited",
+  "documents": [],
+  "records": [
+    "034d96e7f138ba31",
+    "4663a14b8ad7d46d",
+    "56c052fb703c9573",
+    "6a645a90e5c42d6c",
+    "84a4d0d342408cf1",
+    "9cf217866e9b4cee",
+    "9e67d44cd8165c32",
+    "a5c46f6543c8eb89",
+    "dfe7d2cb939409a8",
+    "e0abee55fd5a85e7",
+    "eb4190a7b16a4b1e",
+    "edea8a4dcd60e66b"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-29",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

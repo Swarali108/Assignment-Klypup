@@ -1,0 +1,52 @@
+{
+  "event_id": "raj_television_network_li_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_moolchand_kiran_kumar_jain",
+      "name_as_printed": "MOOLCHAND KIRAN KUMAR JAIN",
+      "fields": {
+        "name": "MOOLCHAND KIRAN KUMAR JAIN",
+        "role": "unknown",
+        "why_money": "sold 7,27,609 shares in bulk deals on 26 Oct 2026 and 28 Oct 2026",
+        "amount": "₹51.78 lakh",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event_age": "20 days ago",
+        "event_is": "recent",
+        "proceeds": "₹51.78 lakh (2,68,849 shares × ₹7.57 = ₹20.35 lakh (NSE 26-OCT-2026 · RAJTV · MOOLCHAND KIRAN KUMAR JAIN · SELL · 268849); 4,58,760 shares × ₹6.85 = ₹31.43 lakh (NSE 28-OCT-2026 · RAJTV · MOOLCHAND KIRAN KUMAR JAIN · SELL · 458760); total ₹51.78 lakh)"
+      },
+      "placeholders": {
+        "name": "MOOLCHAND KIRAN KUMAR JAIN",
+        "role": "unknown",
+        "amount": "₹51.78 lakh",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "proceeds": "₹51.78 lakh",
+        "shares_offered": "7,27,609 shares",
+        "event_age": "20 days ago"
+      },
+      "lines": [
+        "MOOLCHAND KIRAN KUMAR JAIN, role unknown, is due proceeds from selling 7,27,609 shares in bulk deals.",
+        "They receive ₹51.78 lakh, settled settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago).",
+        "Event was 20 days ago, so reference it as past, not current; role is unknown, so confirm it first."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "MOOLCHAND KIRAN KUMAR JAIN, role unknown, is due proceeds from selling {shares_offered} in bulk deals.",
+            "They receive {amount}, settled {timing}.",
+            "Event was {event_age}, so reference it as past, not current; role is unknown, so confirm it first."
+          ],
+          "lines": [
+            "MOOLCHAND KIRAN KUMAR JAIN, role unknown, is due proceeds from selling 7,27,609 shares in bulk deals.",
+            "They receive ₹51.78 lakh, settled settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago).",
+            "Event was 20 days ago, so reference it as past, not current; role is unknown, so confirm it first."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

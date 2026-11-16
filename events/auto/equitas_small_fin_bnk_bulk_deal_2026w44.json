@@ -1,0 +1,22 @@
+{
+  "event_id": "equitas_small_fin_bnk_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Equitas Small Fin Bnk Ltd",
+  "documents": [],
+  "records": [
+    "0699434e924e3884",
+    "18d34dda2b06e93f",
+    "1f24317a53ad4163",
+    "420187069f598147",
+    "955f832b8f48fe34"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-30",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

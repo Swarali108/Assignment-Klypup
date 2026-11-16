@@ -1,0 +1,48 @@
+{
+  "run_id": "auto-medplus_health_services_limited_buyback_202611-20261116T010808Z",
+  "total_s": 0.5338410419644788,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 0.16844679205678403,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.15156441600993276,
+      "calls": 2,
+      "cached": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.06356187502387911,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.03686237498186529,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.03693795809522271,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "report",
+      "seconds": 0.04487425007391721,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "event_id": "kesarpe_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dinesh_sharma_huf",
+      "name_as_printed": "DINESH SHARMA (HUF)",
+      "fields": {
+        "name": "DINESH SHARMA (HUF)",
+        "role": "unknown",
+        "why_money": "sold 14,35,114 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹1.44 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹1.44 crore (14,35,114 shares × ₹10.03 = ₹1.44 crore (BSE 13/11/2026 · KESARPE · DINESH SHARMA (HUF) · S · 1435114))"
+      },
+      "placeholders": {
+        "name": "DINESH SHARMA (HUF)",
+        "role": "unknown",
+        "amount": "₹1.44 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹1.44 crore",
+        "shares_offered": "14,35,114 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "DINESH SHARMA (HUF) is an HUF holder whose shares were sold in a bulk deal, so money is coming to them.",
+        "Proceeds of ₹1.44 crore from 14,35,114 shares settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Ask how today settlement fits their cash plans for the coming months.",
+        "Role is unknown, so confirm the holder's role before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an HUF holder whose shares were sold in a bulk deal, so money is coming to them.",
+            "Proceeds of {proceeds} from {shares_offered} settle {timing}.",
+            "Ask how {event_age} settlement fits their cash plans for the coming months.",
+            "Role is unknown, so confirm the holder's role before the call."
+          ],
+          "lines": [
+            "DINESH SHARMA (HUF) is an HUF holder whose shares were sold in a bulk deal, so money is coming to them.",
+            "Proceeds of ₹1.44 crore from 14,35,114 shares settle settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Ask how today settlement fits their cash plans for the coming months.",
+            "Role is unknown, so confirm the holder's role before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "event_id": "agi_infra_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Agi Infra Limited",
+  "documents": [],
+  "records": [
+    "27054044cc28b031",
+    "70ed8aecee1209f2",
+    "998f88bc69c82180",
+    "eb0121f4a87c51a4"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-27",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

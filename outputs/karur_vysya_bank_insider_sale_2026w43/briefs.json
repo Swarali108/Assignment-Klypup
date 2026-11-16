@@ -1,0 +1,229 @@
+{
+  "event_id": "karur_vysya_bank_insider_sale_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_a_j_suriyanarayana",
+      "name_as_printed": "A J Suriyanarayana",
+      "fields": {
+        "name": "A J Suriyanarayana",
+        "role": "Promoter",
+        "why_money": "sold 25,000 shares (Market Sale) on 19 Oct 2026",
+        "amount": "₹93.42 lakh",
+        "timing": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "event": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "event_age": "27 days ago",
+        "event_is": "recent",
+        "proceeds": "₹93.42 lakh (25,000 shares, value as printed ₹93.42 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "A J Suriyanarayana",
+        "role": "Promoter",
+        "amount": "₹93.42 lakh",
+        "timing": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "proceeds": "₹93.42 lakh",
+        "shares_offered": "25,000 shares",
+        "event_age": "27 days ago"
+      },
+      "lines": [
+        "A J Suriyanarayana, Promoter, is receiving ₹93.42 lakh from selling 25,000 shares in the open market.",
+        "The sale settled settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago), and the money arrived 27 days ago.",
+        "Ask how they plan to use the proceeds, since the sale was recent and the cash is available now."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "A J Suriyanarayana, Promoter, is receiving proceeds from selling 25,000 shares in the open market.",
+            "They sold on 19 Oct 2026 and the money settled on 20 Oct 2026, 27 days ago.",
+            "Ask how they plan to deploy the proceeds, since the sale was recent and cash is now available."
+          ],
+          "lines": [
+            "A J Suriyanarayana, Promoter, is receiving proceeds from selling 25,000 shares in the open market.",
+            "They sold on 19 Oct 2026 and the money settled on 20 Oct 2026, 27 days ago.",
+            "Ask how they plan to deploy the proceeds, since the sale was recent and cash is now available."
+          ],
+          "problem": "writes numbers instead of placeholders: 25,000, 19, 2026, 20, 2026, 27"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving {proceeds} from selling {shares_offered} in the open market.",
+            "The sale settled {timing}, and the money arrived {event_age}.",
+            "Ask how they plan to use the proceeds, since the sale was recent and the cash is available now."
+          ],
+          "lines": [
+            "A J Suriyanarayana, Promoter, is receiving ₹93.42 lakh from selling 25,000 shares in the open market.",
+            "The sale settled settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago), and the money arrived 27 days ago.",
+            "Ask how they plan to use the proceeds, since the sale was recent and the cash is available now."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_g_rajasekaran",
+      "name_as_printed": "G Rajasekaran",
+      "fields": {
+        "name": "G Rajasekaran",
+        "role": "Promoter",
+        "why_money": "sold 3,000 shares (Market Sale) on 19 Oct 2026 and 21 Oct 2026",
+        "amount": "₹11.44 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "27 days ago",
+        "event_is": "recent",
+        "proceeds": "₹11.44 lakh (1,000 shares, value as printed ₹3.75 lakh (NSE XBRL context Disclosure1); 2,000 shares, value as printed ₹7.69 lakh (NSE XBRL context Disclosure1); total ₹11.44 lakh)"
+      },
+      "placeholders": {
+        "name": "G Rajasekaran",
+        "role": "Promoter",
+        "amount": "₹11.44 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹11.44 lakh",
+        "shares_offered": "3,000 shares",
+        "event_age": "27 days ago"
+      },
+      "lines": [
+        "G Rajasekaran, Promoter, is receiving money from a share sale that 27 days ago.",
+        "₹11.44 lakh from 3,000 shares settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "Ask how they are thinking about the remaining holding before any further sales."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "G Rajasekaran, Promoter, is receiving money from a share sale made on 19 and 21 October 2026.",
+            "{proceeds} from {shares_offered} settled {timing}.",
+            "Ask how they are thinking about the remaining holding before any further sales."
+          ],
+          "lines": [
+            "G Rajasekaran, Promoter, is receiving money from a share sale made on 19 and 21 October 2026.",
+            "{proceeds} from {shares_offered} settled {timing}.",
+            "Ask how they are thinking about the remaining holding before any further sales."
+          ],
+          "problem": "writes numbers instead of placeholders: 19, 21, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from a share sale that {event_age}.",
+            "{proceeds} from {shares_offered} settled {timing}.",
+            "Ask how they are thinking about the remaining holding before any further sales."
+          ],
+          "lines": [
+            "G Rajasekaran, Promoter, is receiving money from a share sale that 27 days ago.",
+            "₹11.44 lakh from 3,000 shares settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+            "Ask how they are thinking about the remaining holding before any further sales."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_r_nageswari",
+      "name_as_printed": "R Nageswari",
+      "fields": {
+        "name": "R Nageswari",
+        "role": "Promoter group",
+        "why_money": "sold 3,000 shares (Market Sale) on 19 Oct 2026 and 21 Oct 2026",
+        "amount": "₹11.44 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "27 days ago",
+        "event_is": "recent",
+        "proceeds": "₹11.44 lakh (1,000 shares, value as printed ₹3.75 lakh (NSE XBRL context Disclosure2); 2,000 shares, value as printed ₹7.69 lakh (NSE XBRL context Disclosure2); total ₹11.44 lakh)"
+      },
+      "placeholders": {
+        "name": "R Nageswari",
+        "role": "Promoter group",
+        "amount": "₹11.44 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹11.44 lakh",
+        "shares_offered": "3,000 shares",
+        "event_age": "27 days ago"
+      },
+      "lines": [
+        "R Nageswari is a Promoter group holder who sold shares in the open market and is receiving the proceeds.",
+        "₹11.44 lakh from selling 3,000 shares, settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "Event was 27 days ago, so the money is already in hand; discuss how they plan to use it."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} holder who sold shares in the open market and is receiving the proceeds.",
+            "{amount} from selling {shares_offered}, settled {timing}.",
+            "Event was {event_age}, so the money is already in hand; discuss how they plan to use it."
+          ],
+          "lines": [
+            "R Nageswari is a Promoter group holder who sold shares in the open market and is receiving the proceeds.",
+            "₹11.44 lakh from selling 3,000 shares, settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+            "Event was 27 days ago, so the money is already in hand; discuss how they plan to use it."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_g_mani",
+      "name_as_printed": "G Mani",
+      "fields": {
+        "name": "G Mani",
+        "role": "Promoter group",
+        "why_money": "sold 2,000 shares (Market Sale) on 21 Oct 2026",
+        "amount": "₹7.69 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹7.69 lakh (2,000 shares, value as printed ₹7.69 lakh (NSE XBRL context Disclosure3))"
+      },
+      "placeholders": {
+        "name": "G Mani",
+        "role": "Promoter group",
+        "amount": "₹7.69 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹7.69 lakh",
+        "shares_offered": "2,000 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "G Mani is a Promoter group holder receiving money from a market sale of 2,000 shares made in October.",
+        "Proceeds of ₹7.69 lakh settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago), so the money is already in hand.",
+        "The sale was 25 days ago, so frame the conversation around how the proceeds are being deployed."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a {role} holder receiving money from a market sale of {shares_offered} on 21 Oct 2026.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Event was {event_age}, so frame the conversation around how the proceeds are being deployed."
+          ],
+          "lines": [
+            "{name} is a {role} holder receiving money from a market sale of {shares_offered} on 21 Oct 2026.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Event was {event_age}, so frame the conversation around how the proceeds are being deployed."
+          ],
+          "problem": "writes numbers instead of placeholders: 21, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a {role} holder receiving money from a market sale of {shares_offered} made in October.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "The sale was {event_age}, so frame the conversation around how the proceeds are being deployed."
+          ],
+          "lines": [
+            "G Mani is a Promoter group holder receiving money from a market sale of 2,000 shares made in October.",
+            "Proceeds of ₹7.69 lakh settled settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago), so the money is already in hand.",
+            "The sale was 25 days ago, so frame the conversation around how the proceeds are being deployed."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "event_id": "gallantt_ispat_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_dinesh_r_agarwal",
+      "name_as_printed": "DINESH R AGARWAL",
+      "fields": {
+        "name": "DINESH R AGARWAL",
+        "role": "unknown",
+        "why_money": "sold 40,00,000 shares in a bulk deal on 12 Nov 2026",
+        "amount": "₹201.20 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
+        "event_is": "recent",
+        "proceeds": "₹201.20 crore (40,00,000 shares × ₹503 = ₹201.20 crore (NSE 12-NOV-2026 · GALLANTT · DINESH R AGARWAL · SELL · 4000000))"
+      },
+      "placeholders": {
+        "name": "DINESH R AGARWAL",
+        "role": "unknown",
+        "amount": "₹201.20 crore",
+        "timing": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "proceeds": "₹201.20 crore",
+        "shares_offered": "40,00,000 shares",
+        "event_age": "3 days ago"
+      },
+      "lines": [
+        "DINESH R AGARWAL sold 40,00,000 shares in a bulk deal, so money is coming to them from the sale.",
+        "₹201.20 crore arrived, settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago).",
+        "Because the sale was recent, the conversation can start with how they plan to use these proceeds."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from the sale.",
+            "{proceeds} arrived, settled {timing}.",
+            "Because the sale was recent, the conversation can start with how they plan to use these proceeds."
+          ],
+          "lines": [
+            "DINESH R AGARWAL sold 40,00,000 shares in a bulk deal, so money is coming to them from the sale.",
+            "₹201.20 crore arrived, settled settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago).",
+            "Because the sale was recent, the conversation can start with how they plan to use these proceeds."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

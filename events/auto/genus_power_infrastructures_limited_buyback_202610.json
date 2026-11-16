@@ -1,0 +1,53 @@
+{
+  "event_id": "genus_power_infrastructures_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "Genus Power Infrastructures Ltd-$",
+  "documents": [
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/24456e29-fc4a-4139-9962-1730baabcf7e.pdf",
+      "doc_type": "announcement",
+      "note": "Genus Power Infrastructures Ltd-$ - Buy back",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/GENUSPOWER_28102026121804_Intimation_PA.pdf",
+      "doc_type": "public_announcement",
+      "note": "Genus Power Infrastructures Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/da5a24cc-6a26-49dc-ac6b-0ce797545d8f.pdf",
+      "doc_type": "public_announcement",
+      "note": "Genus Power Infrastructures Ltd-$ - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Genus Power Infrastructures Ltd-$ - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/24456e29-fc4a-4139-9962-1730baabcf7e.pdf",
+        "published": "2026-10-26",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Genus Power Infrastructures Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/GENUSPOWER_28102026121804_Intimation_PA.pdf",
+        "published": "2026-10-28",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Genus Power Infrastructures Ltd-$ - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/da5a24cc-6a26-49dc-ac6b-0ce797545d8f.pdf",
+        "published": "2026-10-28",
+        "class": "buyback_public_announcement"
+      }
+    ]
+  }
+}

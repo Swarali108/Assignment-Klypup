@@ -1,0 +1,144 @@
+{
+  "event_id": "control_print_bulk_deal_2026w46",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_india_max_investment_fund_limited",
+      "name_as_printed": "INDIA MAX INVESTMENT FUND LIMITED",
+      "name_clean": "india max investment fund limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "15.25",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "15.25000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 3,
+        "label": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+        "money_crore": "15.25",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "15.25000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 3,
+          "label": "proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "money_crore": "15.25",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "15.25000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 2,50,000 shares in a bulk deal on 12 Nov 2026",
+      "amount_display": "₹15.25 crore",
+      "timing_display": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹15.25 crore; settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 15.25 = ₹15.25 crore (proceeds settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "person_id": "p_basant_kabra_bought",
+      "name_as_printed": "BASANT KABRA",
+      "name_clean": "basant kabra",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 1,36,026 shares in a bulk deal on 12 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "tied with SHIVA BASANT KABRA; name order breaks the tie",
+        "family link (family_1): 'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      ]
+    },
+    {
+      "person_id": "p_shiva_basant_kabra_bought",
+      "name_as_printed": "SHIVA BASANT KABRA",
+      "name_clean": "shiva basant kabra",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 85,000 shares in a bulk deal on 12 Nov 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 2,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "family link (family_1): 'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      ]
+    }
+  ]
+}

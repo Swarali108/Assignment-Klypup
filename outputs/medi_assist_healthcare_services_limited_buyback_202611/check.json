@@ -1,0 +1,89 @@
+{
+  "event_id": "medi_assist_healthcare_services_limited_buyback_202611",
+  "event_type": "buyback",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_30102026183649_Reg30BuyBackSd.pdf",
+      "doc_type": "announcement",
+      "fetched": "yes",
+      "pages": 3,
+      "low_text_pages": [],
+      "read_whole": "3 of 3 pages sent to buyback_results, buyback_acceptance"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/379ed5ce-fc18-4593-8920-47466bd3aa1d.pdf",
+      "doc_type": "announcement",
+      "fetched": "yes",
+      "pages": 3,
+      "low_text_pages": [],
+      "read_whole": "3 of 3 pages sent to buyback_results, buyback_acceptance"
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Medi%20Assist%20Healthcare%20Services%20Limited-PA_p.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 9,
+      "low_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sections_found": {},
+      "sections_missing": [
+        "buyback_terms",
+        "promoter_intention"
+      ]
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_03112026174459_MAHSEintimationBuybackPABRsd.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 21,
+      "low_text_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sections_found": {
+        "buyback_terms": "pdf 4",
+        "promoter_intention": "pdf 4"
+      },
+      "sections_missing": []
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6f721add-7960-4b0f-aeff-6f49c9db36a3.pdf",
+      "doc_type": "public_announcement",
+      "fetched": "yes",
+      "pages": 21,
+      "low_text_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sections_found": {
+        "buyback_terms": "pdf 4",
+        "promoter_intention": "pdf 4"
+      },
+      "sections_missing": []
+    }
+  ],
+  "seconds": 0.1
+}

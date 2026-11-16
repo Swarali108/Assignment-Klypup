@@ -1,0 +1,56 @@
+{
+  "event_id": "jain_irrigation_systems_l_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_nitn_kapoor_and_huf",
+      "name_as_printed": "NITN KAPOOR AND HUF",
+      "fields": {
+        "name": "NITN KAPOOR AND HUF",
+        "role": "unknown",
+        "why_money": "sold 48,37,590 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹13.55 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹13.55 crore (48,37,590 shares × ₹28.02 = ₹13.55 crore (NSE 02-NOV-2026 · JISLJALEQS · NITN KAPOOR AND HUF · SELL · 4837590))",
+        "family_link": "'NITN KAPOOR AND HUF' and 'NITN KAPOOR AND HUF' share surname 'and' and middle name 'kapoor'"
+      },
+      "placeholders": {
+        "name": "NITN KAPOOR AND HUF",
+        "role": "unknown",
+        "amount": "₹13.55 crore",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹13.55 crore",
+        "shares_offered": "48,37,590 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "NITN KAPOOR AND HUF is a holder who sold shares in a bulk deal, so money is coming to them.",
+        "The proceeds of ₹13.55 crore were settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), arriving 13 days ago.",
+        "A family link exists with another holder sharing the surname and middle name, a useful angle for a conversation.",
+        "Their role is unknown, so confirm it before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder who sold shares in a bulk deal, so money is coming to them.",
+            "The proceeds of {proceeds} were settled {timing}, arriving {event_age}.",
+            "A family link exists with another holder sharing the surname and middle name, a useful angle for a conversation.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "lines": [
+            "NITN KAPOOR AND HUF is a holder who sold shares in a bulk deal, so money is coming to them.",
+            "The proceeds of ₹13.55 crore were settled settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago), arriving 13 days ago.",
+            "A family link exists with another holder sharing the surname and middle name, a useful angle for a conversation.",
+            "Their role is unknown, so confirm it before the call."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

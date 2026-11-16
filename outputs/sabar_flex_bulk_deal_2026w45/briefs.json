@@ -1,0 +1,104 @@
+{
+  "event_id": "sabar_flex_bulk_deal_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_thakor_nayana_chandubhai",
+      "name_as_printed": "THAKOR NAYANA CHANDUBHAI",
+      "fields": {
+        "name": "THAKOR NAYANA CHANDUBHAI",
+        "role": "unknown",
+        "why_money": "sold 2,00,000 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹19.48 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹19.48 lakh (2,00,000 shares × ₹9.74 = ₹19.48 lakh (NSE 02-NOV-2026 · SABAR · THAKOR NAYANA CHANDUBHAI · SELL · 200000))"
+      },
+      "placeholders": {
+        "name": "THAKOR NAYANA CHANDUBHAI",
+        "role": "unknown",
+        "amount": "₹19.48 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹19.48 lakh",
+        "shares_offered": "2,00,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "THAKOR NAYANA CHANDUBHAI sold 2,00,000 shares in a bulk deal, so proceeds are coming to them.",
+        "₹19.48 lakh settled 13 days ago, after the trade.",
+        "Ask whether the sale changes how they plan to deploy these funds.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so proceeds are coming to them.",
+            "{proceeds} settled {event_age}, after the trade.",
+            "Ask whether the sale changes how they plan to deploy these funds.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "THAKOR NAYANA CHANDUBHAI sold 2,00,000 shares in a bulk deal, so proceeds are coming to them.",
+            "₹19.48 lakh settled 13 days ago, after the trade.",
+            "Ask whether the sale changes how they plan to deploy these funds.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_kunjit_maheshbhai_patel",
+      "name_as_printed": "KUNJIT MAHESHBHAI PATEL",
+      "fields": {
+        "name": "KUNJIT MAHESHBHAI PATEL",
+        "role": "unknown",
+        "why_money": "sold 1,00,000 shares in a bulk deal on 2 Nov 2026",
+        "amount": "₹9.73 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event": "proceeds settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹9.73 lakh (1,00,000 shares × ₹9.73 = ₹9.73 lakh (NSE 02-NOV-2026 · SABAR · KUNJIT MAHESHBHAI PATEL · SELL · 100000))"
+      },
+      "placeholders": {
+        "name": "KUNJIT MAHESHBHAI PATEL",
+        "role": "unknown",
+        "amount": "₹9.73 lakh",
+        "timing": "settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago)",
+        "proceeds": "₹9.73 lakh",
+        "shares_offered": "1,00,000 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "KUNJIT MAHESHBHAI PATEL, role unknown, is receiving money after selling 1,00,000 shares in a bulk deal.",
+        "Proceeds of ₹9.73 lakh were settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+        "Discuss how they plan to deploy the ₹9.73 lakh now that it has arrived.",
+        "Caveat: their role is unknown, so confirm their relationship to the company first."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name}, role unknown, is receiving money after selling {shares_offered} in a bulk deal.",
+            "Proceeds of {proceeds} were {timing}.",
+            "Discuss how they plan to deploy the {proceeds} now that it has arrived.",
+            "Caveat: their role is unknown, so confirm their relationship to the company first."
+          ],
+          "lines": [
+            "KUNJIT MAHESHBHAI PATEL, role unknown, is receiving money after selling 1,00,000 shares in a bulk deal.",
+            "Proceeds of ₹9.73 lakh were settled 3 Nov 2026, T+1 after the 2 Nov 2026 trade (13 days ago).",
+            "Discuss how they plan to deploy the ₹9.73 lakh now that it has arrived.",
+            "Caveat: their role is unknown, so confirm their relationship to the company first."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

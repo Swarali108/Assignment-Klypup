@@ -1,0 +1,2434 @@
+{
+  "event_id": "garware_buyback",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "buyback_price",
+    "low": "680",
+    "high": "680",
+    "inputs": [
+      {
+        "field": "buyback_price",
+        "value": "680",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+            "pdf_index": 4,
+            "printed_page": "2",
+            "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=4",
+            "quote": "Buyback Price Price at which Equity Shares will be bought back from the Eligible Shareholders i.e., INR 680/- (Indian Rupees Six Hundred and Eighty only) per Equity Share"
+          }
+        ]
+      }
+    ]
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "verified",
+      "date": "2026-06-09",
+      "display": "9 Jun 2026 (5 months ago)",
+      "inputs": [
+        {
+          "field": "payment_date",
+          "value": "Tuesday June 9, 2026",
+          "evidence": [
+            {
+              "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+              "pdf_index": 3,
+              "printed_page": "1",
+              "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=3",
+              "quote": "12. La st date for payment of consideration to Eligible Shareholders who Tuesday June 9, 2026"
+            }
+          ]
+        }
+      ],
+      "days_since": 159
+    },
+    "closing": {
+      "status": "verified",
+      "date": "2026-06-02",
+      "display": "2 Jun 2026 (5 months ago)",
+      "inputs": [
+        {
+          "field": "closing_date",
+          "value": "Tuesday June 02, 2026",
+          "evidence": [
+            {
+              "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+              "pdf_index": 3,
+              "printed_page": "1",
+              "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=3",
+              "quote": "6. Bu yback Closing Date Tuesday June 02, 2026"
+            }
+          ]
+        }
+      ],
+      "days_since": 166
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [
+    {
+      "person_id": "p_garware_capital_markets_limited",
+      "name_as_printed": "Garware Capital Markets Limited",
+      "names_as_printed": [
+        "Garware Capital Markets Limited"
+      ],
+      "name_clean": "garware capital markets limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'limited'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "1,82,01,250",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "2. Garware Capital Markets Limited 1,82,01,250 18.34",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Garware Capital Markets Limited 1,82,01,250 18.34",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_garware_research_institute",
+      "name_as_printed": "Garware Research Institute",
+      "names_as_printed": [
+        "Garware Research Institute"
+      ],
+      "name_clean": "garware research institute",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'institute'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "10,755",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "12. Garware Research Institute 10,755 0.01",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Garware Research Institute 10,755 0.01",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_gurukrupa_comtrade_private_limited",
+      "name_as_printed": "Gurukrupa Comtrade Private Limited",
+      "names_as_printed": [
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "name_clean": "gurukrupa comtrade private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": null,
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {
+        "shares_held_pre_offer": [
+          "4,40,895",
+          "40,05,150"
+        ]
+      },
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "11. Gurukrupa Comtrade Private Limited 4,40,895 0.44",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Gurukrupa Comtrade Private Limited 4,40,895 0.44",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "14. Gurukrupa Comtrade Private Limited** 40,05,150 4.03",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "14. Gurukrupa Comtrade Private Limited** 40,05,150 4.03",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "pre-offer holdings differ across sections",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_manmit_investments_and_trading_company_private_limited",
+      "name_as_printed": "Manmit Investments and Trading Company Private Limited",
+      "names_as_printed": [
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "name_clean": "manmit investments and trading company private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investments'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "14,19,925",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "7. Manmit Investments and Trading Company Private Limited 14,19,925 1.43",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Manmit Investments and Trading Company Private Limited 14,19,925 1.43",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_mayuri_vayu_garware",
+      "name_as_printed": "Mayuri Vayu Garware",
+      "names_as_printed": [
+        "Mayuri Vayu Garware"
+      ],
+      "name_clean": "mayuri vayu garware",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "50",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Mayuri Vayu Garware' and 'Vayu Ramesh Garware' share surname 'garware', and the middle name 'vayu' of 'Mayuri Vayu Garware' is the first name of 'Vayu Ramesh Garware'"
+      },
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 15,
+          "printed_page": "13",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 15,
+          "printed_page": "13",
+          "quote": "1. Mayuri Vayu Garware 50 Negligible",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 15,
+          "printed_page": "13",
+          "quote": "Mayuri Vayu Garware 50 Negligible",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_moonshine_investments_and_trading_company_private_limited",
+      "name_as_printed": "Moonshine Investments and Trading Company Private Limited",
+      "names_as_printed": [
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "name_clean": "moonshine investments and trading company private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investments'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "22,88,725",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "6. Moonshine Investments and Trading Company Private",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "22,88,725 2.31",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_sanand_investments_and_trading_company_private_limited",
+      "name_as_printed": "Sanand Investments and Trading Company Private Limited",
+      "names_as_printed": [
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "name_clean": "sanand investments and trading company private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investments'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "13,74,160",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "8. Sanand Investments and Trading Company Private Limited 13,74,160 1.38",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Sanand Investments and Trading Company Private Limited 13,74,160 1.38",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_starshine_comtrade_private_limited",
+      "name_as_printed": "Starshine Comtrade Private Limited",
+      "names_as_printed": [
+        "Starshine Comtrade Private Limited"
+      ],
+      "name_clean": "starshine comtrade private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "10,07,600",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "10. Starshine Comtrade Private Limited 10,07,600 1.02",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Starshine Comtrade Private Limited 10,07,600 1.02",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_sukukar_holdings_and_trading_company_private_limited",
+      "name_as_printed": "Sukukar Holdings and Trading Company Private Limited",
+      "names_as_printed": [
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "name_clean": "sukukar holdings and trading company private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'holdings'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": null,
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {
+        "shares_held_pre_offer": [
+          "12,82,000",
+          "50,12,220"
+        ]
+      },
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "9. Sukukar Holdings and Trading Company Private Limited 12,82,000 1.29",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Sukukar Holdings and Trading Company Private Limited 12,82,000 1.29",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "13. Sukukar Holdings and Trading Company Private Limited* 50,12,220 5.05",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "13. Sukukar Holdings and Trading Company Private Limited* 50,12,220 5.05",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                },
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "pre-offer holdings differ across sections",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vayu_ramesh_garware",
+      "name_as_printed": "Vayu Ramesh Garware",
+      "names_as_printed": [
+        "Vayu Ramesh Garware"
+      ],
+      "name_clean": "vayu ramesh garware",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_held_pre_offer": "61,57,400",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Mayuri Vayu Garware' and 'Vayu Ramesh Garware' share surname 'garware', and the middle name 'vayu' of 'Mayuri Vayu Garware' is the first name of 'Vayu Ramesh Garware'; 'Vayu Ramesh Garware on behalf of VRG Family Trust***' contains 'Vayu Ramesh Garware'"
+      },
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Promoters",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "1. Vayu Ramesh Garware 61,57,400 6.20",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Vayu Ramesh Garware 61,57,400 6.20",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vayu_ramesh_garware_on_behalf_of_vrg_family_trust",
+      "name_as_printed": "Vayu Ramesh Garware on behalf of VRG Family Trust***",
+      "names_as_printed": [
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "name_clean": "vayu ramesh garware on behalf of vrg family trust",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'family trust'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "50",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'Vayu Ramesh Garware on behalf of VRG Family Trust***' contains 'Vayu Ramesh Garware'"
+      },
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "15. Vayu Ramesh Garware on behalf of VRG Family Trust*** 50 Negligible",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "15. Vayu Ramesh Garware on behalf of VRG Family Trust*** 50 Negligible",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vimlabai_garware_research_institute_private_limited",
+      "name_as_printed": "Vimlabai Garware Research Institute Private Limited",
+      "names_as_printed": [
+        "Vimlabai Garware Research Institute Private Limited"
+      ],
+      "name_clean": "vimlabai garware research institute private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'institute'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "27,70,695",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "5. Vimlabai Garware Research Institute Private Limited 27,70,695 2.79",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Vimlabai Garware Research Institute Private Limited 27,70,695 2.79",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vmir_investment_private_limited",
+      "name_as_printed": "VMIR Investment Private Limited",
+      "names_as_printed": [
+        "VMIR Investment Private Limited"
+      ],
+      "name_clean": "vmir investment private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "45,93,555",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "3. VMIR Investment Private Limited 45,93,555 4.63",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "VMIR Investment Private Limited 45,93,555 4.63",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_vrg_investments_private_limited",
+      "name_as_printed": "VRG Investments Private Limited",
+      "names_as_printed": [
+        "VRG Investments Private Limited"
+      ],
+      "name_clean": "vrg investments private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'investments'",
+      "role_as_printed": "Members of Promoter Group",
+      "role_by_section": {
+        "promoter_intention": "Members of Promoter Group"
+      },
+      "shares_held_pre_offer": "44,06,000",
+      "shares_intended": null,
+      "qualifier": null,
+      "intention_as_printed": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+      "shares_accepted": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "role_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "Members of Promoter Group",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "4. VRG Investments Private Limited 44,06,000 4.44",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 16,
+          "printed_page": "14",
+          "quote": "VRG Investments Private Limited 44,06,000 4.44",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "intention_as_printed",
+          "pdf_index": 17,
+          "printed_page": "15",
+          "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "section": "promoter_intention",
+          "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+          "field_kept": true
+        }
+      ],
+      "participation": "not tendering",
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_tendering",
+          "display": "not tendering",
+          "reason": "states: Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+          "inputs": [
+            {
+              "field": "intention_as_printed",
+              "value": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026.",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf",
+                  "pdf_index": 17,
+                  "printed_page": "15",
+                  "link": "https://www.sebi.gov.in/sebi_data/commondocs/may-2026/Garware%20Technical%20Fibres%20Limited-LOF_p.pdf#page=17",
+                  "quote": "Promoters and members of the Promoter Group (who are the persons in control) have expressed their intention not to participate in the Buyback vide letters dated May 08, 2026."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not tendering"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the promoter intention disclosure",
+          "holdings found in one section only (promoter_intention)",
+          "found in one section only (promoter_intention)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "VRG Investments Private Limited"
+      ],
+      "score": 93.5,
+      "method": "llm",
+      "outcome": "separate",
+      "llm_outcome": "different",
+      "llm_reason": "The names differ in the distinctive part (VMIR vs VRG), not just spelling or punctuation. The quotes also show different shareholdings (45,93,555 vs 44,06,000) and different list positions (3 vs 4), which points to two separate holders."
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 91.9,
+      "method": "llm",
+      "outcome": "separate",
+      "llm_outcome": "different",
+      "llm_reason": "The distinctive first words differ (Manmit vs Moonshine), so these are two different companies, not spelling variants. The shared suffix 'Investments and Trading Company Private Limited' is generic. The quotes also show different list positions (7 vs 6)."
+    },
+    {
+      "pair": [
+        "Manmit Investments and Trading Company Private Limited",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 87.0,
+      "method": "llm",
+      "outcome": "separate",
+      "llm_outcome": "different",
+      "llm_reason": "The distinctive first words differ (Manmit vs Sanand), so these are two different companies. They also appear as separate line items (entries 7 and 8) with different shareholdings (14,19,925 vs 13,74,160)."
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 84.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sanand Investments and Trading Company Private Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 78.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Mayuri Vayu Garware"
+      ],
+      "score": 73.7,
+      "method": "different_first_name",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Manmit Investments and Trading Company Private Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 72.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Starshine Comtrade Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 70.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 70.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 70.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 70.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "score": 68.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 67.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 65.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 65.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "score": 63.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sukukar Holdings and Trading Company Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 63.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 61.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 61.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sanand Investments and Trading Company Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 61.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Vimlabai Garware Research Institute Private Limited"
+      ],
+      "score": 61.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Manmit Investments and Trading Company Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 59.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 58.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 57.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 57.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Garware Research Institute"
+      ],
+      "score": 56.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Vimlabai Garware Research Institute Private Limited"
+      ],
+      "score": 56.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 55.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 55.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 55.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 55.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 55.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 54.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 53.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Garware Research Institute"
+      ],
+      "score": 53.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 53.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "score": 51.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sukukar Holdings and Trading Company Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 51.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 51.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Starshine Comtrade Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 50.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 49.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Garware Research Institute"
+      ],
+      "score": 48.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Vimlabai Garware Research Institute Private Limited"
+      ],
+      "score": 48.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Garware Capital Markets Limited"
+      ],
+      "score": 48.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Garware Capital Markets Limited"
+      ],
+      "score": 48.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Manmit Investments and Trading Company Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 47.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sanand Investments and Trading Company Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 47.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 46.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Vimlabai Garware Research Institute Private Limited"
+      ],
+      "score": 45.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "VMIR Investment Private Limited"
+      ],
+      "score": 45.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "VRG Investments Private Limited"
+      ],
+      "score": 45.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 44.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 44.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Research Institute",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 42.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 42.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 41.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 41.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "score": 40.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Garware Capital Markets Limited",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Vimlabai Garware Research Institute Private Limited"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sanand Investments and Trading Company Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 40.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 38.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 38.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vimlabai Garware Research Institute Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 38.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Gurukrupa Comtrade Private Limited"
+      ],
+      "score": 37.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VRG Investments Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 37.5,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Gurukrupa Comtrade Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 36.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sukukar Holdings and Trading Company Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 36.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 36.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sukukar Holdings and Trading Company Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 36.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Moonshine Investments and Trading Company Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 35.8,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Manmit Investments and Trading Company Private Limited",
+        "Garware Research Institute"
+      ],
+      "score": 35.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Manmit Investments and Trading Company Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 35.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Sanand Investments and Trading Company Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 35.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "VMIR Investment Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 35.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 34.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Starshine Comtrade Private Limited"
+      ],
+      "score": 34.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Starshine Comtrade Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 33.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Gurukrupa Comtrade Private Limited",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "score": 31.3,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "score": 28.9,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Sukukar Holdings and Trading Company Private Limited"
+      ],
+      "score": 28.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "VMIR Investment Private Limited"
+      ],
+      "score": 28.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "VRG Investments Private Limited"
+      ],
+      "score": 28.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "VMIR Investment Private Limited"
+      ],
+      "score": 28.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "VRG Investments Private Limited"
+      ],
+      "score": 28.0,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 27.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 27.4,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Sanand Investments and Trading Company Private Limited"
+      ],
+      "score": 24.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Vayu Ramesh Garware",
+        "Manmit Investments and Trading Company Private Limited"
+      ],
+      "score": 24.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Mayuri Vayu Garware",
+        "Moonshine Investments and Trading Company Private Limited"
+      ],
+      "score": 23.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "Mayuri Vayu Garware",
+        "Vayu Ramesh Garware",
+        "Vayu Ramesh Garware on behalf of VRG Family Trust***"
+      ],
+      "reasons": [
+        "'Mayuri Vayu Garware' and 'Vayu Ramesh Garware' share surname 'garware', and the middle name 'vayu' of 'Mayuri Vayu Garware' is the first name of 'Vayu Ramesh Garware'",
+        "'Vayu Ramesh Garware on behalf of VRG Family Trust***' contains 'Vayu Ramesh Garware'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 14,
+    "by_holder_type": {
+      "entity": 11,
+      "family_vehicle": 1,
+      "person": 2
+    },
+    "by_confidence": {
+      "medium": 14
+    },
+    "sellers": 14,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 14
+    },
+    "identity_decisions": {
+      "below_threshold": 87,
+      "different_first_name": 1,
+      "llm": 3
+    },
+    "identity_merges": 0,
+    "llm_asks": 3,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 14,
+    "follow_on_matches": 0
+  }
+}

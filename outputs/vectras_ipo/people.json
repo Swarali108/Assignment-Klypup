@@ -1,0 +1,1035 @@
+{
+  "event_id": "vectras_ipo",
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "price_band",
+    "low": "99",
+    "high": "105",
+    "inputs": [
+      {
+        "field": "price_band_low",
+        "value": "₹ 99",
+        "evidence": [
+          {
+            "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+            "pdf_index": 309,
+            "printed_page": "304",
+            "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+            "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+          }
+        ]
+      },
+      {
+        "field": "price_band_high",
+        "value": "₹ 105",
+        "evidence": [
+          {
+            "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+            "pdf_index": 309,
+            "printed_page": "304",
+            "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+            "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+          }
+        ]
+      }
+    ]
+  },
+  "listing": {
+    "status": "scheduled",
+    "date_as_printed": "On or before Friday, November 06, 2026",
+    "listed_on": "2026-11-06",
+    "inputs": [
+      {
+        "field": "listing_date_scheduled",
+        "value": "On or before Friday, November 06, 2026",
+        "evidence": [
+          {
+            "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+            "pdf_index": 71,
+            "printed_page": "66",
+            "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=71",
+            "quote": "Commencement of trading of the Equity Shares on the Stock On or before Friday, November 06, 2026"
+          }
+        ]
+      }
+    ],
+    "days_since": 10,
+    "age": "10 days ago"
+  },
+  "allotment": {
+    "status": "unknown",
+    "reason": "allotment date not verified"
+  },
+  "people": [
+    {
+      "person_id": "p_maheshkumar_gopalbhai_patel",
+      "name_as_printed": "Maheshkumar Gopalbhai Patel",
+      "names_as_printed": [
+        "Maheshkumar Gopalbhai Patel"
+      ],
+      "name_clean": "maheshkumar gopalbhai patel",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Promoter Selling Shareholder",
+        "seller_amounts": "Promoter Selling Shareholder",
+        "waca": "Promoter Selling Shareholder"
+      },
+      "shares_offered": "4,98,000",
+      "qualifier": null,
+      "shares_held_pre_offer": "74,99,820",
+      "waca_per_share": "4.00",
+      "amount_as_printed": "₹ 522.90* lakhs",
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Maheshkumar Gopalbhai Patel Promoter Selling Shareholder 4,98,000* Equity Shares of face value of ₹ 10",
+          "section": "selling_shareholders",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4,98,000* Equity Shares of face value of ₹ 10",
+          "section": "selling_shareholders",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": null,
+          "quote": "Maheshkumar Gopalbhai Patel",
+          "section": "seller_amounts",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "amount_as_printed",
+          "pdf_index": 1,
+          "printed_page": null,
+          "quote": "aggregating up to ₹ 522.90* lakhs",
+          "section": "seller_amounts",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": null,
+          "quote": "Promoter Selling Shareholder",
+          "section": "seller_amounts",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Maheshkumar Gopalbhai Patel",
+          "section": "waca",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "waca",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4.00",
+          "section": "waca",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 85,
+          "printed_page": "80",
+          "quote": "Maheshku mar Gopalbhai Patel",
+          "citation_corrected": true,
+          "citation_corrected_by": "row",
+          "citation_alternatives": [
+            86
+          ],
+          "section": "promoter_holding",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 85,
+          "printed_page": "80",
+          "quote": "74,99,82 0",
+          "citation_corrected": true,
+          "citation_corrected_by": "row",
+          "citation_alternatives": [
+            86
+          ],
+          "verified_by": "table_row",
+          "section": "promoter_holding",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 81,
+          "printed_page": "76",
+          "quote": "Maheshkumar Gopalbhai Patel",
+          "section": "shareholding_pattern",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "49302000",
+          "rupees_high": "52290000",
+          "crore_low": "4.93",
+          "crore_high": "5.23",
+          "display": "₹4.93 to ₹5.23 crore",
+          "working": "4,98,000 × ₹99 to ₹105 = ₹4.93 to ₹5.23 crore",
+          "price_kind": "price_band",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "4,98,000",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4,98,000* Equity Shares of face value of ₹ 10"
+                }
+              ]
+            },
+            {
+              "field": "price_band_low",
+              "value": "₹ 99",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "price_band_high",
+              "value": "₹ 105",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+                }
+              ]
+            },
+            {
+              "field": "amount_as_printed",
+              "value": "₹ 522.90* lakhs",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": null,
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "aggregating up to ₹ 522.90* lakhs"
+                }
+              ]
+            }
+          ],
+          "caveats": [],
+          "printed_check": {
+            "status": "not_compared",
+            "page": "pdf 1",
+            "text": "the document prints ₹ 522.90* lakhs (pdf 1); not compared: the price is a band"
+          }
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "47310000.00",
+          "rupees_high": "50298000.00",
+          "crore_low": "4.73",
+          "crore_high": "5.03",
+          "display": "₹4.73 to ₹5.03 crore, before offer expenses and taxes",
+          "working": "4,98,000 × (₹99 to ₹105 − ₹4.00) = ₹4.73 to ₹5.03 crore",
+          "price_kind": "price_band",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "4,98,000",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4,98,000* Equity Shares of face value of ₹ 10"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "4.00",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4.00"
+                }
+              ]
+            },
+            {
+              "field": "price_band_low",
+              "value": "₹ 99",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "price_band_high",
+              "value": "₹ 105",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "693180180",
+          "rupees_high": "735191100",
+          "crore_low": "69.32",
+          "crore_high": "73.52",
+          "display": "₹69.32 to ₹73.52 crore (estimate, valued at the price band)",
+          "working": "(74,99,820 − 4,98,000) × ₹99 to ₹105 = ₹69.32 to ₹73.52 crore",
+          "price_kind": "price_band",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "74,99,820",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 85,
+                  "printed_page": "80",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=85",
+                  "quote": "74,99,82 0"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "4,98,000",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4,98,000* Equity Shares of face value of ₹ 10"
+                }
+              ]
+            },
+            {
+              "field": "price_band_low",
+              "value": "₹ 99",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "price_band_high",
+              "value": "₹ 105",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+                }
+              ]
+            }
+          ],
+          "shares": "7001820",
+          "shares_display": "7,001,820 shares",
+          "label": "estimate, valued at the price band"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "scheduled",
+          "when": "listing scheduled for On or before Friday, November 06, 2026 per the offer document's timetable; not confirmed by a listing notice",
+          "date_as_printed": "On or before Friday, November 06, 2026",
+          "sources": [
+            {
+              "field": "listing_date_scheduled",
+              "value": "On or before Friday, November 06, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 71,
+                  "printed_page": "66",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=71",
+                  "quote": "Commencement of trading of the Equity Shares on the Stock On or before Friday, November 06, 2026"
+                }
+              ]
+            }
+          ],
+          "days_since": 10
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of allotment for the shares that form the Minimum Promoters' Contribution; for promoter shares above it, fifty percent for two years and the remaining fifty percent for one year from the date of allotment",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "fifty percent of promoter shares above the minimum contribution",
+              "months": 24,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "fifty percent of promoter shares above the minimum contribution: 24 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "remaining fifty percent of promoter shares above the minimum contribution",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "remaining fifty percent of promoter shares above the minimum contribution: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); fifty percent of promoter shares above the minimum contribution: 24 months from the date of Allotment (allotment date not verified); remaining fifty percent of promoter shares above the minimum contribution: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in each part is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+              "pdf_index": 83,
+              "printed_page": "78",
+              "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=83",
+              "anchors": [
+                "minimum promoters' contribution",
+                "locked in for a period of three years from the date of allotment"
+              ],
+              "quotes": [
+                "In terms of clause (a) of Regulation 238 of the SEBI (ICDR) Regulations, 2018, Minimum Promoters’ Contribution as mentioned above was locked-in for a period of three years from the date of allotment in the Initial Public Offer.",
+                "In terms of clause (a) of Regulation 238 of the SEBI (ICDR) Regulations, 2018, Minimum Promoters’ Contribution as mentioned above was locked-in for a period of three years from the date of allotment in the Initial Public Offer."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+              "pdf_index": 84,
+              "printed_page": "79",
+              "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=84",
+              "anchors": [
+                "in excess of minimum promoters' contribution",
+                "locked in for a period of two years from the date of allotment"
+              ],
+              "quotes": [
+                "of promoters’ holding in excess of minimum promoters’ contribution was locked in for a period of two years from the date of allotment in the initial public offer;",
+                "of promoters’ holding in excess of minimum promoters’ contribution was locked in for a period of two years from the date of allotment in the initial public offer;"
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+              "pdf_index": 84,
+              "printed_page": "79",
+              "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=84",
+              "anchors": [
+                "remaining fifty percent",
+                "locked in for a period of one year from the date of allotment"
+              ],
+              "quotes": [
+                "remaining fifty percent.",
+                "of promoters’ holding in excess of minimum promoters’ contribution was locked in for a period of one year from the date of allotment in the initial public offer."
+              ]
+            }
+          ],
+          "variant": "sme"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (promoter_holding)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_naynesh_kanubhai_patel",
+      "name_as_printed": "Naynesh Kanubhai Patel",
+      "names_as_printed": [
+        "Naynesh Kanubhai Patel"
+      ],
+      "name_clean": "naynesh kanubhai patel",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "role_by_section": {
+        "selling_shareholders": "Promoter Selling Shareholder",
+        "seller_amounts": "Promoter Selling Shareholder",
+        "waca": "Promoter Selling Shareholder"
+      },
+      "shares_offered": "4,98,000",
+      "qualifier": null,
+      "shares_held_pre_offer": "74,99,880",
+      "waca_per_share": "4.00",
+      "amount_as_printed": "₹ 522.90* lakhs",
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Naynesh Kanubhai Patel Promoter Selling Shareholder 4,98,000* Equity Shares of face value of ₹ 10",
+          "section": "selling_shareholders",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4,98,000* Equity Shares of face value of ₹ 10",
+          "section": "selling_shareholders",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": null,
+          "quote": "Naynesh Kanubhai Patel",
+          "section": "seller_amounts",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "amount_as_printed",
+          "pdf_index": 1,
+          "printed_page": null,
+          "quote": "aggregating up to ₹ 522.90* lakhs",
+          "section": "seller_amounts",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": null,
+          "quote": "Promoter Selling Shareholder",
+          "section": "seller_amounts",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Naynesh Kanubhai Patel",
+          "section": "waca",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "waca",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4.00",
+          "section": "waca",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 85,
+          "printed_page": "80",
+          "quote": "Naynesh Kanubhai Patel",
+          "citation_corrected": true,
+          "citation_corrected_by": "row",
+          "citation_alternatives": [
+            86
+          ],
+          "section": "promoter_holding",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 85,
+          "printed_page": "80",
+          "quote": "74,99,880",
+          "citation_corrected": true,
+          "citation_corrected_by": "row",
+          "citation_alternatives": [
+            86
+          ],
+          "section": "promoter_holding",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 81,
+          "printed_page": "76",
+          "quote": "Naynesh Kanubhai Patel",
+          "section": "shareholding_pattern",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 81,
+          "printed_page": "76",
+          "quote": "Total (A) 74,99,880",
+          "section": "shareholding_pattern",
+          "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+          "field_kept": false
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "49302000",
+          "rupees_high": "52290000",
+          "crore_low": "4.93",
+          "crore_high": "5.23",
+          "display": "₹4.93 to ₹5.23 crore",
+          "working": "4,98,000 × ₹99 to ₹105 = ₹4.93 to ₹5.23 crore",
+          "price_kind": "price_band",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "4,98,000",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4,98,000* Equity Shares of face value of ₹ 10"
+                }
+              ]
+            },
+            {
+              "field": "price_band_low",
+              "value": "₹ 99",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "price_band_high",
+              "value": "₹ 105",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+                }
+              ]
+            },
+            {
+              "field": "amount_as_printed",
+              "value": "₹ 522.90* lakhs",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": null,
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "aggregating up to ₹ 522.90* lakhs"
+                }
+              ]
+            }
+          ],
+          "caveats": [],
+          "printed_check": {
+            "status": "not_compared",
+            "page": "pdf 1",
+            "text": "the document prints ₹ 522.90* lakhs (pdf 1); not compared: the price is a band"
+          }
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "47310000.00",
+          "rupees_high": "50298000.00",
+          "crore_low": "4.73",
+          "crore_high": "5.03",
+          "display": "₹4.73 to ₹5.03 crore, before offer expenses and taxes",
+          "working": "4,98,000 × (₹99 to ₹105 − ₹4.00) = ₹4.73 to ₹5.03 crore",
+          "price_kind": "price_band",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "4,98,000",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4,98,000* Equity Shares of face value of ₹ 10"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "4.00",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4.00"
+                }
+              ]
+            },
+            {
+              "field": "price_band_low",
+              "value": "₹ 99",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "price_band_high",
+              "value": "₹ 105",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "693186120",
+          "rupees_high": "735197400",
+          "crore_low": "69.32",
+          "crore_high": "73.52",
+          "display": "₹69.32 to ₹73.52 crore (estimate, valued at the price band)",
+          "working": "(74,99,880 − 4,98,000) × ₹99 to ₹105 = ₹69.32 to ₹73.52 crore",
+          "price_kind": "price_band",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "74,99,880",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 85,
+                  "printed_page": "80",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=85",
+                  "quote": "74,99,880"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "4,98,000",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=1",
+                  "quote": "4,98,000* Equity Shares of face value of ₹ 10"
+                }
+              ]
+            },
+            {
+              "field": "price_band_low",
+              "value": "₹ 99",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "the Offer Price at the lower end of the Price Band is ₹ 99 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "price_band_high",
+              "value": "₹ 105",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 309,
+                  "printed_page": "304",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=309",
+                  "quote": "at the higher end of the Price Band is ₹ 105 per Equity Share (“Cap Price”)"
+                }
+              ]
+            }
+          ],
+          "shares": "7001880",
+          "shares_display": "7,001,880 shares",
+          "label": "estimate, valued at the price band"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "scheduled",
+          "when": "listing scheduled for On or before Friday, November 06, 2026 per the offer document's timetable; not confirmed by a listing notice",
+          "date_as_printed": "On or before Friday, November 06, 2026",
+          "sources": [
+            {
+              "field": "listing_date_scheduled",
+              "value": "On or before Friday, November 06, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+                  "pdf_index": 71,
+                  "printed_page": "66",
+                  "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=71",
+                  "quote": "Commencement of trading of the Equity Shares on the Stock On or before Friday, November 06, 2026"
+                }
+              ]
+            }
+          ],
+          "days_since": 10
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of allotment for the shares that form the Minimum Promoters' Contribution; for promoter shares above it, fifty percent for two years and the remaining fifty percent for one year from the date of allotment",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "fifty percent of promoter shares above the minimum contribution",
+              "months": 24,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "fifty percent of promoter shares above the minimum contribution: 24 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "remaining fifty percent of promoter shares above the minimum contribution",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "remaining fifty percent of promoter shares above the minimum contribution: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); fifty percent of promoter shares above the minimum contribution: 24 months from the date of Allotment (allotment date not verified); remaining fifty percent of promoter shares above the minimum contribution: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in each part is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+              "pdf_index": 83,
+              "printed_page": "78",
+              "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=83",
+              "anchors": [
+                "minimum promoters' contribution",
+                "locked in for a period of three years from the date of allotment"
+              ],
+              "quotes": [
+                "In terms of clause (a) of Regulation 238 of the SEBI (ICDR) Regulations, 2018, Minimum Promoters’ Contribution as mentioned above was locked-in for a period of three years from the date of allotment in the Initial Public Offer.",
+                "In terms of clause (a) of Regulation 238 of the SEBI (ICDR) Regulations, 2018, Minimum Promoters’ Contribution as mentioned above was locked-in for a period of three years from the date of allotment in the Initial Public Offer."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+              "pdf_index": 84,
+              "printed_page": "79",
+              "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=84",
+              "anchors": [
+                "in excess of minimum promoters' contribution",
+                "locked in for a period of two years from the date of allotment"
+              ],
+              "quotes": [
+                "of promoters’ holding in excess of minimum promoters’ contribution was locked in for a period of two years from the date of allotment in the initial public offer;",
+                "of promoters’ holding in excess of minimum promoters’ contribution was locked in for a period of two years from the date of allotment in the initial public offer;"
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+              "pdf_index": 84,
+              "printed_page": "79",
+              "link": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf#page=84",
+              "anchors": [
+                "remaining fifty percent",
+                "locked in for a period of one year from the date of allotment"
+              ],
+              "quotes": [
+                "remaining fifty percent.",
+                "of promoters’ holding in excess of minimum promoters’ contribution was locked in for a period of one year from the date of allotment in the initial public offer."
+              ]
+            }
+          ],
+          "variant": "sme"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (promoter_holding)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "Naynesh Kanubhai Patel",
+        "Maheshkumar Gopalbhai Patel"
+      ],
+      "score": 65.3,
+      "method": "different_first_name",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "person": 2
+    },
+    "by_confidence": {
+      "medium": 2
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 2,
+    "retained_valued": 2,
+    "retained_timing": {
+      "locked_in": 2
+    },
+    "identity_decisions": {
+      "different_first_name": 1
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 0
+  }
+}

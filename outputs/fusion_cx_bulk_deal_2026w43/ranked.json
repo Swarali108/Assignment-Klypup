@@ -1,0 +1,62 @@
+{
+  "event_id": "fusion_cx_bulk_deal_2026w43",
+  "callable": [],
+  "entities": [
+    {
+      "person_id": "p_bnp_paribas_financial_markets",
+      "name_as_printed": "BNP PARIBAS FINANCIAL MARKETS",
+      "name_clean": "bnp paribas financial markets",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "61.12",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "61.12000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 24,
+        "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "money_crore": "61.12",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "61.12000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 24,
+          "label": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+          "money_crore": "61.12",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "61.12000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 20,07,211 shares in bulk deals on 22 Oct 2026",
+      "amount_display": "₹61.12 crore",
+      "timing_display": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹61.12 crore; settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 61.12 = ₹61.12 crore (proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": []
+}

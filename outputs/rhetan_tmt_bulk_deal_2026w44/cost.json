@@ -1,0 +1,48 @@
+{
+  "event_id": "rhetan_tmt_bulk_deal_2026w44",
+  "run_id": "auto-rhetan_tmt_bulk_deal_2026w44-20261115T185351Z",
+  "totals": {
+    "calls": 1,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 1333,
+    "output_tokens": 122,
+    "cost_usd": 0.000194,
+    "fresh_usd": 0.000194,
+    "unpriced_calls": 0,
+    "wall_s": 1.9746475419960916,
+    "callable_people": 1,
+    "cost_per_callable_usd": 0.000194,
+    "fresh_per_callable_usd": 0.000194
+  },
+  "per_person": [
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "cost_usd": 0.000194,
+      "fresh_usd": 0.000194,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_jagid_vanitaben_rajendraprasad_bought",
+      "name_as_printed": "JAGID VANITABEN RAJENDRAPRASAD",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_qe_securities_llp",
+      "name_as_printed": "QE SECURITIES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    },
+    {
+      "person_id": "p_qe_securities_llp_bought",
+      "name_as_printed": "QE SECURITIES LLP",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

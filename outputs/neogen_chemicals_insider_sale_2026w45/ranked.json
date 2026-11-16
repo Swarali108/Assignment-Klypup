@@ -1,0 +1,61 @@
+{
+  "event_id": "neogen_chemicals_insider_sale_2026w45",
+  "callable": [
+    {
+      "person_id": "p_sanjay_natwarlal_mehta_huf",
+      "name_as_printed": "SANJAY NATWARLAL MEHTA HUF",
+      "name_clean": "sanjay natwarlal mehta huf",
+      "holder_type": "family_vehicle",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.59",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.59000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+        "money_crore": "0.59",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.59000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "money_crore": "0.59",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.59000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 2,361 shares (Market Sale) on 5 Nov 2026 and 6 Nov 2026",
+      "amount_display": "₹58.56 lakh",
+      "timing_display": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹58.56 lakh; settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago).",
+        "score 0.59 = ₹0.59 crore (proceeds settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

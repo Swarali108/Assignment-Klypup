@@ -1,0 +1,56 @@
+{
+  "event_id": "technocraft_ventures_bulk_deal_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_govind_ji_gupta",
+      "name_as_printed": "GOVIND JI GUPTA",
+      "fields": {
+        "name": "GOVIND JI GUPTA",
+        "role": "unknown",
+        "why_money": "sold 2,00,000 shares in a bulk deal on 27 Oct 2026",
+        "amount": "₹9.63 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "event_age": "19 days ago",
+        "event_is": "recent",
+        "proceeds": "₹9.63 crore (2,00,000 shares × ₹481.5 = ₹9.63 crore (NSE 27-OCT-2026 · TECHNOCRAF · GOVIND JI GUPTA · SELL · 200000))",
+        "family_link": "'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      },
+      "placeholders": {
+        "name": "GOVIND JI GUPTA",
+        "role": "unknown",
+        "amount": "₹9.63 crore",
+        "timing": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "proceeds": "₹9.63 crore",
+        "shares_offered": "2,00,000 shares",
+        "event_age": "19 days ago"
+      },
+      "lines": [
+        "GOVIND JI GUPTA sold 2,00,000 shares in a bulk deal, so money is coming to them from that sale.",
+        "Proceeds of ₹9.63 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago), so the money is already in hand.",
+        "Their role is unknown, so confirm who they are before the call.",
+        "Their family link to another holder with the same surname is unknown; confirm before raising it."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Their role is unknown, so confirm who they are before the call.",
+            "Their family link to another holder with the same surname is unknown; confirm before raising it."
+          ],
+          "lines": [
+            "GOVIND JI GUPTA sold 2,00,000 shares in a bulk deal, so money is coming to them from that sale.",
+            "Proceeds of ₹9.63 crore settled settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago), so the money is already in hand.",
+            "Their role is unknown, so confirm who they are before the call.",
+            "Their family link to another holder with the same surname is unknown; confirm before raising it."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "run_id": "tonbo_imaging_india_limited_ipo_202610-20261115T135744Z",
+  "total_s": 36.66183400002774,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 2.9031497089890763,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 1.260177208983805,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.024584917002357543,
+      "calls": 1,
+      "cached": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.005348707956727594,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 32.43749845796265,
+      "calls": 17,
+      "cached": 0,
+      "cost_usd": 0.003731
+    },
+    {
+      "step": "report",
+      "seconds": 0.01127945800544694,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

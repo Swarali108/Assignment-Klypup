@@ -1,0 +1,1241 @@
+{
+  "event_id": "paras_healthcare_limited_ipo_202610",
+  "as_of": "2026-11-15",
+  "price_basis": {
+    "kind": "offer_price",
+    "low": "693",
+    "high": "693",
+    "inputs": [
+      {
+        "field": "offer_price",
+        "value": "₹ 693",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+            "pdf_index": 12,
+            "printed_page": "8",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+            "quote": "“Offer Price” ₹ 693 per Equity Share"
+          }
+        ]
+      }
+    ]
+  },
+  "listing": {
+    "status": "scheduled",
+    "date_as_printed": "On or about Wednesday, October 28, 2026",
+    "listed_on": "2026-10-28",
+    "inputs": [
+      {
+        "field": "listing_date_scheduled",
+        "value": "On or about Wednesday, October 28, 2026",
+        "evidence": [
+          {
+            "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+            "pdf_index": 536,
+            "printed_page": "531",
+            "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=536",
+            "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Wednesday, October 28, 2026"
+          }
+        ]
+      }
+    ],
+    "days_since": 18,
+    "age": "18 days ago"
+  },
+  "allotment": {
+    "status": "unknown",
+    "reason": "allotment date not verified"
+  },
+  "people": [
+    {
+      "person_id": "p_360_one_special_opportunities_fund_series_12",
+      "name_as_printed": "360 ONE Special Opportunities Fund - Series 12",
+      "names_as_printed": [
+        "360 ONE Special Opportunities Fund - Series 12"
+      ],
+      "name_clean": "360 one special opportunities fund - series 12",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "5,147,679",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "3. 360 ONE Special Opportunities Fund - Series 12 5,147,679 5.10%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "3. 360 ONE Special Opportunities Fund - Series 12 5,147,679 5.10%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "3567341547",
+          "rupees_high": "3567341547",
+          "crore_low": "356.73",
+          "crore_high": "356.73",
+          "display": "₹356.73 crore (estimate, valued at offer price)",
+          "working": "5,147,679 × ₹693 = ₹356.73 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "5,147,679",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 120,
+                  "printed_page": "115",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=120",
+                  "quote": "3. 360 ONE Special Opportunities Fund - Series 12 5,147,679 5.10%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ],
+          "shares": "5147679",
+          "shares_display": "5,147,679 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_360_one_special_opportunities_fund_series_13",
+      "name_as_printed": "360 ONE Special Opportunities Fund - Series 13",
+      "names_as_printed": [
+        "360 ONE Special Opportunities Fund - Series 13"
+      ],
+      "name_clean": "360 one special opportunities fund - series 13",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "1,286,920",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "5. 360 ONE Special Opportunities Fund - Series 13 1,286,920 1.27%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "5. 360 ONE Special Opportunities Fund - Series 13 1,286,920 1.27%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "891835560",
+          "rupees_high": "891835560",
+          "crore_low": "89.18",
+          "crore_high": "89.18",
+          "display": "₹89.18 crore (estimate, valued at offer price)",
+          "working": "1,286,920 × ₹693 = ₹89.18 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "1,286,920",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 120,
+                  "printed_page": "115",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=120",
+                  "quote": "5. 360 ONE Special Opportunities Fund - Series 13 1,286,920 1.27%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ],
+          "shares": "1286920",
+          "shares_display": "1,286,920 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_axis_new_opportunities_aif_series_ii",
+      "name_as_printed": "Axis New Opportunities AIF - Series II",
+      "names_as_printed": [
+        "Axis New Opportunities AIF - Series II"
+      ],
+      "name_clean": "axis new opportunities aif - series ii",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'series'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "shares_offered": null,
+      "qualifier": null,
+      "shares_held_pre_offer": "3,668,439",
+      "waca_per_share": null,
+      "amount_as_printed": null,
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "4. Axis New Opportunities AIF - Series II 3,668,439 3.63%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "4. Axis New Opportunities AIF - Series II 3,668,439 3.63%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "gain": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "2542228227",
+          "rupees_high": "2542228227",
+          "crore_low": "254.22",
+          "crore_high": "254.22",
+          "display": "₹254.22 crore (estimate, valued at offer price)",
+          "working": "3,668,439 × ₹693 = ₹254.22 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "3,668,439",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 120,
+                  "printed_page": "115",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=120",
+                  "quote": "4. Axis New Opportunities AIF - Series II 3,668,439 3.63%"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ],
+          "shares": "3668439",
+          "shares_display": "3,668,439 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not in the seller table"
+        },
+        "retained": {
+          "status": "unknown",
+          "reason": "no role printed"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "not in the seller table",
+          "holdings found in one section only (shareholding_pattern)",
+          "found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_commelina_ltd",
+      "name_as_printed": "Commelina Ltd",
+      "names_as_printed": [
+        "Commelina Ltd"
+      ],
+      "name_clean": "commelina ltd",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ltd'",
+      "role_as_printed": "Investor Selling Shareholder",
+      "role_by_section": {
+        "waca": "Investor Selling Shareholder"
+      },
+      "shares_offered": "9,379,509 Equity Shares",
+      "qualifier": null,
+      "shares_held_pre_offer": "16,604,375",
+      "waca_per_share": "114.15",
+      "amount_as_printed": "₹ 6,500.00 million",
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Commelina Ltd",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Investor Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "9,379,509 Equity Shares^ of face value of ₹1 each aggregating to ₹ 6,500.00 million^",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Commelina Ltd",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "amount_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "each aggregating to ₹ 6,500.00 million^",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Investor Selling Shareholder",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 70,
+          "printed_page": "65",
+          "quote": "Commelina Ltd (Investor Selling Shareholder) 16,604,375 114.15",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 70,
+          "printed_page": "65",
+          "quote": "Commelina Ltd (Investor Selling Shareholder)",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 70,
+          "printed_page": "65",
+          "quote": "Commelina Ltd (Investor Selling Shareholder) 16,604,375 114.15",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "2. Commelina Ltd 16,604,375 16.44%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "2. Commelina Ltd 16,604,375 16.44%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "6499999737",
+          "rupees_high": "6499999737",
+          "crore_low": "650.00",
+          "crore_high": "650.00",
+          "display": "₹650.00 crore",
+          "working": "9,379,509 × ₹693 = ₹650.00 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "9,379,509 Equity Shares",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "9,379,509 Equity Shares^ of face value of ₹1 each aggregating to ₹ 6,500.00 million^"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "amount_as_printed",
+              "value": "₹ 6,500.00 million",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "each aggregating to ₹ 6,500.00 million^"
+                }
+              ]
+            }
+          ],
+          "caveats": [],
+          "printed_check": {
+            "status": "matches",
+            "page": "pdf 1",
+            "text": "matches the document's printed amount (pdf 1)"
+          }
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "5429328784.65",
+          "rupees_high": "5429328784.65",
+          "crore_low": "542.93",
+          "crore_high": "542.93",
+          "display": "₹542.93 crore, before offer expenses and taxes",
+          "working": "9,379,509 × (₹693 − ₹114.15) = ₹542.93 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "9,379,509 Equity Shares",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "9,379,509 Equity Shares^ of face value of ₹1 each aggregating to ₹ 6,500.00 million^"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "114.15",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 70,
+                  "printed_page": "65",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=70",
+                  "quote": "Commelina Ltd (Investor Selling Shareholder) 16,604,375 114.15"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "5006832138",
+          "rupees_high": "5006832138",
+          "crore_low": "500.68",
+          "crore_high": "500.68",
+          "display": "₹500.68 crore (estimate, valued at offer price)",
+          "working": "(16,604,375 − 9,379,509) × ₹693 = ₹500.68 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "16,604,375",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 120,
+                  "printed_page": "115",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=120",
+                  "quote": "2. Commelina Ltd 16,604,375 16.44%"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "9,379,509 Equity Shares",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "9,379,509 Equity Shares^ of face value of ₹1 each aggregating to ₹ 6,500.00 million^"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ],
+          "shares": "7224866",
+          "shares_display": "7,224,866 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "scheduled",
+          "when": "listing scheduled for On or about Wednesday, October 28, 2026 per the offer document's timetable; not confirmed by a listing notice",
+          "date_as_printed": "On or about Wednesday, October 28, 2026",
+          "sources": [
+            {
+              "field": "listing_date_scheduled",
+              "value": "On or about Wednesday, October 28, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 536,
+                  "printed_page": "531",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=536",
+                  "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Wednesday, October 28, 2026"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "six months from the date of Allotment",
+          "periods": [
+            {
+              "label": "pre-Offer capital",
+              "months": 6,
+              "share_of_retained": "all",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "pre-Offer capital: 6 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "pre-Offer capital: 6 months from the date of Allotment (allotment date not verified)",
+          "note": "Not locked: shares sold in the Offer for Sale; shares held by VCFs, Category I or II AIFs or FVCIs (subject to Regulation 17); shares employees hold under the ESOP schemes. Whether this holder falls in one of these is not checked.",
+          "rule": "pre_offer_capital",
+          "role_used": "Investor Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+              "pdf_index": 117,
+              "printed_page": "112",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=117",
+              "anchors": [
+                "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+                "six months from the date of allotment"
+              ],
+              "quotes": [
+                "(ii) Details of Equity Shares locked-in for six months In accordance with Regulation 17(1) of the SEBI ICDR Regulations, the entire pre-Offer Equity Share capital of our Company (excluding the Promoter’s Contribution and our Promoter’s shareholding in excess of 20% of the post-Offer Equity Share capital of our Company, which will be locked-in for three years and one year, respectively) will be locked-in for a period of six months from the date of Allotment, except for (i) the Equity Shares transferred pursuant to the Offer for Sale;",
+                "(ii) Details of Equity Shares locked-in for six months In accordance with Regulation 17(1) of the SEBI ICDR Regulations, the entire pre-Offer Equity Share capital of our Company (excluding the Promoter’s Contribution and our Promoter’s shareholding in excess of 20% of the post-Offer Equity Share capital of our Company, which will be locked-in for three years and one year, respectively) will be locked-in for a period of six months from the date of Allotment, except for (i) the Equity Shares transferred pursuant to the Offer for Sale;"
+              ]
+            }
+          ]
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_dharminder_kumar_nagar",
+      "name_as_printed": "Dr. Dharminder Kumar Nagar",
+      "names_as_printed": [
+        "Dr. Dharminder Kumar Nagar"
+      ],
+      "name_clean": "dharminder kumar nagar",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "role_by_section": {
+        "waca": "Promoter Selling Shareholder"
+      },
+      "shares_offered": "4,329,004 Equity Shares",
+      "qualifier": null,
+      "shares_held_pre_offer": "73,519,238",
+      "waca_per_share": "2.35",
+      "amount_as_printed": "₹ 3,000.00 million",
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Dr. Dharminder Kumar Nagar",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "4,329,004 Equity Shares^ of face value of ₹1 each aggregating to ₹ 3,000.00 million^",
+          "section": "selling_shareholders",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Dr. Dharminder Kumar Nagar",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "amount_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "aggregating to ₹ 3,000.00 million^",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Promoter Selling Shareholder",
+          "section": "seller_amounts",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 70,
+          "printed_page": "65",
+          "quote": "Dr. Dharminder Kumar Nagar (Promoter Selling",
+          "citation_corrected": true,
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 70,
+          "printed_page": "65",
+          "quote": "Dr. Dharminder Kumar Nagar (Promoter Selling Shareholder)",
+          "citation_corrected": true,
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "waca_per_share",
+          "pdf_index": 70,
+          "printed_page": "65",
+          "quote": "Dr. Dharminder Kumar Nagar (Promoter Selling 73,519,238 2.35",
+          "section": "waca",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "1. Dr. Dharminder Kumar Nagar 73,519,238 72.80%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_held_pre_offer",
+          "pdf_index": 120,
+          "printed_page": "115",
+          "quote": "1. Dr. Dharminder Kumar Nagar 73,519,238 72.80%",
+          "section": "shareholding_pattern",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "2999999772",
+          "rupees_high": "2999999772",
+          "crore_low": "300.00",
+          "crore_high": "300.00",
+          "display": "₹300.00 crore",
+          "working": "4,329,004 × ₹693 = ₹300.00 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "4,329,004 Equity Shares",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "4,329,004 Equity Shares^ of face value of ₹1 each aggregating to ₹ 3,000.00 million^"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            },
+            {
+              "field": "amount_as_printed",
+              "value": "₹ 3,000.00 million",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "aggregating to ₹ 3,000.00 million^"
+                }
+              ]
+            }
+          ],
+          "caveats": [],
+          "printed_check": {
+            "status": "matches",
+            "page": "pdf 1",
+            "text": "matches the document's printed amount (pdf 1)"
+          }
+        },
+        "gain": {
+          "status": "computed",
+          "rupees_low": "2989826612.60",
+          "rupees_high": "2989826612.60",
+          "crore_low": "298.98",
+          "crore_high": "298.98",
+          "display": "₹298.98 crore, before offer expenses and taxes",
+          "working": "4,329,004 × (₹693 − ₹2.35) = ₹298.98 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "4,329,004 Equity Shares",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "4,329,004 Equity Shares^ of face value of ₹1 each aggregating to ₹ 3,000.00 million^"
+                }
+              ]
+            },
+            {
+              "field": "waca_per_share",
+              "value": "2.35",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 70,
+                  "printed_page": "65",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=70",
+                  "quote": "Dr. Dharminder Kumar Nagar (Promoter Selling 73,519,238 2.35"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ]
+        },
+        "retained": {
+          "status": "computed",
+          "rupees_low": "47948832162",
+          "rupees_high": "47948832162",
+          "crore_low": "4794.88",
+          "crore_high": "4794.88",
+          "display": "₹4,794.88 crore (estimate, valued at offer price)",
+          "working": "(73,519,238 − 4,329,004) × ₹693 = ₹4,794.88 crore",
+          "price_kind": "offer_price",
+          "inputs": [
+            {
+              "field": "shares_held_pre_offer",
+              "value": "73,519,238",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 120,
+                  "printed_page": "115",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=120",
+                  "quote": "1. Dr. Dharminder Kumar Nagar 73,519,238 72.80%"
+                }
+              ]
+            },
+            {
+              "field": "shares_offered",
+              "value": "4,329,004 Equity Shares",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=1",
+                  "quote": "4,329,004 Equity Shares^ of face value of ₹1 each aggregating to ₹ 3,000.00 million^"
+                }
+              ]
+            },
+            {
+              "field": "offer_price",
+              "value": "₹ 693",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 12,
+                  "printed_page": "8",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=12",
+                  "quote": "“Offer Price” ₹ 693 per Equity Share"
+                }
+              ]
+            }
+          ],
+          "shares": "69190234",
+          "shares_display": "69,190,234 shares",
+          "label": "estimate, valued at offer price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "scheduled",
+          "when": "listing scheduled for On or about Wednesday, October 28, 2026 per the offer document's timetable; not confirmed by a listing notice",
+          "date_as_printed": "On or about Wednesday, October 28, 2026",
+          "sources": [
+            {
+              "field": "listing_date_scheduled",
+              "value": "On or about Wednesday, October 28, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+                  "pdf_index": 536,
+                  "printed_page": "531",
+                  "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=536",
+                  "quote": "Commencement of trading of the Equity Shares on the Stock Exchanges On or about Wednesday, October 28, 2026"
+                }
+              ]
+            }
+          ],
+          "days_since": 18
+        },
+        "retained": {
+          "status": "locked_in",
+          "period": "three years from the date of Allotment for the shares that form the Minimum Promoters' Contribution (20% of post-Offer capital); one year from the date of Allotment for promoter shares above that 20%",
+          "periods": [
+            {
+              "label": "Minimum Promoters' Contribution",
+              "months": 36,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified)"
+            },
+            {
+              "label": "promoter shares above the 20%",
+              "months": 12,
+              "share_of_retained": "unknown",
+              "status": "end_unknown",
+              "ends_on": null,
+              "display": "promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)"
+            }
+          ],
+          "display": "Minimum Promoters' Contribution: 36 months from the date of Allotment (allotment date not verified); promoter shares above the 20%: 12 months from the date of Allotment (allotment date not verified)",
+          "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+          "rule": "minimum_promoters_contribution",
+          "role_used": "Promoter Selling Shareholder",
+          "sources": [
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+              "pdf_index": 116,
+              "printed_page": "111",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=116",
+              "anchors": [
+                "aggregate of 20%",
+                "locked in for a period of three years"
+              ],
+              "quotes": [
+                "In accordance with the Regulations 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the post- Offer Equity Share capital of our Company held by our Promoter shall be locked in for a period of three years, except for the Equity Shares offered by our Promoter pursuant to the Offer for Sale, from the date of Allotment as minimum promoter’s contribution (“Promoter’s Contribution”), and our Promoter’s shareholding in excess of 20% of the post-Offer Equity Share capital of our Company shall be locked in for a period of one year from the date of Allotment.",
+                "In accordance with the Regulations 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the post- Offer Equity Share capital of our Company held by our Promoter shall be locked in for a period of three years, except for the Equity Shares offered by our Promoter pursuant to the Offer for Sale, from the date of Allotment as minimum promoter’s contribution (“Promoter’s Contribution”), and our Promoter’s shareholding in excess of 20% of the post-Offer Equity Share capital of our Company shall be locked in for a period of one year from the date of Allotment."
+              ]
+            },
+            {
+              "found": true,
+              "url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf",
+              "pdf_index": 116,
+              "printed_page": "111",
+              "link": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793186546562.pdf#page=116",
+              "anchors": [
+                "in excess of 20%",
+                "locked in for a period of one year"
+              ],
+              "quotes": [
+                "In accordance with the Regulations 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the post- Offer Equity Share capital of our Company held by our Promoter shall be locked in for a period of three years, except for the Equity Shares offered by our Promoter pursuant to the Offer for Sale, from the date of Allotment as minimum promoter’s contribution (“Promoter’s Contribution”), and our Promoter’s shareholding in excess of 20% of the post-Offer Equity Share capital of our Company shall be locked in for a period of one year from the date of Allotment.",
+                "In accordance with the Regulations 14 and 16 of the SEBI ICDR Regulations, an aggregate of 20% of the post- Offer Equity Share capital of our Company held by our Promoter shall be locked in for a period of three years, except for the Equity Shares offered by our Promoter pursuant to the Offer for Sale, from the date of Allotment as minimum promoter’s contribution (“Promoter’s Contribution”), and our Promoter’s shareholding in excess of 20% of the post-Offer Equity Share capital of our Company shall be locked in for a period of one year from the date of Allotment."
+              ]
+            }
+          ],
+          "variant": "three_year"
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller table",
+          "holdings found in one section only (shareholding_pattern)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [
+    {
+      "pair": [
+        "360 ONE Special Opportunities Fund - Series 12",
+        "360 ONE Special Opportunities Fund - Series 13"
+      ],
+      "score": 97.7,
+      "method": "numbers_differ",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "360 ONE Special Opportunities Fund - Series 12",
+        "Axis New Opportunities AIF - Series II"
+      ],
+      "score": 68.4,
+      "method": "numbers_differ",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Axis New Opportunities AIF - Series II",
+        "360 ONE Special Opportunities Fund - Series 13"
+      ],
+      "score": 65.8,
+      "method": "numbers_differ",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dr. Dharminder Kumar Nagar",
+        "Axis New Opportunities AIF - Series II"
+      ],
+      "score": 28.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dr. Dharminder Kumar Nagar",
+        "Commelina Ltd"
+      ],
+      "score": 25.6,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dr. Dharminder Kumar Nagar",
+        "360 ONE Special Opportunities Fund - Series 12"
+      ],
+      "score": 24.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Dr. Dharminder Kumar Nagar",
+        "360 ONE Special Opportunities Fund - Series 13"
+      ],
+      "score": 24.2,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Commelina Ltd",
+        "Axis New Opportunities AIF - Series II"
+      ],
+      "score": 23.1,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Commelina Ltd",
+        "360 ONE Special Opportunities Fund - Series 12"
+      ],
+      "score": 19.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    },
+    {
+      "pair": [
+        "Commelina Ltd",
+        "360 ONE Special Opportunities Fund - Series 13"
+      ],
+      "score": 19.7,
+      "method": "below_threshold",
+      "outcome": "separate"
+    }
+  ],
+  "family_groups": [],
+  "counts": {
+    "people": 5,
+    "by_holder_type": {
+      "entity": 4,
+      "person": 1
+    },
+    "by_confidence": {
+      "medium": 5
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 2,
+    "retained_valued": 5,
+    "retained_timing": {
+      "locked_in": 2,
+      "unknown": 3
+    },
+    "identity_decisions": {
+      "below_threshold": 7,
+      "numbers_differ": 3
+    },
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 5,
+    "follow_on_matches": 0
+  }
+}

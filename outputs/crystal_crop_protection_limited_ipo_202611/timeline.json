@@ -1,0 +1,48 @@
+{
+  "run_id": "crystal_crop_protection_limited_ipo_202611-20261115T135528Z",
+  "total_s": 18.842909416998737,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 4.237007750023622,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 0.49041720799868926,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.008632458979263902,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.02405316598014906,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 14.054543000005651,
+      "calls": 7,
+      "cached": 0,
+      "cost_usd": 0.0014650000000000002
+    },
+    {
+      "step": "report",
+      "seconds": 0.00884333299472928,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

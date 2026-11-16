@@ -1,0 +1,66 @@
+{
+  "event_id": "fdc_limited_buyback_202610",
+  "event_type": "buyback",
+  "company": "FDC Limited",
+  "documents": [
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ec48613c-8443-4290-be00-cbf26da7d42e.pdf",
+      "doc_type": "announcement",
+      "note": "FDC Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+      "doc_type": "public_announcement",
+      "note": "FDC Limited",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/FDC_29102026130821_Company_Intimation_PA_signed.pdf",
+      "doc_type": "public_announcement",
+      "note": "FDC Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc55d7d-72c5-4108-acc5-eea873e5c42e.pdf",
+      "doc_type": "public_announcement",
+      "note": "FDC Ltd - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements",
+      "sebi_buyback_tender"
+    ],
+    "first_seen": "2026-11-15T07:46:53+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "FDC Limited",
+        "link": "https://www.sebi.gov.in/filings/buybacks/oct-2026/fdc-limited_105562.html",
+        "published": "Oct 28, 2026",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "FDC Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ec48613c-8443-4290-be00-cbf26da7d42e.pdf",
+        "published": "2026-10-27",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "FDC Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/FDC_29102026130821_Company_Intimation_PA_signed.pdf",
+        "published": "2026-10-29",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "FDC Ltd - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc55d7d-72c5-4108-acc5-eea873e5c42e.pdf",
+        "published": "2026-10-29",
+        "class": "buyback_public_announcement"
+      }
+    ]
+  }
+}

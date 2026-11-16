@@ -1,0 +1,199 @@
+{
+  "event_id": "technocraft_ventures_bulk_deal_2026w44",
+  "callable": [
+    {
+      "person_id": "p_govind_ji_gupta",
+      "name_as_printed": "GOVIND JI GUPTA",
+      "name_clean": "govind ji gupta",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "9.63",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "9.63000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 19,
+        "label": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+        "money_crore": "9.63",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "9.63000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 19,
+          "label": "proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+          "money_crore": "9.63",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "9.63000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 2,00,000 shares in a bulk deal on 27 Oct 2026",
+      "amount_display": "₹9.63 crore",
+      "timing_display": "settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)",
+      "timing_display_status": "settles",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹9.63 crore; settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago).",
+        "score 9.63 = ₹9.63 crore (proceeds settled 28 Oct 2026, T+1 after the 27 Oct 2026 trade (19 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "family link (family_1): 'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "person_id": "p_acme_capital_market_limited",
+      "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+      "name_clean": "acme capital market limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "31.77",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "31.77000",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 19,
+        "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+        "money_crore": "31.77",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "31.77000"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 19,
+          "label": "proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+          "money_crore": "31.77",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "31.77000"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 6,62,792 shares in bulk deals on 27 Oct 2026 and 29 Oct 2026",
+      "amount_display": "₹31.77 crore",
+      "timing_display": "settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹31.77 crore; settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago).",
+        "entity: listed separately, an RM does not call a fund or company directly",
+        "score 31.77 = ₹31.77 crore (proceeds settled 30 Oct 2026, T+1 after the 29 Oct 2026 trade (17 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "person_id": "p_acme_capital_market_limited_bought",
+      "name_as_printed": "ACME CAPITAL MARKET LIMITED",
+      "name_clean": "acme capital market limited",
+      "holder_type": "entity",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 6,62,792 shares in bulk deals on 27 Oct 2026 and 29 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 1,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "tied with GOVIND JI GUPTA; name order breaks the tie"
+      ]
+    },
+    {
+      "person_id": "p_govind_ji_gupta_bought",
+      "name_as_printed": "GOVIND JI GUPTA",
+      "name_clean": "govind ji gupta",
+      "holder_type": "person",
+      "role_as_printed": null,
+      "tier": "non_seller",
+      "call_tier": "holding",
+      "call_tier_label": "Holds shares",
+      "amount_known": false,
+      "money_now_crore": "0",
+      "confidence": "high",
+      "confidence_weight": "1.0",
+      "timing_status": "unknown",
+      "timing_weight": "0.25",
+      "recency_weight": "1.0",
+      "score": "0.000",
+      "trigger": null,
+      "triggers": [],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "bought 2,50,000 shares in a bulk deal on 29 Oct 2026",
+      "amount_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display": "not applicable: bought shares; buying is not coming into money",
+      "timing_display_status": "not_applicable",
+      "family_group": {
+        "id": "family_1",
+        "reason": "'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      },
+      "household_id": "family_1",
+      "holding_display": null,
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "rank": 2,
+      "rank_reasons": [
+        "Bought shares: buying is not coming into money, so listed for context, not to call.",
+        "no money from this event: listed for context, not to call",
+        "later score 0.00 = retained ₹0 crore × 1.0 (high confidence) × 0.25 (timing unknown)",
+        "family link (family_1): 'GOVIND JI GUPTA' and 'GOVIND JI GUPTA' share surname 'gupta' and middle name 'ji'"
+      ]
+    }
+  ]
+}

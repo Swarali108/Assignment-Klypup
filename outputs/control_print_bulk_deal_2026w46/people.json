@@ -1,0 +1,387 @@
+{
+  "event_id": "control_print_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "610",
+    "high": "610",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹610",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+            "row_ref": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+            "quote": "NSE | CONTROLPR | INDIA MAX INVESTMENT FUND LIMITED | SELL | 2,50,000 shares | price 610 | 2026-11-12"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "12 Nov 2026",
+    "sale_date_parsed": "2026-11-12",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "2,50,000 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 3,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_basant_kabra_bought",
+      "name_as_printed": "BASANT KABRA",
+      "names_as_printed": [
+        "BASANT KABRA"
+      ],
+      "name_clean": "basant kabra",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "e1420014981cc244"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 136026,
+          "record_ids": [
+            "e1420014981cc244"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · CONTROLPR · BASANT KABRA · BUY · 136026",
+          "row_ref": "12-NOV-2026 · CONTROLPR · BASANT KABRA · BUY · 136026",
+          "quote": "NSE | CONTROLPR | BASANT KABRA | BUY | 1,36,026 shares | price 609.81 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e1420014981cc244",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 1,36,026 shares in a bulk deal on 12 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_india_max_investment_fund_limited",
+      "name_as_printed": "INDIA MAX INVESTMENT FUND LIMITED",
+      "names_as_printed": [
+        "INDIA MAX INVESTMENT FUND LIMITED"
+      ],
+      "name_clean": "india max investment fund limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'fund'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "4e2dd0650f7131d8"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 250000,
+          "record_ids": [
+            "4e2dd0650f7131d8"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+          "row_ref": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+          "quote": "NSE | CONTROLPR | INDIA MAX INVESTMENT FUND LIMITED | SELL | 2,50,000 shares | price 610 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "4e2dd0650f7131d8",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "2,50,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "152500000",
+          "rupees_high": "152500000",
+          "crore_low": "15.25",
+          "crore_high": "15.25",
+          "display": "₹15.25 crore",
+          "working": "2,50,000 shares × ₹610 = ₹15.25 crore (NSE 12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "2,50,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+                  "row_ref": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+                  "quote": "NSE | CONTROLPR | INDIA MAX INVESTMENT FUND LIMITED | SELL | 2,50,000 shares | price 610 | 2026-11-12"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹610",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+                  "row_ref": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+                  "quote": "NSE | CONTROLPR | INDIA MAX INVESTMENT FUND LIMITED | SELL | 2,50,000 shares | price 610 | 2026-11-12"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "trade_date": "2026-11-12",
+          "settles_on": "2026-11-13",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "12 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+                  "row_ref": "12-NOV-2026 · CONTROLPR · INDIA MAX INVESTMENT FUND LIMITED · SELL · 250000",
+                  "quote": "NSE | CONTROLPR | INDIA MAX INVESTMENT FUND LIMITED | SELL | 2,50,000 shares | price 610 | 2026-11-12"
+                }
+              ]
+            }
+          ],
+          "days_since": 3
+        }
+      },
+      "why_money": "sold 2,50,000 shares in a bulk deal on 12 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_shiva_basant_kabra_bought",
+      "name_as_printed": "SHIVA BASANT KABRA",
+      "names_as_printed": [
+        "SHIVA BASANT KABRA"
+      ],
+      "name_clean": "shiva basant kabra",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "5979d866dae93a9f"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-12",
+          "quantity": 85000,
+          "record_ids": [
+            "5979d866dae93a9f"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": {
+        "id": "family_1",
+        "reason": "'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "12-NOV-2026 · CONTROLPR · SHIVA BASANT KABRA · BUY · 85000",
+          "row_ref": "12-NOV-2026 · CONTROLPR · SHIVA BASANT KABRA · BUY · 85000",
+          "quote": "NSE | CONTROLPR | SHIVA BASANT KABRA | BUY | 85,000 shares | price 609.99 | 2026-11-12",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "5979d866dae93a9f",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 85,000 shares in a bulk deal on 12 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [
+    {
+      "id": "family_1",
+      "members": [
+        "BASANT KABRA",
+        "SHIVA BASANT KABRA"
+      ],
+      "reasons": [
+        "'SHIVA BASANT KABRA' contains 'BASANT KABRA'"
+      ]
+    }
+  ],
+  "counts": {
+    "people": 3,
+    "by_holder_type": {
+      "entity": 1,
+      "person": 2
+    },
+    "by_confidence": {
+      "high": 3
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 2,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 3
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 1,
+    "flagged": 0,
+    "index_lookups": 3,
+    "follow_on_matches": 0
+  }
+}

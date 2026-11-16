@@ -1,0 +1,65 @@
+{
+  "event_id": "sakar_healthcare_insider_sale_2026w44",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_rita_s_shah",
+      "name_as_printed": "Rita S. Shah",
+      "fields": {
+        "name": "Rita S. Shah",
+        "role": "Promoter",
+        "why_money": "sold 45,000 shares (Market Sale) on 28 Oct 2026",
+        "amount": "₹4.45 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event": "proceeds settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "event_age": "18 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.45 crore (45,000 shares, value as printed ₹4.45 crore (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Rita S. Shah",
+        "role": "Promoter",
+        "amount": "₹4.45 crore",
+        "timing": "settled 29 Oct 2026, T+1 after the 28 Oct 2026 trade (18 days ago)",
+        "proceeds": "₹4.45 crore",
+        "shares_offered": "45,000 shares",
+        "event_age": "18 days ago"
+      },
+      "lines": [
+        "Rita S. Shah, Promoter, sold shares in a Market Sale, which is why money is coming to them.",
+        "The ₹4.45 crore proceeds from 45,000 shares settled 18 days ago, so the money is already in hand.",
+        "Ask how they plan to think about their remaining holding in light of this recent liquidity."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Rita S. Shah, Promoter, received money after selling shares in a Market Sale on the 28th of October.",
+            "The {amount} proceeds from {shares_offered} settled {event_age}, so the money is already in hand.",
+            "Ask how they plan to think about their remaining holding in light of this recent liquidity."
+          ],
+          "lines": [
+            "Rita S. Shah, Promoter, received money after selling shares in a Market Sale on the 28th of October.",
+            "The {amount} proceeds from {shares_offered} settled {event_age}, so the money is already in hand.",
+            "Ask how they plan to think about their remaining holding in light of this recent liquidity."
+          ],
+          "problem": "writes numbers instead of placeholders: 28"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, sold shares in a Market Sale, which is why money is coming to them.",
+            "The {amount} proceeds from {shares_offered} settled {event_age}, so the money is already in hand.",
+            "Ask how they plan to think about their remaining holding in light of this recent liquidity."
+          ],
+          "lines": [
+            "Rita S. Shah, Promoter, sold shares in a Market Sale, which is why money is coming to them.",
+            "The ₹4.45 crore proceeds from 45,000 shares settled 18 days ago, so the money is already in hand.",
+            "Ask how they plan to think about their remaining holding in light of this recent liquidity."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "event_id": "aartech_solonics_bulk_deal_2026w44",
+  "run_id": "auto-aartech_solonics_bulk_deal_2026w44-20261115T185549Z",
+  "totals": {
+    "calls": 2,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 2451,
+    "output_tokens": 246,
+    "cost_usd": 0.000368,
+    "fresh_usd": 0.000368,
+    "unpriced_calls": 0,
+    "wall_s": 4.74249479098944,
+    "callable_people": 2,
+    "cost_per_callable_usd": 0.000184,
+    "fresh_per_callable_usd": 0.000184
+  },
+  "per_person": [
+    {
+      "person_id": "p_millennial_family_trust",
+      "name_as_printed": "MILLENNIAL FAMILY TRUST",
+      "cost_usd": 0.000187,
+      "fresh_usd": 0.000187,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_kailash_kabra",
+      "name_as_printed": "KAILASH KABRA",
+      "cost_usd": 0.000181,
+      "fresh_usd": 0.000181,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_kailash_kabra_bought",
+      "name_as_printed": "KAILASH KABRA",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "event_id": "bio_medica_laboratories_l_bulk_deal_2026w44",
+  "run_id": "auto-bio_medica_laboratories_l_bulk_deal_2026w44-20261115T185344Z",
+  "totals": {
+    "calls": 3,
+    "cached_calls": 0,
+    "cached_share": 0.0,
+    "input_tokens": 3797,
+    "output_tokens": 331,
+    "cost_usd": 0.000545,
+    "fresh_usd": 0.000545,
+    "unpriced_calls": 0,
+    "wall_s": 5.824927042005584,
+    "callable_people": 3,
+    "cost_per_callable_usd": 0.000182,
+    "fresh_per_callable_usd": 0.000182
+  },
+  "per_person": [
+    {
+      "person_id": "p_ratan_babulal_bokadia",
+      "name_as_printed": "RATAN BABULAL BOKADIA",
+      "cost_usd": 0.00019,
+      "fresh_usd": 0.00019,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_jayant_babulal_bokadia",
+      "name_as_printed": "JAYANT BABULAL BOKADIA",
+      "cost_usd": 0.000183,
+      "fresh_usd": 0.000183,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_dixit_jitendra_bokadia",
+      "name_as_printed": "DIXIT JITENDRA BOKADIA",
+      "cost_usd": 0.000172,
+      "fresh_usd": 0.000172,
+      "calls": 1.0
+    },
+    {
+      "person_id": "p_oswal_energies_limited_bought",
+      "name_as_printed": "OSWAL ENERGIES LIMITED",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.0,
+      "calls": 0.0
+    }
+  ]
+}

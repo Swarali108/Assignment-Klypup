@@ -1,0 +1,235 @@
+{
+  "event_id": "avenue_supermarts_insider_sale_2026w43",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_vikram_bhatia",
+      "name_as_printed": "Vikram Bhatia",
+      "fields": {
+        "name": "Vikram Bhatia",
+        "role": "unknown",
+        "why_money": "sold 15,000 shares (Market Sale) on 22 Oct 2026",
+        "amount": "₹4.79 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "24 days ago",
+        "event_is": "recent",
+        "proceeds": "₹4.79 crore (15,000 shares, value as printed ₹4.79 crore (NSE XBRL context Disclosure8))"
+      },
+      "placeholders": {
+        "name": "Vikram Bhatia",
+        "role": "unknown",
+        "amount": "₹4.79 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹4.79 crore",
+        "shares_offered": "15,000 shares",
+        "event_age": "24 days ago"
+      },
+      "lines": [
+        "Vikram Bhatia, role unknown, sold 15,000 shares in a market sale and is receiving proceeds.",
+        "Proceeds of ₹4.79 crore settled 24 days ago, so this is a recent money event to discuss.",
+        "Ask whether they plan to reinvest, and confirm their role and holdings before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Vikram Bhatia, role unknown, sold {shares_offered} in a market sale and is receiving proceeds.",
+            "Proceeds of {amount} settled {event_age}, so this is a recent money event to discuss.",
+            "Ask whether they plan to reinvest, and confirm their role and holdings before the call."
+          ],
+          "lines": [
+            "Vikram Bhatia, role unknown, sold 15,000 shares in a market sale and is receiving proceeds.",
+            "Proceeds of ₹4.79 crore settled 24 days ago, so this is a recent money event to discuss.",
+            "Ask whether they plan to reinvest, and confirm their role and holdings before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_harish_joshi",
+      "name_as_printed": "Harish Joshi",
+      "fields": {
+        "name": "Harish Joshi",
+        "role": "unknown",
+        "why_money": "sold 6,500 shares (Market Sale) on 22 Oct 2026",
+        "amount": "₹2.03 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "24 days ago",
+        "event_is": "recent",
+        "proceeds": "₹2.03 crore (6,500 shares, value as printed ₹2.03 crore (NSE XBRL context Disclosure4))"
+      },
+      "placeholders": {
+        "name": "Harish Joshi",
+        "role": "unknown",
+        "amount": "₹2.03 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹2.03 crore",
+        "shares_offered": "6,500 shares",
+        "event_age": "24 days ago"
+      },
+      "lines": [
+        "Harish Joshi is a shareholder who sold 6,500 shares in a market sale, which sent proceeds their way.",
+        "Proceeds of ₹2.03 crore settled settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago), so the money is already in hand.",
+        "Their role is unknown, so confirm it before framing any conversation about the sale."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a shareholder whose 6,500 shares were sold in a market sale, sending proceeds their way.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Their role is unknown, so confirm it before framing any conversation about the sale."
+          ],
+          "lines": [
+            "{name} is a shareholder whose 6,500 shares were sold in a market sale, sending proceeds their way.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Their role is unknown, so confirm it before framing any conversation about the sale."
+          ],
+          "problem": "writes numbers instead of placeholders: 6,500"
+        },
+        {
+          "raw_lines": [
+            "{name} is a shareholder who sold {shares_offered} in a market sale, which sent proceeds their way.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "Their role is {role}, so confirm it before framing any conversation about the sale."
+          ],
+          "lines": [
+            "Harish Joshi is a shareholder who sold 6,500 shares in a market sale, which sent proceeds their way.",
+            "Proceeds of ₹2.03 crore settled settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago), so the money is already in hand.",
+            "Their role is unknown, so confirm it before framing any conversation about the sale."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_elvin_machado",
+      "name_as_printed": "Elvin Machado",
+      "fields": {
+        "name": "Elvin Machado",
+        "role": "Director",
+        "why_money": "sold 6,000 shares (Market Sale) on 22 Oct 2026",
+        "amount": "₹1.90 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event": "proceeds settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "event_age": "24 days ago",
+        "event_is": "recent",
+        "proceeds": "₹1.90 crore (6,000 shares, value as printed ₹1.90 crore (NSE XBRL context Disclosure7))"
+      },
+      "placeholders": {
+        "name": "Elvin Machado",
+        "role": "Director",
+        "amount": "₹1.90 crore",
+        "timing": "settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago)",
+        "proceeds": "₹1.90 crore",
+        "shares_offered": "6,000 shares",
+        "event_age": "24 days ago"
+      },
+      "lines": [
+        "Elvin Machado (Director) sold 6,000 shares (Market Sale) on 22 Oct 2026.",
+        "₹1.90 crore; settled 23 Oct 2026, T+1 after the 22 Oct 2026 trade (24 days ago).",
+        "Ask about their plans for the holding."
+      ],
+      "brief_source": "template",
+      "fallback_reason": "writes numbers instead of placeholders: 22, 2026",
+      "template_problem": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Elvin Machado, Director, is receiving money from a sale of 6,000 shares on 22 Oct 2026.",
+            "Proceeds of {amount} settled {timing_short}, arriving {event_age}.",
+            "Their sale was a market sale, so a conversation about reinvesting proceeds fits."
+          ],
+          "lines": [
+            "Elvin Machado, Director, is receiving money from a sale of 6,000 shares on 22 Oct 2026.",
+            "Proceeds of {amount} settled {timing_short}, arriving {event_age}.",
+            "Their sale was a market sale, so a conversation about reinvesting proceeds fits."
+          ],
+          "problem": "unknown placeholders: {timing_short}"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving money from a sale of {shares_offered} on 22 Oct 2026.",
+            "Proceeds of {amount} were {timing}, so the money has already arrived.",
+            "Their sale was a market sale, so a conversation about reinvesting proceeds fits."
+          ],
+          "lines": [
+            "{name}, {role}, is receiving money from a sale of {shares_offered} on 22 Oct 2026.",
+            "Proceeds of {amount} were {timing}, so the money has already arrived.",
+            "Their sale was a market sale, so a conversation about reinvesting proceeds fits."
+          ],
+          "problem": "writes numbers instead of placeholders: 22, 2026"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mahesh_ramji_nagda",
+      "name_as_printed": "Mahesh Ramji Nagda",
+      "fields": {
+        "name": "Mahesh Ramji Nagda",
+        "role": "unknown",
+        "why_money": "sold 300 shares (Market Sale) on 21 Oct 2026",
+        "amount": "₹9.86 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "event_age": "25 days ago",
+        "event_is": "recent",
+        "proceeds": "₹9.86 lakh (300 shares, value as printed ₹9.86 lakh (NSE XBRL context Disclosure3))"
+      },
+      "placeholders": {
+        "name": "Mahesh Ramji Nagda",
+        "role": "unknown",
+        "amount": "₹9.86 lakh",
+        "timing": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "proceeds": "₹9.86 lakh",
+        "shares_offered": "300 shares",
+        "event_age": "25 days ago"
+      },
+      "lines": [
+        "Mahesh Ramji Nagda is a holder whose role is unknown; they sold 300 shares on settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago), bringing in money.",
+        "Proceeds of ₹9.86 lakh settled 25 days ago, so the money has already arrived.",
+        "Open with the sale and ask how they plan to deploy the ₹9.86 lakh received.",
+        "Their role is unknown, so confirm their position before discussing anything further."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown; they sold {shares_offered} on 21 Oct, bringing in money.",
+            "Proceeds of {proceeds} settled {event_age}, so the money has already arrived.",
+            "Open with the sale timing and ask how they plan to deploy the {proceeds} received.",
+            "Role is unknown, so confirm their position before discussing anything further."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown; they sold {shares_offered} on 21 Oct, bringing in money.",
+            "Proceeds of {proceeds} settled {event_age}, so the money has already arrived.",
+            "Open with the sale timing and ask how they plan to deploy the {proceeds} received.",
+            "Role is unknown, so confirm their position before discussing anything further."
+          ],
+          "problem": "writes numbers instead of placeholders: 21"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}; they sold {shares_offered} on {timing}, bringing in money.",
+            "Proceeds of {proceeds} settled {event_age}, so the money has already arrived.",
+            "Open with the sale and ask how they plan to deploy the {amount} received.",
+            "Their role is unknown, so confirm their position before discussing anything further."
+          ],
+          "lines": [
+            "Mahesh Ramji Nagda is a holder whose role is unknown; they sold 300 shares on settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago), bringing in money.",
+            "Proceeds of ₹9.86 lakh settled 25 days ago, so the money has already arrived.",
+            "Open with the sale and ask how they plan to deploy the ₹9.86 lakh received.",
+            "Their role is unknown, so confirm their position before discussing anything further."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

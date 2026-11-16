@@ -1,0 +1,11 @@
+{
+ "_source": "Response example from https://docs.brightdata.com/api-reference/serp/google-search/news (read 2026-11-15), first two news items, image/logo fields shortened. NOT a live recording: the account had no SERP zone on 2026-11-15.",
+ "response": {
+  "general": {"search_engine": "google", "query": "pizza", "search_type": "news"},
+  "input": {"original_url": "https://www.google.com/search?q=pizza&tbm=nws&brd_json=1"},
+  "news": [
+   {"title": "Hegseth says he’ll order random pizzas to throw off monitoring app", "link": "https://thehill.com/policy/defense/5750716-pentagon-pizza-report-hegseth/", "source": "The Hill", "source_logo": "data:image/png;base64,...", "date": "1 day ago", "image": "data:image/jpeg;base64,...", "rank": 1, "global_rank": 1},
+   {"title": "Domino's Pizza® Announces Fourth Quarter and Fiscal 2025 Financial Results", "link": "https://ir.dominos.com/news-releases/news-release-details/dominos-pizzar-announces-fourth-quarter-and-fiscal-2025", "source": "Domino's Pizza", "description": "Global retail sales growth (excluding foreign currency impact) of 4.9% for the fourth quarter; 5.4% growth for fiscal 2025.", "date": "1 day ago", "rank": 3, "global_rank": 3}
+  ]
+ }
+}

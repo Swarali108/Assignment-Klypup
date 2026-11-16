@@ -1,0 +1,762 @@
+{
+  "event_id": "v2_retail_block_deal_2026w45",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "160",
+    "high": "160",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹160",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+            "row_ref": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+            "quote": "NSE | V2RETAIL | RICON COMMODITIES PRIVATE LIMITED | SELL | 98,65,000 shares | price 160 | 2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "6 Nov 2026",
+    "sale_date_parsed": "2026-11-06",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "1,61,25,000 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 8,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_aditya_kumar_halwasiya_bought",
+      "name_as_printed": "ADITYA KUMAR HALWASIYA",
+      "names_as_printed": [
+        "ADITYA KUMAR HALWASIYA"
+      ],
+      "name_clean": "aditya kumar halwasiya",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "547f53c28f36c299"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 8300000,
+          "record_ids": [
+            "547f53c28f36c299"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · ADITYA KUMAR HALWASIYA · BUY · 8300000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · ADITYA KUMAR HALWASIYA · BUY · 8300000",
+          "quote": "NSE | V2RETAIL | ADITYA KUMAR HALWASIYA | BUY | 83,00,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "547f53c28f36c299",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 83,00,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_carbon_resources_p_ltd_bought",
+      "name_as_printed": "CARBON RESOURCES(P) LTD.",
+      "names_as_printed": [
+        "CARBON RESOURCES(P) LTD."
+      ],
+      "name_clean": "carbon resources(p) ltd.",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'ltd'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "54acbce43fc72f1d"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1565000,
+          "record_ids": [
+            "54acbce43fc72f1d"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · CARBON RESOURCES(P) LTD. · BUY · 1565000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · CARBON RESOURCES(P) LTD. · BUY · 1565000",
+          "quote": "NSE | V2RETAIL | CARBON RESOURCES(P) LTD. | BUY | 15,65,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "54acbce43fc72f1d",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 15,65,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_jyotiprasad_taparia_bought",
+      "name_as_printed": "JYOTIPRASAD TAPARIA",
+      "names_as_printed": [
+        "JYOTIPRASAD TAPARIA"
+      ],
+      "name_clean": "jyotiprasad taparia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "c8c33c1c83cf4faa"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1565000,
+          "record_ids": [
+            "c8c33c1c83cf4faa"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · JYOTIPRASAD TAPARIA · BUY · 1565000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · JYOTIPRASAD TAPARIA · BUY · 1565000",
+          "quote": "NSE | V2RETAIL | JYOTIPRASAD TAPARIA | BUY | 15,65,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "c8c33c1c83cf4faa",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 15,65,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_om_prakash_bhaiya_bought",
+      "name_as_printed": "OM PRAKASH BHAIYA",
+      "names_as_printed": [
+        "OM PRAKASH BHAIYA"
+      ],
+      "name_clean": "om prakash bhaiya",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "ec5d60b4cb8c2143"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1565000,
+          "record_ids": [
+            "ec5d60b4cb8c2143"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · OM PRAKASH BHAIYA · BUY · 1565000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · OM PRAKASH BHAIYA · BUY · 1565000",
+          "quote": "NSE | V2RETAIL | OM PRAKASH BHAIYA | BUY | 15,65,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "ec5d60b4cb8c2143",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 15,65,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_paresh_n_bhagat_bought",
+      "name_as_printed": "PARESH N BHAGAT",
+      "names_as_printed": [
+        "PARESH N BHAGAT"
+      ],
+      "name_clean": "paresh n bhagat",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "d5fda323ff405e41"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1565000,
+          "record_ids": [
+            "d5fda323ff405e41"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · PARESH N BHAGAT · BUY · 1565000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · PARESH N BHAGAT · BUY · 1565000",
+          "quote": "NSE | V2RETAIL | PARESH N BHAGAT | BUY | 15,65,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "d5fda323ff405e41",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 15,65,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "name printed with initials (N); confirm the client before calling"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_rajiv_goenka_bought",
+      "name_as_printed": "RAJIV GOENKA",
+      "names_as_printed": [
+        "RAJIV GOENKA"
+      ],
+      "name_clean": "rajiv goenka",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "f1ddb67d2fa3b54c"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 1565000,
+          "record_ids": [
+            "f1ddb67d2fa3b54c"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · RAJIV GOENKA · BUY · 1565000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · RAJIV GOENKA · BUY · 1565000",
+          "quote": "NSE | V2RETAIL | RAJIV GOENKA | BUY | 15,65,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "f1ddb67d2fa3b54c",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 15,65,000 shares in a block deal on 6 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ram_chandra_agarwal",
+      "name_as_printed": "RAM CHANDRA AGARWAL",
+      "names_as_printed": [
+        "RAM CHANDRA AGARWAL"
+      ],
+      "name_clean": "ram chandra agarwal",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "bbc28f09efd1fadd"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 6260000,
+          "record_ids": [
+            "bbc28f09efd1fadd"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+          "quote": "NSE | V2RETAIL | RAM CHANDRA AGARWAL | SELL | 62,60,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "bbc28f09efd1fadd",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "62,60,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1001600000",
+          "rupees_high": "1001600000",
+          "crore_low": "100.16",
+          "crore_high": "100.16",
+          "display": "₹100.16 crore",
+          "working": "62,60,000 shares × ₹160 = ₹100.16 crore (NSE 06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "62,60,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+                  "row_ref": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+                  "quote": "NSE | V2RETAIL | RAM CHANDRA AGARWAL | SELL | 62,60,000 shares | price 160 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹160",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+                  "row_ref": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+                  "quote": "NSE | V2RETAIL | RAM CHANDRA AGARWAL | SELL | 62,60,000 shares | price 160 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+                  "row_ref": "06-NOV-2026 · V2RETAIL · RAM CHANDRA AGARWAL · SELL · 6260000",
+                  "quote": "NSE | V2RETAIL | RAM CHANDRA AGARWAL | SELL | 62,60,000 shares | price 160 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 62,60,000 shares in a block deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)",
+          "full name printed"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_ricon_commodities_private_limited",
+      "name_as_printed": "RICON COMMODITIES PRIVATE LIMITED",
+      "names_as_printed": [
+        "RICON COMMODITIES PRIVATE LIMITED"
+      ],
+      "name_clean": "ricon commodities private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "49e0891f8af13636"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-06",
+          "quantity": 9865000,
+          "record_ids": [
+            "49e0891f8af13636"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+          "row_ref": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+          "quote": "NSE | V2RETAIL | RICON COMMODITIES PRIVATE LIMITED | SELL | 98,65,000 shares | price 160 | 2026-11-06",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "49e0891f8af13636",
+          "exchange": "NSE",
+          "kind": "block_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "98,65,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "1578400000",
+          "rupees_high": "1578400000",
+          "crore_low": "157.84",
+          "crore_high": "157.84",
+          "display": "₹157.84 crore",
+          "working": "98,65,000 shares × ₹160 = ₹157.84 crore (NSE 06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "98,65,000",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+                  "row_ref": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+                  "quote": "NSE | V2RETAIL | RICON COMMODITIES PRIVATE LIMITED | SELL | 98,65,000 shares | price 160 | 2026-11-06"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹160",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+                  "row_ref": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+                  "quote": "NSE | V2RETAIL | RICON COMMODITIES PRIVATE LIMITED | SELL | 98,65,000 shares | price 160 | 2026-11-06"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 9 Nov 2026, T+1 after the 6 Nov 2026 trade (7 days ago)",
+          "trade_date": "2026-11-06",
+          "settles_on": "2026-11-09",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "6 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+                  "row_ref": "06-NOV-2026 · V2RETAIL · RICON COMMODITIES PRIVATE LIMITED · SELL · 9865000",
+                  "quote": "NSE | V2RETAIL | RICON COMMODITIES PRIVATE LIMITED | SELL | 98,65,000 shares | price 160 | 2026-11-06"
+                }
+              ]
+            }
+          ],
+          "days_since": 7
+        }
+      },
+      "why_money": "sold 98,65,000 shares in a block deal on 6 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 8,
+    "by_holder_type": {
+      "entity": 2,
+      "person": 6
+    },
+    "by_confidence": {
+      "high": 7,
+      "medium": 1
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 6,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 8
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 8,
+    "follow_on_matches": 0
+  }
+}

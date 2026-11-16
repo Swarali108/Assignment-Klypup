@@ -1,0 +1,48 @@
+{
+  "event_id": "spacenet_ofs",
+  "run_id": "spacenet_ofs-20261115T135434Z",
+  "totals": {
+    "calls": 6,
+    "cached_calls": 2,
+    "cached_share": 0.333,
+    "input_tokens": 5130,
+    "output_tokens": 497,
+    "cost_usd": 0.000761,
+    "fresh_usd": 0.005098,
+    "unpriced_calls": 0,
+    "wall_s": 7.726362332992721,
+    "callable_people": 3,
+    "cost_per_callable_usd": 0.000254,
+    "fresh_per_callable_usd": 0.001699
+  },
+  "per_person": [
+    {
+      "person_id": "p_pendurthi_annapurna",
+      "name_as_printed": "Pendurthi Annapurna",
+      "cost_usd": 0.000372,
+      "fresh_usd": 0.001456,
+      "calls": 2.5
+    },
+    {
+      "person_id": "p_yaralagadda_venkat_subba_rao",
+      "name_as_printed": "Yaralagadda Venkat Subba Rao",
+      "cost_usd": 0.000203,
+      "fresh_usd": 0.001287,
+      "calls": 1.5
+    },
+    {
+      "person_id": "p_lanka_divyabharathi",
+      "name_as_printed": "Lanka Divyabharathi",
+      "cost_usd": 0.000186,
+      "fresh_usd": 0.00127,
+      "calls": 1.5
+    },
+    {
+      "person_id": "p_spacenet_enterprises_india_limited",
+      "name_as_printed": "Spacenet Enterprises India Limited",
+      "cost_usd": 0.0,
+      "fresh_usd": 0.001084,
+      "calls": 0.5
+    }
+  ]
+}

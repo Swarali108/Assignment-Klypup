@@ -1,0 +1,20 @@
+{
+  "event_id": "gallantt_ispat_insider_sale_2026w43",
+  "event_type": "insider_sale",
+  "company": "Gallantt Ispat Limited",
+  "documents": [],
+  "records": [
+    "2a9373b77e6d2f8c",
+    "bf3d56a9575acfe7"
+  ],
+  "records_file": "outputs/signals/insider.json",
+  "event_date": "2026-10-22",
+  "discovery": {
+    "sources": [
+      "bse_insider_sale",
+      "nse_insider_sale"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:48:41+00:00"
+  }
+}

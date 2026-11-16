@@ -1,0 +1,116 @@
+{
+  "event_id": "pasufin_bulk_deal_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_anand_mohan",
+      "name_as_printed": "ANAND MOHAN .",
+      "fields": {
+        "name": "ANAND MOHAN .",
+        "role": "unknown",
+        "why_money": "sold 40,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹18.72 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹18.72 lakh (40,000 shares × ₹46.81 = ₹18.72 lakh (BSE 13/11/2026 · PASUFIN · ANAND MOHAN . · S · 40000))"
+      },
+      "placeholders": {
+        "name": "ANAND MOHAN .",
+        "role": "unknown",
+        "amount": "₹18.72 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹18.72 lakh",
+        "shares_offered": "40,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "ANAND MOHAN . sold 40,000 shares in a bulk deal, so money is coming to them.",
+        "₹18.72 lakh from the sale, settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Ask how they plan to use the proceeds, since the sale settled today.",
+        "Role is unknown, so confirm their position before the call."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} sold {shares_offered} in a bulk deal, so money is coming to them.",
+            "{proceeds} from the sale, {timing}.",
+            "Ask how they plan to use the proceeds, since the sale settled {event_age}.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "lines": [
+            "ANAND MOHAN . sold 40,000 shares in a bulk deal, so money is coming to them.",
+            "₹18.72 lakh from the sale, settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+            "Ask how they plan to use the proceeds, since the sale settled today.",
+            "Role is unknown, so confirm their position before the call."
+          ],
+          "problem": null
+        }
+      ]
+    },
+    {
+      "person_id": "p_ramaswamy_anand",
+      "name_as_printed": "RAMASWAMY ANAND .",
+      "fields": {
+        "name": "RAMASWAMY ANAND .",
+        "role": "unknown",
+        "why_money": "sold 30,000 shares in a bulk deal on 13 Nov 2026",
+        "amount": "₹14.04 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "event_age": "today",
+        "event_is": "recent",
+        "proceeds": "₹14.04 lakh (30,000 shares × ₹46.81 = ₹14.04 lakh (BSE 13/11/2026 · PASUFIN · RAMASWAMY ANAND . · S · 30000))"
+      },
+      "placeholders": {
+        "name": "RAMASWAMY ANAND .",
+        "role": "unknown",
+        "amount": "₹14.04 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "proceeds": "₹14.04 lakh",
+        "shares_offered": "30,000 shares",
+        "event_age": "today"
+      },
+      "lines": [
+        "RAMASWAMY ANAND . is a holder whose role is unknown, and they sold 30,000 shares in a bulk deal today.",
+        "Proceeds of ₹14.04 lakh were settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money has already arrived.",
+        "Ask RAMASWAMY ANAND . whether they want to plan where the ₹14.04 lakh goes next."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is an unknown-role holder who sold {shares_offered} in a bulk deal on 13 Nov 2026.",
+            "Proceeds of {proceeds} were {timing}, so the money is already in hand.",
+            "Ask whether {name} wants to plan where the {amount} goes next.",
+            "Role is unknown, so confirm {name}'s position before the call."
+          ],
+          "lines": [
+            "{name} is an unknown-role holder who sold {shares_offered} in a bulk deal on 13 Nov 2026.",
+            "Proceeds of {proceeds} were {timing}, so the money is already in hand.",
+            "Ask whether {name} wants to plan where the {amount} goes next.",
+            "Role is unknown, so confirm {name}'s position before the call."
+          ],
+          "problem": "writes numbers instead of placeholders: 13, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, and they sold {shares_offered} in a bulk deal {event_age}.",
+            "Proceeds of {proceeds} were {timing}, so the money has already arrived.",
+            "Ask {name} whether they want to plan where the {amount} goes next."
+          ],
+          "lines": [
+            "RAMASWAMY ANAND . is a holder whose role is unknown, and they sold 30,000 shares in a bulk deal today.",
+            "Proceeds of ₹14.04 lakh were settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money has already arrived.",
+            "Ask RAMASWAMY ANAND . whether they want to plan where the ₹14.04 lakh goes next."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

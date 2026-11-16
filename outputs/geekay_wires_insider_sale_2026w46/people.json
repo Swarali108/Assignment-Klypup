@@ -1,0 +1,321 @@
+{
+  "event_id": "geekay_wires_insider_sale_2026w46",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "11 Nov 2026",
+    "sale_date_parsed": "2026-11-11",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "14,600 shares sold by 2 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
+        "records": 167,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_ankush_agarwal_huf",
+      "name_as_printed": "ANKUSH AGARWAL HUF",
+      "names_as_printed": [
+        "ANKUSH AGARWAL HUF"
+      ],
+      "name_clean": "ankush agarwal huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "846c62c45b120ee6"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 7000,
+          "record_ids": [
+            "846c62c45b120ee6"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | GEEKAYWIRE | ANKUSH AGARWAL HUF | SELL | 7,000 shares | value 189223 | Market Sale | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "846c62c45b120ee6",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,000",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "189223",
+          "rupees_high": "189223",
+          "crore_low": "0.02",
+          "crore_high": "0.02",
+          "display": "₹1.89 lakh",
+          "working": "7,000 shares, value as printed ₹1.89 lakh (NSE XBRL context Disclosure1)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "7,000",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | GEEKAYWIRE | ANKUSH AGARWAL HUF | SELL | 7,000 shares | value 189223 | Market Sale | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹1.89 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | GEEKAYWIRE | ANKUSH AGARWAL HUF | SELL | 7,000 shares | value 189223 | Market Sale | 2026-11-11"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "trade_date": "2026-11-11",
+          "settles_on": "2026-11-12",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "11 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173344798_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | GEEKAYWIRE | ANKUSH AGARWAL HUF | SELL | 7,000 shares | value 189223 | Market Sale | 2026-11-11"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 7,000 shares (Market Sale) on 11 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    },
+    {
+      "person_id": "p_praveen_kumar_agarwal_huf",
+      "name_as_printed": "PRAVEEN KUMAR AGARWAL HUF",
+      "names_as_printed": [
+        "PRAVEEN KUMAR AGARWAL HUF"
+      ],
+      "name_clean": "praveen kumar agarwal huf",
+      "holder_type": "family_vehicle",
+      "holder_type_reason": "contains 'huf'",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "098da688f6de3663"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 7600,
+          "record_ids": [
+            "098da688f6de3663"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | GEEKAYWIRE | PRAVEEN KUMAR AGARWAL HUF | SELL | 7,600 shares | value 203496 | Market Sale | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "098da688f6de3663",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "7,600",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "203496",
+          "rupees_high": "203496",
+          "crore_low": "0.02",
+          "crore_high": "0.02",
+          "display": "₹2.03 lakh",
+          "working": "7,600 shares, value as printed ₹2.03 lakh (NSE XBRL context Disclosure1)",
+          "price_kind": "trade_value",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "7,600",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | GEEKAYWIRE | PRAVEEN KUMAR AGARWAL HUF | SELL | 7,600 shares | value 203496 | Market Sale | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_value",
+              "value": "₹2.03 lakh",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | GEEKAYWIRE | PRAVEEN KUMAR AGARWAL HUF | SELL | 7,600 shares | value 203496 | Market Sale | 2026-11-11"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "trade_date": "2026-11-11",
+          "settles_on": "2026-11-12",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "11 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_15428_20261113_173552044_WEB.html",
+                  "pdf_index": null,
+                  "printed_page": "XBRL context Disclosure1",
+                  "row_ref": "XBRL context Disclosure1",
+                  "quote": "NSE | GEEKAYWIRE | PRAVEEN KUMAR AGARWAL HUF | SELL | 7,600 shares | value 203496 | Market Sale | 2026-11-11"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 7,600 shares (Market Sale) on 11 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "family_vehicle": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 2,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 2,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 0
+  }
+}

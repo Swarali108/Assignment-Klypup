@@ -1,0 +1,37 @@
+{
+  "event_id": "dcm_shriram_ind_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "DCM Shriram Ind Ltd",
+  "documents": [],
+  "records": [
+    "2c9efa57372f1eb8",
+    "2d5fe32481af40e7",
+    "2e5a7545b93489b3",
+    "30207d73d5ec68e1",
+    "33344a41f8af7610",
+    "40354c3c0cbf0965",
+    "45295158448bce76",
+    "4c1904f536113ccc",
+    "51b174135061f733",
+    "549601cab2c74ee7",
+    "5ad7a65996731772",
+    "7175dd745471b49c",
+    "7d24859371a0c76f",
+    "8d6411fa1f184bf3",
+    "95ed53e695cb301a",
+    "bb1d446903ec46dd",
+    "d465e5bc424841fd",
+    "df6d8239447c78ed",
+    "e3662b42ab056e5e",
+    "e5aa442a2467a047"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-29",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

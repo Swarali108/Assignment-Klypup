@@ -1,0 +1,23 @@
+{
+  "event_id": "cyient_bulk_deal_2026w43",
+  "event_type": "block_deal",
+  "company": "Cyient Limited",
+  "documents": [],
+  "records": [
+    "142d57f2b65af4fc",
+    "6208f785aa8b7826",
+    "6653d9218dc1f65c",
+    "6c039a8e30f80717",
+    "88ece45bc6e7dfb6",
+    "ec9ea01cb8667011"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-23",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

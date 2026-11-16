@@ -1,0 +1,144 @@
+{
+  "event_id": "ncl_industries_insider_sale_2026w44",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "26 Oct 2026",
+    "sale_date_parsed": "2026-10-26",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "3,09,034 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
+        "records": 167,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 1,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_vinodrai_v_goradia",
+      "name_as_printed": "Vinodrai V Goradia",
+      "names_as_printed": [
+        "Vinodrai V Goradia"
+      ],
+      "name_clean": "vinodrai v goradia",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "exchange_record": "Promoter"
+      },
+      "side": "sell",
+      "record_ids": [
+        "0b8daa1dae850f61"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-10-26",
+          "quantity": 309034,
+          "record_ids": [
+            "0b8daa1dae850f61"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [
+        "mode unsure: not printed as a market or off-market sale (Others); confirm it was for cash"
+      ],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2568_20261028_143732664_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2568_20261028_143732664_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | NCLIND | Vinodrai V Goradia | SELL | 3,09,034 shares | value 0 | Others | 2026-10-26",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "0b8daa1dae850f61",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "3,09,034",
+      "amounts": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "NSE XBRL context Disclosure1 prints neither a trade value nor a price"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "unknown",
+          "reason": "mode of sale not printed as a market sale (Others), so the settlement date is not known",
+          "trade_date": "2026-10-26",
+          "days_since": 21
+        }
+      },
+      "why_money": "sold 3,09,034 shares (Others) on 26 Oct 2026",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "mode unsure: not printed as a market or off-market sale (Others); confirm it was for cash",
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 1,
+    "by_holder_type": {
+      "person": 1
+    },
+    "by_confidence": {
+      "low": 1
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 1
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 1,
+    "index_lookups": 1,
+    "follow_on_matches": 0
+  }
+}

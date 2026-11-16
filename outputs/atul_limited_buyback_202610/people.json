@@ -1,0 +1,43 @@
+{
+  "event_id": "atul_limited_buyback_202610",
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "no verified buyback price"
+  },
+  "buyback_dates": {
+    "payment": {
+      "status": "unknown",
+      "reason": "payment_date not verified"
+    },
+    "closing": {
+      "status": "unknown",
+      "reason": "closing_date not verified"
+    }
+  },
+  "acceptance": {
+    "status": "unknown",
+    "reason": "no verified acceptance ratio"
+  },
+  "people": [],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 0,
+    "by_holder_type": {},
+    "by_confidence": {},
+    "sellers": 0,
+    "sellers_unverified": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {},
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 0,
+    "follow_on_matches": 0
+  }
+}

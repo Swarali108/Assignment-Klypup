@@ -1,0 +1,58 @@
+{
+  "event_id": "v2_retail_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ram_chandra_agarwal",
+      "name_as_printed": "Ram Chandra Agarwal",
+      "fields": {
+        "name": "Ram Chandra Agarwal",
+        "role": "Promoter",
+        "why_money": "sold 62,60,000 shares (Block Deal) on 6 Nov 2026",
+        "amount": "₹100.16 crore",
+        "timing": "unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known",
+        "event": "proceeds, timing unknown",
+        "event_age": "10 days ago",
+        "event_is": "recent",
+        "proceeds": "₹100.16 crore (62,60,000 shares, value as printed ₹100.16 crore (NSE XBRL context Disclosure1))",
+        "unknowns": [
+          "timing: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known"
+        ]
+      },
+      "placeholders": {
+        "name": "Ram Chandra Agarwal",
+        "role": "Promoter",
+        "amount": "₹100.16 crore",
+        "timing": "unknown: mode of sale not printed as a market sale (Block Deal), so the settlement date is not known",
+        "proceeds": "₹100.16 crore",
+        "shares_offered": "62,60,000 shares",
+        "event_age": "10 days ago"
+      },
+      "lines": [
+        "Ram Chandra Agarwal, Promoter, is receiving proceeds from a block sale of 62,60,000 shares made 10 days ago.",
+        "Proceeds total ₹100.16 crore; the settlement date is not known, since the sale was not printed as a market sale.",
+        "Ask whether they plan to redeploy the proceeds, since the holder's remaining stake and next steps may shape the conversation.",
+        "Timing is unknown because the sale is printed as a Block Deal, so the settlement date cannot be confirmed."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ram Chandra Agarwal, Promoter, is receiving proceeds from a block sale of {shares_offered} made {event_age}.",
+            "Proceeds total {proceeds}; the settlement date is not known, since the sale was not printed as a market sale.",
+            "Ask whether they plan to redeploy the proceeds, since the holder's remaining stake and next steps may shape the conversation.",
+            "Timing is unknown because the sale is printed as a Block Deal, so the settlement date cannot be confirmed."
+          ],
+          "lines": [
+            "Ram Chandra Agarwal, Promoter, is receiving proceeds from a block sale of 62,60,000 shares made 10 days ago.",
+            "Proceeds total ₹100.16 crore; the settlement date is not known, since the sale was not printed as a market sale.",
+            "Ask whether they plan to redeploy the proceeds, since the holder's remaining stake and next steps may shape the conversation.",
+            "Timing is unknown because the sale is printed as a Block Deal, so the settlement date cannot be confirmed."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

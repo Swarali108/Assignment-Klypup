@@ -1,0 +1,41 @@
+{
+  "event_id": "zee_entertainment_enterprises_limited_buyback_202611",
+  "event_type": "buyback",
+  "company": "Zee Entertainment Enterprises Ltd",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/ZEEL_12112026164804_SEIntimationBMOutcome13NovBBsigned.pdf",
+      "doc_type": "announcement",
+      "note": "Zee Entertainment Enterprises Limited - Buyback",
+      "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8626e6e3-0d9b-405d-8a33-bea63e79a670.pdf",
+      "doc_type": "announcement",
+      "note": "Zee Entertainment Enterprises Ltd - Buy back",
+      "from_class": "buyback_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Zee Entertainment Enterprises Limited - Buyback",
+        "link": "https://nsearchives.nseindia.in/corporate/ZEEL_12112026164804_SEIntimationBMOutcome13NovBBsigned.pdf",
+        "published": "2026-11-12",
+        "class": "buyback_announcement"
+      },
+      {
+        "title": "Zee Entertainment Enterprises Ltd - Buy back",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8626e6e3-0d9b-405d-8a33-bea63e79a670.pdf",
+        "published": "2026-11-12",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

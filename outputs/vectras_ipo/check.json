@@ -1,0 +1,35 @@
+{
+  "event_id": "vectras_ipo",
+  "event_type": "ipo",
+  "documents": [
+    {
+      "url": "https://vectrasgroup.com/wp-content/uploads/2026/11/Prospectus_VEL_2026_Clean.pdf",
+      "doc_type": "prospectus",
+      "fetched": "yes",
+      "pages": 415,
+      "low_text_pages": [],
+      "sections_found": {
+        "selling_shareholders": "p. 84",
+        "offer_structure": "p. 84",
+        "waca": "p. 105",
+        "promoter_holding": "p. 78",
+        "shareholding_pattern": "p. 74",
+        "kmp": "p. 209",
+        "esop": "p. 74",
+        "lock_in": "p. 78",
+        "price": "p. 97"
+      },
+      "sections_missing": [
+        "buyback_entitlement"
+      ]
+    }
+  ],
+  "lock_in_wording": {
+    "minimum_promoters_contribution: Minimum Promoters' Contribution": "found on p. 78",
+    "minimum_promoters_contribution: fifty percent of promoter shares above the minimum contribution": "found on p. 79",
+    "minimum_promoters_contribution: remaining fifty percent of promoter shares above the minimum contribution": "found on p. 79",
+    "pre_offer_capital: pre-offer capital held by persons other than the promoters": "found on p. 79",
+    "ofs_proceeds_at_listing": "not found"
+  },
+  "seconds": 4.7
+}

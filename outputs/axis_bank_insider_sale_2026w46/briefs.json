@@ -1,0 +1,70 @@
+{
+  "event_id": "axis_bank_insider_sale_2026w46",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_monish_saraf",
+      "name_as_printed": "Monish Saraf",
+      "fields": {
+        "name": "Monish Saraf",
+        "role": "unknown",
+        "why_money": "sold 2,000 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹26.84 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "event_age": "4 days ago",
+        "event_is": "recent",
+        "proceeds": "₹26.84 lakh (2,000 shares, value as printed ₹26.84 lakh (NSE XBRL context Disclosure1))"
+      },
+      "placeholders": {
+        "name": "Monish Saraf",
+        "role": "unknown",
+        "amount": "₹26.84 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "proceeds": "₹26.84 lakh",
+        "shares_offered": "2,000 shares",
+        "event_age": "4 days ago"
+      },
+      "lines": [
+        "Monish Saraf is a holder whose role is unknown, receiving money from a market sale of shares.",
+        "Proceeds of ₹26.84 lakh from 2,000 shares were settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), so the money is already in hand.",
+        "Open by asking how they plan to deploy the ₹26.84 lakh they have received.",
+        "Confirm their position and relationship before discussing next steps, since the role is unknown."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving money from selling shares on 11 Nov 2026.",
+            "Proceeds of {proceeds} for {shares_offered} settled {event_age}, so the money is already in hand.",
+            "Open with the completed sale and ask how they plan to deploy the {amount} now received.",
+            "Role is unknown, so confirm their position and relationship before discussing next steps."
+          ],
+          "lines": [
+            "{name} is a holder whose role is unknown, receiving money from selling shares on 11 Nov 2026.",
+            "Proceeds of {proceeds} for {shares_offered} settled {event_age}, so the money is already in hand.",
+            "Open with the completed sale and ask how they plan to deploy the {amount} now received.",
+            "Role is unknown, so confirm their position and relationship before discussing next steps."
+          ],
+          "problem": "writes numbers instead of placeholders: 11, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is {role}, receiving money from a market sale of shares.",
+            "Proceeds of {proceeds} from {shares_offered} were {timing}, so the money is already in hand.",
+            "Open by asking how they plan to deploy the {amount} they have received.",
+            "Confirm their position and relationship before discussing next steps, since the role is unknown."
+          ],
+          "lines": [
+            "Monish Saraf is a holder whose role is unknown, receiving money from a market sale of shares.",
+            "Proceeds of ₹26.84 lakh from 2,000 shares were settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), so the money is already in hand.",
+            "Open by asking how they plan to deploy the ₹26.84 lakh they have received.",
+            "Confirm their position and relationship before discussing next steps, since the role is unknown."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

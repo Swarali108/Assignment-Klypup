@@ -1,0 +1,29 @@
+{
+  "event_id": "aeroflex_industries_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Aeroflex Industries Ltd",
+  "documents": [],
+  "records": [
+    "347c6f71efd0c26e",
+    "3ea683efa83cdc21",
+    "5909ab4b68b1ac59",
+    "63d052108ebdb859",
+    "8e313b4bad050051",
+    "8e8c275aff26d232",
+    "a266e74d71edf415",
+    "b59710eebd5a0e76",
+    "c75c869952a39b5d",
+    "c884fadcf387623d",
+    "cf879aea7ff46520",
+    "fcdf616d1ab3bdb4"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-30",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

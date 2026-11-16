@@ -1,0 +1,483 @@
+{
+  "event_id": "sahana_system_bulk_deal_2026w46",
+  "event_type": "block_deal",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "trade_price",
+    "low": "1171.2",
+    "high": "1171.2",
+    "inputs": [
+      {
+        "field": "trade_price",
+        "value": "₹1,171.2",
+        "evidence": [
+          {
+            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "pdf_index": null,
+            "printed_page": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+            "row_ref": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+            "quote": "NSE | SAHANA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 53,400 shares | price 1171.2 | 2026-11-11"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "11 Nov 2026",
+    "sale_date_parsed": "2026-11-11",
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "53,400 shares sold by 1 seller(s)"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/deals.json",
+    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "source_status": {
+      "nse_bulk_deals": {
+        "status": "ok",
+        "note": "1250 rows read; NSE returned its 70-row maximum for 2026-10-19, 2026-10-21, 2026-10-22, 2026-10-23, 2026-10-26, 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-12, 2026-11-13: those lists may be cut (the archive file has the full latest day)",
+        "records": 1249,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_block_deals": {
+        "status": "ok",
+        "note": "92 rows read",
+        "records": 87,
+        "http_status": null,
+        "url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "nse_deals_archive": {
+        "status": "ok",
+        "note": "bulk.csv: 136 rows, 136 in the window; block.csv: 26 rows, 26 in the window",
+        "records": 162,
+        "http_status": null,
+        "url": "https://www.nseindia.in/all-reports",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_bulk_deals": {
+        "status": "ok",
+        "note": "51 rows read, 51 in the window",
+        "records": 51,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      },
+      "bse_block_deals": {
+        "status": "ok",
+        "note": "31 rows read, 31 in the window",
+        "records": 29,
+        "http_status": null,
+        "url": "https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 2,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_mansi_share_and_stock_broking_private_limited",
+      "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED"
+      ],
+      "name_clean": "mansi share and stock broking private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "108e026ad6c37b7a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 53400,
+          "record_ids": [
+            "108e026ad6c37b7a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+          "row_ref": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+          "quote": "NSE | SAHANA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 53,400 shares | price 1171.2 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "108e026ad6c37b7a",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "verified",
+      "shares_offered": "53,400",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "62542080.0",
+          "rupees_high": "62542080.0",
+          "crore_low": "6.25",
+          "crore_high": "6.25",
+          "display": "₹6.25 crore",
+          "working": "53,400 shares × ₹1,171.2 = ₹6.25 crore (NSE 11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400)",
+          "price_kind": "trade_price",
+          "inputs": [
+            {
+              "field": "shares_sold",
+              "value": "53,400",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+                  "row_ref": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+                  "quote": "NSE | SAHANA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 53,400 shares | price 1171.2 | 2026-11-11"
+                }
+              ]
+            },
+            {
+              "field": "trade_price",
+              "value": "₹1,171.2",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+                  "row_ref": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+                  "quote": "NSE | SAHANA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 53,400 shares | price 1171.2 | 2026-11-11"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "settles",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "trade_date": "2026-11-11",
+          "settles_on": "2026-11-12",
+          "rule": "T+1",
+          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
+          "sources": [
+            {
+              "field": "trade_date",
+              "value": "11 Nov 2026",
+              "evidence": [
+                {
+                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+                  "pdf_index": null,
+                  "printed_page": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+                  "row_ref": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · SELL · 53400",
+                  "quote": "NSE | SAHANA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | SELL | 53,400 shares | price 1171.2 | 2026-11-11"
+                }
+              ]
+            }
+          ],
+          "days_since": 4
+        }
+      },
+      "why_money": "sold 53,400 shares in a bulk deal on 11 Nov 2026",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹28.15 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹34.68 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+          "company": "Jain Irrigation Systems L",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.98 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+          "company": "Jain Irrigation Systems L",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "marushika_technology_bulk_deal_2026w45",
+          "company": "Marushika Technology Ltd",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹1.20 crore",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹98.61 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        }
+      ]
+    },
+    {
+      "person_id": "p_mansi_share_and_stock_broking_private_limited_bought",
+      "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+      "names_as_printed": [
+        "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED"
+      ],
+      "name_clean": "mansi share and stock broking private limited",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'private'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "buy",
+      "record_ids": [
+        "808333c09943a3ac"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 77550,
+          "record_ids": [
+            "808333c09943a3ac"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+          "pdf_index": null,
+          "printed_page": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 77550",
+          "row_ref": "11-NOV-2026 · SAHANA · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 77550",
+          "quote": "NSE | SAHANA | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | BUY | 77,550 shares | price 1167.8 | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "808333c09943a3ac",
+          "exchange": "NSE",
+          "kind": "bulk_deal"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "bought shares; buying is not coming into money"
+        }
+      },
+      "why_money": "bought 77,550 shares in a bulk deal on 11 Nov 2026",
+      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange deal report (structured record, read by code)"
+        ]
+      },
+      "follow_on": [
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹28.15 crore",
+          "trigger_date": "2026-10-23",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w43",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹34.68 crore",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "hero_motors_bulk_deal_2026w44",
+          "company": "Hero Motors Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+          "company": "Jain Irrigation Systems L",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹10.98 crore",
+          "trigger_date": "2026-11-02",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
+          "company": "Jain Irrigation Systems L",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "marushika_technology_bulk_deal_2026w45",
+          "company": "Marushika Technology Ltd",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹1.20 crore",
+          "trigger_date": "2026-11-09",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹98.61 lakh",
+          "trigger_date": "2026-10-27",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "shah_alloys_bulk_deal_2026w44",
+          "company": "Shah Alloys Limited",
+          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
+        }
+      ]
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 2,
+    "by_holder_type": {
+      "entity": 2
+    },
+    "by_confidence": {
+      "high": 2
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "buyers": 1,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 2
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 2,
+    "follow_on_matches": 18
+  }
+}

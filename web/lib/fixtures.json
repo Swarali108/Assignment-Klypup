@@ -1,0 +1,1140 @@
+{
+ "summary": {
+  "people_to_call": 21,
+  "cash_now_cr": 186.75,
+  "new_events_this_week": 3,
+  "events_processed": 16,
+  "as_of": "2026-11-15",
+  "as_of_display": "15 Nov 2026"
+ },
+ "today": [
+  {
+   "id": "sedemac_ipo/p_ashwini_amit_dixit",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_ashwini_amit_dixit",
+    "name": "Ashwini Amit Dixit",
+    "role": "Promoter Group Selling Shareholder",
+    "holder_type": "person"
+   },
+   "tier": "cash_now",
+   "tier_label": "Cash in hand",
+   "amount": {
+    "value_cr": 9.13,
+    "low_cr": 9.13,
+    "display": "₹9.13 Cr",
+    "detail": "up to ₹9.13 crore, if all offered shares are sold",
+    "kind": "cash",
+    "estimate": true,
+    "reason": null,
+    "source": "proceeds"
+   },
+   "timing": {
+    "label": "In hand since 11 Mar 2026",
+    "status": "unlocked",
+    "date_iso": "2026-03-11",
+    "past": true
+   },
+   "confidence": {
+    "level": "high",
+    "reason": "Name, shares and price all read from the same filing table",
+    "reasons": [
+     "Name, shares and price all read from the same filing table"
+    ]
+   },
+   "why": "Sells up to 67,500 shares in the offer for sale",
+   "brief_first_line": "Ashwini Amit Dixit, Promoter Group Selling Shareholder, is due proceeds from selling up to 67,500 shares in the offer for sale.",
+   "household_id": "family_1",
+   "rank": 2,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  },
+  {
+   "id": "sedemac_ipo/p_nrjn_family_trust_represented_by_entrust_family_office_legal_trusteeship_services_private_limited",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_nrjn_family_trust_represented_by_entrust_family_office_legal_trusteeship_services_private_limited",
+    "name": "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited)",
+    "role": "Investor Selling Shareholders",
+    "holder_type": "family_vehicle"
+   },
+   "tier": "cash_now",
+   "tier_label": "Cash in hand",
+   "amount": {
+    "value_cr": 141.96,
+    "low_cr": 141.96,
+    "display": "₹141.96 Cr",
+    "detail": "up to ₹141.96 crore, if all offered shares are sold",
+    "kind": "cash",
+    "estimate": true,
+    "reason": null,
+    "source": "proceeds"
+   },
+   "timing": {
+    "label": "In hand since 11 Mar 2026",
+    "status": "in_hand",
+    "date_iso": "2026-03-11",
+    "past": true
+   },
+   "confidence": {
+    "level": "medium",
+    "reason": "Shares verified; amount is valued at the offer price",
+    "reasons": [
+     "Shares verified; amount is valued at the offer price"
+    ]
+   },
+   "why": "Sells up to 1,050,000 shares in the offer for sale",
+   "brief_first_line": "NRJN Family Trust, an Investor Selling Shareholder, is receiving money from selling shares in the offer for sale.",
+   "household_id": null,
+   "rank": 3,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  },
+  {
+   "id": "sedemac_ipo/p_cyrus_jamshed_guzder",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_cyrus_jamshed_guzder",
+    "name": "Cyrus Jamshed Guzder",
+    "role": "Investor Selling Shareholders",
+    "holder_type": "person"
+   },
+   "tier": "cash_now",
+   "tier_label": "Cash in hand",
+   "amount": {
+    "value_cr": 17.85,
+    "low_cr": 17.85,
+    "display": "₹17.85 Cr",
+    "detail": "up to ₹17.85 crore, if all offered shares are sold",
+    "kind": "cash",
+    "estimate": true,
+    "reason": null,
+    "source": "proceeds"
+   },
+   "timing": {
+    "label": "In hand since 11 Mar 2026",
+    "status": "in_hand",
+    "date_iso": "2026-03-11",
+    "past": true
+   },
+   "confidence": {
+    "level": "medium",
+    "reason": "Shares verified; amount is valued at the offer price",
+    "reasons": [
+     "Shares verified; amount is valued at the offer price"
+    ]
+   },
+   "why": "Sells up to 132,000 shares in the offer for sale",
+   "brief_first_line": "Cyrus Jamshed Guzder, an Investor Selling Shareholder, sells up to 132,000 shares in the offer for sale.",
+   "household_id": null,
+   "rank": 4,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  },
+  {
+   "id": "sedemac_ipo/p_manish_sharma",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_manish_sharma",
+    "name": "Manish Sharma",
+    "role": "Promoter Selling Shareholder",
+    "holder_type": "person"
+   },
+   "tier": "cash_now",
+   "tier_label": "Cash in hand",
+   "amount": {
+    "value_cr": 6.08,
+    "low_cr": 6.08,
+    "display": "₹6.08 Cr",
+    "detail": "up to ₹6.08 crore, if all offered shares are sold",
+    "kind": "cash",
+    "estimate": true,
+    "reason": null,
+    "source": "proceeds"
+   },
+   "timing": {
+    "label": "In hand since 11 Mar 2026",
+    "status": "in_hand",
+    "date_iso": "2026-03-11",
+    "past": true
+   },
+   "confidence": {
+    "level": "high",
+    "reason": "Name, shares and price all read from the same filing table",
+    "reasons": [
+     "Name, shares and price all read from the same filing table"
+    ]
+   },
+   "why": "Sells up to 45,000 shares in the offer for sale",
+   "brief_first_line": "Manish Sharma, Promoter Selling Shareholder, receives money by selling up to 45,000 shares in the offer for sale.",
+   "household_id": "sedemac_ipo:family_3",
+   "rank": 8,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   },
+   "household": {
+    "id": "sedemac_ipo:family_3",
+    "label": "Sharma household",
+    "reason": "'Priyanka Manish Sharma' contains 'Manish Sharma'",
+    "members": [
+     {
+      "id": "sedemac_ipo/p_manish_sharma",
+      "name": "Manish Sharma",
+      "role": "Promoter Selling Shareholder",
+      "tier": "cash_now",
+      "amount": {
+       "value_cr": 6.08,
+       "low_cr": 6.08,
+       "display": "₹6.08 Cr",
+       "detail": "up to ₹6.08 crore, if all offered shares are sold",
+       "kind": "cash",
+       "estimate": true,
+       "reason": null,
+       "source": "proceeds"
+      }
+     },
+     {
+      "id": "sedemac_ipo/p_priyanka_manish_sharma",
+      "name": "Priyanka Manish Sharma",
+      "role": "Promoter Group",
+      "tier": "unlock",
+      "amount": {
+       "value_cr": 7.71,
+       "low_cr": 7.71,
+       "display": "₹7.71 Cr",
+       "detail": "₹7.71 crore (estimate, valued at offer price); shares, not cash",
+       "kind": "shares",
+       "estimate": true,
+       "reason": null,
+       "source": "retained"
+      }
+     }
+    ],
+    "printed_members": [
+     "Manish Sharma",
+     "Priyanka Manish Sharma"
+    ]
+   },
+   "members": [
+    {
+     "id": "sedemac_ipo/p_priyanka_manish_sharma",
+     "name": "Priyanka Manish Sharma",
+     "role": "Promoter Group",
+     "tier": "unlock",
+     "amount": {
+      "value_cr": 7.71,
+      "low_cr": 7.71,
+      "display": "₹7.71 Cr",
+      "detail": "₹7.71 crore (estimate, valued at offer price); shares, not cash",
+      "kind": "shares",
+      "estimate": true,
+      "reason": null,
+      "source": "retained"
+     }
+    }
+   ],
+   "household_total_cr": null
+  },
+  {
+   "id": "sedemac_ipo/p_mallika_r_iyer",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_mallika_r_iyer",
+    "name": "Mallika R Iyer",
+    "role": "Promoter Group",
+    "holder_type": "person"
+   },
+   "tier": "unlock",
+   "tier_label": "Shares just unlocked",
+   "amount": {
+    "value_cr": 166.9,
+    "low_cr": 166.9,
+    "display": "₹166.90 Cr",
+    "detail": "₹166.90 crore (estimate, valued at offer price); shares, not cash",
+    "kind": "shares",
+    "estimate": true,
+    "reason": null,
+    "source": "retained"
+   },
+   "timing": {
+    "label": "Unlocked since 9 Sep 2026",
+    "status": "unlocked",
+    "date_iso": "2026-09-09",
+    "past": true
+   },
+   "confidence": {
+    "level": "medium",
+    "reason": "Shares verified; amount is valued at the offer price",
+    "reasons": [
+     "Shares verified; amount is valued at the offer price"
+    ]
+   },
+   "why": "Holds 1,234,500 shares before the offer; not selling in it",
+   "brief_first_line": "Mallika R Iyer, Promoter Group, holds 1,234,500 shares before the offer and is not selling in it.",
+   "household_id": null,
+   "rank": 1,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  },
+  {
+   "id": "sedemac_ipo/p_ravikumar_krishnamurthi",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_ravikumar_krishnamurthi",
+    "name": "Ravikumar Krishnamurthi",
+    "role": "Promoter Group",
+    "holder_type": "person"
+   },
+   "tier": "unlock",
+   "tier_label": "Shares just unlocked",
+   "amount": {
+    "value_cr": 2.03,
+    "low_cr": 2.03,
+    "display": "₹2.03 Cr",
+    "detail": "₹2.03 crore (estimate, valued at offer price); shares, not cash",
+    "kind": "shares",
+    "estimate": true,
+    "reason": null,
+    "source": "retained"
+   },
+   "timing": {
+    "label": "Unlocked since 9 Sep 2026",
+    "status": "unlocked",
+    "date_iso": "2026-09-09",
+    "past": true
+   },
+   "confidence": {
+    "level": "medium",
+    "reason": "Shares verified; amount is valued at the offer price",
+    "reasons": [
+     "Shares verified; amount is valued at the offer price"
+    ]
+   },
+   "why": "Holds 15,000 shares before the offer; not selling in it",
+   "brief_first_line": "Ravikumar Krishnamurthi, Promoter Group, holds 15,000 shares before the offer and is not selling in it.",
+   "household_id": null,
+   "rank": 13,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  },
+  {
+   "id": "sedemac_ipo/p_amit_arun_dixit",
+   "event": {
+    "id": "sedemac_ipo",
+    "company": "SEDEMAC Mechatronics",
+    "type": "ipo",
+    "type_label": "IPO"
+   },
+   "person": {
+    "id": "p_amit_arun_dixit",
+    "name": "Amit Arun Dixit",
+    "role": "Promoters",
+    "holder_type": "person"
+   },
+   "tier": "holding",
+   "tier_label": "Holds shares",
+   "amount": {
+    "value_cr": 168.32,
+    "low_cr": 168.32,
+    "display": "₹168.32 Cr",
+    "detail": "₹168.32 crore (estimate, valued at offer price); shares, not cash",
+    "kind": "shares",
+    "estimate": true,
+    "reason": null,
+    "source": "retained"
+   },
+   "timing": {
+    "label": "Locked until 9 Sep 2027",
+    "status": "locked",
+    "date_iso": "2027-09-09",
+    "past": false
+   },
+   "confidence": {
+    "level": "medium",
+    "reason": "Shares verified; amount is valued at the offer price",
+    "reasons": [
+     "Shares verified; amount is valued at the offer price"
+    ]
+   },
+   "why": "Holds 1,245,000 shares before the offer; not selling in it",
+   "brief_first_line": "Amit Arun Dixit, a Promoter, holds shares that unlocked on 9 Sep 2026, 67 days ago, with no cash received yet.",
+   "household_id": "family_1",
+   "rank": 16,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  },
+  {
+   "id": "spacenet_ofs/p_lanka_divyabharathi",
+   "event": {
+    "id": "spacenet_ofs",
+    "company": "Spacenet Enterprises India",
+    "type": "ofs",
+    "type_label": "Offer for sale"
+   },
+   "person": {
+    "id": "p_lanka_divyabharathi",
+    "name": "Lanka Divyabharathi",
+    "role": "Promoter Group",
+    "holder_type": "person"
+   },
+   "tier": "cash_now",
+   "tier_label": "Cash in hand",
+   "amount": {
+    "value_cr": null,
+    "low_cr": null,
+    "display": "Amount not disclosed",
+    "detail": null,
+    "kind": "cash",
+    "estimate": true,
+    "reason": "The notice prints one total for all sellers, not each seller's own shares",
+    "source": "proceeds"
+   },
+   "timing": {
+    "label": "Settles after the sale on 21 Apr 2026",
+    "status": "past",
+    "date_iso": "2026-04-21",
+    "past": true
+   },
+   "confidence": {
+    "level": "medium",
+    "reason": "Shares verified; amount is valued at the offer price",
+    "reasons": [
+     "Shares verified; amount is valued at the offer price"
+    ]
+   },
+   "why": "Sells in the offer for sale through the stock exchange; own shares not printed",
+   "brief_first_line": "Lanka Divyabharathi, Promoter Group, sells shares in the offer for sale through the stock exchange.",
+   "household_id": null,
+   "rank": 1,
+   "flags": [],
+   "rm": {
+    "status": "to_call",
+    "follow_up": null,
+    "note": ""
+   }
+  }
+ ],
+ "person": {
+  "id": "sedemac_ipo/p_manish_sharma",
+  "event": {
+   "id": "sedemac_ipo",
+   "company": "SEDEMAC Mechatronics Limited",
+   "type": "ipo",
+   "type_label": "IPO"
+  },
+  "person": {
+   "id": "p_manish_sharma",
+   "name": "Manish Sharma",
+   "role": "Promoter Selling Shareholder",
+   "holder_type": "person"
+  },
+  "tier": "cash_now",
+  "tier_label": "Cash in hand",
+  "amount": {
+   "value_cr": 6.08,
+   "low_cr": 6.08,
+   "display": "₹6.08 Cr",
+   "detail": "Up to ₹6.08 crore, if all offered shares are sold",
+   "kind": "cash",
+   "estimate": true,
+   "reason": null,
+   "source": "proceeds"
+  },
+  "timing": {
+   "label": "In hand since 11 Mar 2026 (8 months ago)",
+   "status": "in_hand",
+   "date_iso": "2026-03-11",
+   "past": true
+  },
+  "confidence": {
+   "level": "high",
+   "reason": "Name verified in the seller table; Holdings agree across 2 sections (promoter holdings, shareholding pattern)",
+   "reasons": [
+    "Name verified in the seller table",
+    "Holdings agree across 2 sections (promoter holdings, shareholding pattern)"
+   ]
+  },
+  "why": "Sells up to 45,000 shares in the offer for sale",
+  "brief_first_line": "Manish Sharma, Promoter Selling Shareholder, receives money by selling up to 45,000 shares in the offer for sale.",
+  "household": {
+   "id": "sedemac_ipo:family_3",
+   "label": "Sharma household",
+   "reason": "'Priyanka Manish Sharma' contains 'Manish Sharma'",
+   "members": [
+    {
+     "id": "sedemac_ipo/p_manish_sharma",
+     "name": "Manish Sharma",
+     "role": "Promoter Selling Shareholder",
+     "tier": "cash_now",
+     "amount": {
+      "value_cr": 6.08,
+      "low_cr": 6.08,
+      "display": "₹6.08 Cr",
+      "detail": "Up to ₹6.08 crore, if all offered shares are sold",
+      "kind": "cash",
+      "estimate": true,
+      "reason": null,
+      "source": "proceeds"
+     }
+    },
+    {
+     "id": "sedemac_ipo/p_priyanka_manish_sharma",
+     "name": "Priyanka Manish Sharma",
+     "role": "Promoter Group",
+     "tier": "unlock",
+     "amount": {
+      "value_cr": 7.71,
+      "low_cr": 7.71,
+      "display": "₹7.71 Cr",
+      "detail": "₹7.71 crore (estimate, valued at offer price)",
+      "kind": "shares",
+      "estimate": true,
+      "reason": null,
+      "source": "retained"
+     }
+    }
+   ],
+   "printed_members": [
+    "Manish Sharma",
+    "Priyanka Manish Sharma"
+   ]
+  },
+  "household_id": "sedemac_ipo:family_3",
+  "rank": 8,
+  "score": 1.824,
+  "flags": [],
+  "rm": {
+   "status": "to_call",
+   "follow_up": null,
+   "note": "",
+   "updated_at": "2026-11-15T13:41:48Z"
+  },
+  "position": 6,
+  "list": "callable",
+  "brief": {
+   "lines": [
+    "Manish Sharma, Promoter Selling Shareholder, receives money by selling up to 45,000 shares in the offer for sale.",
+    "Up to ₹6.08 crore in proceeds, if all offered shares are sold; in hand since 11 Mar 2026, 249 days ago."
+   ],
+   "written_by": "assistant"
+  },
+  "why_now": "Sells up to 45,000 shares in the offer for sale",
+  "tier_reason": "Sold shares in this event; the cash is paid or due within a month",
+  "amounts": [
+   {
+    "key": "proceeds",
+    "label": "Cash from the sale",
+    "status": "computed",
+    "value_cr": 6.08,
+    "low_cr": 6.08,
+    "display": "Up to ₹6.08 crore, if all offered shares are sold",
+    "short": "₹6.08 Cr",
+    "working": "45,000 × ₹1,352 = ₹6.08 crore",
+    "reason": null,
+    "inputs": [
+     {
+      "label": "Shares offered",
+      "value": "45,000",
+      "evidence": [
+       {
+        "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+        "doc_label": "Red herring prospectus",
+        "pdf_index": 20,
+        "printed_page": "16",
+        "quote": "Up to 45,000 Equity Shares of face",
+        "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=20",
+        "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=20&quote=Up%20to%2045%2C000%20Equity%20Shares%20of%20face",
+        "cached": true
+       }
+      ]
+     },
+     {
+      "label": "Offer price",
+      "value": "₹1,352",
+      "evidence": [
+       {
+        "doc_sha": "3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53",
+        "doc_label": "Exchange notice",
+        "pdf_index": 1,
+        "printed_page": null,
+        "quote": "OFFER PRICE: ₹1,352* PER EQUITY SHARE OF FACE VALUE OF ₹10 EACH",
+        "url": "/api/docs/3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53.pdf#page=1",
+        "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE00XB01019_10MAR2026.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53&pdf_index=1&quote=OFFER%20PRICE%3A%20%E2%82%B91%2C352%2A%20PER%20EQUITY%20SHARE%20OF%20FACE%20VALUE%20OF%20%E2%82%B910%20EACH",
+        "cached": true
+       }
+      ]
+     }
+    ],
+    "caveats": [
+     "Offer price shown; employee-portion shares sold at a discount, so actual proceeds are slightly lower."
+    ]
+   },
+   {
+    "key": "gain",
+    "label": "Gain over cost",
+    "status": "computed",
+    "value_cr": 5.88,
+    "low_cr": 5.88,
+    "display": "Up to ₹5.88 crore, before offer expenses and taxes, if all offered shares are sold",
+    "short": "₹5.88 Cr",
+    "working": "45,000 × (₹1,352 − ₹46.00) = ₹5.88 crore",
+    "reason": null,
+    "inputs": [
+     {
+      "label": "Shares offered",
+      "value": "45,000",
+      "evidence": [
+       {
+        "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+        "doc_label": "Red herring prospectus",
+        "pdf_index": 20,
+        "printed_page": "16",
+        "quote": "Up to 45,000 Equity Shares of face",
+        "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=20",
+        "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=20&quote=Up%20to%2045%2C000%20Equity%20Shares%20of%20face",
+        "cached": true
+       }
+      ]
+     },
+     {
+      "label": "Average cost per share",
+      "value": "46.00",
+      "evidence": [
+       {
+        "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+        "doc_label": "Red herring prospectus",
+        "pdf_index": 28,
+        "printed_page": "24",
+        "quote": "Manish Sharma^ 864,000 1.95 46.00",
+        "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=28",
+        "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=28&quote=Manish%20Sharma%5E%20864%2C000%201.95%2046.00",
+        "cached": true
+       }
+      ]
+     }
+    ],
+    "caveats": []
+   }
+  ],
+  "timing_detail": [
+   {
+    "key": "proceeds",
+    "label": "When the cash arrives",
+    "status": "in_hand",
+    "display": "In hand since 11 Mar 2026 (8 months ago)",
+    "note": null,
+    "periods": [],
+    "rule_evidence": [
+     {
+      "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+      "doc_label": "Red herring prospectus",
+      "pdf_index": 144,
+      "printed_page": "140",
+      "quote": "… in the first instance (except fees and expenses for the legal counsel to the Selling Shareholders) and the Selling Shareholders agree that upon commencement of listing and trading of the Equity Shares on the Stock Exchanges pursuant to the Offer, each Selling Shareholder shall, severally and not jointly, reimburse our Company …",
+      "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=144",
+      "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+      "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=144&quote=%E2%80%A6%20in%20the%20first%20instance%20%28except%20fees%20and%20expenses%20for%20the%20legal%20counsel%20to%20the%20Selling%20Shareholders%29%20and%20the%20Selling%20Shareholders%20agree%20that%20upon%20commencement%20of%20listing%20and%20trading%20of%20the%20Equity%20Shares%20on%20the%20Stock%20Exchanges%20pursuant%20to%20the%20Offer%2C%20each%20Selling%20Shareholder%20shall%2C%20severally%20and%20not%20jointly%2C%20reimburse%20our%20Company%20%E2%80%A6",
+      "cached": true
+     }
+    ],
+    "inputs": [
+     {
+      "label": "Listing date",
+      "value": "March 11, 2026",
+      "evidence": [
+       {
+        "doc_sha": "3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53",
+        "doc_label": "Exchange notice",
+        "pdf_index": 1,
+        "printed_page": null,
+        "quote": "the trading will commence on March 11, 2026.",
+        "url": "/api/docs/3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53.pdf#page=1",
+        "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE00XB01019_10MAR2026.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53&pdf_index=1&quote=the%20trading%20will%20commence%20on%20March%2011%2C%202026.",
+        "cached": true
+       }
+      ]
+     }
+    ],
+    "rule_found": true
+   },
+   {
+    "key": "retained",
+    "label": "When the shares are free",
+    "status": "partly_unlocked",
+    "display": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027); promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+    "note": "Which of this promoter's shares fall in the 20% is not extracted.",
+    "periods": [
+     {
+      "label": "Minimum Promoters' Contribution",
+      "ends_on": "2027-09-09",
+      "display": "Minimum Promoters' Contribution: locked until 9 Sep 2027 (allotment 9 Mar 2026 + 18 months = 9 Sep 2027)",
+      "status": "locked_until",
+      "share_of_retained": "unknown"
+     },
+     {
+      "label": "Promoter shares above the 20%",
+      "ends_on": "2026-09-09",
+      "display": "Promoter shares above the 20%: unlocked since 9 Sep 2026 (2 months ago; allotment 9 Mar 2026 + 6 months = 9 Sep 2026)",
+      "status": "unlocked_since",
+      "share_of_retained": "unknown"
+     }
+    ],
+    "rule_evidence": [
+     {
+      "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+      "doc_label": "Red herring prospectus",
+      "pdf_index": 132,
+      "printed_page": "128",
+      "quote": "Pursuant to Regulations 14 and 16 of the SEBI ICDR Regulations, as amended, an aggregate of 20% of the fully diluted post-Offer Equity Share capital of our Company held by our Promoters (assuming exercise of vested options, if any, under the …",
+      "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=132",
+      "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+      "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=132&quote=Pursuant%20to%20Regulations%2014%20and%2016%20of%20the%20SEBI%20ICDR%20Regulations%2C%20as%20amended%2C%20an%20aggregate%20of%2020%25%20of%20the%20fully%20diluted%20post-Offer%20Equity%20Share%20capital%20of%20our%20Company%20held%20by%20our%20Promoters%20%28assuming%20exercise%20of%20vested%20options%2C%20if%20any%2C%20under%20the%20%E2%80%A6",
+      "cached": true
+     },
+     {
+      "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+      "doc_label": "Red herring prospectus",
+      "pdf_index": 132,
+      "printed_page": "128",
+      "quote": "… Regulations, as minimum Promoters’ contribution (“Minimum Promoters’ Contribution”) from the date of Allotment and the shareholding of the Promoter in excess of 20% of the fully diluted post-Offer Equity Share capital shall be locked in for a period of six months from the date of Allotment.",
+      "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=132",
+      "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+      "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=132&quote=%E2%80%A6%20Regulations%2C%20as%20minimum%20Promoters%E2%80%99%20contribution%20%28%E2%80%9CMinimum%20Promoters%E2%80%99%20Contribution%E2%80%9D%29%20from%20the%20date%20of%20Allotment%20and%20the%20shareholding%20of%20the%20Promoter%20in%20excess%20of%2020%25%20of%20the%20fully%20diluted%20post-Offer%20Equity%20Share%20capital%20shall%20be%20locked%20in%20for%20a%20period%20of%20six%20months%20from%20the%20date%20of%20Allotment.",
+      "cached": true
+     }
+    ],
+    "inputs": [
+     {
+      "label": "Allotment date",
+      "value": "March 9, 2026",
+      "evidence": [
+       {
+        "doc_sha": "3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53",
+        "doc_label": "Exchange notice",
+        "pdf_index": 2,
+        "printed_page": null,
+        "quote": "The IPO Committee of the Company on March 9, 2026 has taken on record the Basis of Allotment",
+        "url": "/api/docs/3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53.pdf#page=2",
+        "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE00XB01019_10MAR2026.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53&pdf_index=2&quote=The%20IPO%20Committee%20of%20the%20Company%20on%20March%209%2C%202026%20has%20taken%20on%20record%20the%20Basis%20of%20Allotment",
+        "cached": true
+       }
+      ]
+     }
+    ],
+    "rule_found": null
+   }
+  ],
+  "name_evidence": [
+   {
+    "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+    "doc_label": "Red herring prospectus",
+    "pdf_index": 20,
+    "printed_page": "16",
+    "quote": "Manish Sharma",
+    "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=20",
+    "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+    "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=20&quote=Manish%20Sharma",
+    "cached": true
+   },
+   {
+    "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+    "doc_label": "Red herring prospectus",
+    "pdf_index": 28,
+    "printed_page": "24",
+    "quote": "Manish Sharma^ 864,000 1.95 46.00",
+    "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=28",
+    "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+    "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=28&quote=Manish%20Sharma%5E%20864%2C000%201.95%2046.00",
+    "cached": true
+   }
+  ],
+  "rank_reasons": [
+   "Seller: sells up to 45,000 shares in the offer for sale",
+   "Other trigger: shares unlocked on 9 Sep 2026; shares, not cash (promoter shares above the 20%; how many shares is not extracted), score 0.00"
+  ],
+  "names_as_printed": [
+   "Manish Sharma"
+  ],
+  "holder_type_reason": "No entity or family marker",
+  "context_reason": null,
+  "event_facts": {
+   "price": {
+    "kind": "offer_price",
+    "label": "Final offer price",
+    "display": "₹1,352 per share",
+    "low": 1352.0,
+    "high": 1352.0,
+    "inputs": [
+     {
+      "label": "Offer price",
+      "value": "₹1,352",
+      "evidence": [
+       {
+        "doc_sha": "3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53",
+        "doc_label": "Exchange notice",
+        "pdf_index": 1,
+        "printed_page": null,
+        "quote": "OFFER PRICE: ₹1,352* PER EQUITY SHARE OF FACE VALUE OF ₹10 EACH",
+        "url": "/api/docs/3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53.pdf#page=1",
+        "source_url": "https://nsearchives.nseindia.com/corporate/ADV_INE00XB01019_10MAR2026.pdf",
+        "image_url": "/api/evidence/page.png?doc_sha=3d8957a1863771d7423cb562ae1d021aa5046f50f73dab52045b294f7594aa53&pdf_index=1&quote=OFFER%20PRICE%3A%20%E2%82%B91%2C352%2A%20PER%20EQUITY%20SHARE%20OF%20FACE%20VALUE%20OF%20%E2%82%B910%20EACH",
+        "cached": true
+       }
+      ]
+     }
+    ],
+    "reason": null
+   },
+   "money_date": {
+    "kind": "listing",
+    "label": "Listed",
+    "date_iso": "2026-03-11",
+    "confirmed": true
+   }
+  }
+ },
+ "evidence": {
+  "doc_sha": "2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e",
+  "doc_label": "Red herring prospectus",
+  "pdf_index": 20,
+  "printed_page": "16",
+  "quote": "Up to 45,000 Equity Shares of face",
+  "url": "/api/docs/2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e.pdf#page=20",
+  "source_url": "https://www.icicisecurities.com/Upload/ArticleAttachments/SEDEMAC%20MECHATRONICS%20LIMITED%20-%20RHP.pdf",
+  "image_url": "/api/evidence/page.png?doc_sha=2a9bdef9398146e01591a75719a467640f34e941aea5f101fd55436f80aa036e&pdf_index=20&quote=Up%20to%2045%2C000%20Equity%20Shares%20of%20face",
+  "cached": true
+ },
+ "events": [
+  {
+   "id": "fdc_limited_buyback_202610",
+   "company": "FDC Limited",
+   "type": "buyback",
+   "type_label": "Buyback",
+   "status": "ready",
+   "status_reason": "Call list ready",
+   "people_count": 3,
+   "entities_count": 0,
+   "context_count": 0,
+   "tier_counts": {
+    "cash_now": 0,
+    "unlock": 0,
+    "holding": 3
+   },
+   "cash_cr": null,
+   "listing_date": null,
+   "money_date": {
+    "kind": "unknown",
+    "label": "Date not confirmed",
+    "date_iso": null,
+    "confirmed": false,
+    "display": "",
+    "relative": ""
+   },
+   "empty_reason": null,
+   "docs": [
+    {
+     "doc_sha": "9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea",
+     "label": "Public announcement",
+     "doc_type": "public_announcement",
+     "note": "FDC Limited",
+     "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/FDC%20Limited-PA_p.pdf",
+     "url": "/api/docs/9060a2654afb7203286ef55e906a4aa7150011362168c9c11ee9ebea440d0fea.pdf",
+     "pages": 3,
+     "scanned": false,
+     "scanned_label": null
+    }
+   ],
+   "source": "discovered",
+   "discovered_on": "2026-11-15"
+  },
+  {
+   "id": "genus_power_infrastructure_limited_buyback_202610",
+   "company": "Genus Power Infrastructure Limited",
+   "type": "buyback",
+   "type_label": "Buyback",
+   "status": "scanned",
+   "status_reason": "Scanned filing: text not readable yet",
+   "people_count": 0,
+   "entities_count": 0,
+   "context_count": 0,
+   "tier_counts": {
+    "cash_now": 0,
+    "unlock": 0,
+    "holding": 0
+   },
+   "cash_cr": null,
+   "listing_date": null,
+   "money_date": {
+    "kind": "unknown",
+    "label": "Date not confirmed",
+    "date_iso": null,
+    "confirmed": false,
+    "display": "",
+    "relative": ""
+   },
+   "empty_reason": "Scanned filing: text not readable yet, so no names could be read from it.",
+   "docs": [
+    {
+     "doc_sha": "a799b74e7271606ef2f990b1108068eb13fc074393a654a6aff126917c6baad0",
+     "label": "Public announcement",
+     "doc_type": "public_announcement",
+     "note": "Genus Power Infrastructure Limited",
+     "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/Genus%20Power%20Infrastructure%20Limited-%20PA_p.pdf",
+     "url": "/api/docs/a799b74e7271606ef2f990b1108068eb13fc074393a654a6aff126917c6baad0.pdf",
+     "pages": 6,
+     "scanned": true,
+     "scanned_label": "Scanned filing: text not readable yet"
+    }
+   ],
+   "source": "discovered",
+   "discovered_on": "2026-11-15"
+  },
+  {
+   "id": "jio_platforms_limited_ipo_202610",
+   "company": "Jio Platforms Ltd",
+   "type": "ipo",
+   "type_label": "IPO",
+   "status": "ready",
+   "status_reason": "Call list ready",
+   "people_count": 0,
+   "entities_count": 1,
+   "context_count": 0,
+   "tier_counts": {
+    "cash_now": 0,
+    "unlock": 0,
+    "holding": 0
+   },
+   "cash_cr": null,
+   "listing_date": "2026-10-28",
+   "money_date": {
+    "kind": "listing",
+    "label": "Listing due",
+    "date_iso": "2026-10-28",
+    "confirmed": false,
+    "display": "28 Oct 2026",
+    "relative": "18 days ago"
+   },
+   "empty_reason": "Every holder named is a company or fund (Reliance Industries Limited); there is no individual to call.",
+   "docs": [
+    {
+     "doc_sha": "5a686ac4989df41c209dcf5bf3190a02070f7c6233dca46f4fa51c2f1ea4eb1a",
+     "label": "Prospectus",
+     "doc_type": "prospectus",
+     "note": "Jio Platforms Ltd.- Prospectus",
+     "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793005577827.pdf",
+     "url": "/api/docs/5a686ac4989df41c209dcf5bf3190a02070f7c6233dca46f4fa51c2f1ea4eb1a.pdf",
+     "pages": 596,
+     "scanned": false,
+     "scanned_label": null
+    }
+   ],
+   "source": "discovered",
+   "discovered_on": "2026-11-15"
+  },
+  {
+   "id": "paras_healthcare_limited_ipo_202610",
+   "company": "Paras Healthcare",
+   "type": "ipo",
+   "status": "processing",
+   "status_reason": null,
+   "people_count": 0,
+   "cash_cr": null,
+   "listing_date": null,
+   "docs": [],
+   "empty_reason": null,
+   "type_label": "IPO"
+  },
+  {
+   "id": "tonbo_imaging_india_limited_ipo_202610",
+   "company": "Tonbo Imaging India",
+   "type": "ipo",
+   "status": "failed",
+   "status_reason": "The prospectus link stopped responding, so the last good call list is kept",
+   "people_count": 0,
+   "cash_cr": null,
+   "listing_date": null,
+   "docs": [],
+   "empty_reason": "The prospectus link stopped responding, so the last good call list is kept",
+   "type_label": "IPO"
+  },
+  {
+   "id": "esop_example",
+   "company": "Example ESOP buyback",
+   "type": "buyback",
+   "status": "not_supported",
+   "status_reason": "Employee stock buybacks are not covered yet",
+   "people_count": 0,
+   "cash_cr": null,
+   "listing_date": null,
+   "docs": [],
+   "empty_reason": "Employee stock buybacks are not covered yet",
+   "type_label": "Buyback"
+  }
+ ],
+ "steps": [
+  {
+   "step": "locate",
+   "seconds": 6.78,
+   "cost_usd": 0
+  },
+  {
+   "step": "extract",
+   "seconds": 11.74,
+   "cost_usd": 0.00142
+  },
+  {
+   "step": "people",
+   "seconds": 0.11,
+   "cost_usd": 0
+  },
+  {
+   "step": "rank",
+   "seconds": 0.04,
+   "cost_usd": 0
+  },
+  {
+   "step": "brief",
+   "seconds": 0.56,
+   "cost_usd": 0.0
+  },
+  {
+   "step": "report",
+   "seconds": 0.07,
+   "cost_usd": 0
+  }
+ ],
+ "ask": {
+  "question": "promoters with cash in hand above 50 crore",
+  "filters": {
+   "role_contains": "promoter",
+   "tier": "cash_now",
+   "min_cr": 50.0
+  },
+  "chips": [
+   "Role: Promoter",
+   "Cash in hand",
+   "≥ ₹50.00 Cr"
+  ],
+  "people": [
+   {
+    "id": "zetwerk_manufacturing_businesses_limited_ipo_202610/p_amrit_pratik_acharya",
+    "event": {
+     "id": "zetwerk_manufacturing_businesses_limited_ipo_202610",
+     "company": "Zetwerk Manufacturing Businesses Limited",
+     "type": "ipo",
+     "type_label": "IPO"
+    },
+    "person": {
+     "id": "p_amrit_pratik_acharya",
+     "name": "Amrit Pratik Acharya",
+     "role": "Promoter Selling Shareholders",
+     "holder_type": "person"
+    },
+    "tier": "cash_now",
+    "tier_label": "Cash in hand",
+    "amount": {
+     "value_cr": 214.88,
+     "low_cr": 214.88,
+     "display": "₹214.88 Cr",
+     "detail": "₹214.88 crore",
+     "kind": "cash",
+     "estimate": false,
+     "reason": null,
+     "source": "proceeds"
+    },
+    "timing": {
+     "label": "Listing was due 23 Oct 2026 (23 days ago); listing notice not yet seen",
+     "status": "due_past",
+     "date_iso": "2026-10-23",
+     "past": true
+    },
+    "confidence": {
+     "level": "medium",
+     "reason": "Name verified in the seller table; No verified pre-offer holding",
+     "reasons": [
+      "Name verified in the seller table"
+     ]
+    },
+    "why": "Sells 14,230,672 shares in the offer for sale",
+    "brief_first_line": "Amrit Pratik Acharya, a Promoter Selling Shareholder, is due proceeds from selling 14,230,672 shares in the offer for sale.",
+    "household": null,
+    "household_id": null,
+    "rank": 1,
+    "score": 120.3328,
+    "flags": [],
+    "rm": {
+     "status": "to_call",
+     "follow_up": null,
+     "note": ""
+    },
+    "position": 1
+   }
+  ],
+  "count": 4,
+  "interpreted_by": "rules",
+  "explanation": "Interpreted as: Role: Promoter · Cash in hand · ≥ ₹50.00 Cr. 4 match."
+ }
+}

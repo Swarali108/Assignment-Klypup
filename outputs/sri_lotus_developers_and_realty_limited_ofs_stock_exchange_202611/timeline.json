@@ -1,0 +1,48 @@
+{
+  "run_id": "auto-sri_lotus_developers_and_realty_limited_ofs_stock_exchange_202611-20261115T185811Z",
+  "total_s": 22.932330292009283,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 2.3456941670156084,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 16.881553624989465,
+      "calls": 4,
+      "cached": 0,
+      "cost_usd": 0.005102
+    },
+    {
+      "step": "people",
+      "seconds": 0.05121854098979384,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.029040542023722082,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 3.565014959021937,
+      "calls": 2,
+      "cached": 0,
+      "cost_usd": 0.000387
+    },
+    {
+      "step": "report",
+      "seconds": 0.03446220903424546,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

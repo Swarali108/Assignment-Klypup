@@ -1,0 +1,55 @@
+{
+  "event_id": "info_edge_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_sharmistha_mondal",
+      "name_as_printed": "Sharmistha Mondal",
+      "fields": {
+        "name": "Sharmistha Mondal",
+        "role": "unknown",
+        "why_money": "sold 2,854 shares (Market Sale) on 4 Nov 2026 and 8 Nov 2026",
+        "amount": "₹33.67 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event_age": "11 days ago",
+        "event_is": "recent",
+        "proceeds": "₹33.67 lakh (1,504 shares, value as printed ₹17.51 lakh (NSE XBRL context Disclosure2); 1,350 shares, value as printed ₹16.16 lakh (NSE XBRL context Disclosure1); total ₹33.67 lakh)"
+      },
+      "placeholders": {
+        "name": "Sharmistha Mondal",
+        "role": "unknown",
+        "amount": "₹33.67 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹33.67 lakh",
+        "shares_offered": "2,854 shares",
+        "event_age": "11 days ago"
+      },
+      "lines": [
+        "Sharmistha Mondal is a holder whose role is unknown, receiving proceeds from selling 2,854 shares in Market Sales.",
+        "₹33.67 lakh from those sales settled settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money has already arrived.",
+        "Role is unknown, so confirm their position before raising any follow-up conversation about the sale.",
+        "Caveat: the holder's role is not recorded in the source data."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "{name} is a holder whose role is unknown, receiving proceeds from selling {shares_offered} in Market Sales.",
+            "{proceeds} from those sales settled {timing}, so the money has already arrived.",
+            "Role is unknown, so confirm their position before raising any follow-up conversation about the sale.",
+            "Caveat: the holder's role is not recorded in the source data."
+          ],
+          "lines": [
+            "Sharmistha Mondal is a holder whose role is unknown, receiving proceeds from selling 2,854 shares in Market Sales.",
+            "₹33.67 lakh from those sales settled settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money has already arrived.",
+            "Role is unknown, so confirm their position before raising any follow-up conversation about the sale.",
+            "Caveat: the holder's role is not recorded in the source data."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

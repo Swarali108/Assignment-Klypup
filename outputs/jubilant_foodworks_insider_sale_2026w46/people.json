@@ -1,0 +1,137 @@
+{
+  "event_id": "jubilant_foodworks_insider_sale_2026w46",
+  "event_type": "insider_sale",
+  "structured": true,
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "unknown",
+    "reason": "the records print no trade price"
+  },
+  "sale": {
+    "sale_date": "no sale for cash in these records",
+    "sale_date_parsed": null,
+    "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
+    "total_shares_offered": "none"
+  },
+  "records_source": {
+    "records_file": "outputs/signals/insider.json",
+    "refreshed_at": "2026-11-15T22:05:14+00:00",
+    "source_status": {
+      "nse_insider": {
+        "status": "ok",
+        "note": "301 filings, 9 XBRL files downloaded, 178 sales, 422 buys, pledges, gifts, inter-se transfers and others skipped",
+        "records": 168,
+        "http_status": null,
+        "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
+        "terms_url": "https://www.nseindia.in/nse-terms-of-use"
+      },
+      "bse_insider": {
+        "status": "ok",
+        "note": "125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record",
+        "records": 11,
+        "http_status": null,
+        "url": "https://www.bseindia.com/corporates/Insider_Trading_new.aspx",
+        "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
+      }
+    },
+    "records_used": 1,
+    "records_missing": [],
+    "records_skipped_wrong_kind": [],
+    "records_skipped_unknown_side": []
+  },
+  "people": [
+    {
+      "person_id": "p_jfl_employee_welfare_trust",
+      "name_as_printed": "JFL Employee Welfare Trust",
+      "names_as_printed": [
+        "JFL Employee Welfare Trust"
+      ],
+      "name_clean": "jfl employee welfare trust",
+      "holder_type": "entity",
+      "holder_type_reason": "contains 'trust'",
+      "role_as_printed": null,
+      "role_by_section": {},
+      "side": "sell",
+      "record_ids": [
+        "e1f8536c5769777a"
+      ],
+      "trades": [
+        {
+          "trade_date": "2026-11-11",
+          "quantity": 59063,
+          "record_ids": [
+            "e1f8536c5769777a"
+          ]
+        }
+      ],
+      "conflicts": {},
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_3061_20261113_175140618_WEB.html",
+          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_3061_20261113_175140618_WEB.html",
+          "pdf_index": null,
+          "printed_page": "XBRL context Disclosure1",
+          "row_ref": "XBRL context Disclosure1",
+          "quote": "NSE | JUBLFOOD | JFL Employee Welfare Trust | SELL | 59,063 shares | value 6787792 | ESOP | 2026-11-11",
+          "field": "name_as_printed",
+          "section": "exchange_record",
+          "field_kept": true,
+          "record_id": "e1f8536c5769777a",
+          "exchange": "NSE",
+          "kind": "insider_sale"
+        }
+      ],
+      "seller_status": "no",
+      "amounts": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not a sale for cash (mode as printed: ESOP)"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "not_applicable",
+          "reason": "not a sale for cash (mode as printed: ESOP)"
+        }
+      },
+      "why_money": "transferred 59,063 shares (ESOP) on 11 Nov 2026",
+      "context_reason": "Transferred shares by ESOP (mode as printed): not a sale for cash, so no money from this event.",
+      "confidence": {
+        "level": "high",
+        "reasons": [
+          "named in the exchange insider-trading disclosure (structured record, read by code)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 1,
+    "by_holder_type": {
+      "entity": 1
+    },
+    "by_confidence": {
+      "high": 1
+    },
+    "sellers": 0,
+    "sellers_unverified": 0,
+    "buyers": 0,
+    "proceeds_computed": 0,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 1
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 1,
+    "follow_on_matches": 0
+  }
+}

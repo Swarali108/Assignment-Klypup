@@ -1,0 +1,48 @@
+{
+  "run_id": "vectras_ipo-20261116T083958Z",
+  "total_s": 10.497768899891526,
+  "steps": [
+    {
+      "step": "locate",
+      "seconds": 5.406038400018588,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "extract",
+      "seconds": 4.23159070010297,
+      "calls": 8,
+      "cached": 8,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "people",
+      "seconds": 0.2060040000360459,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "rank",
+      "seconds": 0.11738920002244413,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    },
+    {
+      "step": "brief",
+      "seconds": 0.2746754998806864,
+      "calls": 3,
+      "cached": 3,
+      "cost_usd": 0.0
+    },
+    {
+      "step": "report",
+      "seconds": 0.16587870009243488,
+      "calls": 0,
+      "cached": 0,
+      "cost_usd": 0
+    }
+  ]
+}

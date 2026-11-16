@@ -1,0 +1,48 @@
+{
+  "event_id": "medplus_health_services_limited_buyback_202611",
+  "event_type": "buyback",
+  "company": "Medplus Health Services Ltd",
+  "documents": [
+    {
+      "url": "https://nsearchives.nseindia.in/corporate/MEDPLUS_10112026130836_MEDPLUSPA.pdf",
+      "doc_type": "public_announcement",
+      "note": "Medplus Health Services Limited - Public Announcement - Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0d9f925-72b6-448f-b39c-5ef34eecd989.pdf",
+      "doc_type": "public_announcement",
+      "note": "Medplus Health Services Ltd - Public Announcement-Buyback of Shares",
+      "from_class": "buyback_public_announcement"
+    }
+  ],
+  "discovery": {
+    "sources": [
+      "bse_announcements",
+      "bse_ipo",
+      "nse_announcements"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:40:06+00:00",
+    "items": [
+      {
+        "title": "Medplus Health Services Limited - Public Announcement - Buyback of Shares",
+        "link": "https://nsearchives.nseindia.in/corporate/MEDPLUS_10112026130836_MEDPLUSPA.pdf",
+        "published": "2026-11-10",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Medplus Health Services Ltd - Public Announcement-Buyback of Shares",
+        "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0d9f925-72b6-448f-b39c-5ef34eecd989.pdf",
+        "published": "2026-11-10",
+        "class": "buyback_public_announcement"
+      },
+      {
+        "title": "Medplus Health Services Ltd - BUYBACK live 2026-11-13 to 2027-02-16, price 750.00",
+        "link": "https://www.bseindia.com/markets/publicIssues/DisplayIPO?id=543427&type=BuyBack&idtype=1&status=L&IPONo=1&startdt=13/11/2026",
+        "published": "2026-11-13",
+        "class": "buyback_announcement"
+      }
+    ]
+  }
+}

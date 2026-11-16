@@ -1,0 +1,116 @@
+{
+  "event_id": "vectras_ipo",
+  "callable": [
+    {
+      "person_id": "p_maheshkumar_gopalbhai_patel",
+      "name_as_printed": "Maheshkumar Gopalbhai Patel",
+      "name_clean": "maheshkumar gopalbhai patel",
+      "holder_type": "person",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "5.23",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "listed_per_timetable",
+      "timing_weight": "0.9",
+      "recency_weight": "1.0",
+      "score": "3.29490",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds since the timetable listing date (10 days ago)",
+        "money_crore": "5.23",
+        "timing_status": "listed_per_timetable",
+        "timing_weight": "0.9",
+        "recency_weight": "1.0",
+        "score": "3.29490"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds since the timetable listing date (10 days ago)",
+          "money_crore": "5.23",
+          "timing_status": "listed_per_timetable",
+          "timing_weight": "0.9",
+          "recency_weight": "1.0",
+          "score": "3.29490"
+        }
+      ],
+      "later_value_crore": "73.52",
+      "later_score": "15.4392",
+      "why_money": "sells 4,98,000 shares in the offer for sale",
+      "amount_display": "₹4.93 to ₹5.23 crore",
+      "timing_display": "in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable",
+      "timing_display_status": "listed_per_timetable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": "₹69.32 to ₹73.52 crore (estimate, valued at the price band)",
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹4.93 to ₹5.23 crore; in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable.",
+        "score 3.29 = ₹5.23 crore (proceeds since the timetable listing date (10 days ago)) × 0.7 (medium confidence) × 0.9 (timing listed_per_timetable) × 1.0 (recency)",
+        "tied with Naynesh Kanubhai Patel; name order breaks the tie"
+      ]
+    },
+    {
+      "person_id": "p_naynesh_kanubhai_patel",
+      "name_as_printed": "Naynesh Kanubhai Patel",
+      "name_clean": "naynesh kanubhai patel",
+      "holder_type": "person",
+      "role_as_printed": "Promoter Selling Shareholder",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "5.23",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "listed_per_timetable",
+      "timing_weight": "0.9",
+      "recency_weight": "1.0",
+      "score": "3.29490",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 10,
+        "label": "proceeds since the timetable listing date (10 days ago)",
+        "money_crore": "5.23",
+        "timing_status": "listed_per_timetable",
+        "timing_weight": "0.9",
+        "recency_weight": "1.0",
+        "score": "3.29490"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 10,
+          "label": "proceeds since the timetable listing date (10 days ago)",
+          "money_crore": "5.23",
+          "timing_status": "listed_per_timetable",
+          "timing_weight": "0.9",
+          "recency_weight": "1.0",
+          "score": "3.29490"
+        }
+      ],
+      "later_value_crore": "73.52",
+      "later_score": "15.4392",
+      "why_money": "sells 4,98,000 shares in the offer for sale",
+      "amount_display": "₹4.93 to ₹5.23 crore",
+      "timing_display": "in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable",
+      "timing_display_status": "listed_per_timetable",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": "₹69.32 to ₹73.52 crore (estimate, valued at the price band)",
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹4.93 to ₹5.23 crore; in hand since about 6 Nov 2026 (10 days ago), the listing date in the offer timetable.",
+        "score 3.29 = ₹5.23 crore (proceeds since the timetable listing date (10 days ago)) × 0.7 (medium confidence) × 0.9 (timing listed_per_timetable) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

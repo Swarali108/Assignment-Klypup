@@ -1,0 +1,70 @@
+{
+  "event_id": "gravita_insider_sale_2026w45",
+  "prompt_version": "v5",
+  "briefs": [
+    {
+      "person_id": "p_ravinder_singh",
+      "name_as_printed": "Ravinder Singh",
+      "fields": {
+        "name": "Ravinder Singh",
+        "role": "unknown",
+        "why_money": "sold 1,001 shares (Market Sale) between 2 Nov 2026 and 8 Nov 2026",
+        "amount": "₹14.79 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event": "proceeds settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "event_age": "13 days ago",
+        "event_is": "recent",
+        "proceeds": "₹14.79 lakh (1 shares, value as printed ₹1,430 (NSE XBRL context Disclosure1); 600 shares, value as printed ₹8.72 lakh (NSE XBRL context Disclosure2); 400 shares, value as printed ₹6.06 lakh (NSE XBRL context Disclosure3); total ₹14.79 lakh)"
+      },
+      "placeholders": {
+        "name": "Ravinder Singh",
+        "role": "unknown",
+        "amount": "₹14.79 lakh",
+        "timing": "settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago)",
+        "proceeds": "₹14.79 lakh",
+        "shares_offered": "1,001 shares",
+        "event_age": "13 days ago"
+      },
+      "lines": [
+        "Ravinder Singh, unknown, is receiving proceeds from selling 1,001 shares in a market sale.",
+        "Proceeds of ₹14.79 lakh settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money is already in hand.",
+        "The sale was 13 days ago, so ask whether they plan to reinvest or hold cash.",
+        "Role is unknown, so confirm their position before discussing next steps."
+      ],
+      "brief_source": "llm",
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "raw_lines": [
+            "Ravinder Singh, role unknown, is receiving proceeds from selling {shares_offered} between 2 Nov and 8 Nov 2026.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "The sale was a market sale, so ask whether they plan to reinvest or hold cash.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "lines": [
+            "Ravinder Singh, role unknown, is receiving proceeds from selling {shares_offered} between 2 Nov and 8 Nov 2026.",
+            "Proceeds of {proceeds} settled {timing}, so the money is already in hand.",
+            "The sale was a market sale, so ask whether they plan to reinvest or hold cash.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "problem": "writes numbers instead of placeholders: 2, 8, 2026"
+        },
+        {
+          "raw_lines": [
+            "{name}, {role}, is receiving proceeds from selling {shares_offered} in a market sale.",
+            "Proceeds of {amount} {timing}, so the money is already in hand.",
+            "The sale was {event_age}, so ask whether they plan to reinvest or hold cash.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "lines": [
+            "Ravinder Singh, unknown, is receiving proceeds from selling 1,001 shares in a market sale.",
+            "Proceeds of ₹14.79 lakh settled 9 Nov 2026, T+1 after the 8 Nov 2026 trade (7 days ago), so the money is already in hand.",
+            "The sale was 13 days ago, so ask whether they plan to reinvest or hold cash.",
+            "Role is unknown, so confirm their position before discussing next steps."
+          ],
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

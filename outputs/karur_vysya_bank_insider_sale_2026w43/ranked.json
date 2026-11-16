@@ -1,0 +1,224 @@
+{
+  "event_id": "karur_vysya_bank_insider_sale_2026w43",
+  "callable": [
+    {
+      "person_id": "p_a_j_suriyanarayana",
+      "name_as_printed": "A J Suriyanarayana",
+      "name_clean": "a j suriyanarayana",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.93",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.65100",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+        "money_crore": "0.93",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.65100"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+          "money_crore": "0.93",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.65100"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 25,000 shares (Market Sale) on 19 Oct 2026",
+      "amount_display": "₹93.42 lakh",
+      "timing_display": "settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 1,
+      "rank_reasons": [
+        "Cash in hand: ₹93.42 lakh; settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago).",
+        "score 0.65 = ₹0.93 crore (proceeds settled 20 Oct 2026, T+1 after the 19 Oct 2026 trade (27 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_g_rajasekaran",
+      "name_as_printed": "G Rajasekaran",
+      "name_clean": "g rajasekaran",
+      "holder_type": "person",
+      "role_as_printed": "Promoter",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.11",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.07700",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "money_crore": "0.11",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.07700"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "money_crore": "0.11",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.07700"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 3,000 shares (Market Sale) on 19 Oct 2026 and 21 Oct 2026",
+      "amount_display": "₹11.44 lakh",
+      "timing_display": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 2,
+      "rank_reasons": [
+        "Cash in hand: ₹11.44 lakh; settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "score 0.08 = ₹0.11 crore (proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "tied with R Nageswari; name order breaks the tie"
+      ]
+    },
+    {
+      "person_id": "p_r_nageswari",
+      "name_as_printed": "R Nageswari",
+      "name_clean": "r nageswari",
+      "holder_type": "person",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.11",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.07700",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 27,
+        "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "money_crore": "0.11",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.07700"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 27,
+          "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "money_crore": "0.11",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.07700"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 3,000 shares (Market Sale) on 19 Oct 2026 and 21 Oct 2026",
+      "amount_display": "₹11.44 lakh",
+      "timing_display": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 3,
+      "rank_reasons": [
+        "Cash in hand: ₹11.44 lakh; settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "score 0.08 = ₹0.11 crore (proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    },
+    {
+      "person_id": "p_g_mani",
+      "name_as_printed": "G Mani",
+      "name_clean": "g mani",
+      "holder_type": "person",
+      "role_as_printed": "Promoter group",
+      "tier": "seller",
+      "call_tier": "cash_now",
+      "call_tier_label": "Cash in hand",
+      "amount_known": true,
+      "money_now_crore": "0.08",
+      "confidence": "medium",
+      "confidence_weight": "0.7",
+      "timing_status": "settles",
+      "timing_weight": "1.0",
+      "recency_weight": "1.0",
+      "score": "0.05600",
+      "trigger": {
+        "kind": "proceeds",
+        "days_since": 25,
+        "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+        "money_crore": "0.08",
+        "timing_status": "settles",
+        "timing_weight": "1.0",
+        "recency_weight": "1.0",
+        "score": "0.05600"
+      },
+      "triggers": [
+        {
+          "kind": "proceeds",
+          "days_since": 25,
+          "label": "proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+          "money_crore": "0.08",
+          "timing_status": "settles",
+          "timing_weight": "1.0",
+          "recency_weight": "1.0",
+          "score": "0.05600"
+        }
+      ],
+      "later_value_crore": "0",
+      "later_score": "0.000",
+      "why_money": "sold 2,000 shares (Market Sale) on 21 Oct 2026",
+      "amount_display": "₹7.69 lakh",
+      "timing_display": "settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)",
+      "timing_display_status": "settles",
+      "family_group": null,
+      "household_id": null,
+      "holding_display": null,
+      "rank": 4,
+      "rank_reasons": [
+        "Cash in hand: ₹7.69 lakh; settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago).",
+        "score 0.06 = ₹0.08 crore (proceeds settled 22 Oct 2026, T+1 after the 21 Oct 2026 trade (25 days ago)) × 0.7 (medium confidence) × 1.0 (timing settles) × 1.0 (recency)"
+      ]
+    }
+  ],
+  "entities": [],
+  "context": []
+}

@@ -1,0 +1,278 @@
+{
+  "event_id": "sri_lotus_developers_and_realty_limited_ofs_stock_exchange_202611",
+  "as_of": "2026-11-16",
+  "price_basis": {
+    "kind": "floor_price",
+    "low": "240",
+    "high": "240",
+    "inputs": [
+      {
+        "field": "floor_price",
+        "value": "240",
+        "evidence": [
+          {
+            "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+            "pdf_index": 5,
+            "printed_page": "",
+            "link": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf#page=5",
+            "quote": "The floor price for the Offer shall be t 240 p€r Equity"
+          }
+        ]
+      }
+    ]
+  },
+  "sale": {
+    "sale_date": "Tuesday, November 03, 2026",
+    "sale_date_parsed": "2026-11-03",
+    "sale_date_retail": "Wednesday, November 04, 2026",
+    "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+    "total_shares_offered": "unknown",
+    "greenshoe_total": "50,00,000"
+  },
+  "people": [
+    {
+      "person_id": "p_anand_kamalnayan_pandit",
+      "name_as_printed": "Anand Kamalnayan Pandit",
+      "names_as_printed": [
+        "Anand Kamalnayan Pandit"
+      ],
+      "name_clean": "anand kamalnayan pandit",
+      "holder_type": "person",
+      "holder_type_reason": "no entity or family marker",
+      "role_as_printed": "Promoter",
+      "role_by_section": {
+        "ofs_sellers": "Promoter"
+      },
+      "shares_offered": "2,37,95,818",
+      "greenshoe_shares": null,
+      "qualifier": null,
+      "conflicts": {
+        "qualifier": [
+          "up to",
+          "upto"
+        ]
+      },
+      "flags": [],
+      "family_group": null,
+      "evidence": [
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "Anand Kamalnayan Pandit (the \"Promoter\" or the \"Seller\") is one of the promoters",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "one of the promoters of Sri Lotus",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "The Seller proposes to sell up to 2,37,95,818 Equity Shares",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "greenshoe_shares",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "with an option to additionally sell up to\n50,00,000 Equity Shares",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "sell up to 2,37,95,818 Equity Shares",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "name_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "I, Anand Kamalnayan Pandit (the \"Seller\")",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "role_as_printed",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "being the promoter of the Company",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "shares_offered",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "propoied to sell upto2,37,95,818 Equity Shares",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+          "field_kept": true
+        },
+        {
+          "field": "greenshoe_shares",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "we wish to exercise the Oversubscription Option to the extent of 27,04,182 Equity",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+          "field_kept": false
+        },
+        {
+          "field": "qualifier",
+          "pdf_index": 1,
+          "printed_page": "",
+          "quote": "propoied to sell upto2,37,95,818 Equity Shares",
+          "section": "ofs_sellers",
+          "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+          "field_kept": true
+        }
+      ],
+      "seller_status": "verified",
+      "amounts": {
+        "proceeds": {
+          "status": "computed",
+          "rupees_low": "5710996320",
+          "rupees_high": "5710996320",
+          "crore_low": "571.10",
+          "crore_high": "571.10",
+          "display": "₹571.10 crore (at floor price; actual sale price not verified; may be higher)",
+          "working": "2,37,95,818 × ₹240 floor = ₹571.10 crore",
+          "price_kind": "floor_price",
+          "inputs": [
+            {
+              "field": "shares_offered",
+              "value": "2,37,95,818",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf#page=1",
+                  "quote": "The Seller proposes to sell up to 2,37,95,818 Equity Shares"
+                },
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+                  "pdf_index": 1,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf#page=1",
+                  "quote": "propoied to sell upto2,37,95,818 Equity Shares"
+                }
+              ]
+            },
+            {
+              "field": "floor_price",
+              "value": "240",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+                  "pdf_index": 5,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf#page=5",
+                  "quote": "The floor price for the Offer shall be t 240 p€r Equity"
+                }
+              ]
+            }
+          ],
+          "label": "at floor price; actual sale price not verified; may be higher"
+        }
+      },
+      "timing": {
+        "proceeds": {
+          "status": "after_date",
+          "when": "settles after the sale on 3 Nov 2026 (13 days ago)",
+          "sources": [
+            {
+              "field": "sale_date",
+              "value": "Tuesday, November 03, 2026",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+                  "pdf_index": 1,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf#page=1",
+                  "quote": "Tuesday, November 03, 2026"
+                },
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf",
+                  "pdf_index": 1,
+                  "printed_page": null,
+                  "link": "https://nsearchives.nseindia.in/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf#page=1",
+                  "quote": "November 03, 2026"
+                }
+              ]
+            },
+            {
+              "field": "settlement_as_printed",
+              "value": "Settlement shall take place on a trade for trade basis.",
+              "evidence": [
+                {
+                  "source_url": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf",
+                  "pdf_index": 8,
+                  "printed_page": "",
+                  "link": "https://nsearchives.nseindia.in/corporate/phonrao_02112026170628_NoticeforOfferForSale.pdf#page=8",
+                  "quote": "Settlement shall take place on a trade for trade basis."
+                }
+              ]
+            }
+          ],
+          "settlement_as_printed": "Settlement shall take place on a trade for trade basis.",
+          "note": "settlement words as printed; the trading-day count is not turned into a date",
+          "days_since": 13
+        }
+      },
+      "confidence": {
+        "level": "medium",
+        "reasons": [
+          "name verified in the seller list in the notice",
+          "found in one section only (ofs_sellers)"
+        ]
+      },
+      "follow_on": []
+    }
+  ],
+  "identity_log": [],
+  "family_groups": [],
+  "counts": {
+    "people": 1,
+    "by_holder_type": {
+      "person": 1
+    },
+    "by_confidence": {
+      "medium": 1
+    },
+    "sellers": 1,
+    "sellers_unverified": 0,
+    "proceeds_computed": 1,
+    "gain_computed": 0,
+    "retained_valued": 0,
+    "retained_timing": {
+      "not_applicable": 1
+    },
+    "identity_decisions": {},
+    "identity_merges": 0,
+    "llm_asks": 0,
+    "family_groups": 0,
+    "flagged": 0,
+    "index_lookups": 1,
+    "follow_on_matches": 0
+  }
+}

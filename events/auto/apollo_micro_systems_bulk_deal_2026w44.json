@@ -1,0 +1,23 @@
+{
+  "event_id": "apollo_micro_systems_bulk_deal_2026w44",
+  "event_type": "block_deal",
+  "company": "Apollo Micro Systems Ltd",
+  "documents": [],
+  "records": [
+    "190a4a1dba347422",
+    "562bc9ae0657d1e2",
+    "71b193c4530d80b3",
+    "a9a9a69180d2fdc6",
+    "e7bbe20886d0ec1e",
+    "efbe21d264ce8818"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-10-27",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}

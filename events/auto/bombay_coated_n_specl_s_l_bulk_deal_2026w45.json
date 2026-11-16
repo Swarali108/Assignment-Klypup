@@ -1,0 +1,21 @@
+{
+  "event_id": "bombay_coated_n_specl_s_l_bulk_deal_2026w45",
+  "event_type": "block_deal",
+  "company": "Bombay Coated N Specl S L",
+  "documents": [],
+  "records": [
+    "238b151b1daf5669",
+    "7be9c9864e7eff32",
+    "c0dddddb74bb07d4",
+    "e04e052f4f63daeb"
+  ],
+  "records_file": "outputs/signals/deals.json",
+  "event_date": "2026-11-05",
+  "discovery": {
+    "sources": [
+      "nse_bulk_deal"
+    ],
+    "first_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-15T18:45:24+00:00"
+  }
+}
