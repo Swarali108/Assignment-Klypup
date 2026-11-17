@@ -8,47 +8,36 @@
       "fields": {
         "name": "VAIBHAV RAJENDRA DOSHI",
         "role": "unknown",
-        "why_money": "sold 3,33,339 shares in bulk deals between 9 Nov 2026 and 13 Nov 2026",
-        "amount": "₹3.07 crore",
-        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "event_age": "6 days ago",
+        "why_money": "sold 2,32,255 shares in bulk deals between 11 Nov 2026 and 13 Nov 2026",
+        "amount": "₹2.11 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "event_age": "5 days ago",
         "event_is": "recent",
-        "proceeds": "₹3.07 crore (1,01,084 shares × ₹94.61 = ₹95.64 lakh (NSE 09-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 101084); 66,829 shares × ₹92.98 = ₹62.14 lakh (NSE 11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829); 85,343 shares × ₹90.57 = ₹77.30 lakh (NSE 12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343); 80,083 shares × ₹89.53 = ₹71.70 lakh (NSE 13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083); total ₹3.07 crore)",
+        "proceeds": "₹2.11 crore (66,829 shares × ₹92.98 = ₹62.14 lakh (NSE 11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829); 85,343 shares × ₹90.57 = ₹77.30 lakh (NSE 12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343); 80,083 shares × ₹89.53 = ₹71.70 lakh (NSE 13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083); total ₹2.11 crore)",
         "family_link": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
       },
       "placeholders": {
         "name": "VAIBHAV RAJENDRA DOSHI",
         "role": "unknown",
-        "amount": "₹3.07 crore",
-        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "proceeds": "₹3.07 crore",
-        "shares_offered": "3,33,339 shares",
-        "event_age": "6 days ago"
+        "amount": "₹2.11 crore",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "proceeds": "₹2.11 crore",
+        "shares_offered": "2,32,255 shares",
+        "event_age": "5 days ago"
       },
       "lines": [
-        "VAIBHAV RAJENDRA DOSHI sold 3,33,339 shares in bulk deals and is receiving the proceeds.",
-        "₹3.07 crore settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), with 6 days ago as the event age.",
-        "Shares sold share a surname and middle name with another holder, so a family link may be worth raising.",
-        "Their role is unknown, so confirm it before the call."
+        "VAIBHAV RAJENDRA DOSHI sold 2,32,255 shares in bulk deals between 11 Nov 2026 and 13 Nov 2026.",
+        "₹2.11 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
+        "Family members also hold shares in this event; consider one joint conversation."
       ],
-      "brief_source": "llm",
-      "fallback_reason": null,
+      "brief_source": "template",
+      "fallback_reason": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "template_problem": null,
       "attempts": [
         {
-          "raw_lines": [
-            "{name} sold {shares_offered} in bulk deals and is receiving the proceeds.",
-            "{proceeds} settled {timing}, with {event_age} as the event age.",
-            "Shares sold share a surname and middle name with another holder, so a family link may be worth raising.",
-            "Their role is unknown, so confirm it before the call."
-          ],
-          "lines": [
-            "VAIBHAV RAJENDRA DOSHI sold 3,33,339 shares in bulk deals and is receiving the proceeds.",
-            "₹3.07 crore settled settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), with 6 days ago as the event age.",
-            "Shares sold share a surname and middle name with another holder, so a family link may be worth raising.",
-            "Their role is unknown, so confirm it before the call."
-          ],
-          "problem": null
+          "lines": [],
+          "problem": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent."
         }
       ]
     }

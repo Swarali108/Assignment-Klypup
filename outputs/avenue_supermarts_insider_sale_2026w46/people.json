@@ -2,25 +2,25 @@
   "event_id": "avenue_supermarts_insider_sale_2026w46",
   "event_type": "insider_sale",
   "structured": true,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "price_basis": {
     "kind": "unknown",
     "reason": "the records print no trade price"
   },
   "sale": {
-    "sale_date": "9 Nov 2026 to 13 Nov 2026",
+    "sale_date": "11 Nov 2026 to 13 Nov 2026",
     "sale_date_parsed": "2026-11-13",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "8,000 shares sold by 4 seller(s)"
+    "total_shares_offered": "2,000 shares sold by 2 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/insider.json",
-    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "refreshed_at": "2026-11-16T01:07:18+00:00",
     "source_status": {
       "nse_insider": {
         "status": "ok",
-        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
-        "records": 167,
+        "note": "301 filings, 0 XBRL files downloaded, 178 sales, 422 buys, pledges, gifts, inter-se transfers and others skipped",
+        "records": 168,
         "http_status": null,
         "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
         "terms_url": "https://www.nseindia.in/nse-terms-of-use"
@@ -34,7 +34,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 5,
+    "records_used": 2,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -130,7 +130,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
           "trade_date": "2026-11-11",
           "settles_on": "2026-11-12",
           "rule": "T+1",
@@ -151,7 +151,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 5
         }
       },
       "why_money": "sold 1,000 shares (Market Sale) on 11 Nov 2026",
@@ -176,153 +176,6 @@
       ]
     },
     {
-      "person_id": "p_elvin_machado",
-      "name_as_printed": "Elvin Machado",
-      "names_as_printed": [
-        "Elvin Machado"
-      ],
-      "name_clean": "elvin machado",
-      "holder_type": "person",
-      "holder_type_reason": "no entity or family marker",
-      "role_as_printed": "Director",
-      "role_by_section": {
-        "exchange_record": "Director"
-      },
-      "side": "sell",
-      "record_ids": [
-        "186cc268bc27ac5e"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 5000,
-          "record_ids": [
-            "186cc268bc27ac5e"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure3",
-          "row_ref": "XBRL context Disclosure3",
-          "quote": "NSE | DMART | Elvin Machado | SELL | 5,000 shares | value 17262773 | Market Sale | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "186cc268bc27ac5e",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "5,000",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "17262773",
-          "rupees_high": "17262773",
-          "crore_low": "1.73",
-          "crore_high": "1.73",
-          "display": "₹1.73 crore",
-          "working": "5,000 shares, value as printed ₹1.73 crore (NSE XBRL context Disclosure3)",
-          "price_kind": "trade_value",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "5,000",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure3",
-                  "row_ref": "XBRL context Disclosure3",
-                  "quote": "NSE | DMART | Elvin Machado | SELL | 5,000 shares | value 17262773 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹1.73 crore",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure3",
-                  "row_ref": "XBRL context Disclosure3",
-                  "quote": "NSE | DMART | Elvin Machado | SELL | 5,000 shares | value 17262773 | Market Sale | 2026-11-09"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-          "trade_date": "2026-11-09",
-          "settles_on": "2026-11-10",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "9 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure3",
-                  "row_ref": "XBRL context Disclosure3",
-                  "quote": "NSE | DMART | Elvin Machado | SELL | 5,000 shares | value 17262773 | Market Sale | 2026-11-09"
-                }
-              ]
-            }
-          ],
-          "days_since": 6
-        }
-      },
-      "why_money": "sold 5,000 shares (Market Sale) on 9 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange insider-trading disclosure (structured record, read by code)",
-          "full name printed"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "avenue_supermarts_insider_sale_2026w43",
-          "company": "AVENUE SUPERMARTS LIMITED",
-          "name_as_printed": "Elvin Machado",
-          "role": "Director",
-          "amount": "₹1.90 crore",
-          "trigger_date": "2026-10-23",
-          "match_strength": "possible: common name, confirm before using",
-          "reason": "same name tokens after spelling rules: 'Elvin Machado' / 'Elvin Machado'"
-        },
-        {
-          "event_id": "avenue_supermarts_insider_sale_2026w45",
-          "company": "AVENUE SUPERMARTS LIMITED",
-          "name_as_printed": "Elvin Machado",
-          "role": "Director",
-          "amount": "₹3.35 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "possible: common name, confirm before using",
-          "reason": "same name tokens after spelling rules: 'Elvin Machado' / 'Elvin Machado'"
-        }
-      ]
-    },
-    {
       "person_id": "p_jaideep_soman",
       "name_as_printed": "Jaideep Soman",
       "names_as_printed": [
@@ -335,17 +188,9 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "0feb931abc34e21e",
         "08d29f11e8ade82f"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 500,
-          "record_ids": [
-            "0feb931abc34e21e"
-          ]
-        },
         {
           "trade_date": "2026-11-13",
           "quantity": 1000,
@@ -358,20 +203,6 @@
       "flags": [],
       "family_group": null,
       "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure4",
-          "row_ref": "XBRL context Disclosure4",
-          "quote": "NSE | DMART | Jaideep Soman | SELL | 500 shares | value 1724500 | Market Sale | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "0feb931abc34e21e",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
         {
           "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261113_173938515_WEB.html",
           "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261113_173938515_WEB.html",
@@ -388,46 +219,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "1,500",
+      "shares_offered": "1,000",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "5199500",
-          "rupees_high": "5199500",
-          "crore_low": "0.52",
-          "crore_high": "0.52",
-          "display": "₹52.00 lakh",
-          "working": "500 shares, value as printed ₹17.24 lakh (NSE XBRL context Disclosure4); 1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure2); total ₹52.00 lakh",
+          "rupees_low": "3475000",
+          "rupees_high": "3475000",
+          "crore_low": "0.35",
+          "crore_high": "0.35",
+          "display": "₹34.75 lakh",
+          "working": "1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure2)",
           "price_kind": "trade_value",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "500",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure4",
-                  "row_ref": "XBRL context Disclosure4",
-                  "quote": "NSE | DMART | Jaideep Soman | SELL | 500 shares | value 1724500 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹17.24 lakh",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure4",
-                  "row_ref": "XBRL context Disclosure4",
-                  "quote": "NSE | DMART | Jaideep Soman | SELL | 500 shares | value 1724500 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "1,000",
@@ -462,7 +265,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "trade_date": "2026-11-13",
           "settles_on": "2026-11-16",
           "rule": "T+1",
@@ -483,134 +286,10 @@
               ]
             }
           ],
-          "days_since": 6
+          "days_since": 1
         }
       },
-      "why_money": "sold 1,500 shares (Market Sale) on 9 Nov 2026 and 13 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange insider-trading disclosure (structured record, read by code)",
-          "full name printed"
-        ]
-      },
-      "follow_on": []
-    },
-    {
-      "person_id": "p_mahesh_sitaram_pawar",
-      "name_as_printed": "Mahesh Sitaram Pawar",
-      "names_as_printed": [
-        "Mahesh Sitaram Pawar"
-      ],
-      "name_clean": "mahesh sitaram pawar",
-      "holder_type": "person",
-      "holder_type_reason": "no entity or family marker",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "1bdd3f238efd3947"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 500,
-          "record_ids": [
-            "1bdd3f238efd3947"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure2",
-          "row_ref": "XBRL context Disclosure2",
-          "quote": "NSE | DMART | Mahesh Sitaram Pawar | SELL | 500 shares | value 1721950 | Market Sale | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "1bdd3f238efd3947",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "500",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "1721950",
-          "rupees_high": "1721950",
-          "crore_low": "0.17",
-          "crore_high": "0.17",
-          "display": "₹17.22 lakh",
-          "working": "500 shares, value as printed ₹17.22 lakh (NSE XBRL context Disclosure2)",
-          "price_kind": "trade_value",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "500",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure2",
-                  "row_ref": "XBRL context Disclosure2",
-                  "quote": "NSE | DMART | Mahesh Sitaram Pawar | SELL | 500 shares | value 1721950 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹17.22 lakh",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure2",
-                  "row_ref": "XBRL context Disclosure2",
-                  "quote": "NSE | DMART | Mahesh Sitaram Pawar | SELL | 500 shares | value 1721950 | Market Sale | 2026-11-09"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-          "trade_date": "2026-11-09",
-          "settles_on": "2026-11-10",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "9 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14711_20261111_173632251_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure2",
-                  "row_ref": "XBRL context Disclosure2",
-                  "quote": "NSE | DMART | Mahesh Sitaram Pawar | SELL | 500 shares | value 1721950 | Market Sale | 2026-11-09"
-                }
-              ]
-            }
-          ],
-          "days_since": 6
-        }
-      },
-      "why_money": "sold 500 shares (Market Sale) on 9 Nov 2026",
+      "why_money": "sold 1,000 shares (Market Sale) on 13 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -624,28 +303,28 @@
   "identity_log": [],
   "family_groups": [],
   "counts": {
-    "people": 4,
+    "people": 2,
     "by_holder_type": {
-      "person": 4
+      "person": 2
     },
     "by_confidence": {
-      "high": 4
+      "high": 2
     },
-    "sellers": 4,
+    "sellers": 2,
     "sellers_unverified": 0,
     "buyers": 0,
-    "proceeds_computed": 4,
+    "proceeds_computed": 2,
     "gain_computed": 0,
     "retained_valued": 0,
     "retained_timing": {
-      "not_applicable": 4
+      "not_applicable": 2
     },
     "identity_decisions": {},
     "identity_merges": 0,
     "llm_asks": 0,
     "family_groups": 0,
     "flagged": 0,
-    "index_lookups": 4,
-    "follow_on_matches": 3
+    "index_lookups": 2,
+    "follow_on_matches": 1
   }
 }
