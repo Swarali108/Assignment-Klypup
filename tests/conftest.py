@@ -20,9 +20,9 @@ def no_bright_data(tmp_path, monkeypatch):
 def app_env(tmp_path, monkeypatch):
     """A temp SQLite database, a fixed session secret, no Postgres, no model, no evidence warming."""
     monkeypatch.delenv("DATABASE_URL", raising=False)
-    monkeypatch.setenv("AURELIA_DB_PATH", str(tmp_path / "app.sqlite"))
+    monkeypatch.setenv("FINSIGHT_DB_PATH", str(tmp_path / "app.sqlite"))
     monkeypatch.setenv("SESSION_SECRET", "test-secret")
-    monkeypatch.setenv("AURELIA_WARM", "0")
+    monkeypatch.setenv("FINSIGHT_WARM", "0")
     from api import main
 
     monkeypatch.setattr(main, "ASK_MODEL", lambda question: (_ for _ in ()).throw(RuntimeError("no model in tests")))
@@ -36,7 +36,7 @@ def as_role(app_env):
     def make(role: str | None) -> TestClient:
         client = TestClient(app_env.app)
         if role:
-            reply = client.post("/api/auth/login", json={"email": f"{role}@aurelia.demo", "password": "demo1234"})
+            reply = client.post("/api/auth/login", json={"email": f"{role}@finsight.demo", "password": "demo1234"})
             assert reply.status_code == 200, reply.text
         return client
 

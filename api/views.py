@@ -66,8 +66,8 @@ STEP_LABELS = {"locate": "Find the right pages", "extract": "Read the tables", "
 # ---------- small helpers ----------
 
 def as_of() -> date:
-    """Today, or AURELIA_AS_OF (YYYY-MM-DD) for a fixed demo date."""
-    fixed = os.environ.get("AURELIA_AS_OF")
+    """Today, or FINSIGHT_AS_OF (YYYY-MM-DD) for a fixed demo date."""
+    fixed = os.environ.get("FINSIGHT_AS_OF")
     return date.fromisoformat(fixed) if fixed else date.today()
 
 

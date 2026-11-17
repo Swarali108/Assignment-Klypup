@@ -37,14 +37,14 @@ TABLES = (
         PRIMARY KEY (email, name_key))""",
 )
 # Demo accounts that existed before the guide: treated as already set up when they have no row yet.
-PRE_ONBOARDED = {"admin@aurelia.demo", "rm@aurelia.demo", "viewer@aurelia.demo"}
+PRE_ONBOARDED = {"admin@finsight.demo", "rm@finsight.demo", "viewer@finsight.demo"}
 ALERTS = ("daily", "weekly", "off")
 MAX_BOOK = 5000
 
 _tables_ready: set[str] = set()
 _lock = threading.Lock()
 _books: dict[str, frozenset[str]] = {}  # email -> normalised names (cleared on every book write)
-_asker: contextvars.ContextVar[str | None] = contextvars.ContextVar("aurelia_asker", default=None)
+_asker: contextvars.ContextVar[str | None] = contextvars.ContextVar("finsight_asker", default=None)
 
 _TITLES = re.compile(r"^(mr|mrs|ms|miss|dr|shri|smt|sri|prof|late)\.?\s+", re.I)
 

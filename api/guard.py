@@ -3,8 +3,8 @@
 Rule for POST/PUT/PATCH/DELETE: the body must be application/json (a browser sends that cross-site only
 after a preflight, which this API does not allow) and, when the request carries an Origin header, that
 Origin must be the web app. The allowed origins come from ALLOWED_ORIGINS (comma separated, e.g.
-"https://aurelia.example.com,https://aurelia.vercel.app"); unset, they are the local web app
-(http://localhost:3000 and http://127.0.0.1:3000). AURELIA_ORIGINS (the older name) is added on top.
+"https://finsight.example.com,https://finsight.vercel.app"); unset, they are the local web app
+(http://localhost:3000 and http://127.0.0.1:3000).
 """
 
 from __future__ import annotations
@@ -22,9 +22,9 @@ def _origin_list(value: str | None) -> list[str]:
 
 
 def allowed_origins() -> set[str]:
-    """The origins that may write: ALLOWED_ORIGINS when set (else the local web app), plus AURELIA_ORIGINS."""
+    """The origins that may write: ALLOWED_ORIGINS when set, else the local web app."""
     configured = _origin_list(os.environ.get("ALLOWED_ORIGINS"))
-    return {*(configured or DEFAULT_ORIGINS), *_origin_list(os.environ.get("AURELIA_ORIGINS"))}
+    return set(configured or DEFAULT_ORIGINS)
 
 
 def refusal(headers: dict[str, str], method: str) -> tuple[int, str] | None:

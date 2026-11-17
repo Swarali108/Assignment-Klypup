@@ -72,7 +72,7 @@ test.describe("boardroom mode", () => {
     await expect(page.locator("html")).toHaveAttribute("data-boardroom", "");
     await expect(picker).toBeHidden();
     await expect(page.getByRole("button", { name: "Compare", exact: true })).toBeHidden();
-    expect(await page.evaluate(() => window.localStorage.getItem("aurelia.boardroom"))).toBe("1");
+    expect(await page.evaluate(() => window.localStorage.getItem("finsight.boardroom"))).toBe("1");
 
     // an answer shows no cost footer, model badges or timings
     await ask(page, "Who came into money this week?");
@@ -88,7 +88,7 @@ test.describe("boardroom mode", () => {
     await page.getByRole("menuitem", { name: /Boardroom mode/ }).click();
     await expect(page.locator("html")).not.toHaveAttribute("data-boardroom", /.*/);
     await expect(page.getByRole("button", { name: "Choose the model for this conversation" })).toBeVisible();
-    expect(await page.evaluate(() => window.localStorage.getItem("aurelia.boardroom"))).toBe("0");
+    expect(await page.evaluate(() => window.localStorage.getItem("finsight.boardroom"))).toBe("0");
   });
 
   test("hides the freshness chips on a call card too, and the larger type returns to normal when off", async ({ page }) => {

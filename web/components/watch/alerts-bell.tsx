@@ -32,10 +32,10 @@ export function AlertsBell() {
     if (!user) return;
     load();
     const again = () => load();
-    window.addEventListener("aurelia:alerts-refresh", again);
+    window.addEventListener("finsight:alerts-refresh", again);
     const timer = window.setInterval(load, 5 * 60 * 1000);
     return () => {
-      window.removeEventListener("aurelia:alerts-refresh", again);
+      window.removeEventListener("finsight:alerts-refresh", again);
       window.clearInterval(timer);
     };
   }, [user, load]);

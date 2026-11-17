@@ -38,7 +38,7 @@ function order(events: EventSummary[]): EventSummary[] {
 }
 
 export function EventsGrid({ events }: { events: EventSummary[] }) {
-  const [filter, setFilter] = usePersistentState<Filter>("aurelia.events.tab", "all");
+  const [filter, setFilter] = usePersistentState<Filter>("finsight.events.tab", "all");
   const sorted = useMemo(() => order(events), [events]);
   const counts = useMemo(() => {
     const c: Record<Filter, number> = { all: events.length, calls: 0, empty: 0, attention: 0 };

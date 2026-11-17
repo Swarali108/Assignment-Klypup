@@ -19,8 +19,8 @@ def test_demo_users_are_seeded_once_and_login_sets_a_safe_cookie(app_env):
     from api import db, seed_users
 
     client = TestClient(app_env.app)
-    assert client.post("/api/auth/login", json={"email": "admin@aurelia.demo", "password": "wrong"}).status_code == 401
-    reply = client.post("/api/auth/login", json={"email": "ADMIN@aurelia.demo", "password": "demo1234"})
+    assert client.post("/api/auth/login", json={"email": "admin@finsight.demo", "password": "wrong"}).status_code == 401
+    reply = client.post("/api/auth/login", json={"email": "ADMIN@finsight.demo", "password": "demo1234"})
     assert reply.status_code == 200 and reply.json()["role"] == "admin"
     cookie = reply.headers["set-cookie"].lower()
     assert "httponly" in cookie and "samesite=lax" in cookie and "max-age=43200" in cookie

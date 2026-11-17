@@ -44,7 +44,7 @@ export const Composer = forwardRef<
       )}
     >
       <label htmlFor="prompt" className="sr-only">
-        Ask AURELIA
+        Ask FinSight
       </label>
       <textarea
         id="prompt"

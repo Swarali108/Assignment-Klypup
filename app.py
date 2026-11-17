@@ -1,4 +1,4 @@
-"""AURELIA · Wealth Intelligence: the Streamlit front end for the call-list engine.
+"""FinSight · Wealth Intelligence: the Streamlit front end for the call-list engine.
 
     streamlit run app.py
 
@@ -46,7 +46,7 @@ HOST_SETTINGS = ("LLM_API_KEY", "LLM_BASE_URL", "LLM_MODEL", "LLM_MODEL_STRONG",
 
 def main() -> None:
     """Shell, then the current page inside its own container (so it fades in on page change)."""
-    st.set_page_config(page_title="AURELIA · Wealth Intelligence", page_icon=":material/diamond:", layout="wide")
+    st.set_page_config(page_title="FinSight · Wealth Intelligence", page_icon=":material/diamond:", layout="wide")
     st.markdown(page_css(), unsafe_allow_html=True)
     load_host_settings()
     shell.init_state()

@@ -63,12 +63,12 @@ def test_bad_or_expired_token_is_403(chat):
 
     client = chat("rm")
     assert client.post("/api/chat", json={"message": "", "confirm_token": "forged.token"}).status_code == 403
-    good, _ = tokens.sign("rm@aurelia.demo", "deep_dive", "x/y|", 0.01)
+    good, _ = tokens.sign("rm@finsight.demo", "deep_dive", "x/y|", 0.01)
     tampered = good[:-2] + ("AA" if not good.endswith("AA") else "BB")
     assert client.post("/api/chat", json={"confirm_token": tampered}).status_code == 403
-    expired, _ = tokens.sign("rm@aurelia.demo", "deep_dive", "x/y|", 0.01, now=time.time() - 3600)
+    expired, _ = tokens.sign("rm@finsight.demo", "deep_dive", "x/y|", 0.01, now=time.time() - 3600)
     assert client.post("/api/chat", json={"confirm_token": expired}).status_code == 403
-    someone_else, _ = tokens.sign("admin@aurelia.demo", "deep_dive", "x/y|", 0.01)
+    someone_else, _ = tokens.sign("admin@finsight.demo", "deep_dive", "x/y|", 0.01)
     assert client.post("/api/chat", json={"confirm_token": someone_else}).status_code == 403
 
 
@@ -80,10 +80,10 @@ def test_viewer_cannot_confirm_and_rm_is_capped(chat):
     events = _events(viewer.post("/api/chat", json={"choice": f"deep:{top['event']['id']}/{top['person']['id']}"}))
     estimate = _of(events, "estimate")[0]
     assert estimate["can_confirm"] is False and estimate["confirm_token"] == ""
-    minted, _ = tokens.sign("viewer@aurelia.demo", "deep_dive", "x/y|", 0.001)
+    minted, _ = tokens.sign("viewer@finsight.demo", "deep_dive", "x/y|", 0.001)
     assert viewer.post("/api/chat", json={"confirm_token": minted}).status_code == 403
     rm = chat("rm")
-    too_big, _ = tokens.sign("rm@aurelia.demo", "research", "q", 0.75)
+    too_big, _ = tokens.sign("rm@finsight.demo", "research", "q", 0.75)
     assert rm.post("/api/chat", json={"confirm_token": too_big}).status_code == 403
 
 
@@ -147,7 +147,7 @@ def test_deep_dive_reports_cap_and_budget_stops(chat, monkeypatch):
     node = tree.add(tree.nodes[0]["id"], "process", "Process a related filing", status="candidate")
     tree.process_candidates.append({"node": node, "event_id": "related", "company": "a related company",
                                     "estimate": {"low": 0.001, "high": 0.002}})
-    turn = Turn({"email": "rm@aurelia.demo", "role": "rm"}, "c", "")
+    turn = Turn({"email": "rm@finsight.demo", "role": "rm"}, "c", "")
     steps = [data for _kind, data in deep_dive.run_processing(turn, tree, ["related"])]
     assert node["status"] == "stopped" and steps[0]["label"].startswith("Stopped: budget reached")
     assert turn.spent == 0

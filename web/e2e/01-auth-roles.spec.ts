@@ -53,7 +53,7 @@ test.describe("anonymous visitor", () => {
   test("an unknown email gets the same message as a wrong password", async ({ page, guard }) => {
     guard.allow(401, /\/api\/auth\/login/);
     await page.goto("/login");
-    await page.locator("#email").fill("nobody@aurelia.demo");
+    await page.locator("#email").fill("nobody@finsight.demo");
     await page.locator("#password").fill(PASSWORD);
     await page.getByRole("button", { name: "Sign in", exact: true }).click();
     await expect(page.getByRole("alert").filter({ hasText: "That email and password do not match" })).toBeVisible();

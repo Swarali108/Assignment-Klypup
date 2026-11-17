@@ -5,7 +5,7 @@
 // user prefers reduced motion.
 //
 // Streamlit re-runs this function on every rerun. The canvas is created once, on
-// document.body, and kept on window.__aureliaField, so it never restarts or doubles
+// document.body, and kept on window.__finsightField, so it never restarts or doubles
 // when the visitor changes page. data.paused (the profile menu's switch) pauses it.
 
 const TEAL = "61, 214, 195";
@@ -16,7 +16,7 @@ const POINTER_RADIUS = 150;
 function createField() {
   const canvas = document.createElement("canvas");
   canvas.setAttribute("aria-hidden", "true");
-  canvas.className = "aurelia-field";
+  canvas.className = "finsight-field";
   canvas.style.cssText =
     "position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:0;transition:opacity 1s";
   document.body.prepend(canvas);
@@ -141,6 +141,6 @@ function createField() {
 }
 
 export default function ({ data }) {
-  if (!window.__aureliaField) window.__aureliaField = createField();
-  window.__aureliaField.setPaused(data && data.paused);
+  if (!window.__finsightField) window.__finsightField = createField();
+  window.__finsightField.setPaused(data && data.paused);
 }

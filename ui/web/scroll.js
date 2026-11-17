@@ -3,8 +3,8 @@
 // Smooth unless the visitor prefers reduced motion.
 
 export default function ({ data }) {
-  if (!data || !data.selector || window.__aureliaScrollToken === data.token) return;
-  window.__aureliaScrollToken = data.token;
+  if (!data || !data.selector || window.__finsightScrollToken === data.token) return;
+  window.__finsightScrollToken = data.token;
   const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   let tries = 0;
   const go = () => {

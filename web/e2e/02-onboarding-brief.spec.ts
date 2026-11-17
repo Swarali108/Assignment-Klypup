@@ -10,7 +10,7 @@ async function resetNewRm(request: APIRequestContext) {
   await request.put("/api/me/preferences", { data: { onboarded: false, event_types: [], min_ticket_cr: null, alerts: "daily" } });
   await request.delete("/api/me/book", { data: {} });
   // "first sign-in of the day" again (the brief tables exist only on builds with the daily brief)
-  sql(`DELETE FROM user_brief WHERE email = 'new.rm@aurelia.demo' AND day = '${todayIst()}'`, "write");
+  sql(`DELETE FROM user_brief WHERE email = 'new.rm@finsight.demo' AND day = '${todayIst()}'`, "write");
 }
 test.beforeAll(async ({ playwright, baseURL }) => {
   const ctx = await playwright.request.newContext({ baseURL, storageState: authFile("newrm") });

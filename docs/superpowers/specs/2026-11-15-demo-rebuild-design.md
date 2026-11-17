@@ -64,7 +64,7 @@ Owner decided: Next.js + FastAPI, local, demo only, due 2026-11-16 EOD, no heavy
 ### Layout
 
 ```
-aurelia/
+finsight/
   api/        FastAPI app (new). Python 3.12, same deps + fastapi, uvicorn, pypdfium2.
   web/        Next.js app (new). TypeScript, App Router, Tailwind, shadcn/ui, cmdk, Recharts, react-force-graph.
   agents/ tools/ config/ run.py   existing pipeline (fixed in place)
@@ -129,7 +129,7 @@ exact tier thresholds (documented in `config/ranking.py` with a one-line reason 
 
 ## Calls I made (owner can override)
 
-- Keep the product name **AURELIA** (no time for branding work).
+- Keep the product name **FinSight** (no time for branding work).
 - Keep the old Streamlit app untouched beside the new one.
 - Light-first theme with dark mode toggle.
 - No OCR this round.

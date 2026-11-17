@@ -96,7 +96,7 @@ test.describe("Today", () => {
     await page.goto("/today");
     await page.getByPlaceholder("Search name, company or household").fill("Sharma");
     await page.getByRole("switch", { name: "Hide logged calls" }).click();
-    const stored = await page.evaluate(() => window.localStorage.getItem("aurelia.today.filters"));
+    const stored = await page.evaluate(() => window.localStorage.getItem("finsight.today.filters"));
     test.skip(stored === null, "remembered filters are not deployed on this build");
     await page.reload();
     await expect(page.getByPlaceholder("Search name, company or household")).toHaveValue("Sharma");
@@ -126,7 +126,7 @@ test.describe("Today", () => {
     const { items } = await getJson<{ items: TodayItem[] }>(request, "/api/today");
     await page.goto("/today");
     const [download] = await Promise.all([page.waitForEvent("download"), page.getByRole("link", { name: /Export for CRM/ }).click()]);
-    expect(download.suggestedFilename()).toBe("aurelia-calls.csv");
+    expect(download.suggestedFilename()).toBe("finsight-calls.csv");
     const text = fs.readFileSync((await download.path())!, "utf8");
     expect(text.split("\n")[0].trim()).toBe(
       "call_id,event_id,company,event_type,person_id,name,role,tier,amount_cr,amount_kind,amount_is_estimate,amount_text,money_date,timing,confidence,why,rm_status,follow_up_date,note",

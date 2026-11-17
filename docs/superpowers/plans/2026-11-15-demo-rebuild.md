@@ -1,4 +1,4 @@
-# AURELIA demo rebuild: implementation plan
+# FinSight demo rebuild: implementation plan
 
 > **For agentic workers:** executed through the orchestrator workflow (the orchestrator workflow):
 > parallel builders in explicit git worktrees, one writer per file set. Steps use checkbox (`- [ ]`) syntax.
@@ -179,6 +179,6 @@
 
 - **DB:** `DATABASE_URL` env (Neon Postgres, `sslmode=require`) via `psycopg[binary]` v3; when unset, fall back to SQLite `api/state/app.sqlite`. Tables `users(id, email unique, name, role, password_hash)` and `rm_state(...)`. Pipeline outputs stay on files.
 - **Roles:** `admin` (everything: process events, add events, Trust & Ops), `rm` (view, log outcomes/notes, export, Ask), `viewer` (read-only). API enforces per endpoint (403); UI hides what the role can't do.
-- **Login:** email + password (stdlib `hashlib.pbkdf2_hmac`), HMAC-signed session cookie (httpOnly, SameSite=Lax, 12 h) using `SESSION_SECRET` (generated into `api/state/` if unset). Next.js rewrites `/api/*` → `http://127.0.0.1:8000/api/*` so the cookie is same-origin; `middleware.ts` redirects to `/login` without a session. Seeded demo users `admin@aurelia.demo`, `rm@aurelia.demo`, `viewer@aurelia.demo` (password `demo1234`), listed on the login page as "Demo accounts". Polished login screen in the design system.
+- **Login:** email + password (stdlib `hashlib.pbkdf2_hmac`), HMAC-signed session cookie (httpOnly, SameSite=Lax, 12 h) using `SESSION_SECRET` (generated into `api/state/` if unset). Next.js rewrites `/api/*` → `http://127.0.0.1:8000/api/*` so the cookie is same-origin; `middleware.ts` redirects to `/login` without a session. Seeded demo users `admin@finsight.demo`, `rm@finsight.demo`, `viewer@finsight.demo` (password `demo1234`), listed on the login page as "Demo accounts". Polished login screen in the design system.
 - **Security:** fix all items in the security findings list (URL gate on create + redirect hops, PDF-only docs endpoint, JSON content-type + Origin check on writes, uvicorn bound to 127.0.0.1, CSV escaping).
 - **Tests (tier 1):** viewer gets 403 on run/create/rm PUT; rm gets 403 on run; no session → 401; the FINDINGS tests.

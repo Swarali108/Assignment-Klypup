@@ -2,7 +2,7 @@ import path from "node:path";
 import { defineConfig, devices } from "@playwright/test";
 
 /**
- * End-to-end suite for AURELIA. The app must already be running (./demo.sh start): web on :3000 proxying /api to the
+ * End-to-end suite for FinSight. The app must already be running (./demo.sh start): web on :3000 proxying /api to the
  * API on 127.0.0.1:8000. Nothing here starts or stops it.
  *
  *   cd web && npx playwright test              # everything (desktop 1440x900 + the @mobile subset at 390x844)

@@ -1,4 +1,4 @@
-# AURELIA API contract
+# FinSight API contract
 
 Base URL: `http://localhost:8000/api` (set `NEXT_PUBLIC_API_URL`). Start it with
 
@@ -1606,7 +1606,7 @@ Use the ready-made `image_url` from any evidence ref. Headers:
 - 404 `{"detail": ...}` when the PDF is not stored or the page does not exist.
 
 First render of a page takes 0.5 to 4 s; then it is cached on disk. On startup the API pre-renders
-the headline evidence of the top 25 calls (`AURELIA_WARM=0` skips this).
+the headline evidence of the top 25 calls (`FINSIGHT_WARM=0` skips this).
 
 ```json
 {
@@ -2528,7 +2528,7 @@ email not offered is refused at sign-in (401). The first admin comes from ADMIN_
 # v3c additions (2026-11-16): head of RMs, review queue, watchlists, model switcher
 
 Roles: `admin`, `head` (new), `rm`, `viewer`. New permissions in `/api/auth/me`: `team`, `review` (admin + head). A head can
-do everything an RM does; `ops` stays admin only. A head demo user (`head@aurelia.demo`, `demo1234`) is seeded only when
+do everything an RM does; `ops` stays admin only. A head demo user (`head@finsight.demo`, `demo1234`) is seeded only when
 `APP_ENV` is not production (no demo user is seeded in production).
 
 - `rm_state` statuses add `meeting_booked` and `won`. `PUT /api/rm/{e}/{p}` accepts `won_amount_cr` (required the first time a

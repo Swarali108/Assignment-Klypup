@@ -144,7 +144,7 @@ export interface AutoLog {
 }
 
 /** Fired on window when a check finishes, so the auto-spend chip refetches. */
-export const CHECK_FINISHED = "aurelia:check-finished";
+export const CHECK_FINISHED = "finsight:check-finished";
 
 export const sourcesApi = {
   sources: () => apiFetch<SourcesResponse>("/sources"),

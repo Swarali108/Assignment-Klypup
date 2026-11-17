@@ -360,7 +360,7 @@ def test_client_visits_home_once_waits_between_requests_and_latches_403(tmp_path
     client.get_text("https://www.bseindia.com/a", 1)  # cached: no request
     client.get_text("https://www.bseindia.com/b", 1)
     assert [r.url.path for r in seen] == ["/", "/a", "/b"]
-    assert all(r.headers["user-agent"] == USER_AGENT and "AURELIA" in USER_AGENT for r in seen)
+    assert all(r.headers["user-agent"] == USER_AGENT and "FinSight" in USER_AGENT for r in seen)
     assert not any(key.startswith("sec-") for r in seen for key in r.headers)
     assert seen[1].headers.get("cookie") == "site=1" and seen[1].headers["referer"] == "https://www.bseindia.com/"
     assert clock.slept and all(s == pytest.approx(2.0) for s in clock.slept)

@@ -22,7 +22,7 @@ function slug(s: string) {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, "")
-      .slice(0, 60) || "aurelia"
+      .slice(0, 60) || "finsight"
   );
 }
 
@@ -117,7 +117,7 @@ function metaLine(m: StoredMessage): string | null {
 export function conversationMarkdown(c: StoredConversation): string {
   const cost = c.messages.reduce((s, m) => s + (m.meta?.cost_usd ?? 0), 0);
   const asked = c.messages.filter((m) => m.role === "user").length;
-  const out = [`# ${c.title}`, "", `AURELIA conversation · ${asked} ${asked === 1 ? "question" : "questions"} · total cost ${formatCost(cost)}`, ""];
+  const out = [`# ${c.title}`, "", `FinSight conversation · ${asked} ${asked === 1 ? "question" : "questions"} · total cost ${formatCost(cost)}`, ""];
   for (const m of c.messages) {
     if (m.role === "user") {
       out.push(`## ${m.text.trim() || "(picked an option)"}`, "");

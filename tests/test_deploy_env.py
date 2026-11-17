@@ -9,7 +9,7 @@ from fastapi.testclient import TestClient
 
 from api import auth, datadir, guard
 
-LOGIN = {"email": "admin@aurelia.demo", "password": "demo1234"}
+LOGIN = {"email": "admin@finsight.demo", "password": "demo1234"}
 
 
 @pytest.fixture()
@@ -24,28 +24,26 @@ def no_dotenv(monkeypatch):
 
 def test_origins_default_to_the_local_web_app(monkeypatch):
     monkeypatch.delenv("ALLOWED_ORIGINS", raising=False)
-    monkeypatch.delenv("AURELIA_ORIGINS", raising=False)
     json_headers = {"content-type": "application/json"}
     assert guard.refusal({**json_headers, "origin": "http://localhost:3000"}, "POST") is None
-    assert guard.refusal({**json_headers, "origin": "https://aurelia.vercel.app"}, "POST")[0] == 403
+    assert guard.refusal({**json_headers, "origin": "https://finsight.vercel.app"}, "POST")[0] == 403
 
 
 def test_allowed_origins_replace_the_default(monkeypatch):
-    monkeypatch.setenv("ALLOWED_ORIGINS", " https://Aurelia.example.com/ , https://aurelia.vercel.app,")
-    monkeypatch.delenv("AURELIA_ORIGINS", raising=False)
-    assert guard.allowed_origins() == {"https://aurelia.example.com", "https://aurelia.vercel.app"}
+    monkeypatch.setenv("ALLOWED_ORIGINS", " https://FinSight.example.com/ , https://finsight.vercel.app,")
+    assert guard.allowed_origins() == {"https://finsight.example.com", "https://finsight.vercel.app"}
     json_headers = {"content-type": "application/json"}
-    assert guard.refusal({**json_headers, "origin": "https://aurelia.vercel.app"}, "PUT") is None
-    assert guard.refusal({**json_headers, "origin": "https://aurelia.example.com/"}, "POST") is None
+    assert guard.refusal({**json_headers, "origin": "https://finsight.vercel.app"}, "PUT") is None
+    assert guard.refusal({**json_headers, "origin": "https://finsight.example.com/"}, "POST") is None
     assert guard.refusal({**json_headers, "origin": "http://localhost:3000"}, "POST")[0] == 403
     assert guard.refusal({**json_headers, "origin": "https://evil.example"}, "DELETE")[0] == 403
     assert guard.refusal({"origin": "https://evil.example"}, "GET") is None  # reads are never refused
 
 
 def test_allowed_origins_apply_to_real_requests(app_env, monkeypatch):
-    monkeypatch.setenv("ALLOWED_ORIGINS", "https://aurelia.vercel.app")
+    monkeypatch.setenv("ALLOWED_ORIGINS", "https://finsight.vercel.app")
     client = TestClient(app_env.app)
-    assert client.post("/api/auth/login", json=LOGIN, headers={"Origin": "https://aurelia.vercel.app"}).status_code == 200
+    assert client.post("/api/auth/login", json=LOGIN, headers={"Origin": "https://finsight.vercel.app"}).status_code == 200
     refused = client.post("/api/auth/login", json=LOGIN, headers={"Origin": "https://other.example"})
     assert refused.status_code == 403
     assert refused.json()["detail"] == "Requests from this site are not allowed"
@@ -96,7 +94,7 @@ def test_local_without_app_env_still_starts_without_a_secret(app_env, monkeypatc
 
 # ---------- demo accounts in production (DEMO_ACCOUNTS) ----------
 
-DEMO_NON_ADMIN = ["rm@aurelia.demo", "viewer@aurelia.demo", "new.rm@aurelia.demo", "head@aurelia.demo"]
+DEMO_NON_ADMIN = ["rm@finsight.demo", "viewer@finsight.demo", "new.rm@finsight.demo", "head@finsight.demo"]
 
 
 @pytest.fixture()
@@ -115,36 +113,36 @@ def _login(client: TestClient, email: str, password: str = "demo1234") -> int:
 
 def test_production_offers_no_demo_accounts_by_default(production):
     assert production.get("/api/auth/config").json() == {"production": True, "demo_accounts": []}
-    assert _login(production, "rm@aurelia.demo") == 401
+    assert _login(production, "rm@finsight.demo") == 401
 
 
 def test_demo_accounts_flag_offers_every_demo_account_except_admin(production, monkeypatch):
     monkeypatch.setenv("DEMO_ACCOUNTS", "1")
     assert production.get("/api/auth/config").json()["demo_accounts"] == DEMO_NON_ADMIN
-    assert _login(production, "rm@aurelia.demo") == 200
+    assert _login(production, "rm@finsight.demo") == 200
     assert production.get("/api/auth/me").json()["permissions"]["process"] is False
-    assert _login(production, "admin@aurelia.demo") == 401  # the public demo password never opens an admin
+    assert _login(production, "admin@finsight.demo") == 401  # the public demo password never opens an admin
 
 
 def test_the_real_admin_may_reuse_the_demo_admin_address(production, monkeypatch):
     monkeypatch.setenv("DEMO_ACCOUNTS", "1")
-    monkeypatch.setenv("ADMIN_EMAIL", "admin@aurelia.demo")
+    monkeypatch.setenv("ADMIN_EMAIL", "admin@finsight.demo")
     monkeypatch.setenv("ADMIN_PASSWORD", "a-long-private-password")
-    assert _login(production, "admin@aurelia.demo", "a-long-private-password") == 200
-    assert _login(production, "admin@aurelia.demo") == 401
+    assert _login(production, "admin@finsight.demo", "a-long-private-password") == 200
+    assert _login(production, "admin@finsight.demo") == 401
 
 
 def test_turning_the_flag_off_locks_out_demo_accounts_already_created(production, monkeypatch):
     monkeypatch.setenv("DEMO_ACCOUNTS", "1")
-    assert _login(production, "head@aurelia.demo") == 200
+    assert _login(production, "head@finsight.demo") == 200
     monkeypatch.delenv("DEMO_ACCOUNTS")
-    assert _login(production, "head@aurelia.demo") == 401
+    assert _login(production, "head@finsight.demo") == 401
 
 
 def test_local_offers_every_demo_account(app_env, monkeypatch):
     monkeypatch.delenv("APP_ENV", raising=False)
     config = TestClient(app_env.app).get("/api/auth/config").json()
-    assert config == {"production": False, "demo_accounts": ["admin@aurelia.demo", *DEMO_NON_ADMIN]}
+    assert config == {"production": False, "demo_accounts": ["admin@finsight.demo", *DEMO_NON_ADMIN]}
 
 
 # ---------- Secure cookie ----------
@@ -157,7 +155,6 @@ def _set_cookie(client: TestClient, headers: dict | None = None) -> str:
 
 def test_cookie_not_secure_on_plain_local_http(app_env, monkeypatch):
     monkeypatch.delenv("COOKIE_SECURE", raising=False)
-    monkeypatch.delenv("AURELIA_COOKIE_SECURE", raising=False)
     assert "secure" not in _set_cookie(TestClient(app_env.app))
 
 
@@ -169,7 +166,6 @@ def test_cookie_secure_when_forced(app_env, monkeypatch):
 
 def test_cookie_secure_when_the_request_came_over_https(app_env, monkeypatch):
     monkeypatch.delenv("COOKIE_SECURE", raising=False)
-    monkeypatch.delenv("AURELIA_COOKIE_SECURE", raising=False)
     assert "secure" in _set_cookie(TestClient(app_env.app), {"X-Forwarded-Proto": "https"})
 
 

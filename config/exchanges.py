@@ -19,7 +19,7 @@ SWITCH_ENV = "EXCHANGE_SOURCES"
 
 # Honest: names the app and says what it does. The "Mozilla/5.0 (compatible; ...)" form is the
 # usual way a non-browser client identifies itself; it claims no browser.
-USER_AGENT = "Mozilla/5.0 (compatible; AURELIA/0.2; money-event research; reads public exchange filings)"
+USER_AGENT = "Mozilla/5.0 (compatible; FinSight/0.2; money-event research; reads public exchange filings)"
 # What a browser's ordinary request also sends. No sec-* or client-hint headers.
 ACCEPT_HTML = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
 ACCEPT_JSON = "application/json, text/plain, */*"

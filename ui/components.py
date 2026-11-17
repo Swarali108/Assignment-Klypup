@@ -547,7 +547,7 @@ def step_html(row: dict) -> Html:
                cls="mc-step")
 
 
-# ---------- dashboard pieces (AURELIA shell) ----------
+# ---------- dashboard pieces (FinSight shell) ----------
 
 def _svg(paths: str, size: int = 22) -> Html:
     """A line icon drawn in the current text colour. Decorative, so hidden from screen readers."""
@@ -569,11 +569,11 @@ TYPE_TONES = {"IPO": "lavender", "Buyback": "peach", "OFS (stock exchange)": "te
 
 
 def brand_html() -> Html:
-    """The AURELIA mark, name and subtitle for the top of the sidebar."""
+    """The FinSight mark, name and subtitle for the top of the sidebar."""
     mark = Html('<svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">'
                 '<path d="M5 30 17 4l12 26" stroke="#e9cfa5" stroke-width="1.6" stroke-linecap="round"/>'
                 '<path d="M11.5 21.5c3.8-1.6 7.2-1.6 11 0" stroke="#c9b6f2" stroke-width="1.4" stroke-linecap="round"/></svg>')
-    words = tag("div", join([tag("div", "AURELIA", cls="mc-brand-name"), tag("div", "Wealth Intelligence", cls="mc-brand-sub")]))
+    words = tag("div", join([tag("div", "FinSight", cls="mc-brand-name"), tag("div", "Wealth Intelligence", cls="mc-brand-sub")]))
     return tag("div", join([mark, words]), cls="mc-brand")
 
 

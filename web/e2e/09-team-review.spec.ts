@@ -32,7 +32,7 @@ test.describe("Team (Head of RMs)", () => {
       await expect(page.locator("[data-sonner-toast]").first()).toContainText("Assigned to Rohan Kapoor");
       await expect(row.getByRole("button", { name: /Assigned to Rohan Kapoor/ })).toBeVisible();
       const team = await getJson<Team>(request, "/api/team");
-      expect(team.rms.find((r) => r.email === "rm@aurelia.demo")!.assigned).toBeGreaterThanOrEqual(1);
+      expect(team.rms.find((r) => r.email === "rm@finsight.demo")!.assigned).toBeGreaterThanOrEqual(1);
       await page.goto("/team");
       await expect(page.getByText(/[1-9]\d* assigned/).first()).toBeVisible();
 
@@ -54,7 +54,7 @@ test.describe("Team (Head of RMs)", () => {
       const url = `/api/assignments/${ANAND.event}/${ANAND.person}`;
       const head = await playwright.request.newContext({ baseURL, storageState: authFile("head") });
       try {
-        expect((await send(head, "PUT", url, { rm_email: "rm@aurelia.demo" })).status()).toBe(200);
+        expect((await send(head, "PUT", url, { rm_email: "rm@finsight.demo" })).status()).toBe(200);
         await page.goto("/today");
         await page.getByPlaceholder("Search name, company or household").fill(ANAND.name);
         const row = page.locator("section[aria-labelledby^='tier-'] ol > li").filter({ hasText: "Insider sale" }).first();

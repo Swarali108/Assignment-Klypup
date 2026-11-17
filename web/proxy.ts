@@ -12,7 +12,7 @@ export async function proxy(request: NextRequest) {
   const cookie = request.headers.get("cookie") ?? "";
   let signedIn = false;
   let expired = false;
-  if (cookie.includes("aurelia_session=")) {
+  if (cookie.includes("finsight_session=")) {
     try {
       const res = await fetch(`${API_ORIGIN}/api/auth/me`, { headers: { cookie }, cache: "no-store" });
       signedIn = res.ok;
@@ -26,7 +26,7 @@ export async function proxy(request: NextRequest) {
   const url = new URL("/login", request.url);
   if (request.nextUrl.pathname !== "/") url.searchParams.set("next", request.nextUrl.pathname + request.nextUrl.search);
   const response = NextResponse.redirect(url);
-  if (expired) response.cookies.delete("aurelia_session");
+  if (expired) response.cookies.delete("finsight_session");
   return response;
 }
 

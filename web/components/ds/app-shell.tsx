@@ -177,7 +177,7 @@ export function AppShell({ children, asOf: asOfProp }: { children: React.ReactNo
     <div className="flex min-h-dvh w-full">
       <aside className="hidden w-64 shrink-0 border-r bg-sidebar lg:block">
         <div className="sticky top-0 flex h-dvh flex-col px-3 pt-5 pb-4">
-          <Link href="/" className="mb-6 px-2" aria-label="AURELIA control tower">
+          <Link href="/" className="mb-6 px-2" aria-label="FinSight control tower">
             <Wordmark />
           </Link>
           <Rail />
@@ -204,8 +204,8 @@ export function AppShell({ children, asOf: asOfProp }: { children: React.ReactNo
               <Rail onNavigate={() => setMenuOpen(false)} />
             </SheetContent>
           </Sheet>
-          <Link href="/" className="lg:hidden" aria-label="AURELIA control tower">
-            <span className="text-[13px] font-semibold tracking-[0.2em]">AURELIA</span>
+          <Link href="/" className="lg:hidden" aria-label="FinSight control tower">
+            <span className="text-[13px] font-semibold tracking-wide">FinSight</span>
           </Link>
 
           {tower ? (

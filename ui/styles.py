@@ -1,4 +1,4 @@
-"""Shared CSS for the AURELIA dashboard. Theme colours and fonts are in .streamlit/config.toml.
+"""Shared CSS for the FinSight dashboard. Theme colours and fonts are in .streamlit/config.toml.
 
 Dark ink page (the portfolio's #060a13) with the particle canvas behind everything,
 warm ivory text, glass cards, and lavender / champagne / peach / teal accents. Classes
@@ -25,7 +25,7 @@ html, body {{ background: {INK} !important; }}
 [data-testid="stBottomBlockContainer"] {{ background: transparent !important; }}
 [data-testid="stHeader"] {{ height: 0; }}
 .block-container {{ padding-top: 1.6rem; max-width: 1320px; }}
-.st-key-aurelia-bg, .st-key-aurelia-labels, .st-key-aurelia-scroll {{ display: none; }}
+.st-key-finsight-bg, .st-key-finsight-labels, .st-key-finsight-scroll {{ display: none; }}
 
 /* Sidebar: glass over the particles. */
 [data-testid="stSidebar"] {{ background: rgba(8, 12, 22, .72) !important; border-right: 1px solid {LINE};

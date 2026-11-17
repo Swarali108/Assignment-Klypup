@@ -44,7 +44,7 @@ export function TodayView() {
     return { summary, today };
   });
   // Remembered per browser: the tier tab, type, confidence, minimum amount and "hide logged calls" are still there tomorrow.
-  const [f, setF] = usePersistentState<Filters>("aurelia.today.filters", DEFAULTS);
+  const [f, setF] = usePersistentState<Filters>("finsight.today.filters", DEFAULTS);
   const { prefs } = usePrefs();
   // The setup guide's coverage (event types, minimum ticket) is the default view; one click shows everyone.
   const hasCoverage = !!prefs && (prefs.event_types.length > 0 || !!prefs.min_ticket_cr);
@@ -238,7 +238,7 @@ function TodayHeader({ asOf }: { asOf?: string }) {
           </Button>
         <Can permission="export">
           <Button asChild variant="outline" size="lg" className="bg-surface shadow-(--shadow-card)">
-            <a href={exportCsvUrl()} download="aurelia-calls.csv">
+            <a href={exportCsvUrl()} download="finsight-calls.csv">
               <Download /> Export for CRM
             </a>
           </Button>

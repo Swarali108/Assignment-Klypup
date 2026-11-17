@@ -1,7 +1,7 @@
 """Read events/, outputs/ and the document caches. Files are re-read when they change (mtime cache).
 
 Nothing here computes an amount; it only finds and loads what the pipeline stored.
-Paths can be moved with AURELIA_ROOT (tests and other checkouts).
+Paths can be moved with FINSIGHT_ROOT (tests and other checkouts).
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ from pathlib import Path
 from agents.spec import EventSpec
 from config.event_types import EVENT_TYPES as _PIPELINE_TYPES
 
-ROOT = Path(os.environ.get("AURELIA_ROOT") or Path(__file__).resolve().parents[1])
+ROOT = Path(os.environ.get("FINSIGHT_ROOT") or Path(__file__).resolve().parents[1])
 EVENTS_DIR = ROOT / "events"
 OUTPUTS_DIR = ROOT / "outputs"
 FETCH_DIR = ROOT / "cache" / "fetch"

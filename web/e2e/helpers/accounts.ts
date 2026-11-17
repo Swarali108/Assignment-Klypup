@@ -5,11 +5,11 @@ export type Role = "admin" | "rm" | "viewer" | "head" | "newrm";
 export const PASSWORD = "demo1234";
 
 export const ACCOUNTS: Record<Role, { email: string; name: string; label: string }> = {
-  admin: { email: "admin@aurelia.demo", name: "Asha Menon", label: "Admin" },
-  rm: { email: "rm@aurelia.demo", name: "Rohan Kapoor", label: "Relationship manager" },
-  viewer: { email: "viewer@aurelia.demo", name: "Vikram Shah", label: "Viewer" },
-  head: { email: "head@aurelia.demo", name: "Meera Joshi", label: "Head of RMs" },
-  newrm: { email: "new.rm@aurelia.demo", name: "Neha Iyer", label: "Relationship manager" },
+  admin: { email: "admin@finsight.demo", name: "Asha Menon", label: "Admin" },
+  rm: { email: "rm@finsight.demo", name: "Rohan Kapoor", label: "Relationship manager" },
+  viewer: { email: "viewer@finsight.demo", name: "Vikram Shah", label: "Viewer" },
+  head: { email: "head@finsight.demo", name: "Meera Joshi", label: "Head of RMs" },
+  newrm: { email: "new.rm@finsight.demo", name: "Neha Iyer", label: "Relationship manager" },
 };
 
 export const ROLES = Object.keys(ACCOUNTS) as Role[];

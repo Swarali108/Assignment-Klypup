@@ -33,7 +33,7 @@ export function FollowButton({ kind, eventId, personId, label }: { kind: "person
       } else {
         const r = await v3.follow(kind, eventId, personId);
         setState({ following: true, key: r.key });
-        window.dispatchEvent(new Event("aurelia:alerts-refresh"));
+        window.dispatchEvent(new Event("finsight:alerts-refresh"));
         toast.success(`Following ${r.label}. New events, lock-ins and amount changes will show in the bell.`);
       }
     } catch (e) {

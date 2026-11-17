@@ -1,4 +1,4 @@
-# AURELIA end-to-end suite (Playwright)
+# FinSight end-to-end suite (Playwright)
 
 The app must already be running (`./demo.sh start`): web on :3000, API on 127.0.0.1:8000. The suite never starts or stops it.
 

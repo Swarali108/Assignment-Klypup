@@ -53,7 +53,7 @@ export default async function LoginPage({ searchParams }: PageProps<"/login">) {
               Every rupee, traced to the line it came from.
             </h1>
             <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
-              AURELIA reads the filings behind every IPO, buyback and offer for sale, checks each figure on its page, and only then puts a
+              FinSight reads the filings behind every IPO, buyback and offer for sale, checks each figure on its page, and only then puts a
               name on your call list.
             </p>
           </div>

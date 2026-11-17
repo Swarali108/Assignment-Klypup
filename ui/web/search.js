@@ -28,8 +28,8 @@ function matches(item, words) {
 
 export default function ({ data, parentElement, setTriggerValue }) {
   const index = (data && data.index) || [];
-  parentElement.querySelectorAll(".aurelia-search").forEach((node) => node.remove());
-  const root = el("div", "aurelia-search");
+  parentElement.querySelectorAll(".finsight-search").forEach((node) => node.remove());
+  const root = el("div", "finsight-search");
 
   const trigger = el("button", "trigger");
   trigger.type = "button";
@@ -50,9 +50,9 @@ export default function ({ data, parentElement, setTriggerValue }) {
   input.type = "search";
   input.placeholder = "Search company, person, event…";
   input.setAttribute("aria-label", "Search query");
-  input.setAttribute("aria-controls", "aurelia-results");
+  input.setAttribute("aria-controls", "finsight-results");
   const list = el("div", "results");
-  list.id = "aurelia-results";
+  list.id = "finsight-results";
   list.setAttribute("role", "listbox");
   const foot = el("div", "foot", "↑ ↓ to move · Enter to open · Esc to close");
   panel.append(input, list, foot);
@@ -148,8 +148,8 @@ export default function ({ data, parentElement, setTriggerValue }) {
   });
 
   // One document-level shortcut handler, replaced on each rerun so it never doubles.
-  if (window.__aureliaSearchKeys) document.removeEventListener("keydown", window.__aureliaSearchKeys);
-  window.__aureliaSearchKeys = (event) => {
+  if (window.__finsightSearchKeys) document.removeEventListener("keydown", window.__finsightSearchKeys);
+  window.__finsightSearchKeys = (event) => {
     if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
       event.preventDefault();
       if (overlay.hidden) open();
@@ -158,5 +158,5 @@ export default function ({ data, parentElement, setTriggerValue }) {
       close();
     }
   };
-  document.addEventListener("keydown", window.__aureliaSearchKeys);
+  document.addEventListener("keydown", window.__finsightSearchKeys);
 }

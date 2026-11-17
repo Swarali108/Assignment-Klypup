@@ -1,4 +1,4 @@
-# AURELIA web
+# FinSight web
 
 Next.js (App Router) UI for the RM call list. Reads the local API at `NEXT_PUBLIC_API_URL`
 (default `http://localhost:8000/api`).

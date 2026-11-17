@@ -3,7 +3,7 @@
 **Goal:** run one event live, and say at each moment which agent is running, why that one, and what it costs.
 
 **Set-up before recording** (none of this is on camera):
-- `./demo.sh start`, signed in as `admin@aurelia.demo`. Browser at 1440×900.
+- `./demo.sh start`, signed in as `admin@finsight.demo`. Browser at 1440×900.
 - A terminal on the left half, the browser on the right.
 - **The live event:** an IPO or buyback filed on SEBI in the last few weeks that is **not** yet in `outputs/` (Events → New filings lists them). Keep its document link copied. Fallback: any stored event run with an empty model cache, so every call is paid again: `LLM_CACHE_DIR=$(mktemp -d) .venv/bin/python run.py --event events/<id>.json --step all`.
 - Check the key once: `.venv/bin/python -m tools.llm --ping`.

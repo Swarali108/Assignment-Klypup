@@ -129,7 +129,7 @@ def _run(job: dict, cmd: list[str]) -> None:
     env = {**os.environ, "PYTHONUNBUFFERED": "1", "PYTHONIOENCODING": "utf-8"}
     cache_dir = None
     if job.get("fresh"):
-        cache_dir = tempfile.mkdtemp(prefix="aurelia-fresh-llm-")
+        cache_dir = tempfile.mkdtemp(prefix="finsight-fresh-llm-")
         env["LLM_CACHE_DIR"] = cache_dir
     single = job.get("step") not in (None, "all")
     if single:

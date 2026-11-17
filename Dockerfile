@@ -1,5 +1,5 @@
-# AURELIA API + pipeline + discovery (FastAPI on uvicorn). Railway builds this file from the repo root.
-# Local check:  docker build -t aurelia-api . && docker run --rm -p 8130:8000 -e SESSION_SECRET=... aurelia-api
+# FinSight API + pipeline + discovery (FastAPI on uvicorn). Railway builds this file from the repo root.
+# Local check:  docker build -t finsight-api . && docker run --rm -p 8130:8000 -e SESSION_SECRET=... finsight-api
 FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \

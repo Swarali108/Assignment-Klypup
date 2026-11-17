@@ -175,7 +175,7 @@ def test_unclear_message_offers_actions_on_the_focus(chat, monkeypatch):
 # ---------- time windows ----------
 
 def test_this_week_with_no_matches_says_so_and_claims_no_stale_row(chat, monkeypatch):
-    monkeypatch.setenv("AURELIA_AS_OF", "2031-06-18")  # long after every stored money date
+    monkeypatch.setenv("FINSIGHT_AS_OF", "2031-06-18")  # long after every stored money date
     from api.chat import windows
 
     week = windows.parse("this week", date(2031, 6, 18))
@@ -192,7 +192,7 @@ def test_a_window_with_matches_lists_only_rows_inside_it(chat, monkeypatch):
     client = chat("rm")
     dated = next(i for i in client.get("/api/today?limit=50").json()["items"] if i["timing"].get("date_iso"))
     when = date.fromisoformat(dated["timing"]["date_iso"])
-    monkeypatch.setenv("AURELIA_AS_OF", (when + timedelta(days=2)).isoformat())
+    monkeypatch.setenv("FINSIGHT_AS_OF", (when + timedelta(days=2)).isoformat())
     events = Talk(client).send(message="Who came into money in the last 3 days?")
     cards = [c for c in _of(events, "cards") if c["kind"] == "people"]
     assert cards and all(when - timedelta(days=3) <= date.fromisoformat(i["timing"]["date_iso"]) <= when + timedelta(days=2)
@@ -254,7 +254,7 @@ def test_streamed_sentences_never_contain_an_unverified_digit(chat, monkeypatch)
 
     monkeypatch.setattr(tools_llm, "llm_stream", fake_stream)
     data = {"top": [{"name": top["person"]["name"], "amount": amount}]}
-    turn = Turn({"email": "rm@aurelia.demo", "role": "rm"}, "c", "who first?")
+    turn = Turn({"email": "rm@finsight.demo", "role": "rm"}, "c", "who first?")
     events = list(agent.answer(turn, "who first?", "today", data, router.Route("today", by="model")))
     texts = [d for kind, d in events if kind == "text"]
     allowed = verifier.numbers_in(data)
@@ -383,7 +383,7 @@ def test_export_md_and_callpack_contain_no_secrets_and_no_model(chat, monkeypatc
     assert estimate["confirm_token"]
     talk.send(message="ready me a script for the call")  # model refused: template, still a script card
     text = client.get(f"/api/chat/conversations/{talk.cid}/export.md").text
-    for secret in (estimate["confirm_token"], estimate["confirm_token"][:24], "test-secret", "rm@aurelia.demo",
+    for secret in (estimate["confirm_token"], estimate["confirm_token"][:24], "test-secret", "rm@finsight.demo",
                    "demo1234", "sk-or-", "password"):
         assert secret not in text
     assert f"Deep dive on {top['person']['name']}" in text and "Cost estimate for" in text and "*Opening*" in text

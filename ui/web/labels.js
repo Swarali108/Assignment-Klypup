@@ -3,17 +3,17 @@
 // and only one observer exists per tab.
 
 export default function ({ data }) {
-  window.__aureliaLabels = (data && data.labels) || [];
+  window.__finsightLabels = (data && data.labels) || [];
   const apply = () => {
-    for (const { selector, label } of window.__aureliaLabels) {
+    for (const { selector, label } of window.__finsightLabels) {
       document.querySelectorAll(selector).forEach((node) => {
         if (node.getAttribute("aria-label") !== label) node.setAttribute("aria-label", label);
       });
     }
   };
   apply();
-  if (!window.__aureliaLabelObserver) {
-    window.__aureliaLabelObserver = new MutationObserver(apply);
-    window.__aureliaLabelObserver.observe(document.body, { childList: true, subtree: true });
+  if (!window.__finsightLabelObserver) {
+    window.__finsightLabelObserver = new MutationObserver(apply);
+    window.__finsightLabelObserver.observe(document.body, { childList: true, subtree: true });
   }
 }

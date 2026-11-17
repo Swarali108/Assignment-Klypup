@@ -1,4 +1,4 @@
-# AURELIA design system
+# FinSight design system
 
 Direction for the demo UI: a calm, trustworthy private-bank desk tool. The RM opens it in the
 morning, in an office, on a laptop; business viewers watch over their shoulder. Operate mode:

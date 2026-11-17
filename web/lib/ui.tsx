@@ -2,7 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 
-const KEY = "aurelia.boardroom";
+const KEY = "finsight.boardroom";
 
 type Ctx = {
   /** Boardroom mode: costs, model names and technical chips hidden; larger type and spacing, for presenting. */

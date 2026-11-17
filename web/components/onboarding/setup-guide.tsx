@@ -22,7 +22,7 @@ const TICKETS = [null, 10, 25, 50, 100] as const;
 const ALERTS: { value: Alerts; label: string; note: string }[] = [
   { value: "daily", label: "Every morning", note: "A short list of who to call, before the market opens." },
   { value: "weekly", label: "Monday summary", note: "The week's new money events, in one note." },
-  { value: "off", label: "No alerts", note: "I'll open AURELIA when I need it." },
+  { value: "off", label: "No alerts", note: "I'll open FinSight when I need it." },
 ];
 const STEPS = [
   { title: "What do you cover?", icon: Radar },

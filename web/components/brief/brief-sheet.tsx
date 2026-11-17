@@ -16,7 +16,7 @@ import { useBrief } from "./brief-provider";
 /** The brief as plain text for an email: subject line, greeting, one dash per bullet, a closing line. */
 function emailText(greeting: string, first: string, label: string, bullets: string[]) {
   return [
-    `Subject: Your AURELIA brief, ${label}`,
+    `Subject: Your FinSight brief, ${label}`,
     "",
     `${greeting}, ${first},`,
     "",

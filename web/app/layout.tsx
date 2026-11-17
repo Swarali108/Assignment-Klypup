@@ -4,7 +4,7 @@ import "./globals.css";
 import { AppShell, Providers } from "@/components/ds";
 
 export const metadata: Metadata = {
-  title: { default: "AURELIA", template: "%s · AURELIA" },
+  title: { default: "FinSight", template: "%s · FinSight" },
   description: "Who to call today, why, and how much: money events turned into a call list.",
 };
 

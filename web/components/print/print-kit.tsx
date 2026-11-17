@@ -26,7 +26,7 @@ export function PrintFrame({ title, subtitle, backHref, backLabel, ready, childr
     return () => clearTimeout(t);
   }, [ready, auto]);
   useEffect(() => {
-    if (ready) document.title = `${title} · AURELIA`;
+    if (ready) document.title = `${title} · FinSight`;
   }, [ready, title]);
 
   return (

@@ -10,11 +10,11 @@ import { cn } from "@/lib/utils";
 
 const PASSWORD = "demo1234";
 const DEMO = [
-  { email: "admin@aurelia.demo", name: "Asha Menon", role: "Admin", note: "Everything: process events, add events, Trust & Ops", icon: ShieldCheck },
-  { email: "rm@aurelia.demo", name: "Rohan Kapoor", role: "Relationship manager", note: "Call list, outcomes and notes, export, ask", icon: Phone },
-  { email: "viewer@aurelia.demo", name: "Vikram Shah", role: "Viewer", note: "Read only", icon: ScanEye },
-  { email: "head@aurelia.demo", name: "Meera Joshi", role: "Head", note: "Team view: assign calls, review queue", icon: Users },
-  { email: "new.rm@aurelia.demo", name: "Neha Iyer", role: "New RM", note: "First sign-in: see the setup guide", icon: Sparkles },
+  { email: "admin@finsight.demo", name: "Asha Menon", role: "Admin", note: "Everything: process events, add events, Trust & Ops", icon: ShieldCheck },
+  { email: "rm@finsight.demo", name: "Rohan Kapoor", role: "Relationship manager", note: "Call list, outcomes and notes, export, ask", icon: Phone },
+  { email: "viewer@finsight.demo", name: "Vikram Shah", role: "Viewer", note: "Read only", icon: ScanEye },
+  { email: "head@finsight.demo", name: "Meera Joshi", role: "Head", note: "Team view: assign calls, review queue", icon: Users },
+  { email: "new.rm@finsight.demo", name: "Neha Iyer", role: "New RM", note: "First sign-in: see the setup guide", icon: Sparkles },
 ] as const;
 
 /** demo: the demo emails the data service offers ("all" in local dev); an empty list hides the demo box. */

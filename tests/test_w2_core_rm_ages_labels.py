@@ -53,7 +53,7 @@ def test_bulk_deal_has_one_label_on_every_screen(client):
 def test_stored_age_phrases_are_counted_to_as_of(client, monkeypatch):
     from api import views
 
-    monkeypatch.setenv("AURELIA_AS_OF", "2026-11-20")
+    monkeypatch.setenv("FINSIGHT_AS_OF", "2026-11-20")
     ranked = json.loads((ROOT / "outputs" / EVENT / "ranked.json").read_text(encoding="utf-8"))
     stored = next(e for e in ranked["callable"] if e["person_id"] == "p_manish_sharma")
     assert stored["trigger"]["kind"] == "unlock" and stored["trigger"]["ends_on"] == "2026-09-09"

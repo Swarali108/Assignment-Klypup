@@ -1,4 +1,4 @@
-"""AURELIA demo API. Run: .venv/bin/python -m uvicorn api.main:app --port 8000
+"""FinSight demo API. Run: .venv/bin/python -m uvicorn api.main:app --port 8000
 
 Every GET reads the stored files fresh (mtime cache) so a finished run shows at once.
 See api/CONTRACT.md for every response shape.
@@ -29,7 +29,7 @@ from api.enrich_routes import router as enrich_router
 from api.trail import router as trail_router
 from api.guard import WriteGuard
 
-app = FastAPI(title="AURELIA API", version="1.0", docs_url=None, redoc_url=None, openapi_url=None)
+app = FastAPI(title="FinSight API", version="1.0", docs_url=None, redoc_url=None, openapi_url=None)
 # The browser reaches this API only through the web app's /api rewrite (same origin), so there is no CORS.
 app.add_middleware(WriteGuard)
 app.include_router(chat_router)  # control tower chat: api/CHAT_CONTRACT.md
@@ -61,7 +61,7 @@ def _warm_evidence(limit: int = 25) -> None:
 
 @app.on_event("startup")
 def _startup() -> None:
-    """Create the tables, seed the demo users, and warm the evidence cache in the background (AURELIA_WARM=0 skips)."""
+    """Create the tables, seed the demo users, and warm the evidence cache in the background (FINSIGHT_WARM=0 skips)."""
     import threading
 
     from dotenv import load_dotenv
@@ -70,7 +70,7 @@ def _startup() -> None:
     auth.check_config()  # APP_ENV=production without SESSION_SECRET: refuse to start
     db.ensure_tables()
     seed_users.seed_once()
-    if os.environ.get("AURELIA_WARM", "1") != "0":
+    if (os.environ.get("FINSIGHT_WARM") or "1") != "0":
         threading.Thread(target=_warm_evidence, daemon=True).start()
     from api import scheduler
 
@@ -460,7 +460,7 @@ def export_calls() -> PlainTextResponse:
     for row in views.export_rows(events, rm):
         writer.writerow([views.csv_cell(c) for c in row])
     return PlainTextResponse(buffer.getvalue(), media_type="text/csv",
-                             headers={"Content-Disposition": 'attachment; filename="aurelia-calls.csv"'})
+                             headers={"Content-Disposition": 'attachment; filename="finsight-calls.csv"'})
 
 
 # ---------- v3: Head of RMs, review queue, watchlists and alerts ----------

@@ -66,7 +66,7 @@ test.describe("Events: the list and the feed", () => {
     await page.goto("/events");
     const filter = page.getByRole("group", { name: "Filter events" });
     await filter.getByRole("button", { name: /^With calls/ }).click();
-    const stored = await page.evaluate(() => window.localStorage.getItem("aurelia.events.tab"));
+    const stored = await page.evaluate(() => window.localStorage.getItem("finsight.events.tab"));
     test.skip(stored === null, "remembered tabs are not deployed on this build");
     await page.reload();
     await expect(filter.getByRole("button", { name: /^With calls/ })).toHaveAttribute("aria-pressed", "true");

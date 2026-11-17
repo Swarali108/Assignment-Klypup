@@ -1,5 +1,5 @@
 /* Ctrl+K search. Lives in the component's shadow root, so it cannot leak into the page. */
-.aurelia-search { font-family: Inter, system-ui, sans-serif; }
+.finsight-search { font-family: Inter, system-ui, sans-serif; }
 .trigger {
   display: flex; align-items: center; gap: .7rem; width: 100%; padding: .7rem 1rem;
   background: rgba(17, 22, 36, .62); color: #b9b2a6; font: inherit; font-size: .92rem; text-align: left;

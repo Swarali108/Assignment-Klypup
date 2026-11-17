@@ -2,7 +2,7 @@
 
 DATABASE_URL set (Neon or any Postgres, e.g. postgresql://...?sslmode=require) -> Postgres through psycopg 3,
 without prepared statements so Neon's pooled (-pooler) URL works. Tables are created on first use / API start.
-Not set -> SQLite at AURELIA_DB_PATH (else RM_STATE_PATH, else api/state/app.sqlite).
+Not set -> SQLite at FINSIGHT_DB_PATH (else RM_STATE_PATH, else api/state/app.sqlite).
 The pipeline's outputs stay on files; only this app state lives here.
 
 All SQL is written once with %s placeholders (and no literal percent signs). SQLite gets the same text with
@@ -80,7 +80,7 @@ def backend() -> str:
 
 def sqlite_path() -> Path:
     """Where the SQLite fallback lives (read per call so tests can point it elsewhere)."""
-    return Path(os.environ.get("AURELIA_DB_PATH") or os.environ.get("RM_STATE_PATH") or DEFAULT_PATH)
+    return Path(os.environ.get("FINSIGHT_DB_PATH") or os.environ.get("RM_STATE_PATH") or DEFAULT_PATH)
 
 
 def _key() -> str:

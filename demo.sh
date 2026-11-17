@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# AURELIA demo launcher.  ./demo.sh start | stop | status
+# FinSight demo launcher.  ./demo.sh start | stop | status
 # API on 127.0.0.1:8000 (uvicorn), web on :3000 (next start; it proxies /api to the API). PIDs live in api/state/.
 # Sign-in: demo accounts are seeded on start. DATABASE_URL (Neon/Postgres) is read from .env if set; else SQLite.
 set -euo pipefail
@@ -30,7 +30,7 @@ start() {
   echo $! > "$STATE/web.pid"
   for _ in $(seq 1 30); do
     if curl -sf "http://127.0.0.1:$API_PORT/api/health" >/dev/null && curl -sf -o /dev/null "http://127.0.0.1:$WEB_PORT/login"; then
-      echo "AURELIA is running:  http://localhost:$WEB_PORT   (sign in with admin@ / head@ / rm@ / viewer@ / new.rm@aurelia.demo, password demo1234; head@ is the Head of RMs, new.rm@ sees the first-sign-in setup guide)"; return
+      echo "FinSight is running:  http://localhost:$WEB_PORT   (sign in with admin@ / head@ / rm@ / viewer@ / new.rm@finsight.demo, password demo1234; head@ is the Head of RMs, new.rm@ sees the first-sign-in setup guide)"; return
     fi
     sleep 1
   done

@@ -47,8 +47,8 @@ type Stored = {
   pending: Pending;
 };
 
-const KEY = "aurelia.chat-mock.v2";
-const SEEDED = "aurelia.chat-mock.v2.seeded";
+const KEY = "finsight.chat-mock.v2";
+const SEEDED = "finsight.chat-mock.v2.seeded";
 const store = new Map<string, Stored>();
 let loaded = false;
 

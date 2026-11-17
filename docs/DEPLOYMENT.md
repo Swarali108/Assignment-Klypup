@@ -1,4 +1,4 @@
-# Deploying AURELIA: Vercel + Railway + Neon, all in Singapore
+# Deploying FinSight: Vercel + Railway + Neon, all in Singapore
 
 This guide takes the demo from `./demo.sh start` on a laptop to a public URL with three managed services.
 Each one runs in Singapore, so a page load never crosses an ocean:
@@ -103,8 +103,8 @@ openssl rand -hex 32   # SESSION_SECRET (signs the session cookie; 64 hex charac
 
 | Placeholder | Example |
 | --- | --- |
-| `<web-domain>` | `aurelia.vercel.app` (or your own, e.g. `aurelia.example.com`) |
-| `<api-domain>` | `aurelia-api-production.up.railway.app` |
+| `<web-domain>` | `finsight.vercel.app` (or your own, e.g. `finsight.example.com`) |
+| `<api-domain>` | `finsight-api-production.up.railway.app` |
 | `<neon-pooled-url>` | `postgresql://neondb_owner:•••@ep-xxxx-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require` |
 
 ---
@@ -114,7 +114,7 @@ openssl rand -hex 32   # SESSION_SECRET (signs the session cookie; 64 hex charac
 The region **cannot be changed after the project is created**, so pick Singapore now.
 
 1. Open the Neon Console and click **New Project**.
-2. **Project name:** `aurelia`.
+2. **Project name:** `finsight`.
 3. **Region:** **AWS Asia Pacific (Singapore)**, id `aws-ap-southeast-1`. The cloud provider is part of the region.
 4. Under **Services**, **Postgres database** is on by default. Expand it to choose the Postgres version. The app was
    verified against Postgres 17.
@@ -163,11 +163,11 @@ connection. The API image's libpq (from `psycopg[binary]` 3.3.9) supports channe
 get `neon_superuser`; roles made with SQL get only basic privileges:
 
 ```sql
-CREATE ROLE aurelia_app WITH LOGIN PASSWORD '<12+ mixed characters, 60+ bits of entropy>';
-GRANT USAGE, CREATE ON SCHEMA public TO aurelia_app;   -- CREATE: the app creates its own tables on first start
+CREATE ROLE finsight_app WITH LOGIN PASSWORD '<12+ mixed characters, 60+ bits of entropy>';
+GRANT USAGE, CREATE ON SCHEMA public TO finsight_app;   -- CREATE: the app creates its own tables on first start
 ```
 
-Then build the pooled URL with `aurelia_app` and its password instead of `neondb_owner`.
+Then build the pooled URL with `finsight_app` and its password instead of `neondb_owner`.
 
 ### Scale to zero (cold starts)
 
@@ -252,7 +252,7 @@ In the service's **Variables** tab, add these:
 | `MAX_WORKERS` | `2` | recommended | no | PDF-reading worker processes during a run (default 8). 2 suits a small container |
 | `HOST` | `0.0.0.0` | no | no | The image already sets `0.0.0.0`. Use `::` if another Railway service will call the API over the private network |
 | `PORT` | (injected) | no | no | Railway injects it, and `python -m api` listens on it. **Do not set it yourself** |
-| `AURELIA_WARM` | `1` | no | no | `0` skips pre-rendering the top evidence pages at start |
+| `FINSIGHT_WARM` | `1` | no | no | `0` skips pre-rendering the top evidence pages at start |
 | `DISCOVERY_ENABLED` | `1` | no | no | The in-API scheduler: `1` (default) checks the sources every `DISCOVERY_EVERY_HOURS` while the API runs; `0` turns it off. See [scheduled discovery](#running-the-pipeline-and-discovery-in-production) |
 | `DISCOVERY_EVERY_HOURS` | `3` | no | no | Hours between automatic checks (default 3) |
 | `AUTO_PROCESS_DAILY_CAP_USD` | `1.00` | no | no | Most the automatic runs may spend per day (India time, default $1.00). `0` processes nothing automatically; everything waits as "Needs approval" |
@@ -342,7 +342,7 @@ The API must know the web origin, or every **write** (sign-in, call notes, chat)
 `403 Requests from this site are not allowed`.
 
 1. On Railway, set `ALLOWED_ORIGINS=https://<web-domain>`. Add more origins comma-separated, for example
-   `https://aurelia.vercel.app,https://aurelia.example.com`.
+   `https://finsight.vercel.app,https://finsight.example.com`.
 2. On Railway, make sure `COOKIE_SECURE=1`.
 3. Deploy the variable change if Railway shows it as pending, and wait until the new deployment is live.
 
@@ -365,32 +365,32 @@ API=https://<api-domain>
 curl -s $API/api/health                      # {"ok": true, "db": "postgres"}
 
 # 2. Sign in through Vercel exactly as a browser does; the cookie must be Secure, HttpOnly, SameSite=Lax
-curl -s -D - -o /dev/null -c /tmp/aurelia.jar \
+curl -s -D - -o /dev/null -c /tmp/finsight.jar \
   -H 'Content-Type: application/json' -H "Origin: $WEB" \
-  -d '{"email":"rm@aurelia.demo","password":"demo1234"}' $WEB/api/auth/login | grep -i '^set-cookie'
-#   set-cookie: aurelia_session=...; HttpOnly; Max-Age=43200; Path=/; SameSite=lax; Secure
+  -d '{"email":"rm@finsight.demo","password":"demo1234"}' $WEB/api/auth/login | grep -i '^set-cookie'
+#   set-cookie: finsight_session=...; HttpOnly; Max-Age=43200; Path=/; SameSite=lax; Secure
 
 # 3. Seeded data is there (19 events in the shipped data)
-curl -s -b /tmp/aurelia.jar $WEB/api/events | python3 -c "import json,sys; print(json.load(sys.stdin)['count'])"
+curl -s -b /tmp/finsight.jar $WEB/api/events | python3 -c "import json,sys; print(json.load(sys.stdin)['count'])"
 
 # 4. The CSRF check refuses a foreign origin
 curl -s -o /dev/null -w '%{http_code}\n' -H 'Content-Type: application/json' -H 'Origin: https://evil.example' \
-  -d '{"email":"rm@aurelia.demo","password":"demo1234"}' $WEB/api/auth/login       # 403
+  -d '{"email":"rm@finsight.demo","password":"demo1234"}' $WEB/api/auth/login       # 403
 
 # 5. Chat answers from rules with no model call (works without LLM_API_KEY)
-curl -s -b /tmp/aurelia.jar -H 'Content-Type: application/json' -H "Origin: $WEB" \
+curl -s -b /tmp/finsight.jar -H 'Content-Type: application/json' -H "Origin: $WEB" \
   -d '{"message":"Cash in hand above ₹50 Cr"}' $WEB/api/chat | grep -c '^event:'   # > 0, ends with "event: done"
 ```
 
 Then in a browser:
 
 1. Open `https://<web-domain>`. You land on `/login`.
-2. Sign in as `rm@aurelia.demo`.
+2. Sign in as `rm@finsight.demo`.
 3. **Today** lists calls. Open a call card and click **Called**. Reload, and the status is still there, because it is
    stored in Neon.
 4. Visit **Events**, **Calendar** and **Network**.
-5. Sign in as `admin@aurelia.demo` and open **Trust & Ops**.
-6. Sign in as `viewer@aurelia.demo`. Logging a call is refused.
+5. Sign in as `admin@finsight.demo` and open **Trust & Ops**.
+6. Sign in as `viewer@finsight.demo`. Logging a call is refused.
 
 The same walk was scripted with a headless browser against the env-driven split (web on one port and the API on
 another, with `API_ORIGIN`, `ALLOWED_ORIGINS` and `APP_ENV=production` set). Sign-in, the call card, logging an
@@ -442,10 +442,10 @@ user, so it is safe to repeat.
 
 | Account | Role | Password |
 | --- | --- | --- |
-| `admin@aurelia.demo` | admin | `demo1234` |
-| `rm@aurelia.demo` | rm | `demo1234` |
-| `viewer@aurelia.demo` | viewer | `demo1234` |
-| `new.rm@aurelia.demo` | rm (sees the first-sign-in guide) | `demo1234` |
+| `admin@finsight.demo` | admin | `demo1234` |
+| `rm@finsight.demo` | rm | `demo1234` |
+| `viewer@finsight.demo` | viewer | `demo1234` |
+| `new.rm@finsight.demo` | rm (sees the first-sign-in guide) | `demo1234` |
 
 To seed by hand:
 
@@ -522,12 +522,12 @@ for an exchange document link, use the SEBI copy of the same document, or proces
 
 1. **Web.** Add the domain under the Vercel project's **Settings → Domains** and follow its DNS instructions.
 2. **Add it to `ALLOWED_ORIGINS`** on Railway, for example
-   `https://aurelia.example.com,https://aurelia.vercel.app`. Deploy the change and wait for the new deployment.
+   `https://finsight.example.com,https://finsight.vercel.app`. Deploy the change and wait for the new deployment.
 3. **API (optional).** Railway custom domains need the `CNAME` **and** `TXT` records Railway shows, and the
    certificate is automatic. If you do this, set `API_ORIGIN` on Vercel to the new API URL and **redeploy Vercel**.
 
-**Cookie facts.** `aurelia_session` is `HttpOnly`, `SameSite=Lax` and `Path=/`, lasts 12 hours, and has **no**
-`Domain` attribute. It belongs to the exact host the browser used, so `aurelia.vercel.app` and `aurelia.example.com`
+**Cookie facts.** `finsight_session` is `HttpOnly`, `SameSite=Lax` and `Path=/`, lasts 12 hours, and has **no**
+`Domain` attribute. It belongs to the exact host the browser used, so `finsight.vercel.app` and `finsight.example.com`
 each need their own sign-in. Behind HTTPS with `COOKIE_SECURE=1` it is also `Secure`. Because `/api` is proxied
 through the web domain, the cookie is first-party: no third-party-cookie or CORS settings are involved.
 
@@ -642,10 +642,10 @@ Everything here was run on 2026-11-15:
 ```bash
 .venv/bin/python -m pytest -q                          # 361 passed (19 of them for these settings: tests/test_deploy_env.py)
 (cd web && npm run lint && API_ORIGIN=https://api.example.test npm run build)
-docker build -t aurelia-api .
-mkdir -p /tmp/aurelia-data
+docker build -t finsight-api .
+mkdir -p /tmp/finsight-data
 CID=$(docker run -d -p 127.0.0.1:8130:8000 -e APP_ENV=production -e SESSION_SECRET=$(openssl rand -hex 32) \
-  -e DATA_DIR=/data -v /tmp/aurelia-data:/data aurelia-api)
+  -e DATA_DIR=/data -v /tmp/finsight-data:/data finsight-api)
 sleep 5; curl -s http://127.0.0.1:8130/api/health       # {"ok": true, "db": "sqlite"}
 docker logs "$CID" | grep DATA_DIR                      # DATA_DIR /data: seeded {...}
 docker stop "$CID" && docker rm "$CID"

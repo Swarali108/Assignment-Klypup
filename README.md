@@ -1,6 +1,6 @@
-# AURELIA: money event → who an RM should call
+# FinSight: money event → who an RM should call
 
-When an Indian company lists, buys back shares, or a promoter sells through the exchange, named people come into money. AURELIA reads the public filings for that event and returns a **ranked call list**. Each person gets their name and role as printed, why they get money, a ₹ figure with its working, when the money arrives, how sure we are it's the right person, a link to the exact page behind every fact, and a 3–4 line brief to read before the call.
+When an Indian company lists, buys back shares, or a promoter sells through the exchange, named people come into money. FinSight reads the public filings for that event and returns a **ranked call list**. Each person gets their name and role as printed, why they get money, a ₹ figure with its working, when the money arrives, how sure we are it's the right person, a link to the exact page behind every fact, and a 3–4 line brief to read before the call.
 
 > **The rule everything is built around:** an invented number is the worst possible failure. A cheap model only *copies* text from a few pages. Code checks every quote against the page and does all the arithmetic. A value that fails the check is shown as **unknown, with the reason**, and is never guessed.
 
@@ -16,9 +16,9 @@ open http://localhost:3000
 
 | Account | Role | Can |
 | --- | --- | --- |
-| `admin@aurelia.demo` | Admin | everything: process events, add events from links, Trust & Ops |
-| `rm@aurelia.demo` | Relationship manager | view, ask, log calls and notes, export; process an event or add one from a link from chat after a confirm, up to $0.50 |
-| `viewer@aurelia.demo` | Viewer | read only; free questions only |
+| `admin@finsight.demo` | Admin | everything: process events, add events from links, Trust & Ops |
+| `rm@finsight.demo` | Relationship manager | view, ask, log calls and notes, export; process an event or add one from a link from chat after a confirm, up to $0.50 |
+| `viewer@finsight.demo` | Viewer | read only; free questions only |
 
 Viewing costs nothing. Every processed event is stored in `outputs/`, and model answers replay from `cache/llm/` (both in git).
 

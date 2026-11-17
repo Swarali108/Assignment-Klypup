@@ -25,7 +25,7 @@ from pathlib import Path
 
 from fastapi import Depends, HTTPException, Request
 
-COOKIE = "aurelia_session"
+COOKIE = "finsight_session"
 SESSION_SECONDS = 12 * 3600
 ITERATIONS = 200_000
 SECRET_FILE = Path(__file__).resolve().parent / "state" / "session_secret"
@@ -90,7 +90,7 @@ def check_config() -> None:
 
 def cookie_secure(request: Request | None) -> bool:
     """Whether the session cookie gets the Secure flag: COOKIE_SECURE=1/0 decides; unset, https decides."""
-    setting = (os.environ.get("COOKIE_SECURE") or os.environ.get("AURELIA_COOKIE_SECURE") or "").strip().lower()
+    setting = (os.environ.get("COOKIE_SECURE") or "").strip().lower()
     if setting in ("1", "true", "yes"):
         return True
     if setting in ("0", "false", "no"):

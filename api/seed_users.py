@@ -12,11 +12,11 @@ from api import auth, db
 DEMO_PASSWORD = "demo1234"
 # (email, name, role, onboarded). The new RM has not seen the setup guide yet, so the web app shows it.
 DEMO_USERS = (
-    ("admin@aurelia.demo", "Asha Menon", "admin", True),
-    ("rm@aurelia.demo", "Rohan Kapoor", "rm", True),
-    ("viewer@aurelia.demo", "Vikram Shah", "viewer", True),
-    ("new.rm@aurelia.demo", "Neha Iyer", "rm", False),
-    ("head@aurelia.demo", "Meera Joshi", "head", True),
+    ("admin@finsight.demo", "Asha Menon", "admin", True),
+    ("rm@finsight.demo", "Rohan Kapoor", "rm", True),
+    ("viewer@finsight.demo", "Vikram Shah", "viewer", True),
+    ("new.rm@finsight.demo", "Neha Iyer", "rm", False),
+    ("head@finsight.demo", "Meera Joshi", "head", True),
 )
 
 
@@ -28,7 +28,7 @@ def seed_admin() -> int:
     email = _admin_email()
     password = os.environ.get("ADMIN_PASSWORD") or ""
     if not email or not password:
-        logging.getLogger("aurelia").warning("APP_ENV=production: ADMIN_EMAIL and ADMIN_PASSWORD are not both set, no admin was created")
+        logging.getLogger("finsight").warning("APP_ENV=production: ADMIN_EMAIL and ADMIN_PASSWORD are not both set, no admin was created")
         return 0
     with db.connect() as conn:
         if conn.query("SELECT id FROM users WHERE email = %s", (email,)):

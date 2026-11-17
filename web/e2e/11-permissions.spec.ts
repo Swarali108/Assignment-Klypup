@@ -135,7 +135,7 @@ test.describe("write protection (CSRF)", () => {
   });
 
   test("a forged or expired session cookie is treated as signed out", async ({ playwright, baseURL }) => {
-    const api = await playwright.request.newContext({ baseURL, extraHTTPHeaders: { cookie: "aurelia_session=eyJmb3JnZWQiOjF9.AAAA" } });
+    const api = await playwright.request.newContext({ baseURL, extraHTTPHeaders: { cookie: "finsight_session=eyJmb3JnZWQiOjF9.AAAA" } });
     expect((await api.get("/api/today")).status()).toBe(401);
     await api.dispose();
   });

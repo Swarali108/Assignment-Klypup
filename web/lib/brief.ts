@@ -28,5 +28,5 @@ export function briefCost(usd: number): string {
 }
 
 /** Where the sheet's "Ask about this" button leaves words for the home composer. */
-export const PREFILL_KEY = "aurelia.prefill";
-export const PREFILL_EVENT = "aurelia:prefill";
+export const PREFILL_KEY = "finsight.prefill";
+export const PREFILL_EVENT = "finsight:prefill";

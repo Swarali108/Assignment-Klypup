@@ -1,4 +1,4 @@
-# AURELIA: engineering handover
+# FinSight: engineering handover
 
 Written 16 Nov 2026 for the engineer who takes over this repository from the zip. Branch `demo-rebuild`. Other sessions kept committing while this was written (the last one I saw was `82d7e9f`; the overnight fixes are listed at the end of section 5.7); the commits after `d9d9dbe` fix mobile overflow and the pipeline console, rework the network page and make a sale one row (see 9.2 and 3.4). Run `git log --oneline` for the real head.
 Everything here was checked against the code and the files in this checkout; where a number is quoted it carries its source and date.
@@ -41,7 +41,7 @@ When two sources disagree, trust them in this order: **the code and `config/*.py
 | `README.md` (How it works, Running a new event), `assumptions.md` #12, `docs/what_if.md` section 2, `whats_broken.md` section 4 | NSE and BSE are off | They are **on by default**. `EXCHANGE_SOURCES` defaults to `on` (`config/exchanges.py`, `tools/discover.py`); decision_log row 15 supersedes row 8. The legacy `nse_rss`/`bse_rss` entries in `config/sources.py` stay `enabled: False`, which is what the old docs describe. The readers that actually run are the `EXCHANGE_SOURCES` tuple in the same file, implemented in `tools/exchanges/` |
 | `CLAUDE.md` rule 4, `docs/what_if.md` section 3 | "No LinkedIn" / "no web search, no LinkedIn" | LinkedIn and web search exist, through Bright Data, **on by default** for LinkedIn (`LINKEDIN_ENRICHMENT=on`). It is an owner ruling that contradicts the assignment brief. Section 6 |
 | `CLAUDE.md` | Windows/PowerShell environment; "pipeline status" table with steps 3 to 8 pending; "next task: step 2d" | Obsolete. This is macOS-developed; every pipeline step is built. The file's value now is the **Hard rules** list and the SEDEMAC hand-checked facts. It also says "do not write `decision_log.md`, `assumptions.md`, `whats_broken.md` for the user: they must be in the user's own words" (rule 6): keep that |
-| `README.md` | 3 demo accounts | `api/seed_users.py` seeds **5**: `admin@`, `rm@`, `viewer@`, `new.rm@` and `head@aurelia.demo`, password `demo1234`. `head@` is seeded only when not in production |
+| `README.md` | 3 demo accounts | `api/seed_users.py` seeds **5**: `admin@`, `rm@`, `viewer@`, `new.rm@` and `head@finsight.demo`, password `demo1234`. `head@` is seeded only when not in production |
 | `README.md`, `docs/DEPLOYMENT.md` | Database tables: `users`, `rm_state`, `chat_conversations`, `chat_messages` | **12 tables**: those 4, plus `assignments`, `review_decisions`, `follows`, `alert_log` (`api/db.py`), `user_prefs`, `user_book` (`api/prefs.py`), `user_brief`, `user_seen` (`api/brief.py`) |
 | `README.md`, `docs/DEPLOYMENT.md` | 361 tests, "about 15 s" | `pytest --collect-only` found **911 tests** on `demo-rebuild` at hand-over (16 Nov 2026, morning); the full run is far slower than 15 s (section 9.1) |
 | `README.md` | 19 events; "14 more from live discovery"; $0.46 over 2,022 model calls | `events/` plus `events/auto/` hold **38 document events** (14 IPO, 21 buyback, 3 exchange OFS) and **357 structured events** (293 block/bulk deals, 64 insider sales), counted from each file's `event_type` on 16 Nov 2026. `cost_log.csv` has 2,599 rows and about **$0.68** summed (charged where OpenRouter reported it, else our estimate; ping row excluded), of which Haiku $0.606, Sonnet $0.029, the two chat models $0.044 |
@@ -52,7 +52,7 @@ When two sources disagree, trust them in this order: **the code and `config/*.py
 ### 0.3 If you only have an hour
 
 1. Skim sections 1 to 3 (what, how, why it is split this way).
-2. Run it (section 8.1), sign in as `rm@aurelia.demo`, click a ₹ figure on a call card, and open the person's **How we found them** trail.
+2. Run it (section 8.1), sign in as `rm@finsight.demo`, click a ₹ figure on a call card, and open the person's **How we found them** trail.
 3. Open `outputs/sedemac_ipo/` and read `report.md`, then `extract.json` and `people.json` beside it. That is the whole pipeline in files.
 4. Read `agents/verify.py`'s docstring, `agents/brief.py`'s docstring and `api/chat/verifier.py`'s docstring. They are the three guards behind the prime rule.
 
@@ -60,7 +60,7 @@ When two sources disagree, trust them in this order: **the code and `config/*.py
 
 ## 1. What the product is
 
-**AURELIA** turns a public money event on the Indian market into a ranked **call list for relationship managers (RMs)** at a wealth firm. When a company lists (IPO), buys back shares, or a promoter sells through the exchange, named people receive cash or can suddenly sell shares. AURELIA reads the filings for that event and returns, per person:
+**FinSight** turns a public money event on the Indian market into a ranked **call list for relationship managers (RMs)** at a wealth firm. When a company lists (IPO), buys back shares, or a promoter sells through the exchange, named people receive cash or can suddenly sell shares. FinSight reads the filings for that event and returns, per person:
 
 - their name and role **as printed** in the filing;
 - why they get money, and a **₹ figure with its working** (for example `17,300,800 × ₹271.00 = ₹468.85 crore`);
@@ -77,10 +77,10 @@ Roles are defined once in `api/auth.py` and the web app reads the same table fro
 
 | Role | Demo account | Can do |
 | --- | --- | --- |
-| `admin` | `admin@aurelia.demo` | Everything: process events, add events, run the pipeline console, Sources, Trust & Ops, health, accuracy |
-| `head` (Head of RMs) | `head@aurelia.demo` | Everything an RM does, plus the **Team** dashboard, assigning people to RMs, and the **review queue**. Not `ops` or `process` |
-| `rm` | `rm@aurelia.demo`, `new.rm@aurelia.demo` | View, ask, log call outcomes and notes, export, follow people; confirm chat estimates up to **$0.50** per action. `new.rm@` has not seen the setup guide yet, so the first sign-in shows it |
-| `viewer` | `viewer@aurelia.demo` | Read only; $0 questions only; cannot confirm anything that spends |
+| `admin` | `admin@finsight.demo` | Everything: process events, add events, run the pipeline console, Sources, Trust & Ops, health, accuracy |
+| `head` (Head of RMs) | `head@finsight.demo` | Everything an RM does, plus the **Team** dashboard, assigning people to RMs, and the **review queue**. Not `ops` or `process` |
+| `rm` | `rm@finsight.demo`, `new.rm@finsight.demo` | View, ask, log call outcomes and notes, export, follow people; confirm chat estimates up to **$0.50** per action. `new.rm@` has not seen the setup guide yet, so the first sign-in shows it |
+| `viewer` | `viewer@finsight.demo` | Read only; $0 questions only; cannot confirm anything that spends |
 
 Permission table (`api/auth.py`): `view` all roles; `edit_rm`, `export`, `ask` admin/head/rm; `team`, `review` admin/head; `process`, `ops` admin only.
 
@@ -194,7 +194,7 @@ flowchart LR
 
 ### 2.4 Auth and roles
 
-- Passwords: PBKDF2-HMAC-SHA256 (stdlib), 200,000 iterations. Session: an HMAC-SHA256-signed cookie `aurelia_session` (httpOnly, SameSite=Lax, 12 hours, no `Domain` attribute) carrying email, name, role and expiry, signed with `SESSION_SECRET`. There is **no server-side session table**; changing the secret signs everyone out.
+- Passwords: PBKDF2-HMAC-SHA256 (stdlib), 200,000 iterations. Session: an HMAC-SHA256-signed cookie `finsight_session` (httpOnly, SameSite=Lax, 12 hours, no `Domain` attribute) carrying email, name, role and expiry, signed with `SESSION_SECRET`. There is **no server-side session table**; changing the secret signs everyone out.
 - Local mode: an unset secret is generated into `api/state/session_secret`. With `APP_ENV=production` the API **refuses to start** without a `SESSION_SECRET` of 32 or more characters (`auth.check_config`).
 - CSRF: `api/guard.py` (`WriteGuard`) refuses every POST/PUT/PATCH/DELETE that is not `application/json` (415) or whose `Origin` is not in `ALLOWED_ORIGINS` (403; default the local web app). The browser only ever talks to the web origin, which rewrites `/api/*` to the API, so there is no CORS.
 - The API has no OpenAPI/docs pages (`docs_url=None`), and listens on the loopback address only in `demo.sh`.
@@ -203,7 +203,7 @@ flowchart LR
 
 ### 2.5 Production mode (`APP_ENV=production`)
 
-No demo users are seeded and the login page hides the demo accounts; the first admin is created from `ADMIN_EMAIL` + `ADMIN_PASSWORD` at first start (never overwriting an existing user); no sample client-book download; the chat's browser-side mock is forced off; `events/example*.json` and any event whose document link is not http(s) are hidden from every list (`api/store.py`). `head@aurelia.demo` is not seeded either. Local mode (variable unset) is unchanged.
+No demo users are seeded and the login page hides the demo accounts; the first admin is created from `ADMIN_EMAIL` + `ADMIN_PASSWORD` at first start (never overwriting an existing user); no sample client-book download; the chat's browser-side mock is forced off; `events/example*.json` and any event whose document link is not http(s) are hidden from every list (`api/store.py`). `head@finsight.demo` is not seeded either. Local mode (variable unset) is unchanged.
 
 ---
 
@@ -442,7 +442,7 @@ This is the single most sensitive decision in the repo; it is the **owner's call
 
 - at least `MIN_GAP_S = 2.0` seconds between two network requests to one host (cached reads do not wait);
 - every response cached through `tools/fetch.py`; only new items are fetched; an insider XBRL file is cached a year; `MAX_XBRL_PER_RUN = 60`; window capped at `MAX_DAYS = 31`;
-- an **honest User-Agent**: `Mozilla/5.0 (compatible; AURELIA/0.2; money-event research; reads public exchange filings)`, claiming no browser;
+- an **honest User-Agent**: `Mozilla/5.0 (compatible; FinSight/0.2; money-event research; reads public exchange filings)`, claiming no browser;
 - the host's home page is visited once first so the session holds the site's ordinary cookies; headers are only Accept, Accept-Language and the site's own Referer; no `sec-*` or client-hint headers;
 - **no proxies, no IP rotation, no CAPTCHA solving, no header tricks**;
 - a **401, 403 or 429 latches the host as blocked** for the rest of the run: no further request, no retry, and its sources show "blocked" with the status on the Sources page;
@@ -624,7 +624,7 @@ Created by `CREATE TABLE IF NOT EXISTS` at API start (`db.ensure_tables()`, and 
 | `user_brief` | `api/brief.py` | the daily brief per user per day, and whether it was shown |
 | `user_seen` | `api/brief.py` | "since your last visit" bookkeeping |
 
-`api/state/rm.sqlite` is an older database file; the app uses `app.sqlite` (or `AURELIA_DB_PATH` / `RM_STATE_PATH`).
+`api/state/rm.sqlite` is an older database file; the app uses `app.sqlite` (or `FINSIGHT_DB_PATH` / `RM_STATE_PATH`).
 
 **Postgres notes.** The Postgres path uses psycopg 3 with `prepare_threshold=None`, because Neon's pooled URL is PgBouncer in transaction mode (no prepared statements). Always go through `api/db.py`'s `connect()`; code that skips it hits `prepared statement "_pg3_0" does not exist`. It was verified locally against Postgres 17 behind PgBouncer 1.26 with `sslmode=disable`; **TLS with `channel_binding=require`, and Neon itself, have not been exercised**: the deployment smoke test is the first real run (the 16 Nov progress notes also say the Neon path was untested because no URL existed yet).
 
@@ -653,9 +653,9 @@ open http://localhost:3000
 
 What `demo.sh start` does: checks `.venv` and `web/node_modules`; refuses if ports 8000 or 3000 are taken; runs `python -m api.seed_users` (creates tables and the demo users, never overwrites an existing user, log in `api/state/seed.log`); starts `uvicorn api.main:app` bound to **127.0.0.1 only**; rebuilds the web app when any file under `web/app`, `web/lib`, `web/components`, `web/proxy.ts` or `web/next.config.ts` is newer than `web/.next/BUILD_ID`; starts `next start`; waits until `/api/health` and `/login` answer. Logs: `api/state/api.log`, `web.log`, `web-build.log`. Next proxies `/api/*` to `API_ORIGIN` (default `http://127.0.0.1:8000`).
 
-Sign in with any demo account (password `demo1234`), listed on the login page: `admin@`, `rm@`, `viewer@`, `head@`, `new.rm@` (all `aurelia.demo`). Without `LLM_API_KEY` everything already processed still works, including exact-lookup chat questions; only new processing and model-written answers need a key. `python -m tools.llm --ping` checks a key for a fraction of a cent.
+Sign in with any demo account (password `demo1234`), listed on the login page: `admin@`, `rm@`, `viewer@`, `head@`, `new.rm@` (all `finsight.demo`). Without `LLM_API_KEY` everything already processed still works, including exact-lookup chat questions; only new processing and model-written answers need a key. `python -m tools.llm --ping` checks a key for a fraction of a cent.
 
-Useful local switches: `AURELIA_AS_OF=YYYY-MM-DD` fixes "today" for the views (a frozen demo date; the machine date is used otherwise), `AURELIA_WARM=0` skips pre-rendering the top evidence pages at start, `DISCOVERY_ENABLED=0` stops the in-API scheduler, `EXCHANGE_SOURCES=off` stops all NSE/BSE reading, `BUDGET_MODE=lean` for the $0.50-per-event mode.
+Useful local switches: `FINSIGHT_AS_OF=YYYY-MM-DD` fixes "today" for the views (a frozen demo date; the machine date is used otherwise), `FINSIGHT_WARM=0` skips pre-rendering the top evidence pages at start, `DISCOVERY_ENABLED=0` stops the in-API scheduler, `EXCHANGE_SOURCES=off` stops all NSE/BSE reading, `BUDGET_MODE=lean` for the $0.50-per-event mode.
 
 Run the Python pieces directly:
 
@@ -692,7 +692,7 @@ flowchart LR
 
 | Piece | Settings that matter |
 | --- | --- |
-| **Neon** | New project, region **AWS Asia Pacific (Singapore) `aws-ap-southeast-1`** (cannot be changed later), Postgres 17 verified. Use the **pooled** connection string (host contains `-pooler`) with `sslmode=require&channel_binding=require` as the app's `DATABASE_URL`; keep the direct URL for `psql`/`pg_dump`. Optional least-privilege role `aurelia_app` with `GRANT USAGE, CREATE ON SCHEMA public` (the app creates its own tables). Free plan scales to zero after 5 minutes (first click after a quiet spell is slightly slower) |
+| **Neon** | New project, region **AWS Asia Pacific (Singapore) `aws-ap-southeast-1`** (cannot be changed later), Postgres 17 verified. Use the **pooled** connection string (host contains `-pooler`) with `sslmode=require&channel_binding=require` as the app's `DATABASE_URL`; keep the direct URL for `psql`/`pg_dump`. Optional least-privilege role `finsight_app` with `GRANT USAGE, CREATE ON SCHEMA public` (the app creates its own tables). Free plan scales to zero after 5 minutes (first click after a quiet spell is slightly slower) |
 | **Railway** | Deploy from GitHub, **Root Directory empty**, builder = the root `Dockerfile` (auto-detected), **Start Command empty** (image `CMD ["python", "-m", "api"]`), region Southeast Asia `asia-southeast1-eqsg3a`, **replicas = 1**, healthcheck path `/api/health`, a **volume mounted at `/data`**, generate a public domain. There is deliberately no `railway.json` (Railway deprecated config-as-code; settings are made in the dashboard). Keep exactly one replica and one process: running jobs and their live progress are in the API process's memory, and a volume attaches to one service only |
 | **Vercel** | Import the repo, **Root Directory `web`**, env var `API_ORIGIN=https://<api-domain>` (read at **build** time for the rewrite: redeploy after changing it). `web/vercel.json` already sets `"regions": ["sin1"]` and `x-vercel-enable-rewrite-caching: 0` on `/api/*` so the CDN never caches per-user responses. The sign-in gate (`web/proxy.ts`) deploys to all regions regardless |
 | **Close the loop** | On Railway set `ALLOWED_ORIGINS=https://<web-domain>` (add each custom domain; exact match only, no wildcards) and `COOKIE_SECURE=1`, then redeploy. Without it every write (sign-in included) is refused with 403 |
@@ -735,7 +735,7 @@ flowchart LR
 .venv/bin/python -m pytest -q tests/test_verify_layout.py    # one file
 ```
 
-Observed on 16 Nov 2026 on the developer's Mac, on `demo-rebuild` after the morning fixes (`e3c51c0`): **911 passed, 2 warnings, about 6 minutes** (overnight: 865 passed in about 9 minutes). The warnings are FastAPI's deprecation of `@app.on_event` (used in `api/main.py`'s startup hook). The README's "361 tests, about 15 s" is out of date. By project rule 5 tests must need no network and no API key (they stub the model, point `AURELIA_ROOT`/`AURELIA_DB_PATH`/cache variables at temp folders, and use recorded exchange responses); the working folder's `.env` was present during my run, so I have not proven the no-key claim independently. Notable files:
+Observed on 16 Nov 2026 on the developer's Mac, on `demo-rebuild` after the morning fixes (`e3c51c0`): **911 passed, 2 warnings, about 6 minutes** (overnight: 865 passed in about 9 minutes). The warnings are FastAPI's deprecation of `@app.on_event` (used in `api/main.py`'s startup hook). The README's "361 tests, about 15 s" is out of date. By project rule 5 tests must need no network and no API key (they stub the model, point `FINSIGHT_ROOT`/`FINSIGHT_DB_PATH`/cache variables at temp folders, and use recorded exchange responses); the working folder's `.env` was present during my run, so I have not proven the no-key claim independently. Notable files:
 
 | Area | Files |
 | --- | --- |
@@ -925,17 +925,17 @@ Set in `.env` locally (loaded by `tools/llm.py` and `tools/brightdata.py` at imp
 | `MAX_WORKERS` | 8 | `tools/pdf.py` | PDF worker processes. Use 2 on a small host |
 | `RUN_ID` | generated | `run.py` | Groups cost rows of a run |
 | `DATABASE_URL` | unset (SQLite) | `api/db.py` | Neon/Postgres pooled URL. Never logged or printed |
-| `AURELIA_DB_PATH`, `RM_STATE_PATH` | `api/state/app.sqlite` | `api/db.py` | SQLite location |
+| `FINSIGHT_DB_PATH`, `RM_STATE_PATH` | `api/state/app.sqlite` | `api/db.py` | SQLite location |
 | `APP_ENV` | unset | `api/auth.py`, `api/store.py` | `production` turns on production mode (2.5) |
 | `SESSION_SECRET` | generated locally | `api/auth.py` | 32+ chars, required in production |
 | `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `ADMIN_NAME` | unset | `api/seed_users.py` | First admin in production |
-| `ALLOWED_ORIGINS` | `http://localhost:3000,http://127.0.0.1:3000` | `api/guard.py` | Origins allowed to write; exact match. `AURELIA_ORIGINS` is added on top (older name) |
-| `COOKIE_SECURE` | https decides | `api/auth.py` | `1` always Secure, `0` never. `AURELIA_COOKIE_SECURE` is the older name |
+| `ALLOWED_ORIGINS` | `http://localhost:3000,http://127.0.0.1:3000` | `api/guard.py` | Origins allowed to write; exact match |
+| `COOKIE_SECURE` | https decides | `api/auth.py` | `1` always Secure, `0` never |
 | `HOST`, `PORT` | `127.0.0.1`, `8000` | `api/__main__.py` | Bind address; Railway injects `PORT`. The image sets `HOST=0.0.0.0` |
 | `DATA_DIR` | unset | `api/datadir.py` | Volume path (`/data`); enables seeding and symlinks |
-| `COST_LOG_PATH`, `RUNS_CSV_PATH`, `LLM_CACHE_DIR`, `FETCH_CACHE_DIR`, `PAGES_CACHE_DIR`, `BRIGHTDATA_CACHE_DIR`, `AURELIA_ROOT` | repo paths | tools, `api/store.py` | Move files; used by tests and `DATA_DIR` |
-| `AURELIA_AS_OF` | today | `api/views.py` | Fix "today" (YYYY-MM-DD) |
-| `AURELIA_WARM` | `1` | `api/main.py` | `0` skips pre-rendering evidence at start |
+| `COST_LOG_PATH`, `RUNS_CSV_PATH`, `LLM_CACHE_DIR`, `FETCH_CACHE_DIR`, `PAGES_CACHE_DIR`, `BRIGHTDATA_CACHE_DIR`, `FINSIGHT_ROOT` | repo paths | tools, `api/store.py` | Move files; used by tests and `DATA_DIR` |
+| `FINSIGHT_AS_OF` | today | `api/views.py` | Fix "today" (YYYY-MM-DD) |
+| `FINSIGHT_WARM` | `1` | `api/main.py` | `0` skips pre-rendering evidence at start |
 | `DISCOVERY_ENABLED`, `DISCOVERY_EVERY_HOURS`, `DISCOVERY_SINCE_DAYS`, `AUTO_PROCESS_DAILY_CAP_USD`, `AUTO_PROCESS_MAX_EVENTS` | 1, 3, 30, 1.00, 25 | `api/scheduler.py` | In-API discovery and the daily spend cap |
 | `EXCHANGE_SOURCES` | `on` | `tools/discover.py`, `tools/exchanges` | `off` stops all NSE/BSE reading |
 | `BRIGHTDATA_API_TOKEN` | none | `tools/brightdata.py` | Bearer token. **Rotate the one in the old zip** |
