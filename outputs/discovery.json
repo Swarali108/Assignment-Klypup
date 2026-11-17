@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-17T11:00:44+00:00",
+  "refreshed_at": "2026-11-17T19:59:09+00:00",
   "since_days": 7.0,
   "window_start": "2026-11-10",
   "sources": [
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T11:00:44+00:00"
+      "checked_at": "2026-11-17T19:59:09+00:00"
     }
   ],
   "items": [
@@ -4658,7 +4658,7 @@
       "items": [
         "07d19c2107f6"
       ],
-      "status": "created"
+      "status": "unchanged"
     },
     {
       "event_id": "360_one_wam_insider_sale_2026w46",
@@ -4685,7 +4685,7 @@
         "654f442ddd87"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "a_one_steels_bulk_deal_2026w46",
@@ -4733,7 +4733,7 @@
         "68a3bc2515b7"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "aditya_infotech_block_deal_2026w46",
@@ -4936,7 +4936,7 @@
         "96d205f64540"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "axis_bank_insider_sale_2026w46",
@@ -5067,7 +5067,7 @@
         "88b19b1bd188"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "blspoly_bulk_deal_2026w46",
@@ -5121,7 +5121,7 @@
         "027cab41246c"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "cohance_lifesciences_bulk_deal_2026w46",
@@ -5139,7 +5139,7 @@
         "ad0d07bbd083"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "commercial_syn_bags_bulk_deal_2026w46",
@@ -5210,7 +5210,7 @@
         "4d2bdbf3c919"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "dcx_systems_bulk_deal_2026w46",
@@ -5690,7 +5690,7 @@
         "5112ad7d7472"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "krishna_bulk_deal_2026w46",
@@ -6379,7 +6379,7 @@
         "5b997466a2c9"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "texmaco_infra_holdg_bulk_deal_2026w46",
@@ -6421,7 +6421,7 @@
         "bce651e35015"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "v_guard_industries_insider_sale_2026w46",
@@ -6466,9 +6466,7 @@
     },
     "events": 91,
     "events_by_status": {
-      "unchanged": 80,
-      "created": 1,
-      "updated": 10
+      "unchanged": 91
     },
     "sources_failed": []
   }
