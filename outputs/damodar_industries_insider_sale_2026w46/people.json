@@ -2,25 +2,25 @@
   "event_id": "damodar_industries_insider_sale_2026w46",
   "event_type": "insider_sale",
   "structured": true,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "price_basis": {
     "kind": "unknown",
     "reason": "the records print no trade price"
   },
   "sale": {
-    "sale_date": "9 Nov 2026 to 11 Nov 2026",
+    "sale_date": "11 Nov 2026",
     "sale_date_parsed": "2026-11-11",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "5,000 shares sold by 1 seller(s)"
+    "total_shares_offered": "1,500 shares sold by 1 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/insider.json",
-    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "refreshed_at": "2026-11-16T01:07:18+00:00",
     "source_status": {
       "nse_insider": {
         "status": "ok",
-        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
-        "records": 167,
+        "note": "301 filings, 0 XBRL files downloaded, 178 sales, 422 buys, pledges, gifts, inter-se transfers and others skipped",
+        "records": 168,
         "http_status": null,
         "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
         "terms_url": "https://www.nseindia.in/nse-terms-of-use"
@@ -34,7 +34,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 2,
+    "records_used": 1,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -55,17 +55,9 @@
       },
       "side": "sell",
       "record_ids": [
-        "6ac8d7a6d3037d49",
         "af23e4a408cf9f55"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 3500,
-          "record_ids": [
-            "6ac8d7a6d3037d49"
-          ]
-        },
         {
           "trade_date": "2026-11-11",
           "quantity": 1500,
@@ -82,20 +74,6 @@
           "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
           "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
           "pdf_index": null,
-          "printed_page": "XBRL context Disclosure1",
-          "row_ref": "XBRL context Disclosure1",
-          "quote": "NSE | DAMODARIND | Calves N Leaves Initiatives Private Limited | SELL | 3,500 shares | value 96848 | Market Sale | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "6ac8d7a6d3037d49",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
-          "pdf_index": null,
           "printed_page": "XBRL context Disclosure2",
           "row_ref": "XBRL context Disclosure2",
           "quote": "NSE | DAMODARIND | Calves N Leaves Initiatives Private Limited | SELL | 1,500 shares | value 44235 | Market Sale | 2026-11-11",
@@ -108,46 +86,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "5,000",
+      "shares_offered": "1,500",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "141083",
-          "rupees_high": "141083",
-          "crore_low": "0.01",
-          "crore_high": "0.01",
-          "display": "₹1.41 lakh",
-          "working": "3,500 shares, value as printed ₹96,848 (NSE XBRL context Disclosure1); 1,500 shares, value as printed ₹44,235 (NSE XBRL context Disclosure2); total ₹1.41 lakh",
+          "rupees_low": "44235",
+          "rupees_high": "44235",
+          "crore_low": "0.00",
+          "crore_high": "0.00",
+          "display": "₹44,235",
+          "working": "1,500 shares, value as printed ₹44,235 (NSE XBRL context Disclosure2)",
           "price_kind": "trade_value",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "3,500",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | DAMODARIND | Calves N Leaves Initiatives Private Limited | SELL | 3,500 shares | value 96848 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹96,848",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | DAMODARIND | Calves N Leaves Initiatives Private Limited | SELL | 3,500 shares | value 96848 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "1,500",
@@ -182,7 +132,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
           "trade_date": "2026-11-11",
           "settles_on": "2026-11-12",
           "rule": "T+1",
@@ -203,10 +153,10 @@
               ]
             }
           ],
-          "days_since": 6
+          "days_since": 5
         }
       },
-      "why_money": "sold 5,000 shares (Market Sale) on 9 Nov 2026 and 11 Nov 2026",
+      "why_money": "sold 1,500 shares (Market Sale) on 11 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [

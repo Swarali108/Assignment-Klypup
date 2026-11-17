@@ -2,25 +2,25 @@
   "event_id": "360_one_wam_insider_sale_2026w46",
   "event_type": "insider_sale",
   "structured": true,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "price_basis": {
     "kind": "unknown",
     "reason": "the records print no trade price"
   },
   "sale": {
-    "sale_date": "9 Nov 2026 to 12 Nov 2026",
+    "sale_date": "11 Nov 2026 to 12 Nov 2026",
     "sale_date_parsed": "2026-11-12",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "3,18,129 shares sold by 7 seller(s)"
+    "total_shares_offered": "1,96,155 shares sold by 6 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/insider.json",
-    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "refreshed_at": "2026-11-16T01:07:18+00:00",
     "source_status": {
       "nse_insider": {
         "status": "ok",
-        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
-        "records": 167,
+        "note": "301 filings, 0 XBRL files downloaded, 178 sales, 422 buys, pledges, gifts, inter-se transfers and others skipped",
+        "records": 168,
         "http_status": null,
         "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
         "terms_url": "https://www.nseindia.in/nse-terms-of-use"
@@ -34,136 +34,12 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 12,
+    "records_used": 11,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
   },
   "people": [
-    {
-      "person_id": "p_anup_pratapsingh_maheshwari",
-      "name_as_printed": "ANUP PRATAPSINGH MAHESHWARI",
-      "names_as_printed": [
-        "ANUP PRATAPSINGH MAHESHWARI"
-      ],
-      "name_clean": "anup pratapsingh maheshwari",
-      "holder_type": "person",
-      "holder_type_reason": "no entity or family marker",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "5e1df66c4817b173"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 121974,
-          "record_ids": [
-            "5e1df66c4817b173"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure1",
-          "row_ref": "XBRL context Disclosure1",
-          "quote": "NSE | 360ONE | ANUP PRATAPSINGH MAHESHWARI | SELL | 1,21,974 shares | value 139294308 | Market Sale | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "5e1df66c4817b173",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "1,21,974",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "139294308",
-          "rupees_high": "139294308",
-          "crore_low": "13.93",
-          "crore_high": "13.93",
-          "display": "₹13.93 crore",
-          "working": "1,21,974 shares, value as printed ₹13.93 crore (NSE XBRL context Disclosure1)",
-          "price_kind": "trade_value",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "1,21,974",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | ANUP PRATAPSINGH MAHESHWARI | SELL | 1,21,974 shares | value 139294308 | Market Sale | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹13.93 crore",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | ANUP PRATAPSINGH MAHESHWARI | SELL | 1,21,974 shares | value 139294308 | Market Sale | 2026-11-09"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-          "trade_date": "2026-11-09",
-          "settles_on": "2026-11-10",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "9 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261111_155624401_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | ANUP PRATAPSINGH MAHESHWARI | SELL | 1,21,974 shares | value 139294308 | Market Sale | 2026-11-09"
-                }
-              ]
-            }
-          ],
-          "days_since": 6
-        }
-      },
-      "why_money": "sold 1,21,974 shares (Market Sale) on 9 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange insider-trading disclosure (structured record, read by code)",
-          "full name printed"
-        ]
-      },
-      "follow_on": []
-    },
     {
       "person_id": "p_manisha_hemant_lakhotiya",
       "name_as_printed": "Manisha Hemant Lakhotiya",
@@ -304,7 +180,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -325,7 +201,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 5
         }
       },
       "why_money": "sold 5,000 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
@@ -525,7 +401,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -546,7 +422,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 5
         }
       },
       "why_money": "sold 1,11,365 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
@@ -652,7 +528,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
           "trade_date": "2026-11-11",
           "settles_on": "2026-11-12",
           "rule": "T+1",
@@ -673,7 +549,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 5
         }
       },
       "why_money": "sold 61,365 shares (Market Sale) on 11 Nov 2026",
@@ -826,7 +702,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -847,7 +723,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 5
         }
       },
       "why_money": "sold 10,000 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
@@ -952,7 +828,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -973,7 +849,7 @@
               ]
             }
           ],
-          "days_since": 3
+          "days_since": 4
         }
       },
       "why_money": "sold 1,425 shares (Market Sale) on 12 Nov 2026",
@@ -1126,7 +1002,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -1147,7 +1023,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 5
         }
       },
       "why_money": "sold 7,000 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
@@ -1186,28 +1062,28 @@
     }
   ],
   "counts": {
-    "people": 7,
+    "people": 6,
     "by_holder_type": {
-      "person": 7
+      "person": 6
     },
     "by_confidence": {
-      "high": 7
+      "high": 6
     },
-    "sellers": 7,
+    "sellers": 6,
     "sellers_unverified": 0,
     "buyers": 0,
-    "proceeds_computed": 7,
+    "proceeds_computed": 6,
     "gain_computed": 0,
     "retained_valued": 0,
     "retained_timing": {
-      "not_applicable": 7
+      "not_applicable": 6
     },
     "identity_decisions": {},
     "identity_merges": 0,
     "llm_asks": 0,
     "family_groups": 1,
     "flagged": 0,
-    "index_lookups": 7,
+    "index_lookups": 6,
     "follow_on_matches": 1
   }
 }

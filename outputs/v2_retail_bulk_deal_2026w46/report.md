@@ -5,7 +5,7 @@
 - Type: block_deal
 - Company: V2 Retail Limited
 - Documents: none (built from exchange records)
-- Exchange records: 8 used from outputs/signals/deals.json (refreshed 2026-11-15T18:48:41+00:00)
+- Exchange records: 7 used from outputs/signals/deals.json (refreshed 2026-11-16T01:07:18+00:00)
   - source bse_block_deals: status: ok; note: 31 rows read, 31 in the window; records: 29; http status: unknown; url: https://www.bseindia.com/markets/equity/EQReports/block_deals.aspx; terms url: https://www.bseindia.com/rgess/disclaimer.htm
   - source bse_bulk_deals: status: ok; note: 51 rows read, 51 in the window; records: 51; http status: unknown; url: https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx; terms url: https://www.bseindia.com/rgess/disclaimer.htm
   - source nse_block_deals: status: ok; note: 92 rows read; records: 87; http status: unknown; url: https://www.nseindia.in/report-detail/display-bulk-and-block-deals; terms url: https://www.nseindia.in/nse-terms-of-use
@@ -15,7 +15,6 @@
   - [13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · BUY · 2173610](https://nsearchives.nseindia.in/content/equities/bulk.csv): NSE | V2RETAIL | F3 ADVISORS PRIVATE LIMITED | BUY | 21,73,610 shares | price 176.01 | 2026-11-13
   - [11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001](https://www.nseindia.in/report-detail/display-bulk-and-block-deals): NSE | V2RETAIL | HRTI PRIVATE LIMITED | SELL | 11,35,001 shares | price 178.96 | 2026-11-11
   - [11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · BUY · 1948403](https://www.nseindia.in/report-detail/display-bulk-and-block-deals): NSE | V2RETAIL | HRTI PRIVATE LIMITED | BUY | 19,48,403 shares | price 178.83 | 2026-11-11
-  - [09-NOV-2026 · V2RETAIL · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 1466570](https://www.nseindia.in/report-detail/display-bulk-and-block-deals): NSE | V2RETAIL | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | BUY | 14,66,570 shares | price 170.73 | 2026-11-09
   - [11-NOV-2026 · V2RETAIL · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 1370589](https://www.nseindia.in/report-detail/display-bulk-and-block-deals): NSE | V2RETAIL | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | BUY | 13,70,589 shares | price 170.47 | 2026-11-11
   - [13-NOV-2026 · V2RETAIL · QE SECURITIES LLP · SELL · 1779009](https://nsearchives.nseindia.in/content/equities/bulk.csv): NSE | V2RETAIL | QE SECURITIES LLP | SELL | 17,79,009 shares | price 173.30 | 2026-11-13
   - [13-NOV-2026 · V2RETAIL · QE SECURITIES LLP · BUY · 1909220](https://nsearchives.nseindia.in/content/equities/bulk.csv): NSE | V2RETAIL | QE SECURITIES LLP | BUY | 19,09,220 shares | price 173.77 | 2026-11-13
@@ -32,9 +31,9 @@ None.
 
 | Rank | Name | Role | Why money | Amount | Timing | Confidence |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | F3 ADVISORS PRIVATE LIMITED | unknown | sold 21,57,065 shares in a bulk deal on 13 Nov 2026 | ₹37.95 crore ([shares_sold 13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · SELL · 2157065](https://nsearchives.nseindia.in/content/equities/bulk.csv), [trade_price 13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · SELL · 2157065](https://nsearchives.nseindia.in/content/equities/bulk.csv)) | settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today) | high |
-| 2 | QE SECURITIES LLP | unknown | sold 17,79,009 shares in a bulk deal on 13 Nov 2026 | ₹30.83 crore ([shares_sold 13-NOV-2026 · V2RETAIL · QE SECURITIES LLP · SELL · 1779009](https://nsearchives.nseindia.in/content/equities/bulk.csv), [trade_price 13-NOV-2026 · V2RETAIL · QE SECURITIES LLP · SELL · 1779009](https://nsearchives.nseindia.in/content/equities/bulk.csv)) | settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today) | high |
-| 3 | HRTI PRIVATE LIMITED | unknown | sold 11,35,001 shares in a bulk deal on 11 Nov 2026 | ₹20.31 crore ([shares_sold 11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001](https://www.nseindia.in/report-detail/display-bulk-and-block-deals), [trade_price 11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001](https://www.nseindia.in/report-detail/display-bulk-and-block-deals)) | settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago) | high |
+| 1 | F3 ADVISORS PRIVATE LIMITED | unknown | sold 21,57,065 shares in a bulk deal on 13 Nov 2026 | ₹37.95 crore ([shares_sold 13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · SELL · 2157065](https://nsearchives.nseindia.in/content/equities/bulk.csv), [trade_price 13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · SELL · 2157065](https://nsearchives.nseindia.in/content/equities/bulk.csv)) | settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago) | high |
+| 2 | QE SECURITIES LLP | unknown | sold 17,79,009 shares in a bulk deal on 13 Nov 2026 | ₹30.83 crore ([shares_sold 13-NOV-2026 · V2RETAIL · QE SECURITIES LLP · SELL · 1779009](https://nsearchives.nseindia.in/content/equities/bulk.csv), [trade_price 13-NOV-2026 · V2RETAIL · QE SECURITIES LLP · SELL · 1779009](https://nsearchives.nseindia.in/content/equities/bulk.csv)) | settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago) | high |
+| 3 | HRTI PRIVATE LIMITED | unknown | sold 11,35,001 shares in a bulk deal on 11 Nov 2026 | ₹20.31 crore ([shares_sold 11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001](https://www.nseindia.in/report-detail/display-bulk-and-block-deals), [trade_price 11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001](https://www.nseindia.in/report-detail/display-bulk-and-block-deals)) | settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago) | high |
 
 ## No money from this event (context, not called)
 
@@ -128,7 +127,7 @@ Stop rules: only events already processed into outputs/index.json are searched; 
 - Model calls: 0 (0 cached)
 - Cost this run: $0.000000; with no cache: $0.000000
 - Tokens: 0 in, 0 out
-- Wall time: 0.2 s
+- Wall time: 0.3 s
 
 | Person | Cost this run (USD) | With no cache (USD) | Calls |
 | --- | --- | --- | --- |

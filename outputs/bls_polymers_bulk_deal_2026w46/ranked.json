@@ -12,49 +12,49 @@
       "call_tier": "cash_now",
       "call_tier_label": "Cash in hand",
       "amount_known": true,
-      "money_now_crore": "111.72",
+      "money_now_crore": "102.99",
       "confidence": "high",
       "confidence_weight": "1.0",
       "timing_status": "settles",
       "timing_weight": "1.0",
       "recency_weight": "1.0",
-      "score": "111.72000",
+      "score": "102.99000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 6,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "money_crore": "111.72",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "money_crore": "102.99",
         "timing_status": "settles",
         "timing_weight": "1.0",
         "recency_weight": "1.0",
-        "score": "111.72000"
+        "score": "102.99000"
       },
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 6,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-          "money_crore": "111.72",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+          "money_crore": "102.99",
           "timing_status": "settles",
           "timing_weight": "1.0",
           "recency_weight": "1.0",
-          "score": "111.72000"
+          "score": "102.99000"
         }
       ],
       "later_value_crore": "0",
       "later_score": "0.000",
-      "why_money": "sold 42,49,455 shares in bulk deals on 9 Nov 2026 and 13 Nov 2026",
-      "amount_display": "₹111.72 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "why_money": "sold 38,83,186 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹102.99 crore",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 1,
       "rank_reasons": [
-        "Cash in hand: ₹111.72 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹102.99 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 111.72 = ₹111.72 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 102.99 = ₹102.99 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -76,8 +76,8 @@
       "score": "67.17000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "67.17",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -87,8 +87,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "67.17",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -100,16 +100,16 @@
       "later_score": "0.000",
       "why_money": "sold 25,53,662 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹67.17 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 2,
       "rank_reasons": [
-        "Cash in hand: ₹67.17 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹67.17 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 67.17 = ₹67.17 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 67.17 = ₹67.17 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -131,8 +131,8 @@
       "score": "64.56000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "64.56",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -142,8 +142,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "64.56",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -155,16 +155,16 @@
       "later_score": "0.000",
       "why_money": "sold 24,41,818 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹64.56 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 3,
       "rank_reasons": [
-        "Cash in hand: ₹64.56 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹64.56 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 64.56 = ₹64.56 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 64.56 = ₹64.56 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -186,8 +186,8 @@
       "score": "48.30000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "48.30",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -197,8 +197,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "48.30",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -210,16 +210,16 @@
       "later_score": "0.000",
       "why_money": "sold 18,33,792 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹48.30 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 4,
       "rank_reasons": [
-        "Cash in hand: ₹48.30 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹48.30 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 48.30 = ₹48.30 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 48.30 = ₹48.30 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -241,8 +241,8 @@
       "score": "47.62000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "47.62",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -252,8 +252,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "47.62",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -265,16 +265,16 @@
       "later_score": "0.000",
       "why_money": "sold 18,18,564 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹47.62 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 5,
       "rank_reasons": [
-        "Cash in hand: ₹47.62 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹47.62 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 47.62 = ₹47.62 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 47.62 = ₹47.62 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -296,8 +296,8 @@
       "score": "25.06000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "25.06",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -307,8 +307,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "25.06",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -320,16 +320,16 @@
       "later_score": "0.000",
       "why_money": "sold 9,61,950 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹25.06 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 6,
       "rank_reasons": [
-        "Cash in hand: ₹25.06 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹25.06 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 25.06 = ₹25.06 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 25.06 = ₹25.06 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -351,8 +351,8 @@
       "score": "23.37000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "23.37",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -362,8 +362,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "23.37",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -375,16 +375,16 @@
       "later_score": "0.000",
       "why_money": "sold 8,99,688 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹23.37 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 7,
       "rank_reasons": [
-        "Cash in hand: ₹23.37 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹23.37 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 23.37 = ₹23.37 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 23.37 = ₹23.37 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -406,8 +406,8 @@
       "score": "21.42000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "21.42",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -417,8 +417,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "21.42",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -430,16 +430,16 @@
       "later_score": "0.000",
       "why_money": "sold 8,25,482 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹21.42 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 8,
       "rank_reasons": [
-        "Cash in hand: ₹21.42 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹21.42 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 21.42 = ₹21.42 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 21.42 = ₹21.42 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -461,8 +461,8 @@
       "score": "20.71000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "20.71",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -472,8 +472,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "20.71",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -485,16 +485,16 @@
       "later_score": "0.000",
       "why_money": "sold 7,83,776 shares in bulk deals on 13 Nov 2026",
       "amount_display": "₹20.71 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 9,
       "rank_reasons": [
-        "Cash in hand: ₹20.71 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹20.71 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 20.71 = ₹20.71 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 20.71 = ₹20.71 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -516,8 +516,8 @@
       "score": "20.35000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "20.35",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -527,8 +527,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "20.35",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -540,16 +540,16 @@
       "later_score": "0.000",
       "why_money": "sold 7,66,014 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹20.35 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 10,
       "rank_reasons": [
-        "Cash in hand: ₹20.35 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹20.35 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 20.35 = ₹20.35 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 20.35 = ₹20.35 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -571,8 +571,8 @@
       "score": "16.32000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "16.32",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -582,8 +582,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "16.32",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -595,16 +595,16 @@
       "later_score": "0.000",
       "why_money": "sold 6,18,010 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹16.32 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 11,
       "rank_reasons": [
-        "Cash in hand: ₹16.32 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹16.32 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 16.32 = ₹16.32 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 16.32 = ₹16.32 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -626,8 +626,8 @@
       "score": "15.96000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "15.96",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -637,8 +637,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "15.96",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -650,16 +650,16 @@
       "later_score": "0.000",
       "why_money": "sold 6,06,418 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹15.96 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 12,
       "rank_reasons": [
-        "Cash in hand: ₹15.96 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹15.96 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 15.96 = ₹15.96 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 15.96 = ₹15.96 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -681,8 +681,8 @@
       "score": "15.12000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "15.12",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -692,8 +692,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "15.12",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -705,16 +705,16 @@
       "later_score": "0.000",
       "why_money": "sold 5,75,572 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹15.12 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 13,
       "rank_reasons": [
-        "Cash in hand: ₹15.12 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹15.12 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 15.12 = ₹15.12 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 15.12 = ₹15.12 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -736,8 +736,8 @@
       "score": "14.52000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "14.52",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -747,8 +747,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "14.52",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -760,16 +760,16 @@
       "later_score": "0.000",
       "why_money": "sold 5,47,258 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹14.52 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 14,
       "rank_reasons": [
-        "Cash in hand: ₹14.52 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹14.52 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 14.52 = ₹14.52 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 14.52 = ₹14.52 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -791,8 +791,8 @@
       "score": "11.92000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "11.92",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -802,8 +802,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "11.92",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -815,16 +815,16 @@
       "later_score": "0.000",
       "why_money": "sold 4,43,080 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹11.92 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 15,
       "rank_reasons": [
-        "Cash in hand: ₹11.92 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹11.92 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 11.92 = ₹11.92 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 11.92 = ₹11.92 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -846,8 +846,8 @@
       "score": "8.17000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "8.17",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -857,8 +857,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "8.17",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -870,16 +870,16 @@
       "later_score": "0.000",
       "why_money": "sold 3,08,912 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹8.17 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 16,
       "rank_reasons": [
-        "Cash in hand: ₹8.17 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹8.17 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 8.17 = ₹8.17 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 8.17 = ₹8.17 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     },
     {
@@ -901,8 +901,8 @@
       "score": "7.91000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 0,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+        "days_since": 1,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "money_crore": "7.91",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -912,8 +912,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 0,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+          "days_since": 1,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
           "money_crore": "7.91",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -925,16 +925,16 @@
       "later_score": "0.000",
       "why_money": "sold 3,00,257 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "₹7.91 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
       "rank": 17,
       "rank_reasons": [
-        "Cash in hand: ₹7.91 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today).",
+        "Cash in hand: ₹7.91 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
         "entity: listed separately, an RM does not call a fund or company directly",
-        "score 7.91 = ₹7.91 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "score 7.91 = ₹7.91 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     }
   ],
@@ -1515,7 +1515,7 @@
       "triggers": [],
       "later_value_crore": "0",
       "later_score": "0.000",
-      "why_money": "bought 42,49,455 shares in bulk deals on 9 Nov 2026 and 13 Nov 2026",
+      "why_money": "bought 38,83,186 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "not applicable: bought shares; buying is not coming into money",
       "timing_display": "not applicable: bought shares; buying is not coming into money",
       "timing_display_status": "not_applicable",

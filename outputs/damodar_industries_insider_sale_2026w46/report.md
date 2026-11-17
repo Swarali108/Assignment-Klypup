@@ -5,13 +5,12 @@
 - Type: insider_sale
 - Company: DAMODAR INDUSTRIES LIMITED
 - Documents: none (built from exchange records)
-- Exchange records: 2 used from outputs/signals/insider.json (refreshed 2026-11-15T18:48:41+00:00)
+- Exchange records: 1 used from outputs/signals/insider.json (refreshed 2026-11-16T01:07:18+00:00)
   - source bse_insider: status: ok; note: 125 disclosures read, 38 equity sales for cash kept; 25 also filed on NSE, kept once as the NSE record; records: 11; http status: unknown; url: https://www.bseindia.com/corporates/Insider_Trading_new.aspx; terms url: https://www.bseindia.com/rgess/disclaimer.htm
-  - source nse_insider: status: ok; note: 301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run); records: 167; http status: unknown; url: https://www.nseindia.in/companies-listing/corporate-filings-insider-trading; terms url: https://www.nseindia.in/nse-terms-of-use
-  - [XBRL context Disclosure1](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html): NSE | DAMODARIND | Calves N Leaves Initiatives Private Limited | SELL | 3,500 shares | value 96848 | Market Sale | 2026-11-09
+  - source nse_insider: status: ok; note: 301 filings, 0 XBRL files downloaded, 178 sales, 422 buys, pledges, gifts, inter-se transfers and others skipped; records: 168; http status: unknown; url: https://www.nseindia.in/companies-listing/corporate-filings-insider-trading; terms url: https://www.nseindia.in/nse-terms-of-use
   - [XBRL context Disclosure2](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html): NSE | DAMODARIND | Calves N Leaves Initiatives Private Limited | SELL | 1,500 shares | value 44235 | Market Sale | 2026-11-11
 - Price basis: unknown (the records print no trade price)
-- Sale: sale date: 9 Nov 2026 to 11 Nov 2026; sale date parsed: 2026-11-11; settlement: T+1 equity cash-market settlement; exchange holidays not checked; total shares offered: 5,000 shares sold by 1 seller(s)
+- Sale: sale date: 11 Nov 2026; sale date parsed: 2026-11-11; settlement: T+1 equity cash-market settlement; exchange holidays not checked; total shares offered: 1,500 shares sold by 1 seller(s)
 
 ## Ranked people
 
@@ -23,7 +22,7 @@ None.
 
 | Rank | Name | Role | Why money | Amount | Timing | Confidence |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Calves N Leaves Initiatives Private Limited | Promoter group | sold 5,000 shares (Market Sale) on 9 Nov 2026 and 11 Nov 2026 | ₹1.41 lakh ([shares_sold XBRL context Disclosure1](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html), [trade_value XBRL context Disclosure1](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html), [shares_sold XBRL context Disclosure2](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html), [trade_value XBRL context Disclosure2](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html)) | settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago) | high |
+| 1 | Calves N Leaves Initiatives Private Limited | Promoter group | sold 1,500 shares (Market Sale) on 11 Nov 2026 | ₹44,235 ([shares_sold XBRL context Disclosure2](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html), [trade_value XBRL context Disclosure2](https://nsearchives.nseindia.in/corporate/ixbrl/IT_13962_20261112_192549591_WEB.html)) | settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago) | high |
 
 ## No money from this event (context, not called)
 
@@ -57,7 +56,7 @@ Stop rules: only events already processed into outputs/index.json are searched; 
 - Model calls: 0 (0 cached)
 - Cost this run: $0.000000; with no cache: $0.000000
 - Tokens: 0 in, 0 out
-- Wall time: 0.1 s
+- Wall time: 0.2 s
 
 | Person | Cost this run (USD) | With no cache (USD) | Calls |
 | --- | --- | --- | --- |

@@ -8,46 +8,35 @@
       "fields": {
         "name": "JASTI FAMILY TRUST",
         "role": "unknown",
-        "why_money": "sold 51,00,000 shares in block deals on 9 Nov 2026 and 11 Nov 2026",
-        "amount": "₹223.40 crore",
-        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
-        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
-        "event_age": "6 days ago",
+        "why_money": "sold 21,00,000 shares in a block deal on 11 Nov 2026",
+        "amount": "₹94.40 crore",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
+        "event_age": "5 days ago",
         "event_is": "recent",
-        "proceeds": "₹223.40 crore (30,00,000 shares × ₹430 = ₹129.00 crore (NSE 09-NOV-2026 · COHANCE · JASTI FAMILY TRUST · SELL · 3000000); 21,00,000 shares × ₹449.5 = ₹94.40 crore (NSE 11-NOV-2026 · COHANCE · JASTI FAMILY TRUST · SELL · 2100000); total ₹223.40 crore)"
+        "proceeds": "₹94.40 crore (21,00,000 shares × ₹449.5 = ₹94.40 crore (NSE 11-NOV-2026 · COHANCE · JASTI FAMILY TRUST · SELL · 2100000))"
       },
       "placeholders": {
         "name": "JASTI FAMILY TRUST",
         "role": "unknown",
-        "amount": "₹223.40 crore",
-        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
-        "proceeds": "₹223.40 crore",
-        "shares_offered": "51,00,000 shares",
-        "event_age": "6 days ago"
+        "amount": "₹94.40 crore",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
+        "proceeds": "₹94.40 crore",
+        "shares_offered": "21,00,000 shares",
+        "event_age": "5 days ago"
       },
       "lines": [
-        "JASTI FAMILY TRUST sold 51,00,000 shares in block deals, so money is coming to them through the trust.",
-        "Proceeds of ₹223.40 crore settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
-        "Ask about the trust's next steps for the remaining holding, and confirm the role of the trustees.",
-        "Role of the holder is unknown; confirm who acts for the trust before the call."
+        "JASTI FAMILY TRUST sold 21,00,000 shares in a block deal on 11 Nov 2026.",
+        "₹94.40 crore; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago).",
+        "Ask about their plans for the holding."
       ],
-      "brief_source": "llm",
-      "fallback_reason": null,
+      "brief_source": "template",
+      "fallback_reason": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "template_problem": null,
       "attempts": [
         {
-          "raw_lines": [
-            "{name} sold {shares_offered} in block deals, so money is coming to them through the trust.",
-            "Proceeds of {proceeds} settled {timing}.",
-            "Ask about the trust's next steps for the remaining holding, and confirm the role of the trustees.",
-            "Role of the holder is unknown; confirm who acts for the trust before the call."
-          ],
-          "lines": [
-            "JASTI FAMILY TRUST sold 51,00,000 shares in block deals, so money is coming to them through the trust.",
-            "Proceeds of ₹223.40 crore settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago).",
-            "Ask about the trust's next steps for the remaining holding, and confirm the role of the trustees.",
-            "Role of the holder is unknown; confirm who acts for the trust before the call."
-          ],
-          "problem": null
+          "lines": [],
+          "problem": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent."
         }
       ]
     }

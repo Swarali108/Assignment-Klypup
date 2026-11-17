@@ -3,48 +3,40 @@
   "prompt_version": "v5",
   "briefs": [
     {
-      "person_id": "p_elvin_machado",
-      "name_as_printed": "Elvin Machado",
+      "person_id": "p_arun_kumar_singh",
+      "name_as_printed": "Arun Kumar Singh",
       "fields": {
-        "name": "Elvin Machado",
-        "role": "Director",
-        "why_money": "sold 5,000 shares (Market Sale) on 9 Nov 2026",
-        "amount": "₹1.73 crore",
-        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-        "event_age": "6 days ago",
+        "name": "Arun Kumar Singh",
+        "role": "unknown",
+        "why_money": "sold 1,000 shares (Market Sale) on 11 Nov 2026",
+        "amount": "₹34.75 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
+        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
+        "event_age": "5 days ago",
         "event_is": "recent",
-        "proceeds": "₹1.73 crore (5,000 shares, value as printed ₹1.73 crore (NSE XBRL context Disclosure3))"
+        "proceeds": "₹34.75 lakh (1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure5))"
       },
       "placeholders": {
-        "name": "Elvin Machado",
-        "role": "Director",
-        "amount": "₹1.73 crore",
-        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-        "proceeds": "₹1.73 crore",
-        "shares_offered": "5,000 shares",
-        "event_age": "6 days ago"
+        "name": "Arun Kumar Singh",
+        "role": "unknown",
+        "amount": "₹34.75 lakh",
+        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
+        "proceeds": "₹34.75 lakh",
+        "shares_offered": "1,000 shares",
+        "event_age": "5 days ago"
       },
       "lines": [
-        "Elvin Machado is a Director who sold 5,000 shares on a market sale, so money is coming to them.",
-        "The ₹1.73 crore proceeds settled 6 days ago, so the money has already arrived.",
-        "Open with the sale timing and ask how they plan to deploy the ₹1.73 crore."
+        "Arun Kumar Singh sold 1,000 shares (Market Sale) on 11 Nov 2026.",
+        "₹34.75 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago).",
+        "Ask about their plans for the holding."
       ],
-      "brief_source": "llm",
-      "fallback_reason": null,
+      "brief_source": "template",
+      "fallback_reason": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "template_problem": null,
       "attempts": [
         {
-          "raw_lines": [
-            "{name} is a {role} who sold {shares_offered} on a market sale, so money is coming to them.",
-            "The {amount} proceeds settled {event_age}, so the money has already arrived.",
-            "Open with the sale timing and ask how they plan to deploy the {proceeds}."
-          ],
-          "lines": [
-            "Elvin Machado is a Director who sold 5,000 shares on a market sale, so money is coming to them.",
-            "The ₹1.73 crore proceeds settled 6 days ago, so the money has already arrived.",
-            "Open with the sale timing and ask how they plan to deploy the ₹1.73 crore."
-          ],
-          "problem": null
+          "lines": [],
+          "problem": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent."
         }
       ]
     },
@@ -54,138 +46,35 @@
       "fields": {
         "name": "Jaideep Soman",
         "role": "unknown",
-        "why_money": "sold 1,500 shares (Market Sale) on 9 Nov 2026 and 13 Nov 2026",
-        "amount": "₹52.00 lakh",
-        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "event_age": "6 days ago",
+        "why_money": "sold 1,000 shares (Market Sale) on 13 Nov 2026",
+        "amount": "₹34.75 lakh",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "event_age": "1 days ago",
         "event_is": "recent",
-        "proceeds": "₹52.00 lakh (500 shares, value as printed ₹17.24 lakh (NSE XBRL context Disclosure4); 1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure2); total ₹52.00 lakh)"
+        "proceeds": "₹34.75 lakh (1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure2))"
       },
       "placeholders": {
         "name": "Jaideep Soman",
         "role": "unknown",
-        "amount": "₹52.00 lakh",
-        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today)",
-        "proceeds": "₹52.00 lakh",
-        "shares_offered": "1,500 shares",
-        "event_age": "6 days ago"
-      },
-      "lines": [
-        "Jaideep Soman sold 1,500 shares in market sales and is receiving proceeds.",
-        "₹52.00 lakh settles settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is arriving now.",
-        "Event was 6 days ago and role is unknown, so confirm their position before calling."
-      ],
-      "brief_source": "llm",
-      "fallback_reason": null,
-      "attempts": [
-        {
-          "raw_lines": [
-            "{name} sold {shares_offered} in market sales and is receiving proceeds.",
-            "{amount} settles {timing}, so the money is arriving now.",
-            "Event was {event_age} and role is unknown, so confirm their position before calling."
-          ],
-          "lines": [
-            "Jaideep Soman sold 1,500 shares in market sales and is receiving proceeds.",
-            "₹52.00 lakh settles settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (today), so the money is arriving now.",
-            "Event was 6 days ago and role is unknown, so confirm their position before calling."
-          ],
-          "problem": null
-        }
-      ]
-    },
-    {
-      "person_id": "p_arun_kumar_singh",
-      "name_as_printed": "Arun Kumar Singh",
-      "fields": {
-        "name": "Arun Kumar Singh",
-        "role": "unknown",
-        "why_money": "sold 1,000 shares (Market Sale) on 11 Nov 2026",
         "amount": "₹34.75 lakh",
-        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
-        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
-        "event_age": "4 days ago",
-        "event_is": "recent",
-        "proceeds": "₹34.75 lakh (1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure5))"
-      },
-      "placeholders": {
-        "name": "Arun Kumar Singh",
-        "role": "unknown",
-        "amount": "₹34.75 lakh",
-        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
         "proceeds": "₹34.75 lakh",
         "shares_offered": "1,000 shares",
-        "event_age": "4 days ago"
+        "event_age": "1 days ago"
       },
       "lines": [
-        "Arun Kumar Singh sold 1,000 shares in a market sale, so money is coming to them.",
-        "Proceeds of ₹34.75 lakh settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), with 4 days ago as the timing reference.",
-        "Role is unknown, so confirm their position with the client before opening the conversation about next steps."
+        "Jaideep Soman sold 1,000 shares (Market Sale) on 13 Nov 2026.",
+        "₹34.75 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
+        "Ask about their plans for the holding."
       ],
-      "brief_source": "llm",
-      "fallback_reason": null,
+      "brief_source": "template",
+      "fallback_reason": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "template_problem": null,
       "attempts": [
         {
-          "raw_lines": [
-            "{name} sold {shares_offered} in a market sale, so money is coming to them.",
-            "Proceeds of {proceeds} settled {timing}, with {event_age} as the timing reference.",
-            "Role is unknown, so confirm their position with the client before opening the conversation about next steps."
-          ],
-          "lines": [
-            "Arun Kumar Singh sold 1,000 shares in a market sale, so money is coming to them.",
-            "Proceeds of ₹34.75 lakh settled settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago), with 4 days ago as the timing reference.",
-            "Role is unknown, so confirm their position with the client before opening the conversation about next steps."
-          ],
-          "problem": null
-        }
-      ]
-    },
-    {
-      "person_id": "p_mahesh_sitaram_pawar",
-      "name_as_printed": "Mahesh Sitaram Pawar",
-      "fields": {
-        "name": "Mahesh Sitaram Pawar",
-        "role": "unknown",
-        "why_money": "sold 500 shares (Market Sale) on 9 Nov 2026",
-        "amount": "₹17.22 lakh",
-        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-        "event": "proceeds settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-        "event_age": "6 days ago",
-        "event_is": "recent",
-        "proceeds": "₹17.22 lakh (500 shares, value as printed ₹17.22 lakh (NSE XBRL context Disclosure2))"
-      },
-      "placeholders": {
-        "name": "Mahesh Sitaram Pawar",
-        "role": "unknown",
-        "amount": "₹17.22 lakh",
-        "timing": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-        "proceeds": "₹17.22 lakh",
-        "shares_offered": "500 shares",
-        "event_age": "6 days ago"
-      },
-      "lines": [
-        "Mahesh Sitaram Pawar is a holder whose role is unknown, and money is coming to them from a share sale.",
-        "They sold 500 shares and ₹17.22 lakh settled 6 days ago, so the money is already in hand.",
-        "Discuss how they plan to use the ₹17.22 lakh from the sale and whether it changes their current holdings.",
-        "Caveat: their role is unknown, so confirm it before the call."
-      ],
-      "brief_source": "llm",
-      "fallback_reason": null,
-      "attempts": [
-        {
-          "raw_lines": [
-            "{name} is a holder whose role is unknown, and money is coming to them from a share sale.",
-            "They sold {shares_offered} and {proceeds} settled {event_age}, so the money is already in hand.",
-            "Discuss how they plan to use the {amount} from the sale and whether it changes their current holdings.",
-            "Caveat: their role is unknown, so confirm it before the call."
-          ],
-          "lines": [
-            "Mahesh Sitaram Pawar is a holder whose role is unknown, and money is coming to them from a share sale.",
-            "They sold 500 shares and ₹17.22 lakh settled 6 days ago, so the money is already in hand.",
-            "Discuss how they plan to use the ₹17.22 lakh from the sale and whether it changes their current holdings.",
-            "Caveat: their role is unknown, so confirm it before the call."
-          ],
-          "problem": null
+          "lines": [],
+          "problem": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent."
         }
       ]
     }

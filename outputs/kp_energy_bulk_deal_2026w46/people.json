@@ -2,26 +2,12 @@
   "event_id": "kp_energy_bulk_deal_2026w46",
   "event_type": "block_deal",
   "structured": true,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "price_basis": {
     "kind": "trade_price",
-    "low": "194.88",
+    "low": "208.15",
     "high": "208.15",
     "inputs": [
-      {
-        "field": "trade_price",
-        "value": "₹194.88",
-        "evidence": [
-          {
-            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-            "pdf_index": null,
-            "printed_page": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-            "row_ref": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-            "quote": "NSE | KPEL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,01,085 shares | price 194.88 | 2026-11-09"
-          }
-        ]
-      },
       {
         "field": "trade_price",
         "value": "₹208.15",
@@ -39,14 +25,14 @@
     ]
   },
   "sale": {
-    "sale_date": "9 Nov 2026 to 11 Nov 2026",
+    "sale_date": "11 Nov 2026",
     "sale_date_parsed": "2026-11-11",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "21,26,319 shares sold by 4 seller(s)"
+    "total_shares_offered": "3,42,063 shares sold by 1 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/deals.json",
-    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "refreshed_at": "2026-11-16T01:07:18+00:00",
     "source_status": {
       "nse_bulk_deals": {
         "status": "ok",
@@ -89,7 +75,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 10,
+    "records_used": 2,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -108,17 +94,9 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "f48667ba789fb2a7",
         "f6778659e5066642"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 501085,
-          "record_ids": [
-            "f48667ba789fb2a7"
-          ]
-        },
         {
           "trade_date": "2026-11-11",
           "quantity": 342063,
@@ -135,20 +113,6 @@
           "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
           "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
           "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-          "row_ref": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-          "quote": "NSE | KPEL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,01,085 shares | price 194.88 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "f48667ba789fb2a7",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        },
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
           "printed_page": "11-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 342063",
           "row_ref": "11-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 342063",
           "quote": "NSE | KPEL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 3,42,063 shares | price 208.15 | 2026-11-11",
@@ -161,46 +125,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "8,43,148",
+      "shares_offered": "3,42,063",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "168851858.25",
-          "rupees_high": "168851858.25",
-          "crore_low": "16.89",
-          "crore_high": "16.89",
-          "display": "₹16.89 crore",
-          "working": "5,01,085 shares × ₹194.88 = ₹9.77 crore (NSE 09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085); 3,42,063 shares × ₹208.15 = ₹7.12 crore (NSE 11-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 342063); total ₹16.89 crore",
+          "rupees_low": "71200413.45",
+          "rupees_high": "71200413.45",
+          "crore_low": "7.12",
+          "crore_high": "7.12",
+          "display": "₹7.12 crore",
+          "working": "3,42,063 shares × ₹208.15 = ₹7.12 crore (NSE 11-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 342063)",
           "price_kind": "trade_price",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "5,01,085",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-                  "row_ref": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-                  "quote": "NSE | KPEL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,01,085 shares | price 194.88 | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_price",
-              "value": "₹194.88",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-                  "row_ref": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · SELL · 501085",
-                  "quote": "NSE | KPEL | ALPHAGREP SECURITIES PRIVATE LIMITED | SELL | 5,01,085 shares | price 194.88 | 2026-11-09"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "3,42,063",
@@ -235,7 +171,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
+          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
           "trade_date": "2026-11-11",
           "settles_on": "2026-11-12",
           "rule": "T+1",
@@ -256,10 +192,10 @@
               ]
             }
           ],
-          "days_since": 6
+          "days_since": 5
         }
       },
-      "why_money": "sold 8,43,148 shares in bulk deals on 9 Nov 2026 and 11 Nov 2026",
+      "why_money": "sold 3,42,063 shares in a bulk deal on 11 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -308,6 +244,26 @@
           "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
         },
         {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.45 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
           "event_id": "aeroflex_industries_bulk_deal_2026w44",
           "company": "Aeroflex Industries Ltd",
           "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
@@ -346,26 +302,6 @@
           "trigger_date": null,
           "match_strength": "likely same holder",
           "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "alembic_bulk_deal_2026w46",
-          "company": "Alembic Limited",
-          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹17.16 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "alembic_bulk_deal_2026w46",
-          "company": "Alembic Limited",
-          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
         }
       ]
     },
@@ -382,17 +318,9 @@
       "role_by_section": {},
       "side": "buy",
       "record_ids": [
-        "3722561bc4230556",
         "7f2ff9557a4af282"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 501085,
-          "record_ids": [
-            "3722561bc4230556"
-          ]
-        },
         {
           "trade_date": "2026-11-11",
           "quantity": 342063,
@@ -405,20 +333,6 @@
       "flags": [],
       "family_group": null,
       "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 501085",
-          "row_ref": "09-NOV-2026 · KPEL · ALPHAGREP SECURITIES PRIVATE LIMITED · BUY · 501085",
-          "quote": "NSE | KPEL | ALPHAGREP SECURITIES PRIVATE LIMITED | BUY | 5,01,085 shares | price 194.44 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "3722561bc4230556",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        },
         {
           "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
           "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
@@ -447,7 +361,7 @@
           "reason": "bought shares; buying is not coming into money"
         }
       },
-      "why_money": "bought 8,43,148 shares in bulk deals on 9 Nov 2026 and 11 Nov 2026",
+      "why_money": "bought 3,42,063 shares in a bulk deal on 11 Nov 2026",
       "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
       "confidence": {
         "level": "high",
@@ -497,6 +411,26 @@
           "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
         },
         {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "₹5.45 crore",
+          "trigger_date": "2026-11-13",
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
+          "event_id": "adroit_industries_i_bulk_deal_2026w46",
+          "company": "Adroit Industries (I) Ltd",
+          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+          "role": null,
+          "amount": "not applicable: bought shares; buying is not coming into money",
+          "trigger_date": null,
+          "match_strength": "likely same holder",
+          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
+        },
+        {
           "event_id": "aeroflex_industries_bulk_deal_2026w44",
           "company": "Aeroflex Industries Ltd",
           "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
@@ -535,1199 +469,6 @@
           "trigger_date": null,
           "match_strength": "likely same holder",
           "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "alembic_bulk_deal_2026w46",
-          "company": "Alembic Limited",
-          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹17.16 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "alembic_bulk_deal_2026w46",
-          "company": "Alembic Limited",
-          "name_as_printed": "ALPHAGREP SECURITIES PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'ALPHAGREP SECURITIES PRIVATE LIMITED' / 'ALPHAGREP SECURITIES PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_junomoneta_finsol_private_limited",
-      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-      "names_as_printed": [
-        "JUNOMONETA FINSOL PRIVATE LIMITED"
-      ],
-      "name_clean": "junomoneta finsol private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "fe0251b3a78032ed"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 517826,
-          "record_ids": [
-            "fe0251b3a78032ed"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-          "row_ref": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-          "quote": "NSE | KPEL | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,17,826 shares | price 194.91 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "fe0251b3a78032ed",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "5,17,826",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "100929465.66",
-          "rupees_high": "100929465.66",
-          "crore_low": "10.09",
-          "crore_high": "10.09",
-          "display": "₹10.09 crore",
-          "working": "5,17,826 shares × ₹194.91 = ₹10.09 crore (NSE 09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826)",
-          "price_kind": "trade_price",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "5,17,826",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-                  "row_ref": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-                  "quote": "NSE | KPEL | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,17,826 shares | price 194.91 | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_price",
-              "value": "₹194.91",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-                  "row_ref": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-                  "quote": "NSE | KPEL | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,17,826 shares | price 194.91 | 2026-11-09"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-          "trade_date": "2026-11-09",
-          "settles_on": "2026-11-10",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "9 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-                  "row_ref": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · SELL · 517826",
-                  "quote": "NSE | KPEL | JUNOMONETA FINSOL PRIVATE LIMITED | SELL | 5,17,826 shares | price 194.91 | 2026-11-09"
-                }
-              ]
-            }
-          ],
-          "days_since": 6
-        }
-      },
-      "why_money": "sold 5,17,826 shares in a bulk deal on 9 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w44",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹22.54 crore",
-          "trigger_date": "2026-10-29",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w44",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹37.17 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹47.95 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹20.27 crore",
-          "trigger_date": "2026-11-12",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹12.29 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_junomoneta_finsol_private_limited_bought",
-      "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-      "names_as_printed": [
-        "JUNOMONETA FINSOL PRIVATE LIMITED"
-      ],
-      "name_clean": "junomoneta finsol private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "buy",
-      "record_ids": [
-        "f3f145925d7455f8"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 518466,
-          "record_ids": [
-            "f3f145925d7455f8"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 518466",
-          "row_ref": "09-NOV-2026 · KPEL · JUNOMONETA FINSOL PRIVATE LIMITED · BUY · 518466",
-          "quote": "NSE | KPEL | JUNOMONETA FINSOL PRIVATE LIMITED | BUY | 5,18,466 shares | price 194.71 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "f3f145925d7455f8",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "no",
-      "amounts": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "why_money": "bought 5,18,466 shares in a bulk deal on 9 Nov 2026",
-      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w44",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹22.54 crore",
-          "trigger_date": "2026-10-29",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w44",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹37.17 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹47.95 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹20.27 crore",
-          "trigger_date": "2026-11-12",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹12.29 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "JUNOMONETA FINSOL PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'JUNOMONETA FINSOL PRIVATE LIMITED' / 'JUNOMONETA FINSOL PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_microcurves_trading_private_limited",
-      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-      "names_as_printed": [
-        "MICROCURVES TRADING PRIVATE LIMITED"
-      ],
-      "name_clean": "microcurves trading private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "be5f436dc72f58f6"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 371039,
-          "record_ids": [
-            "be5f436dc72f58f6"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-          "row_ref": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-          "quote": "NSE | KPEL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,71,039 shares | price 196.54 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "be5f436dc72f58f6",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "3,71,039",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "72924005.06",
-          "rupees_high": "72924005.06",
-          "crore_low": "7.29",
-          "crore_high": "7.29",
-          "display": "₹7.29 crore",
-          "working": "3,71,039 shares × ₹196.54 = ₹7.29 crore (NSE 09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039)",
-          "price_kind": "trade_price",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "3,71,039",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-                  "row_ref": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-                  "quote": "NSE | KPEL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,71,039 shares | price 196.54 | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_price",
-              "value": "₹196.54",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-                  "row_ref": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-                  "quote": "NSE | KPEL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,71,039 shares | price 196.54 | 2026-11-09"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-          "trade_date": "2026-11-09",
-          "settles_on": "2026-11-10",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "9 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-                  "row_ref": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · SELL · 371039",
-                  "quote": "NSE | KPEL | MICROCURVES TRADING PRIVATE LIMITED | SELL | 3,71,039 shares | price 196.54 | 2026-11-09"
-                }
-              ]
-            }
-          ],
-          "days_since": 6
-        }
-      },
-      "why_money": "sold 3,71,039 shares in a bulk deal on 9 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹67.72 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹76.34 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹20.65 crore",
-          "trigger_date": "2026-11-12",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹9.87 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "birlasoft_bulk_deal_2026w44",
-          "company": "BIRLASOFT LIMITED",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹88.18 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "birlasoft_bulk_deal_2026w44",
-          "company": "BIRLASOFT LIMITED",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_microcurves_trading_private_limited_bought",
-      "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-      "names_as_printed": [
-        "MICROCURVES TRADING PRIVATE LIMITED"
-      ],
-      "name_clean": "microcurves trading private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "buy",
-      "record_ids": [
-        "82999010630454b7"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 371039,
-          "record_ids": [
-            "82999010630454b7"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · BUY · 371039",
-          "row_ref": "09-NOV-2026 · KPEL · MICROCURVES TRADING PRIVATE LIMITED · BUY · 371039",
-          "quote": "NSE | KPEL | MICROCURVES TRADING PRIVATE LIMITED | BUY | 3,71,039 shares | price 196.05 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "82999010630454b7",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "no",
-      "amounts": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "why_money": "bought 3,71,039 shares in a bulk deal on 9 Nov 2026",
-      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹67.72 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹76.34 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹20.65 crore",
-          "trigger_date": "2026-11-12",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹9.87 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "birlasoft_bulk_deal_2026w44",
-          "company": "BIRLASOFT LIMITED",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹88.18 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "birlasoft_bulk_deal_2026w44",
-          "company": "BIRLASOFT LIMITED",
-          "name_as_printed": "MICROCURVES TRADING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MICROCURVES TRADING PRIVATE LIMITED' / 'MICROCURVES TRADING PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_qe_securities_llp",
-      "name_as_printed": "QE SECURITIES LLP",
-      "names_as_printed": [
-        "QE SECURITIES LLP"
-      ],
-      "name_clean": "qe securities llp",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'llp'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "d093a4a059f7c3ef"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 394306,
-          "record_ids": [
-            "d093a4a059f7c3ef"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-          "row_ref": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-          "quote": "NSE | KPEL | QE SECURITIES LLP | SELL | 3,94,306 shares | price 196.87 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "d093a4a059f7c3ef",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "3,94,306",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "77627022.22",
-          "rupees_high": "77627022.22",
-          "crore_low": "7.76",
-          "crore_high": "7.76",
-          "display": "₹7.76 crore",
-          "working": "3,94,306 shares × ₹196.87 = ₹7.76 crore (NSE 09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306)",
-          "price_kind": "trade_price",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "3,94,306",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-                  "row_ref": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-                  "quote": "NSE | KPEL | QE SECURITIES LLP | SELL | 3,94,306 shares | price 196.87 | 2026-11-09"
-                }
-              ]
-            },
-            {
-              "field": "trade_price",
-              "value": "₹196.87",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-                  "row_ref": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-                  "quote": "NSE | KPEL | QE SECURITIES LLP | SELL | 3,94,306 shares | price 196.87 | 2026-11-09"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 10 Nov 2026, T+1 after the 9 Nov 2026 trade (6 days ago)",
-          "trade_date": "2026-11-09",
-          "settles_on": "2026-11-10",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "9 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-                  "row_ref": "09-NOV-2026 · KPEL · QE SECURITIES LLP · SELL · 394306",
-                  "quote": "NSE | KPEL | QE SECURITIES LLP | SELL | 3,94,306 shares | price 196.87 | 2026-11-09"
-                }
-              ]
-            }
-          ],
-          "days_since": 6
-        }
-      },
-      "why_money": "sold 3,94,306 shares in a bulk deal on 9 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹45.25 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹112.56 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
-          "company": "Apollo Micro Systems Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹193.26 crore",
-          "trigger_date": "2026-10-27",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
-          "company": "Apollo Micro Systems Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹23.62 crore",
-          "trigger_date": "2026-11-12",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹11.76 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_qe_securities_llp_bought",
-      "name_as_printed": "QE SECURITIES LLP",
-      "names_as_printed": [
-        "QE SECURITIES LLP"
-      ],
-      "name_clean": "qe securities llp",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'llp'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "buy",
-      "record_ids": [
-        "ba864ca2431684db"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-09",
-          "quantity": 384755,
-          "record_ids": [
-            "ba864ca2431684db"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "09-NOV-2026 · KPEL · QE SECURITIES LLP · BUY · 384755",
-          "row_ref": "09-NOV-2026 · KPEL · QE SECURITIES LLP · BUY · 384755",
-          "quote": "NSE | KPEL | QE SECURITIES LLP | BUY | 3,84,755 shares | price 195.05 | 2026-11-09",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "ba864ca2431684db",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "no",
-      "amounts": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "why_money": "bought 3,84,755 shares in a bulk deal on 9 Nov 2026",
-      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹45.25 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹112.56 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
-          "company": "Apollo Micro Systems Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹193.26 crore",
-          "trigger_date": "2026-10-27",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "apollo_micro_systems_bulk_deal_2026w44",
-          "company": "Apollo Micro Systems Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹23.62 crore",
-          "trigger_date": "2026-11-12",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "ashoka_buildcon_bulk_deal_2026w46",
-          "company": "Ashoka Buildcon Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "₹11.76 crore",
-          "trigger_date": "2026-11-05",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
-        },
-        {
-          "event_id": "awfis_space_solutions_bulk_deal_2026w45",
-          "company": "Awfis Space Solutions Ltd",
-          "name_as_printed": "QE SECURITIES LLP",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'QE SECURITIES LLP' / 'QE SECURITIES LLP'"
         }
       ]
     }
@@ -1735,28 +476,28 @@
   "identity_log": [],
   "family_groups": [],
   "counts": {
-    "people": 8,
+    "people": 2,
     "by_holder_type": {
-      "entity": 8
+      "entity": 2
     },
     "by_confidence": {
-      "high": 8
+      "high": 2
     },
-    "sellers": 4,
+    "sellers": 1,
     "sellers_unverified": 0,
-    "buyers": 4,
-    "proceeds_computed": 4,
+    "buyers": 1,
+    "proceeds_computed": 1,
     "gain_computed": 0,
     "retained_valued": 0,
     "retained_timing": {
-      "not_applicable": 8
+      "not_applicable": 2
     },
     "identity_decisions": {},
     "identity_merges": 0,
     "llm_asks": 0,
     "family_groups": 0,
     "flagged": 0,
-    "index_lookups": 8,
-    "follow_on_matches": 80
+    "index_lookups": 2,
+    "follow_on_matches": 20
   }
 }

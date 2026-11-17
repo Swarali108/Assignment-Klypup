@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-16T23:28:47+00:00",
+  "refreshed_at": "2026-11-17T11:00:44+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-09",
+  "window_start": "2026-11-10",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-16T23:28:47+00:00"
+      "checked_at": "2026-11-17T11:00:44+00:00"
     }
   ],
   "items": [
@@ -563,6 +563,34 @@
       "error": null
     },
     {
+      "id": "07d19c2107f6",
+      "source": "sebi_prospectus",
+      "source_name": "SEBI · Final offer documents filed with ROC",
+      "title": "LIQVD DIGITAL INDIA LIMITED - Prospectus",
+      "published": "Nov 17, 2026",
+      "published_iso": "2026-11-17",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/liqvd-digital-india-limited-prospectus_105796.html",
+      "company": "LIQVD DIGITAL INDIA LIMITED",
+      "documents": [
+        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794910898552.pdf"
+      ],
+      "class": "ipo_prospectus",
+      "label": "IPO prospectus",
+      "classified_by": "rule",
+      "event_type": "ipo",
+      "supported": true,
+      "event_id": "liqvd_digital_india_limited_ipo_202611",
+      "error": null,
+      "event_documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794910898552.pdf",
+          "doc_type": "prospectus",
+          "note": "LIQVD DIGITAL INDIA LIMITED - Prospectus",
+          "from_class": "ipo_prospectus"
+        }
+      ]
+    },
+    {
       "id": "13ccc59235fc",
       "source": "sebi_prospectus",
       "source_name": "SEBI · Final offer documents filed with ROC",
@@ -985,24 +1013,6 @@
       "published_iso": "2026-09-21",
       "link": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-prospectus_104621.html",
       "company": "Jindal Supreme (India) Limited",
-      "documents": [],
-      "class": "ipo_prospectus",
-      "label": "IPO prospectus",
-      "classified_by": "rule",
-      "event_type": "ipo",
-      "supported": true,
-      "event_id": null,
-      "error": null
-    },
-    {
-      "id": "79c9b29a5348",
-      "source": "sebi_prospectus",
-      "source_name": "SEBI · Final offer documents filed with ROC",
-      "title": "Manipal Payment & Identity Solutions Limited - Prospectus",
-      "published": "Sep 21, 2026",
-      "published_iso": "2026-09-21",
-      "link": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manipal-payment-and-identity-solutions-limited-prospectus_104619.html",
-      "company": "Manipal Payment & Identity Solutions Limited",
       "documents": [],
       "class": "ipo_prospectus",
       "label": "IPO prospectus",
@@ -1914,6 +1924,44 @@
       "error": null
     },
     {
+      "id": "da588be1f1b6",
+      "source": "sebi_drhp",
+      "source_name": "SEBI · Draft offer documents filed with SEBI",
+      "title": "IL JIN ELECTRONICS (INDIA) LIMITED - DRHP",
+      "published": "Nov 17, 2026",
+      "published_iso": "2026-11-17",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/il-jin-electronics-india-limited-drhp_105795.html",
+      "company": "IL JIN ELECTRONICS (INDIA) LIMITED",
+      "documents": [],
+      "class": "ipo_coming",
+      "label": "IPO coming (draft filed)",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
+    },
+    {
+      "id": "aba8396403ff",
+      "source": "sebi_drhp",
+      "source_name": "SEBI · Draft offer documents filed with SEBI",
+      "title": "Rediff com India Limited - UDRHP-I",
+      "published": "Nov 14, 2026",
+      "published_iso": "2026-11-14",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/rediff-com-india-limited-udrhp-i_105794.html",
+      "company": "Rediff com India Limited",
+      "documents": [],
+      "class": "ipo_coming",
+      "label": "IPO coming (draft filed)",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
+    },
+    {
       "id": "03ade104db22",
       "source": "sebi_drhp",
       "source_name": "SEBI · Draft offer documents filed with SEBI",
@@ -1986,8 +2034,7 @@
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null,
-      "event_documents": []
+      "error": null
     },
     {
       "id": "266d8125245d",
@@ -2332,42 +2379,6 @@
       "error": null
     },
     {
-      "id": "4145e4ecdee5",
-      "source": "sebi_drhp",
-      "source_name": "SEBI · Draft offer documents filed with SEBI",
-      "title": "Baanganga Gold & Diamond (I) Limited- DRHP",
-      "published": "Oct 05, 2026",
-      "published_iso": "2026-10-05",
-      "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/baanganga-gold-and-diamond-i-limited-drhp_105025.html",
-      "company": "Baanganga Gold & Diamond (I) Limited",
-      "documents": [],
-      "class": "ipo_coming",
-      "label": "IPO coming (draft filed)",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
-    },
-    {
-      "id": "adb7c8c7a90b",
-      "source": "sebi_drhp",
-      "source_name": "SEBI · Draft offer documents filed with SEBI",
-      "title": "Inox Air Products Limited- DRHP",
-      "published": "Oct 05, 2026",
-      "published_iso": "2026-10-05",
-      "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-air-products-limited-drhp_105024.html",
-      "company": "Inox Air Products Limited",
-      "documents": [],
-      "class": "ipo_coming",
-      "label": "IPO coming (draft filed)",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
-    },
-    {
       "id": "654f442ddd87",
       "source": "bse_insider_sale",
       "source_name": "BSE / NSE · Insider sales",
@@ -2378,7 +2389,7 @@
       "company": "360 ONE WAM LIMITED",
       "documents": [],
       "class": "insider_sale",
-      "label": "Insider sale · 12 records",
+      "label": "Insider sale · 11 records",
       "classified_by": "structured",
       "event_type": "insider_sale",
       "supported": true,
@@ -2393,7 +2404,6 @@
         "345b96ef2d4377a4",
         "37d055a43d7c8e63",
         "4279cf75ad206132",
-        "5e1df66c4817b173",
         "7a762413e9b8ebeb",
         "812a0abba544d548",
         "ba44c72f11ea3413",
@@ -2442,7 +2452,7 @@
       "company": "AAA Technologies Limited",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 9 records",
+      "label": "Block deal · 6 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -2450,69 +2460,12 @@
       "error": null,
       "exchange": "NSE",
       "records": [
-        "1f32b42494dd705b",
         "23e3283b29b2ec73",
         "3309fb6a0f38d2d3",
         "44ab5ca33f6620a2",
-        "6befa18e226bb811",
-        "829a12d612b9184c",
         "87c6b7ff2a04927e",
         "9719365df7745901",
         "cbd26724a981ac44"
-      ]
-    },
-    {
-      "id": "75efdd40cccb",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Aarti Drugs Ltd. - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Aarti Drugs Ltd.",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 10 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "aarti_drugs_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "2a4a5dbed4368c05",
-        "4cd5a44104d2b961",
-        "58ea553b022bdaa6",
-        "66f263c13c818ac2",
-        "6a46b6e463f094cb",
-        "6cfc310be981c7a5",
-        "6f764ec5a8c5fdd0",
-        "8f361cf9d3712208",
-        "db59ca36b2b43e26",
-        "e7a54b819b8252c3"
-      ]
-    },
-    {
-      "id": "6f5a5268e839",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Ackruti City Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Ackruti City Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "ackruti_city_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "102dc661f4bfaac0",
-        "d42787aae6f0eb01"
       ]
     },
     {
@@ -2585,29 +2538,6 @@
         "4f58488503e2b262",
         "b4c7daefd7a4e1b4",
         "ed2dc422ec381c8c"
-      ]
-    },
-    {
-      "id": "ffc40f5e898d",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Alembic Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Alembic Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "alembic_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "3a86f8942bc0f328",
-        "db0e9deb666b7dc6"
       ]
     },
     {
@@ -2779,7 +2709,7 @@
       "company": "AVENUE SUPERMARTS LIMITED",
       "documents": [],
       "class": "insider_sale",
-      "label": "Insider sale · 5 records",
+      "label": "Insider sale · 2 records",
       "classified_by": "structured",
       "event_type": "insider_sale",
       "supported": true,
@@ -2788,9 +2718,6 @@
       "exchange": "NSE",
       "records": [
         "08d29f11e8ade82f",
-        "0feb931abc34e21e",
-        "186cc268bc27ac5e",
-        "1bdd3f238efd3947",
         "32b6cbbc843bcef0"
       ]
     },
@@ -2894,28 +2821,6 @@
       ]
     },
     {
-      "id": "b4efaddbae18",
-      "source": "nse_insider_sale",
-      "source_name": "NSE · Insider sales",
-      "title": "BHAGIRADHA CHEMICALS & INDUSTRIES LIMITED - Insider sale",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_19102_20261110_194252570_WEB.html",
-      "company": "BHAGIRADHA CHEMICALS & INDUSTRIES LIMITED",
-      "documents": [],
-      "class": "insider_sale",
-      "label": "Insider sale · 1 record",
-      "classified_by": "structured",
-      "event_type": "insider_sale",
-      "supported": true,
-      "event_id": "bhagiradha_chemicals_industries_insider_sale_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "4abeb6c0ae1b4fb6"
-      ]
-    },
-    {
       "id": "88b19b1bd188",
       "source": "nse_block_deal",
       "source_name": "NSE · Block deals",
@@ -2926,7 +2831,7 @@
       "company": "BLS Polymers Limited",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 38 records",
+      "label": "Block deal · 36 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -2953,9 +2858,7 @@
         "803419eda9769363",
         "81ebe2e05b1fa867",
         "8838c5c38ed62b84",
-        "883d8c1aac05f937",
         "8acf8b52c44818f4",
-        "8ed21db68a51b35b",
         "92bb435e86a9be8e",
         "93f9eddee74b9152",
         "956e22f7b5576dcb",
@@ -3021,29 +2924,6 @@
       ]
     },
     {
-      "id": "28f2acf06261",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Chemplast Sanmar Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Chemplast Sanmar Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "chemplast_sanmar_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "ba16c6787bc61df0",
-        "cf6ea315372976ff"
-      ]
-    },
-    {
       "id": "027cab41246c",
       "source": "nse_block_deal",
       "source_name": "NSE · Block deals",
@@ -3054,7 +2934,7 @@
       "company": "Cohance Lifesciences Ltd",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 4 records",
+      "label": "Block deal · 2 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -3062,9 +2942,7 @@
       "error": null,
       "exchange": "NSE",
       "records": [
-        "2a4f5ad9c22b2f0e",
         "55ad8e9523a8305d",
-        "68e25250993c0a26",
         "fe72a2ff5ccabad1"
       ]
     },
@@ -3079,7 +2957,7 @@
       "company": "Cohance Lifesciences Ltd",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 4 records",
+      "label": "Block deal · 2 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -3088,9 +2966,7 @@
       "exchange": "NSE",
       "records": [
         "0f303cf9e1335a31",
-        "4dbe0d8d6d0b8780",
-        "71f8455d454c31f4",
-        "8fe6c525830b4052"
+        "4dbe0d8d6d0b8780"
       ]
     },
     {
@@ -3173,7 +3049,7 @@
       "company": "DAMODAR INDUSTRIES LIMITED",
       "documents": [],
       "class": "insider_sale",
-      "label": "Insider sale · 2 records",
+      "label": "Insider sale · 1 record",
       "classified_by": "structured",
       "event_type": "insider_sale",
       "supported": true,
@@ -3181,31 +3057,7 @@
       "error": null,
       "exchange": "NSE",
       "records": [
-        "6ac8d7a6d3037d49",
         "af23e4a408cf9f55"
-      ]
-    },
-    {
-      "id": "7bc1d685085a",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Data Patterns India Ltd - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Data Patterns India Ltd",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "data_patterns_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "dc873f4bd802f6d0",
-        "e86077e1e366b3bc"
       ]
     },
     {
@@ -3288,28 +3140,6 @@
         "bac5cabee0035e86",
         "c2a2c8e254e7834f",
         "ea67defee312bfce"
-      ]
-    },
-    {
-      "id": "44e468b7fdfb",
-      "source": "nse_insider_sale",
-      "source_name": "NSE · Insider sales",
-      "title": "eClerx Services Ltd - Insider sale",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_2698_20261111_165102806_WEB.html",
-      "company": "eClerx Services Ltd",
-      "documents": [],
-      "class": "insider_sale",
-      "label": "Insider sale · 1 record",
-      "classified_by": "structured",
-      "event_type": "insider_sale",
-      "supported": true,
-      "event_id": "eclerx_services_insider_sale_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "6d6fd32d59f463b2"
       ]
     },
     {
@@ -3519,30 +3349,6 @@
       ]
     },
     {
-      "id": "b1c598f2f80c",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "GSM Foils Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "GSM Foils Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 3 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "gsm_foils_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "93c4bf2a4709bad6",
-        "b568375e99aeaa9f",
-        "d2953dfc58f62406"
-      ]
-    },
-    {
       "id": "3399758ddeaa",
       "source": "bse_block_deal",
       "source_name": "BSE · Block deals",
@@ -3635,51 +3441,6 @@
         "319976aa94d0bde6",
         "3631c0d32c2b4446",
         "d546cd754786fe17"
-      ]
-    },
-    {
-      "id": "7da7d86a532f",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "IRM Energy Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "IRM Energy Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "irm_energy_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "5a660e0bbec6cd2f",
-        "980f66349c44e7d4"
-      ]
-    },
-    {
-      "id": "64e511e0484d",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Jalan Transolu. India Ltd - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Jalan Transolu. India Ltd",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 1 record",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "jalan_transolu_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "09f4a9eaaa4c3a39"
       ]
     },
     {
@@ -3887,7 +3648,7 @@
       "company": "K.P. Energy Limited",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 10 records",
+      "label": "Block deal · 2 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -3895,47 +3656,8 @@
       "error": null,
       "exchange": "NSE",
       "records": [
-        "3722561bc4230556",
         "7f2ff9557a4af282",
-        "82999010630454b7",
-        "ba864ca2431684db",
-        "be5f436dc72f58f6",
-        "d093a4a059f7c3ef",
-        "f3f145925d7455f8",
-        "f48667ba789fb2a7",
-        "f6778659e5066642",
-        "fe0251b3a78032ed"
-      ]
-    },
-    {
-      "id": "93aea890be18",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "KPI Green Energy Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "KPI Green Energy Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 10 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "kpi_green_energy_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "46d9f941a535f9b7",
-        "68b0d0f29fb33f0a",
-        "748c974a93ff8112",
-        "80cc5805b8b1524a",
-        "a83e9e6655501b7a",
-        "b28e84d95721cbfb",
-        "c2b4f90383ef1b05",
-        "c52c026cc90ac1ca",
-        "c8326915fd6bf784",
-        "df95cc774c6402e9"
+        "f6778659e5066642"
       ]
     },
     {
@@ -4222,28 +3944,6 @@
       ]
     },
     {
-      "id": "f0ffa55180a2",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "MK Sons Fine Jewels Ltd - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "MK Sons Fine Jewels Ltd",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 1 record",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "mk_sons_fine_jewels_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "959b5903acc36f46"
-      ]
-    },
-    {
       "id": "d1234b6ab79d",
       "source": "nse_block_deal",
       "source_name": "NSE · Block deals",
@@ -4293,30 +3993,6 @@
         "ce20a3e542c049b3",
         "d6252a85e67db0d4",
         "e8adce9af2e7e6f8"
-      ]
-    },
-    {
-      "id": "9e79d7dde67f",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Nandani Creation Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Nandani Creation Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 3 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "nandani_creation_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "1427b2281726f34b",
-        "3bfba745632174cd",
-        "7b3681139dda470a"
       ]
     },
     {
@@ -4398,28 +4074,6 @@
         "b3484ccf596bcf55",
         "b56e1c9a8f24aad7",
         "f5e51a727c029901"
-      ]
-    },
-    {
-      "id": "1d52562d249e",
-      "source": "nse_insider_sale",
-      "source_name": "NSE · Insider sales",
-      "title": "Parag Milk Foods Limited - Insider sale",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_13816_20261111_210304238_WEB.html",
-      "company": "Parag Milk Foods Limited",
-      "documents": [],
-      "class": "insider_sale",
-      "label": "Insider sale · 1 record",
-      "classified_by": "structured",
-      "event_type": "insider_sale",
-      "supported": true,
-      "event_id": "parag_milk_foods_insider_sale_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "15617ff5f1717868"
       ]
     },
     {
@@ -4538,28 +4192,6 @@
       ]
     },
     {
-      "id": "4e365fa59866",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Ratnaveer Precision Eng L - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Ratnaveer Precision Eng L",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 1 record",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "ratnaveer_precision_eng_l_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "50545fd945d099f2"
-      ]
-    },
-    {
       "id": "8c803ab1fcdd",
       "source": "nse_insider_sale",
       "source_name": "NSE · Insider sales",
@@ -4606,29 +4238,6 @@
       ]
     },
     {
-      "id": "a9dbc9d3e30c",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Repco Home Finance Ltd - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Repco Home Finance Ltd",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "repco_home_finance_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "20df5ea8590c9cad",
-        "9f11f12ec3434fc3"
-      ]
-    },
-    {
       "id": "9e3023ddfa2d",
       "source": "nse_block_deal",
       "source_name": "NSE · Block deals",
@@ -4672,51 +4281,6 @@
       "records": [
         "108e026ad6c37b7a",
         "808333c09943a3ac"
-      ]
-    },
-    {
-      "id": "2a35a66e151a",
-      "source": "nse_insider_sale",
-      "source_name": "NSE · Insider sales",
-      "title": "SAKAR HEALTHCARE LIMITED - Insider sale",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_14283_20261110_230458936_WEB.html",
-      "company": "SAKAR HEALTHCARE LIMITED",
-      "documents": [],
-      "class": "insider_sale",
-      "label": "Insider sale · 1 record",
-      "classified_by": "structured",
-      "event_type": "insider_sale",
-      "supported": true,
-      "event_id": "sakar_healthcare_insider_sale_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "25f0b066a72cd3bc"
-      ]
-    },
-    {
-      "id": "9e15e074a242",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Salzer Electronics Ltd. - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Salzer Electronics Ltd.",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "salzer_electronics_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "39710bae9d1c8aed",
-        "74d632464e88472f"
       ]
     },
     {
@@ -4811,28 +4375,6 @@
       ]
     },
     {
-      "id": "9bbde2ade593",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "South West Pinnacle Ltd - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "South West Pinnacle Ltd",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 1 record",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "south_west_pinnacle_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "cf6007a243159748"
-      ]
-    },
-    {
       "id": "42603b2fd70f",
       "source": "nse_block_deal",
       "source_name": "NSE · Block deals",
@@ -4876,51 +4418,6 @@
       "records": [
         "5c3673286e2d2783",
         "fc40cb2325c16a67"
-      ]
-    },
-    {
-      "id": "7d05adc608ff",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Sunshine Pictures Limited - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Sunshine Pictures Limited",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 2 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "sunshine_pictures_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "157be9c7f564e916",
-        "baea07686aff3a8e"
-      ]
-    },
-    {
-      "id": "a4d0947965c0",
-      "source": "nse_insider_sale",
-      "source_name": "NSE · Insider sales",
-      "title": "SUVIDHAA INFOSERVE LIMITED - Insider sale",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_19313_20261111_185040353_WEB.html",
-      "company": "SUVIDHAA INFOSERVE LIMITED",
-      "documents": [],
-      "class": "insider_sale",
-      "label": "Insider sale · 1 record",
-      "classified_by": "structured",
-      "event_type": "insider_sale",
-      "supported": true,
-      "event_id": "suvidhaa_infoserve_insider_sale_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "65c3096bdc0fe3a5"
       ]
     },
     {
@@ -5011,11 +4508,11 @@
       "title": "Technocraft Ventures Ltd - Block deal",
       "published": "2026-11-13",
       "published_iso": "2026-11-13",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+      "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
       "company": "Technocraft Ventures Ltd",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 5 records",
+      "label": "Block deal · 2 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -5023,11 +4520,8 @@
       "error": null,
       "exchange": "NSE",
       "records": [
-        "11b2f892f6c8b9e0",
         "85b34b62fcddfa68",
-        "b1b06df2df424cad",
-        "e5e3c510feaa4475",
-        "fe778d5fe707aa69"
+        "b1b06df2df424cad"
       ]
     },
     {
@@ -5055,31 +4549,6 @@
       ]
     },
     {
-      "id": "bec86999eb5d",
-      "source": "nse_block_deal",
-      "source_name": "NSE · Block deals",
-      "title": "Tonbo Imaging India Ltd - Block deal",
-      "published": "2026-11-09",
-      "published_iso": "2026-11-09",
-      "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-      "company": "Tonbo Imaging India Ltd",
-      "documents": [],
-      "class": "block_deal",
-      "label": "Block deal · 4 records",
-      "classified_by": "structured",
-      "event_type": "block_deal",
-      "supported": true,
-      "event_id": "tonbo_imaging_bulk_deal_2026w46",
-      "error": null,
-      "exchange": "NSE",
-      "records": [
-        "38f12155c041b879",
-        "ad080592ad1864a3",
-        "bec9e24267e42bf3",
-        "d238a0482dd854a4"
-      ]
-    },
-    {
       "id": "bce651e35015",
       "source": "nse_block_deal",
       "source_name": "NSE · Block deals",
@@ -5090,7 +4559,7 @@
       "company": "V2 Retail Limited",
       "documents": [],
       "class": "block_deal",
-      "label": "Block deal · 8 records",
+      "label": "Block deal · 7 records",
       "classified_by": "structured",
       "event_type": "block_deal",
       "supported": true,
@@ -5100,7 +4569,6 @@
       "records": [
         "3165d431de033910",
         "3aa7fda70efe5fa6",
-        "4face8e289657bcd",
         "56db94490cb5217a",
         "adad4717a18944c6",
         "bd6963cfc25097cf",
@@ -5170,6 +4638,26 @@
       "items": [
         "09e0cf87bafe"
       ],
+      "status": "unchanged"
+    },
+    {
+      "event_id": "liqvd_digital_india_limited_ipo_202611",
+      "event_type": "ipo",
+      "company": "LIQVD DIGITAL INDIA LIMITED",
+      "documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794910898552.pdf",
+          "doc_type": "prospectus",
+          "note": "LIQVD DIGITAL INDIA LIMITED - Prospectus",
+          "from_class": "ipo_prospectus"
+        }
+      ],
+      "processable": true,
+      "missing": "",
+      "file": "events/auto/liqvd_digital_india_limited_ipo_202611.json",
+      "items": [
+        "07d19c2107f6"
+      ],
       "status": "created"
     },
     {
@@ -5185,7 +4673,6 @@
         "345b96ef2d4377a4",
         "37d055a43d7c8e63",
         "4279cf75ad206132",
-        "5e1df66c4817b173",
         "7a762413e9b8ebeb",
         "812a0abba544d548",
         "ba44c72f11ea3413",
@@ -5198,7 +4685,7 @@
         "654f442ddd87"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "a_one_steels_bulk_deal_2026w46",
@@ -5232,12 +4719,9 @@
       "company": "AAA Technologies Limited",
       "documents": [],
       "records": [
-        "1f32b42494dd705b",
         "23e3283b29b2ec73",
         "3309fb6a0f38d2d3",
         "44ab5ca33f6620a2",
-        "6befa18e226bb811",
-        "829a12d612b9184c",
         "87c6b7ff2a04927e",
         "9719365df7745901",
         "cbd26724a981ac44"
@@ -5249,51 +4733,7 @@
         "68a3bc2515b7"
       ],
       "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "aarti_drugs_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Aarti Drugs Ltd.",
-      "documents": [],
-      "records": [
-        "2a4a5dbed4368c05",
-        "4cd5a44104d2b961",
-        "58ea553b022bdaa6",
-        "66f263c13c818ac2",
-        "6a46b6e463f094cb",
-        "6cfc310be981c7a5",
-        "6f764ec5a8c5fdd0",
-        "8f361cf9d3712208",
-        "db59ca36b2b43e26",
-        "e7a54b819b8252c3"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/aarti_drugs_bulk_deal_2026w46.json",
-      "items": [
-        "75efdd40cccb"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "ackruti_city_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Ackruti City Limited",
-      "documents": [],
-      "records": [
-        "102dc661f4bfaac0",
-        "d42787aae6f0eb01"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/ackruti_city_bulk_deal_2026w46.json",
-      "items": [
-        "6f5a5268e839"
-      ],
-      "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "aditya_infotech_block_deal_2026w46",
@@ -5348,24 +4788,6 @@
       "file": "events/auto/adroit_industries_i_bulk_deal_2026w46.json",
       "items": [
         "938b12829eb2"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "alembic_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Alembic Limited",
-      "documents": [],
-      "records": [
-        "3a86f8942bc0f328",
-        "db0e9deb666b7dc6"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/alembic_bulk_deal_2026w46.json",
-      "items": [
-        "ffc40f5e898d"
       ],
       "structured": true,
       "status": "unchanged"
@@ -5505,9 +4927,6 @@
       "documents": [],
       "records": [
         "08d29f11e8ade82f",
-        "0feb931abc34e21e",
-        "186cc268bc27ac5e",
-        "1bdd3f238efd3947",
         "32b6cbbc843bcef0"
       ],
       "processable": true,
@@ -5517,7 +4936,7 @@
         "96d205f64540"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "axis_bank_insider_sale_2026w46",
@@ -5599,23 +5018,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "bhagiradha_chemicals_industries_insider_sale_2026w46",
-      "event_type": "insider_sale",
-      "company": "BHAGIRADHA CHEMICALS & INDUSTRIES LIMITED",
-      "documents": [],
-      "records": [
-        "4abeb6c0ae1b4fb6"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/bhagiradha_chemicals_industries_insider_sale_2026w46.json",
-      "items": [
-        "b4efaddbae18"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "bls_polymers_bulk_deal_2026w46",
       "event_type": "block_deal",
       "company": "BLS Polymers Limited",
@@ -5640,9 +5042,7 @@
         "803419eda9769363",
         "81ebe2e05b1fa867",
         "8838c5c38ed62b84",
-        "883d8c1aac05f937",
         "8acf8b52c44818f4",
-        "8ed21db68a51b35b",
         "92bb435e86a9be8e",
         "93f9eddee74b9152",
         "956e22f7b5576dcb",
@@ -5667,7 +5067,7 @@
         "88b19b1bd188"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "blspoly_bulk_deal_2026w46",
@@ -5706,32 +5106,12 @@
       "status": "unchanged"
     },
     {
-      "event_id": "chemplast_sanmar_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Chemplast Sanmar Limited",
-      "documents": [],
-      "records": [
-        "ba16c6787bc61df0",
-        "cf6ea315372976ff"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/chemplast_sanmar_bulk_deal_2026w46.json",
-      "items": [
-        "28f2acf06261"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "cohance_lifesciences_block_deal_2026w46",
       "event_type": "block_deal",
       "company": "Cohance Lifesciences Ltd",
       "documents": [],
       "records": [
-        "2a4f5ad9c22b2f0e",
         "55ad8e9523a8305d",
-        "68e25250993c0a26",
         "fe72a2ff5ccabad1"
       ],
       "processable": true,
@@ -5741,7 +5121,7 @@
         "027cab41246c"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "cohance_lifesciences_bulk_deal_2026w46",
@@ -5750,9 +5130,7 @@
       "documents": [],
       "records": [
         "0f303cf9e1335a31",
-        "4dbe0d8d6d0b8780",
-        "71f8455d454c31f4",
-        "8fe6c525830b4052"
+        "4dbe0d8d6d0b8780"
       ],
       "processable": true,
       "missing": "",
@@ -5761,7 +5139,7 @@
         "ad0d07bbd083"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "commercial_syn_bags_bulk_deal_2026w46",
@@ -5823,7 +5201,6 @@
       "company": "DAMODAR INDUSTRIES LIMITED",
       "documents": [],
       "records": [
-        "6ac8d7a6d3037d49",
         "af23e4a408cf9f55"
       ],
       "processable": true,
@@ -5833,25 +5210,7 @@
         "4d2bdbf3c919"
       ],
       "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "data_patterns_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Data Patterns India Ltd",
-      "documents": [],
-      "records": [
-        "dc873f4bd802f6d0",
-        "e86077e1e366b3bc"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/data_patterns_bulk_deal_2026w46.json",
-      "items": [
-        "7bc1d685085a"
-      ],
-      "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "dcx_systems_bulk_deal_2026w46",
@@ -5921,23 +5280,6 @@
       "file": "events/auto/dhanlaxmi_bank_bulk_deal_2026w46.json",
       "items": [
         "f919e6f7298b"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "eclerx_services_insider_sale_2026w46",
-      "event_type": "insider_sale",
-      "company": "eClerx Services Ltd",
-      "documents": [],
-      "records": [
-        "6d6fd32d59f463b2"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/eclerx_services_insider_sale_2026w46.json",
-      "items": [
-        "44e468b7fdfb"
       ],
       "structured": true,
       "status": "unchanged"
@@ -6104,25 +5446,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "gsm_foils_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "GSM Foils Limited",
-      "documents": [],
-      "records": [
-        "93c4bf2a4709bad6",
-        "b568375e99aeaa9f",
-        "d2953dfc58f62406"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/gsm_foils_bulk_deal_2026w46.json",
-      "items": [
-        "b1c598f2f80c"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "gujcotex_bulk_deal_2026w46",
       "event_type": "block_deal",
       "company": "GUJCOTEX",
@@ -6193,41 +5516,6 @@
       "file": "events/auto/iifl_capital_services_bulk_deal_2026w46.json",
       "items": [
         "556cd06d326b"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "irm_energy_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "IRM Energy Limited",
-      "documents": [],
-      "records": [
-        "5a660e0bbec6cd2f",
-        "980f66349c44e7d4"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/irm_energy_bulk_deal_2026w46.json",
-      "items": [
-        "7da7d86a532f"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "jalan_transolu_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Jalan Transolu. India Ltd",
-      "documents": [],
-      "records": [
-        "09f4a9eaaa4c3a39"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/jalan_transolu_bulk_deal_2026w46.json",
-      "items": [
-        "64e511e0484d"
       ],
       "structured": true,
       "status": "unchanged"
@@ -6392,16 +5680,8 @@
       "company": "K.P. Energy Limited",
       "documents": [],
       "records": [
-        "3722561bc4230556",
         "7f2ff9557a4af282",
-        "82999010630454b7",
-        "ba864ca2431684db",
-        "be5f436dc72f58f6",
-        "d093a4a059f7c3ef",
-        "f3f145925d7455f8",
-        "f48667ba789fb2a7",
-        "f6778659e5066642",
-        "fe0251b3a78032ed"
+        "f6778659e5066642"
       ],
       "processable": true,
       "missing": "",
@@ -6410,33 +5690,7 @@
         "5112ad7d7472"
       ],
       "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "kpi_green_energy_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "KPI Green Energy Limited",
-      "documents": [],
-      "records": [
-        "46d9f941a535f9b7",
-        "68b0d0f29fb33f0a",
-        "748c974a93ff8112",
-        "80cc5805b8b1524a",
-        "a83e9e6655501b7a",
-        "b28e84d95721cbfb",
-        "c2b4f90383ef1b05",
-        "c52c026cc90ac1ca",
-        "c8326915fd6bf784",
-        "df95cc774c6402e9"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/kpi_green_energy_bulk_deal_2026w46.json",
-      "items": [
-        "93aea890be18"
-      ],
-      "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "krishna_bulk_deal_2026w46",
@@ -6667,23 +5921,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "mk_sons_fine_jewels_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "MK Sons Fine Jewels Ltd",
-      "documents": [],
-      "records": [
-        "959b5903acc36f46"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/mk_sons_fine_jewels_bulk_deal_2026w46.json",
-      "items": [
-        "f0ffa55180a2"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "motisons_jewellers_bulk_deal_2026w46",
       "event_type": "block_deal",
       "company": "Motisons Jewellers Ltd",
@@ -6721,25 +5958,6 @@
       "file": "events/auto/mv_electrosystems_bulk_deal_2026w46.json",
       "items": [
         "f2d2bdd3fc49"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "nandani_creation_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Nandani Creation Limited",
-      "documents": [],
-      "records": [
-        "1427b2281726f34b",
-        "3bfba745632174cd",
-        "7b3681139dda470a"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/nandani_creation_bulk_deal_2026w46.json",
-      "items": [
-        "9e79d7dde67f"
       ],
       "structured": true,
       "status": "unchanged"
@@ -6806,23 +6024,6 @@
       "file": "events/auto/panth_bulk_deal_2026w46.json",
       "items": [
         "c9e38c577a1b"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "parag_milk_foods_insider_sale_2026w46",
-      "event_type": "insider_sale",
-      "company": "Parag Milk Foods Limited",
-      "documents": [],
-      "records": [
-        "15617ff5f1717868"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/parag_milk_foods_insider_sale_2026w46.json",
-      "items": [
-        "1d52562d249e"
       ],
       "structured": true,
       "status": "unchanged"
@@ -6918,23 +6119,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "ratnaveer_precision_eng_l_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Ratnaveer Precision Eng L",
-      "documents": [],
-      "records": [
-        "50545fd945d099f2"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/ratnaveer_precision_eng_l_bulk_deal_2026w46.json",
-      "items": [
-        "4e365fa59866"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "ravindra_energy_insider_sale_2026w46",
       "event_type": "insider_sale",
       "company": "Ravindra Energy Limited",
@@ -6971,24 +6155,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "repco_home_finance_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Repco Home Finance Ltd",
-      "documents": [],
-      "records": [
-        "20df5ea8590c9cad",
-        "9f11f12ec3434fc3"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/repco_home_finance_bulk_deal_2026w46.json",
-      "items": [
-        "a9dbc9d3e30c"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "sabar_flex_bulk_deal_2026w46",
       "event_type": "block_deal",
       "company": "Sabar Flex India Limited",
@@ -7020,41 +6186,6 @@
       "file": "events/auto/sahana_system_bulk_deal_2026w46.json",
       "items": [
         "3d3905c1d6f2"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "sakar_healthcare_insider_sale_2026w46",
-      "event_type": "insider_sale",
-      "company": "SAKAR HEALTHCARE LIMITED",
-      "documents": [],
-      "records": [
-        "25f0b066a72cd3bc"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/sakar_healthcare_insider_sale_2026w46.json",
-      "items": [
-        "2a35a66e151a"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "salzer_electronics_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Salzer Electronics Ltd.",
-      "documents": [],
-      "records": [
-        "39710bae9d1c8aed",
-        "74d632464e88472f"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/salzer_electronics_bulk_deal_2026w46.json",
-      "items": [
-        "9e15e074a242"
       ],
       "structured": true,
       "status": "unchanged"
@@ -7131,23 +6262,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "south_west_pinnacle_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "South West Pinnacle Ltd",
-      "documents": [],
-      "records": [
-        "cf6007a243159748"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/south_west_pinnacle_bulk_deal_2026w46.json",
-      "items": [
-        "9bbde2ade593"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "ss_retail_bulk_deal_2026w46",
       "event_type": "block_deal",
       "company": "SS Retail Limited",
@@ -7179,41 +6293,6 @@
       "file": "events/auto/stl_networks_bulk_deal_2026w46.json",
       "items": [
         "4be83019db74"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "sunshine_pictures_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Sunshine Pictures Limited",
-      "documents": [],
-      "records": [
-        "157be9c7f564e916",
-        "baea07686aff3a8e"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/sunshine_pictures_bulk_deal_2026w46.json",
-      "items": [
-        "7d05adc608ff"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
-      "event_id": "suvidhaa_infoserve_insider_sale_2026w46",
-      "event_type": "insider_sale",
-      "company": "SUVIDHAA INFOSERVE LIMITED",
-      "documents": [],
-      "records": [
-        "65c3096bdc0fe3a5"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/suvidhaa_infoserve_insider_sale_2026w46.json",
-      "items": [
-        "a4d0947965c0"
       ],
       "structured": true,
       "status": "unchanged"
@@ -7290,11 +6369,8 @@
       "company": "Technocraft Ventures Ltd",
       "documents": [],
       "records": [
-        "11b2f892f6c8b9e0",
         "85b34b62fcddfa68",
-        "b1b06df2df424cad",
-        "e5e3c510feaa4475",
-        "fe778d5fe707aa69"
+        "b1b06df2df424cad"
       ],
       "processable": true,
       "missing": "",
@@ -7303,7 +6379,7 @@
         "5b997466a2c9"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "texmaco_infra_holdg_bulk_deal_2026w46",
@@ -7325,26 +6401,6 @@
       "status": "unchanged"
     },
     {
-      "event_id": "tonbo_imaging_bulk_deal_2026w46",
-      "event_type": "block_deal",
-      "company": "Tonbo Imaging India Ltd",
-      "documents": [],
-      "records": [
-        "38f12155c041b879",
-        "ad080592ad1864a3",
-        "bec9e24267e42bf3",
-        "d238a0482dd854a4"
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/tonbo_imaging_bulk_deal_2026w46.json",
-      "items": [
-        "bec86999eb5d"
-      ],
-      "structured": true,
-      "status": "unchanged"
-    },
-    {
       "event_id": "v2_retail_bulk_deal_2026w46",
       "event_type": "block_deal",
       "company": "V2 Retail Limited",
@@ -7352,7 +6408,6 @@
       "records": [
         "3165d431de033910",
         "3aa7fda70efe5fa6",
-        "4face8e289657bcd",
         "56db94490cb5217a",
         "adad4717a18944c6",
         "bd6963cfc25097cf",
@@ -7366,7 +6421,7 @@
         "bce651e35015"
       ],
       "structured": true,
-      "status": "unchanged"
+      "status": "updated"
     },
     {
       "event_id": "v_guard_industries_insider_sale_2026w46",
@@ -7387,7 +6442,7 @@
     }
   ],
   "counts": {
-    "items": 235,
+    "items": 213,
     "per_source": {
       "sebi_rhp": 25,
       "sebi_prospectus": 25,
@@ -7395,8 +6450,8 @@
       "sebi_takeover_lof": 25,
       "sebi_drhp": 25,
       "bse_insider_sale": 1,
-      "nse_block_deal": 75,
-      "nse_insider_sale": 17,
+      "nse_block_deal": 58,
+      "nse_insider_sale": 12,
       "bse_block_deal": 17
     },
     "per_class": {
@@ -7406,13 +6461,14 @@
       "outside the window": 26,
       "ipo_prospectus": 25,
       "ipo_coming": 25,
-      "insider_sale": 18,
-      "block_deal": 92
+      "insider_sale": 13,
+      "block_deal": 75
     },
-    "events": 112,
+    "events": 91,
     "events_by_status": {
-      "unchanged": 111,
-      "created": 1
+      "unchanged": 80,
+      "created": 1,
+      "updated": 10
     },
     "sources_failed": []
   }
