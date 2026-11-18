@@ -6107,6 +6107,28 @@
       "run_id": "discover-liqvd_digital_india_limited_ipo_202611-20261117T195943Z",
       "seconds": 138.7,
       "log": "cache/runs/discover-liqvd_digital_india_limited_ipo_202611-20261117T195943Z.log"
+    },
+    {
+      "event_id": "mahanadi_coalfields_limited_ipo_202611",
+      "docs_hash": "a345e491b651e220",
+      "at": "2026-11-18T10:34:42+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-mahanadi_coalfields_limited_ipo_202611-20261118T103442Z",
+      "seconds": 8.4,
+      "log": "cache/runs/discover-mahanadi_coalfields_limited_ipo_202611-20261118T103442Z.log"
+    },
+    {
+      "event_id": "liqvd_digital_india_limited_ipo_202611",
+      "docs_hash": "7c5ccff4ae42f99a",
+      "at": "2026-11-18T10:34:51+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-liqvd_digital_india_limited_ipo_202611-20261118T103451Z",
+      "seconds": 6.0,
+      "log": "cache/runs/discover-liqvd_digital_india_limited_ipo_202611-20261118T103451Z.log"
     }
   ]
 }

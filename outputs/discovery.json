@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-17T19:59:09+00:00",
+  "refreshed_at": "2026-11-18T10:34:16+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-10",
+  "window_start": "2026-11-11",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-17T19:59:09+00:00"
+      "checked_at": "2026-11-18T10:34:16+00:00"
     }
   ],
   "items": [
@@ -1492,14 +1492,14 @@
       "event_documents": []
     },
     {
-      "id": "7d5136714a04",
+      "id": "db3f5fabed57",
       "source": "sebi_takeover_lof",
       "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "Rishabh Digha Steel and Allied Products Limited",
+      "title": "AI Champdany Industries Limited",
       "published": "Nov 02, 2026",
       "published_iso": "2026-11-02",
-      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/rishabh-digha-steel-and-allied-products-limited_105561.html",
-      "company": "Rishabh Digha Steel and Allied Products Limited",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/ai-champdany-industries-limited_105488.html",
+      "company": "AI Champdany Industries Limited",
       "documents": [],
       "class": "other",
       "label": "takeover open offer",
@@ -1510,14 +1510,14 @@
       "error": null
     },
     {
-      "id": "db3f5fabed57",
+      "id": "67e63c4f4e93",
       "source": "sebi_takeover_lof",
       "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "AI Champdany Industries Limited",
-      "published": "Nov 02, 2026",
-      "published_iso": "2026-11-02",
-      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/ai-champdany-industries-limited_105488.html",
-      "company": "AI Champdany Industries Limited",
+      "title": "Rishabh Digha Steel and Allied Products Limited",
+      "published": "Oct 29, 2026",
+      "published_iso": "2026-10-29",
+      "link": "https://www.sebi.gov.in/filings/takeovers/oct-2026/rishabh-digha-steel-and-allied-products-limited_105561.html",
+      "company": "Rishabh Digha Steel and Allied Products Limited",
       "documents": [],
       "class": "other",
       "label": "takeover open offer",
