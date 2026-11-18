@@ -206,12 +206,10 @@ What it gets wrong, with real examples, is in [whats_broken.md](whats_broken.md)
 
 - [docs/part_a.md](docs/part_a.md): how the reference product probably works
 - [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md): deploy to Vercel + Railway + Neon, all in Singapore
-- [docs/live_run_rehearsal.md](docs/live_run_rehearsal.md): a fresh event run live, step by step, with measured time and cost
 - [docs/what_if.md](docs/what_if.md): what changes at 500 events a week, and the measured cost per run
 - [api/CHAT_CONTRACT.md](api/CHAT_CONTRACT.md): the control-tower chat contract (memory, time windows, call scripts, caching, streaming, exports)
 - [docs/part_c.md](docs/part_c.md) ([PDF](docs/part_c.pdf)): first meeting, demo, pilot, compliance
 - [decision_log.md](decision_log.md): 14 decisions, with the options and what would change them
 - [assumptions.md](assumptions.md): how each ambiguity in the brief was read
 - [whats_broken.md](whats_broken.md): real wrong answers and the two-week plan
-- [docs/video_script.md](docs/video_script.md): the 10-minute walkthrough
 - `cost_log.csv` (every model call) and `outputs/runs.csv` (every run)

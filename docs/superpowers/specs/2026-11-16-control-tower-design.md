@@ -19,7 +19,7 @@ and make them engaging; chat is the home page; ChatGPT models; every money-spend
 5. **Follow-on leads that really run**: person deep dive (below) with a budget, most-promising-first, a visited set and caps
    per branch kind.
 6. **README**: diagram matches the code (every agent: given / returns / runs on model or code), < 10-minute setup,
-   the chat agent included; `docs/video_script.md` for the ≤10-minute video.
+   the chat agent included.
 
 ## B. Control tower (chat home)
 - **Layout**: ChatGPT/Claude-familiar. Left: conversations list + nav. Centre: one prompt box, greeting, 4 suggestion chips,

@@ -9,7 +9,7 @@ failed before prices were configured is left out.
 |---|---|
 | median | **$0.0098** |
 | highest | $0.0206 (a 26-call IPO with 3 strong-model name checks) |
-| this week's new IPO (`docs/live_run_rehearsal.md`) | $0.0154 |
+| this week's new IPO | $0.0154 |
 | a rerun with nothing changed | $0.0000 (every model answer reused from `cache/llm`) |
 
 Spend by agent across those runs: reading the tables (`extract_*`) is 71–100% of every event's
