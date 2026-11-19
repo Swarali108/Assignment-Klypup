@@ -2,25 +2,25 @@
   "event_id": "karur_vysya_bank_insider_sale_2026w46",
   "event_type": "insider_sale",
   "structured": true,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-19",
   "price_basis": {
     "kind": "unknown",
     "reason": "the records print no trade price"
   },
   "sale": {
-    "sale_date": "11 Nov 2026 to 12 Nov 2026",
+    "sale_date": "12 Nov 2026",
     "sale_date_parsed": "2026-11-12",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "12,000 shares sold by 2 seller(s)"
+    "total_shares_offered": "10,000 shares sold by 1 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/insider.json",
-    "refreshed_at": "2026-11-15T18:48:41+00:00",
+    "refreshed_at": "2026-11-16T01:07:18+00:00",
     "source_status": {
       "nse_insider": {
         "status": "ok",
-        "note": "301 filings, 60 XBRL files downloaded, 177 sales, 396 buys, pledges, gifts, inter-se transfers and others skipped; 9 filings wait for the next run (at most 60 downloads per run)",
-        "records": 167,
+        "note": "301 filings, 0 XBRL files downloaded, 178 sales, 422 buys, pledges, gifts, inter-se transfers and others skipped",
+        "records": 168,
         "http_status": null,
         "url": "https://www.nseindia.in/companies-listing/corporate-filings-insider-trading",
         "terms_url": "https://www.nseindia.in/nse-terms-of-use"
@@ -34,7 +34,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 2,
+    "records_used": 1,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -132,7 +132,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (3 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (6 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -153,7 +153,7 @@
               ]
             }
           ],
-          "days_since": 3
+          "days_since": 6
         }
       },
       "why_money": "sold 10,000 shares (Market Sale) on 12 Nov 2026",
@@ -165,170 +165,33 @@
         ]
       },
       "follow_on": []
-    },
-    {
-      "person_id": "p_m_v_usha",
-      "name_as_printed": "M V Usha",
-      "names_as_printed": [
-        "M V Usha"
-      ],
-      "name_clean": "m v usha",
-      "holder_type": "person",
-      "holder_type_reason": "no entity or family marker",
-      "role_as_printed": "Promoter group",
-      "role_by_section": {
-        "exchange_record": "Promoter group"
-      },
-      "side": "sell",
-      "record_ids": [
-        "87c83529662b7075"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 2000,
-          "record_ids": [
-            "87c83529662b7075"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure1",
-          "row_ref": "XBRL context Disclosure1",
-          "quote": "NSE | KARURVYSYA | M V Usha | SELL | 2,000 shares | value 760545 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "87c83529662b7075",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "2,000",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "760545",
-          "rupees_high": "760545",
-          "crore_low": "0.08",
-          "crore_high": "0.08",
-          "display": "₹7.61 lakh",
-          "working": "2,000 shares, value as printed ₹7.61 lakh (NSE XBRL context Disclosure1)",
-          "price_kind": "trade_value",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "2,000",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | KARURVYSYA | M V Usha | SELL | 2,000 shares | value 760545 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹7.61 lakh",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | KARURVYSYA | M V Usha | SELL | 2,000 shares | value 760545 | Market Sale | 2026-11-11"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (4 days ago)",
-          "trade_date": "2026-11-11",
-          "settles_on": "2026-11-12",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "11 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_539_20261112_191531388_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | KARURVYSYA | M V Usha | SELL | 2,000 shares | value 760545 | Market Sale | 2026-11-11"
-                }
-              ]
-            }
-          ],
-          "days_since": 4
-        }
-      },
-      "why_money": "sold 2,000 shares (Market Sale) on 11 Nov 2026",
-      "confidence": {
-        "level": "medium",
-        "reasons": [
-          "named in the exchange insider-trading disclosure (structured record, read by code)",
-          "name printed with initials (M V); confirm the client before calling"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "karur_vysya_bank_insider_sale_2026w44",
-          "company": "KARUR VYSYA BANK LIMITED",
-          "name_as_printed": "M V Usha",
-          "role": "Promoter group",
-          "amount": "₹5.35 lakh",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'M V Usha' / 'M V Usha'"
-        }
-      ]
     }
   ],
   "identity_log": [],
   "family_groups": [],
   "counts": {
-    "people": 2,
+    "people": 1,
     "by_holder_type": {
-      "person": 2
+      "person": 1
     },
     "by_confidence": {
-      "medium": 2
+      "medium": 1
     },
-    "sellers": 2,
+    "sellers": 1,
     "sellers_unverified": 0,
     "buyers": 0,
-    "proceeds_computed": 2,
+    "proceeds_computed": 1,
     "gain_computed": 0,
     "retained_valued": 0,
     "retained_timing": {
-      "not_applicable": 2
+      "not_applicable": 1
     },
     "identity_decisions": {},
     "identity_merges": 0,
     "llm_asks": 0,
     "family_groups": 0,
     "flagged": 0,
-    "index_lookups": 2,
-    "follow_on_matches": 1
+    "index_lookups": 1,
+    "follow_on_matches": 0
   }
 }

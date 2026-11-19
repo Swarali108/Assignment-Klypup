@@ -2,11 +2,11 @@
   "event_id": "aaa_technologies_bulk_deal_2026w46",
   "event_type": "block_deal",
   "structured": true,
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "price_basis": {
     "kind": "trade_price",
     "low": "89.53",
-    "high": "92.98",
+    "high": "90.57",
     "inputs": [
       {
         "field": "trade_price",
@@ -24,25 +24,25 @@
       },
       {
         "field": "trade_price",
-        "value": "₹92.98",
+        "value": "₹90.57",
         "evidence": [
           {
             "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
             "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
             "pdf_index": null,
-            "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-            "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-            "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11"
+            "printed_page": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+            "row_ref": "12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343",
+            "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 85,343 shares | price 90.57 | 2026-11-12"
           }
         ]
       }
     ]
   },
   "sale": {
-    "sale_date": "11 Nov 2026 to 13 Nov 2026",
+    "sale_date": "12 Nov 2026 to 13 Nov 2026",
     "sale_date_parsed": "2026-11-13",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "2,32,255 shares sold by 1 seller(s)"
+    "total_shares_offered": "1,65,426 shares sold by 1 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/deals.json",
@@ -89,7 +89,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 6,
+    "records_used": 4,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -108,18 +108,10 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "3309fb6a0f38d2d3",
         "cbd26724a981ac44",
         "44ab5ca33f6620a2"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 66829,
-          "record_ids": [
-            "3309fb6a0f38d2d3"
-          ]
-        },
         {
           "trade_date": "2026-11-12",
           "quantity": 85343,
@@ -142,20 +134,6 @@
         "reason": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
       },
       "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-          "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "3309fb6a0f38d2d3",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        },
         {
           "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
           "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
@@ -186,46 +164,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "2,32,255",
+      "shares_offered": "1,65,426",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "21113106.92",
-          "rupees_high": "21113106.92",
-          "crore_low": "2.11",
-          "crore_high": "2.11",
-          "display": "₹2.11 crore",
-          "working": "66,829 shares × ₹92.98 = ₹62.14 lakh (NSE 11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829); 85,343 shares × ₹90.57 = ₹77.30 lakh (NSE 12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343); 80,083 shares × ₹89.53 = ₹71.70 lakh (NSE 13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083); total ₹2.11 crore",
+          "rupees_low": "14899346.50",
+          "rupees_high": "14899346.50",
+          "crore_low": "1.49",
+          "crore_high": "1.49",
+          "display": "₹1.49 crore",
+          "working": "85,343 shares × ₹90.57 = ₹77.30 lakh (NSE 12-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 85343); 80,083 shares × ₹89.53 = ₹71.70 lakh (NSE 13-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 80083); total ₹1.49 crore",
           "price_kind": "trade_price",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "66,829",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-                  "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_price",
-              "value": "₹92.98",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-                  "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · SELL · 66829",
-                  "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | SELL | 66,829 shares | price 92.98 | 2026-11-11"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "85,343",
@@ -288,7 +238,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
           "trade_date": "2026-11-13",
           "settles_on": "2026-11-16",
           "rule": "T+1",
@@ -309,10 +259,10 @@
               ]
             }
           ],
-          "days_since": 5
+          "days_since": 6
         }
       },
-      "why_money": "sold 2,32,255 shares in bulk deals between 11 Nov 2026 and 13 Nov 2026",
+      "why_money": "sold 1,65,426 shares in bulk deals on 12 Nov 2026 and 13 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -396,18 +346,10 @@
       "role_by_section": {},
       "side": "buy",
       "record_ids": [
-        "87c6b7ff2a04927e",
         "23e3283b29b2ec73",
         "9719365df7745901"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 66829,
-          "record_ids": [
-            "87c6b7ff2a04927e"
-          ]
-        },
         {
           "trade_date": "2026-11-12",
           "quantity": 85343,
@@ -430,20 +372,6 @@
         "reason": "'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
       },
       "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 66829",
-          "row_ref": "11-NOV-2026 · AAATECH · VAIBHAV RAJENDRA DOSHI · BUY · 66829",
-          "quote": "NSE | AAATECH | VAIBHAV RAJENDRA DOSHI | BUY | 66,829 shares | price 93.89 | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "87c6b7ff2a04927e",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        },
         {
           "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
           "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
@@ -486,7 +414,7 @@
           "reason": "bought shares; buying is not coming into money"
         }
       },
-      "why_money": "bought 2,32,255 shares in bulk deals between 11 Nov 2026 and 13 Nov 2026",
+      "why_money": "bought 1,65,426 shares in bulk deals on 12 Nov 2026 and 13 Nov 2026",
       "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
       "confidence": {
         "level": "high",

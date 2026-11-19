@@ -2,16 +2,16 @@
   "event_id": "360_one_wam_insider_sale_2026w46",
   "event_type": "insider_sale",
   "structured": true,
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "price_basis": {
     "kind": "unknown",
     "reason": "the records print no trade price"
   },
   "sale": {
-    "sale_date": "11 Nov 2026 to 12 Nov 2026",
+    "sale_date": "12 Nov 2026",
     "sale_date_parsed": "2026-11-12",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "1,96,155 shares sold by 6 seller(s)"
+    "total_shares_offered": "29,560 shares sold by 5 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/insider.json",
@@ -34,7 +34,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 11,
+    "records_used": 5,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -53,17 +53,9 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "812a0abba544d548",
         "184571ade30f1ff9"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 3000,
-          "record_ids": [
-            "812a0abba544d548"
-          ]
-        },
         {
           "trade_date": "2026-11-12",
           "quantity": 2000,
@@ -76,20 +68,6 @@
       "flags": [],
       "family_group": null,
       "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure2",
-          "row_ref": "XBRL context Disclosure2",
-          "quote": "NSE | 360ONE | Manisha Hemant Lakhotiya | SELL | 3,000 shares | value 3516000 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "812a0abba544d548",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
         {
           "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
           "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
@@ -106,46 +84,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "5,000",
+      "shares_offered": "2,000",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "5924400",
-          "rupees_high": "5924400",
-          "crore_low": "0.59",
-          "crore_high": "0.59",
-          "display": "₹59.24 lakh",
-          "working": "3,000 shares, value as printed ₹35.16 lakh (NSE XBRL context Disclosure2); 2,000 shares, value as printed ₹24.08 lakh (NSE XBRL context Disclosure2); total ₹59.24 lakh",
+          "rupees_low": "2408400",
+          "rupees_high": "2408400",
+          "crore_low": "0.24",
+          "crore_high": "0.24",
+          "display": "₹24.08 lakh",
+          "working": "2,000 shares, value as printed ₹24.08 lakh (NSE XBRL context Disclosure2)",
           "price_kind": "trade_value",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "3,000",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure2",
-                  "row_ref": "XBRL context Disclosure2",
-                  "quote": "NSE | 360ONE | Manisha Hemant Lakhotiya | SELL | 3,000 shares | value 3516000 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹35.16 lakh",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure2",
-                  "row_ref": "XBRL context Disclosure2",
-                  "quote": "NSE | 360ONE | Manisha Hemant Lakhotiya | SELL | 3,000 shares | value 3516000 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "2,000",
@@ -180,7 +130,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (6 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -201,10 +151,10 @@
               ]
             }
           ],
-          "days_since": 5
+          "days_since": 6
         }
       },
-      "why_money": "sold 5,000 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
+      "why_money": "sold 2,000 shares (Market Sale) on 12 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -227,19 +177,9 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "22d349db238116aa",
-        "c04830b19012a2d4",
         "4279cf75ad206132"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 92730,
-          "record_ids": [
-            "22d349db238116aa",
-            "c04830b19012a2d4"
-          ]
-        },
         {
           "trade_date": "2026-11-12",
           "quantity": 18635,
@@ -250,39 +190,8 @@
       ],
       "conflicts": {},
       "flags": [],
-      "family_group": {
-        "id": "family_1",
-        "reason": "'Mayur Patel (Revised)' contains 'Mayur Patel'"
-      },
+      "family_group": null,
       "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure3",
-          "row_ref": "XBRL context Disclosure3",
-          "quote": "NSE | 360ONE | Mayur Patel | SELL | 31,365 shares | value 36821569 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "22d349db238116aa",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_195309375_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_195309375_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure1",
-          "row_ref": "XBRL context Disclosure1",
-          "quote": "NSE | 360ONE | Mayur Patel | SELL | 61,365 shares | value 70458315 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "c04830b19012a2d4",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
         {
           "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
           "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
@@ -299,74 +208,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "1,11,365",
+      "shares_offered": "18,635",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "129611509",
-          "rupees_high": "129611509",
-          "crore_low": "12.96",
-          "crore_high": "12.96",
-          "display": "₹12.96 crore",
-          "working": "31,365 shares, value as printed ₹3.68 crore (NSE XBRL context Disclosure3); 61,365 shares, value as printed ₹7.05 crore (NSE XBRL context Disclosure1); 18,635 shares, value as printed ₹2.23 crore (NSE XBRL context Disclosure3); total ₹12.96 crore",
+          "rupees_low": "22331625",
+          "rupees_high": "22331625",
+          "crore_low": "2.23",
+          "crore_high": "2.23",
+          "display": "₹2.23 crore",
+          "working": "18,635 shares, value as printed ₹2.23 crore (NSE XBRL context Disclosure3)",
           "price_kind": "trade_value",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "31,365",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure3",
-                  "row_ref": "XBRL context Disclosure3",
-                  "quote": "NSE | 360ONE | Mayur Patel | SELL | 31,365 shares | value 36821569 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹3.68 crore",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure3",
-                  "row_ref": "XBRL context Disclosure3",
-                  "quote": "NSE | 360ONE | Mayur Patel | SELL | 31,365 shares | value 36821569 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "shares_sold",
-              "value": "61,365",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_195309375_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_195309375_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | Mayur Patel | SELL | 61,365 shares | value 70458315 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹7.05 crore",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_195309375_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_195309375_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | Mayur Patel | SELL | 61,365 shares | value 70458315 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "18,635",
@@ -401,7 +254,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (6 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -422,137 +275,10 @@
               ]
             }
           ],
-          "days_since": 5
+          "days_since": 6
         }
       },
-      "why_money": "sold 1,11,365 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange insider-trading disclosure (structured record, read by code)",
-          "full name printed"
-        ]
-      },
-      "follow_on": []
-    },
-    {
-      "person_id": "p_mayur_patel_revised",
-      "name_as_printed": "Mayur Patel (Revised)",
-      "names_as_printed": [
-        "Mayur Patel (Revised)"
-      ],
-      "name_clean": "mayur patel (revised)",
-      "holder_type": "person",
-      "holder_type_reason": "no entity or family marker",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "345b96ef2d4377a4"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 61365,
-          "record_ids": [
-            "345b96ef2d4377a4"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": {
-        "id": "family_1",
-        "reason": "'Mayur Patel (Revised)' contains 'Mayur Patel'"
-      },
-      "evidence": [
-        {
-          "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-          "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-          "pdf_index": null,
-          "printed_page": "Fld_ID 165720 · Mayur Patel (Revised)",
-          "row_ref": "Fld_ID 165720 · Mayur Patel (Revised)",
-          "quote": "BSE | 542772 | Mayur Patel (Revised) | SELL | 61,365 shares | value 70458315.00 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "345b96ef2d4377a4",
-          "exchange": "BSE",
-          "kind": "insider_sale"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "61,365",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "70458315.00",
-          "rupees_high": "70458315.00",
-          "crore_low": "7.05",
-          "crore_high": "7.05",
-          "display": "₹7.05 crore",
-          "working": "61,365 shares, value as printed ₹7.05 crore (BSE Fld_ID 165720 · Mayur Patel (Revised))",
-          "price_kind": "trade_value",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "61,365",
-              "evidence": [
-                {
-                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-                  "pdf_index": null,
-                  "printed_page": "Fld_ID 165720 · Mayur Patel (Revised)",
-                  "row_ref": "Fld_ID 165720 · Mayur Patel (Revised)",
-                  "quote": "BSE | 542772 | Mayur Patel (Revised) | SELL | 61,365 shares | value 70458315.00 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹7.05 crore",
-              "evidence": [
-                {
-                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-                  "pdf_index": null,
-                  "printed_page": "Fld_ID 165720 · Mayur Patel (Revised)",
-                  "row_ref": "Fld_ID 165720 · Mayur Patel (Revised)",
-                  "quote": "BSE | 542772 | Mayur Patel (Revised) | SELL | 61,365 shares | value 70458315.00 | Market Sale | 2026-11-11"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-          "trade_date": "2026-11-11",
-          "settles_on": "2026-11-12",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "11 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-                  "link": "https://www.bseindia.com/XBRLFILES/PITXBRLDataXML/PIT_542772_1311202619525_PIT.html",
-                  "pdf_index": null,
-                  "printed_page": "Fld_ID 165720 · Mayur Patel (Revised)",
-                  "row_ref": "Fld_ID 165720 · Mayur Patel (Revised)",
-                  "quote": "BSE | 542772 | Mayur Patel (Revised) | SELL | 61,365 shares | value 70458315.00 | Market Sale | 2026-11-11"
-                }
-              ]
-            }
-          ],
-          "days_since": 5
-        }
-      },
-      "why_money": "sold 61,365 shares (Market Sale) on 11 Nov 2026",
+      "why_money": "sold 18,635 shares (Market Sale) on 12 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -575,17 +301,9 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "37d055a43d7c8e63",
         "ba44c72f11ea3413"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 5000,
-          "record_ids": [
-            "37d055a43d7c8e63"
-          ]
-        },
         {
           "trade_date": "2026-11-12",
           "quantity": 5000,
@@ -598,20 +316,6 @@
       "flags": [],
       "family_group": null,
       "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure1",
-          "row_ref": "XBRL context Disclosure1",
-          "quote": "NSE | 360ONE | Pankaj Binod Fitkariwala | SELL | 5,000 shares | value 5888450 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "37d055a43d7c8e63",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
         {
           "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
           "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
@@ -628,46 +332,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "10,000",
+      "shares_offered": "5,000",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "11900950",
-          "rupees_high": "11900950",
-          "crore_low": "1.19",
-          "crore_high": "1.19",
-          "display": "₹1.19 crore",
-          "working": "5,000 shares, value as printed ₹58.88 lakh (NSE XBRL context Disclosure1); 5,000 shares, value as printed ₹60.12 lakh (NSE XBRL context Disclosure1); total ₹1.19 crore",
+          "rupees_low": "6012500",
+          "rupees_high": "6012500",
+          "crore_low": "0.60",
+          "crore_high": "0.60",
+          "display": "₹60.12 lakh",
+          "working": "5,000 shares, value as printed ₹60.12 lakh (NSE XBRL context Disclosure1)",
           "price_kind": "trade_value",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "5,000",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | Pankaj Binod Fitkariwala | SELL | 5,000 shares | value 5888450 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹58.88 lakh",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure1",
-                  "row_ref": "XBRL context Disclosure1",
-                  "quote": "NSE | 360ONE | Pankaj Binod Fitkariwala | SELL | 5,000 shares | value 5888450 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "5,000",
@@ -702,7 +378,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (6 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -723,10 +399,10 @@
               ]
             }
           ],
-          "days_since": 5
+          "days_since": 6
         }
       },
-      "why_money": "sold 10,000 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
+      "why_money": "sold 5,000 shares (Market Sale) on 12 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -828,7 +504,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (6 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -849,7 +525,7 @@
               ]
             }
           ],
-          "days_since": 4
+          "days_since": 6
         }
       },
       "why_money": "sold 1,425 shares (Market Sale) on 12 Nov 2026",
@@ -875,17 +551,9 @@
       "role_by_section": {},
       "side": "sell",
       "record_ids": [
-        "7a762413e9b8ebeb",
         "02cf892eef3e528f"
       ],
       "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 4500,
-          "record_ids": [
-            "7a762413e9b8ebeb"
-          ]
-        },
         {
           "trade_date": "2026-11-12",
           "quantity": 2500,
@@ -898,20 +566,6 @@
       "flags": [],
       "family_group": null,
       "evidence": [
-        {
-          "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-          "pdf_index": null,
-          "printed_page": "XBRL context Disclosure4",
-          "row_ref": "XBRL context Disclosure4",
-          "quote": "NSE | 360ONE | Samrat Bose | SELL | 4,500 shares | value 5218775 | Market Sale | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "7a762413e9b8ebeb",
-          "exchange": "NSE",
-          "kind": "insider_sale"
-        },
         {
           "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
           "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_230905063_WEB.html",
@@ -928,46 +582,18 @@
         }
       ],
       "seller_status": "verified",
-      "shares_offered": "7,000",
+      "shares_offered": "2,500",
       "amounts": {
         "proceeds": {
           "status": "computed",
-          "rupees_low": "8208950",
-          "rupees_high": "8208950",
-          "crore_low": "0.82",
-          "crore_high": "0.82",
-          "display": "₹82.09 lakh",
-          "working": "4,500 shares, value as printed ₹52.19 lakh (NSE XBRL context Disclosure4); 2,500 shares, value as printed ₹29.90 lakh (NSE XBRL context Disclosure4); total ₹82.09 lakh",
+          "rupees_low": "2990175",
+          "rupees_high": "2990175",
+          "crore_low": "0.30",
+          "crore_high": "0.30",
+          "display": "₹29.90 lakh",
+          "working": "2,500 shares, value as printed ₹29.90 lakh (NSE XBRL context Disclosure4)",
           "price_kind": "trade_value",
           "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "4,500",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure4",
-                  "row_ref": "XBRL context Disclosure4",
-                  "quote": "NSE | 360ONE | Samrat Bose | SELL | 4,500 shares | value 5218775 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_value",
-              "value": "₹52.19 lakh",
-              "evidence": [
-                {
-                  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "link": "https://nsearchives.nseindia.in/corporate/ixbrl/IT_17593_20261113_173902053_WEB.html",
-                  "pdf_index": null,
-                  "printed_page": "XBRL context Disclosure4",
-                  "row_ref": "XBRL context Disclosure4",
-                  "quote": "NSE | 360ONE | Samrat Bose | SELL | 4,500 shares | value 5218775 | Market Sale | 2026-11-11"
-                }
-              ]
-            },
             {
               "field": "shares_sold",
               "value": "2,500",
@@ -1002,7 +628,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (4 days ago)",
+          "when": "settled 13 Nov 2026, T+1 after the 12 Nov 2026 trade (6 days ago)",
           "trade_date": "2026-11-12",
           "settles_on": "2026-11-13",
           "rule": "T+1",
@@ -1023,10 +649,10 @@
               ]
             }
           ],
-          "days_since": 5
+          "days_since": 6
         }
       },
-      "why_money": "sold 7,000 shares (Market Sale) on 11 Nov 2026 and 12 Nov 2026",
+      "why_money": "sold 2,500 shares (Market Sale) on 12 Nov 2026",
       "confidence": {
         "level": "high",
         "reasons": [
@@ -1049,41 +675,30 @@
     }
   ],
   "identity_log": [],
-  "family_groups": [
-    {
-      "id": "family_1",
-      "members": [
-        "Mayur Patel",
-        "Mayur Patel (Revised)"
-      ],
-      "reasons": [
-        "'Mayur Patel (Revised)' contains 'Mayur Patel'"
-      ]
-    }
-  ],
+  "family_groups": [],
   "counts": {
-    "people": 6,
+    "people": 5,
     "by_holder_type": {
-      "person": 6
+      "person": 5
     },
     "by_confidence": {
-      "high": 6
+      "high": 5
     },
-    "sellers": 6,
+    "sellers": 5,
     "sellers_unverified": 0,
     "buyers": 0,
-    "proceeds_computed": 6,
+    "proceeds_computed": 5,
     "gain_computed": 0,
     "retained_valued": 0,
     "retained_timing": {
-      "not_applicable": 6
+      "not_applicable": 5
     },
     "identity_decisions": {},
     "identity_merges": 0,
     "llm_asks": 0,
-    "family_groups": 1,
+    "family_groups": 0,
     "flagged": 0,
-    "index_lookups": 6,
+    "index_lookups": 5,
     "follow_on_matches": 1
   }
 }

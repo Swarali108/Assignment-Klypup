@@ -2,61 +2,6 @@
   "event_id": "avenue_supermarts_insider_sale_2026w46",
   "callable": [
     {
-      "person_id": "p_arun_kumar_singh",
-      "name_as_printed": "Arun Kumar Singh",
-      "name_clean": "arun kumar singh",
-      "holder_type": "person",
-      "role_as_printed": null,
-      "tier": "seller",
-      "call_tier": "cash_now",
-      "call_tier_label": "Cash in hand",
-      "amount_known": true,
-      "money_now_crore": "0.35",
-      "confidence": "high",
-      "confidence_weight": "1.0",
-      "timing_status": "settles",
-      "timing_weight": "1.0",
-      "recency_weight": "1.0",
-      "score": "0.35000",
-      "trigger": {
-        "kind": "proceeds",
-        "days_since": 5,
-        "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-        "money_crore": "0.35",
-        "timing_status": "settles",
-        "timing_weight": "1.0",
-        "recency_weight": "1.0",
-        "score": "0.35000"
-      },
-      "triggers": [
-        {
-          "kind": "proceeds",
-          "days_since": 5,
-          "label": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-          "money_crore": "0.35",
-          "timing_status": "settles",
-          "timing_weight": "1.0",
-          "recency_weight": "1.0",
-          "score": "0.35000"
-        }
-      ],
-      "later_value_crore": "0",
-      "later_score": "0.000",
-      "why_money": "sold 1,000 shares (Market Sale) on 11 Nov 2026",
-      "amount_display": "₹34.75 lakh",
-      "timing_display": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-      "timing_display_status": "settles",
-      "family_group": null,
-      "household_id": null,
-      "holding_display": null,
-      "rank": 1,
-      "rank_reasons": [
-        "Cash in hand: ₹34.75 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago).",
-        "score 0.35 = ₹0.35 crore (proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
-        "tied with Jaideep Soman; name order breaks the tie"
-      ]
-    },
-    {
       "person_id": "p_jaideep_soman",
       "name_as_printed": "Jaideep Soman",
       "name_clean": "jaideep soman",
@@ -75,8 +20,8 @@
       "score": "0.35000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 1,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "days_since": 3,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
         "money_crore": "0.35",
         "timing_status": "settles",
         "timing_weight": "1.0",
@@ -86,8 +31,8 @@
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 1,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+          "days_since": 3,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
           "money_crore": "0.35",
           "timing_status": "settles",
           "timing_weight": "1.0",
@@ -99,15 +44,15 @@
       "later_score": "0.000",
       "why_money": "sold 1,000 shares (Market Sale) on 13 Nov 2026",
       "amount_display": "₹34.75 lakh",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
       "timing_display_status": "settles",
       "family_group": null,
       "household_id": null,
       "holding_display": null,
-      "rank": 2,
+      "rank": 1,
       "rank_reasons": [
-        "Cash in hand: ₹34.75 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
-        "score 0.35 = ₹0.35 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
+        "Cash in hand: ₹34.75 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago).",
+        "score 0.35 = ₹0.35 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)"
       ]
     }
   ],

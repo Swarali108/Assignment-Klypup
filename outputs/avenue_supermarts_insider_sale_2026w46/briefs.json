@@ -3,44 +3,6 @@
   "prompt_version": "v5",
   "briefs": [
     {
-      "person_id": "p_arun_kumar_singh",
-      "name_as_printed": "Arun Kumar Singh",
-      "fields": {
-        "name": "Arun Kumar Singh",
-        "role": "unknown",
-        "why_money": "sold 1,000 shares (Market Sale) on 11 Nov 2026",
-        "amount": "₹34.75 lakh",
-        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-        "event": "proceeds settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-        "event_age": "5 days ago",
-        "event_is": "recent",
-        "proceeds": "₹34.75 lakh (1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure5))"
-      },
-      "placeholders": {
-        "name": "Arun Kumar Singh",
-        "role": "unknown",
-        "amount": "₹34.75 lakh",
-        "timing": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-        "proceeds": "₹34.75 lakh",
-        "shares_offered": "1,000 shares",
-        "event_age": "5 days ago"
-      },
-      "lines": [
-        "Arun Kumar Singh sold 1,000 shares (Market Sale) on 11 Nov 2026.",
-        "₹34.75 lakh; settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago).",
-        "Ask about their plans for the holding."
-      ],
-      "brief_source": "template",
-      "fallback_reason": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent.",
-      "template_problem": null,
-      "attempts": [
-        {
-          "lines": [],
-          "problem": "model call failed: No model. Pass model= or set LLM_MODEL. No request was sent."
-        }
-      ]
-    },
-    {
       "person_id": "p_jaideep_soman",
       "name_as_printed": "Jaideep Soman",
       "fields": {
@@ -48,9 +10,9 @@
         "role": "unknown",
         "why_money": "sold 1,000 shares (Market Sale) on 13 Nov 2026",
         "amount": "₹34.75 lakh",
-        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
-        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
-        "event_age": "1 days ago",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
+        "event": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
+        "event_age": "3 days ago",
         "event_is": "recent",
         "proceeds": "₹34.75 lakh (1,000 shares, value as printed ₹34.75 lakh (NSE XBRL context Disclosure2))"
       },
@@ -58,14 +20,14 @@
         "name": "Jaideep Soman",
         "role": "unknown",
         "amount": "₹34.75 lakh",
-        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+        "timing": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
         "proceeds": "₹34.75 lakh",
         "shares_offered": "1,000 shares",
-        "event_age": "1 days ago"
+        "event_age": "3 days ago"
       },
       "lines": [
         "Jaideep Soman sold 1,000 shares (Market Sale) on 13 Nov 2026.",
-        "₹34.75 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago).",
+        "₹34.75 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago).",
         "Ask about their plans for the holding."
       ],
       "brief_source": "template",

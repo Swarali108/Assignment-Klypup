@@ -2,11 +2,11 @@
   "event_id": "v2_retail_bulk_deal_2026w46",
   "event_type": "block_deal",
   "structured": true,
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "price_basis": {
     "kind": "trade_price",
     "low": "173.30",
-    "high": "178.96",
+    "high": "175.94",
     "inputs": [
       {
         "field": "trade_price",
@@ -24,25 +24,25 @@
       },
       {
         "field": "trade_price",
-        "value": "₹178.96",
+        "value": "₹175.94",
         "evidence": [
           {
-            "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-            "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
+            "source_url": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
+            "link": "https://nsearchives.nseindia.in/content/equities/bulk.csv",
             "pdf_index": null,
-            "printed_page": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-            "row_ref": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-            "quote": "NSE | V2RETAIL | HRTI PRIVATE LIMITED | SELL | 11,35,001 shares | price 178.96 | 2026-11-11"
+            "printed_page": "13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · SELL · 2157065",
+            "row_ref": "13-NOV-2026 · V2RETAIL · F3 ADVISORS PRIVATE LIMITED · SELL · 2157065",
+            "quote": "NSE | V2RETAIL | F3 ADVISORS PRIVATE LIMITED | SELL | 21,57,065 shares | price 175.94 | 2026-11-13"
           }
         ]
       }
     ]
   },
   "sale": {
-    "sale_date": "11 Nov 2026 to 13 Nov 2026",
+    "sale_date": "13 Nov 2026",
     "sale_date_parsed": "2026-11-13",
     "settlement": "T+1 equity cash-market settlement; exchange holidays not checked",
-    "total_shares_offered": "50,71,075 shares sold by 3 seller(s)"
+    "total_shares_offered": "39,36,074 shares sold by 2 seller(s)"
   },
   "records_source": {
     "records_file": "outputs/signals/deals.json",
@@ -89,7 +89,7 @@
         "terms_url": "https://www.bseindia.com/rgess/disclaimer.htm"
       }
     },
-    "records_used": 7,
+    "records_used": 4,
     "records_missing": [],
     "records_skipped_wrong_kind": [],
     "records_skipped_unknown_side": []
@@ -185,7 +185,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
           "trade_date": "2026-11-13",
           "settles_on": "2026-11-16",
           "rule": "T+1",
@@ -206,7 +206,7 @@
               ]
             }
           ],
-          "days_since": 1
+          "days_since": 3
         }
       },
       "why_money": "sold 21,57,065 shares in a bulk deal on 13 Nov 2026",
@@ -327,564 +327,6 @@
       ]
     },
     {
-      "person_id": "p_hrti_private_limited",
-      "name_as_printed": "HRTI PRIVATE LIMITED",
-      "names_as_printed": [
-        "HRTI PRIVATE LIMITED"
-      ],
-      "name_clean": "hrti private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "sell",
-      "record_ids": [
-        "f86c9ca173f6c61e"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 1135001,
-          "record_ids": [
-            "f86c9ca173f6c61e"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-          "row_ref": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-          "quote": "NSE | V2RETAIL | HRTI PRIVATE LIMITED | SELL | 11,35,001 shares | price 178.96 | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "f86c9ca173f6c61e",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "verified",
-      "shares_offered": "11,35,001",
-      "amounts": {
-        "proceeds": {
-          "status": "computed",
-          "rupees_low": "203119778.96",
-          "rupees_high": "203119778.96",
-          "crore_low": "20.31",
-          "crore_high": "20.31",
-          "display": "₹20.31 crore",
-          "working": "11,35,001 shares × ₹178.96 = ₹20.31 crore (NSE 11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001)",
-          "price_kind": "trade_price",
-          "inputs": [
-            {
-              "field": "shares_sold",
-              "value": "11,35,001",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-                  "row_ref": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-                  "quote": "NSE | V2RETAIL | HRTI PRIVATE LIMITED | SELL | 11,35,001 shares | price 178.96 | 2026-11-11"
-                }
-              ]
-            },
-            {
-              "field": "trade_price",
-              "value": "₹178.96",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-                  "row_ref": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-                  "quote": "NSE | V2RETAIL | HRTI PRIVATE LIMITED | SELL | 11,35,001 shares | price 178.96 | 2026-11-11"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "settles",
-          "when": "settled 12 Nov 2026, T+1 after the 11 Nov 2026 trade (5 days ago)",
-          "trade_date": "2026-11-11",
-          "settles_on": "2026-11-12",
-          "rule": "T+1",
-          "note": "T+1 equity cash-market settlement; exchange holidays not checked",
-          "sources": [
-            {
-              "field": "trade_date",
-              "value": "11 Nov 2026",
-              "evidence": [
-                {
-                  "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-                  "pdf_index": null,
-                  "printed_page": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-                  "row_ref": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · SELL · 1135001",
-                  "quote": "NSE | V2RETAIL | HRTI PRIVATE LIMITED | SELL | 11,35,001 shares | price 178.96 | 2026-11-11"
-                }
-              ]
-            }
-          ],
-          "days_since": 5
-        }
-      },
-      "why_money": "sold 11,35,001 shares in a bulk deal on 11 Nov 2026",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹21.55 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹37.01 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "bls_polymers_bulk_deal_2026w46",
-          "company": "BLS Polymers Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹23.37 crore",
-          "trigger_date": "2026-11-16",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "bls_polymers_bulk_deal_2026w46",
-          "company": "BLS Polymers Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "cartrade_tech_bulk_deal_2026w44",
-          "company": "Cartrade Tech Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹64.74 crore",
-          "trigger_date": "2026-10-29",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "cartrade_tech_bulk_deal_2026w44",
-          "company": "Cartrade Tech Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
-          "company": "DCM Shriram Ind Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹3.19 crore",
-          "trigger_date": "2026-10-26",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
-          "company": "DCM Shriram Ind Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_hrti_private_limited_bought",
-      "name_as_printed": "HRTI PRIVATE LIMITED",
-      "names_as_printed": [
-        "HRTI PRIVATE LIMITED"
-      ],
-      "name_clean": "hrti private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "buy",
-      "record_ids": [
-        "c20f06140a346e2a"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 1948403,
-          "record_ids": [
-            "c20f06140a346e2a"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · BUY · 1948403",
-          "row_ref": "11-NOV-2026 · V2RETAIL · HRTI PRIVATE LIMITED · BUY · 1948403",
-          "quote": "NSE | V2RETAIL | HRTI PRIVATE LIMITED | BUY | 19,48,403 shares | price 178.83 | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "c20f06140a346e2a",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "no",
-      "amounts": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "why_money": "bought 19,48,403 shares in a bulk deal on 11 Nov 2026",
-      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹21.55 crore",
-          "trigger_date": "2026-11-10",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aarti_drugs_bulk_deal_2026w46",
-          "company": "Aarti Drugs Ltd.",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹37.01 crore",
-          "trigger_date": "2026-10-30",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "aeroflex_industries_bulk_deal_2026w44",
-          "company": "Aeroflex Industries Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "bls_polymers_bulk_deal_2026w46",
-          "company": "BLS Polymers Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹23.37 crore",
-          "trigger_date": "2026-11-16",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "bls_polymers_bulk_deal_2026w46",
-          "company": "BLS Polymers Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "cartrade_tech_bulk_deal_2026w44",
-          "company": "Cartrade Tech Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹64.74 crore",
-          "trigger_date": "2026-10-29",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "cartrade_tech_bulk_deal_2026w44",
-          "company": "Cartrade Tech Limited",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
-          "company": "DCM Shriram Ind Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹3.19 crore",
-          "trigger_date": "2026-10-26",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "dcm_shriram_ind_bulk_deal_2026w43",
-          "company": "DCM Shriram Ind Ltd",
-          "name_as_printed": "HRTI PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'HRTI PRIVATE LIMITED' / 'HRTI PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
-      "person_id": "p_mansi_share_and_stock_broking_private_limited_bought",
-      "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-      "names_as_printed": [
-        "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED"
-      ],
-      "name_clean": "mansi share and stock broking private limited",
-      "holder_type": "entity",
-      "holder_type_reason": "contains 'private'",
-      "role_as_printed": null,
-      "role_by_section": {},
-      "side": "buy",
-      "record_ids": [
-        "3165d431de033910"
-      ],
-      "trades": [
-        {
-          "trade_date": "2026-11-11",
-          "quantity": 1370589,
-          "record_ids": [
-            "3165d431de033910"
-          ]
-        }
-      ],
-      "conflicts": {},
-      "flags": [],
-      "family_group": null,
-      "evidence": [
-        {
-          "source_url": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "link": "https://www.nseindia.in/report-detail/display-bulk-and-block-deals",
-          "pdf_index": null,
-          "printed_page": "11-NOV-2026 · V2RETAIL · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 1370589",
-          "row_ref": "11-NOV-2026 · V2RETAIL · MANSI SHARE AND STOCK BROKING PRIVATE LIMITED · BUY · 1370589",
-          "quote": "NSE | V2RETAIL | MANSI SHARE AND STOCK BROKING PRIVATE LIMITED | BUY | 13,70,589 shares | price 170.47 | 2026-11-11",
-          "field": "name_as_printed",
-          "section": "exchange_record",
-          "field_kept": true,
-          "record_id": "3165d431de033910",
-          "exchange": "NSE",
-          "kind": "bulk_deal"
-        }
-      ],
-      "seller_status": "no",
-      "amounts": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "timing": {
-        "proceeds": {
-          "status": "not_applicable",
-          "reason": "bought shares; buying is not coming into money"
-        }
-      },
-      "why_money": "bought 13,70,589 shares in a bulk deal on 11 Nov 2026",
-      "context_reason": "Bought shares: buying is not coming into money, so listed for context, not to call.",
-      "confidence": {
-        "level": "high",
-        "reasons": [
-          "named in the exchange deal report (structured record, read by code)"
-        ]
-      },
-      "follow_on": [
-        {
-          "event_id": "baazar_style_retail_bulk_deal_2026w46",
-          "company": "Baazar Style Retail Ltd",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹17.82 crore",
-          "trigger_date": "2026-11-16",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "baazar_style_retail_bulk_deal_2026w46",
-          "company": "Baazar Style Retail Ltd",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "flysbs_aviation_bulk_deal_2026w46",
-          "company": "FlySBS Aviation Limited",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹1.40 crore",
-          "trigger_date": "2026-11-13",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "flysbs_aviation_bulk_deal_2026w46",
-          "company": "FlySBS Aviation Limited",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "hero_motors_bulk_deal_2026w43",
-          "company": "Hero Motors Limited",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹28.15 crore",
-          "trigger_date": "2026-10-23",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "hero_motors_bulk_deal_2026w43",
-          "company": "Hero Motors Limited",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "hero_motors_bulk_deal_2026w44",
-          "company": "Hero Motors Limited",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹34.68 crore",
-          "trigger_date": "2026-10-27",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "hero_motors_bulk_deal_2026w44",
-          "company": "Hero Motors Limited",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
-          "company": "Jain Irrigation Systems L",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "₹10.98 crore",
-          "trigger_date": "2026-11-02",
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        },
-        {
-          "event_id": "jain_irrigation_systems_l_bulk_deal_2026w44",
-          "company": "Jain Irrigation Systems L",
-          "name_as_printed": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
-          "role": null,
-          "amount": "not applicable: bought shares; buying is not coming into money",
-          "trigger_date": null,
-          "match_strength": "likely same holder",
-          "reason": "same name tokens after spelling rules: 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED' / 'MANSI SHARE AND STOCK BROKING PRIVATE LIMITED'"
-        }
-      ]
-    },
-    {
       "person_id": "p_qe_securities_llp",
       "name_as_printed": "QE SECURITIES LLP",
       "names_as_printed": [
@@ -974,7 +416,7 @@
       "timing": {
         "proceeds": {
           "status": "settles",
-          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (1 days ago)",
+          "when": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
           "trade_date": "2026-11-13",
           "settles_on": "2026-11-16",
           "rule": "T+1",
@@ -995,7 +437,7 @@
               ]
             }
           ],
-          "days_since": 1
+          "days_since": 3
         }
       },
       "why_money": "sold 17,79,009 shares in a bulk deal on 13 Nov 2026",
@@ -1279,28 +721,28 @@
   "identity_log": [],
   "family_groups": [],
   "counts": {
-    "people": 7,
+    "people": 4,
     "by_holder_type": {
-      "entity": 7
+      "entity": 4
     },
     "by_confidence": {
-      "high": 7
+      "high": 4
     },
-    "sellers": 3,
+    "sellers": 2,
     "sellers_unverified": 0,
-    "buyers": 4,
-    "proceeds_computed": 3,
+    "buyers": 2,
+    "proceeds_computed": 2,
     "gain_computed": 0,
     "retained_valued": 0,
     "retained_timing": {
-      "not_applicable": 7
+      "not_applicable": 4
     },
     "identity_decisions": {},
     "identity_merges": 0,
     "llm_asks": 0,
     "family_groups": 0,
     "flagged": 0,
-    "index_lookups": 7,
-    "follow_on_matches": 54
+    "index_lookups": 4,
+    "follow_on_matches": 24
   }
 }
