@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-19T10:40:42+00:00",
+  "refreshed_at": "2026-11-19T19:36:04+00:00",
   "since_days": 7.0,
   "window_start": "2026-11-12",
   "sources": [
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-19T10:40:42+00:00"
+      "checked_at": "2026-11-19T19:36:04+00:00"
     }
   ],
   "items": [
@@ -4067,7 +4067,7 @@
         "654f442ddd87"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "a_one_steels_bulk_deal_2026w46",
@@ -4087,7 +4087,7 @@
         "3c8039fe6e7d"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "aaa_technologies_bulk_deal_2026w46",
@@ -4107,7 +4107,7 @@
         "68a3bc2515b7"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "adroit_industries_i_bulk_deal_2026w46",
@@ -4248,7 +4248,7 @@
         "96d205f64540"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "baazar_style_retail_bulk_deal_2026w46",
@@ -4700,7 +4700,7 @@
         "c0204c2e1201"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "kesarpe_bulk_deal_2026w46",
@@ -4864,7 +4864,7 @@
         "5def6ae29667"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "maxwell_engineering_sol_l_bulk_deal_2026w46",
@@ -4881,7 +4881,7 @@
         "223aba962e56"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "meesho_block_deal_2026w46",
@@ -4982,7 +4982,7 @@
         "b772030205c1"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     },
     {
       "event_id": "orienttr_bulk_deal_2026w46",
@@ -5337,7 +5337,7 @@
         "bce651e35015"
       ],
       "structured": true,
-      "status": "updated"
+      "status": "unchanged"
     }
   ],
   "counts": {
@@ -5364,8 +5364,7 @@
     },
     "events": 66,
     "events_by_status": {
-      "unchanged": 57,
-      "updated": 9
+      "unchanged": 66
     },
     "sources_failed": []
   }
