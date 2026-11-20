@@ -11,40 +11,40 @@
       "call_tier": "cash_now",
       "call_tier_label": "Cash in hand",
       "amount_known": true,
-      "money_now_crore": "1.49",
+      "money_now_crore": "0.72",
       "confidence": "high",
       "confidence_weight": "1.0",
       "timing_status": "settles",
       "timing_weight": "1.0",
       "recency_weight": "1.0",
-      "score": "1.49000",
+      "score": "0.72000",
       "trigger": {
         "kind": "proceeds",
-        "days_since": 6,
-        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
-        "money_crore": "1.49",
+        "days_since": 4,
+        "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (4 days ago)",
+        "money_crore": "0.72",
         "timing_status": "settles",
         "timing_weight": "1.0",
         "recency_weight": "1.0",
-        "score": "1.49000"
+        "score": "0.72000"
       },
       "triggers": [
         {
           "kind": "proceeds",
-          "days_since": 6,
-          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
-          "money_crore": "1.49",
+          "days_since": 4,
+          "label": "proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (4 days ago)",
+          "money_crore": "0.72",
           "timing_status": "settles",
           "timing_weight": "1.0",
           "recency_weight": "1.0",
-          "score": "1.49000"
+          "score": "0.72000"
         }
       ],
       "later_value_crore": "0",
       "later_score": "0.000",
-      "why_money": "sold 1,65,426 shares in bulk deals on 12 Nov 2026 and 13 Nov 2026",
-      "amount_display": "₹1.49 crore",
-      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)",
+      "why_money": "sold 80,083 shares in a bulk deal on 13 Nov 2026",
+      "amount_display": "₹71.70 lakh",
+      "timing_display": "settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (4 days ago)",
       "timing_display_status": "settles",
       "family_group": {
         "id": "family_1",
@@ -54,8 +54,8 @@
       "holding_display": null,
       "rank": 1,
       "rank_reasons": [
-        "Cash in hand: ₹1.49 crore; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago).",
-        "score 1.49 = ₹1.49 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (3 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
+        "Cash in hand: ₹71.70 lakh; settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (4 days ago).",
+        "score 0.72 = ₹0.72 crore (proceeds settled 16 Nov 2026, T+1 after the 13 Nov 2026 trade (4 days ago)) × 1.0 (high confidence) × 1.0 (timing settles) × 1.0 (recency)",
         "family link (family_1): 'VAIBHAV RAJENDRA DOSHI' and 'VAIBHAV RAJENDRA DOSHI' share surname 'doshi' and middle name 'rajendra'"
       ]
     }
@@ -83,7 +83,7 @@
       "triggers": [],
       "later_value_crore": "0",
       "later_score": "0.000",
-      "why_money": "bought 1,65,426 shares in bulk deals on 12 Nov 2026 and 13 Nov 2026",
+      "why_money": "bought 80,083 shares in a bulk deal on 13 Nov 2026",
       "amount_display": "not applicable: bought shares; buying is not coming into money",
       "timing_display": "not applicable: bought shares; buying is not coming into money",
       "timing_display_status": "not_applicable",

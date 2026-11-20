@@ -14,15 +14,22 @@
       "doc_type": "announcement",
       "note": "Zee Entertainment Enterprises Ltd - Buy back",
       "from_class": "buyback_announcement"
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Zee%20Entertainment%20Enterprises%20Limited-PA_p.pdf",
+      "doc_type": "public_announcement",
+      "note": "Zee Entertainment Enterprises Limited",
+      "from_class": "buyback_public_announcement"
     }
   ],
   "discovery": {
     "sources": [
       "bse_announcements",
-      "nse_announcements"
+      "nse_announcements",
+      "sebi_buyback_tender"
     ],
     "first_seen": "2026-11-15T18:40:06+00:00",
-    "last_seen": "2026-11-15T18:40:06+00:00",
+    "last_seen": "2026-11-20T10:21:33+00:00",
     "items": [
       {
         "title": "Zee Entertainment Enterprises Limited - Buyback",
@@ -35,6 +42,12 @@
         "link": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8626e6e3-0d9b-405d-8a33-bea63e79a670.pdf",
         "published": "2026-11-12",
         "class": "buyback_announcement"
+      },
+      {
+        "title": "Zee Entertainment Enterprises Limited",
+        "link": "https://www.sebi.gov.in/filings/buybacks/nov-2026/zee-entertainment-enterprises-limited_105863.html",
+        "published": "Nov 16, 2026",
+        "class": "buyback_public_announcement"
       }
     ]
   }

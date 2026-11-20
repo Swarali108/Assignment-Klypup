@@ -6283,6 +6283,73 @@
       "run_id": "discover-liqvd_digital_india_limited_ipo_202611-20261119T193638Z",
       "seconds": 5.6,
       "log": "cache/runs/discover-liqvd_digital_india_limited_ipo_202611-20261119T193638Z.log"
+    },
+    {
+      "event_id": "aaa_technologies_bulk_deal_2026w46",
+      "docs_hash": "9bf0f4fea81d56d0",
+      "at": "2026-11-20T10:22:05+00:00",
+      "status": "ok",
+      "reason": "",
+      "cost_usd": 0,
+      "run_id": "discover-aaa_technologies_bulk_deal_2026w46-20261120T102205Z",
+      "seconds": 0.8,
+      "log": "cache/runs/discover-aaa_technologies_bulk_deal_2026w46-20261120T102205Z.log"
+    },
+    {
+      "event_id": "jaro_ins_of_tec_mg_n_re_l_bulk_deal_2026w46",
+      "docs_hash": "b430aa6a2608d292",
+      "at": "2026-11-20T10:22:06+00:00",
+      "status": "ok",
+      "reason": "",
+      "cost_usd": 0,
+      "run_id": "discover-jaro_ins_of_tec_mg_n_re_l_bulk_deal_2026w46-20261120T102206Z",
+      "seconds": 0.7,
+      "log": "cache/runs/discover-jaro_ins_of_tec_mg_n_re_l_bulk_deal_2026w46-20261120T102206Z.log"
+    },
+    {
+      "event_id": "mahanadi_coalfields_limited_ipo_202611",
+      "docs_hash": "a345e491b651e220",
+      "at": "2026-11-20T10:22:07+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-mahanadi_coalfields_limited_ipo_202611-20261120T102207Z",
+      "seconds": 8.0,
+      "log": "cache/runs/discover-mahanadi_coalfields_limited_ipo_202611-20261120T102207Z.log"
+    },
+    {
+      "event_id": "zee_entertainment_enterprises_limited_buyback_202611",
+      "docs_hash": "84d383f072ad8af2",
+      "at": "2026-11-20T10:22:15+00:00",
+      "from": "public announcement",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-zee_entertainment_enterprises_limited_buyback_202611-20261120T102232Z",
+      "seconds": 0.8,
+      "log": "cache/runs/discover-zee_entertainment_enterprises_limited_buyback_202611-20261120T102232Z.log"
+    },
+    {
+      "event_id": "liqvd_digital_india_limited_ipo_202611",
+      "docs_hash": "7c5ccff4ae42f99a",
+      "at": "2026-11-20T10:22:33+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-liqvd_digital_india_limited_ipo_202611-20261120T102233Z",
+      "seconds": 5.5,
+      "log": "cache/runs/discover-liqvd_digital_india_limited_ipo_202611-20261120T102233Z.log"
+    },
+    {
+      "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
+      "docs_hash": "48fd5d60c73a4dce",
+      "at": "2026-11-20T10:22:38+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-foodlink_fb_holding_india_limited_ipo_202611-20261120T102238Z",
+      "seconds": 76.0,
+      "log": "cache/runs/discover-foodlink_fb_holding_india_limited_ipo_202611-20261120T102238Z.log"
     }
   ]
 }
