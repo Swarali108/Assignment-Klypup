@@ -19,8 +19,8 @@ function safeNext(value: unknown): string {
 }
 
 /**
- * Which demo accounts to offer, as the data service says (it decides: none in production unless DEMO_ACCOUNTS=1, and
- * never the admin there). If the service does not answer: none when APP_ENV=production here, else all (local dev).
+ * Which demo accounts to offer, as the data service says (it decides: none in production unless DEMO_ACCOUNTS=1,
+ * and then all five, including the admin). If the service does not answer: none when APP_ENV=production here, else all (local dev).
  */
 async function demoAccounts(): Promise<string[] | "all"> {
   const productionHere = /^prod(uction)?$/i.test((process.env.APP_ENV ?? "").trim());

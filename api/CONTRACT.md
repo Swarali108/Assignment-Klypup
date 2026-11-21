@@ -2522,7 +2522,7 @@ The POST runs `eval.check_people` now (no model call) and stores `outputs/eval_p
 ### Production mode (APP_ENV=production)
 
 `GET /api/auth/config` (public) -> `{production, demo_accounts}`; `demo_accounts` lists the demo emails the login page may offer.
-`/api/auth/me` also returns `production`. No demo users are seeded unless `DEMO_ACCOUNTS=1`, and then never the admin one; a demo
+`/api/auth/me` also returns `production`. No demo users are seeded unless `DEMO_ACCOUNTS=1`, and then all five, including the admin; a demo
 email not offered is refused at sign-in (401). The first admin comes from ADMIN_EMAIL + ADMIN_PASSWORD. `events/example*.json` and events with a non-http(s) document link are excluded from every listing.
 ---
 # v3c additions (2026-11-16): head of RMs, review queue, watchlists, model switcher

@@ -44,14 +44,14 @@ def seed_admin() -> int:
 def demo_users() -> tuple[tuple[str, str, str, bool], ...]:
     """The demo accounts this deployment offers (their password is public: demo1234).
 
-    Local: all of them. Production: none, unless DEMO_ACCOUNTS=1, and then never the admin one,
-    because an admin can spend without limit.
+    Local: all of them. Production: none, unless DEMO_ACCOUNTS=1, and then all five,
+    including the admin. The password is public, and the admin can spend without a cap.
     """
     if not auth.is_production():
         return DEMO_USERS
     if (os.environ.get("DEMO_ACCOUNTS") or "").strip().lower() not in ("1", "true", "yes", "on"):
         return ()
-    return tuple(user for user in DEMO_USERS if user[2] != "admin")
+    return DEMO_USERS
 
 
 def is_blocked_demo(email: str) -> bool:

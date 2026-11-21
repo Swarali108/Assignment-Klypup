@@ -116,12 +116,13 @@ def test_production_offers_no_demo_accounts_by_default(production):
     assert _login(production, "rm@finsight.demo") == 401
 
 
-def test_demo_accounts_flag_offers_every_demo_account_except_admin(production, monkeypatch):
+def test_demo_accounts_flag_offers_every_demo_account_including_admin(production, monkeypatch):
     monkeypatch.setenv("DEMO_ACCOUNTS", "1")
-    assert production.get("/api/auth/config").json()["demo_accounts"] == DEMO_NON_ADMIN
+    assert production.get("/api/auth/config").json()["demo_accounts"] == ["admin@finsight.demo", *DEMO_NON_ADMIN]
     assert _login(production, "rm@finsight.demo") == 200
     assert production.get("/api/auth/me").json()["permissions"]["process"] is False
-    assert _login(production, "admin@finsight.demo") == 401  # the public demo password never opens an admin
+    assert _login(production, "admin@finsight.demo") == 200
+    assert production.get("/api/auth/me").json()["role"] == "admin"
 
 
 def test_the_real_admin_may_reuse_the_demo_admin_address(production, monkeypatch):
