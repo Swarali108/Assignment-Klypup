@@ -6429,6 +6429,40 @@
       "run_id": "discover-foodlink_fb_holding_india_limited_ipo_202611-20261121T100733Z",
       "seconds": 8.2,
       "log": "cache/runs/discover-foodlink_fb_holding_india_limited_ipo_202611-20261121T100733Z.log"
+    },
+    {
+      "event_id": "zee_entertainment_enterprises_limited_buyback_202611",
+      "docs_hash": "84d383f072ad8af2",
+      "at": "2026-11-21T18:10:35+00:00",
+      "from": "public announcement",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-zee_entertainment_enterprises_limited_buyback_202611-20261121T181038Z",
+      "seconds": 0.7,
+      "log": "cache/runs/discover-zee_entertainment_enterprises_limited_buyback_202611-20261121T181038Z.log"
+    },
+    {
+      "event_id": "liqvd_digital_india_limited_ipo_202611",
+      "docs_hash": "7c5ccff4ae42f99a",
+      "at": "2026-11-21T18:10:38+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-liqvd_digital_india_limited_ipo_202611-20261121T181038Z",
+      "seconds": 5.0,
+      "log": "cache/runs/discover-liqvd_digital_india_limited_ipo_202611-20261121T181038Z.log"
+    },
+    {
+      "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
+      "docs_hash": "48fd5d60c73a4dce",
+      "at": "2026-11-21T18:10:43+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-foodlink_fb_holding_india_limited_ipo_202611-20261121T181043Z",
+      "seconds": 5.6,
+      "log": "cache/runs/discover-foodlink_fb_holding_india_limited_ipo_202611-20261121T181043Z.log"
     }
   ]
 }
