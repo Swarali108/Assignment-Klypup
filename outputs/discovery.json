@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-22T18:38:23+00:00",
+  "refreshed_at": "2026-11-23T11:06:35+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-15",
+  "window_start": "2026-11-16",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,10 +87,68 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-22T18:38:23+00:00"
+      "checked_at": "2026-11-23T11:06:35+00:00"
     }
   ],
   "items": [
+    {
+      "id": "731434bb803a",
+      "source": "sebi_rhp",
+      "source_name": "SEBI · Red herring documents filed with ROC",
+      "title": "Monomark Engineering (India) Limited - RHP",
+      "published": "Nov 23, 2026",
+      "published_iso": "2026-11-23",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
+      "company": "Monomark Engineering (India) Limited",
+      "documents": [
+        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795410085057.pdf",
+        "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Monomark%20Engineering%20(India)%20Limited-prospectus_p.pdf"
+      ],
+      "class": "ipo_rhp",
+      "label": "IPO red herring prospectus",
+      "classified_by": "rule",
+      "event_type": "ipo",
+      "supported": true,
+      "event_id": "monomark_engineering_india_limited_ipo_202611",
+      "error": null,
+      "event_documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795410085057.pdf",
+          "doc_type": "rhp",
+          "note": "Monomark Engineering (India) Limited - RHP",
+          "from_class": "ipo_rhp"
+        }
+      ]
+    },
+    {
+      "id": "ea0ecc51e6da",
+      "source": "sebi_rhp",
+      "source_name": "SEBI · Red herring documents filed with ROC",
+      "title": "Matangi Rubber Limited - RHP",
+      "published": "Nov 20, 2026",
+      "published_iso": "2026-11-20",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/matangi-rubber-limited-rhp_105931.html",
+      "company": "Matangi Rubber Limited",
+      "documents": [
+        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795409658818.pdf",
+        "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Matangi%20Rubber%20Limited-prospectus_p.pdf"
+      ],
+      "class": "ipo_rhp",
+      "label": "IPO red herring prospectus",
+      "classified_by": "rule",
+      "event_type": "ipo",
+      "supported": true,
+      "event_id": "matangi_rubber_limited_ipo_202611",
+      "error": null,
+      "event_documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795409658818.pdf",
+          "doc_type": "rhp",
+          "note": "Matangi Rubber Limited - RHP",
+          "from_class": "ipo_rhp"
+        }
+      ]
+    },
     {
       "id": "89aeb9117462",
       "source": "sebi_rhp",
@@ -516,40 +574,32 @@
       "error": null
     },
     {
-      "id": "3211d1374f0c",
-      "source": "sebi_rhp",
-      "source_name": "SEBI · Red herring documents filed with ROC",
-      "title": "Acevector Limited - RHP",
-      "published": "Sep 21, 2026",
-      "published_iso": "2026-09-21",
-      "link": "https://www.sebi.gov.in/filings/public-issues/sep-2026/acevector-limited-rhp_104628.html",
-      "company": "Acevector Limited",
-      "documents": [],
-      "class": "ipo_rhp",
-      "label": "IPO red herring prospectus",
+      "id": "b798718a2ca4",
+      "source": "sebi_prospectus",
+      "source_name": "SEBI · Final offer documents filed with ROC",
+      "title": "Crystal Crop Protection Limited– Prospectus",
+      "published": "Nov 21, 2026",
+      "published_iso": "2026-11-21",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/crystal-crop-protection-limited-prospectus_105852.html",
+      "company": "Crystal Crop Protection Limited",
+      "documents": [
+        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795431548597.pdf"
+      ],
+      "class": "ipo_prospectus",
+      "label": "IPO prospectus",
       "classified_by": "rule",
       "event_type": "ipo",
       "supported": true,
-      "event_id": null,
-      "error": null
-    },
-    {
-      "id": "da9f8dfc8e4e",
-      "source": "sebi_rhp",
-      "source_name": "SEBI · Red herring documents filed with ROC",
-      "title": "German Green Steel and Power Ltd. - RHP",
-      "published": "Sep 21, 2026",
-      "published_iso": "2026-09-21",
-      "link": "https://www.sebi.gov.in/filings/public-issues/sep-2026/german-green-steel-and-power-ltd-rhp_104626.html",
-      "company": "German Green Steel and Power Ltd",
-      "documents": [],
-      "class": "ipo_rhp",
-      "label": "IPO red herring prospectus",
-      "classified_by": "rule",
-      "event_type": "ipo",
-      "supported": true,
-      "event_id": null,
-      "error": null
+      "event_id": "crystal_crop_protection_limited_ipo_202611",
+      "error": null,
+      "event_documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795431548597.pdf",
+          "doc_type": "prospectus",
+          "note": "Crystal Crop Protection Limited– Prospectus",
+          "from_class": "ipo_prospectus"
+        }
+      ]
     },
     {
       "id": "07d19c2107f6",
@@ -994,24 +1044,6 @@
       "error": null
     },
     {
-      "id": "d9434917de9b",
-      "source": "sebi_prospectus",
-      "source_name": "SEBI · Final offer documents filed with ROC",
-      "title": "Jindal Supreme (India) Limited - Prospectus",
-      "published": "Sep 21, 2026",
-      "published_iso": "2026-09-21",
-      "link": "https://www.sebi.gov.in/filings/public-issues/sep-2026/jindal-supreme-india-limited-prospectus_104621.html",
-      "company": "Jindal Supreme (India) Limited",
-      "documents": [],
-      "class": "ipo_prospectus",
-      "label": "IPO prospectus",
-      "classified_by": "rule",
-      "event_type": "ipo",
-      "supported": true,
-      "event_id": null,
-      "error": null
-    },
-    {
       "id": "2cd9489d95cb",
       "source": "sebi_buyback_tender",
       "source_name": "SEBI · Buybacks: tender offers",
@@ -1038,6 +1070,24 @@
           "from_class": "buyback_public_announcement"
         }
       ]
+    },
+    {
+      "id": "bdeb460dc743",
+      "source": "sebi_buyback_tender",
+      "source_name": "SEBI · Buybacks: tender offers",
+      "title": "Jullundur Motor Agency (Delhi) Limited",
+      "published": "Nov 11, 2026",
+      "published_iso": "2026-11-11",
+      "link": "https://www.sebi.gov.in/filings/buybacks/nov-2026/jullundur-motor-agency-delhi-limited_105937.html",
+      "company": "Jullundur Motor Agency (Delhi) Limited",
+      "documents": [],
+      "class": null,
+      "label": null,
+      "classified_by": "pending documents",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null
     },
     {
       "id": "9dbc7a347f4e",
@@ -1454,18 +1504,56 @@
       "error": null
     },
     {
-      "id": "980ae7f78c79",
-      "source": "sebi_buyback_tender",
-      "source_name": "SEBI · Buybacks: tender offers",
-      "title": "Welspun Living Limited",
-      "published": "May 19, 2026",
-      "published_iso": "2026-05-19",
-      "link": "https://www.sebi.gov.in/filings/buybacks/may-2026/welspun-living-limited_101526.html",
-      "company": "Welspun Living Limited",
+      "id": "afeb690ba472",
+      "source": "sebi_takeover_lof",
+      "source_name": "SEBI · Takeovers: letters of offer",
+      "title": "APL Apollo Tubes Limited",
+      "published": "Nov 23, 2026",
+      "published_iso": "2026-11-23",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/apl-apollo-tubes-limited_105940.html",
+      "company": "APL Apollo Tubes Limited",
       "documents": [],
-      "class": null,
-      "label": null,
-      "classified_by": "pending documents",
+      "class": "other",
+      "label": "takeover open offer",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
+    },
+    {
+      "id": "db1707f4cfdf",
+      "source": "sebi_takeover_lof",
+      "source_name": "SEBI · Takeovers: letters of offer",
+      "title": "Jaipan Industries Limited",
+      "published": "Nov 21, 2026",
+      "published_iso": "2026-11-21",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/jaipan-industries-limited_105938.html",
+      "company": "Jaipan Industries Limited",
+      "documents": [],
+      "class": "other",
+      "label": "takeover open offer",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
+    },
+    {
+      "id": "314b0cdbd622",
+      "source": "sebi_takeover_lof",
+      "source_name": "SEBI · Takeovers: letters of offer",
+      "title": "Kumbhat Financial Services Limited",
+      "published": "Nov 13, 2026",
+      "published_iso": "2026-11-13",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/kumbhat-financial-services-limited_105934.html",
+      "company": "Kumbhat Financial Services Limited",
+      "documents": [],
+      "class": "other",
+      "label": "takeover open offer",
+      "classified_by": "source",
       "event_type": null,
       "supported": false,
       "event_id": null,
@@ -1868,58 +1956,23 @@
       "error": null
     },
     {
-      "id": "9d6af843e7ab",
-      "source": "sebi_takeover_lof",
-      "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "D. D. VENTURES LIMITED",
-      "published": "Sep 18, 2026",
-      "published_iso": "2026-09-18",
-      "link": "https://www.sebi.gov.in/filings/takeovers/sep-2026/d-d-ventures-limited_104591.html",
-      "company": "D. D. VENTURES LIMITED",
+      "id": "36c8e768a0c1",
+      "source": "sebi_drhp",
+      "source_name": "SEBI · Draft offer documents filed with SEBI",
+      "title": "Pride Hotels Limited - Addendum to the DRHP",
+      "published": "Nov 23, 2026",
+      "published_iso": "2026-11-23",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/pride-hotels-limited-addendum-to-the-drhp_105935.html",
+      "company": "Pride Hotels Limited",
       "documents": [],
-      "class": "other",
-      "label": "takeover open offer",
+      "class": "ipo_coming",
+      "label": "IPO coming (draft filed)",
       "classified_by": "source",
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null
-    },
-    {
-      "id": "c9f5c000b837",
-      "source": "sebi_takeover_lof",
-      "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "GSL Securities Limited",
-      "published": "Sep 16, 2026",
-      "published_iso": "2026-09-16",
-      "link": "https://www.sebi.gov.in/filings/takeovers/sep-2026/gsl-securities-limited_104553.html",
-      "company": "GSL Securities Limited",
-      "documents": [],
-      "class": "other",
-      "label": "takeover open offer",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
-    },
-    {
-      "id": "729526039595",
-      "source": "sebi_takeover_lof",
-      "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "Mayur Leather Products Limited",
-      "published": "Sep 15, 2026",
-      "published_iso": "2026-09-15",
-      "link": "https://www.sebi.gov.in/filings/takeovers/sep-2026/mayur-leather-products-limited_104505.html",
-      "company": "Mayur Leather Products Limited",
-      "documents": [],
-      "class": "other",
-      "label": "takeover open offer",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
+      "error": null,
+      "event_documents": []
     },
     {
       "id": "53bb93082aed",
@@ -2356,24 +2409,6 @@
       "supported": false,
       "event_id": null,
       "error": null
-    },
-    {
-      "id": "4b614ea9fb3a",
-      "source": "sebi_drhp",
-      "source_name": "SEBI · Draft offer documents filed with SEBI",
-      "title": "PM CONA Industries Limited - DRHP",
-      "published": "Oct 06, 2026",
-      "published_iso": "2026-10-06",
-      "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pm-cona-industries-limited-drhp_105041.html",
-      "company": "PM CONA Industries Limited",
-      "documents": [],
-      "class": "ipo_coming",
-      "label": "IPO coming (draft filed)",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
     }
   ],
   "events": [
@@ -2448,6 +2483,66 @@
         "89aeb9117462"
       ],
       "status": "unchanged"
+    },
+    {
+      "event_id": "matangi_rubber_limited_ipo_202611",
+      "event_type": "ipo",
+      "company": "Matangi Rubber Limited",
+      "documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795409658818.pdf",
+          "doc_type": "rhp",
+          "note": "Matangi Rubber Limited - RHP",
+          "from_class": "ipo_rhp"
+        }
+      ],
+      "processable": true,
+      "missing": "",
+      "file": "events/auto/matangi_rubber_limited_ipo_202611.json",
+      "items": [
+        "ea0ecc51e6da"
+      ],
+      "status": "created"
+    },
+    {
+      "event_id": "crystal_crop_protection_limited_ipo_202611",
+      "event_type": "ipo",
+      "company": "Crystal Crop Protection Limited",
+      "documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795431548597.pdf",
+          "doc_type": "prospectus",
+          "note": "Crystal Crop Protection Limited– Prospectus",
+          "from_class": "ipo_prospectus"
+        }
+      ],
+      "processable": true,
+      "missing": "",
+      "file": "events/auto/crystal_crop_protection_limited_ipo_202611.json",
+      "items": [
+        "b798718a2ca4"
+      ],
+      "status": "updated"
+    },
+    {
+      "event_id": "monomark_engineering_india_limited_ipo_202611",
+      "event_type": "ipo",
+      "company": "Monomark Engineering (India) Limited",
+      "documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795410085057.pdf",
+          "doc_type": "rhp",
+          "note": "Monomark Engineering (India) Limited - RHP",
+          "from_class": "ipo_rhp"
+        }
+      ],
+      "processable": true,
+      "missing": "",
+      "file": "events/auto/monomark_engineering_india_limited_ipo_202611.json",
+      "items": [
+        "731434bb803a"
+      ],
+      "status": "created"
     }
   ],
   "counts": {
@@ -2468,9 +2563,11 @@
       "buyback_public_announcement": 1,
       "ipo_coming": 25
     },
-    "events": 3,
+    "events": 6,
     "events_by_status": {
-      "unchanged": 3
+      "unchanged": 3,
+      "created": 2,
+      "updated": 1
     },
     "sources_failed": []
   }
