@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-23T22:52:12+00:00",
+  "refreshed_at": "2026-11-24T12:50:44+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-16",
+  "window_start": "2026-11-17",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-23T22:52:12+00:00"
+      "checked_at": "2026-11-24T12:50:44+00:00"
     }
   ],
   "items": [
@@ -1052,24 +1052,14 @@
       "published_iso": "2026-11-16",
       "link": "https://www.sebi.gov.in/filings/buybacks/nov-2026/zee-entertainment-enterprises-limited_105863.html",
       "company": "Zee Entertainment Enterprises Limited",
-      "documents": [
-        "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Zee%20Entertainment%20Enterprises%20Limited-PA_p.pdf"
-      ],
-      "class": "buyback_public_announcement",
-      "label": "Buyback public announcement",
-      "classified_by": "documents",
-      "event_type": "buyback",
-      "supported": true,
-      "event_id": "zee_entertainment_enterprises_limited_buyback_202611",
-      "error": null,
-      "event_documents": [
-        {
-          "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Zee%20Entertainment%20Enterprises%20Limited-PA_p.pdf",
-          "doc_type": "public_announcement",
-          "note": "Zee Entertainment Enterprises Limited",
-          "from_class": "buyback_public_announcement"
-        }
-      ]
+      "documents": [],
+      "class": null,
+      "label": null,
+      "classified_by": "pending documents",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null
     },
     {
       "id": "bdeb460dc743",
@@ -2413,38 +2403,6 @@
   ],
   "events": [
     {
-      "event_id": "zee_entertainment_enterprises_limited_buyback_202611",
-      "event_type": "buyback",
-      "company": "Zee Entertainment Enterprises Ltd",
-      "documents": [
-        {
-          "url": "https://nsearchives.nseindia.in/corporate/ZEEL_12112026164804_SEIntimationBMOutcome13NovBBsigned.pdf",
-          "doc_type": "announcement",
-          "note": "Zee Entertainment Enterprises Limited - Buyback",
-          "from_class": "buyback_announcement"
-        },
-        {
-          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8626e6e3-0d9b-405d-8a33-bea63e79a670.pdf",
-          "doc_type": "announcement",
-          "note": "Zee Entertainment Enterprises Ltd - Buy back",
-          "from_class": "buyback_announcement"
-        },
-        {
-          "url": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2026/Zee%20Entertainment%20Enterprises%20Limited-PA_p.pdf",
-          "doc_type": "public_announcement",
-          "note": "Zee Entertainment Enterprises Limited",
-          "from_class": "buyback_public_announcement"
-        }
-      ],
-      "processable": true,
-      "missing": "from the public announcement until the letter of offer arrives, if it prints buyback_terms, promoter_intention",
-      "file": "events/auto/zee_entertainment_enterprises_limited_buyback_202611.json",
-      "items": [
-        "2cd9489d95cb"
-      ],
-      "status": "unchanged"
-    },
-    {
       "event_id": "liqvd_digital_india_limited_ipo_202611",
       "event_type": "ipo",
       "company": "LIQVD DIGITAL INDIA LIMITED",
@@ -2558,14 +2516,13 @@
       "ipo_rhp": 20,
       "other": 27,
       "price_band_ad": 2,
-      "outside the window": 25,
+      "outside the window": 26,
       "ipo_prospectus": 25,
-      "buyback_public_announcement": 1,
       "ipo_coming": 25
     },
-    "events": 6,
+    "events": 5,
     "events_by_status": {
-      "unchanged": 6
+      "unchanged": 5
     },
     "sources_failed": []
   }

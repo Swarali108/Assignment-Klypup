@@ -6665,6 +6665,61 @@
       "run_id": "discover-monomark_engineering_india_limited_ipo_202611-20261123T225312Z",
       "seconds": 7.0,
       "log": "cache/runs/discover-monomark_engineering_india_limited_ipo_202611-20261123T225312Z.log"
+    },
+    {
+      "event_id": "liqvd_digital_india_limited_ipo_202611",
+      "docs_hash": "7c5ccff4ae42f99a",
+      "at": "2026-11-24T12:51:12+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-liqvd_digital_india_limited_ipo_202611-20261124T125112Z",
+      "seconds": 5.6,
+      "log": "cache/runs/discover-liqvd_digital_india_limited_ipo_202611-20261124T125112Z.log"
+    },
+    {
+      "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
+      "docs_hash": "48fd5d60c73a4dce",
+      "at": "2026-11-24T12:51:17+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-foodlink_fb_holding_india_limited_ipo_202611-20261124T125117Z",
+      "seconds": 6.1,
+      "log": "cache/runs/discover-foodlink_fb_holding_india_limited_ipo_202611-20261124T125117Z.log"
+    },
+    {
+      "event_id": "matangi_rubber_limited_ipo_202611",
+      "docs_hash": "a1425e633951ff76",
+      "at": "2026-11-24T12:51:23+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-matangi_rubber_limited_ipo_202611-20261124T125123Z",
+      "seconds": 5.1,
+      "log": "cache/runs/discover-matangi_rubber_limited_ipo_202611-20261124T125123Z.log"
+    },
+    {
+      "event_id": "crystal_crop_protection_limited_ipo_202611",
+      "docs_hash": "1592b5607dfbc6b2",
+      "at": "2026-11-24T12:51:28+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-crystal_crop_protection_limited_ipo_202611-20261124T125128Z",
+      "seconds": 8.7,
+      "log": "cache/runs/discover-crystal_crop_protection_limited_ipo_202611-20261124T125128Z.log"
+    },
+    {
+      "event_id": "monomark_engineering_india_limited_ipo_202611",
+      "docs_hash": "effc6e99d3c5cd11",
+      "at": "2026-11-24T12:51:37+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-monomark_engineering_india_limited_ipo_202611-20261124T125137Z",
+      "seconds": 5.4,
+      "log": "cache/runs/discover-monomark_engineering_india_limited_ipo_202611-20261124T125137Z.log"
     }
   ]
 }
