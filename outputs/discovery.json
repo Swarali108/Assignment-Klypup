@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-24T23:36:59+00:00",
+  "refreshed_at": "2026-11-25T11:38:12+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-17",
+  "window_start": "2026-11-18",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 0,
       "status": "ok",
       "note": "the source answered but listed no items",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-24T23:36:59+00:00"
+      "checked_at": "2026-11-25T11:38:12+00:00"
     }
   ],
   "items": [
@@ -574,6 +574,34 @@
       "error": null
     },
     {
+      "id": "aea9ffff8a89",
+      "source": "sebi_prospectus",
+      "source_name": "SEBI · Final offer documents filed with ROC",
+      "title": "Mahanadi Coalfields Ltd.- Prospectus",
+      "published": "Nov 23, 2026",
+      "published_iso": "2026-11-23",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/mahanadi-coalfields-ltd-prospectus_105841.html",
+      "company": "Mahanadi Coalfields Ltd",
+      "documents": [
+        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795583808041.pdf"
+      ],
+      "class": "ipo_prospectus",
+      "label": "IPO prospectus",
+      "classified_by": "rule",
+      "event_type": "ipo",
+      "supported": true,
+      "event_id": "mahanadi_coalfields_limited_ipo_202611",
+      "error": null,
+      "event_documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795583808041.pdf",
+          "doc_type": "prospectus",
+          "note": "Mahanadi Coalfields Ltd.- Prospectus",
+          "from_class": "ipo_prospectus"
+        }
+      ]
+    },
+    {
       "id": "b798718a2ca4",
       "source": "sebi_prospectus",
       "source_name": "SEBI · Final offer documents filed with ROC",
@@ -610,24 +638,14 @@
       "published_iso": "2026-11-17",
       "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/liqvd-digital-india-limited-prospectus_105796.html",
       "company": "LIQVD DIGITAL INDIA LIMITED",
-      "documents": [
-        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794910898552.pdf"
-      ],
+      "documents": [],
       "class": "ipo_prospectus",
       "label": "IPO prospectus",
       "classified_by": "rule",
       "event_type": "ipo",
       "supported": true,
-      "event_id": "liqvd_digital_india_limited_ipo_202611",
-      "error": null,
-      "event_documents": [
-        {
-          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794910898552.pdf",
-          "doc_type": "prospectus",
-          "note": "LIQVD DIGITAL INDIA LIMITED - Prospectus",
-          "from_class": "ipo_prospectus"
-        }
-      ]
+      "event_id": null,
+      "error": null
     },
     {
       "id": "13ccc59235fc",
@@ -1026,24 +1044,6 @@
       "error": null
     },
     {
-      "id": "a9f73f61f9bd",
-      "source": "sebi_prospectus",
-      "source_name": "SEBI · Final offer documents filed with ROC",
-      "title": "National Stock Exchange of India Ltd - Prospectus",
-      "published": "Sep 22, 2026",
-      "published_iso": "2026-09-22",
-      "link": "https://www.sebi.gov.in/filings/public-issues/sep-2026/national-stock-exchange-of-india-ltd-prospectus_104637.html",
-      "company": "National Stock Exchange of India Ltd",
-      "documents": [],
-      "class": "ipo_prospectus",
-      "label": "IPO prospectus",
-      "classified_by": "rule",
-      "event_type": "ipo",
-      "supported": true,
-      "event_id": null,
-      "error": null
-    },
-    {
       "id": "2cd9489d95cb",
       "source": "sebi_buyback_tender",
       "source_name": "SEBI · Buybacks: tender offers",
@@ -1124,6 +1124,24 @@
       "published_iso": "2026-10-31",
       "link": "https://www.sebi.gov.in/filings/buybacks/oct-2026/dcw-limited_105563.html",
       "company": "DCW Limited",
+      "documents": [],
+      "class": null,
+      "label": null,
+      "classified_by": "pending documents",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null
+    },
+    {
+      "id": "ffe70bd97af4",
+      "source": "sebi_buyback_tender",
+      "source_name": "SEBI · Buybacks: tender offers",
+      "title": "Global Education Limited",
+      "published": "Oct 30, 2026",
+      "published_iso": "2026-10-30",
+      "link": "https://www.sebi.gov.in/filings/buybacks/oct-2026/global-education-limited_105909.html",
+      "company": "Global Education Limited",
       "documents": [],
       "class": null,
       "label": null,
@@ -1476,24 +1494,6 @@
       "error": null
     },
     {
-      "id": "4ffcb450f3fa",
-      "source": "sebi_buyback_tender",
-      "source_name": "SEBI · Buybacks: tender offers",
-      "title": "Zydus Lifesciences Limited",
-      "published": "May 20, 2026",
-      "published_iso": "2026-05-20",
-      "link": "https://www.sebi.gov.in/filings/buybacks/may-2026/zydus-lifesciences-limited_101673.html",
-      "company": "Zydus Lifesciences Limited",
-      "documents": [],
-      "class": null,
-      "label": null,
-      "classified_by": "pending documents",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
-    },
-    {
       "id": "afeb690ba472",
       "source": "sebi_takeover_lof",
       "source_name": "SEBI · Takeovers: letters of offer",
@@ -1502,6 +1502,25 @@
       "published_iso": "2026-11-23",
       "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/apl-apollo-tubes-limited_105940.html",
       "company": "APL Apollo Tubes Limited",
+      "documents": [],
+      "class": "other",
+      "label": "takeover open offer",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
+    },
+    {
+      "id": "835e52bac567",
+      "source": "sebi_takeover_lof",
+      "source_name": "SEBI · Takeovers: letters of offer",
+      "title": "Vaxtex Cotfab Limited",
+      "published": "Nov 23, 2026",
+      "published_iso": "2026-11-23",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/vaxtex-cotfab-limited_105837.html",
+      "company": "Vaxtex Cotfab Limited",
       "documents": [],
       "class": "other",
       "label": "takeover open offer",
@@ -1540,6 +1559,24 @@
       "published_iso": "2026-11-13",
       "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/kumbhat-financial-services-limited_105934.html",
       "company": "Kumbhat Financial Services Limited",
+      "documents": [],
+      "class": "other",
+      "label": "takeover open offer",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null
+    },
+    {
+      "id": "92aa1fac88dc",
+      "source": "sebi_takeover_lof",
+      "source_name": "SEBI · Takeovers: letters of offer",
+      "title": "Money Masters Leasing & Finance Limited",
+      "published": "Nov 13, 2026",
+      "published_iso": "2026-11-13",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/money-masters-leasing-and-finance-limited_105840.html",
+      "company": "Money Masters Leasing & Finance Limited",
       "documents": [],
       "class": "other",
       "label": "takeover open offer",
@@ -1910,40 +1947,23 @@
       "error": null
     },
     {
-      "id": "fb373571b054",
-      "source": "sebi_takeover_lof",
-      "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "Kapil Raj Finance Limited",
-      "published": "Sep 21, 2026",
-      "published_iso": "2026-09-21",
-      "link": "https://www.sebi.gov.in/filings/takeovers/sep-2026/kapil-raj-finance-limited_104631.html",
-      "company": "Kapil Raj Finance Limited",
+      "id": "085432989aac",
+      "source": "sebi_drhp",
+      "source_name": "SEBI · Draft offer documents filed with SEBI",
+      "title": "NLC India Renewables Limited - DRHP",
+      "published": "Nov 25, 2026",
+      "published_iso": "2026-11-25",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/nlc-india-renewables-limited-drhp_97166.html",
+      "company": "NLC India Renewables Limited",
       "documents": [],
-      "class": "other",
-      "label": "takeover open offer",
+      "class": "ipo_coming",
+      "label": "IPO coming (draft filed)",
       "classified_by": "source",
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null
-    },
-    {
-      "id": "d4e3a60149fc",
-      "source": "sebi_takeover_lof",
-      "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "Oseaspre Consultants Limited",
-      "published": "Sep 18, 2026",
-      "published_iso": "2026-09-18",
-      "link": "https://www.sebi.gov.in/filings/takeovers/sep-2026/oseaspre-consultants-limited_104623.html",
-      "company": "Oseaspre Consultants Limited",
-      "documents": [],
-      "class": "other",
-      "label": "takeover open offer",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
+      "error": null,
+      "event_documents": []
     },
     {
       "id": "36c8e768a0c1",
@@ -2037,8 +2057,7 @@
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null,
-      "event_documents": []
+      "error": null
     },
     {
       "id": "aba8396403ff",
@@ -2381,47 +2400,9 @@
       "supported": false,
       "event_id": null,
       "error": null
-    },
-    {
-      "id": "cf84922190ab",
-      "source": "sebi_drhp",
-      "source_name": "SEBI · Draft offer documents filed with SEBI",
-      "title": "INTEGRUM ENERGY INFRASTRUCTURE LIMITED - DRHP",
-      "published": "Oct 07, 2026",
-      "published_iso": "2026-10-07",
-      "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/integrum-energy-infrastructure-limited-drhp_105075.html",
-      "company": "INTEGRUM ENERGY INFRASTRUCTURE LIMITED",
-      "documents": [],
-      "class": "ipo_coming",
-      "label": "IPO coming (draft filed)",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
     }
   ],
   "events": [
-    {
-      "event_id": "liqvd_digital_india_limited_ipo_202611",
-      "event_type": "ipo",
-      "company": "LIQVD DIGITAL INDIA LIMITED",
-      "documents": [
-        {
-          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794910898552.pdf",
-          "doc_type": "prospectus",
-          "note": "LIQVD DIGITAL INDIA LIMITED - Prospectus",
-          "from_class": "ipo_prospectus"
-        }
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/liqvd_digital_india_limited_ipo_202611.json",
-      "items": [
-        "07d19c2107f6"
-      ],
-      "status": "unchanged"
-    },
     {
       "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
       "event_type": "ipo",
@@ -2501,6 +2482,26 @@
         "731434bb803a"
       ],
       "status": "unchanged"
+    },
+    {
+      "event_id": "mahanadi_coalfields_limited_ipo_202611",
+      "event_type": "ipo",
+      "company": "Mahanadi Coalfields Limited",
+      "documents": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795583808041.pdf",
+          "doc_type": "prospectus",
+          "note": "Mahanadi Coalfields Ltd.- Prospectus",
+          "from_class": "ipo_prospectus"
+        }
+      ],
+      "processable": true,
+      "missing": "",
+      "file": "events/auto/mahanadi_coalfields_limited_ipo_202611.json",
+      "items": [
+        "aea9ffff8a89"
+      ],
+      "status": "updated"
     }
   ],
   "counts": {
@@ -2522,7 +2523,8 @@
     },
     "events": 5,
     "events_by_status": {
-      "unchanged": 5
+      "unchanged": 4,
+      "updated": 1
     },
     "sources_failed": []
   }

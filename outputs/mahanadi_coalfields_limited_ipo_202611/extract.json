@@ -1,0 +1,167 @@
+{
+  "event_id": "mahanadi_coalfields_limited_ipo_202611",
+  "rows": [],
+  "unattributed": [],
+  "offer_facts": {
+    "fresh_issue_size": null,
+    "ofs_size": null,
+    "price_band_low": null,
+    "price_band_high": null,
+    "offer_price": null,
+    "face_value": null,
+    "listing_date": null,
+    "allotment_date": null,
+    "listing_date_scheduled": null,
+    "evidence": [],
+    "conflicts": {},
+    "notes": []
+  },
+  "rejections": [],
+  "counts": {
+    "selling_shareholders": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "seller_amounts": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "waca": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "promoter_holding": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "shareholding_pattern": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "offer_structure": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "price": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "timetable": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "announcement": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    },
+    "allotment": {
+      "proposed": 0,
+      "kept": 0,
+      "rejected": 0,
+      "unattributed": 0,
+      "citations_corrected": 0
+    }
+  },
+  "chosen_pages": {
+    "selling_shareholders": [],
+    "seller_amounts": [],
+    "waca": [],
+    "promoter_holding": [],
+    "shareholding_pattern": [],
+    "offer_structure": [],
+    "price": [],
+    "timetable": [],
+    "announcement": [],
+    "allotment": []
+  },
+  "page_choice": {
+    "selling_shareholders": "top pages",
+    "seller_amounts": "top pages",
+    "waca": "must_contain not found; used top pages",
+    "promoter_holding": "top pages",
+    "shareholding_pattern": "top pages",
+    "offer_structure": "top pages",
+    "price": "top pages",
+    "timetable": "top pages"
+  },
+  "completeness": {
+    "selling_shareholders": {
+      "status": "not checked",
+      "reason": "no verified printed total for this table",
+      "share_field": "shares_offered"
+    },
+    "selling_shareholders vs ofs_size": {
+      "status": "not checked",
+      "reason": "no verified ofs_size"
+    }
+  },
+  "completeness_retries": {},
+  "table_totals": {},
+  "rule_sources": {
+    "minimum_promoters_contribution": {
+      "variant": "default",
+      "periods": {
+        "Minimum Promoters' Contribution": {
+          "found": false,
+          "anchors": [
+            "aggregate of 20% | minimum promoters' contribution | minimum promoter's contribution | promoters' contribution",
+            "locked in for a period of 18 months"
+          ]
+        },
+        "promoter shares above the 20%": {
+          "found": false,
+          "anchors": [
+            "in excess of 20% | in excess of minimum promoters' contribution | in excess of the minimum promoters' contribution | in excess of minimum promoter's contribution | in excess of the minimum promoter's contribution | in excess of promoters' contribution | in excess of the promoters' contribution",
+            "locked in for a period of six months"
+          ]
+        }
+      }
+    },
+    "pre_offer_capital": {
+      "variant": "default",
+      "periods": {
+        "pre-Offer capital": {
+          "found": false,
+          "anchors": [
+            "entire pre-offer equity share capital | entire pre-offer capital | entire pre-offer paid-up equity share capital",
+            "six months from the date of allotment"
+          ]
+        }
+      }
+    },
+    "ofs_proceeds_at_listing": {
+      "found": false,
+      "anchors": [
+        "listing and trading | listing approval | listing approvals",
+        "transferred to the selling shareholders | transferred to the selling shareholder | transferred to each of the selling shareholders | paid to the selling shareholders | paid to the selling shareholder | remitted to the selling shareholders | credited to the selling shareholders | released to the selling shareholders"
+      ]
+    }
+  }
+}
