@@ -6830,6 +6830,61 @@
       "run_id": "discover-mahanadi_coalfields_limited_ipo_202611-20261125T113919Z",
       "seconds": 37.2,
       "log": "cache/runs/discover-mahanadi_coalfields_limited_ipo_202611-20261125T113919Z.log"
+    },
+    {
+      "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
+      "docs_hash": "48fd5d60c73a4dce",
+      "at": "2026-11-25T23:15:24+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-foodlink_fb_holding_india_limited_ipo_202611-20261125T231524Z",
+      "seconds": 7.9,
+      "log": "cache/runs/discover-foodlink_fb_holding_india_limited_ipo_202611-20261125T231524Z.log"
+    },
+    {
+      "event_id": "matangi_rubber_limited_ipo_202611",
+      "docs_hash": "a1425e633951ff76",
+      "at": "2026-11-25T23:15:32+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-matangi_rubber_limited_ipo_202611-20261125T231532Z",
+      "seconds": 6.4,
+      "log": "cache/runs/discover-matangi_rubber_limited_ipo_202611-20261125T231532Z.log"
+    },
+    {
+      "event_id": "crystal_crop_protection_limited_ipo_202611",
+      "docs_hash": "1592b5607dfbc6b2",
+      "at": "2026-11-25T23:15:38+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-crystal_crop_protection_limited_ipo_202611-20261125T231538Z",
+      "seconds": 11.0,
+      "log": "cache/runs/discover-crystal_crop_protection_limited_ipo_202611-20261125T231538Z.log"
+    },
+    {
+      "event_id": "monomark_engineering_india_limited_ipo_202611",
+      "docs_hash": "effc6e99d3c5cd11",
+      "at": "2026-11-25T23:15:49+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-monomark_engineering_india_limited_ipo_202611-20261125T231549Z",
+      "seconds": 6.8,
+      "log": "cache/runs/discover-monomark_engineering_india_limited_ipo_202611-20261125T231549Z.log"
+    },
+    {
+      "event_id": "mahanadi_coalfields_limited_ipo_202611",
+      "docs_hash": "a1377bed4177d876",
+      "at": "2026-11-25T23:15:56+00:00",
+      "status": "failed",
+      "reason": "tools.llm.LLMError: No model. Pass model= or set LLM_MODEL. No request was sent.",
+      "cost_usd": 0,
+      "run_id": "discover-mahanadi_coalfields_limited_ipo_202611-20261125T231556Z",
+      "seconds": 108.6,
+      "log": "cache/runs/discover-mahanadi_coalfields_limited_ipo_202611-20261125T231556Z.log"
     }
   ]
 }
