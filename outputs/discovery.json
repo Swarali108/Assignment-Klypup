@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-26T20:27:40+00:00",
+  "refreshed_at": "2026-11-27T11:16:09+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-19",
+  "window_start": "2026-11-20",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -12,7 +12,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -23,7 +23,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -34,7 +34,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -45,7 +45,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "sebi_rss",
@@ -56,7 +56,7 @@
       "items": 30,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "nse_rss",
@@ -66,7 +66,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "bse_rss",
@@ -76,7 +76,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -87,7 +87,7 @@
       "items": 25,
       "status": "ok",
       "note": "",
-      "checked_at": "2026-11-26T20:27:40+00:00"
+      "checked_at": "2026-11-27T11:16:09+00:00"
     }
   ],
   "items": [
@@ -158,24 +158,14 @@
       "published_iso": "2026-11-19",
       "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/foodlink-fandb-holdings-india-limited-rhp_105865.html",
       "company": "Foodlink F&B Holdings India Limited",
-      "documents": [
-        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795156924590.pdf"
-      ],
+      "documents": [],
       "class": "ipo_rhp",
       "label": "IPO red herring prospectus",
       "classified_by": "rule",
       "event_type": "ipo",
       "supported": true,
-      "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
-      "error": null,
-      "event_documents": [
-        {
-          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795156924590.pdf",
-          "doc_type": "rhp",
-          "note": "Foodlink F&B Holdings India Limited - RHP",
-          "from_class": "ipo_rhp"
-        }
-      ]
+      "event_id": null,
+      "error": null
     },
     {
       "id": "09e0cf87bafe",
@@ -1494,6 +1484,25 @@
       "error": null
     },
     {
+      "id": "9135ae8edf4a",
+      "source": "sebi_takeover_lof",
+      "source_name": "SEBI · Takeovers: letters of offer",
+      "title": "Rajkamal Synthetics Limited",
+      "published": "Nov 26, 2026",
+      "published_iso": "2026-11-26",
+      "link": "https://www.sebi.gov.in/filings/takeovers/nov-2026/rajkamal-synthetics-limited_101384.html",
+      "company": "Rajkamal Synthetics Limited",
+      "documents": [],
+      "class": "other",
+      "label": "takeover open offer",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
+    },
+    {
       "id": "afeb690ba472",
       "source": "sebi_takeover_lof",
       "source_name": "SEBI · Takeovers: letters of offer",
@@ -1929,18 +1938,18 @@
       "error": null
     },
     {
-      "id": "0ff07b8de3dc",
-      "source": "sebi_takeover_lof",
-      "source_name": "SEBI · Takeovers: letters of offer",
-      "title": "Oscar Global Limited",
-      "published": "Sep 26, 2026",
-      "published_iso": "2026-09-26",
-      "link": "https://www.sebi.gov.in/filings/takeovers/sep-2026/oscar-global-limited_104679.html",
-      "company": "Oscar Global Limited",
+      "id": "01ca55f04bdb",
+      "source": "sebi_rss",
+      "source_name": "SEBI · RSS",
+      "title": "Appeal No. 7167 of 2026 filed by Ravi",
+      "published": "27 Nov, 2026 +0530",
+      "published_iso": null,
+      "link": "https://www.sebi.gov.in/filings/public-issues/aug-2026/muthoot-fincorp-limited-drhp_103697.html",
+      "company": "Appeal No. 7167 of 2026 filed by Ravi",
       "documents": [],
-      "class": "other",
-      "label": "takeover open offer",
-      "classified_by": "source",
+      "class": null,
+      "label": null,
+      "classified_by": null,
       "event_type": null,
       "supported": false,
       "event_id": null,
@@ -2469,22 +2478,42 @@
       "error": null
     },
     {
-      "id": "a1fba4f38aef",
-      "source": "sebi_rss",
-      "source_name": "SEBI · RSS",
-      "title": "Notices of Attachment of Demat Accounts and Mutual Fund Folios with AP No. 15888 of 2026 dated November 17, 2026 against Sadhana Paresh Kariya (PAN – AJHPK6018N) in the matter of Anugrah Stock and Broking Private Limited under RC No. 9294 of 2026",
-      "published": "17 Nov, 2026 +0530",
-      "published_iso": null,
-      "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/notices-of-attachment-of-demat-accounts-and-mutual-fund-folios-with-ap-no-15888-of-2026-dated-november-17-2026-against-sadhana-paresh-kariya-pan-ajhpk6018n-in-the-matter-of-anugrah-stock-and-bro-_105895.html",
-      "company": "Notices of Attachment of Demat Accounts and Mutual Fund Folios with AP No. 15888 of 2026 dated November 17, 2026 against Sadhana Paresh Kariya (PAN",
+      "id": "51a6626a9602",
+      "source": "sebi_drhp",
+      "source_name": "SEBI · Draft offer documents filed with SEBI",
+      "title": "Swaraj Green Power and Fuel Limited - UDRHP-1",
+      "published": "Nov 27, 2026",
+      "published_iso": "2026-11-27",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/swaraj-green-power-and-fuel-limited-udrhp-1_103847.html",
+      "company": "Swaraj Green Power and Fuel Limited",
       "documents": [],
-      "class": null,
-      "label": null,
-      "classified_by": null,
+      "class": "ipo_coming",
+      "label": "IPO coming (draft filed)",
+      "classified_by": "source",
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null
+      "error": null,
+      "event_documents": []
+    },
+    {
+      "id": "dded2af0a149",
+      "source": "sebi_drhp",
+      "source_name": "SEBI · Draft offer documents filed with SEBI",
+      "title": "Master Chains N Jewels Limited - Addendum to DRHP",
+      "published": "Nov 27, 2026",
+      "published_iso": "2026-11-27",
+      "link": "https://www.sebi.gov.in/filings/public-issues/nov-2026/master-chains-n-jewels-limited-addendum-to-drhp_103301.html",
+      "company": "Master Chains N Jewels Limited",
+      "documents": [],
+      "class": "ipo_coming",
+      "label": "IPO coming (draft filed)",
+      "classified_by": "source",
+      "event_type": null,
+      "supported": false,
+      "event_id": null,
+      "error": null,
+      "event_documents": []
     },
     {
       "id": "085432989aac",
@@ -2540,8 +2569,7 @@
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null,
-      "event_documents": []
+      "error": null
     },
     {
       "id": "b44aa1f04d05",
@@ -2559,8 +2587,7 @@
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null,
-      "event_documents": []
+      "error": null
     },
     {
       "id": "8b0fde23dcb4",
@@ -2578,8 +2605,7 @@
       "event_type": null,
       "supported": false,
       "event_id": null,
-      "error": null,
-      "event_documents": []
+      "error": null
     },
     {
       "id": "da588be1f1b6",
@@ -2904,65 +2930,9 @@
       "supported": false,
       "event_id": null,
       "error": null
-    },
-    {
-      "id": "18347cfb6ee5",
-      "source": "sebi_drhp",
-      "source_name": "SEBI · Draft offer documents filed with SEBI",
-      "title": "Matangi Rubber Limited - Addendum to the DRHP",
-      "published": "Oct 10, 2026",
-      "published_iso": "2026-10-10",
-      "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/matangi-rubber-limited-addendum-to-the-drhp_105143.html",
-      "company": "Matangi Rubber Limited",
-      "documents": [],
-      "class": "ipo_coming",
-      "label": "IPO coming (draft filed)",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
-    },
-    {
-      "id": "6abd5e3dff9a",
-      "source": "sebi_drhp",
-      "source_name": "SEBI · Draft offer documents filed with SEBI",
-      "title": "Grace Renewable Energy Limited- DRHP",
-      "published": "Oct 07, 2026",
-      "published_iso": "2026-10-07",
-      "link": "https://www.sebi.gov.in/filings/public-issues/oct-2026/grace-renewable-energy-limited-drhp_105099.html",
-      "company": "Grace Renewable Energy Limited",
-      "documents": [],
-      "class": "ipo_coming",
-      "label": "IPO coming (draft filed)",
-      "classified_by": "source",
-      "event_type": null,
-      "supported": false,
-      "event_id": null,
-      "error": null
     }
   ],
   "events": [
-    {
-      "event_id": "foodlink_fb_holding_india_limited_ipo_202611",
-      "event_type": "ipo",
-      "company": "Foodlink F&B Holdings India Limited",
-      "documents": [
-        {
-          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795156924590.pdf",
-          "doc_type": "rhp",
-          "note": "Foodlink F&B Holdings India Limited - RHP",
-          "from_class": "ipo_rhp"
-        }
-      ],
-      "processable": true,
-      "missing": "",
-      "file": "events/auto/foodlink_fb_holding_india_limited_ipo_202611.json",
-      "items": [
-        "89aeb9117462"
-      ],
-      "status": "unchanged"
-    },
     {
       "event_id": "matangi_rubber_limited_ipo_202611",
       "event_type": "ipo",
@@ -3062,9 +3032,9 @@
       "ipo_prospectus": 25,
       "ipo_coming": 25
     },
-    "events": 5,
+    "events": 4,
     "events_by_status": {
-      "unchanged": 5
+      "unchanged": 4
     },
     "sources_failed": []
   }
