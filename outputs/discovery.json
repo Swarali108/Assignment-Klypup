@@ -1,7 +1,7 @@
 {
-  "refreshed_at": "2026-11-27T20:12:13+00:00",
+  "refreshed_at": "2026-11-28T10:47:18+00:00",
   "since_days": 7.0,
-  "window_start": "2026-11-20",
+  "window_start": "2026-11-21",
   "sources": [
     {
       "id": "sebi_rhp",
@@ -11,7 +11,7 @@
       "reason": "Download failed for https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=11. [Errno -3] Temporary failure in name resolution",
       "items": 0,
       "status": "failed",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "sebi_prospectus",
@@ -21,7 +21,7 @@
       "reason": "Download failed for https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=12. [Errno -3] Temporary failure in name resolution",
       "items": 0,
       "status": "failed",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "sebi_buyback_tender",
@@ -31,7 +31,7 @@
       "reason": "Download failed for https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=22&smid=17. [Errno -3] Temporary failure in name resolution",
       "items": 0,
       "status": "failed",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "sebi_takeover_lof",
@@ -41,7 +41,7 @@
       "reason": "Download failed for https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=20&smid=15. [Errno -3] Temporary failure in name resolution",
       "items": 0,
       "status": "failed",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "sebi_rss",
@@ -51,7 +51,7 @@
       "reason": "Download failed for https://www.sebi.gov.in/sebirss.xml. [Errno -3] Temporary failure in name resolution",
       "items": 0,
       "status": "failed",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "nse_rss",
@@ -61,7 +61,7 @@
       "reason": "Off by NSE's Terms of Use: \"User is prohibited to conduct any systematic or automated data collection activities (including scraping, data mining, data extraction and data harvesting) on or in relation to our Website\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "bse_rss",
@@ -71,7 +71,7 @@
       "reason": "Off by BSE's disclaimer: \"Any reproduction, redistribution or transmission, for consideration or otherwise, of any such information contained in the Website is strictly prohibited\".",
       "items": 0,
       "status": "disabled",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     },
     {
       "id": "sebi_drhp",
@@ -81,7 +81,7 @@
       "reason": "Download failed for https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10. [Errno -3] Temporary failure in name resolution",
       "items": 0,
       "status": "failed",
-      "checked_at": "2026-11-27T20:12:13+00:00"
+      "checked_at": "2026-11-28T10:47:18+00:00"
     }
   ],
   "items": [],
